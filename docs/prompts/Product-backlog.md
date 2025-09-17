@@ -1,4 +1,3 @@
-
 # Product Backlog de Alto Nivel
 ## Sistema de Verificación EUR-ACE para la Escuela Politécnica Nacional
 
@@ -78,73 +77,49 @@ como quiero y para
 
 **SALIDA:**
 
-📌 Product Backlog de Alto Nivel (Épicas)
+**Product Backlog de Alto Nivel (Épicas):**
 
-1. Gestión de la organización académica
+1. **Gestión de la organización académica**
+   - **Como** autoridad de la EPN
+   - **Quiero** registrar y administrar Facultades, Carreras, Materias y Profesores
+   - **Para** mantener actualizada la estructura académica que servirá de base para la acreditación.
 
-Como autoridad de la EPN
+2. **Gestión del PEA (Programa de Estudios Académicos)**
+   - **Como** profesor
+   - **Quiero** ingresar y actualizar la información de las materias y sus PEAs (unidad académica, créditos, código, etc.)
+   - **Para** garantizar que cada asignatura cuente con información formalizada y disponible para el proceso de acreditación.
 
-Quiero registrar y administrar Facultades, Carreras, Materias y Profesores
+3. **Gestión de Resultados de Aprendizaje de Asignaturas (RAA)**
+   - **Como** profesor
+   - **Quiero** definir los resultados de aprendizaje de las asignaturas (conocimientos, destrezas, valores y actitudes)
+   - **Para** asegurar que cada materia contribuya al perfil de egreso de la carrera.
 
-Para mantener actualizada la estructura académica que servirá de base para la acreditación.
+4. **Gestión de Resultados de Aprendizaje de Carrera (RA) y Objetivos de Perfil Profesional (OPP)**
+   - **Como** coordinador de carrera
+   - **Quiero** registrar y gestionar los RA y OPP de la carrera
+   - **Para** alinear el perfil de egreso con los objetivos institucionales y profesionales.
 
-2. Gestión del PEA (Programa de Estudios Académicos)
+5. **Gestión de objetivos EUR-ACE**
+   - **Como** miembro del CEI
+   - **Quiero** registrar y consultar los objetivos EUR-ACE
+   - **Para** relacionarlos con los RA y evaluar el cumplimiento de los estándares de acreditación.
 
-Como profesor
+6. **Establecimiento de relaciones entre objetivos**
+   - **Como** coordinador de carrera
+   - **Quiero** relacionar los RAA con los RA, y los RA con los OPP y objetivos EUR-ACE
+   - **Para** garantizar la trazabilidad de los aprendizajes hasta los criterios de acreditación.
 
-Quiero ingresar y actualizar la información de las materias y sus PEAs (unidad académica, créditos, código, etc.)
+7. **Generación de reportes de cumplimiento**
+   - **Como** DGIP
+   - **Quiero** generar reportes sobre el cumplimiento de los objetivos EUR-ACE por carrera y facultad
+   - **Para** presentar evidencia clara y verificable en los procesos de acreditación.
 
-Para garantizar que cada asignatura cuente con información formalizada y disponible para el proceso de acreditación.
+8. **Control de acceso y gestión de roles**
+   - **Como** usuario de la EPN (profesor, coordinador, autoridad, DGIP, CEI)
+   - **Quiero** acceder al sistema según mi rol y permisos definidos
+   - **Para** garantizar la seguridad y la correcta gestión de la información académica.
 
-3. Gestión de Resultados de Aprendizaje de Asignaturas (RAA)
-
-Como profesor
-
-Quiero definir los resultados de aprendizaje de las asignaturas (conocimientos, destrezas, valores y actitudes)
-
-Para asegurar que cada materia contribuya al perfil de egreso de la carrera.
-
-4. Gestión de Resultados de Aprendizaje de Carrera (RA) y Objetivos de Perfil Profesional (OPP)
-
-Como coordinador de carrera
-
-Quiero registrar y gestionar los RA y OPP de la carrera
-
-Para alinear el perfil de egreso con los objetivos institucionales y profesionales.
-
-5. Gestión de objetivos EUR-ACE
-
-Como miembro del CEI
-
-Quiero registrar y consultar los objetivos EUR-ACE
-
-Para relacionarlos con los RA y evaluar el cumplimiento de los estándares de acreditación.
-
-6. Establecimiento de relaciones entre objetivos
-
-Como coordinador de carrera
-
-Quiero relacionar los RAA con los RA, y los RA con los OPP y objetivos EUR-ACE
-
-Para garantizar la trazabilidad de los aprendizajes hasta los criterios de acreditación.
-
-7. Generación de reportes de cumplimiento
-
-Como DGIP
-
-Quiero generar reportes sobre el cumplimiento de los objetivos EUR-ACE por carrera y facultad
-
-Para presentar evidencia clara y verificable en los procesos de acreditación.
-
-8. Control de acceso y gestión de roles
-
-Como usuario de la EPN (profesor, coordinador, autoridad, DGIP, CEI)
-
-Quiero acceder al sistema según mi rol y permisos definidos
-
-Para garantizar la seguridad y la correcta gestión de la información académica.
-
-👉 Estas 8 épicas cubren todas las funcionalidades principales del sistema y luego podrán desglosarse en historias de usuario más pequeñas dentro de cada sprint.
+> Estas 8 épicas cubren todas las funcionalidades principales del sistema y luego podrán desglosarse en historias de usuario más pequeñas dentro de cada sprint.
 
 ---
 
@@ -156,88 +131,58 @@ Vamos bien , Evitemos usar "y" en las historias de usario engloba con una palabr
 
 **SALIDA:**
 
-Perfecto 👍, lo ajustamos:
+**Perfecto 👍, lo ajustamos:**
 
-Evitamos el uso de “y” en las historias, englobando en una sola palabra.
+- Evitamos el uso de “y” en las historias, englobando en una sola palabra.
+- Incluimos de forma explícita lo relacionado con los OPP (Objetivos de Perfil Profesional).
 
-Incluimos de forma explícita lo relacionado con los OPP (Objetivos de Perfil Profesional).
+**Product Backlog de Alto Nivel (Épicas) revisado:**
 
-Aquí está el Product Backlog de alto nivel revisado con épicas (HU grandes):
+1. **Gestión de organización académica**
+   - **Como** autoridad de la EPN
+   - **Quiero** registrar facultades, carreras, materias y profesores
+   - **Para** mantener actualizada la estructura académica para la acreditación.
 
-📌 Product Backlog de Alto Nivel (Épicas)
+2. **Gestión de PEA**
+   - **Como** profesor
+   - **Quiero** ingresar información del PEA (unidad académica, créditos, código, etc.)
+   - **Para** disponer de datos estandarizados de cada asignatura.
 
-1. Gestión de organización académica
+3. **Gestión de RAA**
+   - **Como** profesor
+   - **Quiero** registrar resultados de aprendizaje de asignatura (conocimientos, destrezas, actitudes)
+   - **Para** evidenciar la contribución de cada materia al perfil de egreso.
 
-Como autoridad de la EPN
+4. **Gestión de RA**
+   - **Como** coordinador de carrera
+   - **Quiero** definir resultados de aprendizaje de carrera
+   - **Para** establecer el perfil de egreso de manera formalizada.
 
-Quiero registrar facultades, carreras, materias y profesores
+5. **Gestión de OPP**
+   - **Como** coordinador de carrera
+   - **Quiero** registrar objetivos de perfil profesional
+   - **Para** alinear el perfil de egreso con las competencias de la profesión de ingeniería.
 
-Para mantener actualizada la estructura académica para la acreditación.
+6. **Gestión de objetivos EUR-ACE**
+   - **Como** miembro del CEI
+   - **Quiero** registrar objetivos EUR-ACE
+   - **Para** evaluar la conformidad de la carrera con estándares internacionales.
 
-2. Gestión de PEA
+7. **Definición de relaciones**
+   - **Como** coordinador de carrera
+   - **Quiero** establecer relaciones entre RAA, RA, OPP y objetivos EUR-ACE
+   - **Para** garantizar trazabilidad académica hacia los criterios de acreditación.
 
-Como profesor
+8. **Generación de reportes**
+   - **Como** DGIP
+   - **Quiero** generar reportes de cumplimiento de criterios EUR-ACE
+   - **Para** disponer de evidencias verificables en la acreditación.
 
-Quiero ingresar información del PEA (unidad académica, créditos, código, etc.)
+9. **Control de acceso**
+   - **Como** usuario de la EPN (profesor, coordinador, autoridad, DGIP, CEI)
+   - **Quiero** acceder al sistema con permisos según rol
+   - **Para** asegurar uso correcto de la información académica.
 
-Para disponer de datos estandarizados de cada asignatura.
-
-3. Gestión de RAA
-
-Como profesor
-
-Quiero registrar resultados de aprendizaje de asignatura (conocimientos, destrezas, actitudes)
-
-Para evidenciar la contribución de cada materia al perfil de egreso.
-
-4. Gestión de RA
-
-Como coordinador de carrera
-
-Quiero definir resultados de aprendizaje de carrera
-
-Para establecer el perfil de egreso de manera formalizada.
-
-5. Gestión de OPP
-
-Como coordinador de carrera
-
-Quiero registrar objetivos de perfil profesional
-
-Para alinear el perfil de egreso con las competencias de la profesión de ingeniería.
-
-6. Gestión de objetivos EUR-ACE
-
-Como miembro del CEI
-
-Quiero registrar objetivos EUR-ACE
-
-Para evaluar la conformidad de la carrera con estándares internacionales.
-
-7. Definición de relaciones
-
-Como coordinador de carrera
-
-Quiero establecer relaciones entre RAA, RA, OPP y objetivos EUR-ACE
-
-Para garantizar trazabilidad académica hacia los criterios de acreditación.
-
-8. Generación de reportes
-
-Como DGIP
-
-Quiero generar reportes de cumplimiento de criterios EUR-ACE
-
-Para disponer de evidencias verificables en la acreditación.
-
-9. Control de acceso
-
-Como usuario de la EPN (profesor, coordinador, autoridad, DGIP, CEI)
-
-Quiero acceder al sistema con permisos según rol
-
-Para asegurar uso correcto de la información académica.
-
-Ahora sí tienes un backlog de 9 épicas claras, sin uso de “y” en las historias, y con OPP incorporados ✅.
+> Ahora sí tienes un backlog de 9 épicas claras, sin uso de “y” en las historias, y con OPP incorporados ✅.
 
 ---
