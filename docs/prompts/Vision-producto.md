@@ -148,6 +148,8 @@ A diferencia de procesos manuales dispersos y sistemas genéricos de gestión ac
 
 #### PROMPT 7.1 (Continuación de PROMPT 7)
 VAS BIEN. PERO SE DIRECTO NO LO ADORNES INCLUYE LA INFORMACION UNICAMENTE NECESARIA
+
+
 **SALIDA:**
 Visión del producto
 
@@ -156,6 +158,10 @@ Para la Escuela Politécnica Nacional, que necesita acreditar que sus programas 
 A diferencia de procesos manuales y sistemas genéricos, nuestro producto automatiza la trazabilidad de objetivos y estándares, reduciendo esfuerzo administrativo y errores.
 
 #### PROMPT 7.2 (Continuación de PROMPT 7)
+
+DEFINE UN SOLO BENEFICIO EN LA VISION DEL PRODUCTO 
+
+**SALIDA:**
 
 Visión del producto
 
