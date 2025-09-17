@@ -5,7 +5,9 @@
 
 ## Índice
 
+
 1. [PROMPT 1](#prompt-1)
+  - [PROMPT 1.1 (Continuación de PROMPT 1)](#prompt-11-continuacion-de-prompt-1)
 
 ---
 
@@ -79,5 +81,25 @@ Crea un roadmap que cumpla con el siguiente formato:
 | **Mapa de características**   | - Gestión de Facultades, Carreras y Materias.<br> - Registro de PEA (Programa de Estudios Académicos) con datos clave (unidad académica, código, créditos, etc.).<br> - Registro y gestión de Resultados de Aprendizaje de Asignatura (RAA).<br> - Registro y gestión de Resultados de Aprendizaje de Carrera (RA).<br> - Registro y gestión de Objetivos de Perfil Profesional (OPP).<br> - Registro y gestión de Objetivos EUR-ACE.<br> - Definición de relaciones: RAA → RA, RA → OPP, RA → EUR-ACE.<br> - Control de acceso y permisos según rol (Profesor, Coordinador, Autoridad, DGIP, CEI).<br> - Consulta de información transversal entre facultades por CEI.<br> - Generación de reportes de cumplimiento de criterios EUR-ACE. |
 | **Mapa de arquitectura**      | - Arquitectura web modular, basada en microservicios.<br> - Backend: API REST centralizada para gestión de datos académicos y acreditación.<br> - Frontend: interfaz web responsiva para cada rol, con dashboards y formularios dinámicos.<br> - Base de datos relacional para trazabilidad de relaciones RAA–RA–OPP–EUR-ACE.<br> - Módulo de autenticación y autorización basado en roles.<br> - Servicios de generación de reportes en PDF/Excel.<br> - Infraestructura en la nube con escalabilidad y respaldo de datos.                                                                                                                                                                                                                |
 | **Calendario de lanzamiento** | - Marzo 2025: Inicio de desarrollo.<br> - Septiembre 2025: Prueba piloto con 1 Facultad y 2 Carreras.<br> - Enero 2026: Ajustes finales e integración institucional.<br> - Junio 2026: Lanzamiento oficial del sistema en toda la EPN.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+
+---
+
+### PROMPT 1.1 (Continuación de PROMPT 1)
+
+```markdown
+Observa esta imagen y vuelve a darme el roadmap. Para el calendario de lanzamiento, al ser un solo release, terminaría en un mes a partir de hoy.
+
+![Product Roadmap](product-roadmap.png)
+```
+
+**SALIDA:**
+
+|                         | **Release único – Octubre 2025**                                                                                                                                                                                                 |
+| ----------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Market map**          | Acreditación de carreras de ingeniería bajo sello EUR-ACE en la EPN.                                                                                                                                                             |
+| **Feature/benefit map** | - Gestión de Facultades, Carreras y Materias.<br> - Registro de PEA, RAA, RA, OPP y EUR-ACE.<br> - Definición de relaciones RAA → RA → OPP → EUR-ACE.<br> - Reportes de cumplimiento EUR-ACE.<br> - Control de acceso por roles. |
+| **Architecture map**    | Plataforma web modular con API REST, frontend responsivo, base de datos relacional y autenticación por roles.                                                                                                                    |
+| **Market events**       | Lanzamiento institucional en la EPN.                                                                                                                                                                                             |
+| **Release schedule**    | 1.0                                                                                                                                                                                                                              |
 
 ---
