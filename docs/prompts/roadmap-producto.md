@@ -86,11 +86,12 @@ Crea un roadmap que cumpla con el siguiente formato:
 
 ### PROMPT 1.1 (Continuación de PROMPT 1)
 
-```markdown
+
 Observa esta imagen y vuelve a darme el roadmap. Para el calendario de lanzamiento, al ser un solo release, terminaría en un mes a partir de hoy.
 
-![Product Roadmap](../images/RoadmapExample.png)
-```
+![Roadmap](../images/RoadmapExample.png)
+
+
 
 **SALIDA:**
 
