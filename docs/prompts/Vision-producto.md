@@ -16,7 +16,7 @@
 
 ## PROMPT 1
 
-```markdown
+
 Actúa como un Product Owner experto con un profundo conocimiento de metodologías ágiles y gestión de productos. 
 Necesito que me ayudes a definir una visión para mi producto a desarrollar. Vas a trabajar actualmente en el desarrollo de un producto software para una Universidad Pública , específicamente para la Escuela Politécnica Nacional. Que esta buscando un producto software que le ayuda a verificar las carreras que se acreditan bajo el sello EURACE.
 
@@ -36,7 +36,7 @@ Crea una visión del producto en base a lo que se va a desarrollar, se directo c
 Formato:
  Para (cliente objetivo) que (necesidad u oportunidad), nuestro (nombre del producto/servicio) es una (categoría del producto) que (beneficio clave). A diferencia de (alternativa de la competencia), nuestro producto (declaración de diferenciación primaria). 
 SALIDA : 
-```
+
 
 *No se proporcionó respuesta para este prompt*
 
@@ -44,11 +44,10 @@ SALIDA :
 
 ## PROMPT 2
 
-```markdown
+
 Actúa como un Product Owner experto con un profundo conocimiento de metodologías ágiles y gestión de productos. 
 Necesito que me ayudes a definir una visión para mi producto a desarrollar. Vas a trabajar actualmente en el desarrollo de un producto software para una Universidad Pública , específicamente para la Escuela Politécnica Nacional.
 Que está buscando un producto software que le ayuda a verificar las carreras que se acreditan bajo el sello EURACE. esta universidad está dividida de la siguiente manera, existen Facultades y por cada facultad pueden existir diferentes carreras cada Facultad tiene profesores, Autoridades (Decano , Subdecano , jefe de Departamento) , Para llegar a ser coordinador, Autoridad primero tiene que ser un profesor, Para las carreras cada carrera tiene un solo coordinador y existe una entidad superior que sería la DGIP que es la encargada de gestionar los aspectos académicos de las facultades , Para la autoridad administra la facultad, el coordinador gestiona la carrera . La universidad (EPN) está buscando la acreditación de sus carreras bajo el Sello EURACE . EUR-ACE es una etiqueta de calidad y un sistema de acreditación para programas de estudios de ingeniería a nivel de grado y máster. La etiqueta, que es reconocida a nivel europeo e internacional, es un certificado que garantiza que el programa de estudios cumple con altos estándares de calidad y con las exigencias de la profesión de ingeniería. Para verificar que una carrera de la EPN se acredite es necesario que los RA cumplan con los criterios EUR-ACE con un nivel de aporte (Alto , Medio , Bajo ) . El producto software principalmente ayudara a la EPN verificar que carreras logran acreditarse mediante reportes de cumplimiento. Crea una vision del producto en base a lo que se va a desarrollar , se directo con el fin del producto a desarrollar , no incluyas el como guaitre en el siguiente formato Formato: Para (cliente objetivo) que (necesidad u oportunidad), nuestro (nombre del producto/servicio) es una (categoría del producto) que (beneficio clave). A diferencia de (alternativa de la competencia), nuestro producto (declaración de diferenciación primaria).
-```
 
 **SALIDA:**
 
@@ -59,13 +58,13 @@ A diferencia de los procesos manuales y dispersos de control documental, nuestro
 
 ## PROMPT 3
 
-```markdown
+
 Actúa como un Product Owner experto con un profundo conocimiento de metodologías ágiles y gestión de productos. 
 Necesito que me ayudes a definir una visión para mi producto a desarrollar. Vas a trabajar actualmente en el desarrollo de un producto software para una Universidad Pública , específicamente para la Escuela Politécnica Nacional.
 Que está buscando un producto software que le ayuda a verificar las carreras que se acreditan bajo el sello EURACE.  
 EUR-ACE es una etiqueta de calidad y un sistema de acreditación para programas de estudios de ingeniería a nivel de grado y máster. La etiqueta, que es reconocida a nivel europeo e internacional, es un certificado que garantiza que el programa de estudios cumple con altos estándares de calidad y con las exigencias de la profesión de ingeniería. Para verificar que una carrera de la EPN se acredite es necesario que los RA cumplan con los criterios EUR-ACE con un nivel de aporte (Alto , Medio , Bajo ) . 
 Crea una vision del producto en base a lo que se va a desarrollar , se directo con el fin del producto a desarrollar , no incluyas el como guaitre en el siguiente formato Formato: Para (cliente objetivo) que (necesidad u oportunidad), nuestro (nombre del producto/servicio) es una (categoría del producto) que (beneficio clave). A diferencia de (alternativa de la competencia), nuestro producto (declaración de diferenciación primaria).
-```
+
 
 **SALIDA:**
 
@@ -75,14 +74,14 @@ Para la Escuela Politécnica Nacional que necesita garantizar y verificar la acr
 
 ## PROMPT 4
 
-```markdown
+
 Actúa como un Product Owner experto con un profundo conocimiento de metodologías ágiles y gestión de productos. 
 Necesito que me ayudes a definir una visión para mi producto a desarrollar. Vas a trabajar actualmente en el desarrollo de un producto software para una Universidad Pública , específicamente para la Escuela Politécnica Nacional.
 Que está buscando un producto software que le ayuda a verificar las carreras que se acreditan bajo el sello EURACE.  
 EUR-ACE es una etiqueta de calidad y un sistema de acreditación para programas de estudios de ingeniería a nivel de grado y máster. La etiqueta, que es reconocida a nivel europeo e internacional, es un certificado que garantiza que el programa de estudios cumple con altos estándares de calidad y con las exigencias de la profesión de ingeniería.
 
 Crea una vision del producto en base a lo que se va a desarrollar , se directo con el fin del producto a desarrollar , no incluyas el como guaitre en el siguiente formato Formato: Para (cliente objetivo) que (necesidad u oportunidad), nuestro (nombre del producto/servicio) es una (categoría del producto) que (beneficio clave). A diferencia de (alternativa de la competencia), nuestro producto (declaración de diferenciación primaria).
-```
+
 
 **SALIDA:**
 
@@ -93,7 +92,7 @@ A diferencia de los procesos manuales, dispersos y poco trazables, nuestro produ
 
 ## PROMPT 5
 
-```markdown
+
 Actúa como un Product Owner experto con un profundo conocimiento de metodologías ágiles y gestión de productos. 
 Necesito que me ayudes a definir una visión para mi producto a desarrollar. Vas a trabajar actualmente en el desarrollo de un producto software para una Universidad Pública , específicamente para la Escuela Politécnica Nacional.
 
@@ -101,7 +100,7 @@ Que está buscando un producto software que le permite verificar las carreras qu
 EUR-ACE es una etiqueta de calidad y un sistema de acreditación para programas de estudios de ingeniería a nivel de grado y máster. La etiqueta, que es reconocida a nivel europeo e internacional, es un certificado que garantiza que el programa de estudios cumple con altos estándares de calidad y con las exigencias de la profesión de ingeniería.
 
 Crea una vision del producto en base a lo que se va a desarrollar , se directo con el fin del producto a desarrollar , no incluyas el como guaitre en el siguiente formato Formato: Para (cliente objetivo) que (necesidad u oportunidad), nuestro (nombre del producto/servicio) es una (categoría del producto) que (beneficio clave). A diferencia de (alternativa de la competencia), nuestro producto (declaración de diferenciación primaria).
-```
+
 
 **SALIDA:**
 
@@ -111,9 +110,9 @@ Para la Escuela Politécnica Nacional y sus unidades académicas que necesitan v
 
 ## PROMPT 6
 
-```markdown
+
 Actúa como un Product Owner experto con un profundo conocimiento de metodologías ágiles y gestión de productos. Necesito que me ayudes a definir una visión para mi producto a desarrollar. Vas a trabajar actualmente en el desarrollo de un producto software para una Universidad Pública , específicamente para la Escuela Politécnica Nacional. Que necesita verificar que carreras se acreditan bajo el cumplimento de los objetivos del sello EUR-ACE EUR-ACE es una etiqueta de calidad y un sistema de acreditación para programas de estudios de ingeniería a nivel de grado y máster. La etiqueta, que es reconocida a nivel europeo e internacional, es un certificado que garantiza que el programa de estudios cumple con altos estándares de calidad y con las exigencias de la profesión de ingeniería. Crea una vision del producto en base a lo que se va a desarrollar , se directo con el fin del producto a desarrollar , no incluyas el como guaitre en el siguiente formato Formato: Para (cliente objetivo) que (necesidad u oportunidad), nuestro (nombre del producto/servicio) es una (categoría del producto) que (beneficio clave). A diferencia de (alternativa de la competencia), nuestro producto (declaración de diferenciación primaria).
-```
+
 
 **SALIDA:**
 
