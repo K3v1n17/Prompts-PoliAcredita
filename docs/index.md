@@ -12,4 +12,4 @@ Este sitio contiene los prompts organizados para el proyecto PoliAcredita.
 - [Areas de valor](prompts/areas-valor.md)
 
 --Planificacion del release 
--[MRFS](release/MRFS.md)
+-[MRFS](Release/MRFS.md)
