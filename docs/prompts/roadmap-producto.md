@@ -89,7 +89,7 @@ Crea un roadmap que cumpla con el siguiente formato:
 ```markdown
 Observa esta imagen y vuelve a darme el roadmap. Para el calendario de lanzamiento, al ser un solo release, terminaría en un mes a partir de hoy.
 
-![Product Roadmap](product-roadmap.png)
+![Product Roadmap](../images/RoadmapExample.png)
 ```
 
 **SALIDA:**
