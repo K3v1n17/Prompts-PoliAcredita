@@ -9,3 +9,4 @@ Este sitio contiene los prompts organizados para el proyecto PoliAcredita.
 - [Vision del producto](prompts/Vision-producto.md)
 - [Roadmap del producto](prompts/roadmap-producto.md)
 - [Product Backlog](prompts/Product-backlog.md)
+- [Areas de valor](prompts/areas-valor.md)
