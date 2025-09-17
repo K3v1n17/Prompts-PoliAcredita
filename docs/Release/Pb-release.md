@@ -2,7 +2,7 @@
 
 ---
 
-## PROMPT
+## PROMPT 4
 
 Actúa como un Product Owner experto con un profundo conocimiento de metodologías ágiles y gestión de productos.
 
@@ -81,7 +81,7 @@ Total Might-have: 40 sp (acum: 350 sp)
 
 ---
 
-## PROMPT
+## PROMPT 3
 
 Actúa como un Product Owner experto con un profundo conocimiento de metodologías ágiles y gestión de productos.
 
@@ -161,7 +161,7 @@ Total Might-have: 50 sp (acum: 300 sp)
 
 ---
 
-## PROMPT
+## PROMPT 2
 
 Actúa como un Product Owner experto con un profundo conocimiento de metodologías ágiles y gestión de productos. Necesito definir un product backlog, teniendo en cuenta que el release será un release de fecha fija de un mes. Este product backlog necesito que contenga lo siguiente:
 - Muestra tres tablas (en este orden), asignando cada ítem al bucket que corresponda según el acumulado de puntos:
@@ -237,7 +237,7 @@ Total Won’t-have: 14 sp (acumulado 99 sp)
 
 ---
 
-## PROMPT
+## PROMPT 1
 
 Actúa como un Product Owner experto con un profundo conocimiento de metodologías ágiles y gestión de productos.
 

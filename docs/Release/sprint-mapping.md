@@ -2,7 +2,7 @@
 
 ---
 
-## PROMPT
+## PROMPT 3
 
 Actúa como un Product Owner experto con un profundo conocimiento de metodologías ágiles y gestión de productos.
 
@@ -91,7 +91,7 @@ Valor comercial: La EPN obtiene reportes verificables listos para presentar a ev
 
 ---
 
-## PROMPT
+## PROMPT 2
 
 Actúa como un Product Owner experto con un profundo conocimiento de metodologías ágiles y gestión de productos.
 
@@ -179,7 +179,7 @@ Valor comercial: La EPN puede presentar evidencias verificables a evaluadores ex
 
 ---
 
-## PROMPT
+## PROMPT 1
 
 Ahora necesito definir un release mapping en este iría el objetivo de cada sprint. El release mapping debe ser de una semana, ten en cuenta que para el desarrollo nos vamos a apoyar de la IA, bien máximo debe haber 5 sprints.
 

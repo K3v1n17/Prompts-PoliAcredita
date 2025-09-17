@@ -12,5 +12,9 @@ Este sitio contiene los prompts organizados para el proyecto PoliAcredita.
 - [Areas de valor](prompts/areas-valor.md)
 
 --Planificacion del release 
--[MRFS](Release/MRFS.md)
--[Sprint-Mapping](Release/sprint-mapping.md)
+- [Plan de fecha fija](Release/FEchafija.md)
+- [MRFS](Release/MRFS.md)
+- [Product backlog](Release/Pb-release.md)
+- [Sprint-Mapping](Release/sprint-mapping.md)
+
+
