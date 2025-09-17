@@ -1,3 +1,4 @@
+.
 # PROMPT
 
 Actúa como un Product Owner experto con un profundo conocimiento de metodologías ágiles y gestión de productos.
@@ -381,3 +382,74 @@ Para disponer de evidencias verificables en la acreditación.
 Como usuario de la EPN
 Quiero autenticarme con mi rol específico
 Para acceder únicamente a las funcionalidades permitidas.
+
+
+# PROMPT FINAL
+
+Actúa como un Product Owner experto con un profundo conocimiento de metodologías ágiles y gestión de productos.
+
+*Visión del producto*: Para la Escuela Politécnica Nacional, que necesita acreditar que sus programas de ingeniería cumplen con los objetivos del sello EUR-ACE, nuestro Sistema de Gestión de Acreditación EUR-ACE es una plataforma de gestión académica que verifica el cumplimiento de los criterios EUR-ACE.
+
+Necesito que me ayudes a definir un conjunto de MRFs para mi producto de software a desarrollar. Un MRF es una funcionalidad suficientemente completa y útil como para ser entregada al usuario final de forma independiente. No es solo una parte del producto, sino algo que:
+
+✅ Aporta valor real al cliente
+✅ Está lista para ser desplegada o publicada
+✅ Cumple con los criterios de calidad y definición de terminado (Definition of Done)
+
+Crea las MRFs únicamente necesarias que me aportan a cumplir con mi visión de producto. Dame en formato de HUs independientes, cada una debe tener un título.
+
+---
+
+# RESPUESTA FINAL
+
+📌 **MRFs del Sistema de Gestión de Acreditación EUR-ACE**
+
+**1. Gestión de organización académica**
+
+Como autoridad de la EPN
+Quiero registrar y administrar facultades, carreras, materias y profesores
+Para estructurar la base organizativa que sustenta la acreditación EUR-ACE.
+
+**2. Gestión de PEAs y resultados de aprendizaje de asignaturas (RAA)**
+
+Como profesor
+Quiero ingresar y actualizar los PEAs y los resultados de aprendizaje de las asignaturas (RAA)
+Para evidenciar la contribución de cada materia al perfil de egreso de la carrera.
+
+**3. Gestión de resultados de aprendizaje de carrera (RA)**
+
+Como coordinador de carrera
+Quiero definir y mantener los resultados de aprendizaje de la carrera
+Para establecer de manera formalizada el perfil de egreso de los estudiantes.
+
+**4. Gestión de objetivos de perfil profesional (OPP)**
+
+Como coordinador de carrera
+Quiero registrar los objetivos de perfil profesional
+Para alinear el perfil de egreso con las competencias de la profesión de ingeniería.
+
+**5. Gestión de objetivos EUR-ACE**
+
+Como miembro del CEI
+Quiero registrar y consultar los objetivos EUR-ACE
+Para vincularlos con los resultados de aprendizaje de las carreras y evaluar el cumplimiento de estándares internacionales.
+
+**6. Definición de relaciones académicas**
+
+Como coordinador de carrera
+Quiero establecer relaciones entre RAA, RA, OPP y objetivos EUR-ACE
+Para garantizar trazabilidad académica desde la asignatura hasta los criterios de acreditación.
+
+**7. Generación de reportes de cumplimiento EUR-ACE**
+
+Como DGIP
+Quiero generar reportes automáticos del grado de cumplimiento de los criterios EUR-ACE por facultad y carrera
+Para presentar evidencias verificables a los evaluadores externos.
+
+**8. Gestión de roles y accesos**
+
+Como usuario de la EPN (profesor, coordinador, autoridad, DGIP, CEI)
+Quiero acceder al sistema con permisos según mi rol
+Para asegurar un uso controlado y seguro de la información de acreditación.
+
+✅ Con estos 8 MRFs se cubre todo lo necesario para cumplir la visión del producto: desde estructurar la información académica hasta generar reportes verificables que demuestren el cumplimiento de los criterios EUR-ACE
