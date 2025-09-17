@@ -13,3 +13,4 @@ Este sitio contiene los prompts organizados para el proyecto PoliAcredita.
 
 --Planificacion del release 
 -[MRFS](Release/MRFS.md)
+-[Sprint-Mapping](Release/sprint-mapping.md)
