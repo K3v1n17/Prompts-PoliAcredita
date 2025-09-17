@@ -14,8 +14,10 @@ Necesito definir un product backlog, teniendo en cuenta que el release será un 
 - Columnas de cada tabla:
 	| ID | Est (sp) | Must | Prioridad | Título | Acum (sp) |
 - Items sin estimación: lista aparte con ID | Título | Motivo (sin estimación).
-- Supuestos, riesgos y acciones
+- Supuestos, riesgos y acciones 
+
 te doy mi velocidad es en base a un histórico con la que ya contamos y es el siguiente: Velocidad del Equipo: Velocidad Baja: 54 Story Points (sp) Velocidad Alta: 75 Story Points (sp) por sprint Crea mi product backlog recuerda que para el desarrollo vamos apoyarnos de la IA
+
 ---
 
 ## RESPUESTA
