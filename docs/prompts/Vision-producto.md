@@ -5,12 +5,16 @@
 
 ## Índice
 
+
 1. [PROMPT 1](#prompt-1)
 2. [PROMPT 2](#prompt-2)
 3. [PROMPT 3](#prompt-3)
 4. [PROMPT 4](#prompt-4)
 5. [PROMPT 5](#prompt-5)
 6. [PROMPT 6](#prompt-6)
+7. [PROMPT 7](#prompt-7)
+	- [PROMPT 7.1 (Continuación de PROMPT 7)](#prompt-71-continuacion-de-prompt-7)
+	- [PROMPT 7.2 (Continuación de PROMPT 7)](#prompt-72-continuacion-de-prompt-7)
 
 ---
 
@@ -120,3 +124,41 @@ Para la Escuela Politécnica Nacional que necesita verificar qué carreras cumpl
 A diferencia de los procesos manuales y dispersos de recopilación de información, nuestro producto centraliza, automatiza y estandariza la verificación, ofreciendo trazabilidad, confiabilidad y soporte a la toma de decisiones estratégicas para la institución.
 
 ---
+
+
+
+
+### PROMPT 7
+Actúa como un Product Owner experto con un profundo conocimiento de metodologías ágiles y gestión de productos.
+Necesito que me ayudes a definir una visión para mi producto a desarrollar.
+para la Escuela Politécnica Nacional. Que necesita acreditar que sus carreras se acreditan bajo el cumplimento de los objetivos del sello EUR-ACE.
+EUR-ACE es una etiqueta de calidad y un sistema de acreditación para programas de estudios de ingeniería a nivel de grado y máster. La etiqueta, que es reconocida a nivel europeo e internacional, es un certificado que garantiza que el programa de estudios cumple con altos estándares de calidad y con las exigencias de la profesión de ingeniería.
+
+Crea una vision del producto con el siguiente formato Formato: Para (cliente objetivo) que (necesidad u oportunidad), nuestro (nombre del producto/servicio) es una (categoría del producto) que (beneficio clave). A diferencia de (alternativa de la competencia), nuestro producto (declaración de diferenciación primaria).
+
+**SALIDA:**
+
+Visión del producto
+
+Para la Escuela Politécnica Nacional y sus unidades académicas, que necesitan demostrar de manera sistemática y confiable que sus programas de ingeniería cumplen con los estándares de calidad exigidos por el sello EUR-ACE, nuestro Sistema de Gestión de Acreditación EUR-ACE es una plataforma integral de seguimiento y aseguramiento de calidad académica que facilita la recopilación de evidencias, el monitoreo de indicadores, y la generación de reportes alineados con los criterios internacionales de acreditación.
+
+A diferencia de procesos manuales dispersos y sistemas genéricos de gestión académica, nuestro producto automatiza la trazabilidad de los objetivos de formación con los estándares EUR-ACE, reduce la carga administrativa y proporciona transparencia y confiabilidad en el cumplimiento de los criterios de acreditación.
+
+> Nota: Las siguientes respuestas son continuaciones y refinamientos del mismo intercambio iniciado en PROMPT 7.
+
+#### PROMPT 7.1 (Continuación de PROMPT 7)
+VAS BIEN. PERO SE DIRECTO NO LO ADORNES INCLUYE LA INFORMACION UNICAMENTE NECESARIA
+**SALIDA:**
+Visión del producto
+
+Para la Escuela Politécnica Nacional, que necesita acreditar que sus programas de ingeniería cumplen con los objetivos del sello EUR-ACE, nuestro Sistema de Gestión de Acreditación EUR-ACE es una plataforma de gestión académica que organiza evidencias, monitorea indicadores y genera reportes alineados a los criterios EUR-ACE.
+
+A diferencia de procesos manuales y sistemas genéricos, nuestro producto automatiza la trazabilidad de objetivos y estándares, reduciendo esfuerzo administrativo y errores.
+
+#### PROMPT 7.2 (Continuación de PROMPT 7)
+
+Visión del producto
+
+Para la Escuela Politécnica Nacional, que necesita acreditar que sus programas de ingeniería cumplen con los objetivos del sello EUR-ACE, nuestro Sistema de Gestión de Acreditación EUR-ACE es una plataforma de gestión académica que garantiza el cumplimiento de los criterios EUR-ACE.
+
+A diferencia de procesos manuales y sistemas genéricos, nuestro producto automatiza la trazabilidad de los estándares de acreditación.
