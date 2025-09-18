@@ -4,10 +4,13 @@
 
 ## PROMPT 3
 
+### ROL 
 Actúa como un Product Owner experto con un profundo conocimiento de metodologías ágiles y gestión de productos.
 
+### Objetivo 
 Ahora necesito definir un sprint mapping en este iría el objetivo de cada sprint. El sprint mapping debe ser de una semana, ten en cuenta que para el desarrollo nos vamos a apoyar de la IA, bien máximo debe haber 5 sprints.
 
+### Contexto
 Recordemos como funciona el proyecto:
 
 La Escuela Politécnica Nacional busca un producto software que le ayude a verificar las carreras que se acreditan bajo el sello EUR-ACE. La universidad está dividida en Facultades, cada una con carreras, profesores y autoridades. Para ser coordinador o autoridad primero se debe ser profesor. Cada carrera tiene un solo coordinador y existe la DGIP como entidad superior académica. La autoridad administra la facultad, el coordinador gestiona la carrera. El sello EUR-ACE es un certificado internacional que garantiza altos estándares de calidad en programas de ingeniería.
@@ -16,8 +19,11 @@ Cada carrera cuenta con resultados de aprendizaje (RA) generales y específicos.
 
 Para acreditar una carrera es necesario que los RA cumplan con los criterios EUR-ACE con un nivel de aporte. El software ayudará a la EPN a verificar qué carreras logran acreditarse mediante reportes de cumplimiento.
 
+### Accion 
 Crea un release mapping identificando dependencias y valor comercial en cada sprint y sigue este formato:
 
+
+### formato de salida 
 5. Sprint Mapping Sprint 1: (1 de mayo – 15 de mayo) Objetivo: PBI: Sprint 2 de esta manera se tiene un poco más claro la trayectoria
 
 ---
@@ -93,14 +99,20 @@ Valor comercial: La EPN obtiene reportes verificables listos para presentar a ev
 
 ## PROMPT 2
 
+### Rol 
 Actúa como un Product Owner experto con un profundo conocimiento de metodologías ágiles y gestión de productos.
 
+### Objetivo 
 Ahora necesito definir un sprint mapping en este iría el objetivo de cada sprint. El sprint mapping debe ser de una semana, ten en cuenta que para el desarrollo nos vamos a apoyar de la IA, bien máximo debe haber 5 sprints.
 
+### Contexto
 Recuerda cómo funciona el proyecto.
 
+
+### Accio 
 Crea un release mapping identificando dependencias y valor comercial en cada sprint y sigue este formato:
 
+### Formato de salida 
 5. Sprint Mapping
 Sprint 1: (1 de mayo – 15 de mayo)
 Objetivo:
@@ -181,12 +193,17 @@ Valor comercial: La EPN puede presentar evidencias verificables a evaluadores ex
 
 ## PROMPT 1
 
+### Objetivo
 Ahora necesito definir un release mapping en este iría el objetivo de cada sprint. El release mapping debe ser de una semana, ten en cuenta que para el desarrollo nos vamos a apoyar de la IA, bien máximo debe haber 5 sprints.
 
+### Accion 
 Crea un release mapping identificando dependencias y valor comercial en cada sprint.
 
-Además, necesito que los objetivos de cada sprint sean un poco más comerciales y que tenga el siguiente formato:
+### Contexto 
+Además, necesito que los objetivos de cada sprint sean comerciales y que tenga el siguiente formato:
 
+
+### Formato de salida
 5. Sprint Mapping
 Sprint 1: (1 de mayo – 15 de mayo)
 

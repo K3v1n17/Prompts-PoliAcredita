@@ -14,8 +14,12 @@
 ## PROMPT 1
 
 ```markdown
+
+### objetivo 
 bien , ahora necesito definir mi product backlog de alto nivel , este debe incluir historias de usario epicas. 
 
+
+### contexto 
 una historia de usuario de gran tamaño que no puede ser completada en un solo sprint o iteración.
 La palabra "épica" se usa para denotar una historia que es demasiado grande y, por lo tanto, debe ser desglosada en varias historias de usuario más pequeñas, manejables y específicas.
 
@@ -71,7 +75,11 @@ Producto a desarrollar:
 	- Controlar el acceso según roles (Profesor, Coordinador, Autoridad, CEI, DGIP).  
 	- Gestion de organización de las facultades , carreras 
 
+### Accion 
 crea el product backlog de alto nivel con las hus en este formato : 
+
+
+### Formato de salida 
 como quiero y para 
 ```
 

@@ -14,7 +14,15 @@
 ## PROMPT 1
 
 ```markdown
-Bien, ahora necesito definir mi roadmap. Actúa como experto PO con un profundo conocimiento de metodologías ágiles y gestión de productos. Deseo definir mi product roadmap, necesito que sea únicamente un reléase en el que se incluyan todas las funcionalidades.
+Bien, ahora necesito definir mi roadmap. 
+
+### ROL 
+Actúa como experto PO con un profundo conocimiento de metodologías ágiles y gestión de productos. Deseo definir mi product roadmap, 
+
+### Objetivo 
+necesito que sea únicamente un reléase en el que se incluyan todas las funcionalidades.
+
+### Contexto 
 La Escuela Politécnica Nacional (EPN) busca acreditar sus carreras bajo el sello EUR-ACE.  
 La entidad EUR-ACE evaluará que las carreras de la EPN cumplan con determinados objetivos (objetivos EUR-ACE).  
 
@@ -61,8 +69,13 @@ Producto a desarrollar:
   - Controlar el acceso según roles (Profesor, Coordinador, Autoridad, CEI, DGIP).  
   - Gestión de organización de las facultades, carreras.  
 
+
+### Accion 
 Crea un roadmap que cumpla con el siguiente formato:
 
+
+
+### Formato de salida 
 |                              | **Release único - [Fecha]** |
 |------------------------------|------------------------------|
 | **Mapa del mercado**         |                              |
@@ -86,9 +99,10 @@ Crea un roadmap que cumpla con el siguiente formato:
 
 ### PROMPT 1.1 (Continuación de PROMPT 1)
 
-
+### contexto y accion 
 Observa esta imagen y vuelve a darme el roadmap. Para el calendario de lanzamiento, al ser un solo release, terminaría en un mes a partir de hoy.
 
+### Formato de salida 
 ![Roadmap](../images/RoadmapExample.png)
 
 

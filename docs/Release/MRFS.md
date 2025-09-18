@@ -1,10 +1,11 @@
 .
 # PROMPT
-
+### ROL 
 Actúa como un Product Owner experto con un profundo conocimiento de metodologías ágiles y gestión de productos.
 
 Te proporciono a continuación la planificación de mi producto.
 
+### Contexto 
 Planificación del producto:
 
 **Visión del producto**
@@ -50,6 +51,8 @@ Como usuario de la EPN (profesor, coordinador, autoridad, DGIP, CEI)
 Quiero acceder al sistema con permisos según rol
 Para asegurar uso correcto de la información académica.
 
+### Accion 
+crear el conjunto de mrfs 
 ---
 
 # RESPUESTA
@@ -162,9 +165,10 @@ HU9: Como DGIP, quiero generar reportes de cumplimiento de criterios EUR-ACE, pa
 ---
 
 ## Prompt
-
+### Rol
 Actúa como experto de análisis de épicas para identificar los MRFs principales.
 
+### Contexto 
 Te proporciono a continuación la planificación de mi producto.
 
 Actúa como un experto analista en descubrir funcionalidades principales para cumplir con el objetivo de mi producto. Nada más. Evita usar "y" en las HUs ya que esto une dos funcionalidades.
@@ -215,6 +219,8 @@ A diferencia de procesos manuales y sistemas genéricos, nuestro producto automa
 		- Quiero acceder al sistema con permisos según rol
 		- Para asegurar uso correcto de la información académica.
 
+### Accion 
+Generame el conjunto de mrfs
 ---
 
 ## Respuesta
@@ -297,92 +303,6 @@ Para disponer de evidencias verificables en la acreditación.
 Como usuario de la EPN
 Quiero autenticarme con mi rol específico
 Para acceder únicamente a las funcionalidades permitidas.
-
-# Prompt: Identificación de MRFs principales
-
-Actúa como experto de análisis de épicas para identificar los MRFs principales.
-
-Planificación del producto:
-**Visión del producto**
-Para la Escuela Politécnica Nacional, que necesita acreditar que sus programas de ingeniería cumplen con los objetivos del sello EUR-ACE, nuestro Sistema de Gestión de Acreditación EUR-ACE es una plataforma de gestión académica que verifica el cumplimiento de los criterios EUR-ACE.
-A diferencia de procesos manuales y sistemas genéricos, nuestro producto automatiza la trazabilidad de los estándares de acreditación.
-
-**MRFs indispensables (en formato de HU)**
-
-## Gestión de organización académica
-
-Como autoridad de la EPN
-Quiero registrar facultades
-Para mantener la estructura académica actualizada.
-
-Como autoridad de la EPN
-Quiero registrar carreras
-Para reflejar correctamente la oferta académica.
-
-Como autoridad de la EPN
-Quiero registrar materias
-Para disponer de la malla curricular organizada.
-
-Como autoridad de la EPN
-Quiero registrar profesores
-Para asociarlos a las asignaturas en los procesos de acreditación.
-
-## Gestión de PEA (Plan de Estudios de Asignatura)
-
-Como profesor
-Quiero registrar la información del PEA con sus atributos académicos
-Para disponer de datos estandarizados por asignatura.
-
-## Gestión de RAA (Resultados de Aprendizaje de Asignatura)
-
-Como profesor
-Quiero registrar resultados de aprendizaje de cada asignatura
-Para evidenciar su contribución al perfil de egreso.
-
-## Gestión de RA (Resultados de Aprendizaje de Carrera)
-
-Como coordinador de carrera
-Quiero definir resultados de aprendizaje de carrera
-Para establecer el perfil de egreso de manera formalizada.
-
-## Gestión de OPP (Objetivos del Perfil Profesional)
-
-Como coordinador de carrera
-Quiero registrar objetivos de perfil profesional
-Para alinear el perfil de egreso con las competencias de ingeniería.
-
-## Gestión de objetivos EUR-ACE
-
-Como miembro del CEI
-Quiero registrar objetivos EUR-ACE
-Para evaluar la conformidad de la carrera con estándares internacionales.
-
-## Definición de relaciones académicas
-
-Como coordinador de carrera
-Quiero relacionar RAA con RA
-Para garantizar trazabilidad en el diseño académico.
-
-Como coordinador de carrera
-Quiero relacionar RA con OPP
-Para evidenciar consistencia con la formación profesional.
-
-Como coordinador de carrera
-Quiero relacionar OPP con objetivos EUR-ACE
-Para demostrar cumplimiento de criterios internacionales.
-
-## Generación de reportes
-
-Como DGIP
-Quiero generar reportes de cumplimiento de criterios EUR-ACE
-Para disponer de evidencias verificables en la acreditación.
-
-## Control de acceso
-
-Como usuario de la EPN
-Quiero autenticarme con mi rol específico
-Para acceder únicamente a las funcionalidades permitidas.
-
 
 # PROMPT FINAL
 ### Rol

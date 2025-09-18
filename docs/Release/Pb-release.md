@@ -3,10 +3,14 @@
 ---
 
 ## PROMPT 4
-
+### Rol 
 Actúa como un Product Owner experto con un profundo conocimiento de metodologías ágiles y gestión de productos.
 
-Necesito definir un product backlog, teniendo en cuenta que el release será un release de fecha fija de un mes - 5 semanas. Este product backlog necesito que contenga lo siguiente:
+### objetivo 
+Necesito definir un product backlog, teniendo en cuenta que el release será un release de fecha fija de un mes - 5 semanas. 
+
+### Formato de salida 
+Este product backlog necesito que contenga lo siguiente:
 - Muestra tres tablas (en este orden), asignando cada ítem al bucket que corresponda según el acumulado de puntos:
 	- Will have (≤ Will-have line)
 	- Might have (> Will y ≤ Might-have line)
@@ -16,7 +20,11 @@ Necesito definir un product backlog, teniendo en cuenta que el release será un 
 - Items sin estimación: lista aparte con ID | Título | Motivo (sin estimación).
 - Supuestos, riesgos y acciones 
 
-te doy mi velocidad es en base a un histórico con la que ya contamos y es el siguiente: Velocidad del Equipo: Velocidad Baja: 54 Story Points (sp) Velocidad Alta: 75 Story Points (sp) por sprint Crea mi product backlog recuerda que para el desarrollo vamos apoyarnos de la IA
+### Contexto 
+te doy mi velocidad es en base a un histórico con la que ya contamos y es el siguiente: Velocidad del Equipo: Velocidad Baja: 54 Story Points (sp) Velocidad Alta: 75 Story Points (sp) por sprint 
+
+### Accion 
+Crea mi product backlog recuerda que para el desarrollo vamos apoyarnos de la IA
 
 ---
 
@@ -84,9 +92,14 @@ Total Might-have: 40 sp (acum: 350 sp)
 
 ## PROMPT 3
 
+### Rol 
 Actúa como un Product Owner experto con un profundo conocimiento de metodologías ágiles y gestión de productos.
 
-Necesito definir un product backlog, teniendo en cuenta que el release será un release de fecha fija de un mes. Este product backlog necesito que contenga lo siguiente:
+### Objetivo
+Necesito definir un product backlog, teniendo en cuenta que el release será un release de fecha fija de un mes. 
+
+### Formato de salida
+Este product backlog necesito que contenga lo siguiente:
 - Muestra tres tablas (en este orden), asignando cada ítem al bucket que corresponda según el acumulado de puntos:
 	- Will have (≤ Will-have line)
 	- Might have (> Will y ≤ Might-have line)
@@ -96,6 +109,9 @@ Necesito definir un product backlog, teniendo en cuenta que el release será un 
 - Items sin estimación: lista aparte con ID | Título | Motivo (sin estimación).
 - Supuestos, riesgos y acciones
 Velocidad del Equipo: Velocidad Baja: 54 Story Points (sp) Velocidad Alta: 75 Story Points (sp) por sprint
+
+### Accion
+Crea el Product Backlog
 
 ---
 
@@ -164,7 +180,14 @@ Total Might-have: 50 sp (acum: 300 sp)
 
 ## PROMPT 2
 
-Actúa como un Product Owner experto con un profundo conocimiento de metodologías ágiles y gestión de productos. Necesito definir un product backlog, teniendo en cuenta que el release será un release de fecha fija de un mes. Este product backlog necesito que contenga lo siguiente:
+### ROL
+Actúa como un Product Owner experto con un profundo conocimiento de metodologías ágiles y gestión de productos.
+
+### Objetivo
+ Necesito definir un product backlog, 
+ 
+### Formato de salida
+ teniendo en cuenta que el release será un release de fecha fija de un mes. Este product backlog necesito que contenga lo siguiente:
 - Muestra tres tablas (en este orden), asignando cada ítem al bucket que corresponda según el acumulado de puntos:
 	- Will have (≤ Will-have line)
 	- Might have (> Will y ≤ Might-have line)
@@ -173,6 +196,8 @@ Actúa como un Product Owner experto con un profundo conocimiento de metodologí
 	| ID | Est (sp) | Must | Prioridad | Título | Acum (sp) |
 - Items sin estimación: lista aparte con ID | Título | Motivo (sin estimación).
 - Supuestos, riesgos y acciones
+
+### Contexto 
 Velocidad del Equipo: Velocidad Baja: 54 Story Points (sp) Velocidad Alta: 75 Story Points (sp)
 
 ---
@@ -240,9 +265,18 @@ Total Won’t-have: 14 sp (acumulado 99 sp)
 
 ## PROMPT 1
 
+
+### Rol 
 Actúa como un Product Owner experto con un profundo conocimiento de metodologías ágiles y gestión de productos.
 
-Necesito definir un product backlog, teniendo en cuenta que el release será un release de fecha fija de un mes.
+### Objetivo
+Necesito definir un product backlog, 
+
+### Contexzro
+teniendo en cuenta que el release será un release de fecha fija de un mes.
+
+
+### Formato de salida
 Este product backlog necesito que contenga lo siguiente:
 - Muestra tres tablas (en este orden), asignando cada ítem al bucket que corresponda según el acumulado de puntos:
 	- Will have (≤ Will-have line)

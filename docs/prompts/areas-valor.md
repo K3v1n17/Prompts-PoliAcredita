@@ -13,8 +13,11 @@
 ## PROMPT 1
 
 ```markdown
+
+### objetivo 
 bien ahora necesito definir mis areas de valor , identificar las áreas de valor de mi producto para los stakeholders.
 
+### Contexto 
 Contexto del proyecto:
 La Escuela Politécnica Nacional (EPN) busca acreditar sus carreras bajo el sello EUR-ACE.  
 La entidad EUR-ACE evaluará que las carreras de la EPN cumplan con determinados objetivos (objetivos EUR-ACE).  
@@ -62,12 +65,17 @@ Producto a desarrollar:
   - Controlar el acceso según roles (Profesor, Coordinador, Autoridad, CEI, DGIP).  
   - Gestion de organización de las facultades , carreras  
 
+### Formaton de salida 
 Usa el siguiente esquema como referencia y clasifica mi producto dentro de estas categorías, describiendo cómo aporta valor en cada una (si aplica):
 Entry conditions: Paridad con la competencia, funciones mínimas requeridas, cumplimiento regulatorio.
 Enablement: Apertura de nuevos mercados, habilitación de ventas de otros productos o servicios.
 Differentiator: Diferenciación frente a competidores, encantar al cliente.
 Spoiler: Eliminar diferenciadores de la competencia, subir el estándar de paridad, redefinir el mercado.
 Cost reducer: Reducir tiempo de salida al mercado, optimizar recursos humanos, mejorar márgenes, incrementar expertise.
+
+### Accion 
+Dame las areas de valor 
+
 ```
 
 **SALIDA:**
