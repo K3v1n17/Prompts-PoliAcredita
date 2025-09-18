@@ -385,13 +385,13 @@ Para acceder únicamente a las funcionalidades permitidas.
 
 
 # PROMPT FINAL
-## Rol
+### Rol
 Actúa como un Product Owner experto con un profundo conocimiento de metodologías ágiles y gestión de productos.
 
-# contexto 
+### contexto 
 *Visión del producto*: Para la Escuela Politécnica Nacional, que necesita acreditar que sus programas de ingeniería cumplen con los objetivos del sello EUR-ACE, nuestro Sistema de Gestión de Acreditación EUR-ACE es una plataforma de gestión académica que verifica el cumplimiento de los criterios EUR-ACE.
 
-# Obejtivo 
+### Obejtivo 
 Necesito que me ayudes a definir un conjunto de MRFs para mi producto de software a desarrollar. Un MRF es una funcionalidad suficientemente completa y útil como para ser entregada al usuario final de forma independiente. No es solo una parte del producto, sino algo que:
 
 ✅ Aporta valor real al cliente
@@ -399,7 +399,7 @@ Necesito que me ayudes a definir un conjunto de MRFs para mi producto de softwar
 ✅ Cumple con los criterios de calidad y definición de terminado (Definition of Done)
 
 
-# Accion
+### Accion
 Crea las MRFs únicamente necesarias que me aportan a cumplir con mi visión de producto. Dame en formato de HUs independientes, cada una debe tener un título.
 
 ---
