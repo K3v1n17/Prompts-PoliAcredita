@@ -12,6 +12,7 @@
 	- [PROMPT 7.1 (Continuación de PROMPT 7)](#prompt-71-continuacion-de-prompt-7)
 	- [PROMPT 7.2 (Continuación de PROMPT 7)](#prompt-72-continuacion-de-prompt-7)
 8. [PROMPT 8](#prompt-8)
+11. [PROMPT 11](#prompt-11)
 ---
 
 ## PROMPT 1
@@ -414,6 +415,8 @@ se directo no adornes la visión, céntrate exclusivamente en el fin de la visio
 Perfecto, aquí tienes la visión directa y sin adornos:
 
 Para las autoridades académicas, coordinadores de carrera y docentes de la Escuela Politécnica Nacional que necesitan demostrar el cumplimiento de los objetivos EUR-ACE, nuestro sistema EPN-Accredita es una plataforma de gestión académica que centraliza y relaciona RAA, RA, OPP y objetivos EUR-ACE. A diferencia de procesos manuales y dispersos, nuestro producto garantiza trazabilidad y evidencia clara para la acreditación.
+
+## PROMPT 11
 
 ## Run 2025-09-21T21:42:51.749Z
 
