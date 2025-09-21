@@ -388,7 +388,7 @@ Crea una visión del producto para establecer el alcance del mismo teniendo en c
 ### Formato de salida
 Formato: Para (cliente objetivo) que (necesidad u oportunidad), nuestro (nombre del producto/servicio) es una (categoría del producto) que (beneficio clave). A diferencia de (alternativa de la competencia), nuestro producto (declaración de diferenciación primaria).
 
-**ChatGPT dijo:**
+**SALIDA:**
 
 Perfecto, aquí tienes la visión del producto redactada en el formato de Geoffrey Moore, considerando el contexto de la Escuela Politécnica Nacional, el marco EUR-ACE y un alcance viable en un mes de desarrollo inicial:
 
@@ -408,8 +408,9 @@ nuestro producto proporciona una solución digital estructurada, intuitiva y aut
 
 Dijiste:
 se directo no adornes la visión, céntrate exclusivamente en el fin de la vision ,
-ChatGPT dijo:
 
+
+**SALIDA:**
 Perfecto, aquí tienes la visión directa y sin adornos:
 
 Para las autoridades académicas, coordinadores de carrera y docentes de la Escuela Politécnica Nacional que necesitan demostrar el cumplimiento de los objetivos EUR-ACE, nuestro sistema EPN-Accredita es una plataforma de gestión académica que centraliza y relaciona RAA, RA, OPP y objetivos EUR-ACE. A diferencia de procesos manuales y dispersos, nuestro producto garantiza trazabilidad y evidencia clara para la acreditación.
