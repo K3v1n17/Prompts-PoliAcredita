@@ -13,6 +13,7 @@
 	- [PROMPT 7.2 (Continuación de PROMPT 7)](#prompt-72-continuacion-de-prompt-7)
 8. [PROMPT 8](#prompt-8)
 11. [PROMPT 11](#prompt-11)
+12. [PROMPT 12](#prompt-12)
 ---
 
 ## PROMPT 1
@@ -433,5 +434,27 @@ dame la vision demi producto
 **A diferencia de** los métodos manuales,
 
 **PoliAcredita automatiza** la verificación de alineamientos curriculares, facilitando la preparación y el proceso de acreditación de las carreras.
+
+<!-- --- -->
+
+## PROMPT 12 – 21 sept 2025, 10:07 p m. (UTC)
+
+**Prompt:**
+
+dame la vision del producto de mejora manera
+
+**Respuesta:**
+
+# Visión del Producto - PoliAcredita
+
+**Para** las Facultades y Coordinadores de Carrera de la EPN que buscan una gestión ágil y confiable para la acreditación EUR-ACE,
+
+**PoliAcredita es** una plataforma software integral
+
+**que** asegura la correcta alineación de los resultados de aprendizaje (RAA, RA) con los objetivos de perfil profesional (OPP) y los requisitos EUR-ACE.
+
+**A diferencia de** las herramientas fragmentadas y los procesos manuales que consumen tiempo,
+
+**PoliAcredita automatiza** la trazabilidad curricular, simplifica la generación de evidencias y agiliza la preparación para la auditoría, garantizando la obtención del sello EUR-ACE.
 
 <!-- --- -->
