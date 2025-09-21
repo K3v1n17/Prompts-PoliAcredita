@@ -414,3 +414,24 @@ se directo no adornes la visión, céntrate exclusivamente en el fin de la visio
 Perfecto, aquí tienes la visión directa y sin adornos:
 
 Para las autoridades académicas, coordinadores de carrera y docentes de la Escuela Politécnica Nacional que necesitan demostrar el cumplimiento de los objetivos EUR-ACE, nuestro sistema EPN-Accredita es una plataforma de gestión académica que centraliza y relaciona RAA, RA, OPP y objetivos EUR-ACE. A diferencia de procesos manuales y dispersos, nuestro producto garantiza trazabilidad y evidencia clara para la acreditación.
+
+## Run 2025-09-21T21:42:51.749Z
+
+**Prompt:**
+
+ dame la vision demi producto
+
+**Respuesta:**
+
+```json
+[
+  {
+    "type": "Wiki",
+    "title": "Visión del Producto - PoliAcredita",
+    "path": "/Vision_del_Producto/PoliAcredita",
+    "content": "# Visión del Producto - PoliAcredita\n\n**Para** las Facultades de la Escuela Politécnica Nacional (EPN) que requieren demostrar el cumplimiento de los estándares para la acreditación EUR-ACE,\n\n**PoliAcredita es** un producto software que verifica que los objetivos EUR-ACE se cumplan para las diferentes carreras.\n\n**A diferencia de** los métodos manuales,\n\n**PoliAcredita automatiza** la verificación de alineamientos curriculares, facilitando la preparación y el proceso de acreditación de las carreras."
+  }
+]
+```
+
+<!-- --- -->
