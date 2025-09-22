@@ -1073,3 +1073,143 @@ Este Product Backlog está diseñado para establecer la infraestructura de datos
 ¡Estamos listos para empezar a construir esta pieza fundamental para la EPN!
 
 <!-- --- -->
+
+## PROMPT 11
+
+**Prompt:**
+
+ROL 
+Actua como un Product owner que es experto en gestión de productos de Software.
+
+objetivo:
+
+Definir el product backlog release para mi producto software
+
+CONTEXTO
+
+EUR-ACE es una etiqueta de calidad y un sistema de acreditación para programas de estudios de ingeniería a nivel de grado y máster. La etiqueta, que es reconocida a nivel europeo e internacional, es un certificado que garantiza que el programa de estudios cumple con altos estándares de calidad y con las exigencias de la profesión de ingeniería.
+
+La Escuela Politécnica Nacional, o EPN, es una universidad pública, de grado y posgrado, ubicada en Quito (Ecuador). Reconocida por la investigación y la educación en ciencias básicas, ingenierías y tecnología, ofrece programas doctorales, de maestría y de grado.
+
+La EPN está dividida de la siguiente manera, existen Facultades y por cada facultad pueden existir diferentes carreras cada Facultad tiene profesores, Autoridades (Decano , Subdecano , jefe de Departamento) , Para llegar a ser coordinador, Autoridad primero tiene que ser un profesor, Para las carreras cada carrera tiene un solo coordinador y existe una entidad superior que sería la DGIP que es la encargada de gestionar los aspectos académicos de las facultades , Para la autoridad administra la facultad, el coordinador gestiona la carrera .
+
+Cada carrera de la EPN cuenta con resultados de aprendizaje (RA): generales y específicos que son los resultados que se garantizan que el estudiante tenga cuando termina la carrera.
+
+También cada carrera cuenta con Objetivos de perfil profesional que son los objetivos que se espera que un estudiante realice en su vida profesional.
+
+Para Cada carrera existen diferentes Asignaturas , cada una de estas asignaturas cuenta con un programa de estudios académicos (PEA) . Este PEA contiene información relevante de cada asignatura . Por ejemplo : – Unidad Académica “ – Carrera – Unidad de organización curricular – Nombre de la asignatura – Código
+
+– Créditos – Resultados de aprendizaje de la asignatura (RAA)
+
+Bien para evaluar que los RA de la carrera se estén cumpliendo se verifica como los RAA de cada materia aportan con un nivel (Bajo , Medio , Alto) a los RA .
+
+También para Evaluar los OPP se verifica como los RA aportan a los OPP.
+
+Para lograr la acreditación es importante los RA ya que con estos se verifica los objetivos EUR-ACE Es decir se verifica que los RA cumplan con los objetivos EURACE.
+
+
+te proporciono el conjunto de mrfs : 📌 MRFs del Sistema de Gestión de Acreditación EUR-ACE
+
+Gestión de organización académica Como autoridad de la EPN Quiero registrar y administrar facultades, carreras, materias y profesores Para estructurar la base organizativa que sustenta la acreditación EUR-ACE.
+
+Gestión de PEAs y resultados de aprendizaje de asignaturas (RAA) Como profesor Quiero ingresar y actualizar los PEAs y los resultados de aprendizaje de las asignaturas (RAA) Para evidenciar la contribución de cada materia al perfil de egreso de la carrera.
+
+Gestión de resultados de aprendizaje de carrera (RA) Como coordinador de carrera Quiero definir y mantener los resultados de aprendizaje de la carrera Para establecer de manera formalizada el perfil de egreso de los estudiantes.
+
+Gestión de objetivos de perfil profesional (OPP) Como coordinador de carrera Quiero registrar los objetivos de perfil profesional Para alinear el perfil de egreso con las competencias de la profesión de ingeniería.
+
+Gestión de objetivos EUR-ACE Como miembro del CEI Quiero registrar y consultar los objetivos EUR-ACE Para vincularlos con los resultados de aprendizaje de las carreras y evaluar el cumplimiento de estándares internacionales.
+
+Definición de relaciones académicas Como coordinador de carrera Quiero establecer relaciones entre RAA, RA, OPP y objetivos EUR-ACE Para garantizar trazabilidad académica desde la asignatura hasta los criterios de acreditación.
+
+Generación de reportes de cumplimiento EUR-ACE Como DGIP Quiero generar reportes automáticos del grado de cumplimiento de los criterios EUR-ACE por facultad y carrera Para presentar evidencias verificables a los evaluadores externos.
+
+Gestión de roles y accesos Como usuario de la EPN (profesor, coordinador, autoridad, DGIP, CEI) Quiero acceder al sistema con permisos según mi rol Para asegurar un uso controlado y seguro de la información de acreditación.
+
+nuestro historico de sprint anteriores es :
+
+Velocidad del Equipo: Velocidad Baja: 54 Story Points (sp) Velocidad Alta: 75 Story Points (sp) por sprint
+
+ACCION : Crea mi product backlog release priorizado y ordenado ubicando de arriba hacia abajo un desarrollo sin depedencias y agregando valor comercial. recuerda que para el desarrollo vamos apoyarnos de la IA . La duracion del release sera de un mes , y el release es de fecha fija. de 5 semanas
+ADEMAS QUE ESTE EN FOMATO DE HU , 
+LAS HUS DEBEN SER DIRECTAS Y CONCISAS
+
+Formato de salida Este product backlog necesito que contenga lo siguiente:
+
+Muestra tres tablas (en este orden), asignando cada ítem al bucket que corresponda según el acumulado de puntos: Will have (≤ Will-have line) Might have (> Will y ≤ Might-have line) Won’t have (> Might-have line) Columnas de cada tabla: | ID | Est (sp) | Must | Prioridad | Título | Acum (sp) | Items sin estimación: lista aparte con ID Título Motivo (sin estimación)
+
+**Respuesta:**
+
+¡Excelente! Como Product Owner experto, entiendo la importancia de este primer release para sentar las bases del sistema de Gestión de Acreditación EUR-ACE en la EPN. Mi objetivo es definir un Product Backlog que priorice la funcionalidad esencial, minimice las dependencias y genere valor comercial inmediato, aprovechando el apoyo de la IA en el desarrollo.
+
+Considerando un release de **5 semanas (5 sprints)** y la velocidad de tu equipo:
+
+*   **Capacidad "Will-have" (Baja):** 54 SP/sprint * 5 sprints = **270 Story Points (sp)**
+*   **Capacidad "Might-have" (Alta):** 75 SP/sprint * 5 sprints = **375 Story Points (sp)**
+
+He priorizado y desglosado los MRFs en User Stories (Historias de Usuario o HUs) concisas, enfocándome en construir una base sólida de datos y relaciones clave para la acreditación.
+
+---
+
+### Product Backlog Release (5 Semanas)
+
+**Capacidad estimada para el Release (5 semanas):**
+*   **Will-have line (Comprometido):** 270 Story Points (sp)
+*   **Might-have line (Opcional/Stretch):** 375 Story Points (sp)
+
+---
+
+### 1. Will Have (≤ 270 sp)
+
+Este bloque contiene las Historias de Usuario esenciales que nos comprometemos a entregar. Se enfocan en establecer la estructura académica, los datos cruciales de acreditación y las primeras relaciones y reportes que demuestran la trazabilidad, elementos fundamentales para el proceso EUR-ACE.
+
+| ID     | Est (sp) | Must | Prioridad   | Título                                                                                                                              | Acum (sp) |
+| :----- | :------- | :--- | :---------- | :------------------------------------------------------------------------------------------------------------------------------------ | :-------- |
+| HU-001 | 8        | Sí   | 1 (Crítica) | Como administrador del sistema, quiero gestionar roles de usuario (crear, editar, eliminar) para controlar el acceso y permisos.          | 8         |
+| HU-002 | 13       | Sí   | 1 (Crítica) | Como usuario de la EPN, quiero registrarme o ser registrado y poder iniciar/cerrar sesión de forma segura para acceder al sistema.        | 21        |
+| HU-003 | 5        | Sí   | 2 (Alta)    | Como usuario de la EPN, quiero ver y editar mi información de perfil (ej. nombre, email, contraseña) para mantener mis datos actualizados. | 26        |
+| HU-004 | 8        | Sí   | 1 (Crítica) | Como autoridad de la EPN, quiero registrar, consultar y gestionar Facultades (CRUD) para organizar la estructura académica.             | 34        |
+| HU-005 | 8        | Sí   | 1 (Crítica) | Como autoridad de la EPN, quiero registrar, consultar y gestionar Carreras (CRUD) asociadas a Facultades para definir programas de estudio. | 42        |
+| HU-006 | 8        | Sí   | 1 (Crítica) | Como autoridad de la EPN, quiero registrar, consultar y gestionar Profesores (CRUD) para mantener el directorio de docentes.             | 50        |
+| HU-007 | 8        | Sí   | 1 (Crítica) | Como autoridad de la EPN, quiero asignar el rol de Coordinador de Carrera a un Profesor para una Carrera específica.                   | 58        |
+| HU-008 | 8        | Sí   | 2 (Alta)    | Como autoridad de la EPN, quiero asignar roles de Autoridad (Decano, Subdecano, Jefe de Departamento) a Profesores para definir la jerarquía. | 66        |
+| HU-009 | 8        | Sí   | 2 (Alta)    | Como autoridad de la EPN, quiero registrar, consultar y gestionar Asignaturas (CRUD) asociadas a una Carrera para estructurar el plan de estudios. | 74        |
+| HU-010 | 8        | Sí   | 1 (Crítica) | Como miembro del CEI, quiero registrar, consultar y gestionar los objetivos EUR-ACE (CRUD) para utilizarlos en el proceso de acreditación. | 82        |
+| HU-011 | 13       | Sí   | 1 (Crítica) | Como coordinador de carrera, quiero registrar, consultar y gestionar los Resultados de Aprendizaje de Carrera (RA) para formalizar el perfil de egreso. | 95        |
+| HU-012 | 13       | Sí   | 1 (Crítica) | Como coordinador de carrera, quiero vincular los RA de mi carrera con los objetivos EUR-ACE para evaluar su alineación con estándares internacionales. | 108       |
+| HU-013 | 21       | Sí   | 1 (Crítica) | Como DGIP, quiero generar un reporte básico que muestre la alineación de los RA de una Carrera con los objetivos EUR-ACE.               | 129       |
+| HU-014 | 13       | Sí   | 2 (Alta)    | Como profesor, quiero ingresar y actualizar los datos del Programa de Estudios Académicos (PEA) de una asignatura para estandarizar su información (nombre, código, créditos, unidad académica). | 142       |
+| HU-015 | 13       | Sí   | 2 (Alta)    | Como profesor, quiero registrar, consultar y gestionar los Resultados de Aprendizaje de Asignatura (RAA) asociados a un PEA para detallar sus objetivos. | 155       |
+| HU-016 | 21       | Sí   | 2 (Alta)    | Como coordinador de carrera, quiero relacionar los RAA de las asignaturas con los RA de mi carrera, indicando el nivel de aporte (Bajo, Medio, Alto). | 176       |
+| HU-017 | 21       | Sí   | 2 (Alta)    | Como DGIP, quiero generar un reporte básico que muestre el nivel de aporte de los RAA de una Asignatura a los RA de la Carrera.         | 197       |
+| HU-018 | 8        | Sí   | 3 (Media)   | Como coordinador de carrera, quiero registrar, consultar y gestionar los Objetivos de Perfil Profesional (OPP) para definir el horizonte profesional de la carrera. | 205       |
+| HU-019 | 13       | Sí   | 3 (Media)   | Como coordinador de carrera, quiero relacionar los RA de mi carrera con los OPP para asegurar la coherencia del perfil de egreso con la profesión. | 218       |
+| HU-020 | 13       | Sí   | 3 (Media)   | Como DGIP, quiero generar un reporte básico que muestre la alineación de los RA de una Carrera con los OPP.                           | 231       |
+
+---
+
+### 2. Might Have (> 270 sp y ≤ 375 sp)
+
+El total acumulado en el bucket "Will Have" es **231 Story Points (sp)**. Esto está cómodamente dentro de nuestra capacidad comprometida de 270 sp. Para este release, hemos logrado incluir una cantidad sustancial de funcionalidades críticas y de alto valor en el bloque "Will Have".
+
+Por el momento, no se han identificado Historias de Usuario adicionales que superen la línea "Will Have" y quepan en este bucket. Priorizamos la entrega estable y de alta calidad del conjunto de funcionalidades "Will Have". Si el equipo supera consistentemente su velocidad y logra una estabilidad excepcional, podríamos considerar refinar o ampliar alguna funcionalidad existente dentro de este mismo bloque, pero sin añadir ítems nuevos y complejos.
+
+---
+
+### 3. Won’t Have (> 375 sp)
+
+Dado que todas las Historias de Usuario priorizadas y estimadas para este release se encuentran dentro de la capacidad del bloque "Will Have", este bucket permanece vacío. Nuestro enfoque es lograr una entrega exitosa y de alto valor del alcance definido en el "Will Have".
+
+---
+
+### Items sin Estimación
+
+Actualmente, no hay ítems sin estimación. Todas las Historias de Usuario incluidas en este Product Backlog de release han sido estimadas y están listas para ser consideradas en la planificación de los sprints.
+
+---
+
+Este Product Backlog está diseñado para proporcionar una primera versión robusta del sistema, cubriendo las necesidades esenciales de gestión de la estructura académica y, lo más importante, estableciendo la trazabilidad y los reportes básicos necesarios para la acreditación EUR-ACE. Esta base sólida será fundamental para futuras iteraciones, donde el apoyo de la IA podrá ser explotado para análisis más profundos y optimización de procesos.
+
+¡Estamos listos para iniciar este importante proyecto!
+
+<!-- --- -->
