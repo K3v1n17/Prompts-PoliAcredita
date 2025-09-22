@@ -483,3 +483,72 @@ Actualmente, no hay ítems sin estimación. Todos los PBIs identificados han rec
 Este Product Backlog está diseñado para maximizar el valor entregado en el próximo mes, completando elementos clave de trazabilidad y proporcionando una capacidad de reporte inicial, lo cual es fundamental para el proceso de acreditación EUR-ACE en la EPN. Contaremos con el apoyo de la IA para optimizar la eficiencia del desarrollo y asegurar la calidad de la entrega.
 
 <!-- --- -->
+
+## PROMPT 6
+
+**Prompt:**
+
+no agregues informacion que no te solicite , recuerda la velocidad que te doy es en base a mi historico . es decir ya complete esa velocidad yo .
+
+ACCION :
+
+Crea de nuevo mi product backlog release teniendo en cuenta que es para un release de fecha fija de un mes . Ademas ten en cuenta que nos vamos a apoyar de la IA para el desarrollo
+
+**Respuesta:**
+
+¡Entendido! Asumo mi rol de Product Owner, experto en gestión de productos de software. He tomado nota de la aclaración sobre no agregar información no solicitada y de utilizar estrictamente la velocidad histórica proporcionada para definir las líneas de compromiso.
+
+Para este **release de fecha fija de un mes**, utilizaremos las siguientes líneas de capacidad basadas en el histórico de tu equipo:
+
+*   **Will-have line (Comprometido):** **54 Story Points (sp)** (basado en la velocidad baja, para garantizar la entrega de valor clave).
+*   **Might-have line (Opcional/Stretch):** **75 Story Points (sp)** (basado en la velocidad alta, para funcionalidades adicionales si el equipo supera las expectativas).
+
+Nuestro objetivo para este release es establecer los **cimientos fundamentales del sistema**, permitiendo la **gestión de la estructura académica básica, la definición de los Resultados de Aprendizaje de Carrera (RA) y los Objetivos EUR-ACE, y la vinculación crítica entre ellos**. Adicionalmente, buscaremos entregar una capacidad básica de reporte y la gestión de Objetivos de Perfil Profesional (OPP) como "Might-have".
+
+---
+
+### Product Backlog Release (1 Mes)
+
+**Capacidad estimada para el Release (1 mes):**
+*   **Will-have line:** 54 Story Points (sp)
+*   **Might-have line:** 75 Story Points (sp)
+
+---
+
+### 1. Will Have (≤ 54 sp)
+
+| ID     | Est (sp) | Must | Prioridad | Título                                                               | Acum (sp) |
+| :----- | :------- | :--- | :-------- | :------------------------------------------------------------------- | :-------- |
+| PBI-01 | 13       | Sí   | 1 (Crítica) | Gestión de Roles y Permisos (CRUD básico, asignación a usuarios)     | 13        |
+| PBI-02 | 8        | Sí   | 2 (Crítica) | Gestión de Facultades y Carreras (CRUD)                              | 21        |
+| PBI-03 | 8        | Sí   | 3 (Alta)    | Gestión de Resultados de Aprendizaje de Carrera (RA - CRUD)          | 29        |
+| PBI-04 | 8        | Sí   | 4 (Alta)    | Gestión de Objetivos EUR-ACE (CRUD para CEI)                         | 37        |
+| PBI-05 | 13       | Sí   | 5 (Alta)    | Definición de la relación RA-Objetivos EUR-ACE                       | 50        |
+
+---
+
+### 2. Might Have (> 54 sp y ≤ 75 sp)
+
+| ID     | Est (sp) | Must | Prioridad | Título                                                                       | Acum (sp) |
+| :----- | :------- | :--- | :-------- | :--------------------------------------------------------------------------- | :-------- |
+| PBI-06 | 13       | No   | 6 (Media)   | Generación de reporte básico de cumplimiento RA-EUR-ACE (por Carrera y Facultad) | 63        |
+| PBI-07 | 8        | No   | 7 (Media)   | Gestión de Objetivos de Perfil Profesional (OPP - CRUD)                      | 71        |
+
+---
+
+### 3. Won’t Have (> 75 sp)
+
+| ID     | Est (sp) | Must | Prioridad | Título                                                               | Acum (sp) |
+| :----- | :------- | :--- | :-------- | :------------------------------------------------------------------- | :-------- |
+| PBI-08 | 13       | No   | 8 (Baja)    | Gestión de Profesores y Asignaturas (CRUD)                           | 84        |
+| PBI-09 | 21       | No   | 9 (Baja)    | Gestión de PEAs y Resultados de Aprendizaje de Asignatura (RAA)      | 105       |
+| PBI-10 | 21       | No   | 10 (Baja)   | Definición de la relación RAA-RA (con nivel de aporte: Bajo, Medio, Alto) | 126       |
+| PBI-11 | 8        | No   | 11 (Baja)   | Definición de la relación RA-OPP                                     | 134       |
+
+---
+
+### Items sin Estimación
+
+Actualmente, no hay ítems sin estimación. Todos los PBIs identificados han recibido una estimación de Story Points y se han ubicado dentro de los buckets de capacidad.
+
+<!-- --- -->
