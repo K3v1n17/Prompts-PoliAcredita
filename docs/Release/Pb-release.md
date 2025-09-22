@@ -1213,3 +1213,88 @@ Este Product Backlog está diseñado para proporcionar una primera versión robu
 ¡Estamos listos para iniciar este importante proyecto!
 
 <!-- --- -->
+
+## PROMPT 12
+
+**Prompt:**
+
+PARA LAS HUS NO INCLUYAS EL "Y" SE DIRECTO YA QUE ESTAS UNIENDO DOS FUNCIONALIDADES , DEFINE LAS HUS CON UN SOLO QUIERO EN UNA SOLA PALABRA
+
+ACCION :
+vuelve a darme mi product backlog release en base a estas intruccciones
+
+**Respuesta:**
+
+¡Entendido! Me disculpo por la imprecisión en las HUs anteriores. Como Product Owner experto, la claridad y la atomicidad son clave para un Product Backlog eficiente. He revisado y reestructurado las Historias de Usuario para cumplir estrictamente con tus indicaciones: **directas, concisas, con un único "quiero" y enfocadas en una sola acción principal (idealmente una palabra)**, evitando el "y" donde unía funcionalidades distintas.
+
+Mantendremos el mismo objetivo de release de 5 semanas, con las siguientes capacidades:
+
+*   **Capacidad "Will-have" (Baja):** 54 SP/sprint * 5 sprints = **270 Story Points (sp)**
+*   **Capacidad "Might-have" (Alta):** 75 SP/sprint * 5 sprints = **375 Story Points (sp)**
+
+El Product Backlog que presento a continuación está priorizado para construir una base robusta del sistema de Gestión de Acreditación EUR-ACE, minimizando dependencias y entregando valor fundamental para la acreditación.
+
+---
+
+### Product Backlog Release (5 Semanas)
+
+**Capacidad estimada para el Release (5 semanas):**
+*   **Will-have line (Comprometido):** 270 Story Points (sp)
+*   **Might-have line (Opcional/Stretch):** 375 Story Points (sp)
+
+---
+
+### 1. Will Have (≤ 270 sp)
+
+Este bloque contiene las Historias de Usuario esenciales y atómicas que nos comprometemos a entregar. Se enfocan en establecer la estructura académica, los datos cruciales de acreditación y las primeras relaciones y reportes que demuestran la trazabilidad, elementos fundamentales para el proceso EUR-ACE.
+
+| ID     | Est (sp) | Must | Prioridad   | Título                                                                                                                              | Acum (sp) |
+| :----- | :------- | :--- | :---------- | :------------------------------------------------------------------------------------------------------------------------------------ | :-------- |
+| HU-001 | 8        | Sí   | 1 (Crítica) | Como administrador del sistema, quiero **gestionar** roles de usuario para controlar el acceso y permisos.                              | 8         |
+| HU-002 | 8        | Sí   | 1 (Crítica) | Como usuario de la EPN, quiero **registrarme** en el sistema para acceder con mis credenciales.                                       | 16        |
+| HU-003 | 3        | Sí   | 1 (Crítica) | Como usuario de la EPN, quiero **iniciar** sesión de forma segura para acceder al sistema.                                             | 19        |
+| HU-004 | 2        | Sí   | 1 (Crítica) | Como usuario de la EPN, quiero **cerrar** sesión de forma segura para proteger mi cuenta.                                             | 21        |
+| HU-005 | 5        | Sí   | 2 (Alta)    | Como usuario de la EPN, quiero **gestionar** mi perfil para mantener mis datos actualizados.                                         | 26        |
+| HU-006 | 8        | Sí   | 1 (Crítica) | Como autoridad de la EPN, quiero **gestionar** Facultades para organizar la estructura académica.                                      | 34        |
+| HU-007 | 8        | Sí   | 1 (Crítica) | Como autoridad de la EPN, quiero **gestionar** Carreras asociadas a Facultades para definir programas de estudio.                      | 42        |
+| HU-008 | 8        | Sí   | 1 (Crítica) | Como autoridad de la EPN, quiero **gestionar** Profesores para mantener el directorio de docentes.                                    | 50        |
+| HU-009 | 8        | Sí   | 1 (Crítica) | Como autoridad de la EPN, quiero **asignar** Coordinadores de Carrera a Profesores para una Carrera específica.                        | 58        |
+| HU-010 | 8        | Sí   | 2 (Alta)    | Como autoridad de la EPN, quiero **asignar** Autoridades a Profesores para definir la jerarquía.                                      | 66        |
+| HU-011 | 8        | Sí   | 2 (Alta)    | Como autoridad de la EPN, quiero **gestionar** Asignaturas asociadas a una Carrera para estructurar el plan de estudios.             | 74        |
+| HU-012 | 8        | Sí   | 1 (Crítica) | Como miembro del CEI, quiero **gestionar** objetivos EUR-ACE para utilizarlos en el proceso de acreditación.                          | 82        |
+| HU-013 | 13       | Sí   | 1 (Crítica) | Como coordinador de carrera, quiero **gestionar** Resultados de Aprendizaje de Carrera (RA) para formalizar el perfil de egreso.      | 95        |
+| HU-014 | 13       | Sí   | 1 (Crítica) | Como coordinador de carrera, quiero **vincular** RA de mi carrera con objetivos EUR-ACE para evaluar su alineación con estándares internacionales. | 108       |
+| HU-015 | 21       | Sí   | 1 (Crítica) | Como DGIP, quiero **generar** un reporte básico de alineación RA con objetivos EUR-ACE.                                               | 129       |
+| HU-016 | 13       | Sí   | 2 (Alta)    | Como profesor, quiero **mantener** datos del PEA de una asignatura para estandarizar su información.                                | 142       |
+| HU-017 | 13       | Sí   | 2 (Alta)    | Como profesor, quiero **gestionar** Resultados de Aprendizaje de Asignatura (RAA) asociados a un PEA para detallar sus objetivos.   | 155       |
+| HU-018 | 21       | Sí   | 2 (Alta)    | Como coordinador de carrera, quiero **relacionar** RAA de las asignaturas con RA de mi carrera, indicando el nivel de aporte.         | 176       |
+| HU-019 | 21       | Sí   | 2 (Alta)    | Como DGIP, quiero **generar** un reporte básico de aporte RAA a RA de la Carrera.                                                     | 197       |
+| HU-020 | 8        | Sí   | 3 (Media)   | Como coordinador de carrera, quiero **gestionar** Objetivos de Perfil Profesional (OPP) para definir el horizonte profesional de la carrera. | 205       |
+| HU-021 | 13       | Sí   | 3 (Media)   | Como coordinador de carrera, quiero **relacionar** RA de mi carrera con OPP para asegurar la coherencia del perfil de egreso con la profesión. | 218       |
+| HU-022 | 13       | Sí   | 3 (Media)   | Como DGIP, quiero **generar** un reporte básico de alineación RA con OPP.                                                             | 231       |
+
+---
+
+### 2. Might Have (> 270 sp y ≤ 375 sp)
+
+El total acumulado en el bloque "Will Have" es **231 Story Points (sp)**. Esto está cómodamente dentro de nuestra capacidad comprometida de 270 sp. Para este release, hemos logrado incluir una cantidad sustancial de funcionalidades críticas y de alto valor en el bloque "Will Have".
+
+Por el momento, no se han identificado Historias de Usuario adicionales que superen la línea "Will Have" y quepan en este bucket. Priorizamos la entrega estable y de alta calidad del conjunto de funcionalidades "Will Have". Si el equipo supera consistentemente su velocidad y logra una estabilidad excepcional, podríamos considerar refinar o ampliar alguna funcionalidad existente dentro de este mismo bloque, pero sin añadir ítems nuevos y complejos.
+
+---
+
+### 3. Won’t Have (> 375 sp)
+
+Dado que todas las Historias de Usuario priorizadas y estimadas para este release se encuentran dentro de la capacidad del bloque "Will Have", este bucket permanece vacío. Nuestro enfoque es lograr una entrega exitosa y de alto valor del alcance definido en el "Will Have".
+
+---
+
+### Items sin Estimación
+
+Actualmente, no hay ítems sin estimación. Todas las Historias de Usuario incluidas en este Product Backlog de release han sido estimadas y están listas para ser consideradas en la planificación de los sprints.
+
+---
+
+Este Product Backlog ahora es más conciso y claro, lo que facilitará la planificación del sprint y la comunicación con el equipo de desarrollo. ¡Esta base sentará las pautas para un sistema robusto de acreditación EUR-ACE!
+
+<!-- --- -->
