@@ -1539,3 +1539,52 @@ Aquí tienes el Sprint Mapping, priorizando las funcionalidades críticas para e
     *   Generación de reportes de cumplimiento EUR-ACE
 
 <!-- --- -->
+
+## PROMPT 12
+
+**Prompt:**
+
+se mas conciso y claro con los objetivos no lo adornes tanto , vuelve a analizar un camino correcto a desarrollar para asegurar evitar dependencias y entregar valor comercial en cada sprint ,
+
+Accion 
+crea de nuevo el sprint mapping
+
+**Respuesta:**
+
+¡Absolutamente! Como Product Owner, la claridad y la entrega de valor incremental son primordiales. He reanalizado las dependencias y el valor comercial para optimizar el flujo de trabajo y presentar un Sprint Mapping más conciso y directo.
+
+Aquí tienes la propuesta mejorada:
+
+---
+
+**Sprint Mapping – Sistema de Acreditación EUR-ACE**
+
+**Sprint 1: (1 de mayo – 15 de mayo)**
+*   **Objetivo:** Establecer la base organizativa de la EPN y asegurar el acceso controlado de usuarios.
+*   **PBI:**
+    *   Gestión de roles y accesos
+    *   Gestión de organización académica
+
+**Sprint 2: (16 de mayo – 30 de mayo)**
+*   **Objetivo:** Definir los perfiles de egreso y profesionales de cada carrera.
+*   **PBI:**
+    *   Gestión de resultados de aprendizaje de carrera (RA)
+    *   Gestión de objetivos de perfil profesional (OPP)
+
+**Sprint 3: (1 de junio – 15 de junio)**
+*   **Objetivo:** Registrar los programas de estudio y resultados de aprendizaje por asignatura.
+*   **PBI:**
+    *   Gestión de PEAs y resultados de aprendizaje de asignaturas (RAA)
+
+**Sprint 4: (16 de junio – 30 de junio)**
+*   **Objetivo:** Establecer los criterios EUR-ACE y las relaciones de cumplimiento académico.
+*   **PBI:**
+    *   Gestión de objetivos EUR-ACE
+    *   Definición de relaciones académicas
+
+**Sprint 5: (1 de julio – 15 de julio)**
+*   **Objetivo:** Habilitar la generación de reportes de cumplimiento EUR-ACE.
+*   **PBI:**
+    *   Generación de reportes de cumplimiento EUR-ACE
+
+<!-- --- -->
