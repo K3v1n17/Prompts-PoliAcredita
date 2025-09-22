@@ -552,3 +552,72 @@ Nuestro objetivo para este release es establecer los **cimientos fundamentales d
 Actualmente, no hay ítems sin estimación. Todos los PBIs identificados han recibido una estimación de Story Points y se han ubicado dentro de los buckets de capacidad.
 
 <!-- --- -->
+
+## PROMPT 7
+
+**Prompt:**
+
+debes tener en cuenta esto cuando te digo que es un relase de fecha fija es decir 5 semanas , y en base a mi historico deberias hacer esto y en base a esto armar mi porduct backlog release:
+Capacidad planificada para el release: 5 sprints Velocidad baja: 54 sp × 5 = 270 sp Velocidad alta: 75 sp × 5 = 375 sp
+
+
+ACCION 
+
+Crea de nuevo mi product backlog release teniendo en cuenta esto
+
+**Respuesta:**
+
+¡Entendido! Asumo nuevamente mi rol de Product Owner. He tomado nota de la aclaración sobre la duración del release (5 semanas) y la nueva capacidad calculada.
+
+Para este **release de fecha fija de 5 semanas (5 sprints)**, utilizaremos las siguientes líneas de capacidad basadas en el histórico de tu equipo:
+
+*   **Will-have line (Comprometido):** **270 Story Points (sp)** (basado en la velocidad baja: 54 sp/sprint * 5 sprints).
+*   **Might-have line (Opcional/Stretch):** **375 Story Points (sp)** (basado en la velocidad alta: 75 sp/sprint * 5 sprints).
+
+Nuestro objetivo para este release, dada la mayor capacidad, es establecer un **sistema robusto de gestión académica inicial**, cubriendo la **estructura, resultados de aprendizaje (RA y RAA), objetivos EUR-ACE y OPP, y sus relaciones clave**, incluyendo una capacidad básica de reporte. Esto nos permitirá tener una base sólida para futuras iteraciones y para el apoyo de la IA en el desarrollo de funcionalidades más avanzadas.
+
+---
+
+### Product Backlog Release (5 Semanas)
+
+**Capacidad estimada para el Release (5 semanas):**
+*   **Will-have line:** 270 Story Points (sp)
+*   **Might-have line:** 375 Story Points (sp)
+
+---
+
+### 1. Will Have (≤ 270 sp)
+
+| ID     | Est (sp) | Must | Prioridad | Título                                                               | Acum (sp) |
+| :----- | :------- | :--- | :-------- | :------------------------------------------------------------------- | :-------- |
+| PBI-01 | 13       | Sí   | 1 (Crítica) | Gestión de Roles y Permisos (CRUD básico, asignación a usuarios)     | 13        |
+| PBI-02 | 8        | Sí   | 2 (Crítica) | Gestión de Facultades y Carreras (CRUD)                              | 21        |
+| PBI-03 | 8        | Sí   | 3 (Alta)    | Gestión de Resultados de Aprendizaje de Carrera (RA - CRUD)          | 29        |
+| PBI-04 | 8        | Sí   | 4 (Alta)    | Gestión de Objetivos EUR-ACE (CRUD para CEI)                         | 37        |
+| PBI-05 | 13       | Sí   | 5 (Alta)    | Definición de la relación RA-Objetivos EUR-ACE                       | 50        |
+| PBI-06 | 13       | Sí   | 6 (Alta)    | Generación de reporte básico de cumplimiento RA-EUR-ACE (por Carrera y Facultad) | 63        |
+| PBI-07 | 8        | Sí   | 7 (Alta)    | Gestión de Objetivos de Perfil Profesional (OPP - CRUD)              | 71        |
+| PBI-08 | 13       | Sí   | 8 (Media)   | Gestión de Profesores y Asignaturas (CRUD)                           | 84        |
+| PBI-09 | 21       | Sí   | 9 (Media)   | Gestión de PEAs y Resultados de Aprendizaje de Asignatura (RAA)      | 105       |
+| PBI-10 | 21       | Sí   | 10 (Media)  | Definición de la relación RAA-RA (con nivel de aporte: Bajo, Medio, Alto) | 126       |
+| PBI-11 | 8        | Sí   | 11 (Media)  | Definición de la relación RA-OPP                                     | 134       |
+
+---
+
+### 2. Might Have (> 270 sp y ≤ 375 sp)
+
+Basado en los PBIs identificados hasta el momento (134 sp), no hay ítems que caigan en esta categoría, ya que todos están cómodamente dentro de la capacidad "Will Have".
+
+---
+
+### 3. Won’t Have (> 375 sp)
+
+Basado en los PBIs identificados hasta el momento (134 sp), no hay ítems que caigan en esta categoría, ya que todos están cómodamente dentro de la capacidad "Will Have".
+
+---
+
+### Items sin Estimación
+
+Actualmente, no hay ítems sin estimación. Todos los PBIs identificados han recibido una estimación de Story Points y, con la capacidad extendida, todos se encuentran dentro de la línea de compromiso "Will Have".
+
+<!-- --- -->
