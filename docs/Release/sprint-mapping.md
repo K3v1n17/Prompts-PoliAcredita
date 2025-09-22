@@ -1441,3 +1441,101 @@ Aquí tienes el SPRINT MAPPING para construir el sistema de gestión de acredita
 ---
 
 <!-- --- -->
+
+## PROMPT 11
+
+**Prompt:**
+
+ROL Actua como un Product owner que es experto en gestión de productos de Software.
+
+objetivo:
+
+Definir el SPRINT maapping para construir el producto software
+
+CONTEXTO
+
+EUR-ACE es una etiqueta de calidad y un sistema de acreditación para programas de estudios de ingeniería a nivel de grado y máster. La etiqueta, que es reconocida a nivel europeo e internacional, es un certificado que garantiza que el programa de estudios cumple con altos estándares de calidad y con las exigencias de la profesión de ingeniería.
+
+La Escuela Politécnica Nacional, o EPN, es una universidad pública, de grado y posgrado, ubicada en Quito (Ecuador). Reconocida por la investigación y la educación en ciencias básicas, ingenierías y tecnología, ofrece programas doctorales, de maestría y de grado.
+
+La EPN está dividida de la siguiente manera, existen Facultades y por cada facultad pueden existir diferentes carreras cada Facultad tiene profesores, Autoridades (Decano , Subdecano , jefe de Departamento) , Para llegar a ser coordinador, Autoridad primero tiene que ser un profesor, Para las carreras cada carrera tiene un solo coordinador y existe una entidad superior que sería la DGIP que es la encargada de gestionar los aspectos académicos de las facultades , Para la autoridad administra la facultad, el coordinador gestiona la carrera .
+
+Cada carrera de la EPN cuenta con resultados de aprendizaje (RA): generales y específicos que son los resultados que se garantizan que el estudiante tenga cuando termina la carrera.
+
+También cada carrera cuenta con Objetivos de perfil profesional que son los objetivos que se espera que un estudiante realice en su vida profesional.
+
+Para Cada carrera existen diferentes Asignaturas , cada una de estas asignaturas cuenta con un programa de estudios académicos (PEA) . Este PEA contiene información relevante de cada asignatura . Por ejemplo : -- Unidad Académica " -- Carrera -- Unidad de organización curricular -- Nombre de la asignatura -- Código
+
+-- Créditos -- Resultados de aprendizaje de la asignatura (RAA)
+
+Bien para evaluar que los RA de la carrera se estén cumpliendo se verifica como los RAA de cada materia aportan con un nivel (Bajo , Medio , Alto) a los RA .
+
+También para Evaluar los OPP se verifica como los RA aportan a los OPP.
+
+Para lograr la acreditación es importante los RA ya que con estos se verifica los objetivos EUR-ACE Es decir se verifica que los RA cumplan con los objetivos EURACE.
+
+ACCION
+
+Crea el SPRINT MAPPING identificando dependencias , valor comercial , lor comercial en cada sprint y sigue este formato:
+
+te proporciono el conjunto de mrfs : 📌 MRFs del Sistema de Gestión de Acreditación EUR-ACE
+
+Gestión de organización académica Como autoridad de la EPN Quiero registrar y administrar facultades, carreras, materias y profesores Para estructurar la base organizativa que sustenta la acreditación EUR-ACE.
+
+Gestión de PEAs y resultados de aprendizaje de asignaturas (RAA) Como profesor Quiero ingresar y actualizar los PEAs y los resultados de aprendizaje de las asignaturas (RAA) Para evidenciar la contribución de cada materia al perfil de egreso de la carrera.
+
+Gestión de resultados de aprendizaje de carrera (RA) Como coordinador de carrera Quiero definir y mantener los resultados de aprendizaje de la carrera Para establecer de manera formalizada el perfil de egreso de los estudiantes.
+
+Gestión de objetivos de perfil profesional (OPP) Como coordinador de carrera Quiero registrar los objetivos de perfil profesional Para alinear el perfil de egreso con las competencias de la profesión de ingeniería.
+
+Gestión de objetivos EUR-ACE Como miembro del CEI Quiero registrar y consultar los objetivos EUR-ACE Para vincularlos con los resultados de aprendizaje de las carreras y evaluar el cumplimiento de estándares internacionales.
+
+Definición de relaciones académicas Como coordinador de carrera Quiero establecer relaciones entre RAA, RA, OPP y objetivos EUR-ACE Para garantizar trazabilidad académica desde la asignatura hasta los criterios de acreditación.
+
+Generación de reportes de cumplimiento EUR-ACE Como DGIP Quiero generar reportes automáticos del grado de cumplimiento de los criterios EUR-ACE por facultad y carrera Para presentar evidencias verificables a los evaluadores externos.
+
+Gestión de roles y accesos Como usuario de la EPN (profesor, coordinador, autoridad, DGIP, CEI) Quiero acceder al sistema con permisos según mi rol Para asegurar un uso controlado y seguro de la información de acreditación.
+
+FORMATO DE SALIDA : Sprint Mapping Sprint 1: (1 de mayo – 15 de mayo) Objetivo: PBI:
+
+para el objetivo ten en cuenta que debe ser un objetivo comercial claro y conciso , para los PBI usa el formato de una HU no uses "y ni o " las hu deben ser claras
+
+**Respuesta:**
+
+¡Excelente! Como Product Owner, mi objetivo es asegurar que construyamos este Sistema de Gestión de Acreditación EUR-ACE de manera incremental, entregando valor en cada etapa y gestionando las dependencias de forma efectiva para lograr la acreditación de la EPN.
+
+Aquí tienes el Sprint Mapping, priorizando las funcionalidades críticas para establecer una base sólida y avanzar hacia el objetivo de la acreditación EUR-ACE:
+
+---
+
+**Sprint Mapping – Sistema de Acreditación EUR-ACE**
+
+**Sprint 1: (1 de mayo – 15 de mayo)**
+*   **Objetivo:** Establecer la estructura organizativa digital fundamental de la EPN y garantizar un acceso seguro y diferenciado para los usuarios, cimentando la base del sistema de acreditación.
+*   **PBI:**
+    *   Gestión de organización académica
+    *   Gestión de roles y accesos
+
+**Sprint 2: (16 de mayo – 30 de mayo)**
+*   **Objetivo:** Habilitar a los coordinadores para definir formalmente los perfiles académicos y profesionales de cada carrera, sentando las bases de los resultados esperados para los estudiantes.
+*   **PBI:**
+    *   Gestión de resultados de aprendizaje de carrera (RA)
+    *   Gestión de objetivos de perfil profesional (OPP)
+
+**Sprint 3: (1 de junio – 15 de junio)**
+*   **Objetivo:** Permitir a los profesores detallar la contribución de sus asignaturas a los resultados de aprendizaje de la carrera, enriqueciendo la evidencia académica específica.
+*   **PBI:**
+    *   Gestión de PEAs y resultados de aprendizaje de asignaturas (RAA)
+
+**Sprint 4: (16 de junio – 30 de junio)**
+*   **Objetivo:** Integrar los criterios del sello EUR-ACE y establecer las relaciones de trazabilidad cruciales entre los resultados de aprendizaje de asignaturas, carrera y el perfil profesional, validando el cumplimiento de estándares internacionales.
+*   **PBI:**
+    *   Gestión de objetivos EUR-ACE
+    *   Definición de relaciones académicas
+
+**Sprint 5: (1 de julio – 15 de julio)**
+*   **Objetivo:** Proporcionar a la DGIP la capacidad de generar reportes automatizados y verificables del cumplimiento EUR-ACE, facilitando la presentación de evidencias a los evaluadores externos y la toma de decisiones estratégicas.
+*   **PBI:**
+    *   Generación de reportes de cumplimiento EUR-ACE
+
+<!-- --- -->
