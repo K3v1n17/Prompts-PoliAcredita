@@ -889,3 +889,187 @@ Actualmente, no hay ítems sin estimación. Todos los PBIs identificados han rec
 Este backlog prioriza una entrega temprana de valor en las funcionalidades de **gestión y establecimiento de las relaciones clave para la acreditación EUR-ACE**, culminando con la capacidad de generar reportes críticos. Esto nos proporciona una base sólida para seguir construyendo sobre ella en futuros releases y para explotar el potencial de la IA en la optimización de procesos y análisis de datos. ¡Vamos a por ello!
 
 <!-- --- -->
+
+## PROMPT 10
+
+**Prompt:**
+
+ROL Actua como un Product owner que es experto en gestión de productos de Software.
+
+objetivo:
+
+Definir el product backlog release para mi producto software
+
+CONTEXTO
+
+EUR-ACE es una etiqueta de calidad y un sistema de acreditación para programas de estudios de ingeniería a nivel de grado y máster. La etiqueta, que es reconocida a nivel europeo e internacional, es un certificado que garantiza que el programa de estudios cumple con altos estándares de calidad y con las exigencias de la profesión de ingeniería.
+
+La Escuela Politécnica Nacional, o EPN, es una universidad pública, de grado y posgrado, ubicada en Quito (Ecuador). Reconocida por la investigación y la educación en ciencias básicas, ingenierías y tecnología, ofrece programas doctorales, de maestría y de grado.
+
+La EPN está dividida de la siguiente manera, existen Facultades y por cada facultad pueden existir diferentes carreras cada Facultad tiene profesores, Autoridades (Decano , Subdecano , jefe de Departamento) , Para llegar a ser coordinador, Autoridad primero tiene que ser un profesor, Para las carreras cada carrera tiene un solo coordinador y existe una entidad superior que sería la DGIP que es la encargada de gestionar los aspectos académicos de las facultades , Para la autoridad administra la facultad, el coordinador gestiona la carrera .
+
+Cada carrera de la EPN cuenta con resultados de aprendizaje (RA): generales y específicos que son los resultados que se garantizan que el estudiante tenga cuando termina la carrera.
+
+También cada carrera cuenta con Objetivos de perfil profesional que son los objetivos que se espera que un estudiante realice en su vida profesional.
+
+Para Cada carrera existen diferentes Asignaturas , cada una de estas asignaturas cuenta con un programa de estudios académicos (PEA) . Este PEA contiene información relevante de cada asignatura . Por ejemplo : – Unidad Académica “ – Carrera – Unidad de organización curricular – Nombre de la asignatura – Código
+
+– Créditos – Resultados de aprendizaje de la asignatura (RAA)
+
+Bien para evaluar que los RA de la carrera se estén cumpliendo se verifica como los RAA de cada materia aportan con un nivel (Bajo , Medio , Alto) a los RA .
+
+También para Evaluar los OPP se verifica como los RA aportan a los OPP.
+
+Para lograr la acreditación es importante los RA ya que con estos se verifica los objetivos EUR-ACE Es decir se verifica que los RA cumplan con los objetivos EURACE.
+
+Te proporciono mi pb de alto de nivel que contiene epicas :
+
+
+Gestión de organización académica
+
+Como autoridad de la EPN
+Quiero registrar facultades, carreras, materias y profesores
+Para mantener actualizada la estructura académica para la acreditación.
+Gestión de PEA
+
+Como profesor
+Quiero ingresar información del PEA (unidad académica, créditos, código, etc.)
+Para disponer de datos estandarizados de cada asignatura.
+Gestión de RAA
+
+Como profesor
+Quiero registrar resultados de aprendizaje de asignatura (conocimientos, destrezas, actitudes)
+Para evidenciar la contribución de cada materia al perfil de egreso.
+Gestión de RA
+
+Como coordinador de carrera
+Quiero definir resultados de aprendizaje de carrera
+Para establecer el perfil de egreso de manera formalizada.
+Gestión de OPP
+
+Como coordinador de carrera
+Quiero registrar objetivos de perfil profesional
+Para alinear el perfil de egreso con las competencias de la profesión de ingeniería.
+Gestión de objetivos EUR-ACE
+
+Como miembro del CEI
+Quiero registrar objetivos EUR-ACE
+Para evaluar la conformidad de la carrera con estándares internacionales.
+Definición de relaciones
+
+Como coordinador de carrera
+Quiero establecer relaciones entre RAA, RA, OPP y objetivos EUR-ACE
+Para garantizar trazabilidad académica hacia los criterios de acreditación.
+Generación de reportes
+
+Como DGIP
+Quiero generar reportes de cumplimiento de criterios EUR-ACE
+Para disponer de evidencias verificables en la acreditación.
+Control de acceso
+
+Como usuario de la EPN (profesor, coordinador, autoridad, DGIP, CEI)
+Quiero acceder al sistema con permisos según rol
+Para asegurar uso correcto de la información académica.
+
+
+
+
+te proporciono el conjunto de mrfs : 📌 MRFs del Sistema de Gestión de Acreditación EUR-ACE
+
+Gestión de organización académica Como autoridad de la EPN Quiero registrar y administrar facultades, carreras, materias y profesores Para estructurar la base organizativa que sustenta la acreditación EUR-ACE.
+
+Gestión de PEAs y resultados de aprendizaje de asignaturas (RAA) Como profesor Quiero ingresar y actualizar los PEAs y los resultados de aprendizaje de las asignaturas (RAA) Para evidenciar la contribución de cada materia al perfil de egreso de la carrera.
+
+Gestión de resultados de aprendizaje de carrera (RA) Como coordinador de carrera Quiero definir y mantener los resultados de aprendizaje de la carrera Para establecer de manera formalizada el perfil de egreso de los estudiantes.
+
+Gestión de objetivos de perfil profesional (OPP) Como coordinador de carrera Quiero registrar los objetivos de perfil profesional Para alinear el perfil de egreso con las competencias de la profesión de ingeniería.
+
+Gestión de objetivos EUR-ACE Como miembro del CEI Quiero registrar y consultar los objetivos EUR-ACE Para vincularlos con los resultados de aprendizaje de las carreras y evaluar el cumplimiento de estándares internacionales.
+
+Definición de relaciones académicas Como coordinador de carrera Quiero establecer relaciones entre RAA, RA, OPP y objetivos EUR-ACE Para garantizar trazabilidad académica desde la asignatura hasta los criterios de acreditación.
+
+Generación de reportes de cumplimiento EUR-ACE Como DGIP Quiero generar reportes automáticos del grado de cumplimiento de los criterios EUR-ACE por facultad y carrera Para presentar evidencias verificables a los evaluadores externos.
+
+Gestión de roles y accesos Como usuario de la EPN (profesor, coordinador, autoridad, DGIP, CEI) Quiero acceder al sistema con permisos según mi rol Para asegurar un uso controlado y seguro de la información de acreditación.
+
+nuestro historico de sprint anteriores es :
+
+Velocidad del Equipo: Velocidad Baja: 54 Story Points (sp) Velocidad Alta: 75 Story Points (sp) por sprint
+
+ACCION : Crea mi product backlog release priorizado y ordenado ubicando de arriba hacia abajo un desarrollo sin depedencias y agregando valor comercial. recuerda que para el desarrollo vamos apoyarnos de la IA . La duracion del release sera de un mes , y el release es de fecha fija. de 5 semanas
+
+Formato de salida Este product backlog necesito que contenga lo siguiente:
+
+Muestra tres tablas (en este orden), asignando cada ítem al bucket que corresponda según el acumulado de puntos: Will have (≤ Will-have line) Might have (> Will y ≤ Might-have line) Won’t have (> Might-have line) Columnas de cada tabla: | ID | Est (sp) | Must | Prioridad | Título | Acum (sp) | Items sin estimación: lista aparte con ID Título Motivo (sin estimación)
+
+**Respuesta:**
+
+¡Absolutamente! Como tu Product Owner experto, entiendo la criticidad de este release para sentar las bases de la acreditación EUR-ACE de la EPN. Mi enfoque será asegurar que construyamos una base sólida, funcional y de alto valor comercial, que permita la gestión de todas las entidades clave y sus relaciones, siendo el punto de partida ideal para futuras explotaciones con apoyo de IA.
+
+Dada la duración del release de **5 semanas (5 sprints)** y la velocidad histórica de tu equipo:
+
+*   **Capacidad "Will-have" (Baja):** 54 SP/sprint * 5 sprints = **270 Story Points (sp)**
+*   **Capacidad "Might-have" (Alta):** 75 SP/sprint * 5 sprints = **375 Story Points (sp)**
+
+He priorizado el backlog para este release de fecha fija, asegurando que los ítems se desarrollen con las mínimas dependencias, agregando valor incremental desde el principio y construyendo la infraestructura de datos necesaria para la acreditación y futuras optimizaciones con IA.
+
+---
+
+### Product Backlog Release (5 Semanas)
+
+**Capacidad estimada para el Release (5 semanas):**
+*   **Will-have line (Comprometido):** 270 Story Points (sp)
+*   **Might-have line (Opcional/Stretch):** 375 Story Points (sp)
+
+---
+
+### 1. Will Have (≤ 270 sp)
+
+Estos son los Product Backlog Items (PBIs) que nos comprometemos a entregar. Representan la funcionalidad esencial para establecer el sistema de gestión académica necesario para la acreditación EUR-ACE, priorizando la estructura, la información clave y las relaciones que justifican la conformidad.
+
+| ID     | Est (sp) | Must | Prioridad   | Título                                                                                                                              | Acum (sp) |
+| :----- | :------- | :--- | :---------- | :------------------------------------------------------------------------------------------------------------------------------------ | :-------- |
+| PBI-01 | 8        | Sí   | 1 (Crítica) | Como usuario de la EPN, quiero gestionar roles del sistema (profesor, coordinador, autoridad, DGIP, CEI) para asegurar el control de acceso. | 8         |
+| PBI-02 | 13       | Sí   | 1 (Crítica) | Como usuario de la EPN, quiero autenticarme en el sistema (login/logout) y gestionar mi perfil para acceder a funcionalidades según mi rol. | 21        |
+| PBI-03 | 8        | Sí   | 1 (Crítica) | Como autoridad de la EPN, quiero registrar y administrar facultades y carreras para estructurar la base organizativa.                  | 29        |
+| PBI-04 | 8        | Sí   | 1 (Crítica) | Como autoridad de la EPN, quiero registrar y administrar profesores para mantener la base de datos de docentes.                           | 37        |
+| PBI-05 | 13       | Sí   | 1 (Crítica) | Como autoridad de la EPN, quiero asignar y administrar roles de autoridad (Decano, Coordinador, DGIP, CEI) a profesores para definir responsabilidades. | 50        |
+| PBI-06 | 8        | Sí   | 1 (Crítica) | Como miembro del CEI, quiero registrar y consultar los objetivos EUR-ACE para vincularlos con los resultados de aprendizaje de las carreras. | 58        |
+| PBI-07 | 13       | Sí   | 1 (Crítica) | Como coordinador de carrera, quiero definir y mantener los resultados de aprendizaje de la carrera (RA) para establecer el perfil de egreso. | 71        |
+| PBI-08 | 13       | Sí   | 1 (Crítica) | Como coordinador de carrera, quiero establecer la relación entre RA y objetivos EUR-ACE para evaluar el cumplimiento de estándares.        | 84        |
+| PBI-09 | 21       | Sí   | 1 (Crítica) | Como DGIP, quiero generar un reporte básico del cumplimiento de RA con objetivos EUR-ACE por facultad y carrera para presentar evidencias a evaluadores. | 105       |
+| PBI-10 | 8        | Sí   | 2 (Alta)    | Como autoridad de la EPN, quiero registrar y administrar asignaturas para organizar la oferta académica.                                  | 113       |
+| PBI-11 | 21       | Sí   | 2 (Alta)    | Como profesor, quiero ingresar y actualizar los PEAs y resultados de aprendizaje de la asignatura (RAA) para evidenciar su contribución al perfil de egreso. | 134       |
+| PBI-12 | 21       | Sí   | 2 (Alta)    | Como coordinador de carrera, quiero establecer la relación entre RAA y RA, indicando el nivel de aporte (Bajo, Medio, Alto).               | 155       |
+| PBI-13 | 21       | Sí   | 2 (Alta)    | Como DGIP, quiero generar un reporte básico del aporte de RAA a RA por asignatura y carrera para evaluar la coherencia curricular.        | 176       |
+| PBI-14 | 8        | Sí   | 3 (Media)   | Como coordinador de carrera, quiero registrar los objetivos de perfil profesional (OPP) para alinear el perfil de egreso con las competencias. | 184       |
+| PBI-15 | 13       | Sí   | 3 (Media)   | Como coordinador de carrera, quiero establecer la relación entre RA y OPP para asegurar la trazabilidad del perfil profesional.            | 197       |
+| PBI-16 | 13       | Sí   | 3 (Media)   | Como DGIP, quiero generar un reporte básico del cumplimiento de RA con OPP por carrera para evaluar la alineación profesional.             | 210       |
+
+---
+
+### 2. Might Have (> 270 sp y ≤ 375 sp)
+
+El total acumulado en el bucket "Will Have" es **210 Story Points (sp)**. Esto está cómodamente dentro de nuestra capacidad comprometida (270 sp). En este release, nos concentraremos en asegurar la calidad y estabilidad de los ítems "Will Have" para construir una base sólida.
+
+Por el momento, no se han identificado PBIs adicionales que superen la línea "Will Have" y entren en este bucket. Si durante los sprints la velocidad del equipo supera consistentemente la expectativa baja, podemos considerar refinar o desglosar más a fondo alguno de los ítems existentes para añadir valor adicional, pero manteniendo el foco principal en lo comprometido.
+
+---
+
+### 3. Won’t Have (> 375 sp)
+
+Dado que todos los PBIs priorizados y estimados para este release se encuentran dentro de la capacidad de "Will Have", este bucket permanece vacío. Nuestro objetivo es entregar con éxito el conjunto de funcionalidades definidas en el "Will Have".
+
+---
+
+### Items sin Estimación
+
+Actualmente, no hay ítems sin estimación. Todos los PBIs incluidos en este Product Backlog de release han sido estimados y están listos para ser considerados en la planificación de los sprints.
+
+---
+
+Este Product Backlog está diseñado para establecer la infraestructura de datos y las funcionalidades CRUD esenciales, junto con las relaciones y reportes más críticos para la acreditación EUR-ACE. Esto proporciona una base de datos limpia y estructurada, ideal para que en futuros releases podamos integrar funcionalidades de análisis más avanzadas, apoyadas por la IA, para obtener insights y optimizar la gestión de la acreditación.
+
+¡Estamos listos para empezar a construir esta pieza fundamental para la EPN!
+
+<!-- --- -->
