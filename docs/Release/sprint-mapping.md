@@ -740,3 +740,273 @@ Este plan de sprints está diseñado para construir un Producto Mínimo Viable (
 *   [Sprint 5: Acreditación y Reporte Inicial](#Sprint_5_Acreditacion_y_Reporte_Inicial)
 
 <!-- --- -->
+
+## PROMPT 8
+
+**Prompt:**
+
+ROL Actua como un Product owner que es experto en gestión de productos de Software.
+
+objetivo:
+
+Definir el SPRINT maapping para construir el producto software
+
+CONTEXTO
+
+EUR-ACE es una etiqueta de calidad y un sistema de acreditación para programas de estudios de ingeniería a nivel de grado y máster. La etiqueta, que es reconocida a nivel europeo e internacional, es un certificado que garantiza que el programa de estudios cumple con altos estándares de calidad y con las exigencias de la profesión de ingeniería.
+
+La Escuela Politécnica Nacional, o EPN, es una universidad pública, de grado y posgrado, ubicada en Quito (Ecuador). Reconocida por la investigación y la educación en ciencias básicas, ingenierías y tecnología, ofrece programas doctorales, de maestría y de grado.
+
+La EPN está dividida de la siguiente manera, existen Facultades y por cada facultad pueden existir diferentes carreras cada Facultad tiene profesores, Autoridades (Decano , Subdecano , jefe de Departamento) , Para llegar a ser coordinador, Autoridad primero tiene que ser un profesor, Para las carreras cada carrera tiene un solo coordinador y existe una entidad superior que sería la DGIP que es la encargada de gestionar los aspectos académicos de las facultades , Para la autoridad administra la facultad, el coordinador gestiona la carrera .
+
+Cada carrera de la EPN cuenta con resultados de aprendizaje (RA): generales y específicos que son los resultados que se garantizan que el estudiante tenga cuando termina la carrera.
+
+También cada carrera cuenta con Objetivos de perfil profesional que son los objetivos que se espera que un estudiante realice en su vida profesional.
+
+Para Cada carrera existen diferentes Asignaturas , cada una de estas asignaturas cuenta con un programa de estudios académicos (PEA) . Este PEA contiene información relevante de cada asignatura . Por ejemplo : -- Unidad Académica " -- Carrera -- Unidad de organización curricular -- Nombre de la asignatura -- Código
+
+-- Créditos -- Resultados de aprendizaje de la asignatura (RAA)
+
+Bien para evaluar que los RA de la carrera se estén cumpliendo se verifica como los RAA de cada materia aportan con un nivel (Bajo , Medio , Alto) a los RA .
+
+También para Evaluar los OPP se verifica como los RA aportan a los OPP.
+
+Para lograr la acreditación es importante los RA ya que con estos se verifica los objetivos EUR-ACE Es decir se verifica que los RA cumplan con los objetivos EURACE.
+
+te proporciono el conjunto de mrfs : 📌 MRFs del Sistema de Gestión de Acreditación EUR-ACE
+
+Gestión de organización académica Como autoridad de la EPN Quiero registrar y administrar facultades, carreras, materias y profesores Para estructurar la base organizativa que sustenta la acreditación EUR-ACE.
+
+Gestión de PEAs y resultados de aprendizaje de asignaturas (RAA) Como profesor Quiero ingresar y actualizar los PEAs y los resultados de aprendizaje de las asignaturas (RAA) Para evidenciar la contribución de cada materia al perfil de egreso de la carrera.
+
+Gestión de resultados de aprendizaje de carrera (RA) Como coordinador de carrera Quiero definir y mantener los resultados de aprendizaje de la carrera Para establecer de manera formalizada el perfil de egreso de los estudiantes.
+
+Gestión de objetivos de perfil profesional (OPP) Como coordinador de carrera Quiero registrar los objetivos de perfil profesional Para alinear el perfil de egreso con las competencias de la profesión de ingeniería.
+
+Gestión de objetivos EUR-ACE Como miembro del CEI Quiero registrar y consultar los objetivos EUR-ACE Para vincularlos con los resultados de aprendizaje de las carreras y evaluar el cumplimiento de estándares internacionales.
+
+Definición de relaciones académicas Como coordinador de carrera Quiero establecer relaciones entre RAA, RA, OPP y objetivos EUR-ACE Para garantizar trazabilidad académica desde la asignatura hasta los criterios de acreditación.
+
+Generación de reportes de cumplimiento EUR-ACE Como DGIP Quiero generar reportes automáticos del grado de cumplimiento de los criterios EUR-ACE por facultad y carrera Para presentar evidencias verificables a los evaluadores externos.
+
+Gestión de roles y accesos Como usuario de la EPN (profesor, coordinador, autoridad, DGIP, CEI) Quiero acceder al sistema con permisos según mi rol Para asegurar un uso controlado y seguro de la información de acreditación.
+
+ACCION
+
+Crea el SPRINT MAPPING identificando dependencias , valor comercial , lor comercial en cada sprint y sigue este formato:
+
+FORMATO DE SALIDA : Sprint Mapping Sprint 1: (1 de mayo – 15 de mayo) Objetivo: PBI:
+
+para el objetivo ten en cuenta que debe ser un objetivo comercial claro y conciso , para los PBI usa el formato de una HU no uses "y ni o " las hu deben ser claras
+
+[ERROR: Bad request - please check your parameters]
+
+ROL Actua como un Product owner que es experto en gestión de productos de Software.
+
+objetivo:
+
+Definir el SPRINT maapping para construir el producto software
+
+CONTEXTO
+
+EUR-ACE es una etiqueta de calidad y un sistema de acreditación para programas de estudios de ingeniería a nivel de grado y máster. La etiqueta, que es reconocida a nivel europeo e internacional, es un certificado que garantiza que el programa de estudios cumple con altos estándares de calidad y con las exigencias de la profesión de ingeniería.
+
+La Escuela Politécnica Nacional, o EPN, es una universidad pública, de grado y posgrado, ubicada en Quito (Ecuador). Reconocida por la investigación y la educación en ciencias básicas, ingenierías y tecnología, ofrece programas doctorales, de maestría y de grado.
+
+La EPN está dividida de la siguiente manera, existen Facultades y por cada facultad pueden existir diferentes carreras cada Facultad tiene profesores, Autoridades (Decano , Subdecano , jefe de Departamento) , Para llegar a ser coordinador, Autoridad primero tiene que ser un profesor, Para las carreras cada carrera tiene un solo coordinador y existe una entidad superior que sería la DGIP que es la encargada de gestionar los aspectos académicos de las facultades , Para la autoridad administra la facultad, el coordinador gestiona la carrera .
+
+Cada carrera de la EPN cuenta con resultados de aprendizaje (RA): generales y específicos que son los resultados que se garantizan que el estudiante tenga cuando termina la carrera.
+
+También cada carrera cuenta con Objetivos de perfil profesional que son los objetivos que se espera que un estudiante realice en su vida profesional.
+
+Para Cada carrera existen diferentes Asignaturas , cada una de estas asignaturas cuenta con un programa de estudios académicos (PEA) . Este PEA contiene información relevante de cada asignatura . Por ejemplo : -- Unidad Académica " -- Carrera -- Unidad de organización curricular -- Nombre de la asignatura -- Código
+
+-- Créditos -- Resultados de aprendizaje de la asignatura (RAA)
+
+Bien para evaluar que los RA de la carrera se estén cumpliendo se verifica como los RAA de cada materia aportan con un nivel (Bajo , Medio , Alto) a los RA .
+
+También para Evaluar los OPP se verifica como los RA aportan a los OPP.
+
+Para lograr la acreditación es importante los RA ya que con estos se verifica los objetivos EUR-ACE Es decir se verifica que los RA cumplan con los objetivos EURACE.
+
+te proporciono el conjunto de mrfs : 📌 MRFs del Sistema de Gestión de Acreditación EUR-ACE
+
+Gestión de organización académica Como autoridad de la EPN Quiero registrar y administrar facultades, carreras, materias y profesores Para estructurar la base organizativa que sustenta la acreditación EUR-ACE.
+
+Gestión de PEAs y resultados de aprendizaje de asignaturas (RAA) Como profesor Quiero ingresar y actualizar los PEAs y los resultados de aprendizaje de las asignaturas (RAA) Para evidenciar la contribución de cada materia al perfil de egreso de la carrera.
+
+Gestión de resultados de aprendizaje de carrera (RA) Como coordinador de carrera Quiero definir y mantener los resultados de aprendizaje de la carrera Para establecer de manera formalizada el perfil de egreso de los estudiantes.
+
+Gestión de objetivos de perfil profesional (OPP) Como coordinador de carrera Quiero registrar los objetivos de perfil profesional Para alinear el perfil de egreso con las competencias de la profesión de ingeniería.
+
+Gestión de objetivos EUR-ACE Como miembro del CEI Quiero registrar y consultar los objetivos EUR-ACE Para vincularlos con los resultados de aprendizaje de las carreras y evaluar el cumplimiento de estándares internacionales.
+
+Definición de relaciones académicas Como coordinador de carrera Quiero establecer relaciones entre RAA, RA, OPP y objetivos EUR-ACE Para garantizar trazabilidad académica desde la asignatura hasta los criterios de acreditación.
+
+Generación de reportes de cumplimiento EUR-ACE Como DGIP Quiero generar reportes automáticos del grado de cumplimiento de los criterios EUR-ACE por facultad y carrera Para presentar evidencias verificables a los evaluadores externos.
+
+Gestión de roles y accesos Como usuario de la EPN (profesor, coordinador, autoridad, DGIP, CEI) Quiero acceder al sistema con permisos según mi rol Para asegurar un uso controlado y seguro de la información de acreditación.
+
+ACCION: Crea el SPRINT MAPPING identificando dependencias , valor comercial , lor comercial en cada sprint y sigue este formato:
+
+utiliza el siguiente FORMATO DE SALIDA :
+Sprint Mapping Sprint 1: (1 de mayo – 15 de mayo) Objetivo: PBI: ejemplo : Release Mapping – Sistema de Acreditación EUR-ACE
+
+Sprint 1: (16 de septiembre – 22 de septiembre) - Objetivo: Establecer la base académica digital para que la EPN organice facultades, carreras y materias en un sistema unificado. - PBI: - Gestión de organización académica - Gestión de roles y accesos básicos
+
+Sprint 1: (7 de octubre – 13 de octubre) - Objetivo: ejemplo de objetivo - PBI: - pbis Sprint 2: (7 de octubre – 13 de octubre) - Objetivo: ejemplo de objetivo - PBI: - pbis
+
+Sprint 4: (7 de octubre – 13 de octubre) - Objetivo: ejemplo de objetivo - PBI: - pbis
+
+Sprint 5: () - Objetivo: ejemplo de objetivo - PBI: - pbis
+
+para el objetivo ten en cuenta que debe ser un objetivo comercial claro y conciso . para el objetivo ten en cuenta que debe ser un objetivo comercial claro y conciso ,
+
+**Respuesta:**
+
+[
+  {
+    "type": "Wiki",
+    "title": "Sprint 1: (1 de mayo – 15 de mayo)",
+    "path": "/Sprint_Mapping/Sprint_1_Plan",
+    "content": "# Plan del Sprint 1\n\n## Objetivo del Sprint 1:\nEstablecer la base organizativa de la EPN y asegurar un acceso controlado al sistema para todos los roles, cimentando la estructura inicial para la acreditación."
+  },
+  {
+    "title": "HU: Administrar Estructura Organizativa EPN",
+    "como": "autoridad de la EPN",
+    "quiero": "registrar y administrar facultades, carreras, materias y profesores",
+    "para": "estructurar la base organizativa que sustenta la acreditación EUR-ACE",
+    "acceptanceCriteria": [
+      "La autoridad puede crear, editar y eliminar facultades con sus detalles",
+      "La autoridad puede crear, editar y eliminar carreras asociadas a una facultad",
+      "La autoridad puede crear, editar y eliminar materias asociadas a una carrera",
+      "La autoridad puede registrar profesores y asignarlos a una o varias facultades y materias",
+      "Se evita la creación de duplicados para facultades, carreras, materias y profesores por sus códigos únicos o nombres"
+    ],
+    "storyPoints": 8,
+    "priority": 1
+  },
+  {
+    "title": "HU: Gestionar Roles y Accesos de Usuarios",
+    "como": "administrador del sistema",
+    "quiero": "configurar los roles de usuario (Profesor, Coordinador, Autoridad, DGIP, Miembro del CEI) y sus permisos de acceso",
+    "para": "asegurar un uso controlado y seguro de la información de acreditación y permitir que cada usuario realice sus funciones específicas",
+    "acceptanceCriteria": [
+      "El administrador puede asignar roles a usuarios existentes (profesores)",
+      "Cada rol tiene un conjunto predefinido de permisos sobre las funcionalidades del sistema (ej. Profesor solo puede editar sus PEAs)",
+      "Los usuarios solo pueden ver y editar la información relevante a su rol y las entidades a las que están asignados (ej. Coordinador solo ve sus carreras)",
+      "El sistema autentica a los usuarios al iniciar sesión"
+    ],
+    "storyPoints": 5,
+    "priority": 1
+  },
+  {
+    "type": "Wiki",
+    "title": "Sprint 2: (16 de mayo – 30 de mayo)",
+    "path": "/Sprint_Mapping/Sprint_2_Plan",
+    "content": "# Plan del Sprint 2\n\n## Objetivo del Sprint 2:\nCapacitar a los coordinadores para formalizar los perfiles de egreso y profesionales de cada carrera, sentando las bases de los resultados esperados."
+  },
+  {
+    "title": "HU: Definir Resultados de Aprendizaje de Carrera (RA)",
+    "como": "coordinador de carrera",
+    "quiero": "definir y mantener los resultados de aprendizaje (generales y específicos) para mi carrera",
+    "para": "establecer de manera formalizada el perfil de egreso de los estudiantes",
+    "acceptanceCriteria": [
+      "El coordinador puede crear nuevos RA (generales/específicos) para su carrera",
+      "El coordinador puede editar y eliminar RA existentes para su carrera",
+      "Cada RA debe tener un código único y una descripción",
+      "Se visualiza la lista de RA definidos para cada carrera"
+    ],
+    "storyPoints": 3,
+    "priority": 2
+  },
+  {
+    "title": "HU: Registrar Objetivos de Perfil Profesional (OPP)",
+    "como": "coordinador de carrera",
+    "quiero": "registrar los objetivos de perfil profesional para mi carrera",
+    "para": "alinear el perfil de egreso con las competencias de la profesión de ingeniería",
+    "acceptanceCriteria": [
+      "El coordinador puede crear, editar y eliminar OPP para su carrera",
+      "Cada OPP debe tener un código único y una descripción",
+      "Se visualiza la lista de OPP definidos para cada carrera"
+    ],
+    "storyPoints": 3,
+    "priority": 2
+  },
+  {
+    "type": "Wiki",
+    "title": "Sprint 3: (1 de junio – 15 de junio)",
+    "path": "/Sprint_Mapping/Sprint_3_Plan",
+    "content": "# Plan del Sprint 3\n\n## Objetivo del Sprint 3:\nHabilitar a los profesores para detallar la contribución de sus asignaturas a los resultados de aprendizaje de la carrera, enriqueciendo la evidencia académica."
+  },
+  {
+    "title": "HU: Gestionar PEAs y Resultados de Aprendizaje de Asignaturas (RAA)",
+    "como": "profesor",
+    "quiero": "ingresar y actualizar los PEAs y los resultados de aprendizaje de las asignaturas (RAA) de mis materias asignadas",
+    "para": "evidenciar la contribución de cada materia al perfil de egreso de la carrera",
+    "acceptanceCriteria": [
+      "El profesor puede seleccionar una de sus materias asignadas",
+      "El profesor puede ingresar los detalles del PEA (Unidad Académica, Carrera, Unidad de organización curricular, Nombre de la asignatura, Código, Créditos)",
+      "El profesor puede definir los RAA (Conocimiento, Destrezas, Valores y actitudes) asociados a cada PEA",
+      "El profesor puede editar y eliminar RAA existentes",
+      "Se asegura que los RAA tengan una descripción clara"
+    ],
+    "storyPoints": 5,
+    "priority": 2
+  },
+  {
+    "type": "Wiki",
+    "title": "Sprint 4: (16 de junio – 30 de junio)",
+    "path": "/Sprint_Mapping/Sprint_4_Plan",
+    "content": "# Plan del Sprint 4\n\n## Objetivo del Sprint 4:\nIntegrar los estándares EUR-ACE y establecer las relaciones clave entre los resultados de aprendizaje a nivel de asignatura y carrera, creando la trazabilidad necesaria para la acreditación."
+  },
+  {
+    "title": "HU: Gestionar Objetivos de Acreditación EUR-ACE",
+    "como": "miembro del CEI",
+    "quiero": "registrar y consultar los objetivos específicos del sello EUR-ACE",
+    "para": "vincularlos con los resultados de aprendizaje de las carreras y evaluar el cumplimiento de estándares internacionales",
+    "acceptanceCriteria": [
+      "El miembro del CEI puede crear, editar y eliminar objetivos EUR-ACE",
+      "Cada objetivo EUR-ACE debe tener un código, una descripción y categoría",
+      "Se visualiza la lista completa de objetivos EUR-ACE"
+    ],
+    "storyPoints": 3,
+    "priority": 3
+  },
+  {
+    "title": "HU: Establecer Mapeo de Relaciones Académicas",
+    "como": "coordinador de carrera",
+    "quiero": "establecer las relaciones de contribución entre RAA, RA, OPP y los objetivos EUR-ACE para mi carrera",
+    "para": "garantizar la trazabilidad académica desde la asignatura hasta los criterios de acreditación y evaluar el cumplimiento",
+    "acceptanceCriteria": [
+      "El coordinador puede vincular RAA de una materia a RA de su carrera, definiendo un nivel de contribución (Bajo, Medio, Alto)",
+      "El coordinador puede vincular RA de su carrera a OPP",
+      "El coordinador puede vincular RA de su carrera a objetivos EUR-ACE",
+      "El sistema muestra visualmente las relaciones establecidas para facilitar la verificación"
+    ],
+    "storyPoints": 8,
+    "priority": 3
+  },
+  {
+    "type": "Wiki",
+    "title": "Sprint 5: (1 de julio – 15 de julio)",
+    "path": "/Sprint_Mapping/Sprint_5_Plan",
+    "content": "# Plan del Sprint 5\n\n## Objetivo del Sprint 5:\nProporcionar a la DGIP las herramientas para generar reportes automatizados y confiables del cumplimiento EUR-ACE, facilitando la auditoría y la toma de decisiones estratégicas."
+  },
+  {
+    "title": "HU: Generar Reportes de Cumplimiento EUR-ACE",
+    "como": "DGIP",
+    "quiero": "generar reportes automáticos del grado de cumplimiento de los criterios EUR-ACE por facultad y carrera",
+    "para": "presentar evidencias verificables a los evaluadores externos y tomar decisiones informadas",
+    "acceptanceCriteria": [
+      "El DGIP puede seleccionar una facultad y/o carrera para generar un reporte",
+      "El reporte muestra el grado de cumplimiento de los objetivos EUR-ACE, basado en las relaciones RAA->RA->EUR-ACE",
+      "El reporte es exportable en formatos comunes (ej. PDF, Excel)",
+      "El reporte incluye un resumen y detalles de las contribuciones"
+    ],
+    "storyPoints": 13,
+    "priority": 4
+  }
+]
+
+<!-- --- -->
