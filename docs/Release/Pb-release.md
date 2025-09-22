@@ -621,3 +621,132 @@ Basado en los PBIs identificados hasta el momento (134 sp), no hay ítems que ca
 Actualmente, no hay ítems sin estimación. Todos los PBIs identificados han recibido una estimación de Story Points y, con la capacidad extendida, todos se encuentran dentro de la línea de compromiso "Will Have".
 
 <!-- --- -->
+
+## PROMPT 8
+
+**Prompt:**
+
+ROL Actua como un Product owner que es experto en gestión de productos de Software.
+
+objetivo:
+
+Definir el product backlog para establecer los pbis para mi producto software a desarrollar , teniendo en cuenta que el release será un release de fecha fija de un mes.
+
+CONTEXTO
+
+EUR-ACE es una etiqueta de calidad y un sistema de acreditación para programas de estudios de ingeniería a nivel de grado y máster. La etiqueta, que es reconocida a nivel europeo e internacional, es un certificado que garantiza que el programa de estudios cumple con altos estándares de calidad y con las exigencias de la profesión de ingeniería.
+
+La Escuela Politécnica Nacional, o EPN, es una universidad pública, de grado y posgrado, ubicada en Quito (Ecuador). Reconocida por la investigación y la educación en ciencias básicas, ingenierías y tecnología, ofrece programas doctorales, de maestría y de grado.
+
+La EPN está dividida de la siguiente manera, existen Facultades y por cada facultad pueden existir diferentes carreras cada Facultad tiene profesores, Autoridades (Decano , Subdecano , jefe de Departamento) , Para llegar a ser coordinador, Autoridad primero tiene que ser un profesor, Para las carreras cada carrera tiene un solo coordinador y existe una entidad superior que sería la DGIP que es la encargada de gestionar los aspectos académicos de las facultades , Para la autoridad administra la facultad, el coordinador gestiona la carrera .
+
+Cada carrera de la EPN cuenta con resultados de aprendizaje (RA): generales y específicos que son los resultados que se garantizan que el estudiante tenga cuando termina la carrera.
+
+También cada carrera cuenta con Objetivos de perfil profesional que son los objetivos que se espera que un estudiante realice en su vida profesional.
+
+Para Cada carrera existen diferentes Asignaturas , cada una de estas asignaturas cuenta con un programa de estudios académicos (PEA) . Este PEA contiene información relevante de cada asignatura . Por ejemplo : – Unidad Académica “ – Carrera – Unidad de organización curricular – Nombre de la asignatura – Código
+
+– Créditos – Resultados de aprendizaje de la asignatura (RAA)
+
+Bien para evaluar que los RA de la carrera se estén cumpliendo se verifica como los RAA de cada materia aportan con un nivel (Bajo , Medio , Alto) a los RA .
+
+También para Evaluar los OPP se verifica como los RA aportan a los OPP.
+
+Para lograr la acreditación es importante los RA ya que con estos se verifica los objetivos EUR-ACE Es decir se verifica que los RA cumplan con los objetivos EURACE.
+
+te proporciono el conjunto de mrfs : 📌 MRFs del Sistema de Gestión de Acreditación EUR-ACE
+
+Gestión de organización académica Como autoridad de la EPN Quiero registrar y administrar facultades, carreras, materias y profesores Para estructurar la base organizativa que sustenta la acreditación EUR-ACE.
+
+Gestión de PEAs y resultados de aprendizaje de asignaturas (RAA) Como profesor Quiero ingresar y actualizar los PEAs y los resultados de aprendizaje de las asignaturas (RAA) Para evidenciar la contribución de cada materia al perfil de egreso de la carrera.
+
+Gestión de resultados de aprendizaje de carrera (RA) Como coordinador de carrera Quiero definir y mantener los resultados de aprendizaje de la carrera Para establecer de manera formalizada el perfil de egreso de los estudiantes.
+
+Gestión de objetivos de perfil profesional (OPP) Como coordinador de carrera Quiero registrar los objetivos de perfil profesional Para alinear el perfil de egreso con las competencias de la profesión de ingeniería.
+
+Gestión de objetivos EUR-ACE Como miembro del CEI Quiero registrar y consultar los objetivos EUR-ACE Para vincularlos con los resultados de aprendizaje de las carreras y evaluar el cumplimiento de estándares internacionales.
+
+Definición de relaciones académicas Como coordinador de carrera Quiero establecer relaciones entre RAA, RA, OPP y objetivos EUR-ACE Para garantizar trazabilidad académica desde la asignatura hasta los criterios de acreditación.
+
+Generación de reportes de cumplimiento EUR-ACE Como DGIP Quiero generar reportes automáticos del grado de cumplimiento de los criterios EUR-ACE por facultad y carrera Para presentar evidencias verificables a los evaluadores externos.
+
+Gestión de roles y accesos Como usuario de la EPN (profesor, coordinador, autoridad, DGIP, CEI) Quiero acceder al sistema con permisos según mi rol Para asegurar un uso controlado y seguro de la información de acreditación.
+
+nuestro historico de sprint anteriores es :
+
+Velocidad del Equipo: Velocidad Baja: 54 Story Points (sp) Velocidad Alta: 75 Story Points (sp) por sprint
+
+ACCION : Crea mi product backlog release priorizado y ordenado ubicando de arriba hacia abajo un desarrollo sin depedencias y agregando valor comercial. recuerda que para el desarrollo vamos apoyarnos de la IA . La duracion del release sera de un mes , y el release es de fecha fija. de 5 semanas 
+
+Formato de salida Este product backlog necesito que contenga lo siguiente:
+
+Muestra tres tablas (en este orden), asignando cada ítem al bucket que corresponda según el acumulado de puntos: Will have (≤ Will-have line) Might have (> Will y ≤ Might-have line) Won’t have (> Might-have line) Columnas de cada tabla: | ID | Est (sp) | Must | Prioridad | Título | Acum (sp) | Items sin estimación: lista aparte con ID Título Motivo (sin estimación)
+
+**Respuesta:**
+
+¡Excelente! He recibido la información clara sobre el release de fecha fija de **5 semanas (5 sprints)** y las capacidades actualizadas de tu equipo. Entendido el rol, el contexto de la EPN y la importancia de la acreditación EUR-ACE.
+
+Como tu Product Owner, mi objetivo es maximizar el valor entregado en este release, priorizando lo que nos da la base más sólida para la acreditación y futuras funcionalidades, siempre buscando un flujo de trabajo sin dependencias y con alto valor comercial. La capacidad adicional nos da un gran margen para construir una base robusta.
+
+Basado en tu histórico, nuestras líneas de capacidad para este release de 5 sprints son:
+
+*   **Will-have line (Comprometido):** 54 sp/sprint * 5 sprints = **270 Story Points (sp)**
+*   **Might-have line (Opcional/Stretch):** 75 sp/sprint * 5 sprints = **375 Story Points (sp)**
+
+El Product Backlog que presento a continuación está diseñado para establecer un **sistema de gestión académica fundamental para la acreditación EUR-ACE**. Priorizamos la infraestructura básica, las entidades clave y las relaciones más críticas que permitirán la trazabilidad y la generación de reportes esenciales. La estructuración de estos datos es crucial para el futuro apoyo de la IA en el desarrollo de funcionalidades más avanzadas.
+
+---
+
+### Product Backlog Release (5 Semanas)
+
+**Capacidad estimada para el Release (5 semanas):**
+*   **Will-have line:** 270 Story Points (sp)
+*   **Might-have line:** 375 Story Points (sp)
+
+---
+
+### 1. Will Have (≤ 270 sp)
+
+Estos son los PBIs que nos comprometemos a entregar. Representan la funcionalidad mínima viable para sentar las bases de la acreditación EUR-ACE y están ordenados de mayor a menor prioridad, buscando generar valor incremental y reducir dependencias.
+
+| ID     | Est (sp) | Must | Prioridad | Título                                                               | Acum (sp) |
+| :----- | :------- | :--- | :-------- | :------------------------------------------------------------------- | :-------- |
+| PBI-01 | 13       | Sí   | 1 (Crítica) | Gestión de Roles y Permisos (CRUD básico, asignación a usuarios)     | 13        |
+| PBI-02 | 8        | Sí   | 1 (Crítica) | Autenticación de usuarios (login/logout, recuperación de clave)      | 21        |
+| PBI-03 | 8        | Sí   | 1 (Crítica) | Gestión de Facultades y Carreras (CRUD básico, asociar Facultad-Carrera) | 29        |
+| PBI-04 | 13       | Sí   | 1 (Crítica) | Gestión de Resultados de Aprendizaje de Carrera (RA - CRUD, asociar a Carrera) | 42        |
+| PBI-05 | 8        | Sí   | 1 (Crítica) | Gestión de Objetivos EUR-ACE (CRUD básico)                           | 50        |
+| PBI-06 | 13       | Sí   | 1 (Crítica) | Definición y gestión de la relación RA-Objetivos EUR-ACE (N-M)       | 63        |
+| PBI-07 | 21       | Sí   | 1 (Crítica) | Generación de reporte básico de cumplimiento RA-EUR-ACE (por Carrera y Facultad) | 84        |
+| PBI-08 | 13       | Sí   | 2 (Alta)    | Gestión de Profesores y Asignaturas (CRUD básico, asociar Asignatura a Carrera) | 97        |
+| PBI-09 | 13       | Sí   | 2 (Alta)    | Gestión de Autoridades (CRUD, asociar a Profesor, Decano/Coordinador/DGIP/CEI) | 110       |
+| PBI-10 | 8        | Sí   | 2 (Alta)    | Gestión de Objetivos de Perfil Profesional (OPP - CRUD, asociar a Carrera) | 118       |
+| PBI-11 | 21       | Sí   | 2 (Alta)    | Gestión de PEAs y Resultados de Aprendizaje de Asignatura (RAA - CRUD, dentro de PEA, asociar a Asignatura) | 139       |
+| PBI-12 | 21       | Sí   | 2 (Alta)    | Definición y gestión de la relación RAA-RA (con nivel de aporte: Bajo, Medio, Alto) | 160       |
+| PBI-13 | 21       | Sí   | 2 (Alta)    | Generación de reporte básico de cumplimiento RAA-RA (por Asignatura/Carrera) | 181       |
+| PBI-14 | 8        | Sí   | 3 (Media)   | Definición y gestión de la relación RA-OPP (N-M)                     | 189       |
+| PBI-15 | 13       | Sí   | 3 (Media)   | Generación de reporte de cumplimiento RA-OPP (por Carrera)           | 202       |
+
+---
+
+### 2. Might Have (> 270 sp y ≤ 375 sp)
+
+Con los PBIs actuales sumando 202 sp, nos encontramos cómodamente dentro de la línea "Will Have" de 270 sp. Por lo tanto, no hay PBIs adicionales que caigan en el bucket "Might Have" en este momento. Si surgieran nuevas ideas o desgloses de PBIs existentes, evaluaríamos su inclusión aquí.
+
+---
+
+### 3. Won’t Have (> 375 sp)
+
+Similar al bucket anterior, todos los PBIs identificados están dentro de nuestra capacidad "Will Have". No tenemos elementos que excedan la capacidad "Might Have" en este momento.
+
+---
+
+### Items sin Estimación
+
+Actualmente, no hay ítems sin estimación. Todos los PBIs identificados han recibido una estimación de Story Points y están listos para ser trabajados.
+
+---
+
+Este backlog prioriza una entrega temprana de valor en las funcionalidades de **gestión y establecimiento de las relaciones clave para la acreditación EUR-ACE**, culminando con la capacidad de generar reportes críticos. Esto nos proporciona una base sólida para seguir construyendo sobre ella en futuros releases y para explotar el potencial de la IA. ¡Vamos a por ello!
+
+<!-- --- -->
