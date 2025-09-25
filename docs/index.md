@@ -18,3 +18,7 @@ Este sitio contiene los prompts organizados para el proyecto PoliAcredita.
 - [Sprint-Mapping](Release/sprint-mapping.md)
 
 
+-- Planificacion de los sprints 
+- [Sprint Planning ](Sprints/Sprint-Planning1.md)
+
+
