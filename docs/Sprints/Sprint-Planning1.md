@@ -438,3 +438,185 @@ Ejemplo de salida (formato exacto que debe producir tu generación)
 }
 ]
 ```
+
+## PROMPT 1
+
+**Prompt:**
+
+Objetivo 
+ analizar los prototipos (imágenes) con la finalidad de encontrar las hus representadas en las mismas 
+
+contexto :
+
+Para las hus se debe cumplir con los criterios Criterios INVEST:
+
+INVEST significa:
+
+Independent (Independiente): Una historia debe poder completarse por sí sola, sin depender estrictamente de que otras historias se terminen antes.
+
+Negotiable (Negociable): La historia debe tener detalles que se puedan debatir y acordar con las partes interesadas (ej. desarrolladores, diseñadores).
+
+Valuable (Valiosa): La historia debe responder a una necesidad genuina del usuario y contribuir a la visión del producto y los objetivos comerciales.
+
+Estimable (Estimable): La historia debe poder desglosarse en tareas claras, de forma que el equipo pueda estimar el esfuerzo necesario para completarla.
+
+Small (Pequeña): La historia debe ser lo suficientemente pequeña para poder estimarse con precisión razonable; si es muy grande, debe dividirse en partes más manejables.
+
+Testable (Testeable): Deben existir criterios claros de aceptación que permitan verificar si la historia se implementó con éxito (ej. pruebas de usuario, verificaciones de funcionalidad).
+
+Las hus que debes representar corresponden a mi primer sprint el cual tiene por objetivo : Objetivo: Establecer la base organizativa de la EPN y asegurar el acceso controlado de usuarios.
+ y sus pbis :  PBI: - Gestión de organización académica (Facultades, Carreras, Materias, Profesores)
+
+
+
+Te proporciono unas hu de ejemplo que realizo mi equipo con anterioridad con su respectiva estimación 
+HU :  Agregar miembro de la CEI
+
+Como administrador
+
+quiero registrar a los miembros de la cei  ------ > 3sp
+
+
+HU :Listar miembros de la cei              -------- > 3sp
+
+Como administrador
+
+quiero listar los miembros de la CEI
+
+
+HU : Paginar autoridades
+Como administrador
+quiero listar las autoridades por grupos         ---- ? 1 sp
+
+HU : Filtrar autoridades  ---- > 1sp
+
+Como administrador
+quiero filtrar las autoridades por una palabra
+
+
+Formato de salida por HU (obligatorio):
+
+title, como, quiero, para
+
+acceptanceCriteria: array de strings claros y verificables
+
+storyPoints: número
+
+priority: 1 = alta, 2 = media, 3 = baja (elige según impacto/urgencia)
+
+frontendTasks: array de objetos { "title": string, "originalEstimate": number, "remainingWork": number, "completedWork": number }
+
+backendTasks: array de objetos { "title": string, "originalEstimate": number, "remainingWork": number, "completedWork": number }
+
+Reglas para horas por tarea (FE/BE):
+
+Devuelve horas numéricas (no strings), en horas.
+
+Si no hay señal específica, usa por defecto: originalEstimate = 3, remainingWork = 0, completedWork = 0.
+
+Si la HU es más compleja en un lado (FE o BE), ajusta las horas de esas tareas (p.ej., 4–6h) manteniendo tareas pequeñas (≤6h).
+
+No repitas títulos de tareas; usa verbos en infinitivo.
+
+
+
+ACCION :
+Crea mi sprint planning 1 con las hus representadas en los prototipos (imagenes )
+
+Ejemplo de salida (formato exacto que debe producir tu generación)
+
+[
+{
+"title": "HU: Iniciar Sesión en el Sistema",
+"como": "usuario EPN",
+"quiero": "acceder con mis credenciales institucionales",
+"para": "usar las funcionalidades de mi rol",
+"acceptanceCriteria": [
+"Se muestra formulario con email institucional y contraseña",
+"Credenciales válidas redirigen al dashboard",
+"Credenciales inválidas muestran mensaje claro",
+"Existe enlace para recuperar contraseña"
+],
+"storyPoints": 3,
+"priority": 1,
+"frontendTasks": [
+{ "title": "Diseñar formulario de login", "originalEstimate": 3, "remainingWork": 0, "completedWork": 0 },
+{ "title": "Validar formato de email en cliente", "originalEstimate": 2, "remainingWork": 0, "completedWork": 0 },
+{ "title": "Enviar credenciales y manejar estados de éxito/error", "originalEstimate": 3, "remainingWork": 0, "completedWork": 0 }
+],
+"backendTasks": [
+{ "title": "Crear endpoint POST /auth/login", "originalEstimate": 3, "remainingWork": 0, "completedWork": 0 },
+{ "title": "Verificar credenciales y generar JWT", "originalEstimate": 3, "remainingWork": 0, "completedWork": 0
+
+**Respuesta:**
+
+```json
+{
+  "title": "HU: Iniciar Sesión en el Sistema",
+  "como": "Usuario del sistema SAGA EPN EUR-ACE",
+  "quiero": "ingresar mis credenciales institucionales",
+  "para": "acceder a mis funcionalidades correspondientes a mi rol",
+  "acceptanceCriteria": [
+    "El sistema muestra un formulario de inicio de sesión con campos para email institucional y contraseña",
+    "Al ingresar credenciales válidas, el usuario es redirigido al Dashboard",
+    "Al ingresar credenciales inválidas, se muestra un mensaje de error claro",
+    "Existe un enlace para '¿Olvidaste tu contraseña?'"
+  ],
+  "storyPoints": 3,
+  "priority": 1,
+  "frontendTasks": [
+    {
+      "title": "Diseñar y maquetar formulario de inicio de sesión",
+      "originalEstimate": 3,
+      "remainingWork": 0,
+      "completedWork": 0
+    },
+    {
+      "title": "Implementar validación de formato de email en cliente",
+      "originalEstimate": 3,
+      "remainingWork": 0,
+      "completedWork": 0
+    },
+    {
+      "title": "Integrar API de login y manejar respuestas (éxito/error)",
+      "originalEstimate": 4,
+      "remainingWork": 0,
+      "completedWork": 0
+    },
+    {
+      "title": "Implementar redirección al Dashboard tras login exitoso",
+      "originalEstimate": 2,
+      "remainingWork": 0,
+      "completedWork": 0
+    }
+  ],
+  "backendTasks": [
+    {
+      "title": "Crear endpoint de autenticación POST /auth/login",
+      "originalEstimate": 3,
+      "remainingWork": 0,
+      "completedWork": 0
+    },
+    {
+      "title": "Implementar lógica de validación de credenciales",
+      "originalEstimate": 4,
+      "remainingWork": 0,
+      "completedWork": 0
+    },
+    {
+      "title": "Generar y gestionar tokens de autenticación (JWT)",
+      "originalEstimate": 4,
+      "remainingWork": 0,
+      "completedWork": 0
+    },
+    {
+      "title": "Implementar hashing de contraseñas seguro",
+      "originalEstimate": 3,
+      "remainingWork": 0,
+      "completedWork": 0
+    }
+  ]
+}
+```
+
+<!-- --- -->
