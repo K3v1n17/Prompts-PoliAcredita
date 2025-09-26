@@ -1594,3 +1594,141 @@ Aquí tienes la propuesta mejorada:
 Este Product Backlog está diseñado para proporcionar un MVP robusto y funcional en un mes, permitiendo a la EPN dar pasos concretos hacia la formalización y gestión de la información necesaria para la acreditación EUR-ACE, centrándose en las relaciones más críticas y la infraestructura base.
 
 <!-- --- -->
+
+## PROMPT 13
+
+**Prompt:**
+
+¡Excelente! Como Product Owner con experiencia en gestión de productos de software, me complace ayudarte a definir el SPRINT MAPPING para construir el sistema de gestión de acreditación EUR-ACE para la EPN.
+
+Nuestro objetivo principal es construir un sistema que permita a la EPN gestionar, trazar y reportar el cumplimiento de sus programas de ingeniería con los estándares EUR-ACE, facilitando así el proceso de acreditación. Abordaremos el desarrollo en sprints incrementales, priorizando el valor de negocio y las dependencias para entregar una solución robusta y útil.
+
+Aquí te presento el SPRINT MAPPING propuesto:
+
+---
+
+**Introducción del Product Owner:**
+
+Como Product Owner, mi enfoque es maximizar el valor del producto para la EPN, asegurando que cada sprint entregue funcionalidades útiles y que el equipo de desarrollo tenga una visión clara de lo que necesitamos construir. La acreditación EUR-ACE es crítica, por lo que priorizaremos la trazabilidad y la generación de evidencia.
+
+---
+
+**SPRINT MAPPING**
+
+**Sprint 1: Cimientos Organizacionales y Acceso Seguro**
+*   **Período:** (1 de mayo – 15 de mayo)
+*   **Objetivo Comercial:** Establecer la estructura organizativa fundamental de la EPN dentro del sistema y asegurar el acceso controlado para todos los usuarios clave, permitiendo la configuración inicial de datos.
+*   **PBI:**
+    *   **Gestión de Roles y Accesos (MRF 8 - Base):** Permitir el registro de usuarios y la asignación inicial de roles (Autoridad, Profesor, Coordinador, DGIP, CEI) con autenticación segura.
+    *   **Gestión de Organización Académica (MRF 1 - CRUD Básico):** Funcionalidades para registrar, modificar y eliminar Facultades, Carreras, Profesores y Asignaturas.
+    *   Asignación de profesores a asignaturas y facultades.
+*   **Valor Comercial:** Muy Alto. Sin esta base, el sistema no puede funcionar. Proporciona la estructura esencial para gestionar la información académica y garantiza la seguridad y la usabilidad desde el primer momento.
+
+**Sprint 2: Definición de Estándares y Perfiles de Egreso**
+*   **Período:** (16 de mayo – 30 de mayo)
+*   **Objetivo Comercial:** Habilitar a los usuarios clave (Coordinadores de Carrera y CEI) para establecer los objetivos de aprendizaje de las carreras y los criterios de acreditación EUR-ACE, que son los pilares del proceso de acreditación.
+*   **PBI:**
+    *   **Gestión de Resultados de Aprendizaje de Carrera (RA) (MRF 3):** Funcionalidad para que el Coordinador de Carrera defina, modifique y consulte los Resultados de Aprendizaje generales y específicos de cada carrera.
+    *   **Gestión de Objetivos de Perfil Profesional (OPP) (MRF 4):** Funcionalidad para que el Coordinador de Carrera registre, modifique y consulte los Objetivos de Perfil Profesional.
+    *   **Gestión de Objetivos EUR-ACE (MRF 5):** Funcionalidad para que el CEI registre y consulte los objetivos y criterios EUR-ACE.
+*   **Valor Comercial:** Alto. Este sprint define "qué" se espera que logren los estudiantes y "qué" se debe cumplir para la acreditación. Es la base conceptual del sistema y sin estos datos, no se puede evaluar el cumplimiento.
+
+**Sprint 3: Detalle Curricular a Nivel de Asignatura**
+*   **Período:** (1 de junio – 15 de junio)
+*   **Objetivo Comercial:** Permitir a los profesores documentar los programas de estudio de sus asignaturas y definir los resultados de aprendizaje específicos, proveyendo la evidencia granular necesaria.
+*   **PBI:**
+    *   **Gestión de PEAs y Resultados de Aprendizaje de Asignaturas (RAA) (MRF 2):** Funcionalidad para que el Profesor ingrese y actualice la información de los Programas de Estudios Académicos (PEA) y defina los Resultados de Aprendizaje de Asignatura (RAA) asociados.
+    *   Interfaz para vincular PEAs a asignaturas y carreras existentes.
+*   **Valor Comercial:** Alto. Captura el detalle de la implementación curricular, demostrando cómo cada asignatura contribuye a los objetivos de la carrera y, por ende, a la acreditación. Es una fuente fundamental de evidencia.
+
+**Sprint 4: Trazabilidad y Relaciones Académicas (El Corazón del Sistema)**
+*   **Período:** (16 de junio – 30 de junio)
+*   **Objetivo Comercial:** Implementar la lógica central de trazabilidad, permitiendo establecer y visualizar las relaciones entre los diferentes niveles de resultados de aprendizaje y objetivos, crucial para la evaluación EUR-ACE.
+*   **PBI:**
+    *   **Definición de Relaciones Académicas (MRF 6 - RAA a RA):** Habilitar al Coordinador de Carrera para establecer y especificar el nivel de contribución (Bajo, Medio, Alto) de los RAA de una asignatura a los RA de la carrera.
+    *   **Definición de Relaciones Académicas (MRF 6 - RA a OPP):** Habilitar al Coordinador de Carrera para establecer cómo los RA de la carrera contribuyen a los Objetivos de Perfil Profesional (OPP).
+    *   **Definición de Relaciones Académicas (MRF 6 - RA a EUR-ACE):** Habilitar al Coordinador de Carrera (o CEI) para vincular los RA de la carrera con los Objetivos EUR-ACE definidos.
+    *   Visualización de matrices de trazabilidad (RAA-RA, RA-OPP, RA-EUR-ACE) para una carrera.
+*   **Valor Comercial:** **Crítico y extremadamente Alto.** Este sprint entrega la "inteligencia" central del sistema. Sin estas relaciones, la trazabilidad necesaria para la acreditación EUR-ACE no puede ser demostrada, invalidando gran parte del objetivo del producto.
+
+**Sprint 5: Generación de Evidencia para la Acreditación**
+*   **Período:** (1 de julio – 15 de julio)
+*   **Objetivo Comercial:** Proporcionar a la DGIP las herramientas para generar reportes automáticos que evidencien el grado de cumplimiento de los criterios EUR-ACE, facilitando la evaluación externa.
+*   **PBI:**
+    *   **Generación de Reportes de Cumplimiento EUR-ACE (MRF 7 - Versión 1):** Funcionalidad para que la DGIP genere un reporte consolidado del grado de cumplimiento de los criterios EUR-ACE por facultad y carrera.
+    *   Interfaz de selección de filtros para el reporte (Facultad, Carrera).
+    *   Exportación básica del reporte a formatos comunes (ej. PDF).
+*   **Valor Comercial:** **Extremadamente Alto.** Este es el output final y el más visible del valor del sistema. Permite a la EPN presentar pruebas verificables a los evaluadores externos, cumpliendo directamente con el objetivo de la acreditación.
+
+---
+
+Este SPRINT MAPPING proporciona una ruta clara y lógica para construir el sistema, comenzando por los fundamentos y avanzando hacia la lógica de negocio central y la entrega de valor a través de los reportes clave para la acreditación EUR-ACE. Cada sprint está diseñado para entregar valor comercial incremental y abordar las dependencias de manera efectiva.
+
+**Respuesta:**
+
+¡Excelente! Como Product Owner con experiencia en gestión de productos de software, me complace ayudarte a definir el SPRINT MAPPING para construir el sistema de gestión de acreditación EUR-ACE para la EPN.
+
+Nuestro objetivo principal es construir un sistema que permita a la EPN gestionar, trazar y reportar el cumplimiento de sus programas de ingeniería con los estándares EUR-ACE, facilitando así el proceso de acreditación. Abordaremos el desarrollo en sprints incrementales, priorizando el valor de negocio y las dependencias para entregar una solución robusta y útil.
+
+Aquí te presento el SPRINT MAPPING propuesto:
+
+---
+
+**Introducción del Product Owner:**
+
+Como Product Owner, mi enfoque es maximizar el valor del producto para la EPN, asegurando que cada sprint entregue funcionalidades útiles y que el equipo de desarrollo tenga una visión clara de lo que necesitamos construir. La acreditación EUR-ACE es crítica, por lo que priorizaremos la trazabilidad y la generación de evidencia.
+
+---
+
+**SPRINT MAPPING**
+
+**Sprint 1: Cimientos Organizacionales y Acceso Seguro**
+*   **Período:** (1 de mayo – 15 de mayo)
+*   **Objetivo Comercial:** Establecer la estructura organizativa fundamental de la EPN dentro del sistema y asegurar el acceso controlado para todos los usuarios clave, permitiendo la configuración inicial de datos.
+*   **PBI:**
+    *   **Gestión de Roles y Accesos (MRF 8 - Base):** Permitir el registro de usuarios y la asignación inicial de roles (Autoridad, Profesor, Coordinador, DGIP, CEI) con autenticación segura.
+    *   **Gestión de Organización Académica (MRF 1 - CRUD Básico):** Funcionalidades para registrar, modificar y eliminar Facultades, Carreras, Profesores y Asignaturas.
+    *   Asignación de profesores a asignaturas y facultades.
+*   **Valor Comercial:** Muy Alto. Sin esta base, el sistema no puede funcionar. Proporciona la estructura esencial para gestionar la información académica y garantiza la seguridad y la usabilidad desde el primer momento.
+
+**Sprint 2: Definición de Estándares y Perfiles de Egreso**
+*   **Período:** (16 de mayo – 30 de mayo)
+*   **Objetivo Comercial:** Habilitar a los usuarios clave (Coordinadores de Carrera y CEI) para establecer los objetivos de aprendizaje de las carreras y los criterios de acreditación EUR-ACE, que son los pilares del proceso de acreditación.
+*   **PBI:**
+    *   **Gestión de Resultados de Aprendizaje de Carrera (RA) (MRF 3):** Funcionalidad para que el Coordinador de Carrera defina, modifique y consulte los Resultados de Aprendizaje generales y específicos de cada carrera.
+    *   **Gestión de Objetivos de Perfil Profesional (OPP) (MRF 4):** Funcionalidad para que el Coordinador de Carrera registre, modifique y consulte los Objetivos de Perfil Profesional.
+    *   **Gestión de Objetivos EUR-ACE (MRF 5):** Funcionalidad para que el CEI registre y consulte los objetivos y criterios EUR-ACE.
+*   **Valor Comercial:** Alto. Este sprint define "qué" se espera que logren los estudiantes y "qué" se debe cumplir para la acreditación. Es la base conceptual del sistema y sin estos datos, no se puede evaluar el cumplimiento.
+
+**Sprint 3: Detalle Curricular a Nivel de Asignatura**
+*   **Período:** (1 de junio – 15 de junio)
+*   **Objetivo Comercial:** Permitir a los profesores documentar los programas de estudio de sus asignaturas y definir los resultados de aprendizaje específicos, proveyendo la evidencia granular necesaria.
+*   **PBI:**
+    *   **Gestión de PEAs y Resultados de Aprendizaje de Asignaturas (RAA) (MRF 2):** Funcionalidad para que el Profesor ingrese y actualice la información de los Programas de Estudios Académicos (PEA) y defina los Resultados de Aprendizaje de Asignatura (RAA) asociados.
+    *   Interfaz para vincular PEAs a asignaturas y carreras existentes.
+*   **Valor Comercial:** Alto. Captura el detalle de la implementación curricular, demostrando cómo cada asignatura contribuye a los objetivos de la carrera y, por ende, a la acreditación. Es una fuente fundamental de evidencia.
+
+**Sprint 4: Trazabilidad y Relaciones Académicas (El Corazón del Sistema)**
+*   **Período:** (16 de junio – 30 de junio)
+*   **Objetivo Comercial:** Implementar la lógica central de trazabilidad, permitiendo establecer y visualizar las relaciones entre los diferentes niveles de resultados de aprendizaje y objetivos, crucial para la evaluación EUR-ACE.
+*   **PBI:**
+    *   **Definición de Relaciones Académicas (MRF 6 - RAA a RA):** Habilitar al Coordinador de Carrera para establecer y especificar el nivel de contribución (Bajo, Medio, Alto) de los RAA de una asignatura a los RA de la carrera.
+    *   **Definición de Relaciones Académicas (MRF 6 - RA a OPP):** Habilitar al Coordinador de Carrera para establecer cómo los RA de la carrera contribuyen a los Objetivos de Perfil Profesional (OPP).
+    *   **Definición de Relaciones Académicas (MRF 6 - RA a EUR-ACE):** Habilitar al Coordinador de Carrera (o CEI) para vincular los RA de la carrera con los Objetivos EUR-ACE definidos.
+    *   Visualización de matrices de trazabilidad (RAA-RA, RA-OPP, RA-EUR-ACE) para una carrera.
+*   **Valor Comercial:** **Crítico y extremadamente Alto.** Este sprint entrega la "inteligencia" central del sistema. Sin estas relaciones, la trazabilidad necesaria para la acreditación EUR-ACE no puede ser demostrada, invalidando gran parte del objetivo del producto.
+
+**Sprint 5: Generación de Evidencia para la Acreditación**
+*   **Período:** (1 de julio – 15 de julio)
+*   **Objetivo Comercial:** Proporcionar a la DGIP las herramientas para generar reportes automáticos que evidencien el grado de cumplimiento de los criterios EUR-ACE, facilitando la evaluación externa.
+*   **PBI:**
+    *   **Generación de Reportes de Cumplimiento EUR-ACE (MRF 7 - Versión 1):** Funcionalidad para que la DGIP genere un reporte consolidado del grado de cumplimiento de los criterios EUR-ACE por facultad y carrera.
+    *   Interfaz de selección de filtros para el reporte (Facultad, Carrera).
+    *   Exportación básica del reporte a formatos comunes (ej. PDF).
+*   **Valor Comercial:** **Extremadamente Alto.** Este es el output final y el más visible del valor del sistema. Permite a la EPN presentar pruebas verificables a los evaluadores externos, cumpliendo directamente con el objetivo de la acreditación.
+
+---
+
+Este SPRINT MAPPING proporciona una ruta clara y lógica para construir el sistema, comenzando por los fundamentos y avanzando hacia la lógica de negocio central y la entrega de valor a través de los reportes clave para la acreditación EUR-ACE. Cada sprint está diseñado para entregar valor comercial incremental y abordar las dependencias de manera efectiva.
+
+<!-- --- -->
