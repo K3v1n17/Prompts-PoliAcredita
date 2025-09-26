@@ -1693,3 +1693,714 @@ Ejemplo de salida (formato exacto que debe producir tu generación)
 ```
 
 <!-- --- -->
+
+## PROMPT 3
+
+**Prompt:**
+
+Devuelve SOLO un array JSON (sin texto extra ni code fences). 
+
+Objetivo 
+ analizar los prototipos (imágenes) con la finalidad de encontrar las hus representadas en las mismas 
+
+contexto :
+
+Para las hus se debe cumplir con los criterios Criterios INVEST:
+
+INVEST significa:
+
+Independent (Independiente): Una historia debe poder completarse por sí sola, sin depender estrictamente de que otras historias se terminen antes.
+
+Negotiable (Negociable): La historia debe tener detalles que se puedan debatir y acordar con las partes interesadas (ej. desarrolladores, diseñadores).
+
+Valuable (Valiosa): La historia debe responder a una necesidad genuina del usuario y contribuir a la visión del producto y los objetivos comerciales.
+
+Estimable (Estimable): La historia debe poder desglosarse en tareas claras, de forma que el equipo pueda estimar el esfuerzo necesario para completarla.
+
+Small (Pequeña): La historia debe ser lo suficientemente pequeña para poder estimarse con precisión razonable; si es muy grande, debe dividirse en partes más manejables.
+
+Testable (Testeable): Deben existir criterios claros de aceptación que permitan verificar si la historia se implementó con éxito (ej. pruebas de usuario, verificaciones de funcionalidad).
+
+Las hus que debes representar corresponden a mi primer sprint el cual tiene por objetivo : Objetivo: Establecer la base organizativa de la EPN y asegurar el acceso controlado de usuarios.
+ y sus pbis :  PBI: - Gestión de organización académica (Facultades, Carreras, Materias, Profesores)
+
+
+
+Te proporciono unas hu de ejemplo que realizo mi equipo con anterioridad con su respectiva estimación 
+HU :  Agregar miembro de la CEI
+
+Como administrador
+
+quiero registrar a los miembros de la cei  ------ > 3sp
+
+
+HU :Listar miembros de la cei              -------- > 3sp
+
+Como administrador
+
+quiero listar los miembros de la CEI
+
+
+HU : Paginar autoridades
+Como administrador
+quiero listar las autoridades por grupos         ---- ? 1 sp
+
+HU : Filtrar autoridades  ---- > 1sp
+
+Como administrador
+quiero filtrar las autoridades por una palabra
+
+
+Formato de salida por HU (obligatorio):
+
+title, como, quiero, para
+
+acceptanceCriteria: array de strings claros y verificables
+
+storyPoints: número
+
+priority: 1 = alta, 2 = media, 3 = baja (elige según impacto/urgencia)
+
+frontendTasks: array de objetos { "title": string, "originalEstimate": number, "remainingWork": number, "completedWork": number }
+
+backendTasks: array de objetos { "title": string, "originalEstimate": number, "remainingWork": number, "completedWork": number }
+
+Reglas para horas por tarea (FE/BE):
+
+Devuelve horas numéricas (no strings), en horas.
+
+Si no hay señal específica, usa por defecto: originalEstimate = 3, remainingWork = 0, completedWork = 0.
+
+Si la HU es más compleja en un lado (FE o BE), ajusta las horas de esas tareas (p.ej., 4–6h) manteniendo tareas pequeñas (≤6h).
+
+No repitas títulos de tareas; usa verbos en infinitivo.
+
+
+
+ACCION :
+Crea mi sprint planning 1 con las hus representadas en los prototipos (imagenes )
+
+Ejemplo de salida[
+  {
+    "title": "HU: Iniciar Sesión en el Sistema",
+    "como": "usuario EPN",
+    "quiero": "acceder con mis credenciales institucionales",
+    "para": "usar las funcionalidades de mi rol",
+    "acceptanceCriteria": [
+      "Se muestra formulario con email institucional y contraseña",
+      "Credenciales válidas redirigen al dashboard",
+      "Credenciales inválidas muestran mensaje claro",
+      "Existe enlace para recuperar contraseña"
+    ],
+    "storyPoints": 3,
+    "priority": 1,
+    "frontendTasks": [
+      { "title": "Diseñar formulario de login", "originalEstimate": 3, "remainingWork": 0, "completedWork": 0 },
+      { "title": "Validar formato de email en cliente", "originalEstimate": 2, "remainingWork": 0, "completedWork": 0 },
+      { "title": "Enviar credenciales y manejar estados de éxito/error", "originalEstimate": 3, "remainingWork": 0, "completedWork": 0 }
+    ],
+    "backendTasks": [
+      { "title": "Crear endpoint POST /auth/login", "originalEstimate": 3, "remainingWork": 0, "completedWork": 0 },
+      { "title": "Verificar credenciales y generar JWT", "originalEstimate": 3, "remainingWork": 0, "completedWork": 0 }
+    ]
+  }
+]
+
+**Respuesta:**
+
+```json
+[
+  {
+    "title": "HU: Iniciar Sesión en el Sistema",
+    "como": "usuario EPN",
+    "quiero": "acceder con mis credenciales institucionales",
+    "para": "usar las funcionalidades de mi rol y gestionar la información académica",
+    "acceptanceCriteria": [
+      "Se muestra formulario con email institucional y contraseña",
+      "Credenciales válidas redirigen al dashboard o vista inicial del rol",
+      "Credenciales inválidas muestran mensaje claro de error",
+      "Existe un mecanismo o enlace para recuperar/restablecer contraseña (si aplica al sistema de EPN)"
+    ],
+    "storyPoints": 3,
+    "priority": 1,
+    "frontendTasks": [
+      {
+        "title": "Diseñar y maquetar formulario de login",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Implementar validación de formato de email institucional en cliente",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Integrar envío de credenciales a API y manejar estados de carga/error",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Redirigir a la vista principal tras login exitoso",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      }
+    ],
+    "backendTasks": [
+      {
+        "title": "Crear endpoint POST /auth/login",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Implementar lógica para verificar credenciales contra base de datos",
+        "originalEstimate": 4,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Generar y firmar token JWT para sesión",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Configurar middleware de autenticación y autorización",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      }
+    ]
+  },
+  {
+    "title": "HU: Registrar Nueva Facultad",
+    "como": "administrador",
+    "quiero": "añadir los datos de una nueva Facultad al sistema",
+    "para": "establecer la estructura organizativa académica de la EPN",
+    "acceptanceCriteria": [
+      "Como administrador, puedo acceder a un formulario de creación de Facultad.",
+      "El formulario incluye campos para nombre y código de la facultad.",
+      "Los campos obligatorios (nombre, código) deben ser validados.",
+      "El código de la facultad debe ser único a nivel de EPN.",
+      "Al guardar, la nueva Facultad es registrada y puedo ver un mensaje de éxito."
+    ],
+    "storyPoints": 3,
+    "priority": 1,
+    "frontendTasks": [
+      {
+        "title": "Diseñar y crear formulario para registrar Facultad",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Implementar validaciones básicas en formulario (requeridos)",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Integrar envío de datos del formulario al backend",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Mostrar mensaje de éxito o error al usuario",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      }
+    ],
+    "backendTasks": [
+      {
+        "title": "Crear endpoint POST /api/facultades para creación",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Implementar lógica para guardar nueva Facultad en BD",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Validar unicidad del código de Facultad en backend",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Configurar manejo de errores y respuestas de API",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      }
+    ]
+  },
+  {
+    "title": "HU: Listar y Filtrar Facultades",
+    "como": "administrador",
+    "quiero": "ver una lista de todas las Facultades registradas y poder buscar entre ellas",
+    "para": "gestionar y consultar la estructura académica existente",
+    "acceptanceCriteria": [
+      "Como administrador, puedo ver una tabla o lista de Facultades.",
+      "La lista muestra el nombre y código de cada Facultad.",
+      "La lista debe estar paginada por defecto (ej. 10 elementos por página).",
+      "Puedo usar un campo de búsqueda para filtrar Facultades por nombre o código.",
+      "El filtro debe actualizar la lista en tiempo real o al presionar Enter."
+    ],
+    "storyPoints": 3,
+    "priority": 1,
+    "frontendTasks": [
+      {
+        "title": "Diseñar y crear componente de tabla/lista para Facultades",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Implementar campo de búsqueda y lógica de filtrado",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Añadir componente de paginación a la tabla/lista",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Integrar con endpoint de listado de Facultades con parámetros de paginación y filtro",
+        "originalEstimate": 4,
+        "remainingWork": 0,
+        "completedWork": 0
+      }
+    ],
+    "backendTasks": [
+      {
+        "title": "Crear endpoint GET /api/facultades para listar con paginación y filtro",
+        "originalEstimate": 4,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Implementar lógica de consulta a BD con paginación",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Implementar lógica de filtrado por nombre/código en consulta",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      }
+    ]
+  },
+  {
+    "title": "HU: Registrar Nueva Carrera",
+    "como": "administrador",
+    "quiero": "añadir los datos de una nueva Carrera y asociarla a una Facultad",
+    "para": "extender la estructura organizativa académica con los programas de estudio",
+    "acceptanceCriteria": [
+      "Como administrador, puedo acceder a un formulario de creación de Carrera.",
+      "El formulario incluye campos para nombre, código de la Carrera y un selector para la Facultad a la que pertenece.",
+      "Los campos obligatorios (nombre, código, Facultad) deben ser validados.",
+      "El código de la Carrera debe ser único a nivel de EPN.",
+      "Al guardar, la nueva Carrera es registrada y se muestra un mensaje de éxito."
+    ],
+    "storyPoints": 4,
+    "priority": 1,
+    "frontendTasks": [
+      {
+        "title": "Diseñar y crear formulario para registrar Carrera",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Implementar selector de Facultad que cargue Facultades existentes",
+        "originalEstimate": 4,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Implementar validaciones de campos obligatorios en cliente",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Integrar envío de datos del formulario (incluyendo ID de Facultad) al backend",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Mostrar mensaje de éxito o error al usuario",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      }
+    ],
+    "backendTasks": [
+      {
+        "title": "Crear endpoint POST /api/carreras para creación",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Implementar lógica para guardar nueva Carrera con asociación a Facultad en BD",
+        "originalEstimate": 4,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Validar unicidad del código de Carrera y existencia de Facultad en backend",
+        "originalEstimate": 4,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Configurar manejo de errores y respuestas de API",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      }
+    ]
+  },
+  {
+    "title": "HU: Listar y Filtrar Carreras",
+    "como": "administrador",
+    "quiero": "ver una lista de todas las Carreras registradas, incluyendo su Facultad, y poder buscar entre ellas",
+    "para": "gestionar y consultar los programas de estudio de la EPN",
+    "acceptanceCriteria": [
+      "Como administrador, puedo ver una tabla o lista de Carreras.",
+      "La lista muestra el nombre, código de cada Carrera y el nombre de la Facultad a la que pertenece.",
+      "La lista debe estar paginada por defecto.",
+      "Puedo usar un campo de búsqueda para filtrar Carreras por nombre o código.",
+      "El filtro puede opcionalmente permitir filtrar por el nombre de la Facultad."
+    ],
+    "storyPoints": 4,
+    "priority": 1,
+    "frontendTasks": [
+      {
+        "title": "Diseñar y crear componente de tabla/lista para Carreras",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Implementar campo de búsqueda y lógica de filtrado (incluyendo por Facultad)",
+        "originalEstimate": 4,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Añadir componente de paginación a la tabla/lista",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Integrar con endpoint de listado de Carreras con parámetros de paginación y filtro",
+        "originalEstimate": 4,
+        "remainingWork": 0,
+        "completedWork": 0
+      }
+    ],
+    "backendTasks": [
+      {
+        "title": "Crear endpoint GET /api/carreras para listar con paginación y filtro",
+        "originalEstimate": 4,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Implementar lógica de consulta a BD con paginación y unión con tabla de Facultades",
+        "originalEstimate": 4,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Implementar lógica de filtrado por nombre/código/facultad en consulta",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      }
+    ]
+  },
+  {
+    "title": "HU: Registrar Nueva Materia",
+    "como": "administrador",
+    "quiero": "añadir los datos de una nueva Materia y asociarla a una Carrera",
+    "para": "definir el contenido curricular de los programas de estudio",
+    "acceptanceCriteria": [
+      "Como administrador, puedo acceder a un formulario de creación de Materia.",
+      "El formulario incluye campos para nombre, código de la Materia y un selector para la Carrera a la que pertenece.",
+      "Los campos obligatorios (nombre, código, Carrera) deben ser validados.",
+      "El código de la Materia debe ser único a nivel de EPN.",
+      "Al guardar, la nueva Materia es registrada y se muestra un mensaje de éxito."
+    ],
+    "storyPoints": 4,
+    "priority": 2,
+    "frontendTasks": [
+      {
+        "title": "Diseñar y crear formulario para registrar Materia",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Implementar selector de Carrera que cargue Carreras existentes",
+        "originalEstimate": 4,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Implementar validaciones de campos obligatorios en cliente",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Integrar envío de datos del formulario (incluyendo ID de Carrera) al backend",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Mostrar mensaje de éxito o error al usuario",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      }
+    ],
+    "backendTasks": [
+      {
+        "title": "Crear endpoint POST /api/materias para creación",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Implementar lógica para guardar nueva Materia con asociación a Carrera en BD",
+        "originalEstimate": 4,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Validar unicidad del código de Materia y existencia de Carrera en backend",
+        "originalEstimate": 4,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Configurar manejo de errores y respuestas de API",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      }
+    ]
+  },
+  {
+    "title": "HU: Listar y Filtrar Materias",
+    "como": "administrador",
+    "quiero": "ver una lista de todas las Materias registradas, incluyendo su Carrera y Facultad, y poder buscar entre ellas",
+    "para": "gestionar y consultar el plan de estudios completo de la EPN",
+    "acceptanceCriteria": [
+      "Como administrador, puedo ver una tabla o lista de Materias.",
+      "La lista muestra el nombre, código de cada Materia y el nombre de la Carrera y Facultad a la que pertenece.",
+      "La lista debe estar paginada por defecto.",
+      "Puedo usar un campo de búsqueda para filtrar Materias por nombre o código.",
+      "El filtro puede opcionalmente permitir filtrar por el nombre de la Carrera o Facultad."
+    ],
+    "storyPoints": 4,
+    "priority": 2,
+    "frontendTasks": [
+      {
+        "title": "Diseñar y crear componente de tabla/lista para Materias",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Implementar campo de búsqueda y lógica de filtrado (incluyendo por Carrera/Facultad)",
+        "originalEstimate": 4,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Añadir componente de paginación a la tabla/lista",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Integrar con endpoint de listado de Materias con parámetros de paginación y filtro",
+        "originalEstimate": 4,
+        "remainingWork": 0,
+        "completedWork": 0
+      }
+    ],
+    "backendTasks": [
+      {
+        "title": "Crear endpoint GET /api/materias para listar con paginación y filtro",
+        "originalEstimate": 4,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Implementar lógica de consulta a BD con paginación y unión con tablas de Carrera y Facultad",
+        "originalEstimate": 5,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Implementar lógica de filtrado por nombre/código/carrera/facultad en consulta",
+        "originalEstimate": 4,
+        "remainingWork": 0,
+        "completedWork": 0
+      }
+    ]
+  },
+  {
+    "title": "HU: Registrar Nuevo Profesor",
+    "como": "administrador",
+    "quiero": "añadir los datos de un nuevo Profesor al sistema",
+    "para": "mantener un registro completo del personal docente de la EPN",
+    "acceptanceCriteria": [
+      "Como administrador, puedo acceder a un formulario de creación de Profesor.",
+      "El formulario incluye campos para nombre, apellido, email institucional y cédula/identificación.",
+      "Los campos obligatorios (nombre, apellido, email, cédula) deben ser validados.",
+      "El email institucional y la cédula deben ser únicos a nivel de EPN.",
+      "Al guardar, el nuevo Profesor es registrado y se muestra un mensaje de éxito."
+    ],
+    "storyPoints": 3,
+    "priority": 2,
+    "frontendTasks": [
+      {
+        "title": "Diseñar y crear formulario para registrar Profesor",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Implementar validaciones básicas en formulario (requeridos, formato email)",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Integrar envío de datos del formulario al backend",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Mostrar mensaje de éxito o error al usuario",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      }
+    ],
+    "backendTasks": [
+      {
+        "title": "Crear endpoint POST /api/profesores para creación",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Implementar lógica para guardar nuevo Profesor en BD",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Validar unicidad de email y cédula de Profesor en backend",
+        "originalEstimate": 4,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Configurar manejo de errores y respuestas de API",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      }
+    ]
+  },
+  {
+    "title": "HU: Listar y Filtrar Profesores",
+    "como": "administrador",
+    "quiero": "ver una lista de todos los Profesores registrados y poder buscar entre ellos",
+    "para": "gestionar y consultar el personal docente de la EPN",
+    "acceptanceCriteria": [
+      "Como administrador, puedo ver una tabla o lista de Profesores.",
+      "La lista muestra el nombre completo, email y cédula de cada Profesor.",
+      "La lista debe estar paginada por defecto.",
+      "Puedo usar un campo de búsqueda para filtrar Profesores por nombre, apellido, email o cédula.",
+      "El filtro debe actualizar la lista en tiempo real o al presionar Enter."
+    ],
+    "storyPoints": 3,
+    "priority": 2,
+    "frontendTasks": [
+      {
+        "title": "Diseñar y crear componente de tabla/lista para Profesores",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Implementar campo de búsqueda y lógica de filtrado",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Añadir componente de paginación a la tabla/lista",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Integrar con endpoint de listado de Profesores con parámetros de paginación y filtro",
+        "originalEstimate": 4,
+        "remainingWork": 0,
+        "completedWork": 0
+      }
+    ],
+    "backendTasks": [
+      {
+        "title": "Crear endpoint GET /api/profesores para listar con paginación y filtro",
+        "originalEstimate": 4,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Implementar lógica de consulta a BD con paginación",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Implementar lógica de filtrado por múltiples campos en consulta",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      }
+    ]
+  }
+]
+```
+
+<!-- --- -->
