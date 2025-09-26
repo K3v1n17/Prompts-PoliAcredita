@@ -2404,3 +2404,698 @@ Ejemplo de salida[
 ```
 
 <!-- --- -->
+
+## PROMPT 4
+
+**Prompt:**
+
+Devuelve SOLO un array JSON (sin texto extra ni code fences). 
+
+Objetivo 
+ analizar los prototipos (imágenes) con la finalidad de encontrar las hus representadas en las mismas 
+
+contexto :
+
+Para las hus se debe cumplir con los criterios Criterios INVEST:
+
+INVEST significa:
+
+Independent (Independiente): Una historia debe poder completarse por sí sola, sin depender estrictamente de que otras historias se terminen antes.
+
+Negotiable (Negociable): La historia debe tener detalles que se puedan debatir y acordar con las partes interesadas (ej. desarrolladores, diseñadores).
+
+Valuable (Valiosa): La historia debe responder a una necesidad genuina del usuario y contribuir a la visión del producto y los objetivos comerciales.
+
+Estimable (Estimable): La historia debe poder desglosarse en tareas claras, de forma que el equipo pueda estimar el esfuerzo necesario para completarla.
+
+Small (Pequeña): La historia debe ser lo suficientemente pequeña para poder estimarse con precisión razonable; si es muy grande, debe dividirse en partes más manejables.
+
+Testable (Testeable): Deben existir criterios claros de aceptación que permitan verificar si la historia se implementó con éxito (ej. pruebas de usuario, verificaciones de funcionalidad).
+
+Las hus que debes representar corresponden a mi primer sprint el cual tiene por objetivo : Objetivo: Establecer la base organizativa de la EPN y asegurar el acceso controlado de usuarios.
+ y sus pbis :  PBI: - Gestión de organización académica (Facultades, Carreras, Materias, Profesores)
+
+
+
+Te proporciono unas hu de ejemplo que realizo mi equipo con anterioridad con su respectiva estimación 
+HU :  Agregar miembro de la CEI
+
+Como administrador
+
+quiero registrar a los miembros de la cei  ------ > 3sp
+
+
+HU :Listar miembros de la cei              -------- > 3sp
+
+Como administrador
+
+quiero listar los miembros de la CEI
+
+
+HU : Paginar autoridades
+Como administrador
+quiero listar las autoridades por grupos         ---- ? 1 sp
+
+HU : Filtrar autoridades  ---- > 1sp
+
+Como administrador
+quiero filtrar las autoridades por una palabra
+
+
+Formato de salida por HU (obligatorio):
+
+title, como, quiero, para
+
+acceptanceCriteria: array de strings claros y verificables
+
+storyPoints: número
+
+priority: 1 = alta, 2 = media, 3 = baja (elige según impacto/urgencia)
+
+frontendTasks: array de objetos { "title": string, "originalEstimate": number, "remainingWork": number, "completedWork": number }
+
+backendTasks: array de objetos { "title": string, "originalEstimate": number, "remainingWork": number, "completedWork": number }
+
+Reglas para horas por tarea (FE/BE):
+
+Devuelve horas numéricas (no strings), en horas.
+
+Si no hay señal específica, usa por defecto: originalEstimate = 3, remainingWork = 0, completedWork = 0.
+
+Si la HU es más compleja en un lado (FE o BE), ajusta las horas de esas tareas (p.ej., 4–6h) manteniendo tareas pequeñas (≤6h).
+
+No repitas títulos de tareas; usa verbos en infinitivo.
+
+
+
+ACCION :
+Crea mi sprint planning 1 con las hus representadas en los prototipos (imagenes )
+
+Ejemplo de salida[
+  {
+    "title": "HU: Iniciar Sesión en el Sistema",
+    "como": "usuario EPN",
+    "quiero": "acceder con mis credenciales institucionales",
+    "para": "usar las funcionalidades de mi rol",
+    "acceptanceCriteria": [
+      "Se muestra formulario con email institucional y contraseña",
+      "Credenciales válidas redirigen al dashboard",
+      "Credenciales inválidas muestran mensaje claro",
+      "Existe enlace para recuperar contraseña"
+    ],
+    "storyPoints": 3,
+    "priority": 1,
+    "frontendTasks": [
+      { "title": "Diseñar formulario de login", "originalEstimate": 3, "remainingWork": 0, "completedWork": 0 },
+      { "title": "Validar formato de email en cliente", "originalEstimate": 2, "remainingWork": 0, "completedWork": 0 },
+      { "title": "Enviar credenciales y manejar estados de éxito/error", "originalEstimate": 3, "remainingWork": 0, "completedWork": 0 }
+    ],
+    "backendTasks": [
+      { "title": "Crear endpoint POST /auth/login", "originalEstimate": 3, "remainingWork": 0, "completedWork": 0 },
+      { "title": "Verificar credenciales y generar JWT", "originalEstimate": 3, "remainingWork": 0, "completedWork": 0 }
+    ]
+  }
+]
+
+**Respuesta:**
+
+```json
+[
+  {
+    "title": "Iniciar Sesión en el Sistema",
+    "como": "administrador EPN",
+    "quiero": "acceder con mis credenciales institucionales",
+    "para": "usar las funcionalidades de gestión académica",
+    "acceptanceCriteria": [
+      "Se muestra formulario de inicio de sesión con campos para email institucional y contraseña.",
+      "Credenciales de administrador válidas redirigen al dashboard de administración.",
+      "Credenciales inválidas o incompletas muestran un mensaje de error claro y específico.",
+      "Existe un mecanismo para recuperar la contraseña (el enlace debe existir, la implementación completa puede ser posterior).",
+      "El sistema maneja la sesión de usuario (ej. token JWT)."
+    ],
+    "storyPoints": 3,
+    "priority": 1,
+    "frontendTasks": [
+      {
+        "title": "Desarrollar interfaz de formulario de login",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Implementar validación de email y contraseña en cliente",
+        "originalEstimate": 2,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Consumir API de autenticación y manejar respuesta",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Almacenar token de sesión de forma segura",
+        "originalEstimate": 2,
+        "remainingWork": 0,
+        "completedWork": 0
+      }
+    ],
+    "backendTasks": [
+      {
+        "title": "Crear endpoint POST /auth/login para autenticación",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Verificar credenciales de usuario y rol de administrador",
+        "originalEstimate": 4,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Generar y devolver token de acceso (JWT)",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Implementar lógica para refrescar tokens (si aplica)",
+        "originalEstimate": 2,
+        "remainingWork": 0,
+        "completedWork": 0
+      }
+    ]
+  },
+  {
+    "title": "Registrar Facultad",
+    "como": "administrador",
+    "quiero": "ingresar los datos de una nueva facultad",
+    "para": "establecer la estructura organizativa de la EPN",
+    "acceptanceCriteria": [
+      "Se muestra un formulario para registrar facultades con campos como nombre y descripción.",
+      "El formulario valida los datos de entrada (ej. nombre no vacío).",
+      "La facultad se guarda exitosamente y se muestra un mensaje de confirmación.",
+      "Errores de validación o del servidor se comunican claramente al usuario."
+    ],
+    "storyPoints": 3,
+    "priority": 1,
+    "frontendTasks": [
+      {
+        "title": "Desarrollar formulario de registro de facultad",
+        "originalEstimate": 4,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Implementar validaciones de formulario en cliente",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Integrar con API para crear facultad",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Manejar feedback de usuario (éxito/error) al guardar",
+        "originalEstimate": 2,
+        "remainingWork": 0,
+        "completedWork": 0
+      }
+    ],
+    "backendTasks": [
+      {
+        "title": "Crear API POST /facultades para registrar",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Implementar lógica de negocio para guardar facultad",
+        "originalEstimate": 4,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Validar datos de entrada de facultad en servidor",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Persistir facultad en base de datos",
+        "originalEstimate": 2,
+        "remainingWork": 0,
+        "completedWork": 0
+      }
+    ]
+  },
+  {
+    "title": "Listar Facultades",
+    "como": "administrador",
+    "quiero": "visualizar todas las facultades registradas",
+    "para": "tener una visión general de la estructura académica",
+    "acceptanceCriteria": [
+      "Se muestra una tabla con la lista de facultades existentes.",
+      "Cada facultad en la lista muestra al menos su nombre y descripción.",
+      "La lista se carga automáticamente al navegar a la sección de facultades.",
+      "Si no hay facultades, se muestra un mensaje indicándolo."
+    ],
+    "storyPoints": 3,
+    "priority": 1,
+    "frontendTasks": [
+      {
+        "title": "Diseñar y construir componente de tabla de facultades",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Consumir API GET /facultades para obtener datos",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Mostrar lista de facultades en la UI",
+        "originalEstimate": 2,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Implementar manejo de estados de carga y error de la lista",
+        "originalEstimate": 1,
+        "remainingWork": 0,
+        "completedWork": 0
+      }
+    ],
+    "backendTasks": [
+      {
+        "title": "Crear API GET /facultades para listar",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Obtener todas las facultades de la base de datos",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Preparar datos de facultades para enviar al cliente",
+        "originalEstimate": 2,
+        "remainingWork": 0,
+        "completedWork": 0
+      }
+    ]
+  },
+  {
+    "title": "Registrar Carrera",
+    "como": "administrador",
+    "quiero": "ingresar los datos de una nueva carrera y asociarla a una facultad",
+    "para": "detallar la oferta académica de la EPN",
+    "acceptanceCriteria": [
+      "Se muestra un formulario para registrar carreras con campos como nombre, descripción, y un selector para la facultad asociada.",
+      "El formulario permite seleccionar una facultad existente de una lista.",
+      "El formulario valida los datos de entrada (ej. nombre no vacío, facultad seleccionada).",
+      "La carrera se guarda exitosamente y se muestra un mensaje de confirmación.",
+      "Errores de validación o del servidor se comunican claramente al usuario."
+    ],
+    "storyPoints": 3,
+    "priority": 1,
+    "frontendTasks": [
+      {
+        "title": "Desarrollar formulario de registro de carrera",
+        "originalEstimate": 4,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Obtener lista de facultades para selector de carrera",
+        "originalEstimate": 2,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Implementar validaciones de formulario de carrera en cliente",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Integrar con API para crear carrera",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      }
+    ],
+    "backendTasks": [
+      {
+        "title": "Crear API POST /carreras para registrar",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Implementar lógica de negocio para guardar carrera",
+        "originalEstimate": 4,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Validar datos de entrada de carrera en servidor (incluyendo ID de facultad)",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Persistir carrera en base de datos",
+        "originalEstimate": 2,
+        "remainingWork": 0,
+        "completedWork": 0
+      }
+    ]
+  },
+  {
+    "title": "Listar Carreras",
+    "como": "administrador",
+    "quiero": "visualizar todas las carreras registradas junto a su facultad",
+    "para": "tener una visión clara de la oferta académica por facultad",
+    "acceptanceCriteria": [
+      "Se muestra una tabla con la lista de carreras existentes.",
+      "Cada carrera en la lista muestra su nombre, descripción y la facultad a la que pertenece.",
+      "La lista se carga automáticamente al navegar a la sección de carreras.",
+      "Si no hay carreras, se muestra un mensaje indicándolo."
+    ],
+    "storyPoints": 3,
+    "priority": 1,
+    "frontendTasks": [
+      {
+        "title": "Diseñar y construir componente de tabla de carreras",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Consumir API GET /carreras para obtener datos",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Mostrar lista de carreras con datos de facultad",
+        "originalEstimate": 2,
+        "remainingWork": 0,
+        "completedWork": 0
+      }
+    ],
+    "backendTasks": [
+      {
+        "title": "Crear API GET /carreras para listar",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Obtener todas las carreras de la base de datos",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Incluir información de la facultad asociada a cada carrera",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Preparar datos de carreras para enviar al cliente",
+        "originalEstimate": 1,
+        "remainingWork": 0,
+        "completedWork": 0
+      }
+    ]
+  },
+  {
+    "title": "Registrar Materia",
+    "como": "administrador",
+    "quiero": "ingresar los datos de una nueva materia y asociarla a una carrera",
+    "para": "definir los contenidos académicos dentro de cada carrera",
+    "acceptanceCriteria": [
+      "Se muestra un formulario para registrar materias con campos como nombre, código, descripción, y un selector para la carrera asociada.",
+      "El formulario permite seleccionar una carrera existente de una lista.",
+      "El formulario valida los datos de entrada (ej. nombre no vacío, carrera seleccionada).",
+      "La materia se guarda exitosamente y se muestra un mensaje de confirmación.",
+      "Errores de validación o del servidor se comunican claramente al usuario."
+    ],
+    "storyPoints": 3,
+    "priority": 1,
+    "frontendTasks": [
+      {
+        "title": "Desarrollar formulario de registro de materia",
+        "originalEstimate": 4,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Obtener lista de carreras para selector de materia",
+        "originalEstimate": 2,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Implementar validaciones de formulario de materia en cliente",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Integrar con API para crear materia",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      }
+    ],
+    "backendTasks": [
+      {
+        "title": "Crear API POST /materias para registrar",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Implementar lógica de negocio para guardar materia",
+        "originalEstimate": 4,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Validar datos de entrada de materia en servidor (incluyendo ID de carrera)",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Persistir materia en base de datos",
+        "originalEstimate": 2,
+        "remainingWork": 0,
+        "completedWork": 0
+      }
+    ]
+  },
+  {
+    "title": "Listar Materias",
+    "como": "administrador",
+    "quiero": "visualizar todas las materias registradas junto a su carrera",
+    "para": "tener una visión clara de los contenidos académicos por carrera",
+    "acceptanceCriteria": [
+      "Se muestra una tabla con la lista de materias existentes.",
+      "Cada materia en la lista muestra su nombre, código, descripción y la carrera a la que pertenece.",
+      "La lista se carga automáticamente al navegar a la sección de materias.",
+      "Si no hay materias, se muestra un mensaje indicándolo."
+    ],
+    "storyPoints": 3,
+    "priority": 1,
+    "frontendTasks": [
+      {
+        "title": "Diseñar y construir componente de tabla de materias",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Consumir API GET /materias para obtener datos",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Mostrar lista de materias con datos de carrera",
+        "originalEstimate": 2,
+        "remainingWork": 0,
+        "completedWork": 0
+      }
+    ],
+    "backendTasks": [
+      {
+        "title": "Crear API GET /materias para listar",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Obtener todas las materias de la base de datos",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Incluir información de la carrera asociada a cada materia",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Preparar datos de materias para enviar al cliente",
+        "originalEstimate": 1,
+        "remainingWork": 0,
+        "completedWork": 0
+      }
+    ]
+  },
+  {
+    "title": "Registrar Profesor",
+    "como": "administrador",
+    "quiero": "ingresar los datos de un nuevo profesor y asociarlo a una facultad",
+    "para": "integrar el personal docente en la estructura organizativa",
+    "acceptanceCriteria": [
+      "Se muestra un formulario para registrar profesores con campos como nombre, apellido, email institucional, y un selector para la facultad asociada.",
+      "El formulario permite seleccionar una facultad existente de una lista.",
+      "El formulario valida los datos de entrada (ej. email institucional válido, facultad seleccionada).",
+      "El profesor se guarda exitosamente y se muestra un mensaje de confirmación.",
+      "Errores de validación o del servidor se comunican claramente al usuario."
+    ],
+    "storyPoints": 3,
+    "priority": 1,
+    "frontendTasks": [
+      {
+        "title": "Desarrollar formulario de registro de profesor",
+        "originalEstimate": 4,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Obtener lista de facultades para selector de profesor",
+        "originalEstimate": 2,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Implementar validaciones de formulario de profesor en cliente",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Integrar con API para crear profesor",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      }
+    ],
+    "backendTasks": [
+      {
+        "title": "Crear API POST /profesores para registrar",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Implementar lógica de negocio para guardar profesor",
+        "originalEstimate": 4,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Validar datos de entrada de profesor en servidor (incluyendo ID de facultad y formato de email)",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Persistir profesor en base de datos",
+        "originalEstimate": 2,
+        "remainingWork": 0,
+        "completedWork": 0
+      }
+    ]
+  },
+  {
+    "title": "Listar Profesores",
+    "como": "administrador",
+    "quiero": "visualizar todos los profesores registrados junto a su facultad",
+    "para": "tener una visión clara del personal docente y su adscripción",
+    "acceptanceCriteria": [
+      "Se muestra una tabla con la lista de profesores existentes.",
+      "Cada profesor en la lista muestra su nombre, apellido, email y la facultad a la que pertenece.",
+      "La lista se carga automáticamente al navegar a la sección de profesores.",
+      "Si no hay profesores, se muestra un mensaje indicándolo."
+    ],
+    "storyPoints": 3,
+    "priority": 1,
+    "frontendTasks": [
+      {
+        "title": "Diseñar y construir componente de tabla de profesores",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Consumir API GET /profesores para obtener datos",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Mostrar lista de profesores con datos de facultad",
+        "originalEstimate": 2,
+        "remainingWork": 0,
+        "completedWork": 0
+      }
+    ],
+    "backendTasks": [
+      {
+        "title": "Crear API GET /profesores para listar",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Obtener todos los profesores de la base de datos",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Incluir información de la facultad asociada a cada profesor",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Preparar datos de profesores para enviar al cliente",
+        "originalEstimate": 1,
+        "remainingWork": 0,
+        "completedWork": 0
+      }
+    ]
+  }
+]
+```
+
+<!-- --- -->
