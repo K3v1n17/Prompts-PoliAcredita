@@ -10,6 +10,7 @@
 	- [PROMPT 1.1 (Continuación de PROMPT 1)](#prompt-11-continuacion-de-prompt-1)
 2. [PROMPT 2](#prompt-2)
 3. [PROMPT 3](#prompt-3)
+4. [PROMPT 4](#prompt-4)
 
 ---
 
@@ -435,6 +436,157 @@ como quiero y para
 **Como:** Miembro del CEI
 **Quiero:** generar informes de cumplimiento
 **Para:** evaluar el progreso hacia la acreditación EUR-ACE
+**Story Points:** N/A
+**Prioridad:** N/A
+
+<!-- --- -->
+
+## PROMPT 4
+
+**Fecha:** 27 sept 2025, 11:36 p m. (UTC)
+
+**Prompt:**
+
+###ROL
+
+Actua como un Product owner que es experto en gestión de productos de Software.
+
+
+
+### objetivo 
+Mi objetivo es definir mi product backlog de alto nivel , para establecer las principales funcionalidades que tendrá mi producto software
+ este debe incluir historias de usuario epicas. 
+
+CONTEXTO
+
+La Escuela Politécnica Nacional (EPN) busca acreditar sus carreras bajo el sello EUR-ACE.  
+
+
+EUR-ACE es una etiqueta de calidad y un sistema de acreditación para programas de estudios de ingeniería a nivel de grado y máster. La etiqueta, que es reconocida a nivel europeo e internacional, es un certificado que garantiza que el programa de estudios cumple con altos estándares de calidad y con las exigencias de la profesión de ingeniería.
+
+La Escuela Politécnica Nacional, o EPN, es una universidad pública, de grado y posgrado, ubicada en Quito (Ecuador). Reconocida por la investigación y la educación en ciencias básicas, ingenierías y tecnología, ofrece programas doctorales, de maestría y de grado.
+La Escuela Politécnica Nacional (EPN) se organiza en facultades y departamentos, cada uno con funciones específicas para cumplir sus objetivos académicos y de investigación.
+
+estructura Academica de la EPn
+
+La EPN se estructura principalmente en las siguientes unidades:
+Facultades: Son las unidades académicas superiores encargadas de planificar, ejecutar, controlar y evaluar los procesos de docencia, investigación y extensión en áreas específicas del conocimiento. Cada facultad está dirigida por un Consejo de Facultad, un Decano y un Subdecano. Tienen capacidad de gestión administrativa y financiera y están integradas por departamentos y carreras afines. 
+ 
+Departamentos: Actúan como las células básicas de la EPN, dependientes de las facultades. Los departamentos son responsables de las actividades de investigación, docencia y extensión en campos específicos. Cada departamento puede diseñar y gestionar programas de maestría y doctorado, y participa en la planificación de los procesos docentes. 
+ 
+Consejo Académico: Coordina todas las unidades académicas y se encarga de evaluar y controlar el cumplimiento de los planes y programas de la EPN. Este consejo es fundamental para la toma de decisiones y la supervisión de las actividades académica
+
+
+La EPN está dividida de la siguiente manera, existen Facultades y por cada facultad pueden existir diferentes carreras cada Facultad tiene profesores, Autoridades (Decano , Subdecano , jefe de Departamento) , Para llegar a ser coordinador, Autoridad primero tiene que ser un profesor, Para las carreras cada carrera tiene un solo coordinador y existe una entidad superior que sería la DGIP que es la encargada de gestionar los aspectos académicos de las facultades , Para la autoridad administra la facultad, el coordinador gestiona la carrera .
+
+Cada carrera de la EPN cuenta con resultados de aprendizaje (RA): generales y específicos que son los resultados que se garantizan que el estudiante tenga cuando termina la carrera.
+
+También cada carrera cuenta con Objetivos de perfil profesional que son los objetivos que se espera que un estudiante realice en su vida profesional.
+
+Para Cada carrera existen diferentes Asignaturas , cada una de estas asignaturas cuenta con un programa de estudios académicos (PEA) . Este PEA contiene información relevante de cada asignatura . Por ejemplo : – Unidad Académica “ – Carrera – Unidad de organización curricular – Nombre de la asignatura – Código
+
+– Créditos – Resultados de aprendizaje de la asignatura (RAA)
+
+Bien para evaluar que los RA de la carrera se estén cumpliendo se verifica como los RAA de cada materia aportan con un nivel (Bajo , Medio , Alto) a los RA .
+
+También para Evaluar los OPP se verifica como los RA aportan a los OPP.
+
+Para lograr la acreditación es importante los RA ya que con estos se verifica los objetivos EUR-ACE Es decir se verifica que los RA cumplan con los objetivos EURACE.
+
+ACCION
+
+Crea el product backlog de alto nivel con las historitas de usuario épicas para desarrollar mi producto evitando usar "y" ya que esto uniria dos funcionalidades del producto
+
+### Formato de salida 
+como quiero y para
+
+**Respuesta:**
+
+### HU: EPIC: Gestión de la Estructura Organizacional Académica
+**Como:** Administrador del sistema
+**Quiero:** establecer la jerarquía de Facultades, Departamentos, Carreras
+**Para:** reflejar la estructura institucional de la EPN
+**Story Points:** N/A
+**Prioridad:** N/A
+
+---
+
+### HU: EPIC: Administración de Usuarios y Asignación de Roles
+**Como:** Administrador del sistema
+**Quiero:** registrar a los miembros del personal de la EPN
+**Para:** otorgarles acceso adecuado a las funcionalidades del sistema
+**Story Points:** N/A
+**Prioridad:** N/A
+
+---
+
+### HU: EPIC: Definición de Programas de Estudio por Asignatura (PEA)
+**Como:** Profesor
+**Quiero:** ingresar la información detallada de cada asignatura
+**Para:** documentar el contenido curricular de cada materia
+**Story Points:** N/A
+**Prioridad:** N/A
+
+---
+
+### HU: EPIC: Establecimiento de Resultados de Aprendizaje de Carrera (RA)
+**Como:** Coordinador de Carrera
+**Quiero:** definir los resultados de aprendizaje generales específicos para la carrera
+**Para:** establecer las competencias que los estudiantes deben adquirir
+**Story Points:** N/A
+**Prioridad:** N/A
+
+---
+
+### HU: EPIC: Declaración de Objetivos de Perfil Profesional (OPP)
+**Como:** Coordinador de Carrera
+**Quiero:** especificar los objetivos profesionales esperados del egresado
+**Para:** guiar el desarrollo del perfil laboral de los estudiantes
+**Story Points:** N/A
+**Prioridad:** N/A
+
+---
+
+### HU: EPIC: Registro de Estándares de Acreditación EUR-ACE
+**Como:** Miembro del CEI
+**Quiero:** capturar los objetivos de calidad definidos por EUR-ACE
+**Para:** tener una referencia oficial de los requisitos de acreditación
+**Story Points:** N/A
+**Prioridad:** N/A
+
+---
+
+### HU: EPIC: Mapeo de Contribuciones de Asignatura a Carrera
+**Como:** Coordinador de Carrera
+**Quiero:** vincular los Resultados de Aprendizaje de Asignatura (RAA) con los Resultados de Aprendizaje de Carrera (RA)
+**Para:** demostrar cómo cada materia contribuye al perfil del egresado
+**Story Points:** N/A
+**Prioridad:** N/A
+
+---
+
+### HU: EPIC: Alineación de Resultados de Aprendizaje con Perfil Profesional
+**Como:** Coordinador de Carrera
+**Quiero:** relacionar los Resultados de Aprendizaje de Carrera (RA) con los Objetivos de Perfil Profesional (OPP)
+**Para:** asegurar la coherencia entre la formación académica el futuro desempeño laboral
+**Story Points:** N/A
+**Prioridad:** N/A
+
+---
+
+### HU: EPIC: Verificación de Conformidad de la Carrera con EUR-ACE
+**Como:** Miembro del CEI
+**Quiero:** asociar los Resultados de Aprendizaje de Carrera (RA) con los objetivos EUR-ACE
+**Para:** evaluar el cumplimiento de los estándares de acreditación internacional
+**Story Points:** N/A
+**Prioridad:** N/A
+
+---
+
+### HU: EPIC: Generación de Informes de Acreditación EUR-ACE
+**Como:** Miembro del CEI
+**Quiero:** obtener reportes detallados sobre el estado de la acreditación
+**Para:** facilitar la toma de decisiones la presentación de evidencias
 **Story Points:** N/A
 **Prioridad:** N/A
 
