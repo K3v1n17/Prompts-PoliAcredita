@@ -9,6 +9,7 @@
 1. [PROMPT 1](#prompt-1)
 	- [PROMPT 1.1 (Continuación de PROMPT 1)](#prompt-11-continuacion-de-prompt-1)
 2. [PROMPT 2](#prompt-2)
+3. [PROMPT 3](#prompt-3)
 
 ---
 
@@ -298,5 +299,143 @@ como quiero y para
 ---
 
 Estas épicas servirán como la columna vertebral para la planificación de releases y sprints, permitiendo que el equipo de desarrollo descomponga cada una en historias de usuario más detalladas y tareas específicas.
+
+<!-- --- -->
+
+## PROMPT 3
+
+**Fecha:** 27 sept 2025, 11:23 p m. (UTC)
+
+**Prompt:**
+
+### objetivo 
+Mi objetivo es definir mi product backlog de alto nivel , este debe incluir historias de usuario epicas. 
+
+
+### contexto 
+una historia de usuario de gran tamaño que no puede ser completada en un solo sprint o iteración.
+La palabra "épica" se usa para denotar una historia que es demasiado grande y, por lo tanto, debe ser desglosada en varias historias de usuario más pequeñas, manejables y específicas.
+
+Características principales:
+Gran alcance: Una épica representa una funcionalidad o iniciativa de alto nivel que abarca un objetivo significativo del producto.
+Contenedor: Funciona como un "contenedor" para un conjunto de historias de usuario relacionadas.
+Flexibilidad: El alcance de una épica puede evolucionar a medida que el equipo aprende más sobre la funcionalidad durante el desarrollo y a través del feedback del cliente.
+Propósito: Su principal propósito es ayudar a organizar y gestionar el trabajo en el backlog, conectando el trabajo diario del equipo con los objetivos estratégicos de la empresa.
+
+La Escuela Politécnica Nacional (EPN) busca acreditar sus carreras bajo el sello EUR-ACE.  
+La entidad EUR-ACE evaluará que las carreras de la EPN cumplan con determinados objetivos (objetivos EUR-ACE).  
+
+Organización de la EPN:
+- La EPN se organiza en Facultades.  
+- Cada Facultad tiene: Profesores, Autoridades (Decano, Subdecano, Jefe de Departamento) y Carreras.  
+- Cada Carrera tiene un Coordinador.  
+- Existen Comités de Evaluación Interna (CEI), conformados por profesores.  
+- Roles principales: Profesor, Coordinador de Carrera, Autoridad, DGIP, Miembro del CEI.  
+	- Para ser Coordinador, Autoridad o miembro del CEI, primero se debe ser Profesor.  
+	- El DGIP gestiona aspectos académicos de la Facultad.  
+	- La Autoridad administra la Facultad.  
+	- El Coordinador gestiona la Carrera.  
+	- El CEI gestiona los objetivos EUR-ACE y puede consultar información de Facultades.  
+
+Flujo de acreditación:
+- Cada Materia de una Carrera cuenta con un **PEA (Programa de Estudios Académicos)**, que contiene:  
+	- Unidad académica  
+	- Carrera  
+	- Unidad de organización curricular  
+	- Nombre de la asignatura  
+	- Código  
+	- Créditos  
+
+- El PEA define los **Resultados de Aprendizaje de la Asignatura (RAA)**, que pueden ser:  
+	- Conocimiento  
+	- Destrezas  
+	- Valores y actitudes  
+
+- La Carrera en su conjunto cuenta con:  
+	- **Objetivos de Perfil de Egreso (RA)**, generales y específicos.  
+	- **Objetivos de Perfil Profesional (OPP)**.  
+
+- Relaciones fundamentales:  
+	- Cada **RAA** de una materia contribuye a los **RA** de la carrera (con un nivel definido).  
+	- Cada **RA** de la carrera se relaciona tanto con los **OPP** como con los **objetivos EUR-ACE**.  
+
+Producto a desarrollar:
+- Un sistema que permita:  
+	- Ingresar toda la información del PEA.  
+	- Registrar RAAs, RAs, OPP y objetivos EUR-ACE.  
+	- Establecer las relaciones: RAA → RA, RA → OPP, RA → EUR-ACE.  
+	- Generar reportes sobre el cumplimiento de los objetivos de acreditación EUR-ACE.  
+	- Controlar el acceso según roles (Profesor, Coordinador, Autoridad, CEI, DGIP).  
+	- Gestion de organización de las facultades , carreras 
+
+### Accion 
+crea el product backlog de alto nivel con las hus, evitando  usar "y" con este formato : 
+
+
+### Formato de salida 
+como quiero y para
+
+**Respuesta:**
+
+### HU: EPIC: Gestión de la Estructura Académica
+**Como:** Administrador del sistema
+**Quiero:** organizar las facultades
+**Para:** establecer la base organizacional de la EPN
+**Story Points:** N/A
+**Prioridad:** N/A
+
+---
+
+### HU: EPIC: Administración de Usuarios y Permisos
+**Como:** Administrador del sistema
+**Quiero:** gestionar los roles de los usuarios
+**Para:** asegurar el acceso controlado al sistema
+**Story Points:** N/A
+**Prioridad:** N/A
+
+---
+
+### HU: EPIC: Gestión de Programas de Estudio
+**Como:** Profesor
+**Quiero:** registrar los Programas de Estudios Académicos (PEA)
+**Para:** definir el contenido curricular de cada materia
+**Story Points:** N/A
+**Prioridad:** N/A
+
+---
+
+### HU: EPIC: Gestión de Perfiles de Egreso
+**Como:** Coordinador de Carrera
+**Quiero:** definir los Resultados de Aprendizaje (RA)
+**Para:** establecer el perfil profesional de los egresados
+**Story Points:** N/A
+**Prioridad:** N/A
+
+---
+
+### HU: EPIC: Gestión de Objetivos EUR-ACE
+**Como:** Miembro del CEI
+**Quiero:** registrar los objetivos del sello EUR-ACE
+**Para:** documentar los estándares de acreditación
+**Story Points:** N/A
+**Prioridad:** N/A
+
+---
+
+### HU: EPIC: Mapeo de Contribuciones Académicas
+**Como:** Coordinador de Carrera
+**Quiero:** relacionar los resultados de aprendizaje
+**Para:** demostrar la contribución de las materias a los objetivos de la carrera y EUR-ACE
+**Story Points:** N/A
+**Prioridad:** N/A
+
+---
+
+### HU: EPIC: Generación de Reportes de Acreditación
+**Como:** Miembro del CEI
+**Quiero:** generar informes de cumplimiento
+**Para:** evaluar el progreso hacia la acreditación EUR-ACE
+**Story Points:** N/A
+**Prioridad:** N/A
 
 <!-- --- -->
