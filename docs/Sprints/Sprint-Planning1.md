@@ -124,6 +124,6 @@
 
 **Story Points:** 3 · **Prioridad:** Alta (1)
 
-> _Actualizado: 2025-09-27T18:59:26.781Z_
+> _Actualizado: 2025-09-27T19:00:29.510Z_
 
 <!-- SPRINT:Sprint_Planning_1_Historias_de_Usuario:END -->
