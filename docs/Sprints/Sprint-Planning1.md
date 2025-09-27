@@ -3099,3 +3099,522 @@ Ejemplo de salida[
 ```
 
 <!-- --- -->
+
+## PROMPT 5
+
+**Prompt:**
+
+Devuelve SOLO un array JSON (sin texto extra ni code fences). 
+
+Objetivo 
+ analizar los prototipos (imágenes) con la finalidad de encontrar las hus representadas en las mismas 
+
+contexto :
+
+Para las hus se debe cumplir con los criterios Criterios INVEST:
+
+INVEST significa:
+
+Independent (Independiente): Una historia debe poder completarse por sí sola, sin depender estrictamente de que otras historias se terminen antes.
+
+Negotiable (Negociable): La historia debe tener detalles que se puedan debatir y acordar con las partes interesadas (ej. desarrolladores, diseñadores).
+
+Valuable (Valiosa): La historia debe responder a una necesidad genuina del usuario y contribuir a la visión del producto y los objetivos comerciales.
+
+Estimable (Estimable): La historia debe poder desglosarse en tareas claras, de forma que el equipo pueda estimar el esfuerzo necesario para completarla.
+
+Small (Pequeña): La historia debe ser lo suficientemente pequeña para poder estimarse con precisión razonable; si es muy grande, debe dividirse en partes más manejables.
+
+Testable (Testeable): Deben existir criterios claros de aceptación que permitan verificar si la historia se implementó con éxito (ej. pruebas de usuario, verificaciones de funcionalidad).
+
+Las hus que debes representar corresponden a mi primer sprint el cual tiene por objetivo : Objetivo: Establecer la base organizativa de la EPN y asegurar el acceso controlado de usuarios.
+ y sus pbis :  PBI: - Gestión de organización académica (Facultades, Carreras, Materias, Profesores)
+
+
+
+Te proporciono unas hu de ejemplo que realizo mi equipo con anterioridad con su respectiva estimación 
+HU :  Agregar miembro de la CEI
+
+Como administrador
+
+quiero registrar a los miembros de la cei  ------ > 3sp
+
+
+HU :Listar miembros de la cei              -------- > 3sp
+
+Como administrador
+
+quiero listar los miembros de la CEI
+
+
+HU : Paginar autoridades
+Como administrador
+quiero listar las autoridades por grupos         ---- ? 1 sp
+
+HU : Filtrar autoridades  ---- > 1sp
+
+Como administrador
+quiero filtrar las autoridades por una palabra
+
+
+Formato de salida por HU (obligatorio):
+
+title, como, quiero, para
+
+acceptanceCriteria: array de strings claros y verificables
+
+storyPoints: número
+
+priority: 1 = alta, 2 = media, 3 = baja (elige según impacto/urgencia)
+
+frontendTasks: array de objetos { "title": string, "originalEstimate": number, "remainingWork": number, "completedWork": number }
+
+backendTasks: array de objetos { "title": string, "originalEstimate": number, "remainingWork": number, "completedWork": number }
+
+Reglas para horas por tarea (FE/BE):
+
+Devuelve horas numéricas (no strings), en horas.
+
+Si no hay señal específica, usa por defecto: originalEstimate = 3, remainingWork = 0, completedWork = 0.
+
+Si la HU es más compleja en un lado (FE o BE), ajusta las horas de esas tareas (p.ej., 4–6h) manteniendo tareas pequeñas (≤6h).
+
+No repitas títulos de tareas; usa verbos en infinitivo.
+
+
+
+ACCION :
+Crea mi sprint planning 1 con las hus representadas en los prototipos (imagenes )
+
+Ejemplo de salida[
+  {
+    "title": "HU: Iniciar Sesión en el Sistema",
+    "como": "usuario EPN",
+    "quiero": "acceder con mis credenciales institucionales",
+    "para": "usar las funcionalidades de mi rol",
+    "acceptanceCriteria": [
+      "Se muestra formulario con email institucional y contraseña",
+      "Credenciales válidas redirigen al dashboard",
+      "Credenciales inválidas muestran mensaje claro",
+      "Existe enlace para recuperar contraseña"
+    ],
+    "storyPoints": 3,
+    "priority": 1,
+    "frontendTasks": [
+      { "title": "Diseñar formulario de login", "originalEstimate": 3, "remainingWork": 0, "completedWork": 0 },
+      { "title": "Validar formato de email en cliente", "originalEstimate": 2, "remainingWork": 0, "completedWork": 0 },
+      { "title": "Enviar credenciales y manejar estados de éxito/error", "originalEstimate": 3, "remainingWork": 0, "completedWork": 0 }
+    ],
+    "backendTasks": [
+      { "title": "Crear endpoint POST /auth/login", "originalEstimate": 3, "remainingWork": 0, "completedWork": 0 },
+      { "title": "Verificar credenciales y generar JWT", "originalEstimate": 3, "remainingWork": 0, "completedWork": 0 }
+    ]
+  }
+]
+
+**Respuesta:**
+
+```json
+[
+  {
+    "title": "Registrar Facultad",
+    "como": "Administrador Académico",
+    "quiero": "registrar una nueva facultad",
+    "para": "establecer la estructura organizativa fundamental de la EPN",
+    "acceptanceCriteria": [
+      "El formulario de registro de facultad es visible con campos para 'Nombre' y 'Código'.",
+      "La validación de campos obligatorios (ej. 'Nombre' no vacío) funciona correctamente.",
+      "Al enviar el formulario, la facultad se guarda exitosamente en el sistema.",
+      "Se muestra un mensaje de confirmación de registro de facultad exitoso.",
+      "La nueva facultad aparece en el listado de facultades."
+    ],
+    "storyPoints": 3,
+    "priority": 1,
+    "frontendTasks": [
+      {
+        "title": "Diseñar y desarrollar formulario para registrar facultad",
+        "originalEstimate": 4,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Implementar validación de campos del formulario en el cliente",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Integrar el envío de datos a la API y manejar la respuesta de éxito/error",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      }
+    ],
+    "backendTasks": [
+      {
+        "title": "Crear endpoint POST /facultades para el registro",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Implementar lógica de negocio para crear facultad, incluyendo validaciones",
+        "originalEstimate": 4,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Definir y configurar el modelo de datos para Facultad",
+        "originalEstimate": 2,
+        "remainingWork": 0,
+        "completedWork": 0
+      }
+    ]
+  },
+  {
+    "title": "Listar Facultades",
+    "como": "Administrador Académico",
+    "quiero": "visualizar un listado de todas las facultades registradas",
+    "para": "consultar y verificar la estructura organizativa de la EPN",
+    "acceptanceCriteria": [
+      "Se muestra una tabla o listado con todas las facultades registradas.",
+      "Cada facultad muestra al menos su 'Nombre' y 'Código'.",
+      "Los datos de las facultades se cargan correctamente desde el backend."
+    ],
+    "storyPoints": 3,
+    "priority": 1,
+    "frontendTasks": [
+      {
+        "title": "Diseñar y desarrollar componente de tabla/listado para facultades",
+        "originalEstimate": 4,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Consumir endpoint GET /facultades y renderizar los datos",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      }
+    ],
+    "backendTasks": [
+      {
+        "title": "Crear endpoint GET /facultades para obtener todas las facultades",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Implementar lógica para consultar facultades en la base de datos",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      }
+    ]
+  },
+  {
+    "title": "Registrar Carrera",
+    "como": "Administrador Académico",
+    "quiero": "registrar una nueva carrera asociada a una facultad existente",
+    "para": "expandir la oferta académica dentro de la estructura de la EPN",
+    "acceptanceCriteria": [
+      "El formulario de registro de carrera es visible con campos para 'Nombre', 'Código' y un selector de 'Facultad'.",
+      "El selector de 'Facultad' muestra una lista de las facultades existentes.",
+      "La validación de campos obligatorios funciona correctamente.",
+      "Al enviar el formulario, la carrera se guarda con su facultad asociada.",
+      "Se muestra un mensaje de confirmación de registro de carrera exitoso.",
+      "La nueva carrera aparece en el listado de carreras."
+    ],
+    "storyPoints": 4,
+    "priority": 1,
+    "frontendTasks": [
+      {
+        "title": "Diseñar y desarrollar formulario para registrar carrera con selector de facultad",
+        "originalEstimate": 5,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Consumir endpoint GET para cargar facultades en el selector",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Implementar validación de campos del formulario en el cliente",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Integrar el envío de datos a la API y manejar la respuesta",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      }
+    ],
+    "backendTasks": [
+      {
+        "title": "Crear endpoint POST /carreras para el registro",
+        "originalEstimate": 4,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Implementar lógica para crear carrera, incluyendo asociación a facultad y validaciones",
+        "originalEstimate": 5,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Definir y configurar el modelo de datos para Carrera con relación a Facultad",
+        "originalEstimate": 2,
+        "remainingWork": 0,
+        "completedWork": 0
+      }
+    ]
+  },
+  {
+    "title": "Listar Carreras",
+    "como": "Administrador Académico",
+    "quiero": "visualizar un listado de todas las carreras registradas, incluyendo su facultad",
+    "para": "consultar la oferta académica y su organización dentro de la EPN",
+    "acceptanceCriteria": [
+      "Se muestra una tabla o listado con todas las carreras registradas.",
+      "Cada carrera muestra al menos su 'Nombre', 'Código' y la 'Facultad Asociada'.",
+      "Los datos de las carreras se cargan correctamente desde el backend."
+    ],
+    "storyPoints": 3,
+    "priority": 1,
+    "frontendTasks": [
+      {
+        "title": "Diseñar y desarrollar componente de tabla/listado para carreras",
+        "originalEstimate": 4,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Consumir endpoint GET /carreras y renderizar los datos, incluyendo el nombre de la facultad",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      }
+    ],
+    "backendTasks": [
+      {
+        "title": "Crear endpoint GET /carreras para obtener todas las carreras con su facultad",
+        "originalEstimate": 4,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Implementar lógica para consultar carreras con sus relaciones en la base de datos",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      }
+    ]
+  },
+  {
+    "title": "Registrar Materia",
+    "como": "Administrador Académico",
+    "quiero": "registrar una nueva materia asociada a una carrera existente",
+    "para": "establecer el plan de estudios de las carreras de la EPN",
+    "acceptanceCriteria": [
+      "El formulario de registro de materia es visible con campos para 'Nombre', 'Código', 'Créditos' y un selector de 'Carrera'.",
+      "El selector de 'Carrera' muestra una lista de las carreras existentes.",
+      "La validación de campos obligatorios funciona correctamente.",
+      "Al enviar el formulario, la materia se guarda con su carrera asociada.",
+      "Se muestra un mensaje de confirmación de registro de materia exitoso.",
+      "La nueva materia aparece en el listado de materias."
+    ],
+    "storyPoints": 4,
+    "priority": 1,
+    "frontendTasks": [
+      {
+        "title": "Diseñar y desarrollar formulario para registrar materia con selector de carrera",
+        "originalEstimate": 5,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Consumir endpoint GET para cargar carreras en el selector",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Implementar validación de campos del formulario en el cliente",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Integrar el envío de datos a la API y manejar la respuesta",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      }
+    ],
+    "backendTasks": [
+      {
+        "title": "Crear endpoint POST /materias para el registro",
+        "originalEstimate": 4,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Implementar lógica para crear materia, incluyendo asociación a carrera y validaciones",
+        "originalEstimate": 5,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Definir y configurar el modelo de datos para Materia con relación a Carrera",
+        "originalEstimate": 2,
+        "remainingWork": 0,
+        "completedWork": 0
+      }
+    ]
+  },
+  {
+    "title": "Listar Materias",
+    "como": "Administrador Académico",
+    "quiero": "visualizar un listado de todas las materias registradas, incluyendo su carrera y facultad",
+    "para": "consultar el plan de estudios y su organización",
+    "acceptanceCriteria": [
+      "Se muestra una tabla o listado con todas las materias registradas.",
+      "Cada materia muestra al menos su 'Nombre', 'Código', 'Créditos', 'Carrera Asociada' y 'Facultad Asociada'.",
+      "Los datos de las materias se cargan correctamente desde el backend."
+    ],
+    "storyPoints": 3,
+    "priority": 1,
+    "frontendTasks": [
+      {
+        "title": "Diseñar y desarrollar componente de tabla/listado para materias",
+        "originalEstimate": 4,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Consumir endpoint GET /materias y renderizar los datos, incluyendo carrera y facultad",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      }
+    ],
+    "backendTasks": [
+      {
+        "title": "Crear endpoint GET /materias para obtener todas las materias con sus relaciones",
+        "originalEstimate": 4,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Implementar lógica para consultar materias con sus relaciones en la base de datos",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      }
+    ]
+  },
+  {
+    "title": "Registrar Profesor",
+    "como": "Administrador Académico",
+    "quiero": "registrar un nuevo profesor en el sistema con su información básica",
+    "para": "incorporar al personal docente a la plataforma y gestionarlo",
+    "acceptanceCriteria": [
+      "El formulario de registro de profesor es visible con campos para 'Nombre', 'Apellido', 'Cédula' y 'Email Institucional'.",
+      "La validación de campos obligatorios y de formato (ej. Email válido) funciona correctamente.",
+      "Al enviar el formulario, el profesor se guarda exitosamente en el sistema.",
+      "Se muestra un mensaje de confirmación de registro de profesor exitoso.",
+      "El nuevo profesor aparece en el listado de profesores."
+    ],
+    "storyPoints": 3,
+    "priority": 1,
+    "frontendTasks": [
+      {
+        "title": "Diseñar y desarrollar formulario para registrar profesor",
+        "originalEstimate": 4,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Implementar validación de campos del formulario en el cliente",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Integrar el envío de datos a la API y manejar la respuesta",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      }
+    ],
+    "backendTasks": [
+      {
+        "title": "Crear endpoint POST /profesores para el registro",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Implementar lógica de negocio para crear profesor, incluyendo validaciones",
+        "originalEstimate": 4,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Definir y configurar el modelo de datos para Profesor",
+        "originalEstimate": 2,
+        "remainingWork": 0,
+        "completedWork": 0
+      }
+    ]
+  },
+  {
+    "title": "Listar Profesores",
+    "como": "Administrador Académico",
+    "quiero": "visualizar un listado de todos los profesores registrados",
+    "para": "consultar y gestionar el personal docente de la EPN",
+    "acceptanceCriteria": [
+      "Se muestra una tabla o listado con todos los profesores registrados.",
+      "Cada profesor muestra al menos su 'Nombre', 'Apellido', 'Cédula' y 'Email Institucional'.",
+      "Los datos de los profesores se cargan correctamente desde el backend."
+    ],
+    "storyPoints": 3,
+    "priority": 1,
+    "frontendTasks": [
+      {
+        "title": "Diseñar y desarrollar componente de tabla/listado para profesores",
+        "originalEstimate": 4,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Consumir endpoint GET /profesores y renderizar los datos",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      }
+    ],
+    "backendTasks": [
+      {
+        "title": "Crear endpoint GET /profesores para obtener todos los profesores",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      },
+      {
+        "title": "Implementar lógica para consultar profesores en la base de datos",
+        "originalEstimate": 3,
+        "remainingWork": 0,
+        "completedWork": 0
+      }
+    ]
+  }
+]
+```
+
+<!-- --- -->
