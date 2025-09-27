@@ -198,3 +198,105 @@ Vamos bien , Evitemos usar "y" en las historias de usario engloba con una palabr
 
 
 <!-- --- -->
+
+## PROMPT 2
+
+**Fecha:** 27 sept 2025, 07:23 p m. (UTC)
+
+**Prompt:**
+
+### objetivo 
+bien , ahora necesito definir mi product backlog de alto nivel , este debe incluir historias de usario epicas. 
+
+
+### contexto 
+una historia de usuario de gran tamaño que no puede ser completada en un solo sprint o iteración.
+La palabra "épica" se usa para denotar una historia que es demasiado grande y, por lo tanto, debe ser desglosada en varias historias de usuario más pequeñas, manejables y específicas.
+
+Características principales:
+Gran alcance: Una épica representa una funcionalidad o iniciativa de alto nivel que abarca un objetivo significativo del producto.
+Contenedor: Funciona como un "contenedor" para un conjunto de historias de usuario relacionadas.
+Flexibilidad: El alcance de una épica puede evolucionar a medida que el equipo aprende más sobre la funcionalidad durante el desarrollo y a través del feedback del cliente.
+Propósito: Su principal propósito es ayudar a organizar y gestionar el trabajo en el backlog, conectando el trabajo diario del equipo con los objetivos estratégicos de la empresa.
+
+La Escuela Politécnica Nacional (EPN) busca acreditar sus carreras bajo el sello EUR-ACE.  
+La entidad EUR-ACE evaluará que las carreras de la EPN cumplan con determinados objetivos (objetivos EUR-ACE).  
+
+Organización de la EPN:
+- La EPN se organiza en Facultades.  
+- Cada Facultad tiene: Profesores, Autoridades (Decano, Subdecano, Jefe de Departamento) y Carreras.  
+- Cada Carrera tiene un Coordinador.  
+- Existen Comités de Evaluación Interna (CEI), conformados por profesores.  
+- Roles principales: Profesor, Coordinador de Carrera, Autoridad, DGIP, Miembro del CEI.  
+	- Para ser Coordinador, Autoridad o miembro del CEI, primero se debe ser Profesor.  
+	- El DGIP gestiona aspectos académicos de la Facultad.  
+	- La Autoridad administra la Facultad.  
+	- El Coordinador gestiona la Carrera.  
+	- El CEI gestiona los objetivos EUR-ACE y puede consultar información de Facultades.  
+
+Flujo de acreditación:
+- Cada Materia de una Carrera cuenta con un **PEA (Programa de Estudios Académicos)**, que contiene:  
+	- Unidad académica  
+	- Carrera  
+	- Unidad de organización curricular  
+	- Nombre de la asignatura  
+	- Código  
+	- Créditos  
+
+- El PEA define los **Resultados de Aprendizaje de la Asignatura (RAA)**, que pueden ser:  
+	- Conocimiento  
+	- Destrezas  
+	- Valores y actitudes  
+
+- La Carrera en su conjunto cuenta con:  
+	- **Objetivos de Perfil de Egreso (RA)**, generales y específicos.  
+	- **Objetivos de Perfil Profesional (OPP)**.  
+
+- Relaciones fundamentales:  
+	- Cada **RAA** de una materia contribuye a los **RA** de la carrera (con un nivel definido).  
+	- Cada **RA** de la carrera se relaciona tanto con los **OPP** como con los **objetivos EUR-ACE**.  
+
+Producto a desarrollar:
+- Un sistema que permita:  
+	- Ingresar toda la información del PEA.  
+	- Registrar RAAs, RAs, OPP y objetivos EUR-ACE.  
+	- Establecer las relaciones: RAA → RA, RA → OPP, RA → EUR-ACE.  
+	- Generar reportes sobre el cumplimiento de los objetivos de acreditación EUR-ACE.  
+	- Controlar el acceso según roles (Profesor, Coordinador, Autoridad, CEI, DGIP).  
+	- Gestion de organización de las facultades , carreras 
+
+### Accion 
+crea el product backlog de alto nivel con las hus en este formato : 
+
+
+### Formato de salida 
+como quiero y para
+
+**Respuesta:**
+
+¡Excelente! Aquí tienes el Product Backlog de alto nivel, definido con Historias de Usuario Épicas, que abarca la funcionalidad principal para el sistema de acreditación EUR-ACE de la EPN. Estas épicas son amplias y serán el punto de partida para desglosar el trabajo en iteraciones más pequeñas.
+
+---
+
+**Product Backlog de Alto Nivel: Épicas para EPN-ACE Connect**
+
+1.  **Gestión de la Estructura Organizacional y Acceso Institucional**
+    *   **Como** DGIP o Autoridad de la EPN,
+    *   **Quiero** poder configurar la estructura jerárquica de la EPN (Facultades, Carreras, Departamentos), gestionar el registro de usuarios (Profesores) y asignarles los roles institucionales adecuados (Coordinador de Carrera, Autoridad de Facultad, Miembro del CEI, DGIP),
+    *   **Para** asegurar que la organización académica y administrativa se refleje fielmente en el sistema, controlar el acceso a la información según las responsabilidades de cada rol y permitir que cada actor gestione su ámbito de competencia.
+
+2.  **Configuración del Marco Académico y Mapeo para Acreditación**
+    *   **Como** Coordinador de Carrera o Profesor (para su materia),
+    *   **Quiero** poder ingresar y gestionar la información completa de los Programas de Estudios Académicos (PEA) para cada materia, definir los Resultados de Aprendizaje de la Asignatura (RAA), los Resultados de Aprendizaje de la Carrera (RA), los Objetivos de Perfil Profesional (OPP) y los Objetivos EUR-ACE, y además, establecer las relaciones de contribución entre RAA y RA (con su nivel), entre RA y OPP, y entre RA y los objetivos EUR-ACE,
+    *   **Para** construir una base de datos coherente y las matrices de trazabilidad necesarias que demuestren la alineación de la oferta académica con los estándares de calidad y acreditación EUR-ACE.
+
+3.  **Generación de Evidencia y Reportes Estratégicos EUR-ACE**
+    *   **Como** Miembro del CEI, Autoridad, DGIP o Coordinador de Carrera,
+    *   **Quiero** poder consultar la información académica de facultades y carreras, visualizar la trazabilidad de los Resultados de Aprendizaje y generar reportes personalizables sobre el cumplimiento y la contribución a los objetivos EUR-ACE,
+    *   **Para** facilitar la autoevaluación, proporcionar la evidencia requerida para el proceso de acreditación por parte de la entidad EUR-ACE y apoyar la toma de decisiones estratégicas para la mejora continua de las carreras.
+
+---
+
+Estas épicas servirán como la columna vertebral para la planificación de releases y sprints, permitiendo que el equipo de desarrollo descomponga cada una en historias de usuario más detalladas y tareas específicas.
+
+<!-- --- -->
