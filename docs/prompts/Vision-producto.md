@@ -530,3 +530,54 @@ se directo con la vision.
 **PoliAcredita proporciona** una trazabilidad completa del currículo y agiliza la generación de reportes esenciales, asegurando la preparación exitosa para la auditoría de acreditación.
 
 <!-- --- -->
+
+## PROMPT 14
+
+**Fecha:** 27 sept 2025, 07:08 p m. (UTC)
+
+**Prompt:**
+
+Actua como un Product owner que es experto en gestión de productos de Software.
+
+objetivo: Definir una visión de un producto software de cumplimiento de objetivos EUR-ACE para la Escuela Politécnica Nacional .
+
+EUR-ACE es una etiqueta de calidad y un sistema de acreditación para programas de estudios de ingeniería a nivel de grado y máster. La etiqueta, que es reconocida a nivel europeo e internacional, es un certificado que garantiza que el programa de estudios cumple con altos estándares de calidad y con las exigencias de la profesión de ingeniería.
+
+La Escuela Politécnica Nacional, o EPN, es una universidad pública, de grado y posgrado, ubicada en Quito (Ecuador). Reconocida por la investigación y la educación en ciencias básicas, ingenierías y tecnología, ofrece programas doctorales, de maestría y de grado.
+
+La EPN está dividida de la siguiente manera, existen Facultades y por cada facultad pueden existir diferentes carreras cada Facultad tiene profesores, Autoridades (Decano , Subdecano , jefe de Departamento) , Para llegar a ser coordinador, Autoridad primero tiene que ser un profesor, Para las carreras cada carrera tiene un solo coordinador y existe una entidad superior que sería la DGIP que es la encargada de gestionar los aspectos académicos de las facultades , Para la autoridad administra la facultad, el coordinador gestiona la carrera .
+
+Cada carrera de la EPN cuenta con resultados de aprendizaje (RA): generales y específicos que son los resultados que se garantizan que el estudiante tenga cuando termina la carrera.
+
+También cada carrera cuenta con Objetivos de perfil profesional que son los objetivos que se espera que un estudiante realice en su vida profesional.
+
+Para Cada carrera existen diferentes Asignaturas , cada una de estas asignaturas cuenta con un programa de estudios académicos (PEA) . Este PEA contiene información relevante de cada asignatura . Por ejemplo : – Unidad Académica “ – Carrera – Unidad de organización curricular
+– Nombre de la asignatura – Código
+
+– Créditos – Resultados de aprendizaje de la asignatura (RAA)
+
+Bien para evaluar que los RA de la carrera se estén cumpliendo se verifica como los RAA de cada materia aportan con un nivel (Bajo , Medio , Alto) a los RA .
+
+También para Evaluar los OPP se verifica como los RA aportan a los OPP.
+
+Para lograr la acreditación es importante los RA ya que con estos se verifica los objetivos EUR-ACE Es decir se verifica que los RA cumplan con los objetivos EURACE.
+
+Crea una visión del producto para establecer el alcance del mismo teniendo en cuenta que se desarrollara en un mes . hazlo utilizando el formato de Geoffrey Moore
+
+usa el siguiente formato :
+
+Formato: Para (cliente objetivo) que (necesidad u oportunidad), nuestro (nombre del producto/servicio) es una (categoría del producto) que (beneficio clave). A diferencia de (alternativa de la competencia), nuestro producto (declaración de diferenciación primaria).
+
+se directo con la vision.
+
+**Respuesta:**
+
+¡Entendido! Como Product Owner, mi enfoque es la claridad, el valor y la dirección estratégica, especialmente con un plazo de desarrollo ajustado. Aquí está la visión del producto para el software de cumplimiento EUR-ACE de la EPN:
+
+---
+
+**Visión del Producto: EPN-ACE Connect**
+
+Para **Coordinadores de Carrera y Autoridades de la EPN** que **necesitan centralizar y agilizar la trazabilidad de los Resultados de Aprendizaje (RA) de sus programas para cumplir con los requisitos de acreditación EUR-ACE**, nuestro **EPN-ACE Connect** es un **Sistema de Gestión de Acreditación y Resultados de Aprendizaje** que **simplifica la gestión y asegura la demostración sistemática del cumplimiento de los criterios EUR-ACE.** A diferencia de **los procesos manuales actuales basados en documentos y hojas de cálculo**, nuestro producto **permite configurar y visualizar el nivel de aporte de cada Resultado de Aprendizaje de Asignatura (RAA) a los RA de la carrera y su alineación con los objetivos EUR-ACE de forma ágil y auditable.**
+
+<!-- --- -->
