@@ -921,21 +921,4 @@ como quiero y para
 **Prioridad:** N/A
 
 ---
-
-### HU: EPIC: Gestión Administrativa de Facultad Departamento
-**Como:** Decano Subdecano Jefe de Departamento
-**Quiero:** supervisar el progreso académico administrativo de mi unidad
-**Para:** asegurar la correcta operación el cumplimiento de los objetivos
-**Story Points:** N/A
-**Prioridad:** N/A
-
----
-
-### HU: EPIC: Supervisión Institucional de Acreditación
-**Como:** DGIP o Autoridad Central
-**Quiero:** monitorear el progreso de acreditación de todas las carreras facultades
-**Para:** asegurar el cumplimiento de los estándares institucionales externos
-**Story Points:** N/A
-**Prioridad:** N/A
-
 <!-- --- -->
