@@ -15,6 +15,7 @@
 6. [PROMPT 6](#prompt-6)
 7. [PROMPT 7](#prompt-7)
 8. [PROMPT 8](#prompt-8)
+9. [PROMPT 9](#prompt-9)
 
 ---
 
@@ -1305,6 +1306,172 @@ como quiero y para
 ---
 
 ### HU: EPIC: Generación de Reportes para Acreditación
+**Como:** Responsable de Acreditación
+**Quiero:** obtener informes automáticos de cumplimiento
+**Para:** facilitar la presentación de evidencias a la agencia acreditadora
+**Story Points:** N/A
+**Prioridad:** N/A
+
+---
+
+### HU: EPIC: Paneles de Control de Progreso de Acreditación
+**Como:** Vicerrector de Docencia
+**Quiero:** visualizar el estado general de acreditación de las carreras
+**Para:** monitorear el avance institucional la toma de decisiones estratégicas
+**Story Points:** N/A
+**Prioridad:** N/A
+
+<!-- --- -->
+
+## PROMPT 9
+
+**Fecha:** 28 sept 2025, 02:11 a m. (UTC)
+
+**Prompt:**
+
+###ROL
+
+Actua como un Product owner que es experto en gestión de productos de Software.
+
+
+
+### objetivo 
+Mi objetivo es definir mi product backlog de alto nivel , para establecer las principales funcionalidades que tendrá mi producto software
+ este debe incluir historias de usuario epicas. 
+
+CONTEXTO
+
+La Escuela Politécnica Nacional (EPN) busca acreditar sus carreras bajo el sello EUR-ACE.  
+
+
+EUR-ACE es una etiqueta de calidad y un sistema de acreditación para programas de estudios de ingeniería a nivel de grado y máster. La etiqueta, que es reconocida a nivel europeo e internacional, es un certificado que garantiza que el programa de estudios cumple con altos estándares de calidad y con las exigencias de la profesión de ingeniería.
+
+La Escuela Politécnica Nacional, o EPN, es una universidad pública, de grado y posgrado, ubicada en Quito (Ecuador). Reconocida por la investigación y la educación en ciencias básicas, ingenierías y tecnología, ofrece programas doctorales, de maestría y de grado.
+La Escuela Politécnica Nacional (EPN) se organiza en facultades y departamentos, cada uno con funciones específicas para cumplir sus objetivos académicos y de investigación.
+
+Estructura Academica de la EPN 
+
+La EPN se estructura principalmente en las siguientes unidades:
+Facultades: Son las unidades académicas superiores encargadas de planificar, ejecutar, controlar y evaluar los procesos de docencia, investigación y extensión en áreas específicas del conocimiento. Cada facultad está dirigida por un Consejo de Facultad, un Decano y un Subdecano. Tienen capacidad de gestión administrativa y financiera y están integradas por departamentos y carreras afines. 
+ 
+Departamentos: Actúan como las células básicas de la EPN, dependientes de las facultades. Los departamentos son responsables de las actividades de investigación, docencia y extensión en campos específicos. Cada departamento puede diseñar y gestionar programas de maestría y doctorado, y participa en la planificación de los procesos docentes. 
+ 
+La EPN está dividida de la siguiente manera, existen Facultades y por cada facultad pueden existir diferentes carreras cada Facultad tiene profesores, Autoridades (Decano , Subdecano , jefe de Departamento) , Para llegar a ser coordinador, Autoridad primero tiene que ser un profesor, Para las carreras cada carrera tiene un solo coordinador y existe una entidad superior que sería la DGIP que es la encargada de gestionar los aspectos académicos de las facultades , Para la autoridad administra la facultad, el coordinador gestiona la carrera .
+
+Cada carrera de la EPN cuenta con resultados de aprendizaje (RA): 
+Los RA (Resultados de Aprendizaje) son las declaraciones operativas y mensurables que desagregan el OPP. Son la unidad fundamental del currículo por resultados.   
+
+Los RA describen de manera precisa lo que se espera que un estudiante sepa, comprenda y sea capaz de hacer al concluir el programa de estudios. A diferencia de los objetivos tradicionales, los RA se centran en la    
+
+
+También cada carrera cuenta con Objetivos de perfil profesional (OPP) 
+
+El OPP (Objetivo/Perfil Profesional) es la declaración fundacional que define la identidad del futuro egresado de la EPN. Formalmente, en el diseño curricular moderno de la EPN, este se consolida como el Perfil de Egreso (PE).   
+
+El OPP es la promesa institucional que la EPN suscribe ante la sociedad, detallando las capacidades, conocimientos y actitudes específicos que el profesional poseerá al graduarse.   
+
+
+Para Cada carrera existen diferentes Asignaturas , cada una de estas asignaturas cuenta con un programa de estudios académicos (PEA) . Este PEA contiene información relevante de cada asignatura . Por ejemplo : – Unidad Académica “ – Carrera – Unidad de organización curricular – Nombre de la asignatura – Código
+
+– Créditos – Resultados de aprendizaje de la asignatura (RAA)
+
+Bien para evaluar que los RA de la carrera se estén cumpliendo se verifica como los RAA de cada materia aportan con un nivel (Bajo , Medio , Alto) a los RA .
+
+También para Evaluar los OPP se verifica como los RA aportan a los OPP.
+
+Para lograr la acreditación es importante los RA ya que con estos se verifica los objetivos EUR-ACE Es decir se verifica que los RA cumplan con los objetivos EURACE.
+
+ACCION
+
+Crea el product backlog de alto nivel con las historitas de usuario épicas para desarrollar mi producto evitando usar "y" ya que esto uniría dos funcionalidades del producto además las épicas deben agregar valor al usuario.
+
+### Formato de salida 
+como quiero y para
+
+**Respuesta:**
+
+### HU: EPIC: Configuración de la Estructura Organizativa de la EPN
+**Como:** Administrador del sistema
+**Quiero:** definir las facultades departamentos carreras
+**Para:** reflejar la organización académica institucional de la EPN
+**Story Points:** N/A
+**Prioridad:** N/A
+
+---
+
+### HU: EPIC: Gestión de Usuarios, Roles y Permisos
+**Como:** Administrador del sistema
+**Quiero:** asignar roles de acceso a cada tipo de usuario
+**Para:** controlar la seguridad operativa la integridad de la plataforma
+**Story Points:** N/A
+**Prioridad:** N/A
+
+---
+
+### HU: EPIC: Definición del Perfil de Egreso (OPP) de Carrera
+**Como:** Coordinador de Carrera
+**Quiero:** establecer los objetivos de perfil profesional de mi carrera
+**Para:** formalizar la promesa del egresado ante la sociedad
+**Story Points:** N/A
+**Prioridad:** N/A
+
+---
+
+### HU: EPIC: Gestión de los Resultados de Aprendizaje (RA) de Carrera
+**Como:** Coordinador de Carrera
+**Quiero:** crear los resultados de aprendizaje para mi carrera
+**Para:** especificar las competencias esperadas de los estudiantes al egresar
+**Story Points:** N/A
+**Prioridad:** N/A
+
+---
+
+### HU: EPIC: Administración de Programas de Estudio por Asignatura (PEA)
+**Como:** Profesor
+**Quiero:** registrar el programa de mi asignatura
+**Para:** documentar sus resultados de aprendizaje (RAA) su contenido
+**Story Points:** N/A
+**Prioridad:** N/A
+
+---
+
+### HU: EPIC: Mapeo de Resultados de Asignatura (RAA) a Carrera (RA)
+**Como:** Coordinador de Carrera
+**Quiero:** establecer la contribución de los RAA a los RA de mi carrera
+**Para:** visualizar el aporte de cada asignatura al perfil global del egresado
+**Story Points:** N/A
+**Prioridad:** N/A
+
+---
+
+### HU: EPIC: Alineación de Resultados de Aprendizaje (RA) con el Perfil Profesional (OPP)
+**Como:** Coordinador de Carrera
+**Quiero:** relacionar los resultados de aprendizaje de carrera con los OPP
+**Para:** asegurar la coherencia entre el currículo el perfil profesional deseado
+**Story Points:** N/A
+**Prioridad:** N/A
+
+---
+
+### HU: EPIC: Configuración de los Estándares de Acreditación EUR-ACE
+**Como:** Administrador del sistema
+**Quiero:** cargar los criterios de calidad definidos por EUR-ACE
+**Para:** tener una base oficial de evaluación del currículo
+**Story Points:** N/A
+**Prioridad:** N/A
+
+---
+
+### HU: EPIC: Verificación del Cumplimiento con Estándares EUR-ACE
+**Como:** Coordinador de Carrera
+**Quiero:** comparar los RA de carrera con los objetivos EUR-ACE
+**Para:** identificar el grado de alineación la preparación para la acreditación
+**Story Points:** N/A
+**Prioridad:** N/A
+
+---
+
+### HU: EPIC: Generación de Reportes para la Acreditación
 **Como:** Responsable de Acreditación
 **Quiero:** obtener informes automáticos de cumplimiento
 **Para:** facilitar la presentación de evidencias a la agencia acreditadora
