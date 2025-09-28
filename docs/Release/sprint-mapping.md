@@ -1949,3 +1949,96 @@ Aquí tienes el Sprint Mapping detallado para las próximas 5 semanas:
 Este Sprint Mapping asegura una entrega de valor constante y progresiva, con cada sprint construyendo sobre el anterior para culminar en la capacidad de generar un informe de alineación EUR-ACE, un hito crucial para la EPN. ¡Estamos en el camino correcto!
 
 <!-- --- -->
+
+## PROMPT 15
+
+**Fecha:** 28 sept 2025, 04:33 a m. (UTC)
+
+**Prompt:**
+
+mmm no me gustan los objetivos tienes que ser mas preciso sin dejar ambiguedad de por medio analiza bien el contexto y vuelve a plantearlos , recuerda los objetivos deben ser comericales .
+
+ACCION 
+vuelve a crear mi sprint mapping analizando esto que te comento
+
+**Respuesta:**
+
+¡Absolutamente! Entendido. Mis disculpas por la ambigüedad anterior. Como Product Owner, mi responsabilidad es asegurar que cada objetivo de sprint se alinee directamente con el valor comercial y estratégico para la EPN, especialmente en un proceso tan crítico como la acreditación EUR-ACE.
+
+Aquí tienes el Sprint Mapping revisado, con objetivos comerciales claros, concisos y sin ambigüedades, enfocados en el impacto directo para la EPN:
+
+---
+
+### **Sprint Mapping**
+
+**Release Objetivo Comercial Global:** Acelerar el proceso de acreditación EUR-ACE para las carreras de ingeniería de la EPN, mediante la digitalización y autoevaluación estratégica de su currículo frente a estándares de calidad reconocidos internacionalmente.
+
+---
+
+**Sprint 1: Cimientos Organizacionales y Acceso Estratégico**
+**(Semana 1: Lunes - Domingo)**
+
+*   **Objetivo Comercial:** Activar la plataforma con la estructura académica fundamental y los roles de usuario clave, garantizando la base operativa para iniciar la gestión estratégica del currículo y el proceso de acreditación.
+*   **Valor Comercial:** Permite a la EPN comenzar a organizar digitalmente su institución y asignar responsabilidades críticas, lo que es indispensable para cualquier iniciativa de mejora de calidad y acreditación.
+*   **PBI:**
+    *   HU-01 (5 sp): Como Administrador del sistema, Quiero registrar una nueva Facultad, Para poder organizar la estructura académica de la EPN en el sistema.
+    *   HU-02 (5 sp): Como Administrador del sistema, Quiero registrar un nuevo usuario en la plataforma, Para permitir que las personas de la EPN accedan y utilicen el sistema.
+    *   HU-03 (8 sp): Como Administrador del sistema, Quiero registrar una nueva Carrera dentro de una Facultad existente, Para poder gestionar la información curricular específica de cada programa de estudio.
+    *   HU-04 (8 sp): Como Administrador del sistema, Quiero asignar el rol de “Profesor” a un usuario, Para otorgarle permisos para gestionar la información de sus asignaturas.
+    *   HU-05 (8 sp): Como Administrador del sistema, Quiero asignar el rol de “Coordinador de Carrera” a un usuario, Para otorgarle permisos para gestionar la información de una carrera específica.
+*   **Total SP Sprint 1:** 34 SP
+
+---
+
+**Sprint 2: Marco de Calidad y Compromiso de Egreso**
+**(Semana 2: Lunes - Domingo)**
+
+*   **Objetivo Comercial:** Establecer los criterios de calidad EUR-ACE en la plataforma y formalizar el compromiso institucional de cada carrera con la sociedad, permitiendo a la EPN definir claramente lo que sus egresados representarán.
+*   **Valor Comercial:** Proporciona a la EPN la referencia oficial de los estándares de acreditación y la declaración fundamental de los perfiles profesionales (OPP) y resultados de aprendizaje (RA) de cada carrera, elementos clave para iniciar la autoevaluación formal.
+*   **PBI:**
+    *   HU-06 (21 sp): Como Administrador del sistema, Quiero cargar los criterios y estándares de acreditación EUR-ACE en el sistema, Para disponer de la referencia oficial para la evaluación de la calidad.
+    *   HU-07 (13 sp): Como Coordinador de Carrera, Quiero registrar el Perfil de Egreso (OPP) de mi carrera, Para documentar el conjunto de habilidades y conocimientos que distinguen al egresado.
+    *   HU-08 (13 sp): Como Coordinador de Carrera, Quiero registrar los Resultados de Aprendizaje (RA) esperados para mi carrera, Para especificar las competencias globales que los estudiantes deben adquirir al egresar.
+*   **Total SP Sprint 2:** 47 SP
+
+---
+
+**Sprint 3: Detalle Curricular y Articulación Estratégica**
+**(Semana 3: Lunes - Domingo)**
+
+*   **Objetivo Comercial:** Digitalizar el detalle de la oferta académica por asignatura y validar la consistencia estratégica de los Resultados de Aprendizaje de Carrera (RA) con el Perfil de Egreso (OPP), fortaleciendo la coherencia interna del currículo.
+*   **Valor Comercial:** Permite a la EPN asegurar que las competencias globales de la carrera se alinean directamente con el perfil del egresado prometido, un paso esencial para demostrar la calidad del diseño curricular y la preparación para EUR-ACE.
+*   **PBI:**
+    *   HU-09 (13 sp): Como Profesor, Quiero registrar el programa de estudio de una asignatura, Para digitalizar la descripción oficial y el contenido de la materia.
+    *   HU-10 (8 sp): Como Profesor, Quiero registrar los Resultados de Aprendizaje de Asignatura (RAA) para mi asignatura, Para detallar las competencias específicas que el estudiante obtendrá al finalizar la materia.
+    *   HU-11 (21 sp): Como Coordinador de Carrera, Quiero vincular un Resultado de Aprendizaje (RA) de mi carrera a un Objetivo de Perfil Profesional (OPP), Para demostrar la coherencia entre las competencias esperadas y el perfil final del egresado.
+*   **Total SP Sprint 3:** 42 SP
+
+---
+
+**Sprint 4: Análisis de Contribución y Optimización Curricular**
+**(Semana 4: Lunes - Domingo)**
+
+*   **Objetivo Comercial:** Habilitar a la EPN para diagnosticar cómo cada asignatura contribuye a las competencias globales de la carrera, lo que permite la optimización continua del currículo para maximizar el cumplimiento de los estándares de calidad EUR-ACE.
+*   **Valor Comercial:** Proporciona información crítica para la toma de decisiones sobre el diseño curricular, permitiendo identificar fortalezas, duplicidades o deficiencias en la formación del estudiante y mejorar la efectividad del programa en su totalidad.
+*   **PBI:**
+    *   HU-12 (21 sp): Como Coordinador de Carrera, Quiero vincular un Resultado de Aprendizaje de Asignatura (RAA) a un Resultado de Aprendizaje (RA) de mi carrera, Para entender cómo cada asignatura contribuye a las competencias globales de la carrera.
+    *   HU-13 (13 sp): Como Coordinador de Carrera, Quiero especificar el nivel de contribución (Bajo, Medio, Alto) de un RAA a un RA de mi carrera, Para evaluar la intensidad de la aportación de cada asignatura al perfil de egreso.
+*   **Total SP Sprint 4:** 34 SP
+
+---
+
+**Sprint 5: Evidencia de Alineación EUR-ACE**
+**(Semana 5: Lunes - Domingo)**
+
+*   **Objetivo Comercial:** Entregar el informe ejecutivo de alineación EUR-ACE, proporcionando a la EPN la evidencia fundamental para su autoevaluación formal y la presentación a los organismos de acreditación, agilizando la obtención del sello de calidad.
+*   **Valor Comercial:** Este informe es el entregable estratégico clave que cataliza el proceso de acreditación, demostrando de manera estructurada y verificable el cumplimiento de los estándares de calidad y reforzando la reputación internacional de la EPN.
+*   **PBI:**
+    *   HU-14 (34 sp): Como Coordinador de Carrera, Quiero generar un informe que muestre cómo los Resultados de Aprendizaje (RA) de mi carrera se alinean con los estándares EUR-ACE, Para evaluar el cumplimiento de los criterios de acreditación.
+*   **Total SP Sprint 5:** 34 SP
+
+---
+
+Este enfoque asegura que cada sprint tenga un impacto comercial directo y medible en el objetivo final de la EPN: lograr la acreditación EUR-ACE.
+
+<!-- --- -->
