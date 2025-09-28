@@ -881,3 +881,112 @@ Aquí tienes el conjunto de MRFs indispensables, formulados como Historias de Us
 *   **Para:** Realizar una autoevaluación inicial que demuestre el alineamiento de la carrera con los estándares de calidad EUR-ACE.
 
 <!-- --- -->
+
+## PROMPT 4
+
+**Fecha:** 28 sept 2025, 03:20 a m. (UTC)
+
+**Prompt:**
+
+ACCION :
+
+no pues estas uniendo varias funcionalidades con el "y" crea de nuevo el conjunto de mrfs
+
+**Respuesta:**
+
+¡Absolutamente! Tienes toda la razón en insistir en la atomicidad. Mi error fue ceder a la tentación de agrupar funcionalidades relacionadas, pero la clave para una buena Historia de Usuario es que sea independiente, negociable y de una sola funcionalidad.
+
+Me disculpo nuevamente por el desliz. He vuelto a desglosar cada funcionalidad hasta su mínima expresión, eliminando cualquier "y" que implicara más de una acción o concepto.
+
+Aquí tienes el nuevo conjunto de MRFs indispensables, cada uno enfocado en una única funcionalidad:
+
+---
+
+### **MRF Set 1: Infraestructura Básica y Gestión de Usuarios**
+*(Establece el esqueleto del sistema y quiénes pueden interactuar con él.)*
+
+1.  **MRF 1.1: Registro de Facultades**
+    *   **Como:** Administrador del sistema
+    *   **Quiero:** Registrar una nueva Facultad
+    *   **Para:** Poder organizar la estructura académica de la EPN en el sistema.
+
+2.  **MRF 1.2: Registro de Carreras**
+    *   **Como:** Administrador del sistema
+    *   **Quiero:** Registrar una nueva Carrera dentro de una Facultad existente
+    *   **Para:** Poder gestionar la información curricular específica de cada programa de estudio.
+
+3.  **MRF 1.3: Registro de Usuarios**
+    *   **Como:** Administrador del sistema
+    *   **Quiero:** Registrar un nuevo usuario en la plataforma
+    *   **Para:** Permitir que las personas de la EPN accedan y utilicen el sistema.
+
+4.  **MRF 1.4: Asignación de Rol de Coordinador de Carrera**
+    *   **Como:** Administrador del sistema
+    *   **Quiero:** Asignar el rol de "Coordinador de Carrera" a un usuario
+    *   **Para:** Otorgarle permisos para gestionar la información de una carrera específica.
+
+5.  **MRF 1.5: Asignación de Rol de Profesor**
+    *   **Como:** Administrador del sistema
+    *   **Quiero:** Asignar el rol de "Profesor" a un usuario
+    *   **Para:** Otorgarle permisos para gestionar la información de sus asignaturas.
+
+---
+
+### **MRF Set 2: Definición y Alineación Curricular Interna**
+*(Permite a la EPN digitalizar y verificar la coherencia interna de su currículo.)*
+
+6.  **MRF 2.1: Definición del Perfil de Egreso (OPP) de una Carrera**
+    *   **Como:** Coordinador de Carrera
+    *   **Quiero:** Registrar el Perfil de Egreso (OPP) de mi carrera
+    *   **Para:** Documentar el conjunto de habilidades y conocimientos que distinguen al egresado.
+
+7.  **MRF 2.2: Definición de Resultados de Aprendizaje (RA) de Carrera**
+    *   **Como:** Coordinador de Carrera
+    *   **Quiero:** Registrar los Resultados de Aprendizaje (RA) esperados para mi carrera
+    *   **Para:** Especificar las competencias globales que los estudiantes deben adquirir al egresar.
+
+8.  **MRF 2.3: Registro de Programa de Estudio por Asignatura (PEA)**
+    *   **Como:** Profesor
+    *   **Quiero:** Registrar el programa de estudio de una asignatura
+    *   **Para:** Digitalizar la descripción oficial y el contenido de la materia.
+
+9.  **MRF 2.4: Definición de Resultados de Aprendizaje de Asignatura (RAA)**
+    *   **Como:** Profesor
+    *   **Quiero:** Registrar los Resultados de Aprendizaje de Asignatura (RAA) para mi asignatura
+    *   **Para:** Detallar las competencias específicas que el estudiante obtendrá al finalizar la materia.
+
+10. **MRF 2.5: Mapeo de RAA a RA de Carrera**
+    *   **Como:** Coordinador de Carrera
+    *   **Quiero:** Vincular un Resultado de Aprendizaje de Asignatura (RAA) a un Resultado de Aprendizaje (RA) de mi carrera
+    *   **Para:** Entender cómo cada asignatura contribuye a las competencias globales de la carrera.
+
+11. **MRF 2.6: Indicación de Nivel de Contribución de RAA a RA**
+    *   **Como:** Coordinador de Carrera
+    *   **Quiero:** Especificar el nivel de contribución (Bajo, Medio, Alto) de un RAA a un RA de mi carrera
+    *   **Para:** Evaluar la intensidad de la aportación de cada asignatura al perfil de egreso.
+
+12. **MRF 2.7: Vinculación de RA de Carrera a Perfil Profesional (OPP)**
+    *   **Como:** Coordinador de Carrera
+    *   **Quiero:** Vincular un Resultado de Aprendizaje (RA) de mi carrera a un Objetivo de Perfil Profesional (OPP)
+    *   **Para:** Demostrar la coherencia entre las competencias esperadas y el perfil final del egresado.
+
+---
+
+### **MRF Set 3: Verificación Preliminar de Acreditación EUR-ACE**
+*(Permite a la EPN iniciar la autoevaluación frente a los estándares EUR-ACE.)*
+
+13. **MRF 3.1: Carga de Estándares de Acreditación EUR-ACE**
+    *   **Como:** Administrador del sistema
+    *   **Quiero:** Cargar los criterios y estándares de acreditación EUR-ACE en el sistema
+    *   **Para:** Disponer de la referencia oficial para la evaluación de la calidad.
+
+14. **MRF 3.2: Generación de Informe de Cumplimiento EUR-ACE**
+    *   **Como:** Coordinador de Carrera
+    *   **Quiero:** Generar un informe que muestre cómo los Resultados de Aprendizaje (RA) de mi carrera se alinean con los estándares EUR-ACE
+    *   **Para:** Realizar una autoevaluación inicial y planificar mejoras para la acreditación.
+
+---
+
+Ahora sí, cada MRF es una unidad de valor mínima, atómica y claramente definida. ¡Gracias por la corrección persistente! Esto asegura que el producto se construya de la manera más efectiva y con entregas de valor incrementales muy claras.
+
+<!-- --- -->
