@@ -2593,7 +2593,7 @@ Aquí tienes el Sprint Mapping revisado, diseñado para entregar valor increment
 **Sprint 1: Fundación Organizacional y Acceso Inicial**
 **(Fecha Inicio – Fecha Fin: 06 de Mayo – 12 de Mayo)**
 
-*   **Objetivo Comercial:** Establecer la estructura académica fundamental y asegurar el acceso de usuarios clave al sistema.
+*   **Objetivo Comercial:** Establecer la estructura jerarquica academica y la gestion de roles .
 *   **Valor Comercial:** Proporciona el esqueleto digital de la EPN y habilita la interacción inicial para el proceso de acreditación.
 *   **Dependencias:** Ninguna.
 *   **PBI:**
@@ -2609,7 +2609,7 @@ Aquí tienes el Sprint Mapping revisado, diseñado para entregar valor increment
 **Sprint 2: Definición Curricular Central y Estándares EUR-ACE**
 **(Fecha Inicio – Fecha Fin: 13 de Mayo – 19 de Mayo)**
 
-*   **Objetivo Comercial:** Digitalizar los perfiles de egreso (OPP) y resultados de aprendizaje (RA) de las carreras, e incorporar los estándares EUR-ACE.
+*   **Objetivo Comercial:** Gestion de  los perfiles de egreso (OPP) , resultados de aprendizaje (RA) de las carreras y relacion con los estándares EUR-ACE.
 *   **Valor Comercial:** Formaliza digitalmente la visión de egreso de la EPN y establece el marco de calidad EUR-ACE para la autoevaluación.
 *   **Dependencias:** Sprint 1 (Necesita carreras y coordinadores asignados).
 *   **PBI:**
@@ -2624,7 +2624,7 @@ Aquí tienes el Sprint Mapping revisado, diseñado para entregar valor increment
 **Sprint 3: Detalle de Asignaturas y Mapeo de Contribuciones**
 **(Fecha Inicio – Fecha Fin: 20 de Mayo – 26 de Mayo)**
 
-*   **Objetivo Comercial:** Registrar programas de estudio de asignaturas (PEA) y sus resultados de aprendizaje (RAA), y vincularlos a los RA de carrera.
+*   **Objetivo Comercial:** Gestion de programas de estudio de asignaturas (PEA) y relacion a los RA de carrera.
 *   **Valor Comercial:** Digitaliza la contribución de cada asignatura a las competencias de la carrera, evidenciando la coherencia curricular interna.
 *   **Dependencias:** Sprint 1 (Profesores asignados), Sprint 2 (RA de Carrera definidos).
 *   **PBI:**
@@ -2639,7 +2639,7 @@ Aquí tienes el Sprint Mapping revisado, diseñado para entregar valor increment
 **Sprint 4: Diagnóstico Preliminar EUR-ACE**
 **(Fecha Inicio – Fecha Fin: 27 de Mayo – 02 de Junio)**
 
-*   **Objetivo Comercial:** Generar informes de alineación entre los resultados de aprendizaje (RA) de la carrera y los estándares EUR-ACE.
+*   **Objetivo Comercial:** Generar reportes  de alineación entre los resultados de aprendizaje (RA) de la carrera y los estándares EUR-ACE.
 *   **Valor Comercial:** Permite una autoevaluación estratégica y temprana para la acreditación EUR-ACE, identificando brechas y optimizando recursos.
 *   **Dependencias:** Sprint 2 (RA de Carrera definidos, estándares EUR-ACE cargados).
 *   **PBI:**
