@@ -761,3 +761,250 @@ Criterios de aceptación:
 **Prioridad:** Alta (1)
 
 <!-- --- -->
+
+## PROMPT 4
+
+**Fecha:** 28 sept 2025, 04:58 a m. (UTC)
+
+**Prompt:**
+
+Devuelve SOLO un array JSON (sin texto extra ni code fences). 
+
+Objetivo 
+ analizar los prototipos (imágenes) con la finalidad de encontrar las hus representadas en las mismas 
+
+contexto :
+
+Para las hus se debe cumplir con los criterios Criterios INVEST:
+
+INVEST significa:
+
+Independent (Independiente): Una historia debe poder completarse por sí sola, sin depender estrictamente de que otras historias se terminen antes.
+
+Negotiable (Negociable): La historia debe tener detalles que se puedan debatir y acordar con las partes interesadas (ej. desarrolladores, diseñadores).
+
+Valuable (Valiosa): La historia debe responder a una necesidad genuina del usuario y contribuir a la visión del producto y los objetivos comerciales.
+
+Estimable (Estimable): La historia debe poder desglosarse en tareas claras, de forma que el equipo pueda estimar el esfuerzo necesario para completarla.
+
+Small (Pequeña): La historia debe ser lo suficientemente pequeña para poder estimarse con precisión razonable; si es muy grande, debe dividirse en partes más manejables.
+
+Testable (Testeable): Deben existir criterios claros de aceptación que permitan verificar si la historia se implementó con éxito (ej. pruebas de usuario, verificaciones de funcionalidad).
+
+Las hus que debes representar corresponden a mi primer sprint el cual tiene por objetivo : Objetivo: Establecer la base organizativa de la EPN y asegurar el acceso controlado de usuarios.
+ y sus pbis :  PBI: - Gestión de organización académica (Facultades, Carreras, Materias, Profesores)
+
+
+
+Te proporciono unas hu de ejemplo que realizo mi equipo con anterioridad con su respectiva estimación 
+HU :  Agregar miembro de la CEI
+
+Como administrador
+
+quiero registrar a los miembros de la cei  ------ > 3sp
+
+
+HU :Listar miembros de la cei              -------- > 3sp
+
+Como administrador
+
+quiero listar los miembros de la CEI
+
+
+HU : Paginar autoridades
+Como administrador
+quiero listar las autoridades por grupos         ---- ? 1 sp
+
+HU : Filtrar autoridades  ---- > 1sp
+
+Como administrador
+quiero filtrar las autoridades por una palabra
+
+
+Formato de salida por HU (obligatorio):
+
+title, como, quiero, para
+
+acceptanceCriteria: array de strings claros y verificables
+
+storyPoints: número
+
+priority: 1 = alta, 2 = media, 3 = baja (elige según impacto/urgencia)
+
+frontendTasks: array de objetos { "title": string, "originalEstimate": number, "remainingWork": number, "completedWork": number }
+
+backendTasks: array de objetos { "title": string, "originalEstimate": number, "remainingWork": number, "completedWork": number }
+
+Reglas para horas por tarea (FE/BE):
+
+Devuelve horas numéricas (no strings), en horas.
+
+Si no hay señal específica, usa por defecto: originalEstimate = 3, remainingWork = 0, completedWork = 0.
+
+Si la HU es más compleja en un lado (FE o BE), ajusta las horas de esas tareas (p.ej., 4–6h) manteniendo tareas pequeñas (≤6h).
+
+No repitas títulos de tareas; usa verbos en infinitivo.
+
+
+
+ACCION :
+Crea mi sprint planning 1 con las hus representadas en los prototipos (imagenes ) tambien debes darle el objetivo del sprint debe ser uno comercial
+
+Ejemplo de salida[
+  {
+    "title": "HU: Iniciar Sesión en el Sistema",
+    "como": "usuario EPN",
+    "quiero": "acceder con mis credenciales institucionales",
+    "para": "usar las funcionalidades de mi rol",
+    "acceptanceCriteria": [
+      "Se muestra formulario con email institucional y contraseña",
+      "Credenciales válidas redirigen al dashboard",
+      "Credenciales inválidas muestran mensaje claro",
+      "Existe enlace para recuperar contraseña"
+    ],
+    "storyPoints": 3,
+    "priority": 1,
+    "frontendTasks": [
+      { "title": "Diseñar formulario de login", "originalEstimate": 3, "remainingWork": 0, "completedWork": 0 },
+      { "title": "Validar formato de email en cliente", "originalEstimate": 2, "remainingWork": 0, "completedWork": 0 },
+      { "title": "Enviar credenciales y manejar estados de éxito/error", "originalEstimate": 3, "remainingWork": 0, "completedWork": 0 }
+    ],
+    "backendTasks": [
+      { "title": "Crear endpoint POST /auth/login", "originalEstimate": 3, "remainingWork": 0, "completedWork": 0 },
+      { "title": "Verificar credenciales y generar JWT", "originalEstimate": 3, "remainingWork": 0, "completedWork": 0 }
+    ]
+  }
+]
+
+**Respuesta:**
+
+### HU sin título
+**Como:** 
+**Quiero:** 
+**Para:** 
+**Story Points:** N/A
+**Prioridad:** N/A
+
+---
+
+### HU: Iniciar Sesión en Poliacredita
+**Como:** usuario EPN
+**Quiero:** acceder con mis credenciales institucionales
+**Para:** usar las funcionalidades de mi rol
+
+Criterios de aceptación:
+
+- Se muestra formulario con campos Email, Contraseña, y selector de Rol (temporal)
+- Al ingresar credenciales válidas, el usuario es redirigido al Dashboard
+- Al ingresar credenciales inválidas, se muestra un mensaje de error claro
+- Existe un enlace para 'Olvidé mi contraseña'
+
+**Story Points:** 3
+**Prioridad:** Alta (1)
+
+---
+
+### HU: Visualizar Dashboard General
+**Como:** usuario autenticado
+**Quiero:** ver un resumen de la información clave del sistema
+**Para:** obtener una visión rápida del estado de la EPN
+
+Criterios de aceptación:
+
+- Al iniciar sesión, se redirige al Dashboard por defecto
+- El Dashboard muestra el conteo total de Facultades
+- El Dashboard muestra el conteo total de Carreras
+- El Dashboard muestra el conteo total de Profesores
+- Se muestra una sección de 'Últimos Cambios' con acciones y fechas
+- Se muestran 'Acciones Rápidas' para 'Nueva Facultad', 'Nueva Carrera', 'Nuevo Profesor'
+
+**Story Points:** 5
+**Prioridad:** Alta (1)
+
+---
+
+### HU: Listar Facultades Registradas
+**Como:** administrador del sistema
+**Quiero:** ver todas las facultades con su información principal
+**Para:** gestionar la estructura académica de la EPN
+
+Criterios de aceptación:
+
+- Existe una página dedicada a 'Facultades' accesible desde la navegación principal
+- Se muestra una tabla con 'Código', 'Nombre', 'Autoridades', 'Carreras' y 'Acciones' para cada facultad
+- La tabla permite ver detalles, editar o eliminar una facultad
+- Los datos se cargan correctamente en la tabla
+- Se muestra el botón 'Nueva Facultad'
+
+**Story Points:** 8
+**Prioridad:** Alta (1)
+
+---
+
+### HU: Registrar Nueva Facultad
+**Como:** administrador del sistema
+**Quiero:** agregar una nueva facultad al sistema
+**Para:** mantener actualizada la estructura organizativa de la EPN
+
+Criterios de aceptación:
+
+- Al hacer clic en 'Nueva Facultad' (desde Dashboard o listado), se abre un formulario para el registro
+- El formulario incluye campos para 'Código' y 'Nombre' de la facultad
+- Al enviar datos válidos, la facultad se guarda y se muestra en el listado
+- Al enviar datos inválidos (ej. código duplicado), se muestra un mensaje de error claro
+
+**Story Points:** 5
+**Prioridad:** Alta (1)
+
+---
+
+### HU: Registrar Nueva Carrera
+**Como:** administrador del sistema
+**Quiero:** agregar una nueva carrera al sistema
+**Para:** organizar la oferta académica dentro de las facultades
+
+Criterios de aceptación:
+
+- Al hacer clic en 'Nueva Carrera' (desde Dashboard), se abre un formulario de registro
+- El formulario incluye campos para 'Nombre de la Carrera', y un selector para la 'Facultad' a la que pertenece
+- Al enviar datos válidos, la carrera se guarda y se muestra el mensaje de éxito
+- Al enviar datos inválidos, se muestra un mensaje de error claro
+
+**Story Points:** 5
+**Prioridad:** Alta (1)
+
+---
+
+### HU: Registrar Nuevo Profesor
+**Como:** administrador del sistema
+**Quiero:** agregar un nuevo profesor al sistema
+**Para:** incluir al personal docente en la gestión académica
+
+Criterios de aceptación:
+
+- Al hacer clic en 'Nuevo Profesor' (desde Dashboard), se abre un formulario de registro
+- El formulario incluye campos para el 'Nombre', 'Email', y otros datos relevantes del profesor (ej. 'Departamento')
+- Al enviar datos válidos, el profesor se guarda y se muestra el mensaje de éxito
+- Al enviar datos inválidos (ej. email duplicado), se muestra un mensaje de error claro
+
+**Story Points:** 5
+**Prioridad:** Alta (1)
+
+---
+
+### HU: Buscar Facultades por Nombre o Código
+**Como:** administrador del sistema
+**Quiero:** encontrar facultades específicas rápidamente
+**Para:** agilizar la gestión de facultades
+
+Criterios de aceptación:
+
+- Existe un campo de búsqueda ('Buscar por Nombre o Código') en la página de listado de Facultades
+- Al escribir texto en el campo de búsqueda, la tabla se filtra y muestra solo las facultades que coinciden
+- La búsqueda debe ser insensible a mayúsculas y minúsculas
+- Al borrar el texto de búsqueda, se muestra el listado completo de facultades
+
+**Story Points:** 3
+**Prioridad:** Media (2)
+
+<!-- --- -->
