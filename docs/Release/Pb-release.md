@@ -1569,3 +1569,222 @@ Este Product Backlog Release se alinea perfectamente con la capacidad de tu equi
 ¡Estamos listos para empezar a construir!
 
 <!-- --- -->
+
+## PROMPT 14
+
+**Fecha:** 28 sept 2025, 04:22 a m. (UTC)
+
+**Prompt:**
+
+ROL Actua como un Product owner que es experto en gestión de productos de Software.
+
+objetivo:
+
+Definir el product backlog release para mi producto software
+
+
+
+contexto :
+
+La Escuela Politécnica Nacional (EPN) busca acreditar sus carreras bajo el sello EUR-ACE.  
+
+
+EUR-ACE es una etiqueta de calidad y un sistema de acreditación para programas de estudios de ingeniería a nivel de grado y máster. La etiqueta, que es reconocida a nivel europeo e internacional, es un certificado que garantiza que el programa de estudios cumple con altos estándares de calidad y con las exigencias de la profesión de ingeniería.
+
+La Escuela Politécnica Nacional, o EPN, es una universidad pública, de grado y posgrado, ubicada en Quito (Ecuador). Reconocida por la investigación y la educación en ciencias básicas, ingenierías y tecnología, ofrece programas doctorales, de maestría y de grado.
+La Escuela Politécnica Nacional (EPN) se organiza en facultades y departamentos, cada uno con funciones específicas para cumplir sus objetivos académicos y de investigación.
+
+Estructura Academica de la EPN 
+
+La EPN se estructura principalmente en las siguientes unidades:
+Facultades: Son las unidades académicas superiores encargadas de planificar, ejecutar, controlar y evaluar los procesos de docencia, investigación y extensión en áreas específicas del conocimiento. Cada facultad está dirigida por un Consejo de Facultad, un Decano y un Subdecano. Tienen capacidad de gestión administrativa y financiera y están integradas por departamentos y carreras afines. 
+ 
+Departamentos: Actúan como las células básicas de la EPN, dependientes de las facultades. Los departamentos son responsables de las actividades de investigación, docencia y extensión en campos específicos. Cada departamento puede diseñar y gestionar programas de maestría y doctorado, y participa en la planificación de los procesos docentes. 
+ 
+La EPN está dividida de la siguiente manera, existen Facultades y por cada facultad pueden existir diferentes carreras cada Facultad tiene profesores, Autoridades (Decano , Subdecano , jefe de Departamento) , Para llegar a ser coordinador, Autoridad primero tiene que ser un profesor, Para las carreras cada carrera tiene un solo coordinador y existe una entidad superior que sería la DGIP que es la encargada de gestionar los aspectos académicos de las facultades , Para la autoridad administra la facultad, el coordinador gestiona la carrera .
+
+Cada carrera de la EPN cuenta con resultados de aprendizaje (RA): 
+Los RA (Resultados de Aprendizaje) son las declaraciones operativas y mensurables que desagregan el OPP. Son la unidad fundamental del currículo por resultados.   
+
+Los RA describen de manera precisa lo que se espera que un estudiante sepa, comprenda y sea capaz de hacer al concluir el programa de estudios.
+También cada carrera cuenta con Objetivos de perfil profesional (OPP) 
+
+El OPP (Objetivo/Perfil Profesional) es la declaración fundacional que define la identidad del futuro egresado de la EPN. Formalmente, en el diseño curricular moderno de la EPN, este se consolida como el Perfil de Egreso (PE).   
+
+El OPP es la promesa institucional que la EPN suscribe ante la sociedad, detallando las capacidades, conocimientos y actitudes específicos que el profesional poseerá al graduarse.   
+
+
+Para Cada carrera existen diferentes Asignaturas , cada una de estas asignaturas cuenta con un programa de estudios académicos (PEA) . Este PEA contiene información relevante de cada asignatura . Por ejemplo : – Unidad Académica “ – Carrera – Unidad de organización curricular – Nombre de la asignatura – Código
+
+– Créditos – Resultados de aprendizaje de la asignatura (RAA)
+
+Bien para evaluar que los RA de la carrera se estén cumpliendo se verifica como los RAA de cada materia aportan con un nivel (Bajo , Medio , Alto) a los RA .
+
+También para Evaluar los OPP se verifica como los RA aportan a los OPP.
+
+Para lograr la acreditación es importante los RA ya que con estos se verifica los objetivos EUR-ACE Es decir se verifica que los RA cumplan con los objetivos EURACE.
+
+
+te proprciono el conjunto de mrfs definidos :
+MRF Set 1: Infraestructura Básica y Gestión de Usuarios
+(Establece el esqueleto del sistema y quiénes pueden interactuar con él.)
+
+MRF 1.1: Registro de Facultades
+Como: Administrador del sistema
+Quiero: Registrar una nueva Facultad
+Para: Poder organizar la estructura académica de la EPN en el sistema.
+MRF 1.2: Registro de Carreras
+Como: Administrador del sistema
+Quiero: Registrar una nueva Carrera dentro de una Facultad existente
+Para: Poder gestionar la información curricular específica de cada programa de estudio.
+MRF 1.3: Registro de Usuarios
+Como: Administrador del sistema
+Quiero: Registrar un nuevo usuario en la plataforma
+Para: Permitir que las personas de la EPN accedan y utilicen el sistema.
+MRF 1.4: Asignación de Rol de Coordinador de Carrera
+Como: Administrador del sistema
+Quiero: Asignar el rol de “Coordinador de Carrera” a un usuario
+Para: Otorgarle permisos para gestionar la información de una carrera específica.
+MRF 1.5: Asignación de Rol de Profesor
+Como: Administrador del sistema
+Quiero: Asignar el rol de “Profesor” a un usuario
+Para: Otorgarle permisos para gestionar la información de sus asignaturas.
+MRF Set 2: Definición y Alineación Curricular Interna
+(Permite a la EPN digitalizar y verificar la coherencia interna de su currículo.)
+
+MRF 2.1: Definición del Perfil de Egreso (OPP) de una Carrera
+Como: Coordinador de Carrera
+Quiero: Registrar el Perfil de Egreso (OPP) de mi carrera
+Para: Documentar el conjunto de habilidades y conocimientos que distinguen al egresado.
+MRF 2.2: Definición de Resultados de Aprendizaje (RA) de Carrera
+Como: Coordinador de Carrera
+Quiero: Registrar los Resultados de Aprendizaje (RA) esperados para mi carrera
+Para: Especificar las competencias globales que los estudiantes deben adquirir al egresar.
+MRF 2.3: Registro de Programa de Estudio por Asignatura (PEA)
+Como: Profesor
+Quiero: Registrar el programa de estudio de una asignatura
+Para: Digitalizar la descripción oficial y el contenido de la materia.
+MRF 2.4: Definición de Resultados de Aprendizaje de Asignatura (RAA)
+Como: Profesor
+Quiero: Registrar los Resultados de Aprendizaje de Asignatura (RAA) para mi asignatura
+Para: Detallar las competencias específicas que el estudiante obtendrá al finalizar la materia.
+MRF 2.5: Mapeo de RAA a RA de Carrera
+Como: Coordinador de Carrera
+Quiero: Vincular un Resultado de Aprendizaje de Asignatura (RAA) a un Resultado de Aprendizaje (RA) de mi carrera
+Para: Entender cómo cada asignatura contribuye a las competencias globales de la carrera.
+MRF 2.6: Indicación de Nivel de Contribución de RAA a RA
+Como: Coordinador de Carrera
+Quiero: Especificar el nivel de contribución (Bajo, Medio, Alto) de un RAA a un RA de mi carrera
+Para: Evaluar la intensidad de la aportación de cada asignatura al perfil de egreso.
+MRF 2.7: Vinculación de RA de Carrera a Perfil Profesional (OPP)
+Como: Coordinador de Carrera
+Quiero: Vincular un Resultado de Aprendizaje (RA) de mi carrera a un Objetivo de Perfil Profesional (OPP)
+Para: Demostrar la coherencia entre las competencias esperadas y el perfil final del egresado.
+MRF Set 3: Verificación Preliminar de Acreditación EUR-ACE
+(Permite a la EPN iniciar la autoevaluación frente a los estándares EUR-ACE.)
+
+MRF 3.1: Carga de Estándares de Acreditación EUR-ACE
+Como: Administrador del sistema
+Quiero: Cargar los criterios y estándares de acreditación EUR-ACE en el sistema
+Para: Disponer de la referencia oficial para la evaluación de la calidad.
+MRF 3.2: Generación de Informe de Cumplimiento EUR-ACE
+Como: Coordinador de Carrera
+Quiero: Generar un informe que muestre cómo los Resultados de Aprendizaje (RA) de mi carrera se alinean con los estándares EUR-ACE
+
+
+nuestro historico de sprint anteriores es :
+
+Velocidad del Equipo: Velocidad Baja: 54 Story Points (sp) Velocidad Alta: 75 Story Points (sp) por sprint
+
+
+
+Una Historia de Usuario (HU) es una frase simple que define un requisito desde la perspectiva del usuario final y el valor que obtendrá de esa funcionalidad. El objetivo es cambiar el enfoque de "escribir sobre los requisitos" a "hablar sobre ellos".
+
+La estructura estándar se conoce como el formato "Como [Perfil] Quiero [Intención] Para" y garantiza que la funcionalidad que desarrolle el equipo esté enfocada en el cliente y aporte valor.
+
+Componente	Pregunta que Responde	Objetivo y Enfoque
+COMO [Perfil]	¿Para quién desarrollamos esto?	Enfoque en la Empatía (El Perfil): Define a la persona (user persona) que necesita la funcionalidad. El enfoque debe ser más detallado que un simple puesto (ej. "Como Max, el editor sénior" en lugar de "Como editor"). El equipo debe comprender cómo trabaja, piensa y siente esa persona.
+QUIERO [Intención]	¿Qué es lo que está intentando lograr realmente?	Enfoque en la Meta (La Intención): Describe la meta o el objetivo del usuario al utilizar el sistema. Esta es la intención del usuario. Debe ser independiente de la implementación; no se deben describir elementos de la interfaz de usuario (UI), sino el resultado que buscan.
+PARA	¿Cuál es el valor que esto aporta al usuario o al negocio?	Enfoque en el Valor (El Porqué): Explica el beneficio general y la razón estratégica detrás del deseo inmediato del usuario. Es el valor de la funcionalidad en relación con los objetivos generales. La historia debe ofrecer valor, tanto al equipo como al usuario.
+
+
+ACCION : Crea mi product backlog release priorizado y ordenado ubicando de arriba hacia abajo un desarrollo sin depedencias y agregando valor comercial. recuerda que para el desarrollo vamos apoyarnos de la IA . La duracion del release sera de un mes , y el release es de fecha fija. de 5 semanas ADEMAS QUE ESTE EN FOMATO DE HU
+
+*Formato de salida *
+
+Formato de salida Este product backlog necesito que contenga lo siguiente:
+
+Muestra tres tablas (en este orden), asignando cada ítem al bucket que corresponda según el acumulado de puntos: Will have (≤ Will-have line) Might have (> Will y ≤ Might-have line) Won’t have (> Might-have line) Columnas de cada tabla:	ID	Est (sp)	Must	Prioridad	Título	Acum (sp)	Items sin estimación: lista aparte con ID Título Motivo (sin estimación)
+
+**Respuesta:**
+
+¡Excelente! Como tu Product Owner, mi objetivo es asegurar que este release de 5 semanas entregue el máximo valor posible para la EPN en su camino hacia la acreditación EUR-ACE, manteniendo la flexibilidad y la agilidad que nos permite el desarrollo con IA.
+
+He analizado los MRFs proporcionados, la capacidad de nuestro equipo (velocidad baja: 54 SP/sprint, velocidad alta: 75 SP/sprint) y el plazo fijo de 5 semanas. Esto nos da un rango de capacidad para el release de **270 SP (mínimo)** a **375 SP (máximo)**.
+
+He transformado cada MRF en Historias de Usuario (HU) atómicas, priorizadas para construir un flujo lógico y entregar valor incremental. Me complace informarte que, según nuestras estimaciones, **podemos abordar todos los MRFs definidos en este release**, ya que el total de Story Points estimado (191 SP) está holgadamente dentro de nuestra capacidad mínima.
+
+Esto significa que nuestro release estará compuesto íntegramente por elementos "Will have", garantizando la entrega completa del valor propuesto para esta fase inicial de acreditación.
+
+---
+
+### **Product Backlog Release: Acreditación EUR-ACE (Fase 1: Configuración y Alineación Preliminar)**
+**Duración del Release:** 5 Semanas (Fecha Fija)
+**Capacidad Estimada del Equipo para el Release:** 270 SP (mínimo) - 375 SP (máximo)
+**Total SP en Backlog de este Release (Estimado):** 191 SP
+
+---
+
+### **WILL HAVE (Elementos críticos y alcanzables en este release)**
+*(Línea Will-have: $\le$ 270 SP)*
+
+| ID    | Est (sp) | Must | Prioridad | Título                                                      | Acum (sp) |
+| :---- | :------- | :--- | :-------- | :---------------------------------------------------------- | :-------- |
+| HU-01 | 5        | Sí   | Crítica   | Configuración de Facultades                                 | 5         |
+| HU-02 | 5        | Sí   | Crítica   | Gestión de Usuarios                                         | 10        |
+| HU-03 | 8        | Sí   | Crítica   | Definición de Carreras                                      | 18        |
+| HU-04 | 8        | Sí   | Alta      | Asignación de Rol de Profesor                               | 26        |
+| HU-05 | 8        | Sí   | Alta      | Asignación de Rol de Coordinador de Carrera                 | 34        |
+| HU-06 | 21       | Sí   | Crítica   | Importación de Estándares EUR-ACE                           | 55        |
+| HU-07 | 13       | Sí   | Alta      | Establecimiento del Perfil de Egreso (OPP) de Carrera       | 68        |
+| HU-08 | 13       | Sí   | Alta      | Definición de Resultados de Aprendizaje (RA) de Carrera     | 81        |
+| HU-09 | 13       | Sí   | Media     | Registro de Programa de Estudio por Asignatura (PEA)        | 94        |
+| HU-10 | 8        | Sí   | Media     | Especificación de Resultados de Aprendizaje de Asignatura (RAA) | 102       |
+| HU-11 | 21       | Sí   | Alta      | Articulación de RA de Carrera con Perfil Profesional (OPP)  | 123       |
+| HU-12 | 21       | Sí   | Alta      | Mapeo de RAA a RA de Carrera                                | 144       |
+| HU-13 | 13       | Sí   | Media     | Nivel de Contribución de RAA a RA                           | 157       |
+| HU-14 | 34       | Sí   | Crítica   | Generación de Informe de Alineación EUR-ACE                 | 191       |
+
+---
+
+### **MIGHT HAVE (Elementos deseables si hay capacidad adicional, no aplica en este release)**
+*(Línea Might-have: $\le$ 375 SP)*
+
+No hay ítems en esta categoría para este release, ya que todo el backlog cabe en "Will have".
+
+---
+
+### **WON'T HAVE (Elementos que no se contemplan para este release)**
+*(Línea Won't-have: > 375 SP)*
+
+No hay ítems en esta categoría para este release, ya que todo el backlog cabe en "Will have".
+
+---
+
+### **Ítems sin Estimación**
+No hay ítems sin estimación en este backlog, todas las Historias de Usuario han sido estimadas.
+
+---
+
+**Justificación de Priorización y Orden:**
+
+1.  **Fundamentos (HU-01 a HU-05):** Establecer la estructura de Facultades, Carreras y la gestión básica de usuarios y roles es la base ineludible. Sin esto, ningún otro proceso puede funcionar.
+2.  **Preparación para Acreditación (HU-06):** Cargar los estándares EUR-ACE es crítico y debe hacerse temprano para que todo el mapeo posterior tenga un objetivo claro de alineación.
+3.  **Definición Curricular de Alto Nivel (HU-07, HU-08):** Registrar el Perfil de Egreso (OPP) y los Resultados de Aprendizaje (RA) de la carrera establece los pilares de lo que se busca acreditar.
+4.  **Detalle Curricular y Pre-requisitos de Mapeo (HU-09, HU-10):** Los programas de estudio por asignatura (PEA) y los RAA son el detalle que alimentará el mapeo, por lo que deben existir antes de intentar vincularlos.
+5.  **Mapeo de Coherencia Interna (HU-11, HU-12, HU-13):** Vincular RA con OPP y, crucialmente, RAA con RA de carrera, junto con su nivel de contribución, es el corazón de la autoevaluación curricular. Estas dependencias son claras y se construyen progresivamente.
+6.  **Valor Clave de Acreditación (HU-14):** La generación del informe de alineación EUR-ACE es la culminación de todo el trabajo anterior. Proporciona el valor directo de la acreditación al Coordinador de Carrera y depende de todos los datos y mapeos previos.
+
+Este plan de release está optimizado para entregar el mayor valor comercial y de acreditación de manera incremental y sin dependencias bloqueantes, asegurando que la EPN pueda iniciar su autoevaluación formal con las herramientas necesarias. ¡Estoy emocionado de ver a nuestro equipo trabajar en esto!
+
+<!-- --- -->
