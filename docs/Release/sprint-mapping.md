@@ -2337,7 +2337,7 @@ Analiza detenidamente y vuelve a crear mi sprint mapping
 **Sprint 1: Fundación del Sistema y Gestión de Usuarios**
 **(Fecha Inicio – Fecha Fin: 06 de Mayo – 12 de Mayo)**
 
-*   **Objetivo Comercial:** Establecer la infraestructura organizacional y registrar usuarios clave en la plataforma.
+*   **Objetivo Comercial:** Establecer la infraestructura jerarquica academica y el acceso basado en roles.
 *   **Valor Comercial:** Digitaliza la estructura académica inicial de la EPN y habilita el acceso fundamental para el proceso de acreditación.
 *   **Dependencias:** Ninguna.
 *   **PBI:**
@@ -2353,7 +2353,7 @@ Analiza detenidamente y vuelve a crear mi sprint mapping
 **Sprint 2: Definición Curricular Central y Estándares EUR-ACE**
 **(Fecha Inicio – Fecha Fin: 13 de Mayo – 19 de Mayo)**
 
-*   **Objetivo Comercial:** Digitalizar el Perfil de Egreso (OPP) y los Resultados de Aprendizaje (RA) de carrera, e integrar los estándares EUR-ACE.
+*   **Objetivo Comercial:** Gestion de los objetivos de perfil profesional y perfil de egreso .
 *   **Valor Comercial:** Formaliza digitalmente el currículo esencial de la EPN y establece el marco de calidad EUR-ACE para la autoevaluación.
 *   **Dependencias:** Sprint 1 (Necesita carreras y coordinadores asignados).
 *   **PBI:**
