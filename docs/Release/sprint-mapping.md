@@ -2393,3 +2393,259 @@ Analiza detenidamente y vuelve a crear mi sprint mapping
 ---
 
 <!-- --- -->
+
+## PROMPT 18
+
+**Fecha:** 28 sept 2025, 04:47 a m. (UTC)
+
+**Prompt:**
+
+PROMPT 3
+ROL
+Actúa como un Product Owner experto con un profundo conocimiento de metodologías ágiles y gestión de productos.
+
+Objetivo
+ necesito definir un sprint mapping en este iría el objetivo de cada sprint. El sprint mapping debe ser de una semana, ten en cuenta que para el desarrollo nos vamos a apoyar de la IA, bien máximo debe haber 5 sprints.
+
+*contexto*
+
+La Escuela Politécnica Nacional (EPN) busca acreditar sus carreras bajo el sello EUR-ACE.  
+
+
+EUR-ACE es una etiqueta de calidad y un sistema de acreditación para programas de estudios de ingeniería a nivel de grado y máster. La etiqueta, que es reconocida a nivel europeo e internacional, es un certificado que garantiza que el programa de estudios cumple con altos estándares de calidad y con las exigencias de la profesión de ingeniería.
+
+La Escuela Politécnica Nacional, o EPN, es una universidad pública, de grado y posgrado, ubicada en Quito (Ecuador). Reconocida por la investigación y la educación en ciencias básicas, ingenierías y tecnología, ofrece programas doctorales, de maestría y de grado.
+La Escuela Politécnica Nacional (EPN) se organiza en facultades y departamentos, cada uno con funciones específicas para cumplir sus objetivos académicos y de investigación.
+
+Estructura jerarquica Academica de la EPN 
+
+La EPN se estructura principalmente en las siguientes unidades:
+Facultades: Son las unidades académicas superiores encargadas de planificar, ejecutar, controlar y evaluar los procesos de docencia, investigación y extensión en áreas específicas del conocimiento. Cada facultad está dirigida por un Consejo de Facultad, un Decano y un Subdecano. Tienen capacidad de gestión administrativa y financiera y están integradas por departamentos y carreras afines. 
+ 
+Departamentos: Actúan como las células básicas de la EPN, dependientes de las facultades. Los departamentos son responsables de las actividades de investigación, docencia y extensión en campos específicos. Cada departamento puede diseñar y gestionar programas de maestría y doctorado, y participa en la planificación de los procesos docentes. 
+ 
+La EPN está dividida de la siguiente manera, existen Facultades y por cada facultad pueden existir diferentes carreras cada Facultad tiene profesores, Autoridades (Decano , Subdecano , jefe de Departamento) , Para llegar a ser coordinador, Autoridad primero tiene que ser un profesor, Para las carreras cada carrera tiene un solo coordinador y existe una entidad superior que sería la DGIP que es la encargada de gestionar los aspectos académicos de las facultades , Para la autoridad administra la facultad, el coordinador gestiona la carrera .
+
+Cada carrera de la EPN cuenta con resultados de aprendizaje (RA): 
+Los RA (Resultados de Aprendizaje) son las declaraciones operativas y mensurables que desagregan el OPP. Son la unidad fundamental del currículo por resultados.   
+
+Los RA describen de manera precisa lo que se espera que un estudiante sepa, comprenda y sea capaz de hacer al concluir el programa de estudios.
+También cada carrera cuenta con Objetivos de perfil profesional (OPP) 
+
+El OPP (Objetivo/Perfil Profesional) es la declaración fundacional que define la identidad del futuro egresado de la EPN. Formalmente, en el diseño curricular moderno de la EPN, este se consolida como el Perfil de Egreso (PE).   
+
+El OPP es la promesa institucional que la EPN suscribe ante la sociedad, detallando las capacidades, conocimientos y actitudes específicos que el profesional poseerá al graduarse.   
+
+
+Para Cada carrera existen diferentes Asignaturas , cada una de estas asignaturas cuenta con un programa de estudios académicos (PEA) . Este PEA contiene información relevante de cada asignatura . Por ejemplo : – Unidad Académica “ – Carrera – Unidad de organización curricular – Nombre de la asignatura – Código
+
+– Créditos – Resultados de aprendizaje de la asignatura (RAA)
+
+Bien para evaluar que los RA de la carrera se estén cumpliendo se verifica como los RAA de cada materia aportan con un nivel (Bajo , Medio , Alto) a los RA .
+
+También para Evaluar los OPP se verifica como los RA aportan a los OPP.
+
+Para lograr la acreditación es importante los RA ya que con estos se verifica los objetivos EUR-ACE Es decir se verifica que los RA cumplan con los objetivos EURACE.
+
+
+te proprciono el conjunto de mrfs definidos :
+MRF Set 1: Infraestructura Básica y Gestión de Usuarios
+(Establece el esqueleto del sistema y quiénes pueden interactuar con él.)
+
+MRF 1.1: Registro de Facultades
+Como: Administrador del sistema
+Quiero: Registrar una nueva Facultad
+Para: Poder organizar la estructura académica de la EPN en el sistema.
+MRF 1.2: Registro de Carreras
+Como: Administrador del sistema
+Quiero: Registrar una nueva Carrera dentro de una Facultad existente
+Para: Poder gestionar la información curricular específica de cada programa de estudio.
+MRF 1.3: Registro de Usuarios
+Como: Administrador del sistema
+Quiero: Registrar un nuevo usuario en la plataforma
+Para: Permitir que las personas de la EPN accedan y utilicen el sistema.
+MRF 1.4: Asignación de Rol de Coordinador de Carrera
+Como: Administrador del sistema
+Quiero: Asignar el rol de “Coordinador de Carrera” a un usuario
+Para: Otorgarle permisos para gestionar la información de una carrera específica.
+MRF 1.5: Asignación de Rol de Profesor
+Como: Administrador del sistema
+Quiero: Asignar el rol de “Profesor” a un usuario
+Para: Otorgarle permisos para gestionar la información de sus asignaturas.
+MRF Set 2: Definición y Alineación Curricular Interna
+(Permite a la EPN digitalizar y verificar la coherencia interna de su currículo.)
+
+MRF 2.1: Definición del Perfil de Egreso (OPP) de una Carrera
+Como: Coordinador de Carrera
+Quiero: Registrar el Perfil de Egreso (OPP) de mi carrera
+Para: Documentar el conjunto de habilidades y conocimientos que distinguen al egresado.
+MRF 2.2: Definición de Resultados de Aprendizaje (RA) de Carrera
+Como: Coordinador de Carrera
+Quiero: Registrar los Resultados de Aprendizaje (RA) esperados para mi carrera
+Para: Especificar las competencias globales que los estudiantes deben adquirir al egresar.
+MRF 2.3: Registro de Programa de Estudio por Asignatura (PEA)
+Como: Profesor
+Quiero: Registrar el programa de estudio de una asignatura
+Para: Digitalizar la descripción oficial y el contenido de la materia.
+MRF 2.4: Definición de Resultados de Aprendizaje de Asignatura (RAA)
+Como: Profesor
+Quiero: Registrar los Resultados de Aprendizaje de Asignatura (RAA) para mi asignatura
+Para: Detallar las competencias específicas que el estudiante obtendrá al finalizar la materia.
+MRF 2.5: Mapeo de RAA a RA de Carrera
+Como: Coordinador de Carrera
+Quiero: Vincular un Resultado de Aprendizaje de Asignatura (RAA) a un Resultado de Aprendizaje (RA) de mi carrera
+Para: Entender cómo cada asignatura contribuye a las competencias globales de la carrera.
+MRF 2.6: Indicación de Nivel de Contribución de RAA a RA
+Como: Coordinador de Carrera
+Quiero: Especificar el nivel de contribución (Bajo, Medio, Alto) de un RAA a un RA de mi carrera
+Para: Evaluar la intensidad de la aportación de cada asignatura al perfil de egreso.
+MRF 2.7: Vinculación de RA de Carrera a Perfil Profesional (OPP)
+Como: Coordinador de Carrera
+Quiero: Vincular un Resultado de Aprendizaje (RA) de mi carrera a un Objetivo de Perfil Profesional (OPP)
+Para: Demostrar la coherencia entre las competencias esperadas y el perfil final del egresado.
+MRF Set 3: Verificación Preliminar de Acreditación EUR-ACE
+(Permite a la EPN iniciar la autoevaluación frente a los estándares EUR-ACE.)
+
+MRF 3.1: Carga de Estándares de Acreditación EUR-ACE
+Como: Administrador del sistema
+Quiero: Cargar los criterios y estándares de acreditación EUR-ACE en el sistema
+Para: Disponer de la referencia oficial para la evaluación de la calidad.
+MRF 3.2: Generación de Informe de Cumplimiento EUR-ACE
+Como: Coordinador de Carrera
+Quiero: Generar un informe que muestre cómo los Resultados de Aprendizaje (RA) de mi carrera se alinean con los estándares EUR-ACE
+
+
+ten de ejemplo estos objetivos de story mapping para que te guies en como escribir :
+print 1: (15 de mayo – 29 de mayo) 
+
+Objetivo: Gestionar el registro de objetivos EUR-ACE, Resultados de Aprendizaje (RA) de la Carrera y Objetivos de la Carrera. 
+
+Product Backlog Items (PBI): 
+
+ Historia N°1: Registrar Resultados de Aprendizaje de la Carrera (RA)  
+
+Como coordinador 
+
+quiero registrar los resultados de aprendizaje de una carrera 
+
+para describir el perfil de egreso de los estudiantes de la carrera 
+
+Historia N°2: Registrar Objetivos EUR-ACE  
+quiero registrar los objetivos EUR-ACE  
+para describir los requisitos académicos exigidos a nivel europeo. 
+ 
+
+Historia N°3: Registrar Objetivos de la Carrera  
+Como coordinador 
+quiero registrar los objetivos de la carrera 
+para describir el perfil profesional de un ingeniero 
+
+Forma 
+
+Sprint 2: (30 de mayo – 12 de junio) 
+
+Objetivo: 
+
+Product Backlog Items (PBI): 
+
+Historia N°4: Registro de asignaturas  
+
+
+Historia N°5: Registro de resultados de aprendizaje del PEA  
+
+
+Historia N°6: Notificaciones de retroalimentación 
+
+Forma 
+
+ 
+
+Sprint 3: (13 – 26 de junio) 
+
+Objetivo: Gestionar la relación de los resultados de aprendizaje de cada asignatura (RAA) con los objetivos del perfil de egreso (RA) 
+
+nuestro historico de sprint anteriores es :
+
+Velocidad del Equipo: Velocidad Baja: 54 Story Points (sp) Velocidad Alta: 75 Story Points (sp) por sprint
+
+
+ACCION
+
+Crea el SPRINT MAPPING identificando dependencias , valor comercial , lor comercial en cada sprint y sigue este formato:
+FORMATO DE SALIDA : Sprint Mapping Sprint 1: (1 de mayo – 15 de mayo) Objetivo: PBI:
+
+para el objetivo ten en cuenta que debe ser un objetivo comercial claro y conciso , para los PBI usa el formato de una HU no uses “y ni o “ las hu deben ser claras
+
+**Respuesta:**
+
+¡Excelente feedback! Tienes toda la razón. Como tu Product Owner, mi deber es la claridad y el enfoque. He depurado los objetivos y los detalles para ser lo más conciso y directo posible, maximizando el valor en cada semana de sprint, y utilizando la potencia de la IA para un desarrollo ágil.
+
+Aquí tienes el Sprint Mapping revisado, diseñado para entregar valor incremental en el proceso de acreditación EUR-ACE de la EPN:
+
+---
+
+### **Sprint Mapping (Revisado y Conciso)**
+
+**Objetivo Comercial Global del Proyecto:** Acelerar y simplificar la acreditación EUR-ACE de las carreras de ingeniería de la EPN mediante la digitalización y autoevaluación continua.
+
+---
+
+**Sprint 1: Fundación Organizacional y Acceso Inicial**
+**(Fecha Inicio – Fecha Fin: 06 de Mayo – 12 de Mayo)**
+
+*   **Objetivo Comercial:** Establecer la estructura académica fundamental y asegurar el acceso de usuarios clave al sistema.
+*   **Valor Comercial:** Proporciona el esqueleto digital de la EPN y habilita la interacción inicial para el proceso de acreditación.
+*   **Dependencias:** Ninguna.
+*   **PBI:**
+    *   Como Administrador del sistema, Quiero registrar una nueva Facultad, Para organizar la estructura académica de la EPN en el sistema. (8 SP)
+    *   Como Administrador del sistema, Quiero registrar una nueva Carrera dentro de una Facultad existente, Para gestionar la información curricular específica de cada programa de estudio. (13 SP)
+    *   Como Administrador del sistema, Quiero registrar un nuevo usuario en la plataforma, Para permitir el acceso a las personas de la EPN. (8 SP)
+    *   Como Administrador del sistema, Quiero asignar el rol de “Coordinador de Carrera” a un usuario, Para otorgarle permisos para gestionar una carrera específica. (13 SP)
+    *   Como Administrador del sistema, Quiero asignar el rol de “Profesor” a un usuario, Para otorgarle permisos para gestionar sus asignaturas. (13 SP)
+*   **Total SP Sprint 1:** 55 SP
+
+---
+
+**Sprint 2: Definición Curricular Central y Estándares EUR-ACE**
+**(Fecha Inicio – Fecha Fin: 13 de Mayo – 19 de Mayo)**
+
+*   **Objetivo Comercial:** Digitalizar los perfiles de egreso (OPP) y resultados de aprendizaje (RA) de las carreras, e incorporar los estándares EUR-ACE.
+*   **Valor Comercial:** Formaliza digitalmente la visión de egreso de la EPN y establece el marco de calidad EUR-ACE para la autoevaluación.
+*   **Dependencias:** Sprint 1 (Necesita carreras y coordinadores asignados).
+*   **PBI:**
+    *   Como Coordinador de Carrera, Quiero registrar el Perfil de Egreso (OPP) de mi carrera, Para documentar las habilidades que distinguen al egresado. (13 SP)
+    *   Como Coordinador de Carrera, Quiero registrar los Resultados de Aprendizaje (RA) esperados para mi carrera, Para especificar las competencias globales de los estudiantes. (21 SP)
+    *   Como Coordinador de Carrera, Quiero vincular un Resultado de Aprendizaje (RA) de mi carrera a un Objetivo de Perfil Profesional (OPP), Para demostrar la coherencia entre competencias y perfil final del egresado. (13 SP)
+    *   Como Administrador del sistema, Quiero cargar los criterios y estándares de acreditación EUR-ACE en el sistema, Para disponer de la referencia oficial de evaluación. (21 SP)
+*   **Total SP Sprint 2:** 68 SP
+
+---
+
+**Sprint 3: Detalle de Asignaturas y Mapeo de Contribuciones**
+**(Fecha Inicio – Fecha Fin: 20 de Mayo – 26 de Mayo)**
+
+*   **Objetivo Comercial:** Registrar programas de estudio de asignaturas (PEA) y sus resultados de aprendizaje (RAA), y vincularlos a los RA de carrera.
+*   **Valor Comercial:** Digitaliza la contribución de cada asignatura a las competencias de la carrera, evidenciando la coherencia curricular interna.
+*   **Dependencias:** Sprint 1 (Profesores asignados), Sprint 2 (RA de Carrera definidos).
+*   **PBI:**
+    *   Como Profesor, Quiero registrar el programa de estudio de una asignatura, Para digitalizar su descripción oficial y contenido. (21 SP)
+    *   Como Profesor, Quiero registrar los Resultados de Aprendizaje de Asignatura (RAA) para mi asignatura, Para detallar las competencias específicas que el estudiante obtendrá. (13 SP)
+    *   Como Coordinador de Carrera, Quiero vincular un Resultado de Aprendizaje de Asignatura (RAA) a un Resultado de Aprendizaje (RA) de mi carrera, Para entender cómo cada asignatura contribuye a las competencias globales. (13 SP)
+    *   Como Coordinador de Carrera, Quiero especificar el nivel de contribución (Bajo, Medio, Alto) de un RAA a un RA de mi carrera, Para evaluar la intensidad de su aporte. (8 SP)
+*   **Total SP Sprint 3:** 55 SP
+
+---
+
+**Sprint 4: Diagnóstico Preliminar EUR-ACE**
+**(Fecha Inicio – Fecha Fin: 27 de Mayo – 02 de Junio)**
+
+*   **Objetivo Comercial:** Generar informes de alineación entre los resultados de aprendizaje (RA) de la carrera y los estándares EUR-ACE.
+*   **Valor Comercial:** Permite una autoevaluación estratégica y temprana para la acreditación EUR-ACE, identificando brechas y optimizando recursos.
+*   **Dependencias:** Sprint 2 (RA de Carrera definidos, estándares EUR-ACE cargados).
+*   **PBI:**
+    *   Como Coordinador de Carrera, Quiero generar un informe que muestre cómo los Resultados de Aprendizaje (RA) de mi carrera se alinean con los estándares EUR-ACE, Para evaluar el cumplimiento de los criterios de acreditación. (55 SP)
+*   **Total SP Sprint 4:** 55 SP
+
+---
+
+<!-- --- -->
