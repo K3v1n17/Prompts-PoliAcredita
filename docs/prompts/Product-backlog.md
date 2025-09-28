@@ -1586,10 +1586,10 @@ como quiero y para
 
 **Respuesta:**
 
-### HU: EPIC: Configuración de la Estructura Organizativa de la EPN
+### HU: EPIC: Gestión de la Estructura Académica Institucional
 **Como:** Administrador del sistema
-**Quiero:** gestionar la estructura de la EPN
-**Para:** que la plataforma represente fielmente la organización académica institucional
+**Quiero:** gestionar la estructura jerarquica academica de la EPN
+**Para:** representar fielmente la organización académica institucional
 **Story Points:** N/A
 **Prioridad:** N/A
 
