@@ -13,6 +13,7 @@
 4. [PROMPT 4](#prompt-4)
 5. [PROMPT 5](#prompt-5)
 6. [PROMPT 6](#prompt-6)
+7. [PROMPT 7](#prompt-7)
 
 ---
 
@@ -921,4 +922,199 @@ como quiero y para
 **Prioridad:** N/A
 
 ---
+<!-- --- -->
+
+## PROMPT 7
+
+**Fecha:** 28 sept 2025, 01:59 a m. (UTC)
+
+**Prompt:**
+
+###ROL
+
+Actua como un Product owner que es experto en gestión de productos de Software.
+
+
+
+### objetivo 
+Mi objetivo es definir mi product backlog de alto nivel , para establecer las principales funcionalidades que tendrá mi producto software
+ este debe incluir historias de usuario epicas. 
+
+CONTEXTO
+EL SELLO EUR-ACE: DEFINICIÓN, OBJETIVO Y ENFOQUE
+La Escuela Politécnica Nacional (EPN) busca acreditar sus carreras bajo el sello EUR-ACE, lo cual implica una alineación total con los estándares internacionales de educación en ingeniería.
+
+¿Qué es EUR-ACE y por qué es importante para la EPN?
+
+EUR-ACE (European Accreditation of Engineering Education) es una etiqueta de calidad y un sistema de acreditación que tiene como objetivo identificar y certificar programas de estudios de ingeniería de alta calidad a nivel de grado y máster .
+
+Reconocimiento y Calidad: El sello, que es reconocido a nivel europeo e internacional, es un certificado que garantiza que el programa de estudios cumple con altos estándares de calidad y con las exigencias de la profesión de ingeniería, superando a menudo los mínimos genéricos establecidos por las leyes nacionales .
+
+Movilidad: La obtención del sello facilita la movilidad académica (acceso a programas de posgrado) y profesional (empleabilidad en el extranjero) para los graduados, asegurando que están preparados para el mercado laboral global .
+
+Gestión del Sello: El sistema es mantenido por la European Network for Accreditation of Engineering Education (ENAEE) . ENAEE autoriza a agencias nacionales o regionales para otorgar el sello. La EPN ha seleccionado a la Asociación de la Educación para la Ingeniería de Rusia (AEER), que es un miembro de ENAEE, para llevar a cabo su proceso de acreditación .
+
+La Acreditación Basada en Resultados (Outcome-Based)
+
+El funcionamiento de EUR-ACE se basa en el principio de acreditación por resultados (Outcome-based accreditation) . Esto requiere que la EPN demuestre que sus egresados han adquirido un conjunto mínimo de conocimientos, habilidades y actitudes definidos en los Programme Outcomes (POs) .
+
+ESTRUCTURA DE GESTIÓN Y ALINEACIÓN CURRICULAR DE LA EPN
+La Escuela Politécnica Nacional (EPN), una universidad pública ubicada en Quito (Ecuador) [M_U], ha movilizado su estructura académica para gestionar el riguroso proceso de autoevaluación .
+
+Estructura Académica de la EPN (Gobernanza y Roles Clave)
+
+La EPN se organiza en facultades y departamentos, con roles específicos para asegurar la calidad [M_U, 41]:
+
+Facultades: Son las unidades académicas superiores (ej. Facultad de Ingeniería Mecánica, Facultad de Ingeniería Civil y Ambiental ) encargadas de planificar, ejecutar y evaluar la docencia, investigación y extensión en áreas específicas [M_U]. Cada facultad está dirigida por un Consejo de Facultad, un Decano y un Subdecano [M_U].
+
+Departamentos: Actúan como las células básicas, dependientes de las facultades. Son responsables de la investigación, docencia y extensión en campos específicos, y pueden diseñar y gestionar programas de posgrado. Cada departamento es dirigido por un Jefe de Departamento [M_U, 13].
+
+Autoridades de la Facultad: Para llegar a ser coordinador, Decano o Jefe de Departamento, primero se debe ser profesor [M_U]. El Decano administra la facultad, y tanto él como el Jefe de Departamento tienen autoridad para conceder licencias al personal académico.   
+
+Coordinador de Carrera: Cada carrera tiene un solo coordinador [M_U]. Este rol es el eslabón crítico para la ejecución, responsable de garantizar la alineación curricular a nivel microcurricular y la estandarización del Programa de Estudio por Asignatura (PEA). Un coordinador puede dedicar hasta 20 horas semanales a la gestión educativa .   
+
+Vicerrectorado de Docencia (VD): Es la entidad superior que da directrices a Decanos y Jefes de Departamento, encargada de dirigir, coordinar, gestionar y evaluar la docencia. Se convierte en el motor estratégico para implementar los cambios exigidos por EUR-ACE.   
+
+DGIP (Dirección de Gestión de la Información y Procesos): Su misión es administrar los recursos informáticos y tecnológicos para fortalecer los ejes estratégicos (docencia, investigación y proyección social). En el contexto EUR-ACE, la DGIP es crucial para el soporte de TI en la gestión académica y para la trazabilidad y sistematización de la información de resultados.   
+
+
+Cada carrera de la EPN cuenta con resultados de aprendizaje (RA):
+Los RA (Resultados de Aprendizaje) son las declaraciones operativas y mensurables que desagregan el OPP. Son la unidad fundamental del currículo por resultados.   
+
+Los RA describen de manera precisa lo que se espera que un estudiante sepa, comprenda y sea capaz de hacer al concluir el programa de estudios. A diferencia de los objetivos tradicionales, los RA se centran en la    
+
+
+También cada carrera cuenta con Objetivos de perfil profesional (OPP) 
+
+El OPP (Objetivo/Perfil Profesional) es la declaración fundacional que define la identidad del futuro egresado de la EPN. Formalmente, en el diseño curricular moderno de la EPN, este se consolida como el Perfil de Egreso (PE).   
+
+El OPP es la promesa institucional que la EPN suscribe ante la sociedad, detallando las capacidades, conocimientos y actitudes específicos que el profesional poseerá al graduarse.   
+
+
+
+Para Cada carrera existen diferentes Asignaturas , cada una de estas asignaturas cuenta con un programa de estudios académicos (PEA) . Este PEA contiene información relevante de cada asignatura . Por ejemplo : – Unidad Académica “ – Carrera – Unidad de organización curricular – Nombre de la asignatura – Código
+
+– Créditos – Resultados de aprendizaje de la asignatura (RAA)
+
+Bien para evaluar que los RA de la carrera se estén cumpliendo se verifica como los RAA de cada materia aportan con un nivel (Bajo , Medio , Alto) a los RA .
+
+También para Evaluar los OPP se verifica como los RA aportan a los OPP.
+
+Para lograr la acreditación es importante los RA ya que con estos se verifica los objetivos EUR-ACE Es decir se verifica que los RA cumplan con los objetivos EURACE.
+
+ACCION
+
+Crea el product backlog de alto nivel con las historitas de usuario épicas para desarrollar mi producto evitando usar "y" ya que esto uniria dos funcionalidades del producto
+
+### Formato de salida 
+como quiero y para
+
+**Respuesta:**
+
+### HU: EPIC: Gestión de la Estructura Académica Institucional
+**Como:** Administrador del sistema
+**Quiero:** configurar las facultades departamentos carreras de la EPN
+**Para:** reflejar la organización académica oficial de la institución
+**Story Points:** N/A
+**Prioridad:** N/A
+
+---
+
+### HU: EPIC: Administración de Usuarios Asignación de Roles
+**Como:** Administrador del sistema
+**Quiero:** registrar a los profesores autoridades coordinadores
+**Para:** otorgarles los permisos de acceso adecuados según su rol
+**Story Points:** N/A
+**Prioridad:** N/A
+
+---
+
+### HU: EPIC: Definición de Perfiles de Egreso (OPP) de Carrera
+**Como:** Coordinador de Carrera
+**Quiero:** establecer los Objetivos de Perfil Profesional para mi carrera
+**Para:** consolidar la identidad el perfil del futuro egresado
+**Story Points:** N/A
+**Prioridad:** N/A
+
+---
+
+### HU: EPIC: Gestión de Resultados de Aprendizaje (RA) de Carrera
+**Como:** Coordinador de Carrera
+**Quiero:** definir los resultados de aprendizaje específicos para mi carrera
+**Para:** detallar las competencias que los estudiantes deben alcanzar al egresar
+**Story Points:** N/A
+**Prioridad:** N/A
+
+---
+
+### HU: EPIC: Administración de Programas de Estudios de Asignatura (PEA)
+**Como:** Profesor
+**Quiero:** ingresar la información relevante de mi asignatura
+**Para:** documentar los detalles curriculares de cada curso impartido
+**Story Points:** N/A
+**Prioridad:** N/A
+
+---
+
+### HU: EPIC: Vinculación de RAA con RA de Carrera
+**Como:** Coordinador de Carrera
+**Quiero:** asociar los Resultados de Aprendizaje de Asignatura (RAA) con los RA de la carrera
+**Para:** evaluar el aporte de cada materia al perfil del egresado
+**Story Points:** N/A
+**Prioridad:** N/A
+
+---
+
+### HU: EPIC: Alineación de RA de Carrera con OPP
+**Como:** Coordinador de Carrera
+**Quiero:** relacionar los Resultados de Aprendizaje de Carrera (RA) con los Objetivos de Perfil Profesional (OPP)
+**Para:** demostrar la coherencia entre la formación académica el perfil profesional
+**Story Points:** N/A
+**Prioridad:** N/A
+
+---
+
+### HU: EPIC: Configuración de los Objetivos EUR-ACE
+**Como:** Responsable de Acreditación o DGIP
+**Quiero:** registrar los objetivos de calidad definidos por EUR-ACE
+**Para:** establecer los criterios de acreditación internacional
+**Story Points:** N/A
+**Prioridad:** N/A
+
+---
+
+### HU: EPIC: Mapeo de RA de Carrera a Objetivos EUR-ACE
+**Como:** Responsable de Acreditación
+**Quiero:** comparar los Resultados de Aprendizaje de Carrera (RA) con los objetivos EUR-ACE
+**Para:** verificar el cumplimiento de los requisitos de acreditación
+**Story Points:** N/A
+**Prioridad:** N/A
+
+---
+
+### HU: EPIC: Generación de Informes de Acreditación
+**Como:** Responsable de Acreditación o DGIP
+**Quiero:** obtener reportes completos sobre el estado de la acreditación
+**Para:** facilitar la presentación de evidencias el seguimiento del proceso
+**Story Points:** N/A
+**Prioridad:** N/A
+
+---
+
+### HU: EPIC: Gestión Administrativa de Facultad Departamento
+**Como:** Decano Subdecano Jefe de Departamento
+**Quiero:** supervisar el progreso académico administrativo de mi unidad
+**Para:** asegurar la correcta operación el cumplimiento de los objetivos
+**Story Points:** N/A
+**Prioridad:** N/A
+
+---
+
+### HU: EPIC: Monitoreo Institucional de Procesos de Acreditación
+**Como:** Vicerrectorado de Docencia o DGIP
+**Quiero:** visualizar el estado de acreditación de todas las carreras facultades
+**Para:** asegurar el cumplimiento de los estándares a nivel institucional
+**Story Points:** N/A
+**Prioridad:** N/A
+
 <!-- --- -->
