@@ -719,3 +719,165 @@ Aquí está el conjunto de MRFs indispensables, formulado en el formato solicita
 Este conjunto de MRFs conforma un primer producto que, si bien es mínimo, es potente y enfocado. Permitirá a la EPN comenzar a trabajar activamente en su proceso de acreditación, recopilando y organizando la información crítica que se requiere. Cada una de estas características es un "must-have" para que el producto sea viable y entregue el valor fundamental prometido para la acreditación EUR-ACE.
 
 <!-- --- -->
+
+## PROMPT 3
+
+**Fecha:** 28 sept 2025, 03:16 a m. (UTC)
+
+**Prompt:**
+
+OL
+
+Actua como un Product owner que es experto en gestión de productos de Software.
+
+### objetivo 
+Mi objetivo es definir las mrf principales para mi producto software a desarrollar .
+
+## contexto 
+
+
+MRF significa Características Mínimas Lanzables (Minimum Releasable Features). Este término se refiere al conjunto mínimo de características que deben estar presentes en un lanzamiento para que sea viable.
+
+Propósito: Debe ser lo suficientemente útil para el cliente final como para que este lo quiera y esté dispuesto a pagar por él.
+
+Enfoque: El MRF se compone de un conjunto de características que son consideradas de obligación (must-have features) para ese lanzamiento específico.
+
+
+
+
+La Escuela Politécnica Nacional (EPN) busca acreditar sus carreras bajo el sello EUR-ACE.  
+
+
+EUR-ACE es una etiqueta de calidad y un sistema de acreditación para programas de estudios de ingeniería a nivel de grado y máster. La etiqueta, que es reconocida a nivel europeo e internacional, es un certificado que garantiza que el programa de estudios cumple con altos estándares de calidad y con las exigencias de la profesión de ingeniería.
+
+La Escuela Politécnica Nacional, o EPN, es una universidad pública, de grado y posgrado, ubicada en Quito (Ecuador). Reconocida por la investigación y la educación en ciencias básicas, ingenierías y tecnología, ofrece programas doctorales, de maestría y de grado.
+La Escuela Politécnica Nacional (EPN) se organiza en facultades y departamentos, cada uno con funciones específicas para cumplir sus objetivos académicos y de investigación.
+
+Estructura Academica de la EPN 
+
+La EPN se estructura principalmente en las siguientes unidades:
+Facultades: Son las unidades académicas superiores encargadas de planificar, ejecutar, controlar y evaluar los procesos de docencia, investigación y extensión en áreas específicas del conocimiento. Cada facultad está dirigida por un Consejo de Facultad, un Decano y un Subdecano. Tienen capacidad de gestión administrativa y financiera y están integradas por departamentos y carreras afines. 
+ 
+Departamentos: Actúan como las células básicas de la EPN, dependientes de las facultades. Los departamentos son responsables de las actividades de investigación, docencia y extensión en campos específicos. Cada departamento puede diseñar y gestionar programas de maestría y doctorado, y participa en la planificación de los procesos docentes. 
+ 
+La EPN está dividida de la siguiente manera, existen Facultades y por cada facultad pueden existir diferentes carreras cada Facultad tiene profesores, Autoridades (Decano , Subdecano , jefe de Departamento) , Para llegar a ser coordinador, Autoridad primero tiene que ser un profesor, Para las carreras cada carrera tiene un solo coordinador y existe una entidad superior que sería la DGIP que es la encargada de gestionar los aspectos académicos de las facultades , Para la autoridad administra la facultad, el coordinador gestiona la carrera .
+
+Cada carrera de la EPN cuenta con resultados de aprendizaje (RA): 
+Los RA (Resultados de Aprendizaje) son las declaraciones operativas y mensurables que desagregan el OPP. Son la unidad fundamental del currículo por resultados.   
+
+Los RA describen de manera precisa lo que se espera que un estudiante sepa, comprenda y sea capaz de hacer al concluir el programa de estudios.
+También cada carrera cuenta con Objetivos de perfil profesional (OPP) 
+
+El OPP (Objetivo/Perfil Profesional) es la declaración fundacional que define la identidad del futuro egresado de la EPN. Formalmente, en el diseño curricular moderno de la EPN, este se consolida como el Perfil de Egreso (PE).   
+
+El OPP es la promesa institucional que la EPN suscribe ante la sociedad, detallando las capacidades, conocimientos y actitudes específicos que el profesional poseerá al graduarse.   
+
+
+Para Cada carrera existen diferentes Asignaturas , cada una de estas asignaturas cuenta con un programa de estudios académicos (PEA) . Este PEA contiene información relevante de cada asignatura . Por ejemplo : – Unidad Académica “ – Carrera – Unidad de organización curricular – Nombre de la asignatura – Código
+
+– Créditos – Resultados de aprendizaje de la asignatura (RAA)
+
+Bien para evaluar que los RA de la carrera se estén cumpliendo se verifica como los RAA de cada materia aportan con un nivel (Bajo , Medio , Alto) a los RA .
+
+También para Evaluar los OPP se verifica como los RA aportan a los OPP.
+
+Para lograr la acreditación es importante los RA ya que con estos se verifica los objetivos EUR-ACE Es decir se verifica que los RA cumplan con los objetivos EURACE.
+
+
+te proporciono las historias de usuario épicas y un ejemplo de como pasar de épicas a mrfs :
+
+
+HU: EPIC: Gestión de la Estructura Académica Institucional
+Como: Administrador del sistema Quiero: gestionar la estructura jerarquica academica de la EPN Para: representar fielmente la organización académica institucional Story Points: N/A Prioridad: N/A
+
+HU: EPIC: Gestión de Usuarios, Roles y Permisos
+Como: Administrador del sistema Quiero: asignar roles específicos a cada tipo de usuario Para: asegurar la correcta operación y acceso a la plataforma Story Points: N/A Prioridad: N/A
+
+HU: EPIC: Definición del Perfil de Egreso (OPP) de Carrera
+Como: Coordinador de Carrera Quiero: registrar el perfil de egreso (OPP) de mi carrera Para: establecer la identidad del futuro profesional de la EPN Story Points: N/A Prioridad: N/A
+
+HU: EPIC: Gestión de los Resultados de Aprendizaje (RA) de Carrera
+Como: Coordinador de Carrera Quiero: definir los resultados de aprendizaje (RA) para mi carrera Para: describir las competencias esperadas de los estudiantes al egresar Story Points: N/A Prioridad: N/A
+
+HU: EPIC: Administración de Programas de Estudio por Asignatura (PEA)
+Como: Profesor Quiero: ingresar el programa de estudio de mi asignatura Para: documentar sus resultados de aprendizaje (RAA) su contenido oficial Story Points: N/A Prioridad: N/A
+
+HU: EPIC: Mapeo de Resultados de Asignatura (RAA) a Carrera (RA)
+Como: Coordinador de Carrera Quiero: establecer la contribución de los RAA a los RA de mi carrera Para: evaluar el aporte de cada asignatura al perfil global del egresado Story Points: N/A Prioridad: N/A
+
+HU: EPIC: Alineación de Resultados de Aprendizaje (RA) con el Perfil Profesional (OPP)
+Como: Coordinador de Carrera Quiero: vincular los resultados de aprendizaje de carrera con los OPP Para: asegurar la coherencia del diseño curricular institucional Story Points: N/A Prioridad: N/A
+
+HU: EPIC: Configuración de los Estándares de Acreditación EUR-ACE
+Como: Administrador del sistema Quiero: cargar los criterios de calidad definidos por EUR-ACE Para: tener un marco de referencia oficial dentro del sistema Story Points: N/A Prioridad: N/A
+
+HU: EPIC: Verificación del Cumplimiento con Estándares EUR-ACE
+Como: Coordinador de Carrera Quiero: comparar los RA de carrera con los objetivos EUR-ACE Para: verificar el cumplimiento para la acreditación Story Points: N/A Prioridad: N/A
+
+HU: EPIC: Generación de Reportes para la Acreditación
+Como: Responsable de Acreditación Quiero: obtener informes automáticos de cumplimiento Para: facilitar la presentación de evidencias a la agencia acreditadora Story Points: N/A Prioridad: N/A
+
+
+Ejemplo 1: E-commerce (Optimización del proceso de compra)
+ÉPICA (Objetivo Estratégico General):
+
+Épica	Descripción
+Como usuario habitual, quiero una experiencia de compra sin fricciones, para reducir el tiempo de checkout y completar mis pedidos rápidamente.	Esta es una iniciativa grande que involucra guardar datos, optimizar la interfaz y mejorar la seguridad. Se entregará a lo largo de varios sprints y lanzamientos.
+
+Exportar a Hojas de cálculo
+MRF (Características Mínimas Lanzables):
+
+Para el Primer Lanzamiento Comercializable de esta Épica, el equipo define el MRF como: "Permitir el pago recurrente con datos guardados de forma segura."
+
+MRF (Conjunto Mínimo Lanzable)	Valor Clave Entregado
+Gestión Básica de la Cuenta y Pago Rápido.	Permite a los clientes recurrentes realizar compras en menos pasos, abordando directamente el problema de la "fricción" en el checkout.
+
+
+
+ACCION:
+
+Crea el conjunto de mrfs indispensables para mi producto software a desarrollar 
+
+Formato de salida :
+
+En formato de una hu : como quiero y para . recuerda que la hu debe ser clara y concisa 
+
+
+Una Historia de Usuario (HU) es una frase simple que define un requisito desde la perspectiva del usuario final y el valor que obtendrá de esa funcionalidad. El objetivo es cambiar el enfoque de "escribir sobre los requisitos" a "hablar sobre ellos".
+
+La estructura estándar se conoce como el formato "Como [Perfil] Quiero [Intención] Para" y garantiza que la funcionalidad que desarrolle el equipo esté enfocada en el cliente y aporte valor.
+
+Componente	Pregunta que Responde	Objetivo y Enfoque
+COMO [Perfil]	¿Para quién desarrollamos esto?	Enfoque en la Empatía (El Perfil): Define a la persona (user persona) que necesita la funcionalidad. El enfoque debe ser más detallado que un simple puesto (ej. "Como Max, el editor sénior" en lugar de "Como editor"). El equipo debe comprender cómo trabaja, piensa y siente esa persona.
+QUIERO [Intención]	¿Qué es lo que está intentando lograr realmente?	Enfoque en la Meta (La Intención): Describe la meta o el objetivo del usuario al utilizar el sistema. Esta es la intención del usuario. Debe ser independiente de la implementación; no se deben describir elementos de la interfaz de usuario (UI), sino el resultado que buscan.
+PARA	¿Cuál es el valor que esto aporta al usuario o al negocio?	Enfoque en el Valor (El Porqué): Explica el beneficio general y la razón estratégica detrás del deseo inmediato del usuario. Es el valor de la funcionalidad en relación con los objetivos generales. La historia debe ofrecer valor, tanto al equipo como al usuario.
+
+**Respuesta:**
+
+¡Entendido! Como tu Product Owner, mi tarea es destilar de las épicas el conjunto más crítico de funcionalidades que, al ser lanzadas, aportarán un valor significativo y tangible a la EPN en su camino hacia la acreditación EUR-ACE.
+
+He analizado el contexto, las épicas y la definición de MRF, enfocándome en el valor real para el cliente final (la EPN y sus usuarios clave). El objetivo es que este primer lanzamiento sea útil, usable y que la EPN esté dispuesta a adoptarlo para iniciar el proceso.
+
+Aquí tienes el conjunto de MRFs indispensables, formulados como Historias de Usuario claras y concisas:
+
+---
+
+**MRF 1: Configuración Institucional Básica y Gestión de Acceso**
+
+*   **Como:** Administrador del sistema
+*   **Quiero:** Gestionar la estructura jerárquica académica de la EPN (Facultades, Departamentos, Carreras) y asignar roles básicos (Administrador, Coordinador de Carrera, Profesor) a los usuarios
+*   **Para:** Habilitar la representación fundamental de la organización y el acceso seguro a la plataforma, preparando el terreno para la gestión curricular.
+
+**MRF 2: Definición y Coherencia Interna del Currículo de Carrera**
+
+*   **Como:** Coordinador de Carrera
+*   **Quiero:** Registrar el Perfil de Egreso (OPP) y los Resultados de Aprendizaje (RA) de mi carrera, y vincular los Resultados de Aprendizaje de Asignatura (RAA) a mis RA indicando su nivel de contribución
+*   **Para:** Digitalizar el diseño curricular y evaluar su coherencia interna, lo cual es fundamental para el proceso de acreditación EUR-ACE.
+
+**MRF 3: Verificación Inicial de Alineación con Estándares EUR-ACE**
+
+*   **Como:** Coordinador de Carrera
+*   **Quiero:** Cargar los criterios de acreditación EUR-ACE y comparar los resultados de aprendizaje (RA) de mi carrera con estos objetivos
+*   **Para:** Realizar una autoevaluación inicial que demuestre el alineamiento de la carrera con los estándares de calidad EUR-ACE.
+
+<!-- --- -->
