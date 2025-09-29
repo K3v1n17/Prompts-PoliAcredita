@@ -2898,3 +2898,296 @@ Criterios de aceptación:
 **Prioridad:** Alta (1)
 
 <!-- --- -->
+
+## PROMPT 11
+
+**Fecha:** 29 sept 2025, 04:18 a m. (UTC)
+
+**Prompt:**
+
+Devuelve SOLO un array JSON válido (sin texto extra ni code fences).
+
+🎯 Objetivo
+
+Analizar los prototipos (imágenes) con la finalidad de identificar las Historias de Usuario (HUs) representadas.
+
+📌 Contexto
+
+Cada HU debe cumplir con los criterios INVEST:
+
+Independent: Puede completarse de forma autónoma.
+
+Negotiable: Contiene detalles discutibles con stakeholders.
+
+Valuable: Aporta valor al usuario y al producto.
+
+Estimable: Se puede desglosar y estimar en esfuerzo.
+
+Small: Lo suficientemente pequeña para estimarse con precisión.
+
+Testable: Tiene criterios de aceptación claros y verificables.
+
+📌 PBI del Sprint
+
+Gestión de organización académica (Facultades, Carreras, Materias, Profesores).
+
+📊 Velocidad Histórica del Equipo
+
+Velocidad baja: 54 sp
+
+Velocidad alta: 75 sp
+
+📌 Ejemplos de HU (histórico del equipo)
+
+HU: Agregar miembro de la CEI
+Como administrador quiero registrar a los miembros de la CEI → 3 sp
+
+HU: Listar miembros de la CEI
+Como administrador quiero listar los miembros de la CEI → 3 sp
+
+HU: Paginar autoridades
+Como administrador quiero listar las autoridades por grupos → 1 sp
+
+HU: Filtrar autoridades
+Como administrador quiero filtrar las autoridades por una palabra → 1 sp
+
+HU: Paginar miembros de la CEI
+Como administrador quiero listar los miembros de la CEI por grupos → 1 sp
+
+HU: Filtrar miembros de la CEI
+Como administrador quiero filtrar los miembros de la CEI por una palabra → 1 sp
+
+
+
+Accion :
+sprint planning 
+Crea mi  hus basándote únicamente en los prototipos (imagenes) que te proporciono no inventes nada 
+
+📌 Formato de salida requerido por HU
+{
+  "title": "HU: ...",
+  "como": "...",
+  "quiero": "...",
+  "para": "...",
+  "acceptanceCriteria": [
+    "Criterio 1",
+    "Criterio 2"
+  ],
+  "storyPoints": number,
+  "priority": number (1 = alta, 2 = media, 3 = baja),
+  "frontendTasks": [
+    { "title": "...", "originalEstimate": number, "remainingWork": number, "completedWork": number }
+  ],
+  "backendTasks": [
+    { "title": "...", "originalEstimate": number, "remainingWork": number, "completedWork": number }
+  ]
+}
+
+⏱️ Reglas de estimación de tareas (FE/BE)
+
+Front-end: 0 a 1 hora por tarea (ej: 0.1, 0.3, 0.5, 1).
+
+Back-end: 0 a 1 hora por tarea (idem).
+
+Usa verbos en infinitivo para títulos de tareas.
+
+No repetir títulos de tareas.
+
+**Respuesta:**
+
+### HU sin título
+**Como:** 
+**Quiero:** 
+**Para:** 
+**Story Points:** N/A
+**Prioridad:** N/A
+
+---
+
+### HU: Iniciar Sesión en Poliacredita
+**Como:** Usuario del sistema SAGA EPN EUR-ACE
+**Quiero:** ingresar mis credenciales institucionales y seleccionar mi rol
+**Para:** acceder a mis funcionalidades correspondientes a mi rol
+
+Criterios de aceptación:
+
+- El sistema muestra un formulario con campos para 'Correo Institucional' y 'Contraseña'
+- El sistema muestra un selector de 'Rol' con opciones
+- Al ingresar credenciales válidas y seleccionar un rol, el usuario es redirigido al Dashboard
+- Al ingresar credenciales inválidas, se muestra un mensaje de error claro
+- Existe un enlace para '¿Olvidaste tu contraseña?'
+
+**Story Points:** 3
+**Prioridad:** Alta (1)
+
+---
+
+### HU: Visualizar Conteo de Entidades en Dashboard
+**Como:** Administrador
+**Quiero:** ver el número total de facultades, carreras y usuarios activos
+**Para:** obtener una visión general rápida del estado de la EPN
+
+Criterios de aceptación:
+
+- El Dashboard muestra el 'Total Facultades' con un valor numérico
+- El Dashboard muestra el 'Total Carreras' con un valor numérico
+- El Dashboard muestra el 'Usuarios Activos' con un valor numérico
+
+**Story Points:** 2
+**Prioridad:** Media (2)
+
+---
+
+### HU: Visualizar Actividad Reciente en Dashboard
+**Como:** Administrador
+**Quiero:** ver un registro de las últimas acciones realizadas en el sistema
+**Para:** monitorear la actividad de la plataforma
+
+Criterios de aceptación:
+
+- El Dashboard muestra una sección de 'Actividad Reciente' con columnas 'Hora', 'Usuario', 'Acción'
+- La tabla muestra un listado de acciones recientes (ej. 'Creo nueva facultad FIEC', 'Actualizó datos de carrera Ingeniería Civil', 'Revisó informe de acreditación', 'Asignó rol a 'profesor@epn.edu.ec'', 'Registró nuevo profesor Juan Pérez')
+- Cada acción muestra la hora en formato relativo ('Hace 5 min', 'Hace 15 min')
+- Cada acción muestra el email del usuario que la realizó
+- Cada acción muestra una descripción concisa de la actividad
+
+**Story Points:** 3
+**Prioridad:** Media (2)
+
+---
+
+### HU: Acceder a Acciones Rápidas desde Dashboard
+**Como:** Administrador
+**Quiero:** tener enlaces directos a funcionalidades de gestión importantes
+**Para:** agilizar mi navegación y ejecución de tareas comunes
+
+Criterios de aceptación:
+
+- El Dashboard muestra una sección de 'Acceso Rápido'
+- Esta sección incluye un botón o enlace con icono y texto 'Gestionar Carreras'
+- Esta sección incluye un botón o enlace con icono y texto 'Gestionar Profesores'
+- Esta sección incluye un botón o enlace con icono y texto 'Ver Mi Perfil'
+- Al hacer clic en cada botón, el usuario es redirigido a la página correspondiente
+
+**Story Points:** 1
+**Prioridad:** Media (2)
+
+---
+
+### HU: Listar Usuarios Registrados
+**Como:** Administrador
+**Quiero:** ver una lista de todos los usuarios registrados con su información clave
+**Para:** gestionar el acceso y los roles en el sistema
+
+Criterios de aceptación:
+
+- Existe una página 'Gestión de Usuarios' accesible desde la navegación lateral
+- Se muestra una tabla con columnas 'Email', 'Nombre', 'Rol', 'Estado' y 'Acciones'
+- Los datos de los usuarios se cargan correctamente en la tabla
+- Se muestra el botón '+ Nuevo Usuario' en la página
+
+**Story Points:** 3
+**Prioridad:** Alta (1)
+
+---
+
+### HU: Registrar Nuevo Usuario
+**Como:** Administrador
+**Quiero:** crear un nuevo registro de usuario en el sistema
+**Para:** permitir que nuevas personas accedan a la plataforma
+
+Criterios de aceptación:
+
+- Al hacer clic en '+ Nuevo Usuario', se abre un formulario de registro de usuario
+- El formulario incluye campos para 'Email', 'Nombre', un selector de 'Rol' y un selector de 'Estado' (Activo/Inactivo)
+- Al enviar datos válidos, el usuario se guarda y se muestra en el listado
+- Al enviar datos inválidos (ej. email duplicado), se muestra un mensaje de error claro
+
+**Story Points:** 3
+**Prioridad:** Alta (1)
+
+---
+
+### HU: Buscar Usuarios por Palabra Clave
+**Como:** Administrador
+**Quiero:** encontrar usuarios específicos rápidamente por email o nombre
+**Para:** agilizar la gestión de usuarios
+
+Criterios de aceptación:
+
+- Existe un campo de búsqueda ('Buscar usuario...') en la página de listado de Usuarios
+- Al escribir texto, la tabla se filtra y muestra solo los usuarios que coinciden con el email o nombre
+- La búsqueda debe ser insensible a mayúsculas y minúsculas
+- Al borrar el texto de búsqueda, se muestra el listado completo de usuarios
+
+**Story Points:** 2
+**Prioridad:** Media (2)
+
+---
+
+### HU: Filtrar Usuarios por Rol
+**Como:** Administrador
+**Quiero:** ver usuarios que tienen un rol específico
+**Para:** organizar la visualización y gestionar permisos por rol
+
+Criterios de aceptación:
+
+- Existe un selector de filtro ('Todos los Roles') en la página de listado de Usuarios
+- Al seleccionar un rol, la tabla se actualiza mostrando solo los usuarios con ese rol
+- La opción 'Todos los Roles' muestra todos los usuarios
+
+**Story Points:** 2
+**Prioridad:** Media (2)
+
+---
+
+### HU: Filtrar Usuarios por Estado
+**Como:** Administrador
+**Quiero:** ver usuarios que tienen un estado específico (Activo/Inactivo)
+**Para:** gestionar el acceso y habilitación/deshabilitación de cuentas
+
+Criterios de aceptación:
+
+- Existe un selector de filtro ('Todos los Estados') en la página de listado de Usuarios
+- Al seleccionar un estado, la tabla se actualiza mostrando solo los usuarios con ese estado
+- La opción 'Todos los Estados' muestra todos los usuarios
+
+**Story Points:** 2
+**Prioridad:** Media (2)
+
+---
+
+### HU: Paginar Listado de Usuarios
+**Como:** Administrador
+**Quiero:** navegar por el listado de usuarios en bloques manejables
+**Para:** gestionar grandes volúmenes de usuarios eficientemente
+
+Criterios de aceptación:
+
+- Existe un componente de paginación ('< Previous 1 2 3 Next >') en la parte inferior de la tabla de Usuarios
+- El componente permite ir a la página siguiente
+- El componente permite ir a la página anterior
+- El componente permite ir directamente a una página específica
+- Al cambiar de página, la tabla de usuarios se actualiza con los datos correspondientes
+
+**Story Points:** 2
+**Prioridad:** Media (2)
+
+---
+
+### HU: Cambiar Estado de Usuario (Activar/Desactivar)
+**Como:** Administrador
+**Quiero:** habilitar o deshabilitar el acceso de un usuario
+**Para:** controlar quién puede usar el sistema
+
+Criterios de aceptación:
+
+- Existe un botón 'Desactivar' o 'Activar' en la columna 'Acciones' de cada usuario
+- Al hacer clic en el botón, el estado del usuario cambia (Activo a Inactivo, o viceversa)
+- El estado visual en la tabla se actualiza inmediatamente
+- Se muestra una confirmación o mensaje de éxito/error al usuario
+
+**Story Points:** 3
+**Prioridad:** Alta (1)
+
+<!-- --- -->
