@@ -6,7 +6,6 @@
 
 
 1. [PROMPT 1](#prompt-1)
-	- [PROMPT 1.1 (Continuación de PROMPT 1)](#prompt-11-continuacion-de-prompt-1)
 2. [PROMPT 2](#prompt-2)
 3. [PROMPT 3](#prompt-3)
 4. [PROMPT 4](#prompt-4)
@@ -15,11 +14,8 @@
 7. [PROMPT 7](#prompt-7)
 8. [PROMPT 8](#prompt-8)
 9. [PROMPT 9](#prompt-9)
-10. [PROMPT 10](#prompt-10)    --- mejor version 
+10. [PROMPT 10](#prompt-10)   
 11. [PROMPT 11](#prompt-11)
-12. [PROMPT 12](#prompt-12)
-13. [PROMPT 13](#prompt-13)
-14. [PROMPT 14](#prompt-14)
 
 ---
 
