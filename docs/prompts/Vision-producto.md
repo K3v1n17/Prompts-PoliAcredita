@@ -19,6 +19,7 @@
 15. [PROMPT 15](#prompt-15)
 16. [PROMPT 16](#prompt-16)
 17. [PROMPT 17](#prompt-17)
+18. [PROMPT 18](#prompt-18)
 
 ---
 
@@ -714,6 +715,57 @@ Definir la visión de un producto software para verificar el cumplimiento de los
 - El nombre del producto software es PoliAcredita. PoliAcredita es una Aplicación Web.
 
 #Acción
+- Crear la visión de un producto software que ayude a las carreras de grado a medir el cumplimiento de los objetivos EUR-ACE.
+- Para crear la visión del producto se debe seguir el formato de la visión de Geoffrey Moore. 
+
+#FormatoDeSalida
+Se debe presentar la visión del producto de acuerdo al formato de Geoffrey Moore: 
+- Para (cliente objetivo)
+- que (necesidad u oportunidad que debe cubrir el producto)
+- nuestro (nombre del producto) 
+- es una (categoría del producto) 
+- que (beneficio clave del producto). 
+- A diferencia de (alternativa de la competencia del producto), 
+- nuestro producto (declaración de diferenciación primaria del producto).
+El texto que está entre paréntesis debe ser completado.
+
+**Respuesta:**
+
+### HU: Visión del Producto - PoliAcredita
+**Como:** 
+**Quiero:** 
+**Para:** 
+**Story Points:** N/A
+**Prioridad:** N/A
+
+<!-- --- -->
+
+## PROMPT 18
+
+**Fecha:** 06 oct 2025, 05:09 p m. (UTC)
+
+**Prompt:**
+
+# 1.  Producto 
+#Rol
+Actúa como un Product Management / Product Owner que es experto en acreditación internacional con el sello EUR-ACE.
+
+#Objetivo 
+Definir la visión de un producto software para verificar el cumplimiento de los objetivos EUR-ACE en las carreras de la Escuela Politécnica Nacional.
+
+#Contexto 
+- El sello EUR-ACE es una etiqueta de calidad europea que certifica que un programa de estudios de ingeniería cumple con estándares de excelencia y los requisitos profesionales del ámbito europeo. Otorga una garantía internacional de la formación de un ingeniero y facilita la movilidad académica y profesional al reconocer las competencias adquiridas. 
+- Los objetivos del sistema de acreditación EUR-ACE son certificar la calidad de las carreras de ingeniería en Europa y el mundo, garantizando que cumplen estándares internacionales y asegurando que los titulados poseen conocimientos, habilidades técnicas y competencias profesionales para la empleabilidad. Además, busca facilitar la movilidad académica y profesional de estudiantes y docentes, fortalecer alianzas globales y mejorar la transparencia y el reconocimiento de las titulaciones en el ámbito internacional. 
+- La Escuela Politécnica Nacional EPN es una universidad pública, de grado y posgrado, ubicada en Quito, Ecuador. Reconocida por la investigación y la educación en ciencias básicas, ingenierías y tecnología, ofrece programas doctorales, de maestría y de grado.
+- La Escuela Politécnica Nacional consta de 9 facultades que albergan 6 carreras de tecnología superior, 24 carreras de pregrado, 22 maestrías y 6 doctorados en postgrado. Dichas especialidades pertenecen al campo del conocimiento de las ciencias, ingeniería y formación tecnológica.
+- Las carreras de grado, carreras de tecnología superior y carreras de pregrado se conocen como "carreras". Para EUR-ACE son carreras de ingeniería. EUR-ACE certifica programas de estudios de ingeniería o "carreras de ingeniería" para el caso de Ecuador. 
+- Cada carrera tiene una malla curricular donde están todas las asignaturas que los estudiantes deben cursar. Cada asignatura tiene su resultados de aprendizaje de la asignatura RAA. Cada carrera tiene resultados de aprendizaje de la carrera RA. 
+- En una matriz RA-RAA se relacionan los RAA con los RA. En otra matriz EURACE-RA se relacionan los RA con los objetivos EUR-ACE. Con las matrices anteriores podemos definir como las asignaturas ayudan a cumplir los objetivos EUR-ACE. 
+- La visión tiene como propósito definir el alcance de un producto software que debe desarrollarse en 4 sprints (iteraciones). Cada sprint tendrá una duración de 1 semana. 
+- Se debe utilizar el Scrum framework para gestionar la construcción del producto software. Scrum no se utiliza para acreditación. Scrum se utiliza para construir el producto software.  
+- El nombre del producto software es PoliAcredita. PoliAcredita es una Aplicación Web.
+
+#ACCION 
 - Crear la visión de un producto software que ayude a las carreras de grado a medir el cumplimiento de los objetivos EUR-ACE.
 - Para crear la visión del producto se debe seguir el formato de la visión de Geoffrey Moore. 
 
