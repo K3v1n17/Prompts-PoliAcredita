@@ -886,11 +886,21 @@ El texto que está entre paréntesis debe ser completado.
 
 **Respuesta:**
 
-### HU: Visión del Producto - PoliAcredita
-**Como:** 
-**Quiero:** 
-**Para:** 
-**Story Points:** N/A
-**Prioridad:** N/A
+### **📌 Visión del producto (formato Geoffrey Moore)**
+> **Para** las autoridades académicas, responsables de calidad, coordinadores y comités de acreditación de las _carreras de ingeniería_ de la Escuela Politécnica Nacional,
+
+> **que** necesitan medir, evidenciar y mejorar el cumplimiento de los objetivos del sello de calidad internacional EUR-ACE,
+
+> **nuestro** _PoliAcredita_
+
+> **es una** _aplicación web de gestión académica para la trazabilidad de competencias_
+
+> **que** permite vincular los resultados de aprendizaje de las asignaturas (RAA) con los resultados de aprendizaje de la carrera (RA) y, a su vez, con los objetivos EUR-ACE, generando evidencia automatizada, trazabilidad visual e informes para procesos de acreditación.
+
+> **A diferencia de** hojas de cálculo manuales, documentos Word dispersos o sistemas administrativos que no permiten evidenciar el cumplimiento de estándares internacionales,
+
+> **nuestro producto** centraliza la información, automatiza la generación de matrices EUR-ACE-RA y RA-RAA, y facilita el seguimiento de brechas o áreas de mejora por carrera, asignatura y objetivo de acreditación.
+
+
 
 <!-- --- -->
