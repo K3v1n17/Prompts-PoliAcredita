@@ -2609,7 +2609,7 @@ Aquí tienes el Sprint Mapping revisado, diseñado para entregar valor increment
 **Sprint 2: Definición Curricular Central y Estándares EUR-ACE**
 **(Fecha Inicio – Fecha Fin: 13 de Mayo – 19 de Mayo)**
 
-*   **Objetivo Comercial:** Gestion de  los perfiles de egreso (OPP) , resultados de aprendizaje (RA) de las carreras y relacion con los estándares EUR-ACE.
+*   **Objetivo Comercial:** Gestion de  los perfiles de egreso (OPP) , resultados de aprendizaje (RA) de las carreras y las relacion con los estándares EUR-ACE y OPP.
 *   **Valor Comercial:** Formaliza digitalmente la visión de egreso de la EPN y establece el marco de calidad EUR-ACE para la autoevaluación.
 *   **Dependencias:** Sprint 1 (Necesita carreras y coordinadores asignados).
 *   **PBI:**
