@@ -21,6 +21,7 @@
 12. [PROMPT 12](#prompt-12)
 13. [PROMPT 13](#prompt-13)
 14. [PROMPT 14](#prompt-14)
+15. [PROMPT 15](#prompt-15)
 
 ---
 
@@ -2250,5 +2251,84 @@ He analizado el contexto nuevamente, asegurándome de identificar los perfiles c
 ---
 
 Este backlog de épicas es el punto de partida. Cada una de estas historias representa un bloque de funcionalidad significativo y ofrecerá un valor considerable a nuestros usuarios. En los siguientes pasos, procederemos a desglosar estas épicas en historias de usuario más pequeñas, priorizarlas y planificar los sprints de desarrollo. ¡Vamos por esa acreditación EUR-ACE!
+
+<!-- --- -->
+
+## PROMPT 15
+
+**Fecha:** 08 oct 2025, 05:04 p m.
+
+**Prompt:**
+
+###ROL
+
+Actúa como un Product Management / Product Owner que es experto en acreditación internacional con el sello EUR-ACE. y la gestion de productos software
+
+objetivo
+Mi objetivo es definir mi product backlog de alto nivel , para establecer las principales funcionalidades que tendrá mi producto software este debe incluir historias de usuario epicas.
+
+CONTEXTO
+- El sello EUR-ACE es una etiqueta de calidad europea que certifica que un programa de estudios de ingeniería cumple con estándares de excelencia y los requisitos profesionales del ámbito europeo. Otorga una garantía internacional de la formación de un ingeniero y facilita la movilidad académica y profesional al reconocer las competencias adquiridas. 
+- Los objetivos del sistema de acreditación EUR-ACE son certificar la calidad de las carreras de ingeniería en Europa y el mundo, garantizando que cumplen estándares internacionales y asegurando que los titulados poseen conocimientos, habilidades técnicas y competencias profesionales para la empleabilidad. Además, busca facilitar la movilidad académica y profesional de estudiantes y docentes, fortalecer alianzas globales y mejorar la transparencia y el reconocimiento de las titulaciones en el ámbito internacional. 
+- La Escuela Politécnica Nacional EPN es una universidad pública, de grado y posgrado, ubicada en Quito, Ecuador. Reconocida por la investigación y la educación en ciencias básicas, ingenierías y tecnología, ofrece programas doctorales, de maestría y de grado.
+- La Escuela Politécnica Nacional consta de 9 facultades que albergan 6 carreras de tecnología superior, 24 carreras de pregrado, 22 maestrías y 6 doctorados en postgrado. Dichas especialidades pertenecen al campo del conocimiento de las ciencias, ingeniería y formación tecnológica.
+- Las carreras de grado, carreras de tecnología superior y carreras de pregrado se conocen como "carreras". Para EUR-ACE son carreras de ingeniería. EUR-ACE certifica programas de estudios de ingeniería o "carreras de ingeniería" para el caso de Ecuador. 
+- Cada carrera tiene una malla curricular donde están todas las asignaturas que los estudiantes deben cursar. Cada asignatura tiene su resultados de aprendizaje de la asignatura RAA. Cada carrera tiene resultados de aprendizaje de la carrera RA. 
+- En una matriz RA-RAA se relacionan los RAA con los RA. En otra matriz EURACE-RA se relacionan los RA con los objetivos EUR-ACE. Con las matrices anteriores podemos definir como las asignaturas ayudan a cumplir los objetivos EUR-ACE. 
+- La visión tiene como propósito definir el alcance de un producto software que debe desarrollarse en 4 sprints (iteraciones). Cada sprint tendrá una duración de 1 semana. 
+- Se debe utilizar el Scrum framework para gestionar la construcción del producto software. Scrum no se utiliza para acreditación. Scrum se utiliza para construir el producto software.  
+- El nombre del producto software es PoliAcredita. PoliAcredita es una Aplicación Web.
+
+
+
+
+
+Plantilla y ejemplos de historias de usuario Las historias de usuario suelen expresarse con una frase simple con la siguiente estructura:
+
+“Como [perfil], [quiero] [para].”
+
+Desglosemos esta estructura:
+
+“Como [perfil]”: ¿para quién desarrollamos esto? No solo buscamos un puesto, buscamos el perfil de la persona. Max. Nuestro equipo debería comprender quién es Max. Con suerte hemos entrevistado a muchos Max. Comprendemos cómo trabaja esa persona, cómo piensa y cómo se siente. Sentimos empatía por Max. “Quiere”: aquí describimos su intención, no las funciones que usan. ¿Qué es lo que están intentando lograr realmente? Esta descripción debería realizarse con independencia de las implementaciones; si describes algún elemento de la IU y no el objetivo del usuario, estás cometiendo un error. “Para”: ¿cómo encaja su deseo inmediato de hacer algo en la perspectiva general? ¿Cuál es el beneficio general que intentan lograr? ¿Cuál es el gran problema que debe resolverse? Por ejemplo, las historias de usuario pueden tener este aspecto:
+
+Como Max, quiero invitar a mis amigos, para que podamos disfrutar de este servicio juntos. Como Sascha, quiero organizar mi trabajo, para poder sentir que tengo un mayor control. Como gestor, quiero poder comprender el progreso de mis compañeros, para poder informar sobre nuestros éxitos y fallos. Esta estructura no es obligatoria, pero resulta de ayuda para establecer una definición de “hecho”. Cuando ese perfil puede alcanzar su valor deseado, la historia está completa. Recomendamos a nuestros equipos definir su propia estructura, y que no se desvíen de ella.
+
+
+
+ACCION
+
+Crea el product backlog de alto nivel con las historitas de usuario épicas para desarrollar mi producto.
+
+**Respuesta:**
+
+Como Product Management / Product Owner experto en acreditación internacional con el sello EUR-ACE, he definido el backlog de alto nivel para PoliAcredita, centrándome en las funcionalidades clave necesarias para alcanzar la visión del producto dentro del marco de 4 sprints. Estas son las historias de usuario épicas:
+
+---
+
+### Product Backlog de Alto Nivel (Épicas) - PoliAcredita
+
+**Epic 1: Gestión Centralizada de la Estructura Curricular**
+
+*   **Como** Gestor de Carrera de la EPN,
+*   **quiero** poder definir, cargar y mantener de forma estructurada toda la información de la malla curricular, incluyendo las asignaturas, sus Resultados de Aprendizaje de Asignatura (RAA) y los Resultados de Aprendizaje de la Carrera (RA),
+*   **para** tener una base de datos curricular centralizada, actualizada y accesible que sirva como fundamento para el proceso de acreditación EUR-ACE.
+
+**Epic 2: Establecimiento y Mantenimiento de la Trazabilidad EUR-ACE**
+
+*   **Como** Gestor de Carrera de la EPN,
+*   **quiero** poder establecer, visualizar y gestionar las matrices de relación entre los Resultados de Aprendizaje de Asignatura (RAA) y los Resultados de Aprendizaje de la Carrera (RA), y posteriormente, entre los RA y los objetivos específicos del sello EUR-ACE,
+*   **para** comprender de manera clara, auditable y automatizada cómo cada componente curricular contribuye al cumplimiento de los estándares de calidad EUR-ACE.
+
+**Epic 3: Monitoreo y Reporte de Cumplimiento EUR-ACE**
+
+*   **Como** Gestor de Carrera o Autoridad Académica de la EPN,
+*   **quiero** poder consultar, analizar y generar reportes detallados y personalizables sobre el nivel de cumplimiento de los objetivos EUR-ACE, basados en la trazabilidad curricular definida,
+*   **para** identificar rápidamente las áreas de fortaleza y mejora, facilitar la toma de decisiones estratégicas para la optimización del currículo y agilizar la preparación de la documentación requerida para el proceso de autoevaluación y auditoría externa del sello EUR-ACE.
+
+**Epic 4: Gestión de Usuarios y Roles Institucionales**
+
+*   **Como** Administrador del Sistema de la EPN,
+*   **quiero** poder gestionar los usuarios de la aplicación y asignarles roles (como Gestor de Carrera, Docente, Administrador) con los permisos de acceso y manipulación de datos adecuados,
+*   **para** asegurar la seguridad, la integridad de la información sensible y garantizar que cada miembro del personal acceda y opere únicamente con las funcionalidades y datos pertinentes a su responsabilidad en el proceso de acreditación.
 
 <!-- --- -->
