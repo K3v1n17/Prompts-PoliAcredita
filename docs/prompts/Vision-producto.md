@@ -24,6 +24,7 @@
 20. [PROMPT 20](#prompt-20)
 21. [PROMPT 21](#prompt-21)
 22. [PROMPT 22](#prompt-22)
+23. [PROMPT 23](#prompt-23)
 
 ---
 
@@ -993,6 +994,42 @@ A diferencia de (alternativa de la competencia del producto),
 nuestro producto (declaración de diferenciación primaria del producto). El texto que está entre paréntesis debe ser completado.
 no devuelvas en json 
 **Respuesta:**
+
+**Respuesta:**
+
+**Visión del Producto - PoliAcredita**
+
+**Para** las carreras de ingeniería (grado, tecnología superior y pregrado) de la Escuela Politécnica Nacional (EPN) que aspiran a la acreditación internacional EUR-ACE y a la excelencia académica sostenida,
+
+**que** necesitan una plataforma eficiente, fiable y transparente para gestionar, medir y demostrar el cumplimiento de los rigurosos estándares de calidad y requisitos profesionales establecidos por el sello EUR-ACE,
+
+**nuestro PoliAcredita es** una aplicación web integral de gestión y autoevaluación curricular
+
+**que** centraliza la información académica, automatiza la compleja trazabilidad desde los Resultados de Aprendizaje de Asignatura (RAA) con los Resultados de Aprendizaje de la Carrera (RA), y de estos con los objetivos EUR-ACE, simplificando la generación de reportes de cumplimiento auditables y la preparación para auditorías.
+
+**A diferencia de** los procesos manuales laboriosos, la documentación dispersa en herramientas ofimáticas y la carencia de sistemas de información integrados que resultan en ineficiencias, duplicidades, falta de trazabilidad verificable y demoras en los procesos de acreditación,
+
+**nuestro producto** proporciona una visión holística y en tiempo real del alineamiento curricular, agiliza drásticamente la preparación y recopilación de evidencias para los procesos de autoevaluación y auditoría externa, optimiza la toma de decisiones estratégicas para la mejora continua, y potencia significativamente la reputación y la movilidad académica y profesional internacional de la EPN y sus ingenieros graduados.
+
+<!-- --- -->
+
+## PROMPT 23
+
+**Fecha:** 08 oct 2025, 10:57 a m.
+
+**Prompt:**
+
+Rol Actúa como un Product Management / Product Owner que es experto en acreditación internacional con el sello EUR-ACE.
+
+#Objetivo Definir la visión de un producto software para verificar el cumplimiento de los objetivos EUR-ACE en las carreras de la Escuela Politécnica Nacional.
+
+#Contexto
+
+El sello EUR-ACE es una etiqueta de calidad europea que certifica que un programa de estudios de ingeniería cumple con estándares de excelencia y los requisitos profesionales del ámbito europeo. Otorga una garantía internacional de la formación de un ingeniero y facilita la movilidad académica y profesional al reconocer las competencias adquiridas. Los objetivos del sistema de acreditación EUR-ACE son certificar la calidad de las carreras de ingeniería en Europa y el mundo, garantizando que cumplen estándares internacionales y asegurando que los titulados poseen conocimientos, habilidades técnicas y competencias profesionales para la empleabilidad. Además, busca facilitar la movilidad académica y profesional de estudiantes y docentes, fortalecer alianzas globales y mejorar la transparencia y el reconocimiento de las titulaciones en el ámbito internacional. La Escuela Politécnica Nacional EPN es una universidad pública, de grado y posgrado, ubicada en Quito, Ecuador. Reconocida por la investigación y la educación en ciencias básicas, ingenierías y tecnología, ofrece programas doctorales, de maestría y de grado. La Escuela Politécnica Nacional consta de 9 facultades que albergan 6 carreras de tecnología superior, 24 carreras de pregrado, 22 maestrías y 6 doctorados en postgrado. Dichas especialidades pertenecen al campo del conocimiento de las ciencias, ingeniería y formación tecnológica. Las carreras de grado, carreras de tecnología superior y carreras de pregrado se conocen como “carreras”. Para EUR-ACE son carreras de ingeniería. EUR-ACE certifica programas de estudios de ingeniería o “carreras de ingeniería” para el caso de Ecuador. Cada carrera tiene una malla curricular donde están todas las asignaturas que los estudiantes deben cursar. Cada asignatura tiene su resultados de aprendizaje de la asignatura RAA. Cada carrera tiene resultados de aprendizaje de la carrera RA. En una matriz RA-RAA se relacionan los RAA con los RA. En otra matriz EURACE-RA se relacionan los RA con los objetivos EUR-ACE. Con las matrices anteriores podemos definir como las asignaturas ayudan a cumplir los objetivos EUR-ACE. La visión tiene como propósito definir el alcance de un producto software que debe desarrollarse en 4 sprints (iteraciones). Cada sprint tendrá una duración de 1 semana. Se debe utilizar el Scrum framework para gestionar la construcción del producto software. Scrum no se utiliza para acreditación. Scrum se utiliza para construir el producto software. El nombre del producto software es PoliAcredita. PoliAcredita es una Aplicación Web. #ACCION
+
+Crear la visión de un producto software que ayude a las carreras de grado a medir el cumplimiento de los objetivos EUR-ACE. Para crear la visión del producto se debe seguir el formato de la visión de Geoffrey Moore. #FormatoDeSalida Se debe presentar la visión del producto de acuerdo al formato de Geoffrey Moore:
+
+Para (cliente objetivo) que (necesidad u oportunidad que debe cubrir el producto) nuestro (nombre del producto) es una (categoría del producto) que (beneficio clave del producto). A diferencia de (alternativa de la competencia del producto), nuestro producto (declaración de diferenciación primaria del producto). El texto que está entre paréntesis debe ser completado. no devuelvas en json  y se directo
 
 **Respuesta:**
 
