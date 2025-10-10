@@ -1394,3 +1394,467 @@ Criterios de aceptación:
 **Prioridad:** Media (2)
 
 <!-- --- -->
+
+## PROMPT 3
+
+**Fecha:** 10 oct 2025, 04:18 a m. (UTC)
+
+**Prompt:**
+
+Devuelve SOLO un array JSON válido (sin texto extra ni code fences).
+🎯 Objetivo
+Analizar los prototipos (imágenes) con la finalidad de identificar las Historias de Usuario (HUs) representadas.
+📌 Contexto
+Cada HU debe cumplir con los criterios INVEST:
+Independent: Puede completarse de forma autónoma.
+Negotiable: Contiene detalles discutibles con stakeholders.
+Valuable: Aporta valor al usuario y al producto.
+Estimable: Se puede desglosar y estimar en esfuerzo.
+Small: Lo suficientemente pequeña para estimarse con precisión.
+Testable: Tiene criterios de aceptación claros y verificables.
+
+uan 
+📊 Velocidad Histórica del Equipo
+Velocidad baja: 54 sp
+Velocidad alta: 75 sp
+
+📌 Ejemplos de HU (histórico del equipo) con su estimación en sp 
+HU: Agregar miembro de la CEI
+Como administrador quiero registrar a los miembros de la CEI → 3 sp
+HU: Listar miembros de la CEI
+Como administrador quiero listar los miembros de la CEI → 3 sp
+HU: Paginar autoridades
+Como administrador quiero listar las autoridades por grupos → 1 sp
+HU: Filtrar autoridades
+Como administrador quiero filtrar las autoridades por una palabra → 1 sp
+HU: Paginar miembros de la CEI
+Como administrador quiero listar los miembros de la CEI por grupos → 1 sp
+HU: Filtrar miembros de la CEI
+Como administrador quiero filtrar los miembros de la CEI por una palabra → 1 sp
+
+ejemplo de estimación para las tareas   :
+Crear endpoint GET /dashboard/counts	0.5
+6975	Implementar lógica para obtener total de Facultades	0.3
+6976	Implementar lógica para obtener total de Carreras	0.3
+6978	Implementar lógica para obtener total de Usuarios Activos	0.3
+7147	Asegurar que el endpoint solo devuelva datos del usuario autenticado	0.3
+7161	Crear endpoint GET /me/profile para datos del usuario logueado	0.5
+7153	Crear endpoint GET /me/roles-permissions para roles y permisos	0.5
+7159	Implementar lógica para obtener roles y permisos del usuario autenticado	0.5
+
+Implementar campo de búsqueda en interfaz de Carreras	0.2
+7102	Implementar lógica de filtrado en cliente o API para carreras	0.5
+7104	Actualizar tabla de carreras con resultados de búsqueda	0.3
+7073	Actualizar tabla de facultades con resultados de filtro	0.2
+7063	Implementar validación de campos del formulario de facultad	0.5
+7064	Integrar selector de Decano con API de búsqueda de usuarios filtrando por rol de profesor	0.4
+
+Desglosemos esta estructura:
+
+Una historia de usuario describe una funcionalidad o capacidad que el sistema ofrece al usuario para cumplir un objetivo.
+No se enfoca en los pasos o acciones técnicas (como “entrar”, “hacer clic”, etc.), sino en el valor o propósito.
+
+🧩 Ejemplo:
+
+Como estudiante,
+quiero registrar mis avances en un formulario,
+para llevar un control de mi progreso.
+
+👉 Aquí la historia representa la funcionalidad de registrar avances, no el acto de “entrar a la sección”.
+Accion :
+sprint planning 2
+Crea mi  hus basándote únicamente en los prototipos (imagenes) que te proporciono no inventes nada , fíjate en todas las imágenes , para la historias de usuario deben ser directas no concatenedas con "y" ni con "o"
+📌 Formato de salida requerido por HU
+{
+  "title": "HU: ...",
+  "como": "...",
+  "quiero": "...",
+  "para": "...",
+  "acceptanceCriteria": [
+    "Criterio 1",
+    "Criterio 2"
+  ],
+  "storyPoints": number,
+  "priority": number (1 = alta, 2 = media, 3 = baja),
+  "frontendTasks": [
+    { "title": "...", "originalEstimate": number, "remainingWork": number, "completedWork": number }
+  ],
+  "backendTasks": [
+    { "title": "...", "originalEstimate": number, "remainingWork": number, "completedWork": number }
+  ]
+}
+
+**Respuesta:**
+
+### HU: Visualizar Criterios EUR-ACE
+**Como:** Coordinador de Carrera
+**Quiero:** ver una lista de Criterios EUR-ACE con su código y descripción
+**Para:** consultar los estándares de acreditación relevantes para mi carrera.
+
+Criterios de aceptación:
+
+- La tabla en la página 'Criterios EUR-ACE' muestra las columnas 'Código' y 'Descripción'.
+- La tabla carga y muestra todos los Criterios EUR-ACE disponibles.
+- Los datos mostrados son correctos y actualizados.
+
+**Story Points:** 3
+**Prioridad:** Alta (1)
+
+---
+
+### HU: Buscar Criterios EUR-ACE
+**Como:** Coordinador de Carrera
+**Quiero:** filtrar los Criterios EUR-ACE por texto
+**Para:** encontrar criterios específicos por código o descripción rápidamente.
+
+Criterios de aceptación:
+
+- Existe un campo de búsqueda visible con placeholder 'Buscar por código o descripción...'.
+- Al introducir texto, la tabla actualiza los resultados mostrando solo los criterios que coinciden con el texto en 'Código' o 'Descripción'.
+
+**Story Points:** 1
+**Prioridad:** Media (2)
+
+---
+
+### HU: Paginar Criterios EUR-ACE
+**Como:** Coordinador de Carrera
+**Quiero:** navegar por las páginas del listado de Criterios EUR-ACE
+**Para:** revisar todos los criterios de forma organizada sin sobrecargar la pantalla.
+
+Criterios de aceptación:
+
+- Los controles de paginación (Previous, Next, números de página) son visibles y funcionales debajo de la tabla.
+- Al hacer clic en los controles de paginación, la tabla muestra la página correspondiente de resultados.
+
+**Story Points:** 1
+**Prioridad:** Media (2)
+
+---
+
+### HU: Visualizar Objetivos de Programa (OPP)
+**Como:** Coordinador de Carrera
+**Quiero:** ver una lista de Objetivos de Programa con su código, descripción y acciones
+**Para:** supervisar y gestionar los objetivos de mi carrera.
+
+Criterios de aceptación:
+
+- La página 'Gestión de Objetivos de Programa (OPP)' muestra una tabla con las columnas 'Código', 'Descripción' y 'Acciones'.
+- La columna 'Acciones' incluye íconos para editar y eliminar cada OPP.
+- La tabla carga y muestra los OPPs disponibles correctamente.
+
+**Story Points:** 3
+**Prioridad:** Alta (1)
+
+---
+
+### HU: Buscar Objetivos de Programa (OPP)
+**Como:** Coordinador de Carrera
+**Quiero:** filtrar los Objetivos de Programa por texto
+**Para:** encontrar objetivos específicos por código o descripción rápidamente.
+
+Criterios de aceptación:
+
+- Existe un campo de búsqueda visible en la página 'Gestión de Objetivos de Programa (OPP)'.
+- Al introducir texto, la tabla actualiza los resultados mostrando solo los OPPs que coinciden con el texto en 'Código' o 'Descripción'.
+
+**Story Points:** 1
+**Prioridad:** Media (2)
+
+---
+
+### HU: Paginar Objetivos de Programa (OPP)
+**Como:** Coordinador de Carrera
+**Quiero:** navegar por las páginas del listado de Objetivos de Programa
+**Para:** revisar todos los OPPs de forma organizada sin sobrecargar la pantalla.
+
+Criterios de aceptación:
+
+- Los controles de paginación son visibles y funcionales debajo de la tabla de OPPs.
+- Al hacer clic en los controles de paginación, la tabla muestra la página correspondiente de resultados.
+
+**Story Points:** 1
+**Prioridad:** Media (2)
+
+---
+
+### HU: Crear Objetivo de Programa (OPP)
+**Como:** Coordinador de Carrera
+**Quiero:** registrar un nuevo Objetivo de Programa con un código y descripción
+**Para:** definir nuevos objetivos que guiarán mi carrera.
+
+Criterios de aceptación:
+
+- Al hacer clic en '+ Nuevo OPP', se abre el modal 'Crear Objetivo de Programa'.
+- El modal contiene campos 'Código' y 'Descripción' vacíos.
+- Al introducir datos válidos y hacer clic en 'Guardar', el OPP se crea.
+- El código del OPP debe ser único y los campos obligatorios deben estar llenos.
+- Se muestra un mensaje de éxito o error, y la tabla de OPPs se actualiza.
+
+**Story Points:** 3
+**Prioridad:** Alta (1)
+
+---
+
+### HU: Modificar Objetivo de Programa (OPP)
+**Como:** Coordinador de Carrera
+**Quiero:** actualizar la información de un Objetivo de Programa existente
+**Para:** corregir o mejorar sus detalles y mantener la información precisa.
+
+Criterios de aceptación:
+
+- Al hacer clic en el ícono de edición de un OPP, se abre un modal con sus datos precargados.
+- El usuario puede modificar el 'Código' y 'Descripción'.
+- Al introducir datos válidos y hacer clic en 'Guardar', el OPP se actualiza.
+- El código modificado debe ser único y los campos obligatorios deben estar llenos.
+- Se muestra un mensaje de éxito o error, y la tabla de OPPs se refresca.
+
+**Story Points:** 3
+**Prioridad:** Alta (1)
+
+---
+
+### HU: Eliminar Objetivo de Programa (OPP)
+**Como:** Coordinador de Carrera
+**Quiero:** remover un Objetivo de Programa del sistema
+**Para:** eliminar objetivos obsoletos o incorrectos de mi carrera.
+
+Criterios de aceptación:
+
+- Al hacer clic en el ícono de eliminación de un OPP, se muestra una ventana de confirmación.
+- Si el usuario confirma, el OPP es eliminado de la base de datos y de la tabla visible.
+- Si el usuario cancela, el OPP no es eliminado.
+- Se muestra un mensaje de éxito o error.
+
+**Story Points:** 3
+**Prioridad:** Alta (1)
+
+---
+
+### HU: Visualizar Resultados de Aprendizaje Generales (RG)
+**Como:** Coordinador de Carrera
+**Quiero:** ver una lista de Resultados de Aprendizaje Generales con su código, descripción y acciones
+**Para:** revisar los resultados de aprendizaje esperados de mi carrera.
+
+Criterios de aceptación:
+
+- La pestaña 'Resultados Generales (RG)' es visible y al seleccionarla muestra una tabla con columnas 'Código', 'Descripción' y 'Acciones'.
+- La columna 'Acciones' incluye íconos para editar y eliminar cada RG.
+- La tabla carga y muestra los RGs disponibles correctamente.
+
+**Story Points:** 3
+**Prioridad:** Alta (1)
+
+---
+
+### HU: Visualizar Resultados de Aprendizaje Específicos (RE)
+**Como:** Coordinador de Carrera
+**Quiero:** ver una lista de Resultados de Aprendizaje Específicos con su código, descripción y acciones
+**Para:** revisar los resultados de aprendizaje detallados de mi carrera.
+
+Criterios de aceptación:
+
+- La pestaña 'Resultados Específicos (RE)' es visible y al seleccionarla muestra una tabla con columnas 'Código', 'Descripción' y 'Acciones'.
+- La columna 'Acciones' incluye íconos para editar y eliminar cada RE.
+- La tabla carga y muestra los REs disponibles correctamente.
+
+**Story Points:** 3
+**Prioridad:** Alta (1)
+
+---
+
+### HU: Buscar Resultados de Aprendizaje (RA)
+**Como:** Coordinador de Carrera
+**Quiero:** filtrar los Resultados de Aprendizaje (Generales o Específicos) por texto
+**Para:** encontrar resultados de aprendizaje específicos rápidamente en la pestaña activa.
+
+Criterios de aceptación:
+
+- Existe un campo de búsqueda visible en la página 'Gestión de Resultados de Aprendizaje (RA)'.
+- Al introducir texto, la tabla de la pestaña activa (RG o RE) actualiza los resultados mostrando solo los RAs que coinciden con el texto en 'Código' o 'Descripción'.
+
+**Story Points:** 1
+**Prioridad:** Media (2)
+
+---
+
+### HU: Paginar Resultados de Aprendizaje (RA)
+**Como:** Coordinador de Carrera
+**Quiero:** navegar por las páginas del listado de Resultados de Aprendizaje
+**Para:** revisar todos los RAs de forma organizada sin sobrecargar la pantalla.
+
+Criterios de aceptación:
+
+- Los controles de paginación son visibles y funcionales debajo de ambas tablas de RAs.
+- Al hacer clic en los controles de paginación, la tabla activa muestra la página correspondiente de resultados.
+
+**Story Points:** 1
+**Prioridad:** Media (2)
+
+---
+
+### HU: Crear Resultado de Aprendizaje (RA)
+**Como:** Coordinador de Carrera
+**Quiero:** registrar un nuevo Resultado de Aprendizaje (General o Específico) con un código, tipo y descripción
+**Para:** definir los resultados que los estudiantes deben alcanzar.
+
+Criterios de aceptación:
+
+- Al hacer clic en '+ Nuevo RA', se abre el modal 'Agregar Resultado de Aprendizaje'.
+- El modal contiene campos 'Código', 'Tipo' (selector General/Específico) y 'Descripción' vacíos.
+- Al introducir datos válidos y hacer clic en 'Guardar', el RA se crea.
+- El código del RA debe ser único para su tipo, y los campos obligatorios deben estar llenos.
+- Se muestra un mensaje de éxito o error, y la tabla de RAs se actualiza.
+
+**Story Points:** 4
+**Prioridad:** Alta (1)
+
+---
+
+### HU: Modificar Resultado de Aprendizaje (RA)
+**Como:** Coordinador de Carrera
+**Quiero:** actualizar la información de un Resultado de Aprendizaje existente
+**Para:** corregir o mejorar sus detalles y mantener la información precisa.
+
+Criterios de aceptación:
+
+- Al hacer clic en el ícono de edición de un RA, se abre el modal 'Modificar Resultado de Aprendizaje' con sus datos precargados.
+- El usuario puede modificar 'Código', 'Tipo' y 'Descripción'.
+- Al introducir datos válidos y hacer clic en 'Guardar', el RA se actualiza.
+- El código modificado debe ser único para su tipo, y los campos obligatorios deben estar llenos.
+- Se muestra un mensaje de éxito o error, y la tabla de RAs se refresca.
+
+**Story Points:** 4
+**Prioridad:** Alta (1)
+
+---
+
+### HU: Eliminar Resultado de Aprendizaje (RA)
+**Como:** Coordinador de Carrera
+**Quiero:** remover un Resultado de Aprendizaje del sistema
+**Para:** eliminar resultados obsoletos o incorrectos de mi carrera.
+
+Criterios de aceptación:
+
+- Al hacer clic en el ícono de eliminación de un RA, se muestra una ventana de confirmación.
+- Si el usuario confirma, el RA es eliminado de la base de datos y de la tabla visible.
+- Si el usuario cancela, el RA no es eliminado.
+- Se muestra un mensaje de éxito o error.
+
+**Story Points:** 3
+**Prioridad:** Alta (1)
+
+---
+
+### HU: Visualizar Matriz de Mapeo OPP vs RA
+**Como:** Coordinador de Carrera
+**Quiero:** ver una matriz que relaciona Objetivos de Programa con Resultados de Aprendizaje
+**Para:** comprender visualmente la alineación curricular de mi carrera.
+
+Criterios de aceptación:
+
+- La pestaña 'OPP vs RA' muestra una tabla matriz con los OPPs como filas y los RAs como columnas.
+- Las celdas muestran un indicador visual (ej. checkmark) si existe una relación entre un OPP y un RA.
+- La matriz incluye una leyenda clara para 'Objetivos de Carrera' y 'Resultados de Aprendizaje Carrera'.
+
+**Story Points:** 5
+**Prioridad:** Alta (1)
+
+---
+
+### HU: Consultar Descripción de Elementos en Matriz OPP vs RA
+**Como:** Coordinador de Carrera
+**Quiero:** ver la descripción detallada de un Objetivo de Programa en la matriz
+**Para:** entender el contexto de cada elemento sin salir de la matriz.
+
+Criterios de aceptación:
+
+- Cada OPP en la matriz tiene un ícono de información (i) visible.
+- Al interactuar con el ícono, se muestra la descripción detallada del OPP correspondiente (ej., en un tooltip o modal pequeño).
+
+**Story Points:** 1
+**Prioridad:** Media (2)
+
+---
+
+### HU: Crear Relación de Mapeo OPP vs RA (Asistente)
+**Como:** Coordinador de Carrera
+**Quiero:** establecer nuevas relaciones entre Objetivos de Programa y Resultados de Aprendizaje con una justificación, usando un asistente paso a paso
+**Para:** documentar la alineación curricular de forma guiada y eficiente.
+
+Criterios de aceptación:
+
+- El botón '+ Nueva Relación' abre el asistente de 3 pasos para la creación de mapeos.
+- El 'Paso 1: Seleccionar Objetivos de carrera (OPP)' permite seleccionar uno o varios OPPs con búsqueda y paginación.
+- El 'Paso 2: Seleccionar Resultados de Aprendizaje (RA)' permite seleccionar uno o varios RAs con búsqueda, paginación y filtro por tipo.
+- El 'Paso 3: Justificar Relación' muestra un resumen de la selección y un campo de texto para la justificación.
+- Al hacer clic en 'Guardar' en el Paso 3, las relaciones se registran con su justificación.
+- El asistente se cierra, la matriz se actualiza y se muestra un mensaje de éxito o error.
+
+**Story Points:** 8
+**Prioridad:** Alta (1)
+
+---
+
+### HU: Cancelar Creación de Relación de Mapeo OPP vs RA (Asistente)
+**Como:** Coordinador de Carrera
+**Quiero:** abortar el proceso de creación de una relación de mapeo en cualquier momento del asistente
+**Para:** descartar los cambios y volver a la matriz sin guardar.
+
+Criterios de aceptación:
+
+- El botón 'Cancelar' es visible en todos los pasos del asistente.
+- Al hacer clic en 'Cancelar', el asistente se cierra sin guardar cambios y el usuario vuelve a la matriz.
+
+**Story Points:** 1
+**Prioridad:** Media (2)
+
+---
+
+### HU: Visualizar Matriz de Mapeo RA vs EUR-ACE
+**Como:** Coordinador de Carrera
+**Quiero:** ver una matriz que relaciona Resultados de Aprendizaje con Criterios EUR-ACE
+**Para:** evaluar la alineación de mi carrera con los estándares internacionales.
+
+Criterios de aceptación:
+
+- La pestaña 'RA vs EUR-ACE' es visible y al seleccionarla muestra una tabla matriz con los RAs y Criterios EUR-ACE.
+- Las celdas muestran un indicador visual si existe una relación entre un RA y un Criterio EUR-ACE.
+- La matriz incluye una leyenda clara para sus elementos.
+
+**Story Points:** 5
+**Prioridad:** Alta (1)
+
+---
+
+### HU: Consultar Descripción de Elementos en Matriz RA vs EUR-ACE
+**Como:** Coordinador de Carrera
+**Quiero:** ver la descripción detallada de un Resultado de Aprendizaje en la matriz
+**Para:** entender el contexto de cada elemento sin salir de la matriz.
+
+Criterios de aceptación:
+
+- Cada RA en la matriz tiene un ícono de información (i) visible.
+- Al interactuar con el ícono, se muestra la descripción detallada del RA correspondiente (ej., en un tooltip o modal pequeño).
+
+**Story Points:** 1
+**Prioridad:** Media (2)
+
+---
+
+### HU: Registrar Justificación de Mapeo Directo
+**Como:** Coordinador de Carrera
+**Quiero:** añadir o modificar una justificación para un mapeo individual
+**Para:** documentar el razonamiento de una relación específica de forma directa.
+
+Criterios de aceptación:
+
+- El modal 'Crear Mapeo' con el campo 'Justificación' es visible.
+- El usuario puede introducir o editar texto en el campo de justificación.
+- Al hacer clic en 'Guardar', la justificación se asocia al mapeo y el modal se cierra.
+- Se muestra un mensaje de éxito o error al usuario.
+
+**Story Points:** 3
+**Prioridad:** Media (2)
+
+<!-- --- -->
