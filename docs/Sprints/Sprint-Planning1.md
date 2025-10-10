@@ -28,6 +28,7 @@
 21. [PROMPT 21](#prompt-21)
 22. [PROMPT 22](#prompt-22)
 23. [PROMPT 23](#prompt-23)
+24. [PROMPT 24](#prompt-24)
 
 ---
 
@@ -10402,5 +10403,213 @@ Criterios de aceptación:
 
 **Story Points:** 2
 **Prioridad:** Media (2)
+
+<!-- --- -->
+
+## PROMPT 24
+
+**Fecha:** 10 oct 2025, 03:17 a m. (UTC)
+
+**Prompt:**
+
+Devuelve SOLO un array JSON válido (sin texto extra ni code fences).
+🎯 Objetivo
+Analizar los prototipos (imágenes) con la finalidad de identificar las Historias de Usuario (HUs) representadas.
+📌 Contexto
+Cada HU debe cumplir con los criterios INVEST:
+Independent: Puede completarse de forma autónoma.
+Negotiable: Contiene detalles discutibles con stakeholders.
+Valuable: Aporta valor al usuario y al producto.
+Estimable: Se puede desglosar y estimar en esfuerzo.
+Small: Lo suficientemente pequeña para estimarse con precisión.
+Testable: Tiene criterios de aceptación claros y verificables.
+📌 PBI del Sprint
+Gestión de organización académica (Facultades, Carreras, Materias, Profesores).
+📊 Velocidad Histórica del Equipo
+Velocidad baja: 54 sp
+Velocidad alta: 75 sp
+📌 Ejemplos de HU (histórico del equipo)
+HU: Agregar miembro de la CEI
+Como administrador quiero registrar a los miembros de la CEI → 3 sp
+HU: Listar miembros de la CEI
+Como administrador quiero listar los miembros de la CEI → 3 sp
+HU: Paginar autoridades
+Como administrador quiero listar las autoridades por grupos → 1 sp
+HU: Filtrar autoridades
+Como administrador quiero filtrar las autoridades por una palabra → 1 sp
+HU: Paginar miembros de la CEI
+Como administrador quiero listar los miembros de la CEI por grupos → 1 sp
+HU: Filtrar miembros de la CEI
+Como administrador quiero filtrar los miembros de la CEI por una palabra → 1 sp
+
+ejemplo de tareas con la estimación :
+Crear endpoint GET /dashboard/counts	0.5
+6975	Implementar lógica para obtener total de Facultades	0.3
+6976	Implementar lógica para obtener total de Carreras	0.3
+6978	Implementar lógica para obtener total de Usuarios Activos	0.3
+7147	Asegurar que el endpoint solo devuelva datos del usuario autenticado	0.3
+7161	Crear endpoint GET /me/profile para datos del usuario logueado	0.5
+7153	Crear endpoint GET /me/roles-permissions para roles y permisos	0.5
+7159	Implementar lógica para obtener roles y permisos del usuario autenticado	0.5
+
+Implementar campo de búsqueda en interfaz de Carreras	0.2
+7102	Implementar lógica de filtrado en cliente o API para carreras	0.5
+7104	Actualizar tabla de carreras con resultados de búsqueda	0.3
+7073	Actualizar tabla de facultades con resultados de filtro	0.2
+7063	Implementar validación de campos del formulario de facultad	0.5
+7064	Integrar selector de Decano con API de búsqueda de usuarios filtrando por rol de profesor	0.4
+
+Accion :
+sprint planning 
+Crea mi  hus basándote únicamente en los prototipos (imagenes) que te proporciono no inventes nada 
+📌 Formato de salida requerido por HU
+{
+  "title": "HU: ...",
+  "como": "...",
+  "quiero": "...",
+  "para": "...",
+  "acceptanceCriteria": [
+    "Criterio 1",
+    "Criterio 2"
+  ],
+  "storyPoints": number,
+  "priority": number (1 = alta, 2 = media, 3 = baja),
+  "frontendTasks": [
+    { "title": "...", "originalEstimate": number, "remainingWork": number, "completedWork": number }
+  ],
+  "backendTasks": [
+    { "title": "...", "originalEstimate": number, "remainingWork": number, "completedWork": number }
+  ]
+}
+
+**Respuesta:**
+
+### HU: Iniciar Sesión con Rol
+**Como:** Usuario de PoliAcredita
+**Quiero:** iniciar sesión con mi correo institucional, contraseña y seleccionar mi rol
+**Para:** acceder a las funcionalidades específicas que me corresponden en la aplicación.
+
+Criterios de aceptación:
+
+- El usuario puede ingresar su correo institucional y contraseña.
+- El usuario puede seleccionar su rol (Administrador, Coordinador de Carrera, Comité Evaluación Interna (CEI), Autoridad Académica, Profesor) de un selector.
+- Al hacer clic en 'Iniciar Sesión', el sistema valida las credenciales y el rol seleccionado.
+- Si las credenciales y el rol son válidos, el usuario es redirigido a la página de inicio o a su dashboard correspondiente.
+- Si las credenciales o el rol son inválidos, se muestra un mensaje de error claro al usuario.
+- Existe un enlace '¿Olvidaste tu contraseña?' visible y funcional.
+
+**Story Points:** 5
+**Prioridad:** Alta (1)
+
+---
+
+### HU: Visualizar y Buscar Criterios EUR-ACE
+**Como:** Coordinador de Carrera
+**Quiero:** ver un listado de los Criterios EUR-ACE y poder buscar por código o descripción
+**Para:** consultar los estándares de acreditación relevantes de forma rápida y sencilla.
+
+Criterios de aceptación:
+
+- La página 'Criterios EUR-ACE' muestra una tabla con columnas 'Código' y 'Descripción'.
+- Existe un campo de búsqueda que permite filtrar los criterios por su código o por texto en la descripción.
+- Los resultados de la búsqueda se actualizan dinámicamente o al presionar Enter.
+- La tabla muestra los resultados paginados, permitiendo navegar entre páginas (Previous, Next, números de página).
+
+**Story Points:** 3
+**Prioridad:** Alta (1)
+
+---
+
+### HU: Gestionar Objetivos de Programa (OPP)
+**Como:** Coordinador de Carrera
+**Quiero:** ver, buscar, paginar, crear, editar y eliminar los Objetivos de Programa (OPP)
+**Para:** mantener actualizada y organizada la lista de objetivos de mi carrera para el proceso de acreditación.
+
+Criterios de aceptación:
+
+- La página 'Gestión de Objetivos de Programa (OPP)' muestra una tabla con Código, Descripción y Acciones (íconos de editar y eliminar).
+- Existe un campo de búsqueda que permite filtrar los OPPs por su código o descripción.
+- La tabla muestra los resultados paginados y el usuario puede navegar entre páginas.
+- Hay un botón '+ Nuevo OPP' que abre un formulario modal para crear un OPP.
+- Al hacer clic en el ícono de 'Editar' en un OPP, se abre un formulario modal pre-llenado para modificarlo.
+- Al hacer clic en el ícono de 'Eliminar' en un OPP, se presenta una confirmación y, al aceptar, el OPP es eliminado.
+
+**Story Points:** 8
+**Prioridad:** Alta (1)
+
+---
+
+### HU: Gestionar Resultados de Aprendizaje (RA)
+**Como:** Coordinador de Carrera
+**Quiero:** ver, buscar, paginar, crear, editar y eliminar Resultados de Aprendizaje (RA), tanto Generales como Específicos
+**Para:** administrar eficazmente los resultados de aprendizaje definidos para la carrera y su alineación con EUR-ACE.
+
+Criterios de aceptación:
+
+- La página 'Gestión de Resultados de Aprendizaje (RA)' muestra dos pestañas: 'Resultados Generales (RG)' y 'Resultados Específicos (RE)'.
+- Al seleccionar una pestaña, se muestra la lista correspondiente de RAs en una tabla con Código, Descripción y Acciones.
+- Cada pestaña tiene un campo de búsqueda para filtrar por código o descripción y componentes de paginación.
+- Hay un botón '+ Nuevo RA' que abre un formulario modal para crear un RA, permitiendo seleccionar su 'Tipo' (General o Específico).
+- Al hacer clic en el ícono de 'Editar' en un RA, se abre un formulario modal pre-llenado para modificarlo, incluyendo su tipo.
+- Al hacer clic en el ícono de 'Eliminar' en un RA, se presenta una confirmación y, al aceptar, el RA es eliminado.
+
+**Story Points:** 10
+**Prioridad:** Alta (1)
+
+---
+
+### HU: Visualizar Matriz de Mapeo OPP vs RA
+**Como:** Coordinador de Carrera
+**Quiero:** ver la matriz de relaciones entre Objetivos de Programa (OPP) y Resultados de Aprendizaje (RA)
+**Para:** comprender visualmente la cobertura de los OPPs por los RAs y evaluar la coherencia curricular.
+
+Criterios de aceptación:
+
+- La página 'Editor Mapeos' muestra una pestaña 'OPP vs RA' que contiene una tabla matriz.
+- La matriz tiene los OPPs como filas y los RAs (Generales y Específicos) como columnas.
+- Las celdas muestran un indicador (ej. checkmark) si existe una relación entre el OPP y el RA correspondiente.
+- La matriz incluye una leyenda clara para 'Objetivos de Carrera' y 'Resultados de Aprendizaje Carrera'.
+- Cada OPP en la matriz tiene un ícono de información (i) que al ser pulsado, muestra la descripción completa del OPP.
+- Hay un botón '+ Nueva Relación' para iniciar el proceso de creación de mapeos.
+
+**Story Points:** 5
+**Prioridad:** Alta (1)
+
+---
+
+### HU: Crear Nueva Relación en Matriz OPP vs RA (Asistente Multipasos)
+**Como:** Coordinador de Carrera
+**Quiero:** establecer nuevas relaciones entre Objetivos de Programa (OPP) y Resultados de Aprendizaje (RA) a través de un asistente de 3 pasos con justificación
+**Para:** documentar explícitamente cómo los resultados de aprendizaje contribuyen a los objetivos del programa.
+
+Criterios de aceptación:
+
+- Al hacer clic en '+ Nueva Relación', se abre un asistente de 3 pasos ('Seleccionar Objetivos de carrera (OPP)', 'Seleccionar Resultados de Aprendizaje (RA)', 'Justificar Relación').
+- Paso 1: Permite seleccionar uno o varios OPPs de una lista con búsqueda y paginación.
+- Paso 2: Permite seleccionar uno o varios RAs (generales o específicos) de una lista con búsqueda, paginación y filtro por 'Tipo de Aprendizaje'.
+- Paso 3: Muestra un resumen de los OPPs y RAs seleccionados y un campo de texto para ingresar una 'Justificación' detallada.
+- Al hacer clic en 'Guardar' en el Paso 3, la nueva relación (o relaciones) con su justificación es registrada y la matriz se actualiza.
+- El botón 'Cancelar' está disponible en todos los pasos y cierra el asistente sin guardar cambios.
+
+**Story Points:** 8
+**Prioridad:** Alta (1)
+
+---
+
+### HU: Visualizar Matriz de Mapeo RA vs EUR-ACE
+**Como:** Coordinador de Carrera
+**Quiero:** ver la matriz de relaciones entre Resultados de Aprendizaje (RA) y Criterios EUR-ACE
+**Para:** evaluar cómo los resultados de aprendizaje de la carrera contribuyen al cumplimiento de los criterios EUR-ACE.
+
+Criterios de aceptación:
+
+- Al seleccionar la pestaña 'RA vs EUR-ACE' en la página 'Editor Mapeos', se muestra una tabla matriz.
+- La matriz tiene los RAs (Generales y Específicos) como filas y los Criterios EUR-ACE como columnas.
+- Las celdas muestran un indicador si existe una relación entre el RA y el Criterio EUR-ACE correspondiente.
+- La matriz incluye una leyenda clara para sus elementos.
+- Cada RA en la matriz tiene un ícono de información (i) que al ser pulsado, muestra la descripción completa del RA.
+
+**Story Points:** 5
+**Prioridad:** Alta (1)
 
 <!-- --- -->
