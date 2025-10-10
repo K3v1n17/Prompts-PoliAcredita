@@ -20,6 +20,7 @@ Este sitio contiene los prompts organizados para el proyecto PoliAcredita.
 
 -- Planificacion de los sprints 
 - [Sprint Planning ](Sprints/Sprint-Planning1.md)
+- [Sprint Planning 2 ](Sprints/Sprint-Planning2.md)
 
 
 ---- DOR Y DOD
