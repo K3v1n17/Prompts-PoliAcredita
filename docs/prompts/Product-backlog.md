@@ -25,6 +25,7 @@
 16. [PROMPT 16](#prompt-16)
 17. [PROMPT 17](#prompt-17)
 18. [PROMPT 18](#prompt-18)
+19. [PROMPT 19](#prompt-19)
 
 ---
 
@@ -2705,5 +2706,100 @@ Aquí tienes las historias de usuario épicas que definen las principales funcio
 ---
 
 Este backlog ampliado proporciona una visión clara de las funcionalidades esenciales de PoliAcredita, considerando tanto los requisitos de acreditación EUR-ACE como la verificación de la pertinencia del perfil profesional. Seguiremos desglosando estas épicas en historias de usuario más pequeñas y detalladas a medida que avancemos en la planificación de los Sprints.
+
+<!-- --- -->
+
+## PROMPT 19
+
+**Fecha:** 14 oct 2025, 04:26 p m.
+
+**Prompt:**
+
+la primera hu contiene demasiadas acciones , recuerda que debe ser una solo accion , 
+
+Accion :
+
+Crea de nuevo mi product backlog de alto nivel
+
+**Respuesta:**
+
+¡Tienes toda la razón! Mil disculpas por esa omisión. El principio de "una sola acción" es fundamental en las Historias de Usuario, incluso en el nivel épico, para mantener la claridad y el enfoque.
+
+He reestructurado el Product Backlog de alto nivel para asegurar que cada Historia de Usuario Épica se adhiera estrictamente al formato solicitado, especialmente en la sección de "quiero [acción o necesidad]" y "para [beneficio o propósito]".
+
+---
+
+### Product Backlog de Alto Nivel para PoliAcredita (Revisado V2.1)
+
+Aquí tienes las historias de usuario épicas que definen las principales funcionalidades de alto nivel de nuestro producto, corrigiendo la concatenación de acciones y objetos:
+
+1.  **HU: Configurar Carreras**
+    Como autoridad académica,
+    quiero registrar las carreras disponibles,
+    para establecer la estructura académica principal.
+
+2.  **HU: Configurar Asignaturas**
+    Como coordinador de carrera,
+    quiero registrar las asignaturas que componen una carrera,
+    para detallar el contenido curricular.
+
+3.  **HU: Definir Resultados de Aprendizaje de Asignatura (RAA)**
+    Como coordinador de carrera,
+    quiero definir los resultados de aprendizaje esperados por asignatura,
+    para especificar los logros del estudiante.
+
+4.  **HU: Definir Resultados de Aprendizaje de Carrera (RA)**
+    Como coordinador de carrera o autoridad académica,
+    quiero definir los resultados de aprendizaje de la carrera,
+    para establecer los logros generales del egresado.
+
+5.  **HU: Definir Objetivos de Perfil Profesional (OPP)**
+    Como autoridad académica o coordinador de carrera,
+    quiero definir los objetivos de perfil profesional,
+    para articular las capacidades del graduado.
+
+6.  **HU: Gestionar Estándares EUR-ACE**
+    Como responsable de calidad o administrador del sistema,
+    quiero mantener el catálogo de los criterios del sello EUR-ACE,
+    para garantizar la alineación con estándares internacionales.
+
+7.  **HU: Vincular RAA con RA**
+    Como coordinador de carrera,
+    quiero vincular los resultados de aprendizaje de las asignaturas con los de la carrera,
+    para comprender la contribución de cada asignatura a la formación de la carrera.
+
+8.  **HU: Vincular RA con OPP**
+    Como coordinador de carrera o responsable de calidad,
+    quiero vincular los resultados de aprendizaje de la carrera con los objetivos de perfil profesional,
+    para verificar que la formación contribuya al perfil del egresado.
+
+9.  **HU: Vincular RA con EUR-ACE**
+    Como coordinador de carrera o responsable de calidad,
+    quiero vincular los resultados de aprendizaje de la carrera con los criterios EUR-ACE,
+    para evidenciar el cumplimiento de los estándares de calidad internacionales.
+
+10. **HU: Monitorizar el Estado de Acreditación**
+    Como autoridad académica o comité de acreditación,
+    quiero monitorizar de forma interactiva el estado del cumplimiento de la acreditación,
+    para facilitar la toma de decisiones informadas.
+
+11. **HU: Generar Informes de Acreditación**
+    Como autoridad académica o miembro del comité de acreditación,
+    quiero generar informes detallados del estado de la acreditación,
+    para facilitar la evaluación integral del programa.
+
+12. **HU: Automatizar la Generación de Evidencia**
+    Como autoridad académica o responsable de calidad,
+    quiero automatizar la generación de la evidencia requerida,
+    para simplificar la recolección de documentación.
+
+13. **HU: Gestionar Usuarios y Permisos**
+    Como administrador del sistema o DGIP,
+    quiero gestionar los usuarios y sus permisos de acceso,
+    para asegurar la seguridad y control del sistema.
+
+---
+
+Este backlog es más granular en las funcionalidades de configuración y mantiene la consistencia en la definición de acciones y beneficios, lo que nos ayudará a desglosar las historias de usuario de manera más efectiva en los Sprints.
 
 <!-- --- -->
