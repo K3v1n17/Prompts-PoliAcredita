@@ -2733,20 +2733,15 @@ He reestructurado el Product Backlog de alto nivel para asegurar que cada Histor
 
 Aquí tienes las historias de usuario épicas que definen las principales funcionalidades de alto nivel de nuestro producto, corrigiendo la concatenación de acciones y objetos:
 
-1.  **HU: Configurar Carreras**
-    Como autoridad académica,
-    quiero registrar las carreras disponibles,
-    para establecer la estructura académica principal.
-
-2.  **HU: Configurar Asignaturas**
-    Como coordinador de carrera,
-    quiero registrar las asignaturas que componen una carrera,
-    para detallar el contenido curricular.
+1.  **HU: Gestión de la Estructura Académica Institucional**
+    Como Administrador del sistema 
+	Quiero gestionar la estructura jerarquica academica de la EPN 
+	Para representar fielmente la organización académica institucional
 
 3.  **HU: Definir Resultados de Aprendizaje de Asignatura (RAA)**
     Como coordinador de carrera,
     quiero definir los resultados de aprendizaje esperados por asignatura,
-    para especificar los logros del estudiante.
+    para evidenciar el aporte hacia los Resultados de aprendizaje de la carrera.
 
 4.  **HU: Definir Resultados de Aprendizaje de Carrera (RA)**
     Como coordinador de carrera o autoridad académica,
