@@ -1,4 +1,15 @@
 .
+---
+
+## Índice
+
+1. [PROMPT 1](#prompt-1)
+   - [PROMPT 1.1 (Continuación de PROMPT 1)](#prompt-11-continuacion-de-prompt-1)
+2. [PROMPT 2](#prompt-2)
+3. [PROMPT 3](#prompt-3)
+4. [PROMPT 4](#prompt-4)
+
+---
 # PROMPT
 ### ROL 
 Actúa como un Product Owner experto con un profundo conocimiento de metodologías ágiles y gestión de productos.
