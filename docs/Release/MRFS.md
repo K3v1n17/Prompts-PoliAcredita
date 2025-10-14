@@ -10,7 +10,7 @@
 4. [PROMPT 4](#prompt-4)
 
 ---
-# PROMPT
+# PROMPT 1
 ### ROL 
 Actúa como un Product Owner experto con un profundo conocimiento de metodologías ágiles y gestión de productos.
 
