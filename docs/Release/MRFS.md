@@ -8,6 +8,11 @@
 2. [PROMPT 2](#prompt-2)
 3. [PROMPT 3](#prompt-3)
 4. [PROMPT 4](#prompt-4)
+5. [PROMPT 5](#prompt-5)
+6. [PROMPT 6](#prompt-6)
+7. [PROMPT 7](#prompt-7)
+8. [PROMPT 8](#prompt-8)
+
 
 ---
 # PROMPT 1
@@ -126,7 +131,7 @@ HU17: Como usuario de la EPN, quiero contar con permisos diferenciados según ro
 
 ---
 
-# PROMPT
+## PROMPT 2
 
 pero dame las mrf las minimas para cumplir con mi vision
 
@@ -175,7 +180,8 @@ HU9: Como DGIP, quiero generar reportes de cumplimiento de criterios EUR-ACE, pa
 
 ---
 
-## Prompt
+## PROMPT 3
+
 ### Rol
 Actúa como experto de análisis de épicas para identificar los MRFs principales.
 
@@ -315,7 +321,7 @@ Como usuario de la EPN
 Quiero autenticarme con mi rol específico
 Para acceder únicamente a las funcionalidades permitidas.
 
-# PROMPT FINAL
+## PROMPT 4
 ### Rol
 Actúa como un Product Owner experto con un profundo conocimiento de metodologías ágiles y gestión de productos.
 
@@ -389,7 +395,7 @@ Para asegurar un uso controlado y seguro de la información de acreditación.
 
 ✅ Con estos 8 MRFs se cubre todo lo necesario para cumplir la visión del producto: desde estructurar la información académica hasta generar reportes verificables que demuestren el cumplimiento de los criterios EUR-ACE
 
-## PROMPT 1
+## PROMPT 5
 
 **Fecha:** 28 sept 2025, 03:09 a m. (UTC)
 
@@ -557,7 +563,7 @@ Este conjunto de MRFs representa el producto mínimo más valioso que podemos la
 
 <!-- --- -->
 
-## PROMPT 2
+## PROMPT 6
 
 **Fecha:** 28 sept 2025, 03:11 a m. (UTC)
 
@@ -731,7 +737,7 @@ Este conjunto de MRFs conforma un primer producto que, si bien es mínimo, es po
 
 <!-- --- -->
 
-## PROMPT 3
+## PROMPT 7
 
 **Fecha:** 28 sept 2025, 03:16 a m. (UTC)
 
@@ -893,7 +899,7 @@ Aquí tienes el conjunto de MRFs indispensables, formulados como Historias de Us
 
 <!-- --- -->
 
-## PROMPT 4
+## PROMPT 8
 
 **Fecha:** 28 sept 2025, 03:20 a m. (UTC)
 
