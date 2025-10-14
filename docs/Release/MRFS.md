@@ -12,6 +12,7 @@
 6. [PROMPT 6](#prompt-6)
 7. [PROMPT 7](#prompt-7)
 8. [PROMPT 8](#prompt-8)
+9. [PROMPT 9](#prompt-9)
 
 
 ---
@@ -1005,5 +1006,131 @@ Aquí tienes el nuevo conjunto de MRFs indispensables, cada uno enfocado en una 
 ---
 
 Ahora sí, cada MRF es una unidad de valor mínima, atómica y claramente definida. ¡Gracias por la corrección persistente! Esto asegura que el producto se construya de la manera más efectiva y con entregas de valor incrementales muy claras.
+
+<!-- --- -->
+
+## PROMPT 9
+
+**Fecha:** 14 oct 2025, 05:14 p m.
+
+**Prompt:**
+
+#Rol
+Actúa como un Product Management / Product Owner que es experto en acreditación internacional con el sello EUR-ACE.
+
+#Objetivo
+Definir el conjunto de mrfs para mi producto software a desarrollar para estableces las funcionalidades principales
+
+#Contexto
+
+- El sello EUR-ACE es una etiqueta de calidad europea que certifica que un programa de estudios de ingeniería cumple con estándares de excelencia y los requisitos profesionales del ámbito europeo. Otorga una garantía internacional de la formación de un ingeniero y facilita la movilidad académica y profesional al reconocer las competencias adquiridas.
+
+- Los objetivos del sistema de acreditación EUR-ACE son certificar la calidad de las carreras de ingeniería en Europa y el mundo, garantizando que cumplen estándares internacionales y asegurando que los titulados poseen conocimientos, habilidades técnicas y competencias profesionales para la empleabilidad. Además, busca facilitar la movilidad académica y profesional de estudiantes y docentes, fortalecer alianzas globales y mejorar la transparencia y el reconocimiento de las titulaciones en el ámbito internacional.
+
+- La Escuela Politécnica Nacional EPN es una universidad pública, de grado y posgrado, ubicada en Quito, Ecuador. Reconocida por la investigación y la educación en ciencias básicas, ingenierías y tecnología, ofrece programas doctorales, de maestría y de grado.
+
+- La Escuela Politécnica Nacional consta de 9 facultades que albergan 6 carreras de tecnología superior, 24 carreras de pregrado, 22 maestrías y 6 doctorados en postgrado. Dichas especialidades pertenecen al campo del conocimiento de las ciencias, ingeniería y formación tecnológica.
+
+- Las carreras de grado, carreras de tecnología superior y carreras de pregrado se conocen como "carreras". Para EUR-ACE son carreras de ingeniería. EUR-ACE certifica programas de estudios de ingeniería o "carreras de ingeniería" para el caso de Ecuador.
+
+- Cada carrera tiene una malla curricular donde están todas las asignaturas que los estudiantes deben cursar. Cada asignatura tiene su resultados de aprendizaje de la asignatura RAA. Cada carrera tiene resultados de aprendizaje de la carrera RA. la carrera tambien cuenta con objetivos de perfil profesionar OPP , El OPP es la promesa institucional que la EPN suscribe ante la sociedad, detallando las capacidades, conocimientos y actitudes específicos que el profesional poseerá al graduarse.
+
+- En una matriz RA-RAA se relacionan los RAA con los RA. En otra matriz EURACE-RA se relacionan los RA con los objetivos EUR-ACE. Con las matrices anteriores podemos definir como las asignaturas ayudan a cumplir los objetivos EUR-ACE.
+
+-En una matriz RA-OPP se relacion los RA con los OPP con esta matriz podemos definir o verificar que los conocimientos ayuden al profesional.
+
+
+-La universidad está dividida de la siguiente manera, existen Facultades por cada facultad pueden existir diferentes carreras cada Facultad tiene profesores, Autoridades (Decano , Subdecano , jefe de Departamento) , Para llegar a ser coordinador, Autoridad primero tiene que ser un profesor, Para las carreras cada carrera tiene un solo coordinador y existe una entidad superior que sería la DGIP que es la encargada de gestionar los aspectos académicos de las facultades , Para la autoridad administra la facultad, el coordinador gestiona la carrera
+
+
+- El nombre del producto software es PoliAcredita. PoliAcredita es una Aplicación Web.
+
+te doy mi porducto baclog de alto nivel para que a partir de este definas el conjunto de mrfs :
+
+HU: Gestión de la Estructura Académica Institucional Como Administrador del sistema Quiero gestionar la estructura jerarquica academica de la EPN Para representar fielmente la organización académica institucional
+
+HU: Definir Resultados de Aprendizaje de Asignatura (RAA) Como coordinador de carrera, quiero definir los resultados de aprendizaje esperados por asignatura, para evidenciar el aporte hacia los Resultados de aprendizaje de la carrera.
+
+HU: Definir Resultados de Aprendizaje de Carrera (RA) Como coordinador de carrera o autoridad académica, quiero definir los resultados de aprendizaje de la carrera, para establecer los logros generales del egresado.
+
+HU: Definir Objetivos de Perfil Profesional (OPP) Como autoridad académica o coordinador de carrera, quiero definir los objetivos de perfil profesional, para articular las capacidades del graduado.
+
+HU: Gestionar Estándares EUR-ACE Como responsable de calidad o administrador del sistema, quiero mantener el catálogo de los criterios del sello EUR-ACE, para garantizar la alineación con estándares internacionales.
+
+HU: Vincular RAA con RA Como coordinador de carrera, quiero vincular los resultados de aprendizaje de las asignaturas con los de la carrera, para comprender la contribución de cada asignatura a la formación de la carrera.
+
+HU: Vincular RA con OPP Como coordinador de carrera o responsable de calidad, quiero vincular los resultados de aprendizaje de la carrera con los objetivos de perfil profesional, para verificar que la formación contribuya al perfil del egresado.
+
+HU: Vincular RA con EUR-ACE Como coordinador de carrera o responsable de calidad, quiero vincular los resultados de aprendizaje de la carrera con los criterios EUR-ACE, para evidenciar el cumplimiento de los estándares de calidad internacionales.
+
+HU: Monitorizar el Estado de Acreditación Como autoridad académica o comité de acreditación, quiero monitorizar de forma interactiva el estado del cumplimiento de la acreditación, para facilitar la toma de decisiones informadas.
+
+HU: Generar Informes de Acreditación Como autoridad académica o miembro del comité de acreditación, quiero generar informes detallados del estado de la acreditación, para facilitar la evaluación integral del programa.
+
+HU: Automatizar la Generación de Evidencia Como autoridad académica o responsable de calidad, quiero automatizar la generación de la evidencia requerida, para simplificar la recolección de documentación.
+
+HU: Gestionar Usuarios y Permisos Como administrador del sistema o DGIP, quiero gestionar los usuarios y sus permisos de acceso, para asegurar la seguridad y control del sistema.
+
+
+
+
+#Accion 
+Crea el conjunto de mrfs indispensables para mi producto software a desarrollar
+
+
+
+#Formaton de salida 
+Una Historia de Usuario (HU) es una frase simple que define un requisito desde la perspectiva del usuario final y el valor que obtendrá de esa funcionalidad. El objetivo es cambiar el enfoque de “escribir sobre los requisitos” a “hablar sobre ellos”.
+
+La estructura estándar se conoce como el formato “Como [Perfil] Quiero [Intención] Para” y garantiza que la funcionalidad que desarrolle el equipo esté enfocada en el cliente y aporte valor.
+
+Componente Pregunta que Responde Objetivo y Enfoque COMO [Perfil] ¿Para quién desarrollamos esto? Enfoque en la Empatía (El Perfil): Define a la persona (user persona) que necesita la funcionalidad
+
+
+ El equipo debe comprender cómo trabaja, piensa y siente esa persona. QUIERO [Intención] ¿Qué es lo que está intentando lograr realmente? Enfoque en la Meta (La Intención): Describe la meta o el objetivo del usuario al utilizar el sistema. Esta es la intención del usuario. Debe ser independiente de la implementación; no se deben describir elementos de la interfaz de usuario (UI), sino el resultado que buscan.
+
+PARA ¿Cuál es el valor que esto aporta al usuario o al negocio? Enfoque en el Valor (El Porqué): Explica el beneficio general y la razón estratégica detrás del deseo inmediato del usuario. Es el valor de la funcionalidad en relación con los objetivos generales. La historia debe ofrecer valor, tanto al equipo como al usuario.
+
+**Respuesta:**
+
+¡Excelente iniciativa! Como Product Manager experto en acreditación EUR-ACE, entiendo la importancia de definir MMFs claros y de alto valor para PoliAcredita. La clave es entregar valor tangible y funcional en cada iteración.
+
+Aquí tienes el conjunto de Minimum Marketable Features (MMFs) definidos como Historias de Usuario, indispensables para el desarrollo inicial de PoliAcredita, agrupando y priorizando las funcionalidades clave que has proporcionado:
+
+---
+
+### MMF 1: Configuración de la Plataforma y Gestión de Acceso
+
+**Como** Administrador del sistema y DGIP,
+**Quiero** establecer y gestionar la estructura académica completa de la EPN (Facultades, Carreras, Departamentos, Profesores, Coordinadores, Autoridades) y administrar los usuarios con sus roles y permisos de acceso,
+**Para** asegurar un entorno de trabajo organizado, seguro y que represente fielmente la organización institucional, sirviendo como base para todas las demás operaciones del sistema.
+
+---
+
+### MMF 2: Gestión y Alineación del Diseño Curricular con Estándares
+
+**Como** Coordinador de Carrera, Autoridad Académica y Responsable de Calidad,
+**Quiero** poder definir los Resultados de Aprendizaje de Asignatura (RAA), los Resultados de Aprendizaje de Carrera (RA), los Objetivos de Perfil Profesional (OPP) y los Estándares EUR-ACE, y vincularlos entre sí (RAA con RA, RA con OPP, y RA con EUR-ACE),
+**Para** asegurar la coherencia curricular, evidenciar la contribución de cada componente educativo a la formación profesional y alinear el programa con los requisitos de excelencia y empleabilidad del sello EUR-ACE.
+
+---
+
+### MMF 3: Monitoreo y Reporting del Proceso de Acreditación
+
+**Como** Autoridad Académica y miembro del Comité de Acreditación,
+**Quiero** poder monitorizar de forma interactiva el estado del cumplimiento de la acreditación EUR-ACE para cada carrera y generar informes detallados y personalizables del progreso,
+**Para** facilitar la toma de decisiones informadas, identificar áreas de mejora oportunas y presentar el estado de la acreditación a nivel interno y externo con la transparencia requerida.
+
+---
+
+### MMF 4: Facilitación y Automatización de la Evidencia para Auditorías
+
+**Como** Coordinador de Carrera, Responsable de Calidad y Autoridad Académica,
+**Quiero** tener un sistema que me permita registrar, asociar y facilitar la automatización de la recopilación y organización de la evidencia requerida para cada criterio de acreditación,
+**Para** simplificar drásticamente la preparación de las auditorías, asegurar la disponibilidad y trazabilidad de la documentación de soporte, y reducir significativamente la carga administrativa y el riesgo de inconsistencias.
+
+---
+
+Estas cuatro MMFs constituyen el núcleo indispensable de PoliAcredita para su primera versión, permitiendo a la EPN dar pasos firmes hacia la gestión eficiente de la acreditación EUR-ACE. Cada una de ellas es un conjunto coherente de funcionalidades que, una vez implementadas, proveen un valor significativo y operable a los stakeholders clave.
 
 <!-- --- -->
