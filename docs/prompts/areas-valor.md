@@ -7,6 +7,7 @@
 
 1. [PROMPT 1](#prompt-1)
    - [PROMPT 1.1 (Continuación de PROMPT 1)](#prompt-11-continuacion-de-prompt-1)
+2. [PROMPT 2](#prompt-2)
 
 ---
 
@@ -149,3 +150,108 @@ necesito que definas los roles o los stakeholders a los cuales les aplica estas 
   - Differentiator: Encuentran reportes claros, trazables y confiables que simplifican la auditoría.
 
 ---
+
+## PROMPT 2
+
+**Fecha:** 14 oct 2025, 04:38 p m.
+
+**Prompt:**
+
+#Rol
+Actúa como un Product Management / Product Owner que es experto en acreditación internacional con el sello EUR-ACE.
+
+#Objetivo
+Definir las areas de valor de mi producto software que se va a desarrollar 
+
+#Contexto
+
+- El sello EUR-ACE es una etiqueta de calidad europea que certifica que un programa de estudios de ingeniería cumple con estándares de excelencia y los requisitos profesionales del ámbito europeo. Otorga una garantía internacional de la formación de un ingeniero y facilita la movilidad académica y profesional al reconocer las competencias adquiridas.
+
+- Los objetivos del sistema de acreditación EUR-ACE son certificar la calidad de las carreras de ingeniería en Europa y el mundo, garantizando que cumplen estándares internacionales y asegurando que los titulados poseen conocimientos, habilidades técnicas y competencias profesionales para la empleabilidad. Además, busca facilitar la movilidad académica y profesional de estudiantes y docentes, fortalecer alianzas globales y mejorar la transparencia y el reconocimiento de las titulaciones en el ámbito internacional.
+
+- La Escuela Politécnica Nacional EPN es una universidad pública, de grado y posgrado, ubicada en Quito, Ecuador. Reconocida por la investigación y la educación en ciencias básicas, ingenierías y tecnología, ofrece programas doctorales, de maestría y de grado.
+
+- La Escuela Politécnica Nacional consta de 9 facultades que albergan 6 carreras de tecnología superior, 24 carreras de pregrado, 22 maestrías y 6 doctorados en postgrado. Dichas especialidades pertenecen al campo del conocimiento de las ciencias, ingeniería y formación tecnológica.
+
+- Las carreras de grado, carreras de tecnología superior y carreras de pregrado se conocen como "carreras". Para EUR-ACE son carreras de ingeniería. EUR-ACE certifica programas de estudios de ingeniería o "carreras de ingeniería" para el caso de Ecuador.
+
+- Cada carrera tiene una malla curricular donde están todas las asignaturas que los estudiantes deben cursar. Cada asignatura tiene su resultados de aprendizaje de la asignatura RAA. Cada carrera tiene resultados de aprendizaje de la carrera RA. la carrera tambien cuenta con objetivos de perfil profesionar OPP , El OPP es la promesa institucional que la EPN suscribe ante la sociedad, detallando las capacidades, conocimientos y actitudes específicos que el profesional poseerá al graduarse.
+
+- En una matriz RA-RAA se relacionan los RAA con los RA. En otra matriz EURACE-RA se relacionan los RA con los objetivos EUR-ACE. Con las matrices anteriores podemos definir como las asignaturas ayudan a cumplir los objetivos EUR-ACE.
+
+-En una matriz RA-OPP se relacion los RA con los OPP con esta matriz podemos definir o verificar que los conocimientos ayuden al profesional.
+
+
+-La universidad está dividida de la siguiente manera, existen Facultades por cada facultad pueden existir diferentes carreras cada Facultad tiene profesores, Autoridades (Decano , Subdecano , jefe de Departamento) , Para llegar a ser coordinador, Autoridad primero tiene que ser un profesor, Para las carreras cada carrera tiene un solo coordinador y existe una entidad superior que sería la DGIP que es la encargada de gestionar los aspectos académicos de las facultades , Para la autoridad administra la facultad, el coordinador gestiona la carrera
+
+- EL product backlog de altor nivel tiene como propósito definir las principales funcionalidades que se desarrollararan o con las que contara el sistema.
+
+- Se debe utilizar el Scrum framework para gestionar la construcción del producto software. Scrum no se utiliza para acreditación. Scrum se utiliza para construir el producto software.
+- El nombre del producto software es PoliAcredita. PoliAcredita es una Aplicación Web.
+
+
+#Accion 
+- Crear mis areas de valor de mi producto software usando el formato de salida 
+
+
+
+#Formaton de salida 
+Usa el siguiente esquema como referencia y clasifica mi producto dentro de estas categorías, describiendo cómo aporta valor en cada una (si aplica):
+Entry conditions: Paridad con la competencia, funciones mínimas requeridas, cumplimiento regulatorio.
+Enablement: Apertura de nuevos mercados, habilitación de ventas de otros productos o servicios.
+Differentiator: Diferenciación frente a competidores, encantar al cliente.
+Spoiler: Eliminar diferenciadores de la competencia, subir el estándar de paridad, redefinir el mercado.
+Cost reducer: Reducir tiempo de salida al mercado, optimizar recursos humanos, mejorar márgenes, incrementar expertise.
+
+**Respuesta:**
+
+¡Excelente! Como Product Owner con experiencia en acreditación EUR-ACE, entiendo perfectamente la importancia de definir las áreas de valor de PoliAcredita. Un producto no solo debe funcionar, sino que debe generar un impacto tangible y medible.
+
+Basándome en el contexto que me has proporcionado y el Product Backlog de alto nivel, aquí te presento las áreas de valor de PoliAcredita, clasificadas según el esquema solicitado:
+
+---
+
+### Áreas de Valor de PoliAcredita
+
+**1. Entry Conditions:**
+PoliAcredita asegura que la EPN cumpla con las condiciones fundamentales y crecientes para participar en el ecosistema de calidad de la ingeniería a nivel internacional.
+
+*   **Descripción del Valor:**
+    *   **Cumplimiento Regulatorio y Estándares Mínimos:** PoliAcredita proporciona la infraestructura indispensable para la gestión y alineación de los programas de ingeniería de la EPN con los criterios del sello EUR-ACE, que son un requisito creciente para la competitividad y el reconocimiento internacional. Sin una herramienta que gestione eficientemente estas complejas interconexiones (RAA-RA, RA-OPP, RA-EUR-ACE), el proceso sería insostenible y propenso a errores, poniendo en riesgo la obtención y mantenimiento de la acreditación.
+    *   **Paridad de Procesos:** Ofrece a la EPN un proceso de acreditación moderno y estructurado, elevando el estándar interno a la par de instituciones líderes que utilizan sistemas avanzados para la gestión de la calidad académica.
+
+**2. Enablement:**
+PoliAcredita no solo ayuda a cumplir, sino que abre nuevas oportunidades y fortalece la posición estratégica de la EPN.
+
+*   **Descripción del Valor:**
+    *   **Apertura de Nuevos Mercados Académicos y Profesionales:** Al facilitar la obtención y mantenimiento del sello EUR-ACE, PoliAcredita habilita directamente la movilidad académica (estudiantes y docentes) y profesional de los egresados a nivel global. Esto atrae a más estudiantes internacionales, facilita convenios con universidades extranjeras y aumenta la empleabilidad global de los graduados, posicionando a la EPN como una institución de referencia internacional.
+    *   **Fortalecimiento de Alianzas Globales:** La certificación EUR-ACE, directamente soportada por PoliAcredita, mejora la credibilidad y el atractivo de la EPN para establecer alianzas estratégicas con otras instituciones y organizaciones de ingeniería a nivel mundial.
+
+**3. Differentiator:**
+PoliAcredita distinguirá a la EPN por su eficiencia, transparencia y enfoque innovador en la gestión de la calidad educativa.
+
+*   **Descripción del Valor:**
+    *   **Diferenciación Competitiva:** Mientras otras instituciones pueden depender de procesos manuales, complejos y aislados, PoliAcredita ofrece un sistema integrado, centralizado y automatizado. La capacidad de monitorizar el estado de acreditación en tiempo real, generar informes personalizados y automatizar la evidencia proporciona una ventaja sustancial en eficiencia, precisión y velocidad, lo que la diferencia de otras universidades que compiten por el mismo talento estudiantil y reconocimiento internacional.
+    *   **Experiencia del Usuario (Stakeholders):** Al simplificar radicalmente un proceso que suele ser engorroso y estresante, PoliAcredita "encanta" a los coordinadores de carrera, autoridades académicas y al comité de acreditación. Reduce la carga administrativa, minimiza la frustración y permite que el personal se enfoque en la mejora continua de la calidad académica, en lugar de la recolección manual de datos.
+
+**4. Spoiler:**
+PoliAcredita tiene el potencial de redefinir las expectativas sobre cómo se gestiona la acreditación en el ámbito de la ingeniería.
+
+*   **Descripción del Valor:**
+    *   **Elevar el Estándar de la Industria:** Al demostrar un manejo tan avanzado y eficiente del proceso EUR-ACE, la EPN, a través de PoliAcredita, puede establecer un nuevo referente para la gestión de la acreditación de ingeniería, tanto a nivel nacional como regional. Esto podría presionar a otras instituciones a mejorar sus propios procesos, impactando indirectamente en la calidad general de la educación en ingeniería.
+    *   **Desvalorizar Métodos Tradicionales:** La eficiencia y transparencia que ofrece PoliAcredita hacen que los métodos manuales y fragmentados de gestión de la acreditación de la competencia parezcan obsoletos e ineficaces, creando una brecha significativa en la capacidad de respuesta y agilidad.
+
+**5. Cost Reducer:**
+PoliAcredita optimiza recursos clave y reduce los costos operativos y el riesgo asociado a la acreditación.
+
+*   **Descripción del Valor:**
+    *   **Optimización de Recursos Humanos:** Al automatizar la vinculación de elementos curriculares, la generación de evidencia y la creación de informes, PoliAcredita libera una cantidad considerable de tiempo del personal académico y administrativo (coordinadores, profesores, autoridades). Este tiempo se puede redirigir a actividades de enseñanza, investigación o mejora académica, en lugar de tareas administrativas repetitivas.
+    *   **Reducción de Tiempos y Esfuerzos:** Disminuye drásticamente el tiempo y el esfuerzo requerido para preparar auditorías de acreditación, responder a solicitudes de información y subsanar observaciones, lo que se traduce en ahorro de horas-hombre y recursos materiales.
+    *   **Minimización de Errores y Retrabajos:** La centralización y estandarización de la información, junto con la visualización clara de las matrices de relación, reduce la probabilidad de errores y la necesidad de costosos retrabajos en el proceso de acreditación.
+    *   **Incremento de Expertise Institucional:** El sistema actúa como un repositorio de conocimiento y una guía metodológica, lo que reduce la dependencia de individuos específicos y asegura que el know-how de la acreditación se mantenga y crezca a nivel institucional.
+
+---
+
+Este desglose de las áreas de valor nos proporciona una comprensión clara de por qué PoliAcredita es un producto estratégico y crucial para la EPN, y nos ayudará a priorizar las funcionalidades en nuestro Product Backlog de manera efectiva.
+
+<!-- --- -->
