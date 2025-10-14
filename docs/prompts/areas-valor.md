@@ -399,7 +399,7 @@ Aquí tienes las áreas de valor de PoliAcredita reestructuradas bajo el enfoque
         -   Genera un ahorro significativo en costos operativos al optimizar procesos y recursos humanos.
         -   Permite una asignación más eficiente del presupuesto al reducir la necesidad de retrabajos y la dependencia de procesos manuales.
 
-**2. Autoridades de la EPN (Rectorado, Vicerrectorado Académico, Decanos, Subdecanos, Jefes de Departamento)**
+- **2. Autoridades de la EPN (Rectorado, Vicerrectorado Académico, Decanos, Subdecanos, Jefes de Departamento)**
     -   **Entry Conditions:**
         -   Asegura que sus facultades y departamentos cumplan con los estándares institucionales y externos (ej. EUR-ACE).
         -   Proporciona la infraestructura indispensable para la gestión y alineación con los criterios de acreditación internacional.
@@ -415,7 +415,7 @@ Aquí tienes las áreas de valor de PoliAcredita reestructuradas bajo el enfoque
         -   Mejora la eficiencia de la gestión de sus facultades/departamentos y reduce los riesgos asociados a auditorías de acreditación.
         -   Permite redirigir recursos (humanos y financieros) de tareas administrativas a actividades de mejora académica e investigación.
 
-**3. DGIP (Dirección General de Investigación y Postgrado)**
+- **3. DGIP (Dirección General de Investigación y Postgrado)**
     -   **Entry Conditions:**
         -   Garantiza la supervisión y gestión centralizada de los requisitos académicos y de calidad de los programas de ingeniería.
         -   Asegura el cumplimiento de los estándares mínimos para la participación y reconocimiento internacional.
@@ -429,7 +429,7 @@ Aquí tienes las áreas de valor de PoliAcredita reestructuradas bajo el enfoque
         -   Optimiza los recursos dedicados a la gestión académica a nivel institucional, reduciendo la carga administrativa.
         -   Minimiza errores y retrabajos en la preparación de la información para procesos de acreditación.
 
-**4. Coordinadores de Carrera**
+- **4. Coordinadores de Carrera**
     -   **Entry Conditions:**
         -   Disponen de una herramienta que les permite cumplir con sus responsabilidades de gestión de la calidad del programa de manera eficiente.
         -   Les facilita la alineación de sus programas con los criterios del sello EUR-ACE.
@@ -444,7 +444,7 @@ Aquí tienes las áreas de valor de PoliAcredita reestructuradas bajo el enfoque
         -   Reduce drásticamente la carga administrativa y el estrés asociado a la preparación y mantenimiento de la acreditación.
         -   Disminuye el tiempo y esfuerzo requerido para preparar auditorías, generar informes y recopilar evidencia.
 
-**5. Profesores**
+- **5. Profesores**
     -   **Entry Conditions:**
         -   Asegura que sus cursos y metodologías contribuyan efectivamente a los resultados de aprendizaje requeridos por los estándares de acreditación.
     -   **Enablement:**
@@ -456,7 +456,7 @@ Aquí tienes las áreas de valor de PoliAcredita reestructuradas bajo el enfoque
     -   **Cost Reducer:**
         -   Menos tiempo dedicado a tareas administrativas repetitivas de recolección de datos y más tiempo para la docencia, investigación y desarrollo profesional.
 
-**6. Estudiantes (Potenciales y Actuales)**
+- **6. Estudiantes (Potenciales y Actuales)**
     -   **Entry Conditions:**
         -   Tienen la garantía de que su programa cumple con estándares internacionales de calidad y relevancia en ingeniería.
         -   Están seguros de que el programa cumple con las condiciones básicas para ser reconocido globalmente.
@@ -471,7 +471,7 @@ Aquí tienes las áreas de valor de PoliAcredita reestructuradas bajo el enfoque
         -   Menos interrupciones en su educación debido a procesos de acreditación engorrosos.
         -   Se minimiza el riesgo de que la calidad de su programa se vea comprometida por procesos de gestión ineficientes.
 
-**7. Egresados**
+- **7. Egresados**
     -   **Enablement:**
         -   Aumenta sus oportunidades de empleabilidad y desarrollo profesional a nivel internacional, gracias al reconocimiento global de su título.
         -   Facilita la convalidación de su título en otros países.
@@ -482,7 +482,7 @@ Aquí tienes las áreas de valor de PoliAcredita reestructuradas bajo el enfoque
     -   **Cost Reducer:**
         -   Reduce los obstáculos y costos asociados a la validación de sus títulos en el extranjero.
 
-**8. Comités de Acreditación Internos**
+- **8. Comités de Acreditación Internos**
     -   **Entry Conditions:**
         -   Disponen de información organizada y centralizada para la evaluación del cumplimiento de los criterios de acreditación.
     -   **Differentiator:**
@@ -493,7 +493,7 @@ Aquí tienes las áreas de valor de PoliAcredita reestructuradas bajo el enfoque
         -   Acelera sus procesos de revisión y evaluación al tener la evidencia organizada y automatizada, reduciendo el tiempo de sus miembros.
         -   Minimiza los errores y la necesidad de solicitar información adicional, aumentando su eficiencia.
 
-**9. Organismos de Acreditación (ej. EUR-ACE)**
+- **9. Organismos de Acreditación (ej. EUR-ACE)**
     -   **Entry Conditions:**
         -   Facilita la evaluación de la EPN al presentar la información de manera estructurada y conforme a sus requisitos.
     -   **Spoiler:**
