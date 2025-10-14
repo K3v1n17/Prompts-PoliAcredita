@@ -14,6 +14,7 @@
 8. [PROMPT 8](#prompt-8) ---- mejor revisado
 9. [PROMPT 9](#prompt-9)
 10. [PROMPT 10](#prompt-10)
+11. [PROMPT 11](#prompt-11)
 
 
 ---
@@ -1327,5 +1328,338 @@ A continuación, el conjunto de Minimum Marketable Features (MMFs) para PoliAcre
 ---
 
 Este conjunto de MMFs, al reflejar directamente tus HUs, asegura que cada pieza entregada al mercado tiene un valor concreto y es "marketable" por sí misma, adhiriéndose estrictamente a tu requisito de no usar "y" para combinar funcionalidades o valores dentro de la descripción de cada MMF.
+
+<!-- --- -->
+
+## PROMPT 11
+
+**Fecha:** 14 oct 2025, 05:29 p m.
+
+**Prompt:**
+
+# 1. Producto
+
+#Rol
+Actúa como un Product Management / Product Owner que es experto en acreditación internacional con el sello EUR-ACE.
+
+#Objetivo
+Definir el conjunto de mrfs para mi producto software a desarrollar para estableces las funcionalidades principales
+
+#Contexto
+
+MRF significa Características Mínimas Lanzables (Minimum Releasable Features). Este término se refiere al conjunto mínimo de características que deben estar presentes en un lanzamiento para que sea viable.
+
+Propósito: Debe ser lo suficientemente útil para el cliente final como para que este lo quiera y esté dispuesto a pagar por él.
+
+Enfoque: El MRF se compone de un conjunto de características que son consideradas de obligación (must-have features) para ese lanzamiento específico.
+
+La Escuela Politécnica Nacional (EPN) busca acreditar sus carreras bajo el sello EUR-ACE.
+
+La Escuela Politécnica Nacional, o EPN, es una universidad pública, de grado y posgrado, ubicada en Quito (Ecuador). Reconocida por la investigación y la educación en ciencias básicas, ingenierías y tecnología, ofrece programas doctorales, de maestría y de grado. La Escuela Politécnica Nacional (EPN) se organiza en facultades y departamentos, cada uno con funciones específicas para cumplir sus objetivos académicos y de investigación.
+
+Estructura Academica de la EPN
+
+La EPN se estructura principalmente en las siguientes unidades: Facultades: Son las unidades académicas superiores encargadas de planificar, ejecutar, controlar y evaluar los procesos de docencia, investigación y extensión en áreas específicas del conocimiento. Cada facultad está dirigida por un Consejo de Facultad, un Decano y un Subdecano. Tienen capacidad de gestión administrativa y financiera y están integradas por departamentos y carreras afines.
+
+Departamentos: Actúan como las células básicas de la EPN, dependientes de las facultades. Los departamentos son responsables de las actividades de investigación, docencia y extensión en campos específicos. Cada departamento puede diseñar y gestionar programas de maestría y doctorado, y participa en la planificación de los procesos docentes.
+
+La EPN está dividida de la siguiente manera, existen Facultades y por cada facultad pueden existir diferentes carreras cada Facultad tiene profesores, Autoridades (Decano , Subdecano , jefe de Departamento) , Para llegar a ser coordinador, Autoridad primero tiene que ser un profesor, Para las carreras cada carrera tiene un solo coordinador y existe una entidad superior que sería la DGIP que es la encargada de gestionar los aspectos académicos de las facultades , Para la autoridad administra la facultad, el coordinador gestiona la carrera .
+
+- El sello EUR-ACE es una etiqueta de calidad europea que certifica que un programa de estudios de ingeniería cumple con estándares de excelencia y los requisitos profesionales del ámbito europeo. Otorga una garantía internacional de la formación de un ingeniero y facilita la movilidad académica y profesional al reconocer las competencias adquiridas.
+
+- Los objetivos del sistema de acreditación EUR-ACE son certificar la calidad de las carreras de ingeniería en Europa y el mundo, garantizando que cumplen estándares internacionales y asegurando que los titulados poseen conocimientos, habilidades técnicas y competencias profesionales para la empleabilidad. Además, busca facilitar la movilidad académica y profesional de estudiantes y docentes, fortalecer alianzas globales y mejorar la transparencia y el reconocimiento de las titulaciones en el ámbito internacional.
+
+- La Escuela Politécnica Nacional EPN es una universidad pública, de grado y posgrado, ubicada en Quito, Ecuador. Reconocida por la investigación y la educación en ciencias básicas, ingenierías y tecnología, ofrece programas doctorales, de maestría y de grado.
+
+- La Escuela Politécnica Nacional consta de 9 facultades que albergan 6 carreras de tecnología superior, 24 carreras de pregrado, 22 maestrías y 6 doctorados en postgrado. Dichas especialidades pertenecen al campo del conocimiento de las ciencias, ingeniería y formación tecnológica.
+
+- Las carreras de grado, carreras de tecnología superior y carreras de pregrado se conocen como "carreras". Para EUR-ACE son carreras de ingeniería. EUR-ACE certifica programas de estudios de ingeniería o "carreras de ingeniería" para el caso de Ecuador.
+
+- Cada carrera tiene una malla curricular donde están todas las asignaturas que los estudiantes deben cursar. Cada asignatura tiene su resultados de aprendizaje de la asignatura RAA. Cada carrera tiene resultados de aprendizaje de la carrera RA. la carrera tambien cuenta con objetivos de perfil profesionar OPP , El OPP es la promesa institucional que la EPN suscribe ante la sociedad, detallando las capacidades, conocimientos y actitudes específicos que el profesional poseerá al graduarse.
+
+Para Cada carrera existen diferentes Asignaturas , cada una de estas asignaturas cuenta con un programa de estudios académicos (PEA) . Este PEA contiene información relevante de cada asignatura . Por ejemplo : – Unidad Académica “ – Carrera – Unidad de organización curricular – Nombre de la asignatura – Código, Créditos – Resultados de aprendizaje de la asignatura (RAA)
+
+- En una matriz RA-RAA se relacionan los RAA con los RA. En otra matriz EURACE-RA se relacionan los RA con los objetivos EUR-ACE. Con las matrices anteriores podemos definir como las asignaturas ayudan a cumplir los objetivos EUR-ACE.
+
+-En una matriz RA-OPP se relacion los RA con los OPP con esta matriz podemos definir o verificar que los conocimientos ayuden al profesional.
+
+-La universidad está dividida de la siguiente manera, existen Facultades por cada facultad pueden existir diferentes carreras cada Facultad tiene profesores, Autoridades (Decano , Subdecano , jefe de Departamento) , Para llegar a ser coordinador, Autoridad primero tiene que ser un profesor, Para las carreras cada carrera tiene un solo coordinador y existe una entidad superior que sería la DGIP que es la encargada de gestionar los aspectos académicos de las facultades , Para la autoridad administra la facultad, el coordinador gestiona la carrera
+
+
+- El nombre del producto software es PoliAcredita. PoliAcredita es una Aplicación Web.
+
+te doy mi porducto baclog de alto nivel para que a partir de este definas el conjunto de mrfs :
+
+HU: Gestión de la Estructura Académica Institucional Como Administrador del sistema Quiero gestionar la estructura jerarquica academica de la EPN Para representar fielmente la organización académica institucional
+
+HU: Definir Resultados de Aprendizaje de Asignatura (RAA) Como coordinador de carrera, quiero definir los resultados de aprendizaje esperados por asignatura, para evidenciar el aporte hacia los Resultados de aprendizaje de la carrera.
+
+HU: Definir Resultados de Aprendizaje de Carrera (RA) Como coordinador de carrera o autoridad académica, quiero definir los resultados de aprendizaje de la carrera, para establecer los logros generales del egresado.
+
+HU: Definir Objetivos de Perfil Profesional (OPP) Como autoridad académica o coordinador de carrera, quiero definir los objetivos de perfil profesional, para articular las capacidades del graduado.
+
+HU: Gestionar Estándares EUR-ACE Como responsable de calidad o administrador del sistema, quiero mantener el catálogo de los criterios del sello EUR-ACE, para garantizar la alineación con estándares internacionales.
+
+HU: Vincular RAA con RA Como coordinador de carrera, quiero vincular los resultados de aprendizaje de las asignaturas con los de la carrera, para comprender la contribución de cada asignatura a la formación de la carrera.
+
+HU: Vincular RA con OPP Como coordinador de carrera o responsable de calidad, quiero vincular los resultados de aprendizaje de la carrera con los objetivos de perfil profesional, para verificar que la formación contribuya al perfil del egresado.
+
+HU: Vincular RA con EUR-ACE Como coordinador de carrera o responsable de calidad, quiero vincular los resultados de aprendizaje de la carrera con los criterios EUR-ACE, para evidenciar el cumplimiento de los estándares de calidad internacionales.
+
+HU: Monitorizar el Estado de Acreditación Como autoridad académica o comité de acreditación, quiero monitorizar de forma interactiva el estado del cumplimiento de la acreditación, para facilitar la toma de decisiones informadas.
+
+HU: Generar Informes de Acreditación Como autoridad académica o miembro del comité de acreditación, quiero generar informes detallados del estado de la acreditación, para facilitar la evaluación integral del programa.
+
+HU: Automatizar la Generación de Evidencia Como autoridad académica o responsable de calidad, quiero automatizar la generación de la evidencia requerida, para simplificar la recolección de documentación.
+
+HU: Gestionar Usuarios y Permisos Como administrador del sistema o DGIP, quiero gestionar los usuarios y sus permisos de acceso, para asegurar la seguridad y control del sistema.
+
+
+ten un ejemplo para bajar de epica a feature o mrf :
+Ejemplo 1: E-commerce (Optimización del proceso de compra) ÉPICA (Objetivo Estratégico General):
+
+Épica Descripción Como usuario habitual, quiero una experiencia de compra sin fricciones, para reducir el tiempo de checkout y completar mis pedidos rápidamente. Esta es una iniciativa grande que involucra guardar datos, optimizar la interfaz y mejorar la seguridad. Se entregará a lo largo de varios sprints y lanzamientos.
+
+Exportar a Hojas de cálculo MRF (Características Mínimas Lanzables):
+
+Para el Primer Lanzamiento Comercializable de esta Épica, el equipo define el MRF como: “Permitir el pago recurrente con datos guardados de forma segura.”
+
+MRF (Conjunto Mínimo Lanzable) Valor Clave Entregado Gestión Básica de la Cuenta y Pago Rápido. Permite a los clientes recurrentes realizar compras en menos pasos, abordando directamente el problema de la “fricción” en el checkout.
+
+#Accion 
+Crea el conjunto de mrfs indispensables para mi producto software a desarrollar para las hus no puedes unir con un "y" recuerda la hu debe ser clara y concisa 
+
+
+
+#Formaton de salida 
+Una Historia de Usuario (HU) es una frase simple que define un requisito desde la perspectiva del usuario final y el valor que obtendrá de esa funcionalidad. El objetivo es cambiar el enfoque de “escribir sobre los requisitos” a “hablar sobre ellos”.
+
+La estructura estándar se conoce como el formato “Como [Perfil] Quiero [Intención] Para” y garantiza que la funcionalidad que desarrolle el equipo esté enfocada en el cliente y aporte valor.
+
+Componente Pregunta que Responde Objetivo y Enfoque COMO [Perfil] ¿Para quién desarrollamos esto? Enfoque en la Empatía (El Perfil): Define a la persona (user persona) que necesita la funcionalidad
+
+
+ El equipo debe comprender cómo trabaja, piensa y siente esa persona. QUIERO [Intención] ¿Qué es lo que está intentando lograr realmente? Enfoque en la Meta (La Intención): Describe la meta o el objetivo del usuario al utilizar el sistema. Esta es la intención del usuario. Debe ser independiente de la implementación; no se deben describir elementos de la interfaz de usuario (UI), sino el resultado que buscan.
+
+PARA ¿Cuál es el valor que esto aporta al usuario o al negocio? Enfoque en el Valor (El Porqué): Explica el beneficio general y la razón estratégica detrás del deseo inmediato del usuario. Es el valor de la funcionalidad en relación con los objetivos generales. La historia debe ofrecer valor, tanto al equipo como al usuario.
+
+
+# 1. Producto
+
+#Rol
+Actúa como un Product Management / Product Owner que es experto en acreditación internacional con el sello EUR-ACE.
+
+#Objetivo
+Definir el conjunto de mrfs para mi producto software a desarrollar para estableces las funcionalidades principales
+
+#Contexto
+
+MRF significa Características Mínimas Lanzables (Minimum Releasable Features). Este término se refiere al conjunto mínimo de características que deben estar presentes en un lanzamiento para que sea viable.
+
+Propósito: Debe ser lo suficientemente útil para el cliente final como para que este lo quiera y esté dispuesto a pagar por él.
+
+Enfoque: El MRF se compone de un conjunto de características que son consideradas de obligación (must-have features) para ese lanzamiento específico.
+
+La Escuela Politécnica Nacional (EPN) busca acreditar sus carreras bajo el sello EUR-ACE.
+
+La Escuela Politécnica Nacional, o EPN, es una universidad pública, de grado y posgrado, ubicada en Quito (Ecuador). Reconocida por la investigación y la educación en ciencias básicas, ingenierías y tecnología, ofrece programas doctorales, de maestría y de grado. La Escuela Politécnica Nacional (EPN) se organiza en facultades y departamentos, cada uno con funciones específicas para cumplir sus objetivos académicos y de investigación.
+
+Estructura Academica de la EPN
+
+La EPN se estructura principalmente en las siguientes unidades: Facultades: Son las unidades académicas superiores encargadas de planificar, ejecutar, controlar y evaluar los procesos de docencia, investigación y extensión en áreas específicas del conocimiento. Cada facultad está dirigida por un Consejo de Facultad, un Decano y un Subdecano. Tienen capacidad de gestión administrativa y financiera y están integradas por departamentos y carreras afines.
+
+Departamentos: Actúan como las células básicas de la EPN, dependientes de las facultades. Los departamentos son responsables de las actividades de investigación, docencia y extensión en campos específicos. Cada departamento puede diseñar y gestionar programas de maestría y doctorado, y participa en la planificación de los procesos docentes.
+
+La EPN está dividida de la siguiente manera, existen Facultades y por cada facultad pueden existir diferentes carreras cada Facultad tiene profesores, Autoridades (Decano , Subdecano , jefe de Departamento) , Para llegar a ser coordinador, Autoridad primero tiene que ser un profesor, Para las carreras cada carrera tiene un solo coordinador y existe una entidad superior que sería la DGIP que es la encargada de gestionar los aspectos académicos de las facultades , Para la autoridad administra la facultad, el coordinador gestiona la carrera .
+
+- El sello EUR-ACE es una etiqueta de calidad europea que certifica que un programa de estudios de ingeniería cumple con estándares de excelencia y los requisitos profesionales del ámbito europeo. Otorga una garantía internacional de la formación de un ingeniero y facilita la movilidad académica y profesional al reconocer las competencias adquiridas.
+
+- Los objetivos del sistema de acreditación EUR-ACE son certificar la calidad de las carreras de ingeniería en Europa y el mundo, garantizando que cumplen estándares internacionales y asegurando que los titulados poseen conocimientos, habilidades técnicas y competencias profesionales para la empleabilidad. Además, busca facilitar la movilidad académica y profesional de estudiantes y docentes, fortalecer alianzas globales y mejorar la transparencia y el reconocimiento de las titulaciones en el ámbito internacional.
+
+- La Escuela Politécnica Nacional EPN es una universidad pública, de grado y posgrado, ubicada en Quito, Ecuador. Reconocida por la investigación y la educación en ciencias básicas, ingenierías y tecnología, ofrece programas doctorales, de maestría y de grado.
+
+- La Escuela Politécnica Nacional consta de 9 facultades que albergan 6 carreras de tecnología superior, 24 carreras de pregrado, 22 maestrías y 6 doctorados en postgrado. Dichas especialidades pertenecen al campo del conocimiento de las ciencias, ingeniería y formación tecnológica.
+
+- Las carreras de grado, carreras de tecnología superior y carreras de pregrado se conocen como "carreras". Para EUR-ACE son carreras de ingeniería. EUR-ACE certifica programas de estudios de ingeniería o "carreras de ingeniería" para el caso de Ecuador.
+
+- Cada carrera tiene una malla curricular donde están todas las asignaturas que los estudiantes deben cursar. Cada asignatura tiene su resultados de aprendizaje de la asignatura RAA. Cada carrera tiene resultados de aprendizaje de la carrera RA. la carrera tambien cuenta con objetivos de perfil profesionar OPP , El OPP es la promesa institucional que la EPN suscribe ante la sociedad, detallando las capacidades, conocimientos y actitudes específicos que el profesional poseerá al graduarse.
+
+Para Cada carrera existen diferentes Asignaturas , cada una de estas asignaturas cuenta con un programa de estudios académicos (PEA) . Este PEA contiene información relevante de cada asignatura . Por ejemplo : – Unidad Académica “ – Carrera – Unidad de organización curricular – Nombre de la asignatura – Código, Créditos – Resultados de aprendizaje de la asignatura (RAA)
+
+- En una matriz RA-RAA se relacionan los RAA con los RA. En otra matriz EURACE-RA se relacionan los RA con los objetivos EUR-ACE. Con las matrices anteriores podemos definir como las asignaturas ayudan a cumplir los objetivos EUR-ACE.
+
+-En una matriz RA-OPP se relacion los RA con los OPP con esta matriz podemos definir o verificar que los conocimientos ayuden al profesional.
+
+-La universidad está dividida de la siguiente manera, existen Facultades por cada facultad pueden existir diferentes carreras cada Facultad tiene profesores, Autoridades (Decano , Subdecano , jefe de Departamento) , Para llegar a ser coordinador, Autoridad primero tiene que ser un profesor, Para las carreras cada carrera tiene un solo coordinador y existe una entidad superior que sería la DGIP que es la encargada de gestionar los aspectos académicos de las facultades , Para la autoridad administra la facultad, el coordinador gestiona la carrera
+
+
+- El nombre del producto software es PoliAcredita. PoliAcredita es una Aplicación Web.
+
+te doy mi porducto baclog de alto nivel para que a partir de este definas el conjunto de mrfs :
+
+HU: Gestión de la Estructura Académica Institucional Como Administrador del sistema Quiero gestionar la estructura jerarquica academica de la EPN Para representar fielmente la organización académica institucional
+
+HU: Definir Resultados de Aprendizaje de Asignatura (RAA) Como coordinador de carrera, quiero definir los resultados de aprendizaje esperados por asignatura, para evidenciar el aporte hacia los Resultados de aprendizaje de la carrera.
+
+HU: Definir Resultados de Aprendizaje de Carrera (RA) Como coordinador de carrera o autoridad académica, quiero definir los resultados de aprendizaje de la carrera, para establecer los logros generales del egresado.
+
+HU: Definir Objetivos de Perfil Profesional (OPP) Como autoridad académica o coordinador de carrera, quiero definir los objetivos de perfil profesional, para articular las capacidades del graduado.
+
+HU: Gestionar Estándares EUR-ACE Como responsable de calidad o administrador del sistema, quiero mantener el catálogo de los criterios del sello EUR-ACE, para garantizar la alineación con estándares internacionales.
+
+HU: Vincular RAA con RA Como coordinador de carrera, quiero vincular los resultados de aprendizaje de las asignaturas con los de la carrera, para comprender la contribución de cada asignatura a la formación de la carrera.
+
+HU: Vincular RA con OPP Como coordinador de carrera o responsable de calidad, quiero vincular los resultados de aprendizaje de la carrera con los objetivos de perfil profesional, para verificar que la formación contribuya al perfil del egresado.
+
+HU: Vincular RA con EUR-ACE Como coordinador de carrera o responsable de calidad, quiero vincular los resultados de aprendizaje de la carrera con los criterios EUR-ACE, para evidenciar el cumplimiento de los estándares de calidad internacionales.
+
+HU: Monitorizar el Estado de Acreditación Como autoridad académica o comité de acreditación, quiero monitorizar de forma interactiva el estado del cumplimiento de la acreditación, para facilitar la toma de decisiones informadas.
+
+HU: Generar Informes de Acreditación Como autoridad académica o miembro del comité de acreditación, quiero generar informes detallados del estado de la acreditación, para facilitar la evaluación integral del programa.
+
+HU: Automatizar la Generación de Evidencia Como autoridad académica o responsable de calidad, quiero automatizar la generación de la evidencia requerida, para simplificar la recolección de documentación.
+
+HU: Gestionar Usuarios y Permisos Como administrador del sistema o DGIP, quiero gestionar los usuarios y sus permisos de acceso, para asegurar la seguridad y control del sistema.
+
+
+ten un ejemplo para bajar de epica a feature o mrf :
+Ejemplo 1: E-commerce (Optimización del proceso de compra) ÉPICA (Objetivo Estratégico General):
+
+Épica Descripción Como usuario habitual, quiero una experiencia de compra sin fricciones, para reducir el tiempo de checkout y completar mis pedidos rápidamente. Esta es una iniciativa grande que involucra guardar datos, optimizar la interfaz y mejorar la seguridad. Se entregará a lo largo de varios sprints y lanzamientos.
+
+Exportar a Hojas de cálculo MRF (Características Mínimas Lanzables):
+
+Para el Primer Lanzamiento Comercializable de esta Épica, el equipo define el MRF como: “Permitir el pago recurrente con datos guardados de forma segura.”
+
+MRF (Conjunto Mínimo Lanzable) Valor Clave Entregado Gestión Básica de la Cuenta y Pago Rápido. Permite a los clientes recurrentes realizar compras en menos pasos, abordando directamente el problema de la “fricción” en el checkout.
+
+#Accion 
+Crea el conjunto de mrfs indispensables para mi producto software a desarrollar para las hus no puedes unir con un "y" recuerda la hu debe ser clara y concisa 
+
+
+
+#Formaton de salida 
+Una Historia de Usuario (HU) es una frase simple que define un requisito desde la perspectiva del usuario final y el valor que obtendrá de esa funcionalidad. El objetivo es cambiar el enfoque de “escribir sobre los requisitos” a “hablar sobre ellos”.
+
+La estructura estándar se conoce como el formato “Como [Perfil] Quiero [Intención] Para” y garantiza que la funcionalidad que desarrolle el equipo esté enfocada en el cliente y aporte valor.
+
+Componente Pregunta que Responde Objetivo y Enfoque COMO [Perfil] ¿Para quién desarrollamos esto? Enfoque en la Empatía (El Perfil): Define a la persona (user persona) que necesita la funcionalidad
+
+
+ El equipo debe comprender cómo trabaja, piensa y siente esa persona. QUIERO [Intención] ¿Qué es lo que está intentando lograr realmente? Enfoque en la Meta (La Intención): Describe la meta o el objetivo del usuario al utilizar el sistema. Esta es la intención del usuario. Debe ser independiente de la implementación; no se deben describir elementos de la interfaz de usuario (UI), sino el resultado que buscan.
+
+PARA ¿Cuál es el valor que esto aporta al usuario o al negocio? Enfoque en el Valor (El Porqué): Explica el beneficio general y la razón estratégica detrás del deseo inmediato del usuario. Es el valor de la funcionalidad en relación con los objetivos generales. La historia debe ofrecer valor, tanto al equipo como al usuario.
+
+**Respuesta:**
+
+¡Excelente! Como Product Manager experto en acreditación EUR-ACE, comprendo perfectamente la distinción y el valor de las Características Mínimas Lanzables (MRFs). Un MRF debe ser un conjunto de funcionalidades tan útiles que el cliente final las quiera y esté dispuesto a usarlas (o "pagar" en términos de adopción y valor institucional), representando funcionalidades "must-have" para un lanzamiento específico.
+
+Analizando las HUs de alto nivel que has proporcionado, y considerando el contexto de la EPN y los requisitos EUR-ACE, cada una de ellas ya se presenta como una funcionalidad clara, concisa y con valor intrínseco. Dada la estricta restricción de **no usar "y"** para combinar intenciones o valores, y buscando que cada MRF sea un incremento de valor discernible, cada una de tus HUs existentes se alinea perfectamente como un MRF individual. Son piezas funcionales que, una vez implementadas, entregan un beneficio concreto y son "lanzables" por sí mismas.
+
+A continuación, presento el conjunto de MRFs indispensables para el producto PoliAcredita, manteniendo la estructura y la concisión requeridas:
+
+---
+
+### Conjunto de MRFs Indispensables para PoliAcredita
+
+Cada MRF representa una capacidad mínima y valiosa que puede ser entregada de forma independiente.
+
+---
+
+#### MRF 1: Gestión de la Estructura Académica Institucional
+
+*   **Como** Administrador del sistema,
+*   **Quiero** gestionar la estructura jerárquica académica de la EPN,
+*   **Para** representar fielmente la organización académica institucional.
+
+---
+
+#### MRF 2: Gestión de Usuarios y Permisos
+
+*   **Como** Administrador del sistema o DGIP,
+*   **Quiero** gestionar los usuarios y sus permisos de acceso,
+*   **Para** asegurar la seguridad y control del sistema.
+
+---
+
+#### MRF 3: Definición de Resultados de Aprendizaje de Asignatura (RAA)
+
+*   **Como** Coordinador de carrera,
+*   **Quiero** definir los resultados de aprendizaje esperados por asignatura,
+*   **Para** evidenciar el aporte hacia los Resultados de aprendizaje de la carrera.
+
+---
+
+#### MRF 4: Definición de Resultados de Aprendizaje de Carrera (RA)
+
+*   **Como** Coordinador de carrera o Autoridad académica,
+*   **Quiero** definir los resultados de aprendizaje de la carrera,
+*   **Para** establecer los logros generales del egresado.
+
+---
+
+#### MRF 5: Definición de Objetivos de Perfil Profesional (OPP)
+
+*   **Como** Autoridad académica o Coordinador de carrera,
+*   **Quiero** definir los objetivos de perfil profesional,
+*   **Para** articular las capacidades del graduado.
+
+---
+
+#### MRF 6: Gestión de Estándares EUR-ACE
+
+*   **Como** Responsable de calidad o Administrador del sistema,
+*   **Quiero** mantener el catálogo de los criterios del sello EUR-ACE,
+*   **Para** garantizar la alineación con estándares internacionales.
+
+---
+
+#### MRF 7: Vinculación RAA con RA
+
+*   **Como** Coordinador de carrera,
+*   **Quiero** vincular los resultados de aprendizaje de las asignaturas con los de la carrera,
+*   **Para** comprender la contribución de cada asignatura a la formación de la carrera.
+
+---
+
+#### MRF 8: Vinculación RA con OPP
+
+*   **Como** Coordinador de carrera o Responsable de calidad,
+*   **Quiero** vincular los resultados de aprendizaje de la carrera con los objetivos de perfil profesional,
+*   **Para** verificar que la formación contribuya al perfil del egresado.
+
+---
+
+#### MRF 9: Vinculación RA con EUR-ACE
+
+*   **Como** Coordinador de carrera o Responsable de calidad,
+*   **Quiero** vincular los resultados de aprendizaje de la carrera con los criterios EUR-ACE,
+*   **Para** evidenciar el cumplimiento de los estándares de calidad internacionales.
+
+---
+
+#### MRF 10: Monitoreo Interactivo del Estado de Acreditación
+
+*   **Como** Autoridad académica o comité de acreditación,
+*   **Quiero** monitorizar de forma interactiva el estado del cumplimiento de la acreditación,
+*   **Para** facilitar la toma de decisiones informadas.
+
+---
+
+#### MRF 11: Generación de Informes de Acreditación
+
+*   **Como** Autoridad académica o miembro del comité de acreditación,
+*   **Quiero** generar informes detallados del estado de la acreditación,
+*   **Para** facilitar la evaluación integral del programa.
+
+---
+
+#### MRF 12: Automatización de la Generación de Evidencia
+
+*   **Como** Autoridad académica o Responsable de calidad,
+*   **Quiero** automatizar la generación de la evidencia requerida,
+*   **Para** simplificar la recolección de documentación.
+
+---
 
 <!-- --- -->
