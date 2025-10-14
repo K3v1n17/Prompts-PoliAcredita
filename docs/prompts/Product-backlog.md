@@ -24,6 +24,7 @@
 15. [PROMPT 15](#prompt-15)
 16. [PROMPT 16](#prompt-16)
 17. [PROMPT 17](#prompt-17)
+18. [PROMPT 18](#prompt-18)
 
 ---
 
@@ -2568,5 +2569,141 @@ Aquí tienes las historias de usuario épicas que definen las principales funcio
 ---
 
 Este backlog de alto nivel nos proporciona una base sólida para iniciar el desarrollo de PoliAcredita. Cada una de estas épicas será desglosada posteriormente en historias de usuario más pequeñas y manejables durante las fases de planificación de sprints, permitiéndonos construir el producto de manera incremental y adaptativa, tal como lo requiere el framework Scrum. ¡Estoy emocionado de ver este producto cobrar vida!
+
+<!-- --- -->
+
+## PROMPT 18
+
+**Fecha:** 14 oct 2025, 04:19 p m.
+
+**Prompt:**
+
+#Rol
+Actúa como un Product Management / Product Owner que es experto en acreditación internacional con el sello EUR-ACE.
+
+#Objetivo
+Definir el product backlog de alto nivel de mi producto software que se va a desarrolar
+
+#Contexto
+
+- El sello EUR-ACE es una etiqueta de calidad europea que certifica que un programa de estudios de ingeniería cumple con estándares de excelencia y los requisitos profesionales del ámbito europeo. Otorga una garantía internacional de la formación de un ingeniero y facilita la movilidad académica y profesional al reconocer las competencias adquiridas.
+
+- Los objetivos del sistema de acreditación EUR-ACE son certificar la calidad de las carreras de ingeniería en Europa y el mundo, garantizando que cumplen estándares internacionales y asegurando que los titulados poseen conocimientos, habilidades técnicas y competencias profesionales para la empleabilidad. Además, busca facilitar la movilidad académica y profesional de estudiantes y docentes, fortalecer alianzas globales y mejorar la transparencia y el reconocimiento de las titulaciones en el ámbito internacional.
+
+- La Escuela Politécnica Nacional EPN es una universidad pública, de grado y posgrado, ubicada en Quito, Ecuador. Reconocida por la investigación y la educación en ciencias básicas, ingenierías y tecnología, ofrece programas doctorales, de maestría y de grado.
+
+- La Escuela Politécnica Nacional consta de 9 facultades que albergan 6 carreras de tecnología superior, 24 carreras de pregrado, 22 maestrías y 6 doctorados en postgrado. Dichas especialidades pertenecen al campo del conocimiento de las ciencias, ingeniería y formación tecnológica.
+
+- Las carreras de grado, carreras de tecnología superior y carreras de pregrado se conocen como "carreras". Para EUR-ACE son carreras de ingeniería. EUR-ACE certifica programas de estudios de ingeniería o "carreras de ingeniería" para el caso de Ecuador.
+
+- Cada carrera tiene una malla curricular donde están todas las asignaturas que los estudiantes deben cursar. Cada asignatura tiene su resultados de aprendizaje de la asignatura RAA. Cada carrera tiene resultados de aprendizaje de la carrera RA. la carrera tambien cuenta con objetivos de perfil profesionar OPP , El OPP es la promesa institucional que la EPN suscribe ante la sociedad, detallando las capacidades, conocimientos y actitudes específicos que el profesional poseerá al graduarse.
+
+- En una matriz RA-RAA se relacionan los RAA con los RA. En otra matriz EURACE-RA se relacionan los RA con los objetivos EUR-ACE. Con las matrices anteriores podemos definir como las asignaturas ayudan a cumplir los objetivos EUR-ACE.
+
+-En una matriz RA-OPP se relacion los RA con los OPP con esta matriz podemos definir o verificar que los conocimientos ayuden al profesional.
+
+y esta es la vision de mi producto a desarrollar :
+
+**Para** las autoridades académicas, responsables de calidad, coordinadores y comités de acreditación de las _carreras de ingeniería_ de la Escuela Politécnica Nacional,
+
+> **que** necesitan medir, evidenciar y mejorar el cumplimiento de los objetivos del sello de calidad internacional EUR-ACE,
+
+> **nuestro** _PoliAcredita_
+
+> **es una** _aplicación web de gestión académica para la trazabilidad de competencias_
+
+> **que** permite vincular los resultados de aprendizaje de las asignaturas (RAA) con los resultados de aprendizaje de la carrera (RA) y, a su vez, con los objetivos EUR-ACE, generando evidencia automatizada, trazabilidad visual e informes para procesos de acreditación.
+
+> **A diferencia de** hojas de cálculo manuales, documentos Word dispersos o sistemas administrativos que no permiten evidenciar el cumplimiento de estándares internacionales,
+
+> **nuestro producto** centraliza la información, automatiza la generación de matrices EUR-ACE-RA y RA-RAA, y facilita el seguimiento de brechas o áreas de mejora por carrera, asignatura y objetivo de acreditación.
+
+-La universidad está dividida de la siguiente manera, existen Facultades por cada facultad pueden existir diferentes carreras cada Facultad tiene profesores, Autoridades (Decano , Subdecano , jefe de Departamento) , Para llegar a ser coordinador, Autoridad primero tiene que ser un profesor, Para las carreras cada carrera tiene un solo coordinador y existe una entidad superior que sería la DGIP que es la encargada de gestionar los aspectos académicos de las facultades , Para la autoridad administra la facultad, el coordinador gestiona la carrera
+
+- EL product backlog de altor nivel tiene como propósito definir las principales funcionalidades que se desarrollararan o con las que contara el sistema.
+
+- Se debe utilizar el Scrum framework para gestionar la construcción del producto software. Scrum no se utiliza para acreditación. Scrum se utiliza para construir el producto software.
+- El nombre del producto software es PoliAcredita. PoliAcredita es una Aplicación Web.
+
+-Una Historia de Usuario (HU) es una manera simple de describir una necesidad o requerimiento desde el punto de vista del usuario final
+
+🧭 1️⃣ Historia de Usuario Épica
+
+Nivel: alto / estratégico
+Propósito: describe un gran objetivo de negocio, abarca varias funcionalidades.
+
+Ejemplo
+
+Como coordinador , quiero registrar los PEAs para gestionar la información del programa de cada asignatura.
+
+- Crear el product backlog de alto nivel para mi producto software que ayude a las carreras de grado a medir el cumplimiento de los objetivos EUR-ACE.
+- Para crear el product backlos se debe seguir el formato de hus de alto nivel
+
+#FormatoDeSalida
+
+Como [rol o usuario]
+quiero [acción o necesidad (una solo accion no concaternar con "y")]
+para [beneficio o propósito (un solo beneficio no concaternar con "y")]
+
+**Respuesta:**
+
+¡Excelente! Entendido el rol y el objetivo. La inclusión de los Objetivos de Perfil Profesional (OPP) es un punto clave que fortalece la coherencia interna del programa de estudios y su relevancia para el mercado laboral, aspectos que indirectamente refuerzan el proceso de acreditación.
+
+Basándome en la visión de "PoliAcredita" y el contexto actualizado, he revisado y ampliado el product backlog de alto nivel, incorporando la gestión y trazabilidad de los OPP. Este conjunto de Historias de Usuario Épicas nos servirá como la columna vertebral para el desarrollo ágil de nuestro producto.
+
+---
+
+### Product Backlog de Alto Nivel para PoliAcredita (Versión 2.0)
+
+Aquí tienes las historias de usuario épicas que definen las principales funcionalidades de alto nivel de nuestro producto, con la incorporación de los OPP:
+
+1.  **HU: Gestionar Datos Maestros Académicos y de Perfil**
+    Como autoridad académica o coordinador de carrera,
+    quiero administrar la información de carreras, asignaturas, resultados de aprendizaje (RAA, RA) y objetivos de perfil profesional (OPP),
+    para mantener la base de datos del sistema actualizada.
+
+2.  **HU: Gestionar Estándares EUR-ACE**
+    Como responsable de calidad o administrador del sistema,
+    quiero mantener el catálogo de los criterios del sello EUR-ACE (códigos y descripciones),
+    para garantizar la alineación con los estándares internacionales.
+
+3.  **HU: Mapear la Alineación Curricular (RAA a RA)**
+    Como coordinador de carrera,
+    quiero establecer las relaciones entre los resultados de aprendizaje de las asignaturas (RAA) y los de la carrera (RA),
+    para comprender la contribución de cada asignatura a la formación de la carrera.
+
+4.  **HU: Mapear la Alineación con el Perfil Profesional (RA a OPP)**
+    Como coordinador de carrera o responsable de calidad,
+    quiero establecer las relaciones entre los resultados de aprendizaje de la carrera (RA) y los objetivos de perfil profesional (OPP),
+    para verificar que la formación contribuya al perfil del egresado.
+
+5.  **HU: Mapear la Alineación con EUR-ACE (RA a EUR-ACE)**
+    Como coordinador de carrera o responsable de calidad,
+    quiero establecer las relaciones entre los resultados de aprendizaje de la carrera (RA) y los criterios EUR-ACE,
+    para evidenciar el cumplimiento de los estándares de calidad internacionales.
+
+6.  **HU: Visualizar Progreso, Brechas y Coherencia**
+    Como autoridad académica o comité de acreditación,
+    quiero consultar de forma interactiva el progreso, las brechas y la coherencia de la formación,
+    para facilitar la toma de decisiones.
+
+7.  **HU: Generar Informes de Alineación y Cumplimiento**
+    Como autoridad académica o miembro del comité de acreditación,
+    quiero generar informes detallados de la alineación de la carrera,
+    para facilitar la evaluación integral del programa.
+
+8.  **HU: Generar Evidencia Documental Automatizada**
+    Como autoridad académica o responsable de calidad,
+    quiero obtener evidencia documentada y automatizada de los mapeos y alineaciones,
+    para simplificar la recolección de documentación requerida.
+
+9.  **HU: Gestionar Usuarios y Permisos**
+    Como administrador del sistema o DGIP,
+    quiero gestionar los roles y permisos de acceso de los diferentes usuarios académicos,
+    para asegurar la seguridad del sistema.
+
+---
+
+Este backlog ampliado proporciona una visión clara de las funcionalidades esenciales de PoliAcredita, considerando tanto los requisitos de acreditación EUR-ACE como la verificación de la pertinencia del perfil profesional. Seguiremos desglosando estas épicas en historias de usuario más pequeñas y detalladas a medida que avancemos en la planificación de los Sprints.
 
 <!-- --- -->
