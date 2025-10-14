@@ -9,6 +9,7 @@
    - [PROMPT 1.1 (Continuación de PROMPT 1)](#prompt-11-continuacion-de-prompt-1)
 2. [PROMPT 2](#prompt-2)
 3. [PROMPT 3](#prompt-3)
+4. [PROMPT 4](#prompt-4)
 
 ---
 
@@ -353,5 +354,154 @@ PoliAcredita optimiza recursos clave y reduce los costos operativos, el riesgo y
 ---
 
 Este enfoque nos da una visión clara de cómo cada aspecto de PoliAcredita se traduce en valor real para los diferentes actores dentro y fuera de la EPN. Esta comprensión será vital para guiar el desarrollo del producto y asegurar que cada funcionalidad que construyamos esté alineada con estos objetivos de valor.
+
+<!-- --- -->
+
+## PROMPT 4
+
+**Fecha:** 14 oct 2025, 04:47 p m.
+
+**Prompt:**
+
+necesito con esta estructura :
+
+Stakeholders y Áreas de Valor:
+-Autoridades 
+    --Entry conditions
+     --- otras
+
+Accion 
+Crea de nuevo mis areas de valor con esa estrcutra
+
+**Respuesta:**
+
+¡Excelente! Una estructura por stakeholder nos permite visualizar de manera aún más clara y directa el impacto de PoliAcredita para cada actor clave.
+
+Aquí tienes las áreas de valor de PoliAcredita reestructuradas bajo el enfoque de stakeholders:
+
+---
+
+### Stakeholders y Áreas de Valor de PoliAcredita
+
+**1. EPN (Institución)**
+    *   **Entry Conditions:**
+        *   Asegura la continuidad operativa y el cumplimiento de su misión institucional al adherirse a estándares internacionales de calidad en ingeniería (ej. EUR-ACE).
+        *   Garantiza el cumplimiento de las condiciones fundamentales para el reconocimiento en el ecosistema de calidad de la ingeniería a nivel internacional, evitando sanciones o exclusión.
+    *   **Enablement:**
+        *   Expande su influencia y prestigio al posicionarse como una institución de referencia internacional.
+        *   Facilita la atracción de convenios con universidades extranjeras y el establecimiento de alianzas globales estratégicas.
+    *   **Differentiator:**
+        *   Fortalece su marca y reputación como líder en calidad educativa y eficiencia, atrayendo a los mejores talentos.
+        *   Se distingue de otras instituciones por su eficiencia, transparencia y enfoque innovador en la gestión de la calidad.
+    *   **Spoiler:**
+        *   Se posiciona como líder e innovador en la gestión de la calidad académica, estableciendo un nuevo referente en el sector.
+    *   **Cost Reducer:**
+        *   Genera un ahorro significativo en costos operativos al optimizar procesos y recursos humanos.
+        *   Permite una asignación más eficiente del presupuesto al reducir la necesidad de retrabajos y la dependencia de procesos manuales.
+
+**2. Autoridades de la EPN (Rectorado, Vicerrectorado Académico, Decanos, Subdecanos, Jefes de Departamento)**
+    *   **Entry Conditions:**
+        *   Asegura que sus facultades y departamentos cumplan con los estándares institucionales y externos (ej. EUR-ACE).
+        *   Proporciona la infraestructura indispensable para la gestión y alineación con los criterios de acreditación internacional.
+    *   **Enablement:**
+        *   Mejora la visibilidad y el posicionamiento de sus facultades y programas a nivel internacional.
+        *   Facilita la expansión de la oferta académica y la firma de convenios y alianzas globales.
+    *   **Differentiator:**
+        *   Obtienen una visión clara y en tiempo real del estado de la calidad de sus programas, facilitando la toma de decisiones estratégicas.
+        *   Consolida la imagen de la EPN como una institución moderna y eficiente en la gestión académica.
+    *   **Spoiler:**
+        *   Consolidan la visión estratégica de la EPN como referente y líder en gestión de la acreditación de ingeniería.
+    *   **Cost Reducer:**
+        *   Mejora la eficiencia de la gestión de sus facultades/departamentos y reduce los riesgos asociados a auditorías de acreditación.
+        *   Permite redirigir recursos (humanos y financieros) de tareas administrativas a actividades de mejora académica e investigación.
+
+**3. DGIP (Dirección General de Investigación y Postgrado)**
+    *   **Entry Conditions:**
+        *   Garantiza la supervisión y gestión centralizada de los requisitos académicos y de calidad de los programas de ingeniería.
+        *   Asegura el cumplimiento de los estándares mínimos para la participación y reconocimiento internacional.
+    *   **Enablement:**
+        *   Facilita la expansión de la oferta académica de postgrado y la firma de convenios internacionales al demostrar calidad certificada.
+    *   **Differentiator:**
+        *   Dispone de un sistema integrado, centralizado y automatizado que eleva el estándar de gestión de la calidad académica institucional.
+    *   **Spoiler:**
+        *   Contribuye a la consolidación de la visión estratégica de la EPN como referente en la gestión de la calidad y acreditación.
+    *   **Cost Reducer:**
+        *   Optimiza los recursos dedicados a la gestión académica a nivel institucional, reduciendo la carga administrativa.
+        *   Minimiza errores y retrabajos en la preparación de la información para procesos de acreditación.
+
+**4. Coordinadores de Carrera**
+    *   **Entry Conditions:**
+        *   Disponen de una herramienta que les permite cumplir con sus responsabilidades de gestión de la calidad del programa de manera eficiente.
+        *   Les facilita la alineación de sus programas con los criterios del sello EUR-ACE.
+    *   **Enablement:**
+        *   El mayor atractivo del programa acreditado (EUR-ACE) les facilita la promoción de su carrera a nivel nacional e internacional.
+    *   **Differentiator:**
+        *   "Encanta" a los coordinadores al simplificar radicalmente un proceso que suele ser engorroso y estresante.
+        *   Reduce la carga administrativa, permitiéndoles enfocarse en la mejora continua de la calidad académica.
+    *   **Spoiler:**
+        *   Al ser parte de un sistema innovador, su rol se moderniza y se vuelve más estratégico en la gestión de la calidad.
+    *   **Cost Reducer:**
+        *   Reduce drásticamente la carga administrativa y el estrés asociado a la preparación y mantenimiento de la acreditación.
+        *   Disminuye el tiempo y esfuerzo requerido para preparar auditorías, generar informes y recopilar evidencia.
+
+**5. Profesores**
+    *   **Entry Conditions:**
+        *   Asegura que sus cursos y metodologías contribuyan efectivamente a los resultados de aprendizaje requeridos por los estándares de acreditación.
+    *   **Enablement:**
+        *   Participan en programas con reconocimiento internacional, lo que puede potenciar sus oportunidades de colaboración e investigación.
+    *   **Differentiator:**
+        *   Se reduce su carga administrativa relacionada con la recolección de evidencia y la alineación curricular, permitiéndoles más tiempo para la docencia e investigación.
+    *   **Spoiler:**
+        *   Son parte de una institución que innova en la gestión de la calidad, lo que puede inspirar nuevas prácticas pedagógicas.
+    *   **Cost Reducer:**
+        *   Menos tiempo dedicado a tareas administrativas repetitivas de recolección de datos y más tiempo para la docencia, investigación y desarrollo profesional.
+
+**6. Estudiantes (Potenciales y Actuales)**
+    *   **Entry Conditions:**
+        *   Tienen la garantía de que su programa cumple con estándares internacionales de calidad y relevancia en ingeniería.
+        *   Están seguros de que el programa cumple con las condiciones básicas para ser reconocido globalmente.
+    *   **Enablement:**
+        *   Mayor atractivo del programa, lo que facilita la movilidad académica y profesional a nivel internacional.
+        *   Mejora las perspectivas de inserción laboral en mercados globales al contar con un título acreditado internacionalmente.
+    *   **Differentiator:**
+        *   Perciben un mayor nivel de organización y compromiso con la calidad educativa, lo que los atrae a elegir la EPN.
+    *   **Spoiler:**
+        *   Estudian en una institución que establece estándares innovadores en la gestión de la calidad, lo que les brinda una ventaja competitiva.
+    *   **Cost Reducer:**
+        *   Menos interrupciones en su educación debido a procesos de acreditación engorrosos.
+        *   Se minimiza el riesgo de que la calidad de su programa se vea comprometida por procesos de gestión ineficientes.
+
+**7. Egresados**
+    *   **Enablement:**
+        *   Aumenta sus oportunidades de empleabilidad y desarrollo profesional a nivel internacional, gracias al reconocimiento global de su título.
+        *   Facilita la convalidación de su título en otros países.
+    *   **Differentiator:**
+        *   Su título tiene un respaldo de calidad superior, diferenciándolos en un mercado laboral competitivo.
+    *   **Spoiler:**
+        *   Son profesionales de una institución líder que ha redefinido el estándar de calidad en ingeniería.
+    *   **Cost Reducer:**
+        *   Reduce los obstáculos y costos asociados a la validación de sus títulos en el extranjero.
+
+**8. Comités de Acreditación Internos**
+    *   **Entry Conditions:**
+        *   Disponen de información organizada y centralizada para la evaluación del cumplimiento de los criterios de acreditación.
+    *   **Differentiator:**
+        *   Su trabajo se simplifica al tener acceso a datos fiables y actualizados en tiempo real.
+    *   **Spoiler:**
+        *   Pueden concentrarse en la mejora continua y el análisis estratégico, en lugar de la recopilación de datos, elevando el valor de su rol.
+    *   **Cost Reducer:**
+        *   Acelera sus procesos de revisión y evaluación al tener la evidencia organizada y automatizada, reduciendo el tiempo de sus miembros.
+        *   Minimiza los errores y la necesidad de solicitar información adicional, aumentando su eficiencia.
+
+**9. Organismos de Acreditación (ej. EUR-ACE)**
+    *   **Entry Conditions:**
+        *   Facilita la evaluación de la EPN al presentar la información de manera estructurada y conforme a sus requisitos.
+    *   **Spoiler:**
+        *   Podrían ver en PoliAcredita un ejemplo de buenas prácticas y eficiencia en la gestión de la información requerida para la acreditación.
+        *   La EPN, con PoliAcredita, puede influir en la definición de mejores prácticas para la gestión de la acreditación en el ámbito de la ingeniería.
+
+---
+
+Esta estructura proporciona una visión integral de cómo PoliAcredita genera valor para cada stakeholder, lo cual es esencial para la comunicación, el diseño de características y la priorización.
 
 <!-- --- -->
