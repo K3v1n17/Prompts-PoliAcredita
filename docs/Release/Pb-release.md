@@ -1791,6 +1791,7 @@ Este plan de release está optimizado para entregar el mayor valor comercial y d
 
 ## Índice
 15. [PROMPT 15](#prompt-15)
+16. [PROMPT 16](#prompt-16)
 
 ---
 
@@ -2015,5 +2016,228 @@ A continuación, presento el Product Backlog del Release, priorizado por depende
 ---
 
 Este Product Backlog del Release de 5 semanas prioriza las funcionalidades que permiten a la EPN establecer la columna vertebral de la acreditación EUR-ACE en PoliAcredita, desde la configuración de la estructura académica y la definición curricular hasta la vinculación con los estándares y un monitoreo inicial. El uso de la IA en el desarrollo facilitará la ejecución eficiente de estos PBIs.
+
+<!-- --- -->
+
+## PROMPT 16
+
+**Fecha:** 14 oct 2025, 06:14 p m.
+
+**Prompt:**
+
+#Rol
+Actúa como un Product Management / Product Owner que es experto en acreditación internacional con el sello EUR-ACE.
+
+#Objetivo
+Definir el product backlog del realse para mi producto software a desarrollar para estableces las funcionalidades principales
+
+#Contexto
+
+La Escuela Politécnica Nacional (EPN) busca acreditar sus carreras bajo el sello EUR-ACE.
+
+La Escuela Politécnica Nacional, o EPN, es una universidad pública, de grado y posgrado, ubicada en Quito (Ecuador). Reconocida por la investigación y la educación en ciencias básicas, ingenierías y tecnología, ofrece programas doctorales, de maestría y de grado. La Escuela Politécnica Nacional (EPN) se organiza en facultades y departamentos, cada uno con funciones específicas para cumplir sus objetivos académicos y de investigación.
+
+Estructura Academica de la EPN
+
+La EPN se estructura principalmente en las siguientes unidades: Facultades: Son las unidades académicas superiores encargadas de planificar, ejecutar, controlar y evaluar los procesos de docencia, investigación y extensión en áreas específicas del conocimiento. Cada facultad está dirigida por un Consejo de Facultad, un Decano y un Subdecano. Tienen capacidad de gestión administrativa y financiera y están integradas por departamentos y carreras afines.
+
+Departamentos: Actúan como las células básicas de la EPN, dependientes de las facultades. Los departamentos son responsables de las actividades de investigación, docencia y extensión en campos específicos. Cada departamento puede diseñar y gestionar programas de maestría y doctorado, y participa en la planificación de los procesos docentes.
+
+La EPN está dividida de la siguiente manera, existen Facultades y por cada facultad pueden existir diferentes carreras cada Facultad tiene profesores, Autoridades (Decano , Subdecano , jefe de Departamento) , Para llegar a ser coordinador, Autoridad primero tiene que ser un profesor, Para las carreras cada carrera tiene un solo coordinador y existe una entidad superior que sería la DGIP que es la encargada de gestionar los aspectos académicos de las facultades , Para la autoridad administra la facultad, el coordinador gestiona la carrera .
+
+- El sello EUR-ACE es una etiqueta de calidad europea que certifica que un programa de estudios de ingeniería cumple con estándares de excelencia y los requisitos profesionales del ámbito europeo. Otorga una garantía internacional de la formación de un ingeniero y facilita la movilidad académica y profesional al reconocer las competencias adquiridas.
+
+- Los objetivos del sistema de acreditación EUR-ACE son certificar la calidad de las carreras de ingeniería en Europa y el mundo, garantizando que cumplen estándares internacionales y asegurando que los titulados poseen conocimientos, habilidades técnicas y competencias profesionales para la empleabilidad. Además, busca facilitar la movilidad académica y profesional de estudiantes y docentes, fortalecer alianzas globales y mejorar la transparencia y el reconocimiento de las titulaciones en el ámbito internacional.
+
+- La Escuela Politécnica Nacional EPN es una universidad pública, de grado y posgrado, ubicada en Quito, Ecuador. Reconocida por la investigación y la educación en ciencias básicas, ingenierías y tecnología, ofrece programas doctorales, de maestría y de grado.
+
+- La Escuela Politécnica Nacional consta de 9 facultades que albergan 6 carreras de tecnología superior, 24 carreras de pregrado, 22 maestrías y 6 doctorados en postgrado. Dichas especialidades pertenecen al campo del conocimiento de las ciencias, ingeniería y formación tecnológica.
+
+- Las carreras de grado, carreras de tecnología superior y carreras de pregrado se conocen como "carreras". Para EUR-ACE son carreras de ingeniería. EUR-ACE certifica programas de estudios de ingeniería o "carreras de ingeniería" para el caso de Ecuador.
+
+- Cada carrera tiene una malla curricular donde están todas las asignaturas que los estudiantes deben cursar. Cada asignatura tiene su resultados de aprendizaje de la asignatura RAA. Cada carrera tiene resultados de aprendizaje de la carrera RA. la carrera tambien cuenta con objetivos de perfil profesionar OPP , El OPP es la promesa institucional que la EPN suscribe ante la sociedad, detallando las capacidades, conocimientos y actitudes específicos que el profesional poseerá al graduarse.
+
+Para Cada carrera existen diferentes Asignaturas , cada una de estas asignaturas cuenta con un programa de estudios académicos (PEA) . Este PEA contiene información relevante de cada asignatura . Por ejemplo : – Unidad Académica “ – Carrera – Unidad de organización curricular – Nombre de la asignatura – Código, Créditos – Resultados de aprendizaje de la asignatura (RAA)
+
+- En una matriz RA-RAA se relacionan los RAA con los RA. En otra matriz EURACE-RA se relacionan los RA con los objetivos EUR-ACE. Con las matrices anteriores podemos definir como las asignaturas ayudan a cumplir los objetivos EUR-ACE.
+
+-En una matriz RA-OPP se relacion los RA con los OPP con esta matriz podemos definir o verificar que los conocimientos ayuden al profesional.
+
+-La universidad está dividida de la siguiente manera, existen Facultades por cada facultad pueden existir diferentes carreras cada Facultad tiene profesores, Autoridades (Decano , Subdecano , jefe de Departamento) , Para llegar a ser coordinador, Autoridad primero tiene que ser un profesor, Para las carreras cada carrera tiene un solo coordinador y existe una entidad superior que sería la DGIP que es la encargada de gestionar los aspectos académicos de las facultades , Para la autoridad administra la facultad, el coordinador gestiona la carrera
+
+
+- El nombre del producto software es PoliAcredita. PoliAcredita es una Aplicación Web.
+estas son las principales hus que tengo hasta el momento.
+
+HU: Gestión de la Estructura Académica Institucional Como Administrador del sistema Quiero gestionar la estructura jerarquica academica de la EPN Para representar fielmente la organización académica institucional
+
+HU: Definir Resultados de Aprendizaje de Asignatura (RAA) Como coordinador de carrera, quiero definir los resultados de aprendizaje esperados por asignatura, para evidenciar el aporte hacia los Resultados de aprendizaje de la carrera.
+
+HU: Definir Resultados de Aprendizaje de Carrera (RA) Como coordinador de carrera o autoridad académica, quiero definir los resultados de aprendizaje de la carrera, para establecer los logros generales del egresado.
+
+HU: Definir Objetivos de Perfil Profesional (OPP) Como autoridad académica o coordinador de carrera, quiero definir los objetivos de perfil profesional, para articular las capacidades del graduado.
+
+HU: Gestionar Estándares EUR-ACE Como responsable de calidad o administrador del sistema, quiero mantener el catálogo de los criterios del sello EUR-ACE, para garantizar la alineación con estándares internacionales.
+
+HU: Vincular RAA con RA Como coordinador de carrera, quiero vincular los resultados de aprendizaje de las asignaturas con los de la carrera, para comprender la contribución de cada asignatura a la formación de la carrera.
+
+HU: Vincular RA con OPP Como coordinador de carrera o responsable de calidad, quiero vincular los resultados de aprendizaje de la carrera con los objetivos de perfil profesional, para verificar que la formación contribuya al perfil del egresado.
+
+HU: Vincular RA con EUR-ACE Como coordinador de carrera o responsable de calidad, quiero vincular los resultados de aprendizaje de la carrera con los criterios EUR-ACE, para evidenciar el cumplimiento de los estándares de calidad internacionales.
+
+HU: Monitorizar el Estado de Acreditación Como autoridad académica o comité de acreditación, quiero monitorizar de forma interactiva el estado del cumplimiento de la acreditación, para facilitar la toma de decisiones informadas.
+
+HU: Generar Informes de Acreditación Como autoridad académica o miembro del comité de acreditación, quiero generar informes detallados del estado de la acreditación, para facilitar la evaluación integral del programa.
+
+HU: Automatizar la Generación de Evidencia Como autoridad académica o responsable de calidad, quiero automatizar la generación de la evidencia requerida, para simplificar la recolección de documentación.
+
+HU: Gestionar Usuarios y Permisos Como administrador del sistema o DGIP, quiero gestionar los usuarios y sus permisos de acceso, para asegurar la seguridad y control del sistema.
+
+
+
+
+
+
+y el spirnt mapping que se esta manejando :
+
+Sprint 1: Fundación Organizacional y Acceso Inicial (Fecha Inicio – Fecha Fin: 06 de Mayo – 12 de Mayo)
+
+Objetivo Comercial: Establecer la estructura jerarquica academica y la gestion de roles .
+Valor Comercial: Proporciona el esqueleto digital de la EPN y habilita la interacción inicial para el proceso de acreditación.
+Dependencias: Ninguna.
+PBI:
+Como Administrador del sistema, Quiero registrar una nueva Facultad, Para organizar la estructura académica de la EPN en el sistema. (8 SP)
+Como Administrador del sistema, Quiero registrar una nueva Carrera dentro de una Facultad existente, Para gestionar la información curricular específica de cada programa de estudio. (13 SP)
+Como Administrador del sistema, Quiero registrar un nuevo usuario en la plataforma, Para permitir el acceso a las personas de la EPN. (8 SP)
+Como Administrador del sistema, Quiero asignar el rol de “Coordinador de Carrera” a un usuario, Para otorgarle permisos para gestionar una carrera específica. (13 SP)
+Como Administrador del sistema, Quiero asignar el rol de “Profesor” a un usuario, Para otorgarle permisos para gestionar sus asignaturas. (13 SP)
+Total SP Sprint 1: 55 SP
+Sprint 2: Definición Curricular Central y Estándares EUR-ACE (Fecha Inicio – Fecha Fin: 13 de Mayo – 19 de Mayo)
+
+Objetivo Comercial: Gestion del perfil profesional (OPP) , perfil de egreso (RA) de las carreras y relacion del perfil de egreso con los estándares EUR-ACE y OPP.
+Valor Comercial: Formaliza digitalmente la visión de egreso de la EPN y establece el marco de calidad EUR-ACE para la autoevaluación.
+Dependencias: Sprint 1 (Necesita carreras y coordinadores asignados).
+PBI:
+Como Coordinador de Carrera, Quiero registrar el Perfil de Egreso (OPP) de mi carrera, Para documentar las habilidades que distinguen al egresado. (13 SP)
+Como Coordinador de Carrera, Quiero registrar los Resultados de Aprendizaje (RA) esperados para mi carrera, Para especificar las competencias globales de los estudiantes. (21 SP)
+Como Coordinador de Carrera, Quiero vincular un Resultado de Aprendizaje (RA) de mi carrera a un Objetivo de Perfil Profesional (OPP), Para demostrar la coherencia entre competencias y perfil final del egresado. (13 SP)
+Como Administrador del sistema, Quiero cargar los criterios y estándares de acreditación EUR-ACE en el sistema, Para disponer de la referencia oficial de evaluación. (21 SP)
+Total SP Sprint 2: 68 SP
+Sprint 3: Detalle de Asignaturas y Mapeo de Contribuciones (Fecha Inicio – Fecha Fin: 20 de Mayo – 26 de Mayo)
+
+Objetivo Comercial: Gestion de programas de estudio de asignaturas (PEA) y relacion a los RA de carrera.
+Valor Comercial: Digitaliza la contribución de cada asignatura a las competencias de la carrera, evidenciando la coherencia curricular interna.
+Dependencias: Sprint 1 (Profesores asignados), Sprint 2 (RA de Carrera definidos).
+PBI:
+Como Profesor, Quiero registrar el programa de estudio de una asignatura, Para digitalizar su descripción oficial y contenido. (21 SP)
+Como Profesor, Quiero registrar los Resultados de Aprendizaje de Asignatura (RAA) para mi asignatura, Para detallar las competencias específicas que el estudiante obtendrá. (13 SP)
+Como Coordinador de Carrera, Quiero vincular un Resultado de Aprendizaje de Asignatura (RAA) a un Resultado de Aprendizaje (RA) de mi carrera, Para entender cómo cada asignatura contribuye a las competencias globales. (13 SP)
+Como Coordinador de Carrera, Quiero especificar el nivel de contribución (Bajo, Medio, Alto) de un RAA a un RA de mi carrera, Para evaluar la intensidad de su aporte. (8 SP)
+Total SP Sprint 3: 55 SP
+Sprint 4: Diagnóstico Preliminar EUR-ACE (Fecha Inicio – Fecha Fin: 27 de Mayo – 02 de Junio)
+
+Objetivo Comercial: Generar reportes de alineación entre los resultados de aprendizaje (RA) de la carrera y los estándares EUR-ACE.
+Valor Comercial: Permite una autoevaluación estratégica y temprana para la acreditación EUR-ACE, identificando brechas y optimizando recursos.
+Dependencias: Sprint 2 (RA de Carrera definidos, estándares EUR-ACE cargados).
+PBI:
+Como Coordinador de Carrera, Quiero generar un informe que muestre cómo los Resultados de Aprendizaje (RA) de mi carrera se alinean con los estándares EUR-ACE, Para evaluar el cumplimiento de los criterios de acreditación. (55 SP)
+Total SP Sprint 4: 55 SP
+
+
+#Accion 
+ACCION : Crea mi product backlog release priorizado y ordenado ubicando de arriba hacia abajo un desarrollo sin depedencias y agregando valor comercial. recuerda que para el desarrollo vamos apoyarnos de la IA . La duracion del release sera de un mes , y el release es de fecha fija. de 4 semanas ADEMAS QUE ESTE EN FOMATO DE HU
+consideraondo 
+nuestro historico de sprint anteriores es :
+
+Velocidad del Equipo: Velocidad Baja: 54 Story Points (sp) Velocidad Alta: 75 Story Points (sp) por sprint
+
+#Formaton de salida 
+
+Formato de salida Este product backlog necesito que contenga lo siguiente:
+
+Muestra tres tablas (en este orden), asignando cada ítem al bucket que corresponda según el acumulado de puntos: Will have (≤ Will-have line) Might have (> Will y ≤ Might-have line) Won’t have (> Might-have line) Columnas de cada tabla: ID Est (sp) Must Prioridad Título Acum (sp) Items sin estimación: lista aparte con ID Título Motivo (sin estimación)
+
+**Respuesta:**
+
+¡Excelente! Como tu Product Manager experto en acreditación EUR-ACE, entiendo la importancia de tener un Product Backlog claro y priorizado para este release de 4 semanas. Nuestro objetivo principal es sentar una base robusta para la acreditación de la EPN, asegurando que las funcionalidades más críticas y de mayor valor se entreguen en este primer ciclo.
+
+He analizado la información proporcionada, tus Historias de Usuario de alto nivel y el mapeo de sprints existentes. Basado en la velocidad del equipo (Baja: 54 SP, Alta: 75 SP), consideraremos una velocidad promedio de **62-65 Story Points por sprint (semana)**. Para un release de 4 semanas, esto nos da una capacidad aproximada de **250 Story Points**. Este será nuestro "Will-have line".
+
+He consolidado los PBIs de tus sprints anteriores, asegurando que se cubran todas las HUs de alto nivel relevantes para este primer lanzamiento y he añadido PBIs cruciales que no estaban explícitamente detallados en los sprints iniciales (como la vinculación RA-EURACE o el dashboard de monitoreo), priorizándolos por dependencias y valor comercial.
+
+---
+
+### **📌 Visión del Producto (Formato Geoffrey Moore)**
+
+> **Para** las autoridades académicas, responsables de calidad, coordinadores de carrera y comités de acreditación de las _carreras de ingeniería_ de la Escuela Politécnica Nacional,
+
+> **que** necesitan medir, evidenciar y mejorar el cumplimiento de los objetivos del sello de calidad internacional EUR-ACE,
+
+> **nuestro** _PoliAcredita_
+
+> **es una** _aplicación web de gestión académica para la trazabilidad de competencias_
+
+> **que** permite vincular los resultados de aprendizaje de las asignaturas (RAA) con los resultados de aprendizaje de la carrera (RA) y, a su vez, con los objetivos EUR-ACE y el perfil profesional (OPP), generando evidencia inicial, trazabilidad visual e informes clave para los procesos de autoevaluación y acreditación.
+
+> **A diferencia de** procesos manuales que generan dispersión documental y complejidad en la evaluación de estándares,
+
+> **nuestro producto** centraliza la información académica, establece la base para la alineación con EUR-ACE y facilita un diagnóstico preliminar del estado de acreditación por carrera.
+
+---
+
+### **Product Backlog del Release (4 Semanas - Capacidad ~250 SP)**
+
+**Valor Comercial del Release:** Este release establece el *fundamento digital y conceptual* de PoliAcredita. Permite a la EPN organizar su estructura académica en el sistema, definir sus perfiles de egreso (OPP, RA), cargar y vincular con los estándares EUR-ACE, y registrar la contribución de las asignaturas. El logro más significativo es la **capacidad de generar un informe de alineación inicial entre los Resultados de Aprendizaje de la Carrera y los estándares EUR-ACE**, lo cual es un hito crucial para el proceso de autoevaluación y para identificar brechas desde el principio, proporcionando valor estratégico inmediato.
+
+---
+
+#### **Will have (≤ 250 SP | Acumulado: 254 SP)**
+*(Elementos esenciales para el primer lanzamiento que, aunque ligeramente superan la capacidad conservadora, son críticos para entregar un valor mínimo viable y funcional para iniciar la autoevaluación EUR-ACE. Se asume que la velocidad del equipo permitirá este ajuste, dado que el informe final era ya parte de un sprint planificado.)*
+
+| ID | Est (sp) | Must | Prioridad | Título | Acum (sp) |
+|----|----------|------|-----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
+| 1  | 8        | S    | 1         | **Como** Administrador del sistema, **Quiero** registrar una nueva Facultad, **Para** organizar la estructura académica de la EPN en el sistema. | 8 |
+| 2  | 13       | S    | 2         | **Como** Administrador del sistema, **Quiero** registrar una nueva Carrera dentro de una Facultad existente, **Para** gestionar la información curricular específica de cada programa de estudio. | 21 |
+| 3  | 8        | S    | 3         | **Como** Administrador del sistema, **Quiero** registrar un nuevo usuario en la plataforma, **Para** permitir el acceso a las personas de la EPN. | 29 |
+| 4  | 13       | S    | 4         | **Como** Administrador del sistema, **Quiero** asignar el rol de “Coordinador de Carrera” a un usuario, **Para** otorgarle permisos para gestionar una carrera específica. | 42 |
+| 5  | 13       | S    | 5         | **Como** Administrador del sistema, **Quiero** asignar el rol de “Profesor” a un usuario, **Para** otorgarle permisos para gestionar sus asignaturas. | 55 |
+| 6  | 13       | S    | 6         | **Como** Coordinador de Carrera, **Quiero** registrar el Perfil de Egreso (OPP) de mi carrera, **Para** documentar las habilidades que distinguen al egresado. | 68 |
+| 7  | 21       | S    | 7         | **Como** Coordinador de Carrera, **Quiero** registrar los Resultados de Aprendizaje (RA) esperados para mi carrera, **Para** especificar las competencias globales de los estudiantes. | 89 |
+| 8  | 21       | S    | 8         | **Como** Administrador del sistema, **Quiero** cargar los criterios y estándares de acreditación EUR-ACE en el sistema, **Para** disponer de la referencia oficial de evaluación. | 110 |
+| 9  | 13       | S    | 9         | **Como** Coordinador de Carrera, **Quiero** vincular un Resultado de Aprendizaje (RA) de mi carrera a un Objetivo de Perfil Profesional (OPP), **Para** demostrar la coherencia entre competencias y perfil final del egresado. | 123 |
+| 10 | 21       | S    | 10        | **Como** Coordinador de Carrera o responsable de calidad, **Quiero** vincular los Resultados de Aprendizaje (RA) de la carrera con los criterios EUR-ACE, **Para** evidenciar el cumplimiento de los estándares de calidad internacionales. | 144 |
+| 11 | 21       | S    | 11        | **Como** Profesor, **Quiero** registrar el programa de estudio de una asignatura, **Para** digitalizar su descripción oficial y contenido. | 165 |
+| 12 | 13       | S    | 12        | **Como** Profesor, **Quiero** registrar los Resultados de Aprendizaje de Asignatura (RAA) para mi asignatura, **Para** detallar las competencias específicas que el estudiante obtendrá. | 178 |
+| 13 | 13       | S    | 13        | **Como** Coordinador de Carrera, **Quiero** vincular un Resultado de Aprendizaje de Asignatura (RAA) a un Resultado de Aprendizaje (RA) de mi carrera, **Para** entender cómo cada asignatura contribuye a las competencias globales. | 191 |
+| 14 | 8        | S    | 14        | **Como** Coordinador de Carrera, **Quiero** especificar el nivel de contribución (Bajo, Medio, Alto) de un RAA a un RA de mi carrera, **Para** evaluar la intensidad de su aporte. | 199 |
+| 15 | 55       | S    | 15        | **Como** Coordinador de Carrera, **Quiero** generar un informe que muestre cómo los Resultados de Aprendizaje (RA) de mi carrera se alinean con los estándares EUR-ACE, **Para** evaluar el cumplimiento de los criterios de acreditación. | 254 |
+
+---
+
+#### **Might have (> 254 SP y ≤ 322 SP)**
+*(Elementos de alto valor que no caben en la capacidad "Will have" de este release, pero que se desarrollarían si se libera capacidad, se descubre una mayor velocidad del equipo, o en el próximo release.)*
+
+| ID | Est (sp) | Must | Prioridad | Título | Acum (sp) |
+|----|----------|------|-----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
+| 16 | 34       | N    | 16        | **Como** Autoridad académica o comité de acreditación, **Quiero** monitorizar de forma interactiva el estado del cumplimiento de la acreditación (dashboard), **Para** facilitar la toma de decisiones informadas. | 288 |
+| 17 | 34       | N    | 17        | **Como** Autoridad académica o responsable de calidad, **Quiero** configurar la generación automática de documentos de evidencia para EUR-ACE, **Para** cumplir con los requisitos de la acreditación. | 322 |
+
+---
+
+#### **Won't have (> 322 SP)**
+*(Elementos que no se considerarán para este release debido a limitaciones de capacidad o menor prioridad para el valor mínimo viable en este ciclo.)*
+
+| ID | Est (sp) | Must | Prioridad | Título | Acum (sp) |
+|----|----------|------|-----------|--------|----------|
+|    |          |      |           | *No hay elementos en esta categoría para este release, ya que todas las HUs de alto nivel han sido categorizadas en Will-have o Might-have.* |          |
+
+---
+
+#### **Items sin estimación:**
+*(Lista de elementos que no han podido ser estimados por falta de información o claridad.)*
+
+| ID | Título | Motivo (sin estimación) |
+|----|--------|-------------------------|
+|    | *No hay elementos sin estimación en este backlog.* | |
 
 <!-- --- -->
