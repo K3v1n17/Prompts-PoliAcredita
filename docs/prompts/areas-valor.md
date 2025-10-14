@@ -8,6 +8,7 @@
 1. [PROMPT 1](#prompt-1)
    - [PROMPT 1.1 (Continuación de PROMPT 1)](#prompt-11-continuacion-de-prompt-1)
 2. [PROMPT 2](#prompt-2)
+3. [PROMPT 3](#prompt-3)
 
 ---
 
@@ -253,5 +254,104 @@ PoliAcredita optimiza recursos clave y reduce los costos operativos y el riesgo 
 ---
 
 Este desglose de las áreas de valor nos proporciona una comprensión clara de por qué PoliAcredita es un producto estratégico y crucial para la EPN, y nos ayudará a priorizar las funcionalidades en nuestro Product Backlog de manera efectiva.
+
+<!-- --- -->
+
+## PROMPT 3
+
+**Fecha:** 14 oct 2025, 04:43 p m.
+
+**Prompt:**
+
+necesito que definas los roles o los stakeholders a los cuales les aplica estas areas de valor
+
+Accion :
+
+Crea de nuevo mis areas de valor
+
+**Respuesta:**
+
+¡Absolutamente! Es fundamental entender no solo *qué* valor se crea, sino *para quién* se crea. Esto nos permite priorizar mejor y diseñar funcionalidades que resuenen directamente con las necesidades de nuestros usuarios y stakeholders clave.
+
+Aquí tienes la definición de las áreas de valor de PoliAcredita, con la especificación de los roles y stakeholders a los que aplica cada beneficio:
+
+---
+
+### Áreas de Valor de PoliAcredita (con Stakeholders Beneficiados)
+
+**1. Entry Conditions:**
+PoliAcredita asegura que la EPN y sus programas de ingeniería cumplan con las condiciones fundamentales y crecientes para participar y ser reconocidos en el ecosistema de calidad de la ingeniería a nivel internacional.
+
+*   **Descripción del Valor:**
+    *   **Cumplimiento Regulatorio y Estándares Mínimos:** PoliAcredita proporciona la infraestructura indispensable para la gestión y alineación de los programas de ingeniería de la EPN con los criterios del sello EUR-ACE. Esto es un requisito creciente para la competitividad y el reconocimiento internacional, evitando sanciones o la exclusión de redes de colaboración. Sin una herramienta que gestione eficientemente estas complejas interconexiones (RAA-RA, RA-OPP, RA-EUR-ACE), el proceso sería insostenible y propenso a errores, poniendo en riesgo la obtención y mantenimiento de la acreditación.
+    *   **Paridad de Procesos:** Ofrece a la EPN un proceso de acreditación moderno y estructurado, elevando el estándar interno a la par de instituciones líderes que utilizan sistemas avanzados para la gestión de la calidad académica.
+
+*   **Stakeholders Beneficiados:**
+    *   **EPN (Institución):** Asegura la continuidad operativa y el cumplimiento de su misión.
+    *   **DGIP:** Garantiza la supervisión y gestión centralizada de los requisitos académicos y de calidad.
+    *   **Autoridades (Decanos, Subdecanos, Jefes de Departamento):** Asegura que sus facultades y departamentos cumplen con los estándares institucionales y externos.
+    *   **Coordinadores de Carrera:** Les permite cumplir con sus responsabilidades de gestión de la calidad del programa.
+    *   **Estudiantes (potenciales y actuales):** Tienen la garantía de que su programa cumple con estándares internacionales de calidad.
+
+**2. Enablement:**
+PoliAcredita no solo ayuda a cumplir, sino que abre nuevas oportunidades estratégicas, fortaleciendo la posición y el alcance de la EPN a nivel global.
+
+*   **Descripción del Valor:**
+    *   **Apertura de Nuevos Mercados Académicos y Profesionales:** Al facilitar la obtención y mantenimiento del sello EUR-ACE, PoliAcredita habilita directamente la movilidad académica y profesional. Esto atrae a más estudiantes internacionales, facilita convenios con universidades extranjeras y aumenta la empleabilidad global de los egresados, posicionando a la EPN como una institución de referencia internacional.
+    *   **Fortalecimiento de Alianzas Globales:** La certificación EUR-ACE, directamente soportada por PoliAcredita, mejora la credibilidad y el atractivo de la EPN para establecer alianzas estratégicas con otras instituciones, organismos de investigación y empresas de ingeniería a nivel mundial.
+
+*   **Stakeholders Beneficiados:**
+    *   **EPN (Institución):** Expande su influencia y prestigio internacional.
+    *   **Estudiantes (actuales y potenciales):** Mayor atractivo del programa, facilita la movilidad y el reconocimiento de sus títulos en el extranjero.
+    *   **Egresados:** Aumenta sus oportunidades de empleabilidad y desarrollo profesional a nivel internacional.
+    *   **DGIP:** Facilita la expansión de la oferta académica y la firma de convenios internacionales.
+    *   **Autoridades (Decanos, Subdecanos):** Mejora la visibilidad y el posicionamiento de sus facultades.
+
+**3. Differentiator:**
+PoliAcredita distinguirá a la EPN por su eficiencia, transparencia y enfoque innovador en la gestión de la calidad educativa, atrayendo a los mejores talentos y fortaleciendo su reputación.
+
+*   **Descripción del Valor:**
+    *   **Diferenciación Competitiva:** Mientras otras instituciones pueden depender de procesos manuales, complejos y aislados, PoliAcredita ofrece un sistema integrado, centralizado y automatizado. La capacidad de monitorizar el estado de acreditación en tiempo real, generar informes personalizados y automatizar la evidencia, proporciona una ventaja sustancial en eficiencia, precisión y velocidad, diferenciando a la EPN de otras universidades que compiten por el mismo talento estudiantil y reconocimiento internacional.
+    *   **Experiencia del Usuario (Stakeholders Internos):** Al simplificar radicalmente un proceso que suele ser engorroso y estresante, PoliAcredita "encanta" a los coordinadores de carrera, profesores y autoridades académicas. Reduce la carga administrativa y la frustración, permitiendo al personal enfocarse en la mejora continua de la calidad académica en lugar de la recolección manual de datos.
+
+*   **Stakeholders Beneficiados:**
+    *   **EPN (Institución):** Fortalece su marca y reputación como líder en calidad educativa y eficiencia.
+    *   **Estudiantes (potenciales):** Perciben un mayor nivel de organización y compromiso con la calidad, lo que los atrae a elegir la EPN.
+    *   **Coordinadores de Carrera:** Disponen de una herramienta que simplifica su gestión, permitiéndoles centrarse en la calidad pedagógica.
+    *   **Autoridades (Decanos, Subdecanos):** Obtienen una visión clara y en tiempo real del estado de la calidad, facilitando la toma de decisiones.
+    *   **Profesores:** Se reduce su carga administrativa relacionada con la recolección de evidencia y la alineación curricular.
+
+**4. Spoiler:**
+PoliAcredita tiene el potencial de redefinir las expectativas sobre cómo se gestiona la acreditación en el ámbito de la ingeniería, impactando el estándar de la industria.
+
+*   **Descripción del Valor:**
+    *   **Elevar el Estándar de la Industria:** Al demostrar un manejo tan avanzado y eficiente del proceso EUR-ACE, la EPN, a través de PoliAcredita, puede establecer un nuevo referente para la gestión de la acreditación de ingeniería, tanto a nivel nacional como regional. Esto podría presionar a otras instituciones a mejorar sus propios procesos, impactando indirectamente en la calidad general de la educación en ingeniería.
+    *   **Desvalorizar Métodos Tradicionales:** La eficiencia y transparencia que ofrece PoliAcredita hacen que los métodos manuales y fragmentados de gestión de la acreditación de la competencia parezcan obsoletos e ineficaces, creando una brecha significativa en la capacidad de respuesta y agilidad en el mercado académico.
+
+*   **Stakeholders Beneficiados:**
+    *   **EPN (Institución):** Se posiciona como líder e innovador en gestión de la calidad académica.
+    *   **Autoridades de la EPN (Rectorado, Vicerrectorado Académico, DGIP):** Consolidan la visión estratégica de la EPN como referente.
+    *   **Organismos de Acreditación (como EUR-ACE):** Podrían ver en PoliAcredita un ejemplo de buenas prácticas y eficiencia en la gestión de la información requerida.
+
+**5. Cost Reducer:**
+PoliAcredita optimiza recursos clave y reduce los costos operativos, el riesgo y el tiempo asociado a la preparación y el mantenimiento de la acreditación.
+
+*   **Descripción del Valor:**
+    *   **Optimización de Recursos Humanos:** Al automatizar la vinculación de elementos curriculares, la generación de evidencia y la creación de informes, PoliAcredita libera una cantidad considerable de tiempo del personal académico y administrativo (coordinadores, profesores, asistentes, comités de acreditación). Este tiempo se puede redirigir a actividades de enseñanza, investigación o mejora académica, en lugar de tareas administrativas repetitivas.
+    *   **Reducción de Tiempos y Esfuerzos:** Disminuye drásticamente el tiempo y el esfuerzo requerido para preparar auditorías de acreditación, responder a solicitudes de información y subsanar observaciones, lo que se traduce en ahorro de horas-hombre y recursos materiales.
+    *   **Minimización de Errores y Retrabajos:** La centralización y estandarización de la información, junto con la visualización clara de las matrices de relación, reduce la probabilidad de errores y la necesidad de costosos retrabajos en el proceso de acreditación.
+    *   **Incremento de Expertise Institucional:** El sistema actúa como un repositorio de conocimiento y una guía metodológica, lo que reduce la dependencia de individuos específicos y asegura que el know-how de la acreditación se mantenga y crezca a nivel institucional.
+
+*   **Stakeholders Beneficiados:**
+    *   **EPN (Institución):** Ahorro significativo en costos operativos y asignación más eficiente del presupuesto.
+    *   **Coordinadores de Carrera:** Reduce drásticamente la carga administrativa y el estrés asociado a la preparación de la acreditación.
+    *   **Profesores:** Menos tiempo dedicado a tareas administrativas de recolección de datos y más tiempo para la docencia e investigación.
+    *   **DGIP:** Optimiza los recursos dedicados a la gestión académica a nivel institucional.
+    *   **Autoridades (Decanos, Subdecanos):** Mejora la eficiencia de la gestión de sus facultades y reduce los riesgos de auditoría.
+    *   **Comités de Acreditación Internos:** Disponen de información organizada y accesible, agilizando sus procesos de revisión y evaluación.
+
+---
+
+Este enfoque nos da una visión clara de cómo cada aspecto de PoliAcredita se traduce en valor real para los diferentes actores dentro y fuera de la EPN. Esta comprensión será vital para guiar el desarrollo del producto y asegurar que cada funcionalidad que construyamos esté alineada con estos objetivos de valor.
 
 <!-- --- -->
