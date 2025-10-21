@@ -2639,7 +2639,7 @@ Aquí tienes el Sprint Mapping revisado, diseñado para entregar valor increment
 **Sprint 4: Diagnóstico Preliminar EUR-ACE**
 **(Fecha Inicio – Fecha Fin: 27 de Mayo – 02 de Junio)**
 
-*   **Objetivo Comercial:** Generar reportes  de alineación entre los resultados de aprendizaje (RA) de la carrera y los estándares EUR-ACE.
+*   **Objetivo Comercial:** Generar reportes  de alineación entre los resultados de aprendizaje (RA) de la carrera con los estándares EUR-ACE y los objetivos de carrera OPP .
 *   **Valor Comercial:** Permite una autoevaluación estratégica y temprana para la acreditación EUR-ACE, identificando brechas y optimizando recursos.
 *   **Dependencias:** Sprint 2 (RA de Carrera definidos, estándares EUR-ACE cargados).
 *   **PBI:**
