@@ -22,6 +22,7 @@ Este sitio contiene los prompts organizados para el proyecto PoliAcredita.
 - [Sprint Planning ](Sprints/Sprint-Planning1.md)
 - [Sprint Planning 2 ](Sprints/Sprint-Planning2.md)
 - [Sprint Planning 3 ](Sprints/Sprint-Planning3.md)
+- [Sprint Planning 4 ](Sprints/Sprint-Planning4.md)
 
 ---- DOR Y DOD
 - [Definition of ready](DOR/DOR.md)
