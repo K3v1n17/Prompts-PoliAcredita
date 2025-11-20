@@ -223,3 +223,21 @@ Cumple con las normas institucionales de la EPN y lineamientos del sello EUR-ACE
 Cumple con requisitos de seguridad, privacidad y rendimiento definidos para el sistema.
 
 No hay deuda técnica no justificada pendiente al finalizar el Sprint.
+
+
+| Ítem                                            | Estado |
+|-------------------------------------------------|:------:|
+| El incremento cumple los criterios de aceptación | ☐ |
+| Code Review aprobado en la rama principal        | ☐ |
+| Código implementado según la historia            | ☐ |
+| Dependencias sin vulnerabilidades                | ☐ |
+| Endpoints documentados y versionados             | ☐ |
+| Pruebas unitarias ejecutadas (≥80% cobertura)    | ☐ |
+| Pruebas de integración aprobadas                 | ☐ |
+| Pruebas funcionales / aceptación aprobadas       | ☐ |
+| Código integrado en CI/CD                        | ☐ |
+| Pipelines ejecutados sin errores                 | ☐ |
+| Despliegue en entorno correspondiente            | ☐ |
+| Reportes automáticos generados                   | ☐ |
+| Infraestructura actualizada mediante IaC          | ☐ |
+
