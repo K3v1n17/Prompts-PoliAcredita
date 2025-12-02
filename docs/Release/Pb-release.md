@@ -2048,18 +2048,18 @@ Muestra tres tablas (en este orden), asignando cada ítem al bucket que correspo
 
 ¡Excelente! Como tu Product Manager experto en acreditación EUR-ACE, entiendo la importancia de tener un Product Backlog claro y priorizado para este release de 4 semanas. Nuestro objetivo principal es sentar una base robusta para la acreditación de la EPN, asegurando que las funcionalidades más críticas y de mayor valor se entreguen en este primer ciclo.
 
-He analizado la información proporcionada, tus Historias de Usuario de alto nivel y el mapeo de sprints existentes. Basado en la velocidad del equipo (Baja: 54 SP, Alta: 75 SP), consideraremos una velocidad promedio de **62-65 Story Points por sprint (semana)**. Para un release de 4 semanas, esto nos da una capacidad aproximada de **250 Story Points**. Este será nuestro "Will-have line".
+He analizado la información proporcionada, tus Historias de Usuario de alto nivel y el mapeo de sprints existentes. Basado en la velocidad del equipo (Baja: 54 SP, Alta: 75 SP), consideraremos una velocidad promedio de **54 - 75 Story Points por sprint (semana)**. Para un release de 4 semanas, esto nos da una capacidad aproximada de **216 Story Points**. Este será nuestro "Will-have line".
 
 He consolidado los PBIs de tus sprints anteriores, asegurando que se cubran todas las HUs de alto nivel relevantes para este primer lanzamiento y he añadido PBIs cruciales que no estaban explícitamente detallados en los sprints iniciales (como la vinculación RA-EURACE o el dashboard de monitoreo), priorizándolos por dependencias y valor comercial.
 
 
-### **Product Backlog del Release (4 Semanas - Capacidad ~250 SP)**
+### **Product Backlog del Release (4 Semanas - Capacidad ~216 SP)**
 
 **Valor Comercial del Release:** Este release establece el *fundamento digital y conceptual* de PoliAcredita. Permite a la EPN organizar su estructura académica en el sistema, definir sus perfiles de egreso (OPP, RA), cargar y vincular con los estándares EUR-ACE, y registrar la contribución de las asignaturas. El logro más significativo es la **capacidad de generar un informe de alineación inicial entre los Resultados de Aprendizaje de la Carrera y los estándares EUR-ACE**, lo cual es un hito crucial para el proceso de autoevaluación y para identificar brechas desde el principio, proporcionando valor estratégico inmediato.
 
 ---
 
-#### **Will have (≤ 250 SP | Acumulado: 254 SP)**
+#### **Will have (≤ 216 SP | Acumulado: 212 SP)**
 *(Elementos esenciales para el primer lanzamiento que, aunque ligeramente superan la capacidad conservadora, son críticos para entregar un valor mínimo viable y funcional para iniciar la autoevaluación EUR-ACE. Se asume que la velocidad del equipo permitirá este ajuste, dado que el informe final era ya parte de un sprint planificado.)*
 
 | ID | Est (sp) | Must | Prioridad | Título | Acum (sp) |
@@ -2078,21 +2078,21 @@ He consolidado los PBIs de tus sprints anteriores, asegurando que se cubran toda
 | 12 | 13       | S    | 12        | **Como** Profesor, **Quiero** registrar los Resultados de Aprendizaje de Asignatura (RAA) para mi asignatura, **Para** detallar las competencias específicas que el estudiante obtendrá. | 178 |
 | 13 | 13       | S    | 13        | **Como** Coordinador de Carrera, **Quiero** vincular un Resultado de Aprendizaje de Asignatura (RAA) a un Resultado de Aprendizaje (RA) de mi carrera, **Para** entender cómo cada asignatura contribuye a las competencias globales. | 191 |
 | 14 | 8        | S    | 14        | **Como** Coordinador de Carrera, **Quiero** especificar el nivel de contribución (Bajo, Medio, Alto) de un RAA a un RA de mi carrera, **Para** evaluar la intensidad de su aporte. | 199 |
-| 15 | 55       | S    | 15        | **Como** Coordinador de Carrera, **Quiero** generar un informe que muestre cómo los Resultados de Aprendizaje (RA) de mi carrera se alinean con los estándares EUR-ACE, **Para** evaluar el cumplimiento de los criterios de acreditación. | 254 |
+| 15 | 13       | S    | 15        | **Como** Coordinador de Carrera, **Quiero** generar un informe que muestre cómo los Resultados de Aprendizaje (RA) de mi carrera se alinean con los estándares EUR-ACE, **Para** evaluar el cumplimiento de los criterios de acreditación. | 212 |
 
 ---
 
-#### **Might have (> 254 SP y ≤ 322 SP)**
+#### **Might have (> 212 SP y ≤ 300 SP)**
 *(Elementos de alto valor que no caben en la capacidad "Will have" de este release, pero que se desarrollarían si se libera capacidad, se descubre una mayor velocidad del equipo, o en el próximo release.)*
 
 | ID | Est (sp) | Must | Prioridad | Título | Acum (sp) |
 |----|----------|------|-----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
-| 16 | 34       | N    | 16        | **Como** Autoridad académica o comité de acreditación, **Quiero** monitorizar de forma interactiva el estado del cumplimiento de la acreditación (dashboard), **Para** facilitar la toma de decisiones informadas. | 288 |
-| 17 | 34       | N    | 17        | **Como** Autoridad académica o responsable de calidad, **Quiero** configurar la generación automática de documentos de evidencia para EUR-ACE, **Para** cumplir con los requisitos de la acreditación. | 322 |
+| 16 | 34       | N    | 16        | **Como** Autoridad académica o comité de acreditación, **Quiero** monitorizar de forma interactiva el estado del cumplimiento de la acreditación (dashboard), **Para** facilitar la toma de decisiones informadas. | 246 |
+| 17 | 34       | N    | 17        | **Como** Autoridad académica o responsable de calidad, **Quiero** configurar la generación automática de documentos de evidencia para EUR-ACE, **Para** cumplir con los requisitos de la acreditación. | 280 |
 
 ---
 
-#### **Won't have (> 322 SP)**
+#### **Won't have (> 300 SP)**
 *(Elementos que no se considerarán para este release debido a limitaciones de capacidad o menor prioridad para el valor mínimo viable en este ciclo.)*
 
 | ID | Est (sp) | Must | Prioridad | Título | Acum (sp) |
