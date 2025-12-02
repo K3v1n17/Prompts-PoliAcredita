@@ -1872,51 +1872,6 @@ HU: Automatizar la Generación de Evidencia Como autoridad académica o responsa
 HU: Gestionar Usuarios y Permisos Como administrador del sistema o DGIP, quiero gestionar los usuarios y sus permisos de acceso, para asegurar la seguridad y control del sistema.
 
 
-y el spirnt mapping que se esta manejando :
-
-Sprint 1: Fundación Organizacional y Acceso Inicial (Fecha Inicio – Fecha Fin: 06 de Mayo – 12 de Mayo)
-
-Objetivo Comercial: Establecer la estructura jerarquica academica y la gestion de roles .
-Valor Comercial: Proporciona el esqueleto digital de la EPN y habilita la interacción inicial para el proceso de acreditación.
-Dependencias: Ninguna.
-PBI:
-Como Administrador del sistema, Quiero registrar una nueva Facultad, Para organizar la estructura académica de la EPN en el sistema. (8 SP)
-Como Administrador del sistema, Quiero registrar una nueva Carrera dentro de una Facultad existente, Para gestionar la información curricular específica de cada programa de estudio. (13 SP)
-Como Administrador del sistema, Quiero registrar un nuevo usuario en la plataforma, Para permitir el acceso a las personas de la EPN. (8 SP)
-Como Administrador del sistema, Quiero asignar el rol de “Coordinador de Carrera” a un usuario, Para otorgarle permisos para gestionar una carrera específica. (13 SP)
-Como Administrador del sistema, Quiero asignar el rol de “Profesor” a un usuario, Para otorgarle permisos para gestionar sus asignaturas. (13 SP)
-Total SP Sprint 1: 55 SP
-Sprint 2: Definición Curricular Central y Estándares EUR-ACE (Fecha Inicio – Fecha Fin: 13 de Mayo – 19 de Mayo)
-
-Objetivo Comercial: Gestion del perfil profesional (OPP) , perfil de egreso (RA) de las carreras y relacion del perfil de egreso con los estándares EUR-ACE y OPP.
-Valor Comercial: Formaliza digitalmente la visión de egreso de la EPN y establece el marco de calidad EUR-ACE para la autoevaluación.
-Dependencias: Sprint 1 (Necesita carreras y coordinadores asignados).
-PBI:
-Como Coordinador de Carrera, Quiero registrar el Perfil de Egreso (OPP) de mi carrera, Para documentar las habilidades que distinguen al egresado. (13 SP)
-Como Coordinador de Carrera, Quiero registrar los Resultados de Aprendizaje (RA) esperados para mi carrera, Para especificar las competencias globales de los estudiantes. (21 SP)
-Como Coordinador de Carrera, Quiero vincular un Resultado de Aprendizaje (RA) de mi carrera a un Objetivo de Perfil Profesional (OPP), Para demostrar la coherencia entre competencias y perfil final del egresado. (13 SP)
-Como Administrador del sistema, Quiero cargar los criterios y estándares de acreditación EUR-ACE en el sistema, Para disponer de la referencia oficial de evaluación. (21 SP)
-Total SP Sprint 2: 68 SP
-Sprint 3: Detalle de Asignaturas y Mapeo de Contribuciones (Fecha Inicio – Fecha Fin: 20 de Mayo – 26 de Mayo)
-
-Objetivo Comercial: Gestion de programas de estudio de asignaturas (PEA) y relacion a los RA de carrera.
-Valor Comercial: Digitaliza la contribución de cada asignatura a las competencias de la carrera, evidenciando la coherencia curricular interna.
-Dependencias: Sprint 1 (Profesores asignados), Sprint 2 (RA de Carrera definidos).
-PBI:
-Como Profesor, Quiero registrar el programa de estudio de una asignatura, Para digitalizar su descripción oficial y contenido. (21 SP)
-Como Profesor, Quiero registrar los Resultados de Aprendizaje de Asignatura (RAA) para mi asignatura, Para detallar las competencias específicas que el estudiante obtendrá. (13 SP)
-Como Coordinador de Carrera, Quiero vincular un Resultado de Aprendizaje de Asignatura (RAA) a un Resultado de Aprendizaje (RA) de mi carrera, Para entender cómo cada asignatura contribuye a las competencias globales. (13 SP)
-Como Coordinador de Carrera, Quiero especificar el nivel de contribución (Bajo, Medio, Alto) de un RAA a un RA de mi carrera, Para evaluar la intensidad de su aporte. (8 SP)
-Total SP Sprint 3: 55 SP
-Sprint 4: Diagnóstico Preliminar EUR-ACE (Fecha Inicio – Fecha Fin: 27 de Mayo – 02 de Junio)
-
-Objetivo Comercial: Generar reportes de alineación entre los resultados de aprendizaje (RA) de la carrera y los estándares EUR-ACE.
-Valor Comercial: Permite una autoevaluación estratégica y temprana para la acreditación EUR-ACE, identificando brechas y optimizando recursos.
-Dependencias: Sprint 2 (RA de Carrera definidos, estándares EUR-ACE cargados).
-PBI:
-Como Coordinador de Carrera, Quiero generar un informe que muestre cómo los Resultados de Aprendizaje (RA) de mi carrera se alinean con los estándares EUR-ACE, Para evaluar el cumplimiento de los criterios de acreditación. (55 SP)
-Total SP Sprint 4: 55 SP
-
 
 #Accion 
 ACCION : Crea mi product backlog release priorizado y ordenado ubicando de arriba hacia abajo un desarrollo sin depedencias y agregando valor comercial. recuerda que para el desarrollo vamos apoyarnos de la IA . La duracion del release sera de un mes , y el release es de fecha fija. de 5 semanas ADEMAS QUE ESTE EN FOMATO DE HU
@@ -1938,25 +1893,7 @@ Considerando la duración del release de **5 semanas** y la velocidad de desarro
 
 A continuación, presento el Product Backlog del Release, priorizado por dependencias, valor comercial y facilidad de implementación, ubicando los elementos en los buckets de "Will have", "Might have" y "Won't have" para este período.
 
----
 
-### **📌 Visión del producto (formato Geoffrey Moore)**
-
-> **Para** las autoridades académicas, responsables de calidad, coordinadores y comités de acreditación de las _carreras de ingeniería_ de la Escuela Politécnica Nacional,
-
-> **que** necesitan medir, evidenciar y mejorar el cumplimiento de los objetivos del sello de calidad internacional EUR-ACE,
-
-> **nuestro** _PoliAcredita_
-
-> **es una** _aplicación web de gestión académica para la trazabilidad de competencias_
-
-> **que** permite vincular los resultados de aprendizaje de las asignaturas (RAA) con los resultados de aprendizaje de la carrera (RA) y, a su vez, con los objetivos EUR-ACE, generando evidencia automatizada, trazabilidad visual e informes para procesos de acreditación.
-
-> **A diferencia de** hojas de cálculo manuales, documentos Word dispersos o sistemas administrativos que no permiten evidenciar el cumplimiento de estándares internacionales,
-
-> **nuestro producto** centraliza la información, automatiza la generación de matrices EUR-ACE-RA y RA-RAA, y facilita el seguimiento de brechas o áreas de mejora por carrera, asignatura y objetivo de acreditación.
-
----
 
 ### **Product Backlog del Release (5 Semanas - Capacidad ~290 SP)**
 
@@ -2094,56 +2031,6 @@ HU: Automatizar la Generación de Evidencia Como autoridad académica o responsa
 HU: Gestionar Usuarios y Permisos Como administrador del sistema o DGIP, quiero gestionar los usuarios y sus permisos de acceso, para asegurar la seguridad y control del sistema.
 
 
-
-
-
-
-y el spirnt mapping que se esta manejando :
-
-Sprint 1: Fundación Organizacional y Acceso Inicial (Fecha Inicio – Fecha Fin: 06 de Mayo – 12 de Mayo)
-
-Objetivo Comercial: Establecer la estructura jerarquica academica y la gestion de roles .
-Valor Comercial: Proporciona el esqueleto digital de la EPN y habilita la interacción inicial para el proceso de acreditación.
-Dependencias: Ninguna.
-PBI:
-Como Administrador del sistema, Quiero registrar una nueva Facultad, Para organizar la estructura académica de la EPN en el sistema. (8 SP)
-Como Administrador del sistema, Quiero registrar una nueva Carrera dentro de una Facultad existente, Para gestionar la información curricular específica de cada programa de estudio. (13 SP)
-Como Administrador del sistema, Quiero registrar un nuevo usuario en la plataforma, Para permitir el acceso a las personas de la EPN. (8 SP)
-Como Administrador del sistema, Quiero asignar el rol de “Coordinador de Carrera” a un usuario, Para otorgarle permisos para gestionar una carrera específica. (13 SP)
-Como Administrador del sistema, Quiero asignar el rol de “Profesor” a un usuario, Para otorgarle permisos para gestionar sus asignaturas. (13 SP)
-Total SP Sprint 1: 55 SP
-Sprint 2: Definición Curricular Central y Estándares EUR-ACE (Fecha Inicio – Fecha Fin: 13 de Mayo – 19 de Mayo)
-
-Objetivo Comercial: Gestion del perfil profesional (OPP) , perfil de egreso (RA) de las carreras y relacion del perfil de egreso con los estándares EUR-ACE y OPP.
-Valor Comercial: Formaliza digitalmente la visión de egreso de la EPN y establece el marco de calidad EUR-ACE para la autoevaluación.
-Dependencias: Sprint 1 (Necesita carreras y coordinadores asignados).
-PBI:
-Como Coordinador de Carrera, Quiero registrar el Perfil de Egreso (OPP) de mi carrera, Para documentar las habilidades que distinguen al egresado. (13 SP)
-Como Coordinador de Carrera, Quiero registrar los Resultados de Aprendizaje (RA) esperados para mi carrera, Para especificar las competencias globales de los estudiantes. (21 SP)
-Como Coordinador de Carrera, Quiero vincular un Resultado de Aprendizaje (RA) de mi carrera a un Objetivo de Perfil Profesional (OPP), Para demostrar la coherencia entre competencias y perfil final del egresado. (13 SP)
-Como Administrador del sistema, Quiero cargar los criterios y estándares de acreditación EUR-ACE en el sistema, Para disponer de la referencia oficial de evaluación. (21 SP)
-Total SP Sprint 2: 68 SP
-Sprint 3: Detalle de Asignaturas y Mapeo de Contribuciones (Fecha Inicio – Fecha Fin: 20 de Mayo – 26 de Mayo)
-
-Objetivo Comercial: Gestion de programas de estudio de asignaturas (PEA) y relacion a los RA de carrera.
-Valor Comercial: Digitaliza la contribución de cada asignatura a las competencias de la carrera, evidenciando la coherencia curricular interna.
-Dependencias: Sprint 1 (Profesores asignados), Sprint 2 (RA de Carrera definidos).
-PBI:
-Como Profesor, Quiero registrar el programa de estudio de una asignatura, Para digitalizar su descripción oficial y contenido. (21 SP)
-Como Profesor, Quiero registrar los Resultados de Aprendizaje de Asignatura (RAA) para mi asignatura, Para detallar las competencias específicas que el estudiante obtendrá. (13 SP)
-Como Coordinador de Carrera, Quiero vincular un Resultado de Aprendizaje de Asignatura (RAA) a un Resultado de Aprendizaje (RA) de mi carrera, Para entender cómo cada asignatura contribuye a las competencias globales. (13 SP)
-Como Coordinador de Carrera, Quiero especificar el nivel de contribución (Bajo, Medio, Alto) de un RAA a un RA de mi carrera, Para evaluar la intensidad de su aporte. (8 SP)
-Total SP Sprint 3: 55 SP
-Sprint 4: Diagnóstico Preliminar EUR-ACE (Fecha Inicio – Fecha Fin: 27 de Mayo – 02 de Junio)
-
-Objetivo Comercial: Generar reportes de alineación entre los resultados de aprendizaje (RA) de la carrera y los estándares EUR-ACE.
-Valor Comercial: Permite una autoevaluación estratégica y temprana para la acreditación EUR-ACE, identificando brechas y optimizando recursos.
-Dependencias: Sprint 2 (RA de Carrera definidos, estándares EUR-ACE cargados).
-PBI:
-Como Coordinador de Carrera, Quiero generar un informe que muestre cómo los Resultados de Aprendizaje (RA) de mi carrera se alinean con los estándares EUR-ACE, Para evaluar el cumplimiento de los criterios de acreditación. (55 SP)
-Total SP Sprint 4: 55 SP
-
-
 #Accion 
 ACCION : Crea mi product backlog release priorizado y ordenado ubicando de arriba hacia abajo un desarrollo sin depedencias y agregando valor comercial. recuerda que para el desarrollo vamos apoyarnos de la IA . La duracion del release sera de un mes , y el release es de fecha fija. de 4 semanas ADEMAS QUE ESTE EN FOMATO DE HU
 consideraondo 
@@ -2165,25 +2052,6 @@ He analizado la información proporcionada, tus Historias de Usuario de alto niv
 
 He consolidado los PBIs de tus sprints anteriores, asegurando que se cubran todas las HUs de alto nivel relevantes para este primer lanzamiento y he añadido PBIs cruciales que no estaban explícitamente detallados en los sprints iniciales (como la vinculación RA-EURACE o el dashboard de monitoreo), priorizándolos por dependencias y valor comercial.
 
----
-
-### **📌 Visión del Producto (Formato Geoffrey Moore)**
-
-> **Para** las autoridades académicas, responsables de calidad, coordinadores de carrera y comités de acreditación de las _carreras de ingeniería_ de la Escuela Politécnica Nacional,
-
-> **que** necesitan medir, evidenciar y mejorar el cumplimiento de los objetivos del sello de calidad internacional EUR-ACE,
-
-> **nuestro** _PoliAcredita_
-
-> **es una** _aplicación web de gestión académica para la trazabilidad de competencias_
-
-> **que** permite vincular los resultados de aprendizaje de las asignaturas (RAA) con los resultados de aprendizaje de la carrera (RA) y, a su vez, con los objetivos EUR-ACE y el perfil profesional (OPP), generando evidencia inicial, trazabilidad visual e informes clave para los procesos de autoevaluación y acreditación.
-
-> **A diferencia de** procesos manuales que generan dispersión documental y complejidad en la evaluación de estándares,
-
-> **nuestro producto** centraliza la información académica, establece la base para la alineación con EUR-ACE y facilita un diagnóstico preliminar del estado de acreditación por carrera.
-
----
 
 ### **Product Backlog del Release (4 Semanas - Capacidad ~250 SP)**
 
