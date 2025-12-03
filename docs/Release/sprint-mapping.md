@@ -2448,71 +2448,59 @@ También para Evaluar los OPP se verifica como los RA aportan a los OPP.
 Para lograr la acreditación es importante los RA ya que con estos se verifica los objetivos EUR-ACE Es decir se verifica que los RA cumplan con los objetivos EURACE.
 
 
-te proprciono el conjunto de mrfs definidos :
-MRF Set 1: Infraestructura Básica y Gestión de Usuarios
-(Establece el esqueleto del sistema y quiénes pueden interactuar con él.)
+te proporciono el product backlo del release s :
 
-MRF 1.1: Registro de Facultades
-Como: Administrador del sistema
-Quiero: Registrar una nueva Facultad
-Para: Poder organizar la estructura académica de la EPN en el sistema.
-MRF 1.2: Registro de Carreras
-Como: Administrador del sistema
-Quiero: Registrar una nueva Carrera dentro de una Facultad existente
-Para: Poder gestionar la información curricular específica de cada programa de estudio.
-MRF 1.3: Registro de Usuarios
-Como: Administrador del sistema
-Quiero: Registrar un nuevo usuario en la plataforma
-Para: Permitir que las personas de la EPN accedan y utilicen el sistema.
-MRF 1.4: Asignación de Rol de Coordinador de Carrera
-Como: Administrador del sistema
-Quiero: Asignar el rol de “Coordinador de Carrera” a un usuario
-Para: Otorgarle permisos para gestionar la información de una carrera específica.
-MRF 1.5: Asignación de Rol de Profesor
-Como: Administrador del sistema
-Quiero: Asignar el rol de “Profesor” a un usuario
-Para: Otorgarle permisos para gestionar la información de sus asignaturas.
-MRF Set 2: Definición y Alineación Curricular Interna
-(Permite a la EPN digitalizar y verificar la coherencia interna de su currículo.)
 
-MRF 2.1: Definición del Perfil de Egreso (OPP) de una Carrera
-Como: Coordinador de Carrera
-Quiero: Registrar el Perfil de Egreso (OPP) de mi carrera
-Para: Documentar el conjunto de habilidades y conocimientos que distinguen al egresado.
-MRF 2.2: Definición de Resultados de Aprendizaje (RA) de Carrera
-Como: Coordinador de Carrera
-Quiero: Registrar los Resultados de Aprendizaje (RA) esperados para mi carrera
-Para: Especificar las competencias globales que los estudiantes deben adquirir al egresar.
-MRF 2.3: Registro de Programa de Estudio por Asignatura (PEA)
-Como: Profesor
-Quiero: Registrar el programa de estudio de una asignatura
-Para: Digitalizar la descripción oficial y el contenido de la materia.
-MRF 2.4: Definición de Resultados de Aprendizaje de Asignatura (RAA)
-Como: Profesor
-Quiero: Registrar los Resultados de Aprendizaje de Asignatura (RAA) para mi asignatura
-Para: Detallar las competencias específicas que el estudiante obtendrá al finalizar la materia.
-MRF 2.5: Mapeo de RAA a RA de Carrera
-Como: Coordinador de Carrera
-Quiero: Vincular un Resultado de Aprendizaje de Asignatura (RAA) a un Resultado de Aprendizaje (RA) de mi carrera
-Para: Entender cómo cada asignatura contribuye a las competencias globales de la carrera.
-MRF 2.6: Indicación de Nivel de Contribución de RAA a RA
-Como: Coordinador de Carrera
-Quiero: Especificar el nivel de contribución (Bajo, Medio, Alto) de un RAA a un RA de mi carrera
-Para: Evaluar la intensidad de la aportación de cada asignatura al perfil de egreso.
-MRF 2.7: Vinculación de RA de Carrera a Perfil Profesional (OPP)
-Como: Coordinador de Carrera
-Quiero: Vincular un Resultado de Aprendizaje (RA) de mi carrera a un Objetivo de Perfil Profesional (OPP)
-Para: Demostrar la coherencia entre las competencias esperadas y el perfil final del egresado.
-MRF Set 3: Verificación Preliminar de Acreditación EUR-ACE
-(Permite a la EPN iniciar la autoevaluación frente a los estándares EUR-ACE.)
+#### **Will have (≤ 216 SP | Acumulado: 212 SP)**
+*(Elementos esenciales para el primer lanzamiento que, aunque ligeramente superan la capacidad conservadora, son críticos para entregar un valor mínimo viable y funcional para iniciar la autoevaluación EUR-ACE. Se asume que la velocidad del equipo permitirá este ajuste, dado que el informe final era ya parte de un sprint planificado.)*
 
-MRF 3.1: Carga de Estándares de Acreditación EUR-ACE
-Como: Administrador del sistema
-Quiero: Cargar los criterios y estándares de acreditación EUR-ACE en el sistema
-Para: Disponer de la referencia oficial para la evaluación de la calidad.
-MRF 3.2: Generación de Informe de Cumplimiento EUR-ACE
-Como: Coordinador de Carrera
-Quiero: Generar un informe que muestre cómo los Resultados de Aprendizaje (RA) de mi carrera se alinean con los estándares EUR-ACE
+| ID | Est (sp) | Must | Prioridad | Título | Acum (sp) |
+|----|----------|------|-----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
+| 1  | 8        | S    | 1         | **Como** Administrador del sistema, **Quiero** registrar una nueva Facultad, **Para** organizar la estructura académica de la EPN en el sistema. | 8 |
+| 2  | 13       | S    | 2         | **Como** Administrador del sistema, **Quiero** registrar una nueva Carrera dentro de una Facultad existente, **Para** gestionar la información curricular específica de cada programa de estudio. | 21 |
+| 3  | 8        | S    | 3         | **Como** Administrador del sistema, **Quiero** registrar un nuevo usuario en la plataforma, **Para** permitir el acceso a las personas de la EPN. | 29 |
+| 4  | 13       | S    | 4         | **Como** Administrador del sistema, **Quiero** asignar el rol de “Coordinador de Carrera” a un usuario, **Para** otorgarle permisos para gestionar una carrera específica. | 42 |
+| 5  | 13       | S    | 5         | **Como** Administrador del sistema, **Quiero** asignar el rol de “Profesor” a un usuario, **Para** otorgarle permisos para gestionar sus asignaturas. | 55 |
+| 6  | 13       | S    | 6         | **Como** Coordinador de Carrera, **Quiero** registrar el Perfil de Egreso (OPP) de mi carrera, **Para** documentar las habilidades que distinguen al egresado. | 68 |
+| 7  | 21       | S    | 7         | **Como** Coordinador de Carrera, **Quiero** registrar los Resultados de Aprendizaje (RA) esperados para mi carrera, **Para** especificar las competencias globales de los estudiantes. | 89 |
+| 8  | 21       | S    | 8         | **Como** Administrador del sistema, **Quiero** cargar los criterios y estándares de acreditación EUR-ACE en el sistema, **Para** disponer de la referencia oficial de evaluación. | 110 |
+| 9  | 13       | S    | 9         | **Como** Coordinador de Carrera, **Quiero** vincular un Resultado de Aprendizaje (RA) de mi carrera a un Objetivo de Perfil Profesional (OPP), **Para** demostrar la coherencia entre competencias y perfil final del egresado. | 123 |
+| 10 | 21       | S    | 10        | **Como** Coordinador de Carrera o responsable de calidad, **Quiero** vincular los Resultados de Aprendizaje (RA) de la carrera con los criterios EUR-ACE, **Para** evidenciar el cumplimiento de los estándares de calidad internacionales. | 144 |
+| 11 | 21       | S    | 11        | **Como** Profesor, **Quiero** registrar el programa de estudio de una asignatura, **Para** digitalizar su descripción oficial y contenido. | 165 |
+| 12 | 13       | S    | 12        | **Como** Profesor, **Quiero** registrar los Resultados de Aprendizaje de Asignatura (RAA) para mi asignatura, **Para** detallar las competencias específicas que el estudiante obtendrá. | 178 |
+| 13 | 13       | S    | 13        | **Como** Coordinador de Carrera, **Quiero** vincular un Resultado de Aprendizaje de Asignatura (RAA) a un Resultado de Aprendizaje (RA) de mi carrera, **Para** entender cómo cada asignatura contribuye a las competencias globales. | 191 |
+| 14 | 8        | S    | 14        | **Como** Coordinador de Carrera, **Quiero** especificar el nivel de contribución (Bajo, Medio, Alto) de un RAA a un RA de mi carrera, **Para** evaluar la intensidad de su aporte. | 199 |
+| 15 | 13       | S    | 15        | **Como** Coordinador de Carrera, **Quiero** generar un informe que muestre cómo los Resultados de Aprendizaje (RA) de mi carrera se alinean con los estándares EUR-ACE, **Para** evaluar el cumplimiento de los criterios de acreditación. | 212 |
+
+---
+
+#### **Might have (> 212 SP y ≤ 300 SP)**
+*(Elementos de alto valor que no caben en la capacidad "Will have" de este release, pero que se desarrollarían si se libera capacidad, se descubre una mayor velocidad del equipo, o en el próximo release.)*
+
+| ID | Est (sp) | Must | Prioridad | Título | Acum (sp) |
+|----|----------|------|-----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
+| 16 | 34       | N    | 16        | **Como** Autoridad académica o comité de acreditación, **Quiero** monitorizar de forma interactiva el estado del cumplimiento de la acreditación (dashboard), **Para** facilitar la toma de decisiones informadas. | 246 |
+| 17 | 34       | N    | 17        | **Como** Autoridad académica o responsable de calidad, **Quiero** configurar la generación automática de documentos de evidencia para EUR-ACE, **Para** cumplir con los requisitos de la acreditación. | 280 |
+
+---
+
+#### **Won't have (> 300 SP)**
+*(Elementos que no se considerarán para este release debido a limitaciones de capacidad o menor prioridad para el valor mínimo viable en este ciclo.)*
+
+| ID | Est (sp) | Must | Prioridad | Título | Acum (sp) |
+|----|----------|------|-----------|--------|----------|
+|    |          |      |           | *No hay elementos en esta categoría para este release, ya que todas las HUs de alto nivel han sido categorizadas en Will-have o Might-have.* |          |
+
+---
+
+#### **Items sin estimación:**
+*(Lista de elementos que no han podido ser estimados por falta de información o claridad.)*
+
+| ID | Título | Motivo (sin estimación) |
+|----|--------|-------------------------|
+|    | *No hay elementos sin estimación en este backlog.* | |
+
+
 
 
 ten de ejemplo estos objetivos de story mapping para que te guies en como escribir :
