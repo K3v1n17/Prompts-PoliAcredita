@@ -42,9 +42,16 @@ Este sitio contiene los prompts organizados para el proyecto PoliAcredita.
 
 **Sprint 3:**
 - [Ejecución Sprint 3](Sprints/Sprint-Ejecucion3.md)
+  - [Daily 1](Sprints/Sprint-3-Daily1.md)
+  - [Daily 2](Sprints/Sprint-3-Daily2.md)
+  - [Daily 3](Sprints/Sprint-3-Daily3.md)
 
 **Sprint 4:**
 - [Ejecución Sprint 4](Sprints/Sprint-Ejecucion4.md)
+  - [Daily 1](Sprints/Sprint-4-Daily1.md)
+  - [Daily 2](Sprints/Sprint-4-Daily2.md)
+  - [Daily 3](Sprints/Sprint-4-Daily3.md)
+  - [Daily 4](Sprints/Sprint-4-Daily4.md)
 
 -- Sprint Review
 - [Sprint Review 1](Sprints/Sprint-Review1.md)
