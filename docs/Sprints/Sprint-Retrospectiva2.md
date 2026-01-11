@@ -10,7 +10,7 @@
 
 ## PROMPT 1
 
-```markdown
+
 
 ### ROL
 Actúa como un Analista de Retrospectivas experto en identificar malestares del equipo y proponer soluciones prácticas y accionables.
@@ -27,7 +27,7 @@ Crea una lista con los malestares así como sus posibles soluciones para que el 
 ### Formato de salida
 Usa un formato de tabla con dos columnas: el problema y la posible solución.
 
-```
+
 
 ---
 
