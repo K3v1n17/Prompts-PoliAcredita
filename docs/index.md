@@ -56,7 +56,8 @@ Este sitio contiene los prompts organizados para el proyecto PoliAcredita.
 -- Sprint Review
 - [Sprint Review 1](Sprints/Sprint-Review1.md)
 - [Sprint Review 2](Sprints/Sprint-Review2.md)
-- [Sprint Review 3](Sprints/Sprint-Review3.md)- [Sprint Review 4](Sprints/Sprint-Review4.md)- [Sprint Review 4](Sprints/Sprint-Review4.md)
+- [Sprint Review 3](Sprints/Sprint-Review3.md)
+- [Sprint Review 4](Sprints/Sprint-Review4.md)
 
 -- Retrospectivas
 - [Retrospectiva Sprint 1](Sprints/Sprint-Retrospectiva1.md)
