@@ -37,37 +37,39 @@ Aquí tienes el análisis del Daily 1 del segundo sprint, consolidado en una tab
 
 ### 🧩 Tabla de Problemas / Riesgos Identificados y Posibles Soluciones
 
-| Problema / Riesgo Detectado | Posible Solución (Acción de Adaptación) |
+| **Problema / Riesgo Detectado** | **Posible Solución (Acción de Adaptación)** |
 |---|---|
-| 1. Dependencia crítica en una herramienta externa (Builder.io / Figma) con tiempos de espera prolongados para generar pantallas. Esto genera retrasos a Víctor. | - Evaluar alternativas para eliminar bloqueo: acceso temporal a cuentas de Figma del equipo, uso de otra herramienta sin límites de tiempo, o generar pantallas mínimas sin depender del plugin.<br>- Establecer definición clara de "suficiente" para prototipos. |
-| 2. Falta de prototipos completos para criterios de aceptación y pruebas (ej. foto de usuario). Denis menciona que no puede avanzar sin prototipo. | - Priorizar la creación del prototipo faltante en el sprint backlog.<br>- Alinear entre Front y QA qué prototipos son indispensables para comenzar pruebas.<br>- Establecer mini-reunión entre Víctor y Denis solo para aclarar lo pendiente. |
-| 3. Riesgo de retraso por falta de revisión y aprobación de prototipos por parte de los profesores (dependencia externa no controlable). Matías aún espera aprobación y puede tardar hasta miércoles. | - Gestionar activamente con el PO la obtención de aprobaciones.<br>- Definir un límite de tiempo para feedback; si no llega, avanzar con versión actual bajo criterio del equipo.<br>- Mantener siempre una versión incremental presentable. |
-| 4. Falta de claridad sobre qué HU están listas para pruebas y cuál es la prioridad (dependencia QA → Dev). | - Aplicar el modelo de "flujo pull": QA toma HU solo cuando Dev declara "listo para probar".<br>- Añadir estados claros en tablero (por ejemplo: "Ready for QA", "In QA"). |
-| 5. Comunicación no estructurada sobre push/pull entre Front y QA genera riesgos de confusión. Ej.: "si puedes en un ratito haz pull". | - Definir protocolo: Pull Request → Revisión → Aprobación → Merge. Nada manual vía chat.<br>- Alinear horarios para integraciones (ej.: ventanas diarias de merges). |
-| 6. Riesgo de generar ruido y confusión por notificaciones automáticas del pipeline/reportes (correos raros). | - Documentar las notificaciones esperadas del sistema.<br>- Crear canal exclusivo para comunicar cambios técnicos (DevOps/CI). |
-| 7. Falta de alineación entre Front y Back sobre integración final. Aunque el back está listo, no se menciona un plan explícito de integración. | - Programar un "Integration Touchpoint" de 30 min diario hasta que la integración funcione.<br>- Crear un checklist de integración: endpoints, variables, rutas, entorno. |
-| 8. Riesgo de sobrecarga de Víctor (Front) por múltiples tareas simultáneas: diseño, extracción de código, integración con back. | - Rebalancear el sprint backlog.<br>- Redistribuir parte del diseño o extracción a otro miembro si es posible.<br>- Limitar WIP (trabajo en progreso). |
-| 9. Dependencia del avance del Sprint 1 (cobertura pendiente) puede consumir tiempo del Sprint 2. José menciona que aún debe completar pruebas del sprint anterior. | - Declarar explícitamente qué pendientes del sprint anterior son obligatorios.<br>- Acordar un timebox máximo para completar deuda técnica (ej.: 4 horas). |
-| 10. Falta de claridad sobre quién presenta al PO el incremento y cuál es el plan si Matías no puede. | - Definir fallback oficial para demos.<br>- Documentar un checklist de presentación para evitar improvisación. |
-| 11. Riesgo de retraso porque varios mencionan "no he tenido problemas", aunque sí existen dependencias y bloqueos indirectos. Señal de falta de inspección real del sprint. | - Implementar guía estructurada de daily: ¿Qué hice? ¿Qué haré? ¿Qué bloqueos tengo? ¿Qué riesgos veo?<br>- Capacitar al equipo en identificar riesgos, no solo bloqueos. |
+| **1. Dependencia crítica en una herramienta externa (Builder.io / Figma) con tiempos de espera prolongados para generar pantallas**. Esto genera retrasos a Víctor. | - Evaluar alternativas para eliminar bloqueo: acceso temporal a cuentas de Figma del equipo, uso de otra herramienta sin límites de tiempo, o generar pantallas mínimas sin depender del plugin.<br>- Establecer definición clara de “suficiente” para prototipos. |
+| **2. Falta de prototipos completos para criterios de aceptación y pruebas (ej. foto de usuario)**. Denis menciona que no puede avanzar sin prototipo. | - Priorizar la creación del prototipo faltante en el sprint backlog.<br>- Alinear entre Front y QA qué prototipos son indispensables para comenzar pruebas.<br>- Establecer mini-reunión entre Víctor y Denis solo para aclarar lo pendiente. |
+| **3. Riesgo de retraso por falta de revisión y aprobación de prototipos por parte de los profesores (dependencia externa no controlable)**. Matías aún espera aprobación y puede tardar hasta miércoles. | - Gestionar activamente con el PO la obtención de aprobaciones.<br>- Definir un límite de tiempo para feedback; si no llega, avanzar con versión actual bajo criterio del equipo.<br>- Mantener siempre una versión incremental presentable. |
+| **4. Falta de claridad sobre qué HU están listas para pruebas y cuál es la prioridad (dependencia QA → Dev)**. | - Aplicar el modelo de “flujo pull”: QA toma HU *solo cuando* Dev declara “listo para probar”.<br>- Añadir estados claros en tablero (por ejemplo: “Ready for QA”, “In QA”). |
+| **5. Comunicación no estructurada sobre push/pull entre Front y QA genera riesgos de confusión.** Ej.: “si puedes en un ratito haz pull”. | - Definir protocolo: Pull Request → Revisión → Aprobación → Merge. Nada manual vía chat.<br>- Alinear horarios para integraciones (ej.: ventanas diarias de merges). |
+| **6. Riesgo de generar ruido y confusión por notificaciones automáticas del pipeline/reportes (correos raros)**. | - Documentar las notificaciones esperadas del sistema.<br>- Crear canal exclusivo para comunicar cambios técnicos (DevOps/CI). |
+| **7. Falta de alineación entre Front y Back sobre integración final.** Aunque el back está listo, no se menciona un plan explícito de integración. | - Programar un “Integration Touchpoint” de 30 min diario hasta que la integración funcione.<br>- Crear un checklist de integración: endpoints, variables, rutas, entorno. |
+| **8. Riesgo de sobrecarga de Víctor (Front) por múltiples tareas simultáneas: diseño, extracción de código, integración con back.** | - Rebalancear el sprint backlog.<br>- Redistribuir parte del diseño o extracción a otro miembro si es posible.<br>- Limitar WIP (trabajo en progreso). |
+| **9. Dependencia del avance del Sprint 1 (cobertura pendiente) puede consumir tiempo del Sprint 2.** José menciona que aún debe completar pruebas del sprint anterior. | - Declarar explícitamente qué pendientes del sprint anterior son obligatorios.<br>- Acordar un timebox máximo para completar deuda técnica (ej.: 4 horas). |
+| **10. Falta de claridad sobre quién presenta al PO el incremento y cuál es el plan si Matías no puede.** | - Definir fallback oficial para demos.<br>- Documentar un checklist de presentación para evitar improvisación. |
+| **11. Riesgo de retraso porque varios mencionan “no he tenido problemas”, aunque sí existen dependencias y bloqueos indirectos.** Señal de falta de inspección real del sprint. | - Implementar guía estructurada de daily: ¿Qué hice? ¿Qué haré? ¿Qué bloqueos tengo? ¿Qué riesgos veo? <br>- Capacitar al equipo en identificar riesgos, no solo bloqueos. |
 
 ---
 
 ### 📊 Resumen Ejecutivo - Daily 1 Sprint 2
 
 **Riesgos Críticos Identificados:**
-- 🔴 **Dependencias externas** (Figma, aprobación de profesores)
-- 🔴 **Falta de claridad en estados de HU** (cuándo pasan a QA)
-- 🔴 **Sobrecarga en miembro del equipo** (Víctor)
+- 🔴 **Dependencias externas** (Figma, aprobaciones de profesores)
+- 🔴 **Estados de HU poco claros** ("Ready for QA", "In QA")
+- 🔴 **Sobrecarga en Front** (Víctor) por multitarea
+- 🟠 **Comunicación push/pull no estructurada**
 
 **Áreas de Mejora Inmediata:**
-- Protocolo claro para cambios de estado
-- Integración diaria planificada Front-Back
-- Límites de espera para aprobaciones externas
-- Mejor inspección en próximos dailies
+- **Protocolo PR → Revisión → Aprobación → Merge** (evitar chat manual)
+- **Estados claros en tablero para QA** (definir y usar)
+- **Touchpoint diario de integración Front–Back** con checklist
+- **Límites de espera y fallback** para aprobaciones externas
 
 **Acciones para Hoy/Mañana:**
-1. Mini-reunión Víctor & Denis (30 min)
-2. Meeting Front-Back sobre integración (30 min)
-3. Comunicar límite de espera para aprobación de profesores
+1. Mini-reunión Víctor & Denis (30 min) para aclarar prototipos pendientes
+2. Touchpoint de integración Front–Back (30 min) + checklist (endpoints, variables, rutas)
+3. Comunicar límite de espera y fallback para aprobaciones (avanzar con versión incremental)
+4. Formalizar protocolo PR/Merge y definir ventanas de integración
 
