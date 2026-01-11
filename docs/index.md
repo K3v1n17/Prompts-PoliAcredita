@@ -19,13 +19,32 @@ Este sitio contiene los prompts organizados para el proyecto PoliAcredita.
 
 
 -- Planificacion de los sprints 
-- [Sprint Planning ](Sprints/Sprint-Planning1.md)
-- [Sprint Planning 2 ](Sprints/Sprint-Planning2.md)
-- [Sprint Planning 3 ](Sprints/Sprint-Planning3.md)
-- [Sprint Planning 4 ](Sprints/Sprint-Planning4.md)
+- [Sprint Planning 1](Sprints/Sprint-Planning1.md)
+- [Sprint Planning 2](Sprints/Sprint-Planning2.md)
+- [Sprint Planning 3](Sprints/Sprint-Planning3.md)
+- [Sprint Planning 4](Sprints/Sprint-Planning4.md)
+
+-- Ejecución de los sprints
+- [Ejecución Sprint 1](Sprints/Sprint-Ejecucion1.md)
+- [Ejecución Sprint 2](Sprints/Sprint-Ejecucion2.md)
+- [Ejecución Sprint 3](Sprints/Sprint-Ejecucion3.md)
+- [Ejecución Sprint 4](Sprints/Sprint-Ejecucion4.md)
+
+-- Sprint Review
+- [Sprint Review 1](Sprints/Sprint-Review1.md)
+- [Sprint Review 2](Sprints/Sprint-Review2.md)
+- [Sprint Review 3](Sprints/Sprint-Review3.md)
+- [Sprint Review 4](Sprints/Sprint-Review4.md)
+
+-- Retrospectivas
+- [Retrospectiva Sprint 1](Sprints/Sprint-Retrospectiva1.md)
+- [Retrospectiva Sprint 2](Sprints/Sprint-Retrospectiva2.md)
+- [Retrospectiva Sprint 3](Sprints/Sprint-Retrospectiva3.md)
+- [Retrospectiva Sprint 4](Sprints/Sprint-Retrospectiva4.md)
 
 ---- DOR Y DOD
 - [Definition of ready](DOR/DOR.md)
 - [Definition of done](DOD/DOD.md)
+
 
 
