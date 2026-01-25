@@ -1,0 +1,146 @@
+{
+    "proyecto": {
+        "nombre": "PoliAcredita",
+        "descripcion": "Sistema de Acreditación EUR-ACE para la Escuela Politécnica Nacional",
+        "logo": "🎓"
+    },
+    "producto": {
+        "titulo": "Planificación del Producto",
+        "items": [
+            {
+                "id": "vision",
+                "nombre": "Visión del Producto",
+                "ruta": "prompts/Vision-producto.md",
+                "icono": "👁️",
+                "descripcion": "Definición clara de la visión y objetivos del producto"
+            },
+            {
+                "id": "roadmap",
+                "nombre": "Roadmap del Producto",
+                "ruta": "prompts/roadmap-producto.md",
+                "icono": "🗺️",
+                "descripcion": "Planificación estratégica de features y releases"
+            },
+            {
+                "id": "backlog",
+                "nombre": "Product Backlog",
+                "ruta": "prompts/Product-backlog.md",
+                "icono": "📋",
+                "descripcion": "Lista completa de requerimientos y funcionalidades"
+            },
+            {
+                "id": "areas",
+                "nombre": "Áreas de Valor",
+                "ruta": "prompts/areas-valor.md",
+                "icono": "💎",
+                "descripcion": "Identificación de áreas clave de valor para el usuario"
+            }
+        ]
+    },
+    "release": {
+        "titulo": "Planificación del Release",
+        "fechaInicio": "18 de septiembre 2025",
+        "fechaFin": "24 de octubre 2025",
+        "items": [
+            {
+                "id": "fecha-fija",
+                "nombre": "Plan de Fecha Fija",
+                "ruta": "Release/FEchafija.md",
+                "icono": "📅",
+                "descripcion": "Cronograma de releases con fechas definidas"
+            },
+            {
+                "id": "mrfs",
+                "nombre": "MRFS",
+                "ruta": "Release/MRFS.md",
+                "icono": "📊",
+                "descripcion": "Métricas y requisitos del release"
+            },
+            {
+                "id": "pb-release",
+                "nombre": "Product Backlog Release",
+                "ruta": "Release/Pb-release.md",
+                "icono": "📦",
+                "descripcion": "Backlog específico del release"
+            },
+            {
+                "id": "sprint-mapping",
+                "nombre": "Sprint Mapping",
+                "ruta": "Release/sprint-mapping.md",
+                "icono": "🎯",
+                "descripcion": "Mapeo de sprints dentro del release"
+            }
+        ]
+    },
+    "sprints": [
+        {
+            "numero": 1,
+            "fechas": "18 - 24 de septiembre 2025",
+            "planning": "Sprints/Sprint-Planning1.md",
+            "ejecucion": "Sprints/Sprint-Ejecucion1.md",
+            "dailies": [
+                "Sprints/Sprint-1-Daily1.md",
+                "Sprints/Sprint-1-Daily2.md",
+                "Sprints/Sprint-1-Daily3.md",
+                "Sprints/Sprint-1-Daily4.md"
+            ],
+            "review": "Sprints/Sprint-Review1.md",
+            "retro": "Sprints/Sprint-Retrospectiva1.md"
+        },
+        {
+            "numero": 2,
+            "fechas": "25 de septiembre - 1 de octubre 2025",
+            "planning": "Sprints/Sprint-Planning2.md",
+            "ejecucion": "Sprints/Sprint-Ejecucion2.md",
+            "dailies": [
+                "Sprints/Sprint-2-Daily1.md",
+                "Sprints/Sprint-2-Daily2.md",
+                "Sprints/Sprint-2-Daily3.md",
+                "Sprints/Sprint-2-Daily4.md"
+            ],
+            "review": "Sprints/Sprint-Review2.md",
+            "retro": "Sprints/Sprint-Retrospectiva2.md"
+        },
+        {
+            "numero": 3,
+            "fechas": "2 - 8 de octubre 2025",
+            "planning": "Sprints/Sprint-Planning3.md",
+            "ejecucion": "Sprints/Sprint-Ejecucion3.md",
+            "dailies": [
+                "Sprints/Sprint-3-Daily1.md",
+                "Sprints/Sprint-3-Daily2.md",
+                "Sprints/Sprint-3-Daily3.md"
+            ],
+            "review": "Sprints/Sprint-Review3.md",
+            "retro": "Sprints/Sprint-Retrospectiva3.md"
+        },
+        {
+            "numero": 4,
+            "fechas": "9 - 15 de octubre 2025",
+            "planning": "Sprints/Sprint-Planning4.md",
+            "ejecucion": "Sprints/Sprint-Ejecucion4.md",
+            "dailies": [
+                "Sprints/Sprint-4-Daily1.md",
+                "Sprints/Sprint-4-Daily2.md",
+                "Sprints/Sprint-4-Daily3.md",
+                "Sprints/Sprint-4-Daily4.md"
+            ],
+            "review": "Sprints/Sprint-Review4.md",
+            "retro": "Sprints/Sprint-Retrospectiva4.md"
+        }
+    ],
+    "definiciones": {
+        "dor": {
+            "nombre": "Definition of Ready",
+            "ruta": "DOR/DOR.md",
+            "icono": "✅",
+            "descripcion": "Criterios que debe cumplir un item antes de entrar al sprint"
+        },
+        "dod": {
+            "nombre": "Definition of Done",
+            "ruta": "DOD/DOD.md",
+            "icono": "🏁",
+            "descripcion": "Criterios que debe cumplir un item para considerarse completado"
+        }
+    }
+}

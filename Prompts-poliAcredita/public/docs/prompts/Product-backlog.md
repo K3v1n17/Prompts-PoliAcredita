@@ -1,0 +1,2762 @@
+# Product Backlog de Alto Nivel
+## Sistema de Verificación EUR-ACE para la Escuela Politécnica Nacional
+
+    
+
+## Índice
+
+
+1. [PROMPT 1](#prompt-1)
+	- [PROMPT 1.1 (Continuación de PROMPT 1)](#prompt-11-continuacion-de-prompt-1)
+2. [PROMPT 2](#prompt-2)
+3. [PROMPT 3](#prompt-3)
+4. [PROMPT 4](#prompt-4)
+5. [PROMPT 5](#prompt-5)
+6. [PROMPT 6](#prompt-6)
+7. [PROMPT 7](#prompt-7)
+8. [PROMPT 8](#prompt-8)
+9. [PROMPT 9](#prompt-9)
+10. [PROMPT 10](#prompt-10)   
+11. [PROMPT 11](#prompt-11)
+12. [PROMPT 12](#prompt-12)
+13. [PROMPT 13](#prompt-13)
+14. [PROMPT 14](#prompt-14)
+15. [PROMPT 15](#prompt-15)
+16. [PROMPT 16](#prompt-16)
+17. [PROMPT 17](#prompt-17)
+18. [PROMPT 18](#prompt-18)
+19. [PROMPT 19](#prompt-19)
+
+---
+
+## PROMPT 1
+
+
+
+**OBJETIVO:** 
+bien , ahora necesito definir mi product backlog de alto nivel , este debe incluir historias de usario epicas. 
+
+
+### contexto 
+una historia de usuario de gran tamaño que no puede ser completada en un solo sprint o iteración.
+La palabra "épica" se usa para denotar una historia que es demasiado grande y, por lo tanto, debe ser desglosada en varias historias de usuario más pequeñas, manejables y específicas.
+
+Características principales:
+Gran alcance: Una épica representa una funcionalidad o iniciativa de alto nivel que abarca un objetivo significativo del producto.
+Contenedor: Funciona como un "contenedor" para un conjunto de historias de usuario relacionadas.
+Flexibilidad: El alcance de una épica puede evolucionar a medida que el equipo aprende más sobre la funcionalidad durante el desarrollo y a través del feedback del cliente.
+Propósito: Su principal propósito es ayudar a organizar y gestionar el trabajo en el backlog, conectando el trabajo diario del equipo con los objetivos estratégicos de la empresa.
+
+La Escuela Politécnica Nacional (EPN) busca acreditar sus carreras bajo el sello EUR-ACE.  
+La entidad EUR-ACE evaluará que las carreras de la EPN cumplan con determinados objetivos (objetivos EUR-ACE).  
+
+Organización de la EPN:
+- La EPN se organiza en Facultades.  
+- Cada Facultad tiene: Profesores, Autoridades (Decano, Subdecano, Jefe de Departamento) y Carreras.  
+- Cada Carrera tiene un Coordinador.  
+- Existen Comités de Evaluación Interna (CEI), conformados por profesores.  
+- Roles principales: Profesor, Coordinador de Carrera, Autoridad, DGIP, Miembro del CEI.  
+	- Para ser Coordinador, Autoridad o miembro del CEI, primero se debe ser Profesor.  
+	- El DGIP gestiona aspectos académicos de la Facultad.  
+	- La Autoridad administra la Facultad.  
+	- El Coordinador gestiona la Carrera.  
+	- El CEI gestiona los objetivos EUR-ACE y puede consultar información de Facultades.  
+
+Flujo de acreditación:
+- Cada Materia de una Carrera cuenta con un **PEA (Programa de Estudios Académicos)**, que contiene:  
+	- Unidad académica  
+	- Carrera  
+	- Unidad de organización curricular  
+	- Nombre de la asignatura  
+	- Código  
+	- Créditos  
+
+- El PEA define los **Resultados de Aprendizaje de la Asignatura (RAA)**, que pueden ser:  
+	- Conocimiento  
+	- Destrezas  
+	- Valores y actitudes  
+
+- La Carrera en su conjunto cuenta con:  
+	- **Objetivos de Perfil de Egreso (RA)**, generales y específicos.  
+	- **Objetivos de Perfil Profesional (OPP)**.  
+
+- Relaciones fundamentales:  
+	- Cada **RAA** de una materia contribuye a los **RA** de la carrera (con un nivel definido).  
+	- Cada **RA** de la carrera se relaciona tanto con los **OPP** como con los **objetivos EUR-ACE**.  
+
+Producto a desarrollar:
+- Un sistema que permita:  
+	- Ingresar toda la información del PEA.  
+	- Registrar RAAs, RAs, OPP y objetivos EUR-ACE.  
+	- Establecer las relaciones: RAA → RA, RA → OPP, RA → EUR-ACE.  
+	- Generar reportes sobre el cumplimiento de los objetivos de acreditación EUR-ACE.  
+	- Controlar el acceso según roles (Profesor, Coordinador, Autoridad, CEI, DGIP).  
+	- Gestion de organización de las facultades , carreras 
+
+### Accion 
+crea el product backlog de alto nivel con las hus en este formato : 
+
+
+### Formato de salida 
+como quiero y para 
+
+
+**RESPUESTA:**
+
+**Product Backlog de Alto Nivel (Épicas):**
+
+1. **Gestión de la organización académica**
+   - **Como** autoridad de la EPN
+   - **Quiero** registrar y administrar Facultades, Carreras, Materias y Profesores
+   - **Para** mantener actualizada la estructura académica que servirá de base para la acreditación.
+
+2. **Gestión del PEA (Programa de Estudios Académicos)**
+   - **Como** profesor
+   - **Quiero** ingresar y actualizar la información de las materias y sus PEAs (unidad académica, créditos, código, etc.)
+   - **Para** garantizar que cada asignatura cuente con información formalizada y disponible para el proceso de acreditación.
+
+3. **Gestión de Resultados de Aprendizaje de Asignaturas (RAA)**
+   - **Como** profesor
+   - **Quiero** definir los resultados de aprendizaje de las asignaturas (conocimientos, destrezas, valores y actitudes)
+   - **Para** asegurar que cada materia contribuya al perfil de egreso de la carrera.
+
+4. **Gestión de Resultados de Aprendizaje de Carrera (RA) y Objetivos de Perfil Profesional (OPP)**
+   - **Como** coordinador de carrera
+   - **Quiero** registrar y gestionar los RA y OPP de la carrera
+   - **Para** alinear el perfil de egreso con los objetivos institucionales y profesionales.
+
+5. **Gestión de objetivos EUR-ACE**
+   - **Como** miembro del CEI
+   - **Quiero** registrar y consultar los objetivos EUR-ACE
+   - **Para** relacionarlos con los RA y evaluar el cumplimiento de los estándares de acreditación.
+
+6. **Establecimiento de relaciones entre objetivos**
+   - **Como** coordinador de carrera
+   - **Quiero** relacionar los RAA con los RA, y los RA con los OPP y objetivos EUR-ACE
+   - **Para** garantizar la trazabilidad de los aprendizajes hasta los criterios de acreditación.
+
+7. **Generación de reportes de cumplimiento**
+   - **Como** DGIP
+   - **Quiero** generar reportes sobre el cumplimiento de los objetivos EUR-ACE por carrera y facultad
+   - **Para** presentar evidencia clara y verificable en los procesos de acreditación.
+
+8. **Control de acceso y gestión de roles**
+   - **Como** usuario de la EPN (profesor, coordinador, autoridad, DGIP, CEI)
+   - **Quiero** acceder al sistema según mi rol y permisos definidos
+   - **Para** garantizar la seguridad y la correcta gestión de la información académica.
+
+> Estas 8 épicas cubren todas las funcionalidades principales del sistema y luego podrán desglosarse en historias de usuario más pequeñas dentro de cada sprint.
+
+---
+
+### PROMPT 1.1 (Continuación de PROMPT 1)
+
+```markdown
+Vamos bien , Evitemos usar "y" en las historias de usario engloba con una palabra evitando asi usar "y" , te falto lo relacionado a los OPP
+```
+
+**SALIDA:**
+
+**Perfecto 👍, lo ajustamos:**
+
+- Evitamos el uso de “y” en las historias, englobando en una sola palabra.
+- Incluimos de forma explícita lo relacionado con los OPP (Objetivos de Perfil Profesional).
+
+**Product Backlog de Alto Nivel (Épicas) revisado:**
+
+1. **Gestión de organización académica**
+   - **Como** autoridad de la EPN
+   - **Quiero** registrar facultades, carreras, materias y profesores
+   - **Para** mantener actualizada la estructura académica para la acreditación.
+
+2. **Gestión de PEA**
+   - **Como** profesor
+   - **Quiero** ingresar información del PEA (unidad académica, créditos, código, etc.)
+   - **Para** disponer de datos estandarizados de cada asignatura.
+
+3. **Gestión de RAA**
+   - **Como** profesor
+   - **Quiero** registrar resultados de aprendizaje de asignatura (conocimientos, destrezas, actitudes)
+   - **Para** evidenciar la contribución de cada materia al perfil de egreso.
+
+4. **Gestión de RA**
+   - **Como** coordinador de carrera
+   - **Quiero** definir resultados de aprendizaje de carrera
+   - **Para** establecer el perfil de egreso de manera formalizada.
+
+5. **Gestión de OPP**
+   - **Como** coordinador de carrera
+   - **Quiero** registrar objetivos de perfil profesional
+   - **Para** alinear el perfil de egreso con las competencias de la profesión de ingeniería.
+
+6. **Gestión de objetivos EUR-ACE**
+   - **Como** miembro del CEI
+   - **Quiero** registrar objetivos EUR-ACE
+   - **Para** evaluar la conformidad de la carrera con estándares internacionales.
+
+7. **Definición de relaciones**
+   - **Como** coordinador de carrera
+   - **Quiero** establecer relaciones entre RAA, RA, OPP y objetivos EUR-ACE
+   - **Para** garantizar trazabilidad académica hacia los criterios de acreditación.
+
+8. **Generación de reportes**
+   - **Como** DGIP
+   - **Quiero** generar reportes de cumplimiento de criterios EUR-ACE
+   - **Para** disponer de evidencias verificables en la acreditación.
+
+9. **Control de acceso**
+   - **Como** usuario de la EPN (profesor, coordinador, autoridad, DGIP, CEI)
+   - **Quiero** acceder al sistema con permisos según rol
+   - **Para** asegurar uso correcto de la información académica.
+
+> Ahora sí tienes un backlog de 9 épicas claras, sin uso de “y” en las historias, y con OPP incorporados ✅.
+
+
+
+
+<!-- --- -->
+
+## PROMPT 2
+
+
+
+**Prompt:**
+
+**OBJETIVO: ** 
+bien , ahora necesito definir mi product backlog de alto nivel , este debe incluir historias de usario epicas. 
+
+
+### contexto 
+una historia de usuario de gran tamaño que no puede ser completada en un solo sprint o iteración.
+La palabra "épica" se usa para denotar una historia que es demasiado grande y, por lo tanto, debe ser desglosada en varias historias de usuario más pequeñas, manejables y específicas.
+
+Características principales:
+Gran alcance: Una épica representa una funcionalidad o iniciativa de alto nivel que abarca un objetivo significativo del producto.
+Contenedor: Funciona como un "contenedor" para un conjunto de historias de usuario relacionadas.
+Flexibilidad: El alcance de una épica puede evolucionar a medida que el equipo aprende más sobre la funcionalidad durante el desarrollo y a través del feedback del cliente.
+Propósito: Su principal propósito es ayudar a organizar y gestionar el trabajo en el backlog, conectando el trabajo diario del equipo con los objetivos estratégicos de la empresa.
+
+La Escuela Politécnica Nacional (EPN) busca acreditar sus carreras bajo el sello EUR-ACE.  
+La entidad EUR-ACE evaluará que las carreras de la EPN cumplan con determinados objetivos (objetivos EUR-ACE).  
+
+Organización de la EPN:
+- La EPN se organiza en Facultades.  
+- Cada Facultad tiene: Profesores, Autoridades (Decano, Subdecano, Jefe de Departamento) y Carreras.  
+- Cada Carrera tiene un Coordinador.  
+- Existen Comités de Evaluación Interna (CEI), conformados por profesores.  
+- Roles principales: Profesor, Coordinador de Carrera, Autoridad, DGIP, Miembro del CEI.  
+	- Para ser Coordinador, Autoridad o miembro del CEI, primero se debe ser Profesor.  
+	- El DGIP gestiona aspectos académicos de la Facultad.  
+	- La Autoridad administra la Facultad.  
+	- El Coordinador gestiona la Carrera.  
+	- El CEI gestiona los objetivos EUR-ACE y puede consultar información de Facultades.  
+
+Flujo de acreditación:
+- Cada Materia de una Carrera cuenta con un **PEA (Programa de Estudios Académicos)**, que contiene:  
+	- Unidad académica  
+	- Carrera  
+	- Unidad de organización curricular  
+	- Nombre de la asignatura  
+	- Código  
+	- Créditos  
+
+- El PEA define los **Resultados de Aprendizaje de la Asignatura (RAA)**, que pueden ser:  
+	- Conocimiento  
+	- Destrezas  
+	- Valores y actitudes  
+
+- La Carrera en su conjunto cuenta con:  
+	- **Objetivos de Perfil de Egreso (RA)**, generales y específicos.  
+	- **Objetivos de Perfil Profesional (OPP)**.  
+
+- Relaciones fundamentales:  
+	- Cada **RAA** de una materia contribuye a los **RA** de la carrera (con un nivel definido).  
+	- Cada **RA** de la carrera se relaciona tanto con los **OPP** como con los **objetivos EUR-ACE**.  
+
+Producto a desarrollar:
+- Un sistema que permita:  
+	- Ingresar toda la información del PEA.  
+	- Registrar RAAs, RAs, OPP y objetivos EUR-ACE.  
+	- Establecer las relaciones: RAA → RA, RA → OPP, RA → EUR-ACE.  
+	- Generar reportes sobre el cumplimiento de los objetivos de acreditación EUR-ACE.  
+	- Controlar el acceso según roles (Profesor, Coordinador, Autoridad, CEI, DGIP).  
+	- Gestion de organización de las facultades , carreras 
+
+### Accion 
+crea el product backlog de alto nivel con las hus en este formato : 
+
+
+### Formato de salida 
+como quiero y para
+
+**Respuesta:**
+
+¡Excelente! Aquí tienes el Product Backlog de alto nivel, definido con Historias de Usuario Épicas, que abarca la funcionalidad principal para el sistema de acreditación EUR-ACE de la EPN. Estas épicas son amplias y serán el punto de partida para desglosar el trabajo en iteraciones más pequeñas.
+
+
+
+**Product Backlog de Alto Nivel: Épicas para EPN-ACE Connect**
+
+1.  **Gestión de la Estructura Organizacional y Acceso Institucional**
+    *   **Como** DGIP o Autoridad de la EPN,
+    *   **Quiero** poder configurar la estructura jerárquica de la EPN (Facultades, Carreras, Departamentos), gestionar el registro de usuarios (Profesores) y asignarles los roles institucionales adecuados (Coordinador de Carrera, Autoridad de Facultad, Miembro del CEI, DGIP),
+    *   **Para** asegurar que la organización académica y administrativa se refleje fielmente en el sistema, controlar el acceso a la información según las responsabilidades de cada rol y permitir que cada actor gestione su ámbito de competencia.
+
+2.  **Configuración del Marco Académico y Mapeo para Acreditación**
+    *   **Como** Coordinador de Carrera o Profesor (para su materia),
+    *   **Quiero** poder ingresar y gestionar la información completa de los Programas de Estudios Académicos (PEA) para cada materia, definir los Resultados de Aprendizaje de la Asignatura (RAA), los Resultados de Aprendizaje de la Carrera (RA), los Objetivos de Perfil Profesional (OPP) y los Objetivos EUR-ACE, y además, establecer las relaciones de contribución entre RAA y RA (con su nivel), entre RA y OPP, y entre RA y los objetivos EUR-ACE,
+    *   **Para** construir una base de datos coherente y las matrices de trazabilidad necesarias que demuestren la alineación de la oferta académica con los estándares de calidad y acreditación EUR-ACE.
+
+3.  **Generación de Evidencia y Reportes Estratégicos EUR-ACE**
+    *   **Como** Miembro del CEI, Autoridad, DGIP o Coordinador de Carrera,
+    *   **Quiero** poder consultar la información académica de facultades y carreras, visualizar la trazabilidad de los Resultados de Aprendizaje y generar reportes personalizables sobre el cumplimiento y la contribución a los objetivos EUR-ACE,
+    *   **Para** facilitar la autoevaluación, proporcionar la evidencia requerida para el proceso de acreditación por parte de la entidad EUR-ACE y apoyar la toma de decisiones estratégicas para la mejora continua de las carreras.
+
+
+Estas épicas servirán como la columna vertebral para la planificación de releases y sprints, permitiendo que el equipo de desarrollo descomponga cada una en historias de usuario más detalladas y tareas específicas.
+
+<!-- --- -->
+
+## PROMPT 3
+
+
+**Prompt:**
+
+**OBJETIVO: ** 
+Mi objetivo es definir mi product backlog de alto nivel , este debe incluir historias de usuario epicas. 
+
+
+### contexto 
+una historia de usuario de gran tamaño que no puede ser completada en un solo sprint o iteración.
+La palabra "épica" se usa para denotar una historia que es demasiado grande y, por lo tanto, debe ser desglosada en varias historias de usuario más pequeñas, manejables y específicas.
+
+Características principales:
+Gran alcance: Una épica representa una funcionalidad o iniciativa de alto nivel que abarca un objetivo significativo del producto.
+Contenedor: Funciona como un "contenedor" para un conjunto de historias de usuario relacionadas.
+Flexibilidad: El alcance de una épica puede evolucionar a medida que el equipo aprende más sobre la funcionalidad durante el desarrollo y a través del feedback del cliente.
+Propósito: Su principal propósito es ayudar a organizar y gestionar el trabajo en el backlog, conectando el trabajo diario del equipo con los objetivos estratégicos de la empresa.
+
+La Escuela Politécnica Nacional (EPN) busca acreditar sus carreras bajo el sello EUR-ACE.  
+La entidad EUR-ACE evaluará que las carreras de la EPN cumplan con determinados objetivos (objetivos EUR-ACE).  
+
+Organización de la EPN:
+- La EPN se organiza en Facultades.  
+- Cada Facultad tiene: Profesores, Autoridades (Decano, Subdecano, Jefe de Departamento) y Carreras.  
+- Cada Carrera tiene un Coordinador.  
+- Existen Comités de Evaluación Interna (CEI), conformados por profesores.  
+- Roles principales: Profesor, Coordinador de Carrera, Autoridad, DGIP, Miembro del CEI.  
+	- Para ser Coordinador, Autoridad o miembro del CEI, primero se debe ser Profesor.  
+	- El DGIP gestiona aspectos académicos de la Facultad.  
+	- La Autoridad administra la Facultad.  
+	- El Coordinador gestiona la Carrera.  
+	- El CEI gestiona los objetivos EUR-ACE y puede consultar información de Facultades.  
+
+Flujo de acreditación:
+- Cada Materia de una Carrera cuenta con un **PEA (Programa de Estudios Académicos)**, que contiene:  
+	- Unidad académica  
+	- Carrera  
+	- Unidad de organización curricular  
+	- Nombre de la asignatura  
+	- Código  
+	- Créditos  
+
+- El PEA define los **Resultados de Aprendizaje de la Asignatura (RAA)**, que pueden ser:  
+	- Conocimiento  
+	- Destrezas  
+	- Valores y actitudes  
+
+- La Carrera en su conjunto cuenta con:  
+	- **Objetivos de Perfil de Egreso (RA)**, generales y específicos.  
+	- **Objetivos de Perfil Profesional (OPP)**.  
+
+- Relaciones fundamentales:  
+	- Cada **RAA** de una materia contribuye a los **RA** de la carrera (con un nivel definido).  
+	- Cada **RA** de la carrera se relaciona tanto con los **OPP** como con los **objetivos EUR-ACE**.  
+
+Producto a desarrollar:
+- Un sistema que permita:  
+	- Ingresar toda la información del PEA.  
+	- Registrar RAAs, RAs, OPP y objetivos EUR-ACE.  
+	- Establecer las relaciones: RAA → RA, RA → OPP, RA → EUR-ACE.  
+	- Generar reportes sobre el cumplimiento de los objetivos de acreditación EUR-ACE.  
+	- Controlar el acceso según roles (Profesor, Coordinador, Autoridad, CEI, DGIP).  
+	- Gestion de organización de las facultades , carreras 
+
+### Accion 
+crea el product backlog de alto nivel con las hus, evitando  usar "y" con este formato : 
+
+
+### Formato de salida 
+como quiero y para
+
+**Respuesta:**
+
+### HU: EPIC: Gestión de la Estructura Académica
+**Como:** Administrador del sistema
+**Quiero:** organizar las facultades
+**Para:** establecer la base organizacional de la EPN
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+
+### HU: EPIC: Administración de Usuarios y Permisos
+**Como:** Administrador del sistema
+**Quiero:** gestionar los roles de los usuarios
+**Para:** asegurar el acceso controlado al sistema
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+### HU: EPIC: Gestión de Programas de Estudio
+**Como:** Profesor
+**Quiero:** registrar los Programas de Estudios Académicos (PEA)
+**Para:** definir el contenido curricular de cada materia
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+
+### HU: EPIC: Gestión de Perfiles de Egreso
+**Como:** Coordinador de Carrera
+**Quiero:** definir los Resultados de Aprendizaje (RA)
+**Para:** establecer el perfil profesional de los egresados
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+
+### HU: EPIC: Gestión de Objetivos EUR-ACE
+**Como:** Miembro del CEI
+**Quiero:** registrar los objetivos del sello EUR-ACE
+**Para:** documentar los estándares de acreditación
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+
+### HU: EPIC: Mapeo de Contribuciones Académicas
+**Como:** Coordinador de Carrera
+**Quiero:** relacionar los resultados de aprendizaje
+**Para:** demostrar la contribución de las materias a los objetivos de la carrera y EUR-ACE
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+
+### HU: EPIC: Generación de Reportes de Acreditación
+**Como:** Miembro del CEI
+**Quiero:** generar informes de cumplimiento
+**Para:** evaluar el progreso hacia la acreditación EUR-ACE
+**Story Points:** N/A
+**Prioridad:** N/A
+
+<!-- --- -->
+
+## PROMPT 4
+
+**Fecha:** 27 sept 2025, 11:36 p m. (UTC)
+
+**Prompt:**
+
+###ROL
+
+Actua como un Product owner que es experto en gestión de productos de Software.
+
+
+
+**OBJETIVO: ** 
+Mi objetivo es definir mi product backlog de alto nivel , para establecer las principales funcionalidades que tendrá mi producto software
+ este debe incluir historias de usuario epicas. 
+
+CONTEXTO
+
+La Escuela Politécnica Nacional (EPN) busca acreditar sus carreras bajo el sello EUR-ACE.  
+
+
+EUR-ACE es una etiqueta de calidad y un sistema de acreditación para programas de estudios de ingeniería a nivel de grado y máster. La etiqueta, que es reconocida a nivel europeo e internacional, es un certificado que garantiza que el programa de estudios cumple con altos estándares de calidad y con las exigencias de la profesión de ingeniería.
+
+La Escuela Politécnica Nacional, o EPN, es una universidad pública, de grado y posgrado, ubicada en Quito (Ecuador). Reconocida por la investigación y la educación en ciencias básicas, ingenierías y tecnología, ofrece programas doctorales, de maestría y de grado.
+La Escuela Politécnica Nacional (EPN) se organiza en facultades y departamentos, cada uno con funciones específicas para cumplir sus objetivos académicos y de investigación.
+
+estructura Academica de la EPn
+
+La EPN se estructura principalmente en las siguientes unidades:
+Facultades: Son las unidades académicas superiores encargadas de planificar, ejecutar, controlar y evaluar los procesos de docencia, investigación y extensión en áreas específicas del conocimiento. Cada facultad está dirigida por un Consejo de Facultad, un Decano y un Subdecano. Tienen capacidad de gestión administrativa y financiera y están integradas por departamentos y carreras afines. 
+ 
+Departamentos: Actúan como las células básicas de la EPN, dependientes de las facultades. Los departamentos son responsables de las actividades de investigación, docencia y extensión en campos específicos. Cada departamento puede diseñar y gestionar programas de maestría y doctorado, y participa en la planificación de los procesos docentes. 
+ 
+Consejo Académico: Coordina todas las unidades académicas y se encarga de evaluar y controlar el cumplimiento de los planes y programas de la EPN. Este consejo es fundamental para la toma de decisiones y la supervisión de las actividades académica
+
+
+La EPN está dividida de la siguiente manera, existen Facultades y por cada facultad pueden existir diferentes carreras cada Facultad tiene profesores, Autoridades (Decano , Subdecano , jefe de Departamento) , Para llegar a ser coordinador, Autoridad primero tiene que ser un profesor, Para las carreras cada carrera tiene un solo coordinador y existe una entidad superior que sería la DGIP que es la encargada de gestionar los aspectos académicos de las facultades , Para la autoridad administra la facultad, el coordinador gestiona la carrera .
+
+Cada carrera de la EPN cuenta con resultados de aprendizaje (RA): generales y específicos que son los resultados que se garantizan que el estudiante tenga cuando termina la carrera.
+
+También cada carrera cuenta con Objetivos de perfil profesional que son los objetivos que se espera que un estudiante realice en su vida profesional.
+
+Para Cada carrera existen diferentes Asignaturas , cada una de estas asignaturas cuenta con un programa de estudios académicos (PEA) . Este PEA contiene información relevante de cada asignatura . Por ejemplo : – Unidad Académica “ – Carrera – Unidad de organización curricular – Nombre de la asignatura – Código
+
+– Créditos – Resultados de aprendizaje de la asignatura (RAA)
+
+Bien para evaluar que los RA de la carrera se estén cumpliendo se verifica como los RAA de cada materia aportan con un nivel (Bajo , Medio , Alto) a los RA .
+
+También para Evaluar los OPP se verifica como los RA aportan a los OPP.
+
+Para lograr la acreditación es importante los RA ya que con estos se verifica los objetivos EUR-ACE Es decir se verifica que los RA cumplan con los objetivos EURACE.
+
+ACCION
+
+Crea el product backlog de alto nivel con las historitas de usuario épicas para desarrollar mi producto evitando usar "y" ya que esto uniria dos funcionalidades del producto
+
+### Formato de salida 
+como quiero y para
+
+**Respuesta:**
+
+### HU: EPIC: Gestión de la Estructura Organizacional Académica
+**Como:** Administrador del sistema
+**Quiero:** establecer la jerarquía de Facultades, Departamentos, Carreras
+**Para:** reflejar la estructura institucional de la EPN
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+
+### HU: EPIC: Administración de Usuarios y Asignación de Roles
+**Como:** Administrador del sistema
+**Quiero:** registrar a los miembros del personal de la EPN
+**Para:** otorgarles acceso adecuado a las funcionalidades del sistema
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+
+### HU: EPIC: Definición de Programas de Estudio por Asignatura (PEA)
+**Como:** Profesor
+**Quiero:** ingresar la información detallada de cada asignatura
+**Para:** documentar el contenido curricular de cada materia
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+
+### HU: EPIC: Establecimiento de Resultados de Aprendizaje de Carrera (RA)
+**Como:** Coordinador de Carrera
+**Quiero:** definir los resultados de aprendizaje generales específicos para la carrera
+**Para:** establecer las competencias que los estudiantes deben adquirir
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+
+### HU: EPIC: Declaración de Objetivos de Perfil Profesional (OPP)
+**Como:** Coordinador de Carrera
+**Quiero:** especificar los objetivos profesionales esperados del egresado
+**Para:** guiar el desarrollo del perfil laboral de los estudiantes
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+### HU: EPIC: Registro de Estándares de Acreditación EUR-ACE
+**Como:** Miembro del CEI
+**Quiero:** capturar los objetivos de calidad definidos por EUR-ACE
+**Para:** tener una referencia oficial de los requisitos de acreditación
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+
+### HU: EPIC: Mapeo de Contribuciones de Asignatura a Carrera
+**Como:** Coordinador de Carrera
+**Quiero:** vincular los Resultados de Aprendizaje de Asignatura (RAA) con los Resultados de Aprendizaje de Carrera (RA)
+**Para:** demostrar cómo cada materia contribuye al perfil del egresado
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+
+### HU: EPIC: Alineación de Resultados de Aprendizaje con Perfil Profesional
+**Como:** Coordinador de Carrera
+**Quiero:** relacionar los Resultados de Aprendizaje de Carrera (RA) con los Objetivos de Perfil Profesional (OPP)
+**Para:** asegurar la coherencia entre la formación académica el futuro desempeño laboral
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+
+### HU: EPIC: Verificación de Conformidad de la Carrera con EUR-ACE
+**Como:** Miembro del CEI
+**Quiero:** asociar los Resultados de Aprendizaje de Carrera (RA) con los objetivos EUR-ACE
+**Para:** evaluar el cumplimiento de los estándares de acreditación internacional
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+
+### HU: EPIC: Generación de Informes de Acreditación EUR-ACE
+**Como:** Miembro del CEI
+**Quiero:** obtener reportes detallados sobre el estado de la acreditación
+**Para:** facilitar la toma de decisiones la presentación de evidencias
+**Story Points:** N/A
+**Prioridad:** N/A
+
+<!-- --- -->
+
+## PROMPT 5
+
+**Fecha:** 27 sept 2025, 11:49 p m. (UTC)
+
+**Prompt:**
+
+###ROL
+
+Actua como un Product owner que es experto en gestión de productos de Software.
+
+
+
+**OBJETIVO: ** 
+Mi objetivo es definir mi product backlog de alto nivel , para establecer las principales funcionalidades que tendrá mi producto software
+ este debe incluir historias de usuario epicas. 
+
+CONTEXTO
+
+La Escuela Politécnica Nacional (EPN) busca acreditar sus carreras bajo el sello EUR-ACE.  
+
+
+EUR-ACE es una etiqueta de calidad y un sistema de acreditación para programas de estudios de ingeniería a nivel de grado y máster. La etiqueta, que es reconocida a nivel europeo e internacional, es un certificado que garantiza que el programa de estudios cumple con altos estándares de calidad y con las exigencias de la profesión de ingeniería.
+
+La Escuela Politécnica Nacional, o EPN, es una universidad pública, de grado y posgrado, ubicada en Quito (Ecuador). Reconocida por la investigación y la educación en ciencias básicas, ingenierías y tecnología, ofrece programas doctorales, de maestría y de grado.
+La Escuela Politécnica Nacional (EPN) se organiza en facultades y departamentos, cada uno con funciones específicas para cumplir sus objetivos académicos y de investigación.
+
+estructura Academica de la EPn
+
+La EPN se estructura principalmente en las siguientes unidades:
+Facultades: Son las unidades académicas superiores encargadas de planificar, ejecutar, controlar y evaluar los procesos de docencia, investigación y extensión en áreas específicas del conocimiento. Cada facultad está dirigida por un Consejo de Facultad, un Decano y un Subdecano. Tienen capacidad de gestión administrativa y financiera y están integradas por departamentos y carreras afines. 
+ 
+Departamentos: Actúan como las células básicas de la EPN, dependientes de las facultades. Los departamentos son responsables de las actividades de investigación, docencia y extensión en campos específicos. Cada departamento puede diseñar y gestionar programas de maestría y doctorado, y participa en la planificación de los procesos docentes. 
+ 
+Consejo Académico: Coordina todas las unidades académicas y se encarga de evaluar y controlar el cumplimiento de los planes y programas de la EPN. Este consejo es fundamental para la toma de decisiones y la supervisión de las actividades académica
+
+La EPN está dividida de la siguiente manera, existen Facultades y por cada facultad pueden existir diferentes carreras cada Facultad tiene profesores, Autoridades (Decano , Subdecano , jefe de Departamento) , Para llegar a ser coordinador, Autoridad primero tiene que ser un profesor, Para las carreras cada carrera tiene un solo coordinador y existe una entidad superior que sería la DGIP que es la encargada de gestionar los aspectos académicos de las facultades , Para la autoridad administra la facultad, el coordinador gestiona la carrera .
+
+Cada carrera de la EPN cuenta con resultados de aprendizaje (RA): generales y específicos. 
+
+Los RA (Resultados de Aprendizaje) son las declaraciones operativas y mensurables que desagregan el OPP. Son la unidad fundamental del currículo por resultados.   
+
+Los RA describen de manera precisa lo que se espera que un estudiante sepa, comprenda y sea capaz de hacer al concluir el programa de estudios. A diferencia de los objetivos tradicionales, los RA se centran en la    
+
+
+También cada carrera cuenta con Objetivos de perfil profesional (OPP) 
+
+El OPP (Objetivo/Perfil Profesional) es la declaración fundacional que define la identidad del futuro egresado de la EPN. Formalmente, en el diseño curricular moderno de la EPN, este se consolida como el Perfil de Egreso (PE).   
+
+El OPP es la promesa institucional que la EPN suscribe ante la sociedad, detallando las capacidades, conocimientos y actitudes específicos que el profesional poseerá al graduarse.   
+
+
+
+Para Cada carrera existen diferentes Asignaturas , cada una de estas asignaturas cuenta con un programa de estudios académicos (PEA) . Este PEA contiene información relevante de cada asignatura . Por ejemplo : – Unidad Académica “ – Carrera – Unidad de organización curricular – Nombre de la asignatura – Código
+
+– Créditos – Resultados de aprendizaje de la asignatura (RAA)
+
+Bien para evaluar que los RA de la carrera se estén cumpliendo se verifica como los RAA de cada materia aportan con un nivel (Bajo , Medio , Alto) a los RA .
+
+También para Evaluar los OPP se verifica como los RA aportan a los OPP.
+
+Para lograr la acreditación es importante los RA ya que con estos se verifica los objetivos EUR-ACE Es decir se verifica que los RA cumplan con los objetivos EURACE.
+
+ACCION
+
+Crea el product backlog de alto nivel con las historitas de usuario épicas para desarrollar mi producto evitando usar "y" ya que esto uniria dos funcionalidades del producto
+
+### Formato de salida 
+como quiero y para
+
+**Respuesta:**
+
+### HU: EPIC: Gestión de la Estructura Académica Institucional
+**Como:** Administrador del sistema
+**Quiero:** configurar las facultades departamentos carreras de la EPN
+**Para:** reflejar la organización académica oficial
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+
+### HU: EPIC: Administración de Usuarios Asignación de Roles
+**Como:** Administrador del sistema
+**Quiero:** registrar a los profesores autoridades coordinadores
+**Para:** otorgarles los permisos de acceso adecuados
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+
+### HU: EPIC: Definición de Perfiles de Egreso (OPP) de Carrera
+**Como:** Coordinador de Carrera
+**Quiero:** establecer los Objetivos de Perfil Profesional para mi carrera
+**Para:** consolidar la identidad del futuro egresado
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+
+### HU: EPIC: Gestión de Resultados de Aprendizaje (RA) de Carrera
+**Como:** Coordinador de Carrera
+**Quiero:** definir los resultados de aprendizaje generales específicos para mi carrera
+**Para:** detallar las competencias que los estudiantes deben alcanzar
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+
+### HU: EPIC: Administración de Programas de Estudios de Asignatura (PEA)
+**Como:** Profesor
+**Quiero:** ingresar la información relevante de mi asignatura
+**Para:** documentar los detalles curriculares de cada curso
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+
+### HU: EPIC: Vinculación de RAA con RA de Carrera
+**Como:** Coordinador de Carrera
+**Quiero:** asociar los Resultados de Aprendizaje de Asignatura (RAA) con los RA de la carrera
+**Para:** evaluar el aporte de cada materia al perfil del egresado
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+
+### HU: EPIC: Alineación de RA de Carrera con OPP
+**Como:** Coordinador de Carrera
+**Quiero:** relacionar los Resultados de Aprendizaje de Carrera (RA) con los Objetivos de Perfil Profesional (OPP)
+**Para:** demostrar la coherencia entre la formación académica el perfil profesional
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+
+### HU: EPIC: Configuración de los Objetivos EUR-ACE
+**Como:** Responsable de Acreditación
+**Quiero:** registrar los estándares de calidad definidos por EUR-ACE
+**Para:** establecer los criterios de acreditación internacional
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+
+### HU: EPIC: Mapeo de RA de Carrera a Objetivos EUR-ACE
+**Como:** Responsable de Acreditación
+**Quiero:** comparar los Resultados de Aprendizaje de Carrera (RA) con los objetivos EUR-ACE
+**Para:** verificar el cumplimiento de los requisitos de acreditación
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+
+### HU: EPIC: Generación de Informes de Acreditación EUR-ACE
+**Como:** Responsable de Acreditación
+**Quiero:** obtener reportes completos sobre el estado de la acreditación
+**Para:** facilitar la presentación de evidencias el seguimiento del proceso
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+
+### HU: EPIC: Supervisión General del Consejo Académico
+**Como:** Miembro del Consejo Académico
+**Quiero:** tener una visión consolidada del avance de la acreditación de las carreras
+**Para:** coordinar evaluar los planes estratégicos de la EPN
+**Story Points:** N/A
+**Prioridad:** N/A
+
+<!-- --- -->
+
+## PROMPT 6
+
+**Fecha:** 27 sept 2025, 11:58 p m. (UTC)
+
+**Prompt:**
+
+###ROL
+
+Actua como un Product owner que es experto en gestión de productos de Software.
+
+
+
+**OBJETIVO: ** 
+Mi objetivo es definir mi product backlog de alto nivel , para establecer las principales funcionalidades que tendrá mi producto software
+ este debe incluir historias de usuario epicas. 
+
+CONTEXTO
+
+La Escuela Politécnica Nacional (EPN) busca acreditar sus carreras bajo el sello EUR-ACE.  
+
+
+EUR-ACE es una etiqueta de calidad y un sistema de acreditación para programas de estudios de ingeniería a nivel de grado y máster. La etiqueta, que es reconocida a nivel europeo e internacional, es un certificado que garantiza que el programa de estudios cumple con altos estándares de calidad y con las exigencias de la profesión de ingeniería.
+
+La Escuela Politécnica Nacional, o EPN, es una universidad pública, de grado y posgrado, ubicada en Quito (Ecuador). Reconocida por la investigación y la educación en ciencias básicas, ingenierías y tecnología, ofrece programas doctorales, de maestría y de grado.
+La Escuela Politécnica Nacional (EPN) se organiza en facultades y departamentos, cada uno con funciones específicas para cumplir sus objetivos académicos y de investigación.
+
+estructura Academica de la EPn
+
+La EPN se estructura principalmente en las siguientes unidades:
+Facultades: Son las unidades académicas superiores encargadas de planificar, ejecutar, controlar y evaluar los procesos de docencia, investigación y extensión en áreas específicas del conocimiento. Cada facultad está dirigida por un Consejo de Facultad, un Decano y un Subdecano. Tienen capacidad de gestión administrativa y financiera y están integradas por departamentos y carreras afines. 
+ 
+Departamentos: Actúan como las células básicas de la EPN, dependientes de las facultades. Los departamentos son responsables de las actividades de investigación, docencia y extensión en campos específicos. Cada departamento puede diseñar y gestionar programas de maestría y doctorado, y participa en la planificación de los procesos docentes. 
+ 
+La EPN está dividida de la siguiente manera, existen Facultades y por cada facultad pueden existir diferentes carreras cada Facultad tiene profesores, Autoridades (Decano , Subdecano , jefe de Departamento) , Para llegar a ser coordinador, Autoridad primero tiene que ser un profesor, Para las carreras cada carrera tiene un solo coordinador y existe una entidad superior que sería la DGIP que es la encargada de gestionar los aspectos académicos de las facultades , Para la autoridad administra la facultad, el coordinador gestiona la carrera .
+
+Cada carrera de la EPN cuenta con resultados de aprendizaje (RA):
+Los RA (Resultados de Aprendizaje) son las declaraciones operativas y mensurables que desagregan el OPP. Son la unidad fundamental del currículo por resultados.   
+
+Los RA describen de manera precisa lo que se espera que un estudiante sepa, comprenda y sea capaz de hacer al concluir el programa de estudios. A diferencia de los objetivos tradicionales, los RA se centran en la    
+
+
+También cada carrera cuenta con Objetivos de perfil profesional (OPP) 
+
+El OPP (Objetivo/Perfil Profesional) es la declaración fundacional que define la identidad del futuro egresado de la EPN. Formalmente, en el diseño curricular moderno de la EPN, este se consolida como el Perfil de Egreso (PE).   
+
+El OPP es la promesa institucional que la EPN suscribe ante la sociedad, detallando las capacidades, conocimientos y actitudes específicos que el profesional poseerá al graduarse.   
+
+
+
+Para Cada carrera existen diferentes Asignaturas , cada una de estas asignaturas cuenta con un programa de estudios académicos (PEA) . Este PEA contiene información relevante de cada asignatura . Por ejemplo : – Unidad Académica “ – Carrera – Unidad de organización curricular – Nombre de la asignatura – Código
+
+– Créditos – Resultados de aprendizaje de la asignatura (RAA)
+
+Bien para evaluar que los RA de la carrera se estén cumpliendo se verifica como los RAA de cada materia aportan con un nivel (Bajo , Medio , Alto) a los RA .
+
+También para Evaluar los OPP se verifica como los RA aportan a los OPP.
+
+Para lograr la acreditación es importante los RA ya que con estos se verifica los objetivos EUR-ACE Es decir se verifica que los RA cumplan con los objetivos EURACE.
+
+ACCION
+
+Crea el product backlog de alto nivel con las historitas de usuario épicas para desarrollar mi producto evitando usar "y" ya que esto uniria dos funcionalidades del producto
+
+### Formato de salida 
+como quiero y para
+
+**Respuesta:**
+
+### HU: EPIC: Gestión de la Estructura Académica Institucional
+**Como:** Administrador del sistema
+**Quiero:** configurar las facultades departamentos carreras de la EPN
+**Para:** reflejar la organización académica oficial
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+
+### HU: EPIC: Administración de Usuarios Asignación de Roles
+**Como:** Administrador del sistema
+**Quiero:** registrar a los profesores autoridades coordinadores
+**Para:** otorgarles los permisos de acceso adecuados
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+
+### HU: EPIC: Definición de Perfiles de Egreso (OPP) de Carrera
+**Como:** Coordinador de Carrera
+**Quiero:** establecer los Objetivos de Perfil Profesional para mi carrera
+**Para:** consolidar la identidad del futuro egresado
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+### HU: EPIC: Gestión de Resultados de Aprendizaje (RA) de Carrera
+**Como:** Coordinador de Carrera
+**Quiero:** definir los resultados de aprendizaje generales específicos para mi carrera
+**Para:** detallar las competencias que los estudiantes deben alcanzar
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+
+### HU: EPIC: Administración de Programas de Estudios de Asignatura (PEA)
+**Como:** Profesor
+**Quiero:** ingresar la información relevante de mi asignatura
+**Para:** documentar los detalles curriculares de cada curso
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+
+### HU: EPIC: Vinculación de RAA con RA de Carrera
+**Como:** Coordinador de Carrera
+**Quiero:** asociar los Resultados de Aprendizaje de Asignatura (RAA) con los RA de la carrera
+**Para:** evaluar el aporte de cada materia al perfil del egresado
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+
+### HU: EPIC: Alineación de RA de Carrera con OPP
+**Como:** Coordinador de Carrera
+**Quiero:** relacionar los Resultados de Aprendizaje de Carrera (RA) con los Objetivos de Perfil Profesional (OPP)
+**Para:** demostrar la coherencia entre la formación académica el perfil profesional
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+
+### HU: EPIC: Configuración de los Objetivos EUR-ACE
+**Como:** Responsable de Acreditación
+**Quiero:** registrar los estándares de calidad definidos por EUR-ACE
+**Para:** establecer los criterios de acreditación internacional
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+
+### HU: EPIC: Mapeo de RA de Carrera a Objetivos EUR-ACE
+**Como:** Responsable de Acreditación
+**Quiero:** comparar los Resultados de Aprendizaje de Carrera (RA) con los objetivos EUR-ACE
+**Para:** verificar el cumplimiento de los requisitos de acreditación
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+
+### HU: EPIC: Generación de Informes de Acreditación EUR-ACE
+**Como:** Responsable de Acreditación
+**Quiero:** obtener reportes completos sobre el estado de la acreditación
+**Para:** facilitar la presentación de evidencias el seguimiento del proceso
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+<!-- --- -->
+
+## PROMPT 7
+
+**Fecha:** 28 sept 2025, 01:59 a m. (UTC)
+
+**Prompt:**
+
+###ROL
+
+Actua como un Product owner que es experto en gestión de productos de Software.
+
+
+
+**OBJETIVO: ** 
+Mi objetivo es definir mi product backlog de alto nivel , para establecer las principales funcionalidades que tendrá mi producto software
+ este debe incluir historias de usuario epicas. 
+
+CONTEXTO
+EL SELLO EUR-ACE: DEFINICIÓN, OBJETIVO Y ENFOQUE
+La Escuela Politécnica Nacional (EPN) busca acreditar sus carreras bajo el sello EUR-ACE, lo cual implica una alineación total con los estándares internacionales de educación en ingeniería.
+
+¿Qué es EUR-ACE y por qué es importante para la EPN?
+
+EUR-ACE (European Accreditation of Engineering Education) es una etiqueta de calidad y un sistema de acreditación que tiene como objetivo identificar y certificar programas de estudios de ingeniería de alta calidad a nivel de grado y máster .
+
+Reconocimiento y Calidad: El sello, que es reconocido a nivel europeo e internacional, es un certificado que garantiza que el programa de estudios cumple con altos estándares de calidad y con las exigencias de la profesión de ingeniería, superando a menudo los mínimos genéricos establecidos por las leyes nacionales .
+
+Movilidad: La obtención del sello facilita la movilidad académica (acceso a programas de posgrado) y profesional (empleabilidad en el extranjero) para los graduados, asegurando que están preparados para el mercado laboral global .
+
+Gestión del Sello: El sistema es mantenido por la European Network for Accreditation of Engineering Education (ENAEE) . ENAEE autoriza a agencias nacionales o regionales para otorgar el sello. La EPN ha seleccionado a la Asociación de la Educación para la Ingeniería de Rusia (AEER), que es un miembro de ENAEE, para llevar a cabo su proceso de acreditación .
+
+La Acreditación Basada en Resultados (Outcome-Based)
+
+El funcionamiento de EUR-ACE se basa en el principio de acreditación por resultados (Outcome-based accreditation) . Esto requiere que la EPN demuestre que sus egresados han adquirido un conjunto mínimo de conocimientos, habilidades y actitudes definidos en los Programme Outcomes (POs) .
+
+ESTRUCTURA DE GESTIÓN Y ALINEACIÓN CURRICULAR DE LA EPN
+La Escuela Politécnica Nacional (EPN), una universidad pública ubicada en Quito (Ecuador) [M_U], ha movilizado su estructura académica para gestionar el riguroso proceso de autoevaluación .
+
+Estructura Académica de la EPN (Gobernanza y Roles Clave)
+
+La EPN se organiza en facultades y departamentos, con roles específicos para asegurar la calidad [M_U, 41]:
+
+Facultades: Son las unidades académicas superiores (ej. Facultad de Ingeniería Mecánica, Facultad de Ingeniería Civil y Ambiental ) encargadas de planificar, ejecutar y evaluar la docencia, investigación y extensión en áreas específicas [M_U]. Cada facultad está dirigida por un Consejo de Facultad, un Decano y un Subdecano [M_U].
+
+Departamentos: Actúan como las células básicas, dependientes de las facultades. Son responsables de la investigación, docencia y extensión en campos específicos, y pueden diseñar y gestionar programas de posgrado. Cada departamento es dirigido por un Jefe de Departamento [M_U, 13].
+
+Autoridades de la Facultad: Para llegar a ser coordinador, Decano o Jefe de Departamento, primero se debe ser profesor [M_U]. El Decano administra la facultad, y tanto él como el Jefe de Departamento tienen autoridad para conceder licencias al personal académico.   
+
+Coordinador de Carrera: Cada carrera tiene un solo coordinador [M_U]. Este rol es el eslabón crítico para la ejecución, responsable de garantizar la alineación curricular a nivel microcurricular y la estandarización del Programa de Estudio por Asignatura (PEA). Un coordinador puede dedicar hasta 20 horas semanales a la gestión educativa .   
+
+Vicerrectorado de Docencia (VD): Es la entidad superior que da directrices a Decanos y Jefes de Departamento, encargada de dirigir, coordinar, gestionar y evaluar la docencia. Se convierte en el motor estratégico para implementar los cambios exigidos por EUR-ACE.   
+
+DGIP (Dirección de Gestión de la Información y Procesos): Su misión es administrar los recursos informáticos y tecnológicos para fortalecer los ejes estratégicos (docencia, investigación y proyección social). En el contexto EUR-ACE, la DGIP es crucial para el soporte de TI en la gestión académica y para la trazabilidad y sistematización de la información de resultados.   
+
+
+Cada carrera de la EPN cuenta con resultados de aprendizaje (RA):
+Los RA (Resultados de Aprendizaje) son las declaraciones operativas y mensurables que desagregan el OPP. Son la unidad fundamental del currículo por resultados.   
+
+Los RA describen de manera precisa lo que se espera que un estudiante sepa, comprenda y sea capaz de hacer al concluir el programa de estudios. A diferencia de los objetivos tradicionales, los RA se centran en la    
+
+
+También cada carrera cuenta con Objetivos de perfil profesional (OPP) 
+
+El OPP (Objetivo/Perfil Profesional) es la declaración fundacional que define la identidad del futuro egresado de la EPN. Formalmente, en el diseño curricular moderno de la EPN, este se consolida como el Perfil de Egreso (PE).   
+
+El OPP es la promesa institucional que la EPN suscribe ante la sociedad, detallando las capacidades, conocimientos y actitudes específicos que el profesional poseerá al graduarse.   
+
+
+
+Para Cada carrera existen diferentes Asignaturas , cada una de estas asignaturas cuenta con un programa de estudios académicos (PEA) . Este PEA contiene información relevante de cada asignatura . Por ejemplo : – Unidad Académica “ – Carrera – Unidad de organización curricular – Nombre de la asignatura – Código
+
+– Créditos – Resultados de aprendizaje de la asignatura (RAA)
+
+Bien para evaluar que los RA de la carrera se estén cumpliendo se verifica como los RAA de cada materia aportan con un nivel (Bajo , Medio , Alto) a los RA .
+
+También para Evaluar los OPP se verifica como los RA aportan a los OPP.
+
+Para lograr la acreditación es importante los RA ya que con estos se verifica los objetivos EUR-ACE Es decir se verifica que los RA cumplan con los objetivos EURACE.
+
+ACCION
+
+Crea el product backlog de alto nivel con las historitas de usuario épicas para desarrollar mi producto evitando usar "y" ya que esto uniria dos funcionalidades del producto
+
+### Formato de salida 
+como quiero y para
+
+**Respuesta:**
+
+### HU: EPIC: Gestión de la Estructura Académica Institucional
+**Como:** Administrador del sistema
+**Quiero:** configurar las facultades departamentos carreras de la EPN
+**Para:** reflejar la organización académica oficial de la institución
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+
+### HU: EPIC: Administración de Usuarios Asignación de Roles
+**Como:** Administrador del sistema
+**Quiero:** registrar a los profesores autoridades coordinadores
+**Para:** otorgarles los permisos de acceso adecuados según su rol
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+
+### HU: EPIC: Definición de Perfiles de Egreso (OPP) de Carrera
+**Como:** Coordinador de Carrera
+**Quiero:** establecer los Objetivos de Perfil Profesional para mi carrera
+**Para:** consolidar la identidad el perfil del futuro egresado
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+### HU: EPIC: Gestión de Resultados de Aprendizaje (RA) de Carrera
+**Como:** Coordinador de Carrera
+**Quiero:** definir los resultados de aprendizaje específicos para mi carrera
+**Para:** detallar las competencias que los estudiantes deben alcanzar al egresar
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+
+### HU: EPIC: Administración de Programas de Estudios de Asignatura (PEA)
+**Como:** Profesor
+**Quiero:** ingresar la información relevante de mi asignatura
+**Para:** documentar los detalles curriculares de cada curso impartido
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+
+### HU: EPIC: Vinculación de RAA con RA de Carrera
+**Como:** Coordinador de Carrera
+**Quiero:** asociar los Resultados de Aprendizaje de Asignatura (RAA) con los RA de la carrera
+**Para:** evaluar el aporte de cada materia al perfil del egresado
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+
+### HU: EPIC: Alineación de RA de Carrera con OPP
+**Como:** Coordinador de Carrera
+**Quiero:** relacionar los Resultados de Aprendizaje de Carrera (RA) con los Objetivos de Perfil Profesional (OPP)
+**Para:** demostrar la coherencia entre la formación académica el perfil profesional
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+
+### HU: EPIC: Configuración de los Objetivos EUR-ACE
+**Como:** Responsable de Acreditación o DGIP
+**Quiero:** registrar los objetivos de calidad definidos por EUR-ACE
+**Para:** establecer los criterios de acreditación internacional
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+
+### HU: EPIC: Mapeo de RA de Carrera a Objetivos EUR-ACE
+**Como:** Responsable de Acreditación
+**Quiero:** comparar los Resultados de Aprendizaje de Carrera (RA) con los objetivos EUR-ACE
+**Para:** verificar el cumplimiento de los requisitos de acreditación
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+
+### HU: EPIC: Generación de Informes de Acreditación
+**Como:** Responsable de Acreditación o DGIP
+**Quiero:** obtener reportes completos sobre el estado de la acreditación
+**Para:** facilitar la presentación de evidencias el seguimiento del proceso
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+
+### HU: EPIC: Gestión Administrativa de Facultad Departamento
+**Como:** Decano Subdecano Jefe de Departamento
+**Quiero:** supervisar el progreso académico administrativo de mi unidad
+**Para:** asegurar la correcta operación el cumplimiento de los objetivos
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+
+### HU: EPIC: Monitoreo Institucional de Procesos de Acreditación
+**Como:** Vicerrectorado de Docencia o DGIP
+**Quiero:** visualizar el estado de acreditación de todas las carreras facultades
+**Para:** asegurar el cumplimiento de los estándares a nivel institucional
+**Story Points:** N/A
+**Prioridad:** N/A
+
+<!-- --- -->
+
+## PROMPT 8
+
+**Fecha:** 28 sept 2025, 02:03 a m. (UTC)
+
+**Prompt:**
+
+###ROL
+
+Actua como un Product owner que es experto en gestión de productos de Software.
+
+
+
+**OBJETIVO: ** 
+Mi objetivo es definir mi product backlog de alto nivel , para establecer las principales funcionalidades que tendrá mi producto software
+ este debe incluir historias de usuario epicas. 
+
+CONTEXTO
+EL SELLO EUR-ACE: DEFINICIÓN, OBJETIVO Y ENFOQUE
+La Escuela Politécnica Nacional (EPN) busca acreditar sus carreras bajo el sello EUR-ACE, lo cual implica una alineación total con los estándares internacionales de educación en ingeniería.
+
+¿Qué es EUR-ACE y por qué es importante para la EPN?
+
+EUR-ACE (European Accreditation of Engineering Education) es una etiqueta de calidad y un sistema de acreditación que tiene como objetivo identificar y certificar programas de estudios de ingeniería de alta calidad a nivel de grado y máster .
+
+Reconocimiento y Calidad: El sello, que es reconocido a nivel europeo e internacional, es un certificado que garantiza que el programa de estudios cumple con altos estándares de calidad y con las exigencias de la profesión de ingeniería, superando a menudo los mínimos genéricos establecidos por las leyes nacionales .
+
+Movilidad: La obtención del sello facilita la movilidad académica (acceso a programas de posgrado) y profesional (empleabilidad en el extranjero) para los graduados, asegurando que están preparados para el mercado laboral global .
+
+Gestión del Sello: El sistema es mantenido por la European Network for Accreditation of Engineering Education (ENAEE) . ENAEE autoriza a agencias nacionales o regionales para otorgar el sello. La EPN ha seleccionado a la Asociación de la Educación para la Ingeniería de Rusia (AEER), que es un miembro de ENAEE, para llevar a cabo su proceso de acreditación .
+
+La Acreditación Basada en Resultados (Outcome-Based)
+
+El funcionamiento de EUR-ACE se basa en el principio de acreditación por resultados (Outcome-based accreditation) . Esto requiere que la EPN demuestre que sus egresados han adquirido un conjunto mínimo de conocimientos, habilidades y actitudes definidos en los Programme Outcomes (POs) .
+
+ESTRUCTURA DE GESTIÓN Y ALINEACIÓN CURRICULAR DE LA EPN
+La Escuela Politécnica Nacional (EPN), una universidad pública ubicada en Quito (Ecuador) [M_U], ha movilizado su estructura académica para gestionar el riguroso proceso de autoevaluación .
+
+Estructura Académica de la EPN (Gobernanza y Roles Clave)
+
+La EPN se organiza en facultades y departamentos, con roles específicos para asegurar la calidad [M_U, 41]:
+
+Facultades: Son las unidades académicas superiores (ej. Facultad de Ingeniería Mecánica, Facultad de Ingeniería Civil y Ambiental ) encargadas de planificar, ejecutar y evaluar la docencia, investigación y extensión en áreas específicas [M_U]. Cada facultad está dirigida por un Consejo de Facultad, un Decano y un Subdecano [M_U].
+
+Departamentos: Actúan como las células básicas, dependientes de las facultades. Son responsables de la investigación, docencia y extensión en campos específicos, y pueden diseñar y gestionar programas de posgrado. Cada departamento es dirigido por un Jefe de Departamento [M_U, 13].
+
+Autoridades de la Facultad: Para llegar a ser coordinador, Decano o Jefe de Departamento, primero se debe ser profesor [M_U]. El Decano administra la facultad, y tanto él como el Jefe de Departamento tienen autoridad para conceder licencias al personal académico.   
+
+Coordinador de Carrera: Cada carrera tiene un solo coordinador [M_U]. Este rol es el eslabón crítico para la ejecución, responsable de garantizar la alineación curricular a nivel microcurricular y la estandarización del Programa de Estudio por Asignatura (PEA). Un coordinador puede dedicar hasta 20 horas semanales a la gestión educativa .   
+
+Vicerrectorado de Docencia (VD): Es la entidad superior que da directrices a Decanos y Jefes de Departamento, encargada de dirigir, coordinar, gestionar y evaluar la docencia. Se convierte en el motor estratégico para implementar los cambios exigidos por EUR-ACE.   
+
+DGIP (Dirección de Gestión de la Información y Procesos): Su misión es administrar los recursos informáticos y tecnológicos para fortalecer los ejes estratégicos (docencia, investigación y proyección social). En el contexto EUR-ACE, la DGIP es crucial para el soporte de TI en la gestión académica y para la trazabilidad y sistematización de la información de resultados.   
+
+
+Cada carrera de la EPN cuenta con resultados de aprendizaje (RA):
+Los RA (Resultados de Aprendizaje) son las declaraciones operativas y mensurables que desagregan el OPP. Son la unidad fundamental del currículo por resultados.   
+
+Los RA describen de manera precisa lo que se espera que un estudiante sepa, comprenda y sea capaz de hacer al concluir el programa de estudios. A diferencia de los objetivos tradicionales, los RA se centran en la    
+
+
+También cada carrera cuenta con Objetivos de perfil profesional (OPP) 
+
+El OPP (Objetivo/Perfil Profesional) es la declaración fundacional que define la identidad del futuro egresado de la EPN. Formalmente, en el diseño curricular moderno de la EPN, este se consolida como el Perfil de Egreso (PE).   
+
+El OPP es la promesa institucional que la EPN suscribe ante la sociedad, detallando las capacidades, conocimientos y actitudes específicos que el profesional poseerá al graduarse.   
+
+
+
+Para Cada carrera existen diferentes Asignaturas , cada una de estas asignaturas cuenta con un programa de estudios académicos (PEA) . Este PEA contiene información relevante de cada asignatura . Por ejemplo : – Unidad Académica “ – Carrera – Unidad de organización curricular – Nombre de la asignatura – Código
+
+– Créditos – Resultados de aprendizaje de la asignatura (RAA)
+
+Bien para evaluar que los RA de la carrera se estén cumpliendo se verifica como los RAA de cada materia aportan con un nivel (Bajo , Medio , Alto) a los RA .
+
+También para Evaluar los OPP se verifica como los RA aportan a los OPP.
+
+Para lograr la acreditación es importante los RA ya que con estos se verifica los objetivos EUR-ACE Es decir se verifica que los RA cumplan con los objetivos EURACE.
+
+
+la vision del producto software a desarrollar es la siguiente :
+
+Para las Facultades y Coordinadores de Carrera de la EPN que buscan optimizar la gestión y garantizar la acreditación de sus programas de ingeniería bajo el sello EUR-ACE,
+
+PoliAcredita es una plataforma de acreditación académica
+
+que centraliza la información curricular y automatiza la evaluación del cumplimiento de los objetivos EUR-ACE.
+
+A diferencia de los métodos manuales y las herramientas de gestión de datos fragmentadas,
+
+PoliAcredita proporciona una trazabilidad completa del currículo y agiliza la generación de reportes esenciales, asegurando la preparación exitosa para la auditoría de acreditación.
+
+
+
+
+ACCION
+
+Crea el product backlog de alto nivel con las historitas de usuario épicas para desarrollar mi producto evitando usar "y" ya que esto uniria dos funcionalidades del producto
+
+### Formato de salida 
+como quiero y para
+
+**Respuesta:**
+
+### HU: EPIC: Configuración de la Estructura Organizativa Institucional
+**Como:** Administrador del sistema
+**Quiero:** registrar las facultades departamentos carreras
+**Para:** reflejar con precisión la jerarquía académica de la EPN
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+### HU: EPIC: Gestión de Usuarios Autoridades y Roles
+**Como:** Administrador del sistema
+**Quiero:** asignar roles de acceso a cada usuario registrado
+**Para:** controlar la seguridad la operatividad de la plataforma
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+
+### HU: EPIC: Definición de Objetivos de Perfil Profesional (OPP) de Carrera
+**Como:** Coordinador de Carrera
+**Quiero:** establecer los objetivos de perfil profesional de mi carrera
+**Para:** formalizar la promesa del egresado ante la sociedad
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+
+### HU: EPIC: Administración de Resultados de Aprendizaje (RA) de Carrera
+**Como:** Coordinador de Carrera
+**Quiero:** definir los resultados de aprendizaje para mi carrera
+**Para:** especificar las competencias esperadas de los estudiantes
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+
+### HU: EPIC: Gestión de Programas de Estudio por Asignatura (PEA)
+**Como:** Profesor
+**Quiero:** ingresar el contenido programático de mi asignatura
+**Para:** documentar sus resultados de aprendizaje (RAA) su estructura
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+
+### HU: EPIC: Mapeo de RAA a Resultados de Aprendizaje de Carrera (RA)
+**Como:** Coordinador de Carrera
+**Quiero:** establecer la contribución de los RAA a los RA de mi carrera
+**Para:** evaluar el aporte individual de cada asignatura al perfil global
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+
+### HU: EPIC: Alineación de Resultados de Aprendizaje (RA) con OPP
+**Como:** Coordinador de Carrera
+**Quiero:** relacionar los resultados de aprendizaje de carrera con los OPP
+**Para:** asegurar la coherencia entre el currículo el perfil del egresado
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+
+### HU: EPIC: Configuración de los Estándares EUR-ACE
+**Como:** Responsable de Acreditación
+**Quiero:** cargar los criterios de calidad definidos por EUR-ACE
+**Para:** tener una base oficial de evaluación del currículo
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+
+### HU: EPIC: Verificación del Cumplimiento con EUR-ACE
+**Como:** Responsable de Acreditación
+**Quiero:** comparar los RA de carrera con los objetivos EUR-ACE
+**Para:** identificar el grado de alineación la preparación para la acreditación
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+
+### HU: EPIC: Generación de Reportes para Acreditación
+**Como:** Responsable de Acreditación
+**Quiero:** obtener informes automáticos de cumplimiento
+**Para:** facilitar la presentación de evidencias a la agencia acreditadora
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+
+### HU: EPIC: Paneles de Control de Progreso de Acreditación
+**Como:** Vicerrector de Docencia
+**Quiero:** visualizar el estado general de acreditación de las carreras
+**Para:** monitorear el avance institucional la toma de decisiones estratégicas
+**Story Points:** N/A
+**Prioridad:** N/A
+
+<!-- --- -->
+
+## PROMPT 9
+
+**Fecha:** 28 sept 2025, 02:11 a m. (UTC)
+
+**Prompt:**
+
+###ROL
+
+Actua como un Product owner que es experto en gestión de productos de Software.
+
+
+
+**OBJETIVO: ** 
+Mi objetivo es definir mi product backlog de alto nivel , para establecer las principales funcionalidades que tendrá mi producto software
+ este debe incluir historias de usuario epicas. 
+
+CONTEXTO
+
+La Escuela Politécnica Nacional (EPN) busca acreditar sus carreras bajo el sello EUR-ACE.  
+
+
+EUR-ACE es una etiqueta de calidad y un sistema de acreditación para programas de estudios de ingeniería a nivel de grado y máster. La etiqueta, que es reconocida a nivel europeo e internacional, es un certificado que garantiza que el programa de estudios cumple con altos estándares de calidad y con las exigencias de la profesión de ingeniería.
+
+La Escuela Politécnica Nacional, o EPN, es una universidad pública, de grado y posgrado, ubicada en Quito (Ecuador). Reconocida por la investigación y la educación en ciencias básicas, ingenierías y tecnología, ofrece programas doctorales, de maestría y de grado.
+La Escuela Politécnica Nacional (EPN) se organiza en facultades y departamentos, cada uno con funciones específicas para cumplir sus objetivos académicos y de investigación.
+
+Estructura Academica de la EPN 
+
+La EPN se estructura principalmente en las siguientes unidades:
+Facultades: Son las unidades académicas superiores encargadas de planificar, ejecutar, controlar y evaluar los procesos de docencia, investigación y extensión en áreas específicas del conocimiento. Cada facultad está dirigida por un Consejo de Facultad, un Decano y un Subdecano. Tienen capacidad de gestión administrativa y financiera y están integradas por departamentos y carreras afines. 
+ 
+Departamentos: Actúan como las células básicas de la EPN, dependientes de las facultades. Los departamentos son responsables de las actividades de investigación, docencia y extensión en campos específicos. Cada departamento puede diseñar y gestionar programas de maestría y doctorado, y participa en la planificación de los procesos docentes. 
+ 
+La EPN está dividida de la siguiente manera, existen Facultades y por cada facultad pueden existir diferentes carreras cada Facultad tiene profesores, Autoridades (Decano , Subdecano , jefe de Departamento) , Para llegar a ser coordinador, Autoridad primero tiene que ser un profesor, Para las carreras cada carrera tiene un solo coordinador y existe una entidad superior que sería la DGIP que es la encargada de gestionar los aspectos académicos de las facultades , Para la autoridad administra la facultad, el coordinador gestiona la carrera .
+
+Cada carrera de la EPN cuenta con resultados de aprendizaje (RA): 
+Los RA (Resultados de Aprendizaje) son las declaraciones operativas y mensurables que desagregan el OPP. Son la unidad fundamental del currículo por resultados.   
+
+Los RA describen de manera precisa lo que se espera que un estudiante sepa, comprenda y sea capaz de hacer al concluir el programa de estudios. A diferencia de los objetivos tradicionales, los RA se centran en la    
+
+
+También cada carrera cuenta con Objetivos de perfil profesional (OPP) 
+
+El OPP (Objetivo/Perfil Profesional) es la declaración fundacional que define la identidad del futuro egresado de la EPN. Formalmente, en el diseño curricular moderno de la EPN, este se consolida como el Perfil de Egreso (PE).   
+
+El OPP es la promesa institucional que la EPN suscribe ante la sociedad, detallando las capacidades, conocimientos y actitudes específicos que el profesional poseerá al graduarse.   
+
+
+Para Cada carrera existen diferentes Asignaturas , cada una de estas asignaturas cuenta con un programa de estudios académicos (PEA) . Este PEA contiene información relevante de cada asignatura . Por ejemplo : – Unidad Académica “ – Carrera – Unidad de organización curricular – Nombre de la asignatura – Código
+
+– Créditos – Resultados de aprendizaje de la asignatura (RAA)
+
+Bien para evaluar que los RA de la carrera se estén cumpliendo se verifica como los RAA de cada materia aportan con un nivel (Bajo , Medio , Alto) a los RA .
+
+También para Evaluar los OPP se verifica como los RA aportan a los OPP.
+
+Para lograr la acreditación es importante los RA ya que con estos se verifica los objetivos EUR-ACE Es decir se verifica que los RA cumplan con los objetivos EURACE.
+
+ACCION
+
+Crea el product backlog de alto nivel con las historitas de usuario épicas para desarrollar mi producto evitando usar "y" ya que esto uniría dos funcionalidades del producto además las épicas deben agregar valor al usuario.
+
+### Formato de salida 
+como quiero y para
+
+**Respuesta:**
+
+### HU: EPIC: Configuración de la Estructura Organizativa de la EPN
+**Como:** Administrador del sistema
+**Quiero:** definir las facultades departamentos carreras
+**Para:** reflejar la organización académica institucional de la EPN
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+### HU: EPIC: Gestión de Usuarios, Roles y Permisos
+**Como:** Administrador del sistema
+**Quiero:** asignar roles de acceso a cada tipo de usuario
+**Para:** controlar la seguridad operativa la integridad de la plataforma
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+
+### HU: EPIC: Definición del Perfil de Egreso (OPP) de Carrera
+**Como:** Coordinador de Carrera
+**Quiero:** establecer los objetivos de perfil profesional de mi carrera
+**Para:** formalizar la promesa del egresado ante la sociedad
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+
+### HU: EPIC: Gestión de los Resultados de Aprendizaje (RA) de Carrera
+**Como:** Coordinador de Carrera
+**Quiero:** crear los resultados de aprendizaje para mi carrera
+**Para:** especificar las competencias esperadas de los estudiantes al egresar
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+
+### HU: EPIC: Administración de Programas de Estudio por Asignatura (PEA)
+**Como:** Profesor
+**Quiero:** registrar el programa de mi asignatura
+**Para:** documentar sus resultados de aprendizaje (RAA) su contenido
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+### HU: EPIC: Mapeo de Resultados de Asignatura (RAA) a Carrera (RA)
+**Como:** Coordinador de Carrera
+**Quiero:** establecer la contribución de los RAA a los RA de mi carrera
+**Para:** visualizar el aporte de cada asignatura al perfil global del egresado
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+
+### HU: EPIC: Alineación de Resultados de Aprendizaje (RA) con el Perfil Profesional (OPP)
+**Como:** Coordinador de Carrera
+**Quiero:** relacionar los resultados de aprendizaje de carrera con los OPP
+**Para:** asegurar la coherencia entre el currículo el perfil profesional deseado
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+### HU: EPIC: Configuración de los Estándares de Acreditación EUR-ACE
+**Como:** Administrador del sistema
+**Quiero:** cargar los criterios de calidad definidos por EUR-ACE
+**Para:** tener una base oficial de evaluación del currículo
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+### HU: EPIC: Verificación del Cumplimiento con Estándares EUR-ACE
+**Como:** Coordinador de Carrera
+**Quiero:** comparar los RA de carrera con los objetivos EUR-ACE
+**Para:** identificar el grado de alineación la preparación para la acreditación
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+
+### HU: EPIC: Generación de Reportes para la Acreditación
+**Como:** Responsable de Acreditación
+**Quiero:** obtener informes automáticos de cumplimiento
+**Para:** facilitar la presentación de evidencias a la agencia acreditadora
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+
+### HU: EPIC: Paneles de Control de Progreso de Acreditación
+**Como:** Vicerrector de Docencia
+**Quiero:** visualizar el estado general de acreditación de las carreras
+**Para:** monitorear el avance institucional la toma de decisiones estratégicas
+**Story Points:** N/A
+**Prioridad:** N/A
+
+<!-- --- -->
+
+## PROMPT 10
+
+**Fecha:** 28 sept 2025, 02:17 a m. (UTC)
+
+**Prompt:**
+
+###ROL
+
+Actua como un Product owner que es experto en gestión de productos de Software.
+
+
+
+**OBJETIVO: ** 
+Mi objetivo es definir mi product backlog de alto nivel , para establecer las principales funcionalidades que tendrá mi producto software
+ este debe incluir historias de usuario epicas. 
+
+CONTEXTO
+
+La Escuela Politécnica Nacional (EPN) busca acreditar sus carreras bajo el sello EUR-ACE.  
+
+
+EUR-ACE es una etiqueta de calidad y un sistema de acreditación para programas de estudios de ingeniería a nivel de grado y máster. La etiqueta, que es reconocida a nivel europeo e internacional, es un certificado que garantiza que el programa de estudios cumple con altos estándares de calidad y con las exigencias de la profesión de ingeniería.
+
+La Escuela Politécnica Nacional, o EPN, es una universidad pública, de grado y posgrado, ubicada en Quito (Ecuador). Reconocida por la investigación y la educación en ciencias básicas, ingenierías y tecnología, ofrece programas doctorales, de maestría y de grado.
+La Escuela Politécnica Nacional (EPN) se organiza en facultades y departamentos, cada uno con funciones específicas para cumplir sus objetivos académicos y de investigación.
+
+Estructura Academica de la EPN 
+
+La EPN se estructura principalmente en las siguientes unidades:
+Facultades: Son las unidades académicas superiores encargadas de planificar, ejecutar, controlar y evaluar los procesos de docencia, investigación y extensión en áreas específicas del conocimiento. Cada facultad está dirigida por un Consejo de Facultad, un Decano y un Subdecano. Tienen capacidad de gestión administrativa y financiera y están integradas por departamentos y carreras afines. 
+ 
+Departamentos: Actúan como las células básicas de la EPN, dependientes de las facultades. Los departamentos son responsables de las actividades de investigación, docencia y extensión en campos específicos. Cada departamento puede diseñar y gestionar programas de maestría y doctorado, y participa en la planificación de los procesos docentes. 
+ 
+La EPN está dividida de la siguiente manera, existen Facultades y por cada facultad pueden existir diferentes carreras cada Facultad tiene profesores, Autoridades (Decano , Subdecano , jefe de Departamento) , Para llegar a ser coordinador, Autoridad primero tiene que ser un profesor, Para las carreras cada carrera tiene un solo coordinador y existe una entidad superior que sería la DGIP que es la encargada de gestionar los aspectos académicos de las facultades , Para la autoridad administra la facultad, el coordinador gestiona la carrera .
+
+Cada carrera de la EPN cuenta con resultados de aprendizaje (RA): 
+Los RA (Resultados de Aprendizaje) son las declaraciones operativas y mensurables que desagregan el OPP. Son la unidad fundamental del currículo por resultados.   
+
+Los RA describen de manera precisa lo que se espera que un estudiante sepa, comprenda y sea capaz de hacer al concluir el programa de estudios. A diferencia de los objetivos tradicionales, los RA se centran en la    
+
+
+También cada carrera cuenta con Objetivos de perfil profesional (OPP) 
+
+El OPP (Objetivo/Perfil Profesional) es la declaración fundacional que define la identidad del futuro egresado de la EPN. Formalmente, en el diseño curricular moderno de la EPN, este se consolida como el Perfil de Egreso (PE).   
+
+El OPP es la promesa institucional que la EPN suscribe ante la sociedad, detallando las capacidades, conocimientos y actitudes específicos que el profesional poseerá al graduarse.   
+
+
+Para Cada carrera existen diferentes Asignaturas , cada una de estas asignaturas cuenta con un programa de estudios académicos (PEA) . Este PEA contiene información relevante de cada asignatura . Por ejemplo : – Unidad Académica “ – Carrera – Unidad de organización curricular – Nombre de la asignatura – Código
+
+– Créditos – Resultados de aprendizaje de la asignatura (RAA)
+
+Bien para evaluar que los RA de la carrera se estén cumpliendo se verifica como los RAA de cada materia aportan con un nivel (Bajo , Medio , Alto) a los RA .
+
+También para Evaluar los OPP se verifica como los RA aportan a los OPP.
+
+Para lograr la acreditación es importante los RA ya que con estos se verifica los objetivos EUR-ACE Es decir se verifica que los RA cumplan con los objetivos EURACE.
+
+ACCION
+
+Crea el product backlog de alto nivel con las historitas de usuario épicas para desarrollar mi producto evitando usar
+Piensa en lo siguiente cuando escribas historias de usuario:
+
+Definición de “Listo”: la historia suele estar “lista” cuando el usuario puede completar la tarea descrita, pero debes asegurarte de definir lo que representa completarla.
+Describe tareas o subtareas: decide qué pasos específicos deben completarse y quién es responsable de cada uno de ellos.
+Perfiles de usuario: ¿para quién? Si hay varios usuarios finales, considera crear varias historias.
+Pasos ordenados: escribe una historia para cada paso en un proceso más grande.
+Escucha el feedback: habla con los usuarios y capta sus problemas o necesidades en lo que dicen. No es necesario tener que estar adivinando las historias cuando puedes obtenerlas de tus clientes.
+Tiempo: el tiempo es un tema delicado. Muchos equipos de desarrollo evitan hablar sobre el tiempo, y en su lugar confían en sus marcos de trabajo de estimación. Dado que las historias deberían completarse en un sprint, aquellas que puedan necesitar semanas o meses deberían dividirse en historias más pequeñas o considerarse un epic independiente.
+Una vez que las historias de usuario estén definidas de forma clara, debes asegurarte de que todo el equipo pueda verlas.
+
+Plantilla y ejemplos de historias de usuario
+Las historias de usuario suelen expresarse con una frase simple con la siguiente estructura:
+
+“Como [perfil], [quiero] [para].”
+
+Desglosemos esta estructura:
+
+“Como [perfil]”: ¿para quién desarrollamos esto? No solo buscamos un puesto, buscamos el perfil de la persona. Max. Nuestro equipo debería comprender quién es Max. Con suerte hemos entrevistado a muchos Max. Comprendemos cómo trabaja esa persona, cómo piensa y cómo se siente. Sentimos empatía por Max.
+“Quiere”: aquí describimos su intención, no las funciones que usan. ¿Qué es lo que están intentando lograr realmente? Esta descripción debería realizarse con independencia de las implementaciones; si describes algún elemento de la IU y no el objetivo del usuario, estás cometiendo un error.
+“Para”: ¿cómo encaja su deseo inmediato de hacer algo en la perspectiva general? ¿Cuál es el beneficio general que intentan lograr? ¿Cuál es el gran problema que debe resolverse?
+Por ejemplo, las historias de usuario pueden tener este aspecto:
+
+Como Max, quiero invitar a mis amigos, para que podamos disfrutar de este servicio juntos.
+Como Sascha, quiero organizar mi trabajo, para poder sentir que tengo un mayor control.
+Como gestor, quiero poder comprender el progreso de mis compañeros, para poder informar sobre nuestros éxitos y fallos.
+Esta estructura no es obligatoria, pero resulta de ayuda para establecer una definición de "hecho". Cuando ese perfil puede alcanzar su valor deseado, la historia está completa. Recomendamos a nuestros equipos definir su propia estructura, y que no se desvíen de ella.
+### Formato de salida 
+como quiero y para
+
+**Respuesta:**
+
+### HU: EPIC: Gestión de la Estructura Académica Institucional
+**Como:** Administrador del sistema
+**Quiero:** gestionar la estructura jerarquica academica de la EPN
+**Para:** representar fielmente la organización académica institucional
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+### HU: EPIC: Gestión de Usuarios, Roles y Permisos
+**Como:** Administrador del sistema
+**Quiero:** asignar roles específicos a cada tipo de usuario
+**Para:** asegurar la correcta operación y acceso a la plataforma
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+### HU: EPIC: Definición del Perfil de Egreso (OPP) de Carrera
+**Como:** Coordinador de Carrera
+**Quiero:** registrar el perfil de egreso (OPP) de mi carrera
+**Para:** establecer la identidad del futuro profesional de la EPN
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+
+### HU: EPIC: Gestión de los Resultados de Aprendizaje (RA) de Carrera
+**Como:** Coordinador de Carrera
+**Quiero:** definir los resultados de aprendizaje (RA) para mi carrera
+**Para:** describir las competencias esperadas de los estudiantes al egresar
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+
+### HU: EPIC: Administración de Programas de Estudio por Asignatura (PEA)
+**Como:** Profesor
+**Quiero:** ingresar el programa de estudio de mi asignatura
+**Para:** documentar sus resultados de aprendizaje (RAA) su contenido oficial
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+### HU: EPIC: Mapeo de Resultados de Asignatura (RAA) a Carrera (RA)
+**Como:** Coordinador de Carrera
+**Quiero:** establecer la contribución de los RAA a los RA de mi carrera
+**Para:** evaluar el aporte de cada asignatura al perfil global del egresado
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+### HU: EPIC: Alineación de Resultados de Aprendizaje (RA) con el Perfil Profesional (OPP)
+**Como:** Coordinador de Carrera
+**Quiero:** vincular los resultados de aprendizaje de carrera con los OPP
+**Para:** asegurar la coherencia del diseño curricular institucional
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+
+### HU: EPIC: Configuración de los Estándares de Acreditación EUR-ACE
+**Como:** Administrador del sistema
+**Quiero:** cargar los criterios de calidad definidos por EUR-ACE
+**Para:** tener un marco de referencia oficial dentro del sistema
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+### HU: EPIC: Verificación del Cumplimiento con Estándares EUR-ACE
+**Como:** Coordinador de Carrera
+**Quiero:** comparar los RA de carrera con los objetivos EUR-ACE
+**Para:** verificar el cumplimiento para la acreditación
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+### HU: EPIC: Generación de Reportes para la Acreditación
+**Como:** Responsable de Acreditación
+**Quiero:** obtener informes automáticos de cumplimiento
+**Para:** facilitar la presentación de evidencias a la agencia acreditadora
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+### HU: EPIC: Paneles de Control de Progreso de Acreditación
+**Como:** Vicerrector de Docencia
+**Quiero:** visualizar el estado general de acreditación de las carreras
+**Para:** monitorear el progreso institucional
+**Story Points:** N/A
+**Prioridad:** N/A
+
+<!-- --- -->
+
+## PROMPT 11
+
+**Fecha:** 28 sept 2025, 02:30 a m. (UTC)
+
+**Prompt:**
+
+###ROL
+
+Actua como un Product owner que es experto en gestión de productos de Software.
+
+
+
+**OBJETIVO: ** 
+Mi objetivo es definir mi product backlog de alto nivel , para establecer las principales funcionalidades que tendrá mi producto software
+ este debe incluir historias de usuario epicas. 
+
+CONTEXTO
+
+La Escuela Politécnica Nacional (EPN) busca acreditar sus carreras bajo el sello EUR-ACE.  
+
+
+EUR-ACE es una etiqueta de calidad y un sistema de acreditación para programas de estudios de ingeniería a nivel de grado y máster. La etiqueta, que es reconocida a nivel europeo e internacional, es un certificado que garantiza que el programa de estudios cumple con altos estándares de calidad y con las exigencias de la profesión de ingeniería.
+
+La Escuela Politécnica Nacional, o EPN, es una universidad pública, de grado y posgrado, ubicada en Quito (Ecuador). Reconocida por la investigación y la educación en ciencias básicas, ingenierías y tecnología, ofrece programas doctorales, de maestría y de grado.
+La Escuela Politécnica Nacional (EPN) se organiza en facultades y departamentos, cada uno con funciones específicas para cumplir sus objetivos académicos y de investigación.
+
+Estructura Academica de la EPN 
+
+La EPN se estructura principalmente en las siguientes unidades:
+Facultades: Son las unidades académicas superiores encargadas de planificar, ejecutar, controlar y evaluar los procesos de docencia, investigación y extensión en áreas específicas del conocimiento. Cada facultad está dirigida por un Consejo de Facultad, un Decano y un Subdecano. Tienen capacidad de gestión administrativa y financiera y están integradas por departamentos y carreras afines. 
+ 
+Departamentos: Actúan como las células básicas de la EPN, dependientes de las facultades. Los departamentos son responsables de las actividades de investigación, docencia y extensión en campos específicos. Cada departamento puede diseñar y gestionar programas de maestría y doctorado, y participa en la planificación de los procesos docentes. 
+ 
+La EPN está dividida de la siguiente manera, existen Facultades y por cada facultad pueden existir diferentes carreras cada Facultad tiene profesores, Autoridades (Decano , Subdecano , jefe de Departamento) , Para llegar a ser coordinador, Autoridad primero tiene que ser un profesor, Para las carreras cada carrera tiene un solo coordinador y existe una entidad superior que sería la DGIP que es la encargada de gestionar los aspectos académicos de las facultades , Para la autoridad administra la facultad, el coordinador gestiona la carrera .
+
+Cada carrera de la EPN cuenta con resultados de aprendizaje (RA): 
+Los RA (Resultados de Aprendizaje) son las declaraciones operativas y mensurables que desagregan el OPP. Son la unidad fundamental del currículo por resultados.   
+
+Los RA describen de manera precisa lo que se espera que un estudiante sepa, comprenda y sea capaz de hacer al concluir el programa de estudios. A diferencia de los objetivos tradicionales, los RA se centran en la    
+
+
+También cada carrera cuenta con Objetivos de perfil profesional (OPP) 
+
+El OPP (Objetivo/Perfil Profesional) es la declaración fundacional que define la identidad del futuro egresado de la EPN. Formalmente, en el diseño curricular moderno de la EPN, este se consolida como el Perfil de Egreso (PE).   
+
+El OPP es la promesa institucional que la EPN suscribe ante la sociedad, detallando las capacidades, conocimientos y actitudes específicos que el profesional poseerá al graduarse.   
+
+
+Para Cada carrera existen diferentes Asignaturas , cada una de estas asignaturas cuenta con un programa de estudios académicos (PEA) . Este PEA contiene información relevante de cada asignatura . Por ejemplo : – Unidad Académica “ – Carrera – Unidad de organización curricular – Nombre de la asignatura – Código
+
+– Créditos – Resultados de aprendizaje de la asignatura (RAA)
+
+Bien para evaluar que los RA de la carrera se estén cumpliendo se verifica como los RAA de cada materia aportan con un nivel (Bajo , Medio , Alto) a los RA .
+
+También para Evaluar los OPP se verifica como los RA aportan a los OPP.
+
+Para lograr la acreditación es importante los RA ya que con estos se verifica los objetivos EUR-ACE Es decir se verifica que los RA cumplan con los objetivos EURACE.
+
+ACCION
+
+Crea el product backlog de alto nivel con las historitas de usuario épicas para desarrollar mi producto evitando usar
+Piensa en lo siguiente cuando escribas historias de usuario:
+
+
+Plantilla y ejemplos de historias de usuario
+Las historias de usuario suelen expresarse con una frase simple con la siguiente estructura:
+
+“Como [perfil], [quiero] [para].”
+
+Desglosemos esta estructura:
+
+“Como [perfil]”: ¿para quién desarrollamos esto? No solo buscamos un puesto, buscamos el perfil de la persona. Max. Nuestro equipo debería comprender quién es Max. Con suerte hemos entrevistado a muchos Max. Comprendemos cómo trabaja esa persona, cómo piensa y cómo se siente. Sentimos empatía por Max.
+“Quiere”: aquí describimos su intención, no las funciones que usan. ¿Qué es lo que están intentando lograr realmente? Esta descripción debería realizarse con independencia de las implementaciones; si describes algún elemento de la IU y no el objetivo del usuario, estás cometiendo un error.
+“Para”: ¿cómo encaja su deseo inmediato de hacer algo en la perspectiva general? ¿Cuál es el beneficio general que intentan lograr? ¿Cuál es el gran problema que debe resolverse?
+Por ejemplo, las historias de usuario pueden tener este aspecto:
+
+también ten en consideración lo siguiente 
+
+El método INVEST es una regla práctica estupenda para guiarte en la redacción de las mejores historias de usuario posibles. El método INVEST es un mnemotécnico para las siguientes buenas prácticas:
+
+Independiente
+Las historias de usuario, aunque a menudo se incluyen en las epopeyas, también deben ser comprensibles como piezas independientes.
+
+Negociable
+Las historias de usuario deben ofrecer un alto grado de flexibilidad. Por eso no deben incluir tecnicismos específicos. Al fin y al cabo, la flexibilidad es la naturaleza del entorno scrum.
+
+Valioso
+La historia de usuario debe ofrecer valor, tanto al equipo como a tus user persona. Debe dar a tu equipo una idea clara de los objetivos que debe alcanzar una función cuando la diseñen y desarrollen. Y para el usuario, significa un producto que satisface sistemáticamente sus necesidades.
+
+
+Estimable
+Debería ser posible estimar la cantidad de trabajo necesaria para una característica propuesta en una historia de usuario. Esto te ayudará a asignar los puntos scrum pertinentes a la tarea del backlog y a gestionar el tiempo de forma eficaz.
+
+Pequeño
+Una historia de usuario debe ser breve y memorable. Sólo dos líneas sobre lo que ese usuario quiere conseguir con una función concreta de tu producto. Si se trata de una descripción general de tu aplicación o de una categoría de funciones, escribe una epopeya y divídela en subhistorias. Lo ideal es que la historia de usuario quepa en una iteración. Tampoco deberías mencionar ningún detalle sobre el diseño de la UI en una historia de usuario.
+
+Comprobable
+Como ocurre con la mayoría de las cosas en el proceso de desarrollo, tus historias de usuario deben ser fácilmente comprobables, con métricas claras y deducibles para los indicadores clave de rendimiento. Aquí es donde suelen entrar en juego los criterios de aceptación.
+### Formato de salida 
+como quiero y para
+
+**Respuesta:**
+
+### HU: EPIC: Gestión de la Estructura Académica Institucional
+**Como:** Administrador del sistema
+**Quiero:** configurar las Facultades, Departamentos y Carreras de la EPN
+**Para:** representar con precisión la organización académica de la institución
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+### HU: EPIC: Administración de Perfiles de Usuarios y Permisos
+**Como:** Administrador del sistema
+**Quiero:** asignar roles y derechos de acceso a los usuarios del sistema
+**Para:** garantizar la seguridad y el flujo correcto de la información
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+### HU: EPIC: Definición y Mantenimiento de Perfiles de Egreso (OPP)
+**Como:** Coordinador de Carrera
+**Quiero:** registrar los objetivos del perfil profesional de mi carrera
+**Para:** establecer la identidad y competencias del futuro egresado
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+### HU: EPIC: Gestión de Resultados de Aprendizaje (RA) de Carrera
+**Como:** Coordinador de Carrera
+**Quiero:** definir los resultados de aprendizaje específicos para mi carrera
+**Para:** detallar las capacidades que los estudiantes deben alcanzar al finalizar
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+### HU: EPIC: Creación y Administración de Programas de Estudio Académicos (PEA)
+**Como:** Profesor
+**Quiero:** ingresar el programa académico de mi asignatura
+**Para:** documentar sus contenidos y resultados de aprendizaje (RAA) oficiales
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+### HU: EPIC: Mapeo de Contribución de RAA a RA de Carrera
+**Como:** Coordinador de Carrera
+**Quiero:** establecer cómo los RAA de las asignaturas contribuyen a los RA de mi carrera
+**Para:** evaluar el aporte de cada materia al cumplimiento de las competencias generales
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+
+### HU: EPIC: Alineación de Resultados de Aprendizaje con el Perfil Profesional
+**Como:** Coordinador de Carrera
+**Quiero:** vincular los resultados de aprendizaje de la carrera con los OPP
+**Para:** demostrar la coherencia interna del diseño curricular
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+### HU: EPIC: Gestión de Estándares y Objetivos EUR-ACE
+**Como:** Responsable de Acreditación
+**Quiero:** cargar y gestionar los criterios de calidad de la acreditación EUR-ACE
+**Para:** establecer el marco de referencia oficial para la evaluación
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+
+### HU: EPIC: Verificación del Cumplimiento de RA con EUR-ACE
+**Como:** Coordinador de Carrera
+**Quiero:** comparar los resultados de aprendizaje de mi carrera con los objetivos EUR-ACE
+**Para:** identificar el grado de alineación y cumplimiento para la acreditación
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+### HU: EPIC: Generación de Evidencias y Reportes de Acreditación
+**Como:** Responsable de Acreditación
+**Quiero:** obtener informes estructurados que demuestren el cumplimiento
+**Para:** facilitar la preparación y envío de la documentación requerida por EUR-ACE
+**Story Points:** N/A
+**Prioridad:** N/A
+
+
+### HU: EPIC: Paneles de Control para Monitoreo Estratégico
+**Como:** Autoridad de la EPN (DGIP o Decano)
+**Quiero:** visualizar el progreso y estado de acreditación de las carreras
+**Para:** tomar decisiones estratégicas informadas sobre el proceso
+**Story Points:** N/A
+**Prioridad:** N/A
+
+<!-- --- -->
+
+## PROMPT 12
+
+**Fecha:** 28 sept 2025, 02:39 a m. (UTC)
+
+**Prompt:**
+
+###ROL
+
+Actua como un Product owner que es experto en gestión de productos de Software.
+
+
+
+**OBJETIVO: ** 
+Mi objetivo es definir mi product backlog de alto nivel , para establecer las principales funcionalidades que tendrá mi producto software
+ este debe incluir historias de usuario epicas. 
+
+CONTEXTO
+
+La Escuela Politécnica Nacional (EPN) busca acreditar sus carreras bajo el sello EUR-ACE.  
+
+
+EUR-ACE es una etiqueta de calidad y un sistema de acreditación para programas de estudios de ingeniería a nivel de grado y máster. La etiqueta, que es reconocida a nivel europeo e internacional, es un certificado que garantiza que el programa de estudios cumple con altos estándares de calidad y con las exigencias de la profesión de ingeniería.
+
+La Escuela Politécnica Nacional, o EPN, es una universidad pública, de grado y posgrado, ubicada en Quito (Ecuador). Reconocida por la investigación y la educación en ciencias básicas, ingenierías y tecnología, ofrece programas doctorales, de maestría y de grado.
+La Escuela Politécnica Nacional (EPN) se organiza en facultades y departamentos, cada uno con funciones específicas para cumplir sus objetivos académicos y de investigación.
+
+Estructura Academica de la EPN 
+
+La EPN se estructura principalmente en las siguientes unidades:
+Facultades: Son las unidades académicas superiores encargadas de planificar, ejecutar, controlar y evaluar los procesos de docencia, investigación y extensión en áreas específicas del conocimiento. Cada facultad está dirigida por un Consejo de Facultad, un Decano y un Subdecano. Tienen capacidad de gestión administrativa y financiera y están integradas por departamentos y carreras afines. 
+ 
+Departamentos: Actúan como las células básicas de la EPN, dependientes de las facultades. Los departamentos son responsables de las actividades de investigación, docencia y extensión en campos específicos. Cada departamento puede diseñar y gestionar programas de maestría y doctorado, y participa en la planificación de los procesos docentes. 
+ 
+La EPN está dividida de la siguiente manera, existen Facultades y por cada facultad pueden existir diferentes carreras cada Facultad tiene profesores, Autoridades (Decano , Subdecano , jefe de Departamento) , Para llegar a ser coordinador, Autoridad primero tiene que ser un profesor, Para las carreras cada carrera tiene un solo coordinador y existe una entidad superior que sería la DGIP que es la encargada de gestionar los aspectos académicos de las facultades , Para la autoridad administra la facultad, el coordinador gestiona la carrera .
+
+Cada carrera de la EPN cuenta con resultados de aprendizaje (RA): 
+Los RA (Resultados de Aprendizaje) son las declaraciones operativas y mensurables que desagregan el OPP. Son la unidad fundamental del currículo por resultados.   
+
+Los RA describen de manera precisa lo que se espera que un estudiante sepa, comprenda y sea capaz de hacer al concluir el programa de estudios.
+También cada carrera cuenta con Objetivos de perfil profesional (OPP) 
+
+El OPP (Objetivo/Perfil Profesional) es la declaración fundacional que define la identidad del futuro egresado de la EPN. Formalmente, en el diseño curricular moderno de la EPN, este se consolida como el Perfil de Egreso (PE).   
+
+El OPP es la promesa institucional que la EPN suscribe ante la sociedad, detallando las capacidades, conocimientos y actitudes específicos que el profesional poseerá al graduarse.   
+
+
+Para Cada carrera existen diferentes Asignaturas , cada una de estas asignaturas cuenta con un programa de estudios académicos (PEA) . Este PEA contiene información relevante de cada asignatura . Por ejemplo : – Unidad Académica “ – Carrera – Unidad de organización curricular – Nombre de la asignatura – Código
+
+– Créditos – Resultados de aprendizaje de la asignatura (RAA)
+
+Bien para evaluar que los RA de la carrera se estén cumpliendo se verifica como los RAA de cada materia aportan con un nivel (Bajo , Medio , Alto) a los RA .
+
+También para Evaluar los OPP se verifica como los RA aportan a los OPP.
+
+Para lograr la acreditación es importante los RA ya que con estos se verifica los objetivos EUR-ACE Es decir se verifica que los RA cumplan con los objetivos EURACE.
+
+ACCION
+
+Crea el product backlog de alto nivel con las historitas de usuario épicas para desarrollar mi producto evitando usar
+Piensa en lo siguiente cuando escribas historias de usuario:
+
+
+Plantilla y ejemplos de historias de usuario
+Las historias de usuario suelen expresarse con una frase simple con la siguiente estructura:
+
+“Como [perfil], [quiero] [para].”
+
+Desglosemos esta estructura:
+
+“Como [perfil]”: ¿para quién desarrollamos esto? No solo buscamos un puesto, buscamos el perfil de la persona. Max. Nuestro equipo debería comprender quién es Max. Con suerte hemos entrevistado a muchos Max. Comprendemos cómo trabaja esa persona, cómo piensa y cómo se siente. Sentimos empatía por Max.
+“Quiere”: aquí describimos su intención, no las funciones que usan. ¿Qué es lo que están intentando lograr realmente? Esta descripción debería realizarse con independencia de las implementaciones; si describes algún elemento de la IU y no el objetivo del usuario, estás cometiendo un error.
+“Para”: ¿cómo encaja su deseo inmediato de hacer algo en la perspectiva general? ¿Cuál es el beneficio general que intentan lograr? ¿Cuál es el gran problema que debe resolverse?
+Por ejemplo, las historias de usuario pueden tener este aspecto:
+
+también ten en consideración lo siguiente 
+### Formato de salida 
+como quiero y para
+
+**Respuesta:**
+
+¡Excelente objetivo! Como tu Product Owner, he analizado en profundidad el contexto de la EPN y sus necesidades para la acreditación EUR-ACE. He diseñado un Product Backlog de alto nivel, compuesto por Historias de Usuario Épicas, que encapsulan las funcionalidades clave y el valor que entregará nuestro producto.
+
+Cada épica ha sido formulada siguiendo la estructura "Como [perfil], [quiero] [para]", centrándonos en el usuario, su intención y el beneficio principal, y considerando los principios INVEST.
+
+Aquí tienes el Product Backlog de alto nivel:
+
+**Product Backlog de Alto Nivel - Sistema de Acreditación EUR-ACE EPN**
+
+*   **EPIC: Gestión de la Estructura Organizacional de la EPN**
+    *   Como **Administrador del sistema**, quiero **configurar y mantener la estructura académica de la EPN (Facultades, Departamentos, Carreras)**, para **reflejar con exactitud la organización institucional y soportar los procesos curriculares.**
+
+*   **EPIC: Administración de Usuarios y Roles de Acceso**
+    *   Como **Administrador del sistema**, quiero **gestionar los perfiles de usuario (Profesores, Coordinadores, Autoridades) y asignarles roles con permisos específicos**, para **garantizar la seguridad de la información y el control sobre las acciones dentro del sistema.**
+
+*   **EPIC: Definición y Mantenimiento del Perfil de Egreso (OPP)**
+    *   Como **Coordinador de Carrera**, quiero **registrar, editar y consultar el Objetivo del Perfil Profesional (OPP) de mi carrera**, para **establecer claramente la identidad y las competencias del futuro egresado según el modelo educativo de la EPN.**
+
+*   **EPIC: Gestión de los Resultados de Aprendizaje de Carrera (RA)**
+    *   Como **Coordinador de Carrera**, quiero **definir y organizar los Resultados de Aprendizaje (RA) específicos de mi carrera**, para **articular de manera precisa lo que se espera que el estudiante sepa y sea capaz de hacer al concluir el programa.**
+
+*   **EPIC: Administración de Programas de Estudio Académicos (PEA) y RAA**
+    *   Como **Profesor**, quiero **ingresar, consultar y actualizar la información de los Programas de Estudio Académicos (PEA) de mis asignaturas, incluyendo sus Resultados de Aprendizaje de la Asignatura (RAA)**, para **documentar oficialmente el currículo de cada materia.**
+
+*   **EPIC: Mapeo de Contribución de RAA a RA de Carrera**
+    *   Como **Coordinador de Carrera**, quiero **establecer cómo los Resultados de Aprendizaje de las Asignaturas (RAA) contribuyen, con diferentes niveles (Bajo, Medio, Alto), a los Resultados de Aprendizaje de la Carrera (RA)**, para **visualizar el aporte de cada materia al desarrollo de las competencias de la carrera.**
+
+*   **EPIC: Mapeo de Aporte de RA de Carrera a OPP**
+    *   Como **Coordinador de Carrera**, quiero **vincular los Resultados de Aprendizaje de mi carrera (RA) con los Objetivos del Perfil Profesional (OPP)**, para **validar la coherencia interna del diseño curricular y asegurar que los RA desagreguen el OPP.**
+
+*   **EPIC: Gestión de Estándares de Acreditación EUR-ACE**
+    *   Como **Responsable de Acreditación**, quiero **cargar, consultar y actualizar los requisitos y objetivos del sello de calidad EUR-ACE**, para **tener una referencia estandarizada y oficial contra la cual comparar los programas de estudio.**
+
+*   **EPIC: Verificación de Alineación de RA con Objetivos EUR-ACE**
+    *   Como **Coordinador de Carrera**, quiero **evaluar cómo los Resultados de Aprendizaje de mi carrera (RA) se alinean y cumplen con los objetivos establecidos por la acreditación EUR-ACE**, para **identificar fortalezas y áreas de mejora con miras a la certificación.**
+
+*   **EPIC: Generación de Reportes y Evidencias para Acreditación**
+    *   Como **Responsable de Acreditación**, quiero **generar reportes estructurados y exportables que consoliden la información de OPP, RA, RAA, mapeos y el estado de cumplimiento con EUR-ACE**, para **facilitar la preparación y presentación de la documentación requerida en el proceso de acreditación.**
+
+*   **EPIC: Paneles de Control para Monitoreo Estratégico**
+    *   Como **Autoridad de la EPN (DGIP o Decano)**, quiero **acceder a paneles de control que muestren el progreso de la acreditación de las carreras y métricas clave de alineación curricular**, para **tener una visión estratégica y tomar decisiones informadas sobre la gestión académica y la calidad.**
+
+<!-- --- -->
+
+## PROMPT 13
+
+
+**Prompt:**
+
+###ROL
+
+Actua como un Product owner que es experto en gestión de productos de Software.
+
+objetivo
+Mi objetivo es definir mi product backlog de alto nivel , para establecer las principales funcionalidades que tendrá mi producto software este debe incluir historias de usuario epicas.
+
+CONTEXTO
+
+La Escuela Politécnica Nacional (EPN) busca acreditar sus carreras bajo el sello EUR-ACE.
+
+EUR-ACE es una etiqueta de calidad y un sistema de acreditación para programas de estudios de ingeniería a nivel de grado y máster. La etiqueta, que es reconocida a nivel europeo e internacional, es un certificado que garantiza que el programa de estudios cumple con altos estándares de calidad y con las exigencias de la profesión de ingeniería.
+
+La Escuela Politécnica Nacional, o EPN, es una universidad pública, de grado y posgrado, ubicada en Quito (Ecuador). Reconocida por la investigación y la educación en ciencias básicas, ingenierías y tecnología, ofrece programas doctorales, de maestría y de grado. La Escuela Politécnica Nacional (EPN) se organiza en facultades y departamentos, cada uno con funciones específicas para cumplir sus objetivos académicos y de investigación.
+
+Estructura Academica de la EPN
+
+La EPN se estructura principalmente en las siguientes unidades: Facultades: Son las unidades académicas superiores encargadas de planificar, ejecutar, controlar y evaluar los procesos de docencia, investigación y extensión en áreas específicas del conocimiento. Cada facultad está dirigida por un Consejo de Facultad, un Decano y un Subdecano. Tienen capacidad de gestión administrativa y financiera y están integradas por departamentos y carreras afines.
+
+Departamentos: Actúan como las células básicas de la EPN, dependientes de las facultades. Los departamentos son responsables de las actividades de investigación, docencia y extensión en campos específicos. Cada departamento puede diseñar y gestionar programas de maestría y doctorado, y participa en la planificación de los procesos docentes.
+
+La EPN está dividida de la siguiente manera, existen Facultades y por cada facultad pueden existir diferentes carreras cada Facultad tiene profesores, Autoridades (Decano , Subdecano , jefe de Departamento) , Para llegar a ser coordinador, Autoridad primero tiene que ser un profesor, Para las carreras cada carrera tiene un solo coordinador y existe una entidad superior que sería la DGIP que es la encargada de gestionar los aspectos académicos de las facultades , Para la autoridad administra la facultad, el coordinador gestiona la carrera .
+
+Cada carrera de la EPN cuenta con resultados de aprendizaje (RA): Los RA (Resultados de Aprendizaje) son las declaraciones operativas y mensurables que desagregan el OPP. Son la unidad fundamental del currículo por resultados.  
+
+Los RA describen de manera precisa lo que se espera que un estudiante sepa, comprenda y sea capaz de hacer al concluir el programa de estudios. A diferencia de los objetivos tradicionales, los RA se centran en la  
+
+También cada carrera cuenta con Objetivos de perfil profesional (OPP)
+
+El OPP (Objetivo/Perfil Profesional) es la declaración fundacional que define la identidad del futuro egresado de la EPN. Formalmente, en el diseño curricular moderno de la EPN, este se consolida como el Perfil de Egreso (PE).  
+
+El OPP es la promesa institucional que la EPN suscribe ante la sociedad, detallando las capacidades, conocimientos y actitudes específicos que el profesional poseerá al graduarse.  
+
+Para Cada carrera existen diferentes Asignaturas , cada una de estas asignaturas cuenta con un programa de estudios académicos (PEA) . Este PEA contiene información relevante de cada asignatura . Por ejemplo : – Unidad Académica “ – Carrera – Unidad de organización curricular – Nombre de la asignatura – Código
+
+– Créditos – Resultados de aprendizaje de la asignatura (RAA)
+
+Bien para evaluar que los RA de la carrera se estén cumpliendo se verifica como los RAA de cada materia aportan con un nivel (Bajo , Medio , Alto) a los RA .
+
+También para Evaluar los OPP se verifica como los RA aportan a los OPP.
+
+Para lograr la acreditación es importante los RA ya que con estos se verifica los objetivos EUR-ACE Es decir se verifica que los RA cumplan con los objetivos EURACE.
+
+ACCION
+
+Crea el product backlog de alto nivel con las historitas de usuario épicas para desarrollar mi producto evitando usar Piensa en lo siguiente cuando escribas historias de usuario:
+
+Definición de “Listo”: la historia suele estar “lista” cuando el usuario puede completar la tarea descrita, pero debes asegurarte de definir lo que representa completarla. Describe tareas o subtareas: decide qué pasos específicos deben completarse y quién es responsable de cada uno de ellos. Perfiles de usuario: ¿para quién? Si hay varios usuarios finales, considera crear varias historias. Pasos ordenados: escribe una historia para cada paso en un proceso más grande. Escucha el feedback: habla con los usuarios y capta sus problemas o necesidades en lo que dicen. No es necesario tener que estar adivinando las historias cuando puedes obtenerlas de tus clientes. Tiempo: el tiempo es un tema delicado. Muchos equipos de desarrollo evitan hablar sobre el tiempo, y en su lugar confían en sus marcos de trabajo de estimación. Dado que las historias deberían completarse en un sprint, aquellas que puedan necesitar semanas o meses deberían dividirse en historias más pequeñas o considerarse un epic independiente. Una vez que las historias de usuario estén definidas de forma clara, debes asegurarte de que todo el equipo pueda verlas.
+
+Plantilla y ejemplos de historias de usuario Las historias de usuario suelen expresarse con una frase simple con la siguiente estructura:
+
+“Como [perfil], [quiero] [para].”
+
+Desglosemos esta estructura:
+
+“Como [perfil]”: ¿para quién desarrollamos esto? No solo buscamos un puesto, buscamos el perfil de la persona. Max. Nuestro equipo debería comprender quién es Max. Con suerte hemos entrevistado a muchos Max. Comprendemos cómo trabaja esa persona, cómo piensa y cómo se siente. Sentimos empatía por Max. “Quiere”: aquí describimos su intención, no las funciones que usan. ¿Qué es lo que están intentando lograr realmente? Esta descripción debería realizarse con independencia de las implementaciones; si describes algún elemento de la IU y no el objetivo del usuario, estás cometiendo un error. “Para”: ¿cómo encaja su deseo inmediato de hacer algo en la perspectiva general? ¿Cuál es el beneficio general que intentan lograr? ¿Cuál es el gran problema que debe resolverse? Por ejemplo, las historias de usuario pueden tener este aspecto:
+
+Como Max, quiero invitar a mis amigos, para que podamos disfrutar de este servicio juntos. Como Sascha, quiero organizar mi trabajo, para poder sentir que tengo un mayor control. Como gestor, quiero poder comprender el progreso de mis compañeros, para poder informar sobre nuestros éxitos y fallos. Esta estructura no es obligatoria, pero resulta de ayuda para establecer una definición de “hecho”. Cuando ese perfil puede alcanzar su valor deseado, la historia está completa. Recomendamos a nuestros equipos definir su propia estructura, y que no se desvíen de ella.
+
+Formato de salida
+como quiero y para
+
+**Respuesta:**
+
+¡Excelente! Me pongo mi sombrero de Product Owner experto. Entiendo perfectamente la visión de la EPN para la acreditación EUR-ACE y la necesidad de un sistema robusto que soporte sus procesos curriculares y de gestión de calidad.
+
+He analizado el contexto detallado y la estructura académica de la EPN, identificando los actores clave y las interacciones necesarias con el sistema. Mi enfoque ha sido definir épicas que representen bloques significativos de valor para nuestros usuarios y que sean suficientemente grandes como para ser desglosadas en historias de usuario más pequeñas en sprints futuros.
+
+Aquí tienes el Product Backlog de alto nivel, con historias de usuario épicas, diseñado para guiar el desarrollo de tu producto:
+
+
+**Product Backlog de Alto Nivel - Sistema de Acreditación EUR-ACE EPN**
+
+*   **EPIC: Gestión de la Estructura Organizacional Académica**
+    *   Como **Administrador del sistema**, quiero **configurar y mantener la estructura académica de la EPN, incluyendo facultades, departamentos y carreras**, para **asegurar que el sistema refleje la organización real de la institución y soporte la administración curricular.**
+
+*   **EPIC: Administración de Usuarios y Permisos de Acceso**
+    *   Como **Administrador del sistema**, quiero **crear y gestionar cuentas de usuario para profesores, coordinadores y autoridades, asignándoles roles con permisos específicos**, para **garantizar la seguridad de la información y controlar las acciones que cada usuario puede realizar.**
+
+*   **EPIC: Definición y Mantenimiento del Perfil de Egreso (OPP)**
+    *   Como **Coordinador de Carrera**, quiero **registrar, visualizar y actualizar los Objetivos del Perfil Profesional (OPP) de mi carrera**, para **establecer claramente la identidad y las competencias fundamentales que el futuro egresado poseerá al graduarse.**
+
+*   **EPIC: Gestión de los Resultados de Aprendizaje de Carrera (RA)**
+    *   Como **Coordinador de Carrera**, quiero **definir, organizar y gestionar los Resultados de Aprendizaje (RA) específicos de mi carrera**, para **articular de manera precisa lo que se espera que un estudiante sepa, comprenda y sea capaz de hacer al concluir el programa de estudios.**
+
+*   **EPIC: Administración de Programas de Estudio y Resultados de Asignatura (PEA y RAA)**
+    *   Como **Profesor**, quiero **ingresar, consultar y actualizar la información de los Programas de Estudios Académicos (PEA) de mis asignaturas, incluyendo sus Resultados de Aprendizaje de la Asignatura (RAA)**, para **documentar oficialmente el contenido y los objetivos de cada materia.**
+
+*   **EPIC: Mapeo de Contribución de Asignaturas a la Carrera**
+    *   Como **Coordinador de Carrera**, quiero **establecer y visualizar cómo los Resultados de Aprendizaje de las Asignaturas (RAA) contribuyen, en distintos niveles (Bajo, Medio, Alto), a los Resultados de Aprendizaje de la Carrera (RA)**, para **entender el impacto de cada materia en la formación integral del estudiante.**
+
+*   **EPIC: Alineación de Resultados de Aprendizaje con el Perfil Profesional**
+    *   Como **Coordinador de Carrera**, quiero **vincular los Resultados de Aprendizaje de mi carrera (RA) con los Objetivos del Perfil Profesional (OPP)**, para **validar la coherencia interna del diseño curricular y asegurar que los RA desagregan y soportan el perfil de egreso deseado.**
+
+*   **EPIC: Gestión de Estándares y Objetivos de Acreditación EUR-ACE**
+    *   Como **Responsable de Acreditación**, quiero **registrar, consultar y actualizar los requisitos y objetivos definidos por el sello de calidad EUR-ACE**, para **tener una referencia oficial y estandarizada que guíe el proceso de acreditación de las carreras.**
+
+*   **EPIC: Verificación del Cumplimiento Curricular con EUR-ACE**
+    *   Como **Coordinador de Carrera**, quiero **evaluar cómo los Resultados de Aprendizaje de mi carrera (RA) se alinean y cumplen con los objetivos y estándares establecidos por la acreditación EUR-ACE**, para **identificar rápidamente las fortalezas y áreas de mejora de mi programa de estudios.**
+
+*   **EPIC: Generación de Documentación y Evidencia para Acreditación**
+    *   Como **Responsable de Acreditación**, quiero **generar reportes estructurados y exportables que consoliden toda la información curricular y el estado de cumplimiento con EUR-ACE**, para **facilitar la preparación y presentación de la documentación requerida ante el organismo acreditador.**
+
+*   **EPIC: Paneles de Control y Monitoreo Estratégico**
+    *   Como **Autoridad (DGIP, Decano o Jefe de Departamento)**, quiero **acceder a paneles de control que muestren el progreso general de la acreditación de las carreras y métricas clave de alineación curricular**, para **obtener una visión estratégica que apoye la toma de decisiones informadas sobre la gestión académica y la calidad institucional.**
+
+
+Estas épicas servirán como la base para nuestro trabajo. En las próximas fases, trabajaremos en desglosar cada una de ellas en historias de usuario más pequeñas y manejables, priorizándolas y estimándolas para que el equipo de desarrollo pueda comenzar a construir el producto. ¡Estamos en el camino correcto para ayudar a la EPN a alcanzar su acreditación EUR-ACE!
+
+<!-- --- -->
+
+## PROMPT 14
+
+**Fecha:** 28 sept 2025, 02:52 a m. (UTC)
+
+**Prompt:**
+
+###ROL
+
+Actua como un Product owner que es experto en gestión de productos de Software.
+
+
+
+**OBJETIVO: ** 
+Mi objetivo es definir mi product backlog de alto nivel , para establecer las principales funcionalidades que tendrá mi producto software
+ este debe incluir historias de usuario epicas. 
+
+CONTEXTO
+
+La Escuela Politécnica Nacional (EPN) busca acreditar sus carreras bajo el sello EUR-ACE.  
+
+
+EUR-ACE es una etiqueta de calidad y un sistema de acreditación para programas de estudios de ingeniería a nivel de grado y máster. La etiqueta, que es reconocida a nivel europeo e internacional, es un certificado que garantiza que el programa de estudios cumple con altos estándares de calidad y con las exigencias de la profesión de ingeniería.
+
+La Escuela Politécnica Nacional, o EPN, es una universidad pública, de grado y posgrado, ubicada en Quito (Ecuador). Reconocida por la investigación y la educación en ciencias básicas, ingenierías y tecnología, ofrece programas doctorales, de maestría y de grado.
+La Escuela Politécnica Nacional (EPN) se organiza en facultades y departamentos, cada uno con funciones específicas para cumplir sus objetivos académicos y de investigación.
+
+Estructura Academica de la EPN 
+
+La EPN se estructura principalmente en las siguientes unidades:
+Facultades: Son las unidades académicas superiores encargadas de planificar, ejecutar, controlar y evaluar los procesos de docencia, investigación y extensión en áreas específicas del conocimiento. Cada facultad está dirigida por un Consejo de Facultad, un Decano y un Subdecano. Tienen capacidad de gestión administrativa y financiera y están integradas por departamentos y carreras afines. 
+ 
+Departamentos: Actúan como las células básicas de la EPN, dependientes de las facultades. Los departamentos son responsables de las actividades de investigación, docencia y extensión en campos específicos. Cada departamento puede diseñar y gestionar programas de maestría y doctorado, y participa en la planificación de los procesos docentes. 
+ 
+La EPN está dividida de la siguiente manera, existen Facultades y por cada facultad pueden existir diferentes carreras cada Facultad tiene profesores, Autoridades (Decano , Subdecano , jefe de Departamento) , Para llegar a ser coordinador, Autoridad primero tiene que ser un profesor, Para las carreras cada carrera tiene un solo coordinador y existe una entidad superior que sería la DGIP que es la encargada de gestionar los aspectos académicos de las facultades , Para la autoridad administra la facultad, el coordinador gestiona la carrera .
+
+Cada carrera de la EPN cuenta con resultados de aprendizaje (RA): 
+Los RA (Resultados de Aprendizaje) son las declaraciones operativas y mensurables que desagregan el OPP. Son la unidad fundamental del currículo por resultados.   
+
+Los RA describen de manera precisa lo que se espera que un estudiante sepa, comprenda y sea capaz de hacer al concluir el programa de estudios.
+También cada carrera cuenta con Objetivos de perfil profesional (OPP) 
+
+El OPP (Objetivo/Perfil Profesional) es la declaración fundacional que define la identidad del futuro egresado de la EPN. Formalmente, en el diseño curricular moderno de la EPN, este se consolida como el Perfil de Egreso (PE).   
+
+El OPP es la promesa institucional que la EPN suscribe ante la sociedad, detallando las capacidades, conocimientos y actitudes específicos que el profesional poseerá al graduarse.   
+
+
+Para Cada carrera existen diferentes Asignaturas , cada una de estas asignaturas cuenta con un programa de estudios académicos (PEA) . Este PEA contiene información relevante de cada asignatura . Por ejemplo : – Unidad Académica “ – Carrera – Unidad de organización curricular – Nombre de la asignatura – Código
+
+– Créditos – Resultados de aprendizaje de la asignatura (RAA)
+
+Bien para evaluar que los RA de la carrera se estén cumpliendo se verifica como los RAA de cada materia aportan con un nivel (Bajo , Medio , Alto) a los RA .
+
+También para Evaluar los OPP se verifica como los RA aportan a los OPP.
+
+Para lograr la acreditación es importante los RA ya que con estos se verifica los objetivos EUR-ACE Es decir se verifica que los RA cumplan con los objetivos EURACE.
+
+ACCION
+
+Crea el product backlog de alto nivel con las historitas de usuario épicas para desarrollar mi producto evitando usar
+Piensa en lo siguiente cuando escribas historias de usuario:
+
+
+Plantilla y ejemplos de historias de usuario
+Las historias de usuario suelen expresarse con una frase simple con la siguiente estructura:
+
+“Como [perfil], [quiero] [para].”
+
+Desglosemos esta estructura:
+
+“Como [perfil]”: ¿para quién desarrollamos esto? No solo buscamos un puesto, buscamos el perfil de la persona. Max. Nuestro equipo debería comprender quién es Max. Con suerte hemos entrevistado a muchos Max. Comprendemos cómo trabaja esa persona, cómo piensa y cómo se siente. Sentimos empatía por Max.
+“Quiere”: aquí describimos su intención, no las funciones que usan. ¿Qué es lo que están intentando lograr realmente? Esta descripción debería realizarse con independencia de las implementaciones; si describes algún elemento de la IU y no el objetivo del usuario, estás cometiendo un error.
+“Para”: ¿cómo encaja su deseo inmediato de hacer algo en la perspectiva general? ¿Cuál es el beneficio general que intentan lograr? ¿Cuál es el gran problema que debe resolverse?
+Por ejemplo, las historias de usuario pueden tener este aspecto:
+
+también ten en consideración lo siguiente 
+### Formato de salida 
+como quiero y para
+
+**Respuesta:**
+
+¡Absolutamente! Con gusto me calzo de nuevo el rol de Product Owner para definir este backlog de alto nivel para la EPN. El objetivo es claro: sentar las bases para un sistema que soporte eficazmente la acreditación EUR-ACE, enfocándonos en el valor para los usuarios y la estructura académica de la institución.
+
+He analizado el contexto nuevamente, asegurándome de identificar los perfiles clave y sus necesidades esenciales dentro del proceso de acreditación y gestión curricular. Aquí tienes el Product Backlog de alto nivel, con historias de usuario épicas, diseñado con la estructura "como, quiero, para":
+
+
+**Product Backlog de Alto Nivel - Sistema de Acreditación EUR-ACE EPN**
+
+*   **EPIC: Gestión de la Estructura Organizacional y Usuarios Académicos**
+    *   Como **Administrador del Sistema**, quiero **configurar las facultades, departamentos y carreras, y gestionar los perfiles de usuario (profesores, coordinadores, autoridades) con sus roles y permisos**, para **asegurar que la plataforma refleje fielmente la organización de la EPN y controle quién puede acceder y modificar cada tipo de información.**
+
+*   **EPIC: Definición y Mantenimiento del Perfil de Egreso (OPP)**
+    *   Como **Coordinador de Carrera**, quiero **ingresar, visualizar y actualizar los Objetivos del Perfil Profesional (OPP) de mi carrera**, para **establecer la identidad y el conjunto de competencias clave que los egresados adquirirán, sirviendo como la promesa institucional a la sociedad.**
+
+*   **EPIC: Gestión Detallada de los Resultados de Aprendizaje de Carrera (RA)**
+    *   Como **Coordinador de Carrera**, quiero **crear, organizar y detallar los Resultados de Aprendizaje (RA) de mi programa de estudios**, para **describir de forma precisa y medible lo que se espera que los estudiantes sepan, comprendan y puedan hacer al finalizar la carrera, desglosando el OPP.**
+
+*   **EPIC: Administración de Programas de Estudio y sus Resultados (PEA y RAA)**
+    *   Como **Profesor**, quiero **cargar, consultar y modificar los Programas de Estudios Académicos (PEA) de las asignaturas que imparto, incluyendo sus respectivos Resultados de Aprendizaje de la Asignatura (RAA)**, para **documentar el contenido curricular de cada materia y sus contribuciones específicas al aprendizaje.**
+
+*   **EPIC: Mapeo de la Contribución Curricular de Asignaturas a la Carrera**
+    *   Como **Coordinador de Carrera**, quiero **relacionar los Resultados de Aprendizaje de las Asignaturas (RAA) con los Resultados de Aprendizaje de la Carrera (RA), especificando el nivel de aporte (Bajo, Medio, Alto)**, para **visualizar cómo cada curso contribuye a los objetivos formativos globales de la carrera y asegurar su cumplimiento.**
+
+*   **EPIC: Alineación de Resultados de Aprendizaje con el Perfil Profesional**
+    *   Como **Coordinador de Carrera**, quiero **mapear cómo cada Resultado de Aprendizaje de la Carrera (RA) se vincula y contribuye a los Objetivos del Perfil Profesional (OPP)**, para **confirmar la coherencia y la integración del currículo en la formación del perfil del egresado.**
+
+*   **EPIC: Configuración y Gestión de los Criterios de Acreditación EUR-ACE**
+    *   Como **Responsable de Acreditación (o DGIP)**, quiero **cargar, consultar y mantener los estándares, directrices y objetivos definidos por el sello de calidad EUR-ACE**, para **disponer de una referencia oficial y actualizada que guíe el proceso de evaluación y acreditación.**
+
+*   **EPIC: Verificación del Cumplimiento de la Carrera con Estándares EUR-ACE**
+    *   Como **Coordinador de Carrera**, quiero **evaluar de manera sistemática y visualizar el nivel de cumplimiento de los Resultados de Aprendizaje de mi carrera (RA) con los objetivos y requisitos de la acreditación EUR-ACE**, para **identificar áreas de fortaleza y puntos de mejora, preparando la carrera para el proceso de acreditación.**
+
+*   **EPIC: Generación Automatizada de Reportes y Evidencias para Acreditación**
+    *   Como **Responsable de Acreditación (o DGIP)**, quiero **obtener reportes estandarizados y personalizados, consolidando toda la información curricular y el estado de alineación con EUR-ACE**, para **facilitar la preparación de la documentación requerida y la presentación de evidencias ante los evaluadores externos.**
+
+*   **EPIC: Paneles de Control y Visibilidad Estratégica del Proceso de Acreditación**
+    *   Como **Autoridad (Decano, Subdecano, Jefe de Departamento, DGIP)**, quiero **acceder a paneles de control intuitivos que muestren el progreso de la acreditación de las carreras, métricas clave de alineación y cumplimiento**, para **obtener una visión general clara y estratégica que soporte la toma de decisiones y la mejora continua de la calidad académica.**
+
+---
+
+Este backlog de épicas es el punto de partida. Cada una de estas historias representa un bloque de funcionalidad significativo y ofrecerá un valor considerable a nuestros usuarios. En los siguientes pasos, procederemos a desglosar estas épicas en historias de usuario más pequeñas, priorizarlas y planificar los sprints de desarrollo. ¡Vamos por esa acreditación EUR-ACE!
+
+<!-- --- -->
+
+## PROMPT 15
+
+
+**Prompt:**
+
+###ROL
+
+Actúa como un Product Management / Product Owner que es experto en acreditación internacional con el sello EUR-ACE. y la gestion de productos software
+
+objetivo
+Mi objetivo es definir mi product backlog de alto nivel , para establecer las principales funcionalidades que tendrá mi producto software este debe incluir historias de usuario epicas.
+
+CONTEXTO
+- El sello EUR-ACE es una etiqueta de calidad europea que certifica que un programa de estudios de ingeniería cumple con estándares de excelencia y los requisitos profesionales del ámbito europeo. Otorga una garantía internacional de la formación de un ingeniero y facilita la movilidad académica y profesional al reconocer las competencias adquiridas. 
+- Los objetivos del sistema de acreditación EUR-ACE son certificar la calidad de las carreras de ingeniería en Europa y el mundo, garantizando que cumplen estándares internacionales y asegurando que los titulados poseen conocimientos, habilidades técnicas y competencias profesionales para la empleabilidad. Además, busca facilitar la movilidad académica y profesional de estudiantes y docentes, fortalecer alianzas globales y mejorar la transparencia y el reconocimiento de las titulaciones en el ámbito internacional. 
+- La Escuela Politécnica Nacional EPN es una universidad pública, de grado y posgrado, ubicada en Quito, Ecuador. Reconocida por la investigación y la educación en ciencias básicas, ingenierías y tecnología, ofrece programas doctorales, de maestría y de grado.
+- La Escuela Politécnica Nacional consta de 9 facultades que albergan 6 carreras de tecnología superior, 24 carreras de pregrado, 22 maestrías y 6 doctorados en postgrado. Dichas especialidades pertenecen al campo del conocimiento de las ciencias, ingeniería y formación tecnológica.
+- Las carreras de grado, carreras de tecnología superior y carreras de pregrado se conocen como "carreras". Para EUR-ACE son carreras de ingeniería. EUR-ACE certifica programas de estudios de ingeniería o "carreras de ingeniería" para el caso de Ecuador. 
+- Cada carrera tiene una malla curricular donde están todas las asignaturas que los estudiantes deben cursar. Cada asignatura tiene su resultados de aprendizaje de la asignatura RAA. Cada carrera tiene resultados de aprendizaje de la carrera RA. 
+- En una matriz RA-RAA se relacionan los RAA con los RA. En otra matriz EURACE-RA se relacionan los RA con los objetivos EUR-ACE. Con las matrices anteriores podemos definir como las asignaturas ayudan a cumplir los objetivos EUR-ACE. 
+- La visión tiene como propósito definir el alcance de un producto software que debe desarrollarse en 4 sprints (iteraciones). Cada sprint tendrá una duración de 1 semana. 
+- Se debe utilizar el Scrum framework para gestionar la construcción del producto software. Scrum no se utiliza para acreditación. Scrum se utiliza para construir el producto software.  
+- El nombre del producto software es PoliAcredita. PoliAcredita es una Aplicación Web.
+
+
+
+
+
+Plantilla y ejemplos de historias de usuario Las historias de usuario suelen expresarse con una frase simple con la siguiente estructura:
+
+“Como [perfil], [quiero] [para].”
+
+Desglosemos esta estructura:
+
+“Como [perfil]”: ¿para quién desarrollamos esto? No solo buscamos un puesto, buscamos el perfil de la persona. Max. Nuestro equipo debería comprender quién es Max. Con suerte hemos entrevistado a muchos Max. Comprendemos cómo trabaja esa persona, cómo piensa y cómo se siente. Sentimos empatía por Max. “Quiere”: aquí describimos su intención, no las funciones que usan. ¿Qué es lo que están intentando lograr realmente? Esta descripción debería realizarse con independencia de las implementaciones; si describes algún elemento de la IU y no el objetivo del usuario, estás cometiendo un error. “Para”: ¿cómo encaja su deseo inmediato de hacer algo en la perspectiva general? ¿Cuál es el beneficio general que intentan lograr? ¿Cuál es el gran problema que debe resolverse? Por ejemplo, las historias de usuario pueden tener este aspecto:
+
+Como Max, quiero invitar a mis amigos, para que podamos disfrutar de este servicio juntos. Como Sascha, quiero organizar mi trabajo, para poder sentir que tengo un mayor control. Como gestor, quiero poder comprender el progreso de mis compañeros, para poder informar sobre nuestros éxitos y fallos. Esta estructura no es obligatoria, pero resulta de ayuda para establecer una definición de “hecho”. Cuando ese perfil puede alcanzar su valor deseado, la historia está completa. Recomendamos a nuestros equipos definir su propia estructura, y que no se desvíen de ella.
+
+
+
+ACCION
+
+Crea el product backlog de alto nivel con las historitas de usuario épicas para desarrollar mi producto.
+
+**Respuesta:**
+
+Como Product Management / Product Owner experto en acreditación internacional con el sello EUR-ACE, he definido el backlog de alto nivel para PoliAcredita, centrándome en las funcionalidades clave necesarias para alcanzar la visión del producto dentro del marco de 4 sprints. Estas son las historias de usuario épicas:
+
+
+### Product Backlog de Alto Nivel (Épicas) - PoliAcredita
+
+**Epic 1: Gestión Centralizada de la Estructura Curricular**
+
+*   **Como** Gestor de Carrera de la EPN,
+*   **quiero** poder definir, cargar y mantener de forma estructurada toda la información de la malla curricular, incluyendo las asignaturas, sus Resultados de Aprendizaje de Asignatura (RAA) y los Resultados de Aprendizaje de la Carrera (RA),
+*   **para** tener una base de datos curricular centralizada, actualizada y accesible que sirva como fundamento para el proceso de acreditación EUR-ACE.
+
+**Epic 2: Establecimiento y Mantenimiento de la Trazabilidad EUR-ACE**
+
+*   **Como** Gestor de Carrera de la EPN,
+*   **quiero** poder establecer, visualizar y gestionar las matrices de relación entre los Resultados de Aprendizaje de Asignatura (RAA) y los Resultados de Aprendizaje de la Carrera (RA), y posteriormente, entre los RA y los objetivos específicos del sello EUR-ACE,
+*   **para** comprender de manera clara, auditable y automatizada cómo cada componente curricular contribuye al cumplimiento de los estándares de calidad EUR-ACE.
+
+**Epic 3: Monitoreo y Reporte de Cumplimiento EUR-ACE**
+
+*   **Como** Gestor de Carrera o Autoridad Académica de la EPN,
+*   **quiero** poder consultar, analizar y generar reportes detallados y personalizables sobre el nivel de cumplimiento de los objetivos EUR-ACE, basados en la trazabilidad curricular definida,
+*   **para** identificar rápidamente las áreas de fortaleza y mejora, facilitar la toma de decisiones estratégicas para la optimización del currículo y agilizar la preparación de la documentación requerida para el proceso de autoevaluación y auditoría externa del sello EUR-ACE.
+
+**Epic 4: Gestión de Usuarios y Roles Institucionales**
+
+*   **Como** Administrador del Sistema de la EPN,
+*   **quiero** poder gestionar los usuarios de la aplicación y asignarles roles (como Gestor de Carrera, Docente, Administrador) con los permisos de acceso y manipulación de datos adecuados,
+*   **para** asegurar la seguridad, la integridad de la información sensible y garantizar que cada miembro del personal acceda y opere únicamente con las funcionalidades y datos pertinentes a su responsabilidad en el proceso de acreditación.
+
+<!-- --- -->
+
+## PROMPT 16
+
+
+**Prompt:**
+
+**ROL: **
+Actúa como un Product Management / Product Owner que es experto en acreditación internacional con el sello EUR-ACE.
+
+**OBJETIVO: **
+Definir el product backlog de alto nivel de mi producto software que se va a desarrolar
+
+**CONTEXTO: **
+
+- El sello EUR-ACE es una etiqueta de calidad europea que certifica que un programa de estudios de ingeniería cumple con estándares de excelencia y los requisitos profesionales del ámbito europeo. Otorga una garantía internacional de la formación de un ingeniero y facilita la movilidad académica y profesional al reconocer las competencias adquiridas.
+
+- Los objetivos del sistema de acreditación EUR-ACE son certificar la calidad de las carreras de ingeniería en Europa y el mundo, garantizando que cumplen estándares internacionales y asegurando que los titulados poseen conocimientos, habilidades técnicas y competencias profesionales para la empleabilidad. Además, busca facilitar la movilidad académica y profesional de estudiantes y docentes, fortalecer alianzas globales y mejorar la transparencia y el reconocimiento de las titulaciones en el ámbito internacional.
+
+- La Escuela Politécnica Nacional EPN es una universidad pública, de grado y posgrado, ubicada en Quito, Ecuador. Reconocida por la investigación y la educación en ciencias básicas, ingenierías y tecnología, ofrece programas doctorales, de maestría y de grado.
+
+- La Escuela Politécnica Nacional consta de 9 facultades que albergan 6 carreras de tecnología superior, 24 carreras de pregrado, 22 maestrías y 6 doctorados en postgrado. Dichas especialidades pertenecen al campo del conocimiento de las ciencias, ingeniería y formación tecnológica.
+
+- Las carreras de grado, carreras de tecnología superior y carreras de pregrado se conocen como "carreras". Para EUR-ACE son carreras de ingeniería. EUR-ACE certifica programas de estudios de ingeniería o "carreras de ingeniería" para el caso de Ecuador.
+
+- Cada carrera tiene una malla curricular donde están todas las asignaturas que los estudiantes deben cursar. Cada asignatura tiene su resultados de aprendizaje de la asignatura RAA. Cada carrera tiene resultados de aprendizaje de la carrera RA.
+
+- En una matriz RA-RAA se relacionan los RAA con los RA. En otra matriz EURACE-RA se relacionan los RA con los objetivos EUR-ACE. Con las matrices anteriores podemos definir como las asignaturas ayudan a cumplir los objetivos EUR-ACE.
+
+
+-La universidad está dividida de la siguiente manera, existen Facultades por cada facultad pueden existir diferentes carreras cada Facultad tiene profesores, Autoridades (Decano , Subdecano , jefe de Departamento) , Para llegar a ser coordinador, Autoridad primero tiene que ser un profesor, Para las carreras cada carrera tiene un solo coordinador y existe una entidad superior que sería la DGIP que es la encargada de gestionar los aspectos académicos de las facultades , Para la autoridad administra la facultad, el coordinador gestiona la carrera
+
+- EL product backlog de altor nivel tiene como propósito definir las principales funcionalidades que se desarrollararan o con las que contara el sistema.
+
+la vision del producto es la siguiente :
+**Para** las autoridades académicas, responsables de calidad, coordinadores y comités de acreditación de las _carreras de ingeniería_ de la Escuela Politécnica Nacional,
+
+> **que** necesitan medir, evidenciar y mejorar el cumplimiento de los objetivos del sello de calidad internacional EUR-ACE,
+
+> **nuestro** _PoliAcredita_
+
+> **es una** _aplicación web de gestión académica para la trazabilidad de competencias_
+
+> **que** permite vincular los resultados de aprendizaje de las asignaturas (RAA) con los resultados de aprendizaje de la carrera (RA) y, a su vez, con los objetivos EUR-ACE, generando evidencia automatizada, trazabilidad visual e informes para procesos de acreditación.
+
+> **A diferencia de** hojas de cálculo manuales, documentos Word dispersos o sistemas administrativos que no permiten evidenciar el cumplimiento de estándares internacionales,
+
+> **nuestro producto** centraliza la información, automatiza la generación de matrices EUR-ACE-RA y RA-RAA, y facilita el seguimiento de brechas o áreas de mejora por carrera, asignatura y objetivo de acreditación.
+
+- Se debe utilizar el Scrum framework para gestionar la construcción del producto software. Scrum no se utiliza para acreditación. Scrum se utiliza para construir el producto software.
+- El nombre del producto software es PoliAcredita. PoliAcredita es una Aplicación Web.
+
+-Una Historia de Usuario (HU) es una manera simple de describir una necesidad o requerimiento desde el punto de vista del usuario final
+
+🧭 1️⃣ Historia de Usuario Épica
+
+Nivel: alto / estratégico
+Propósito: describe un gran objetivo de negocio, abarca varias funcionalidades.
+
+Ejemplo
+
+Como coordinador , quiero registrar los PEAs para gestionar la información del programa de cada asignatura.
+
+- Crear el product backlog de alto nivel para mi producto software que ayude a las carreras de grado a medir el cumplimiento de los objetivos EUR-ACE.
+- Para crear el product backlos se debe seguir el formato de hus de alto nivel
+
+**FORMATO DE SALIDA: **
+Como [rol o usuario] quiero [acción o necesidad (una solo accion no concaternar con "y")] para [beneficio o propósito (un solo beneficio no concaternar con "y")]
+
+**RESPUESTA:**
+
+Aquí tienes el product backlog de alto nivel, estructurado como Historias de Usuario Épicas, basándome en el rol de Product Owner y el contexto de PoliAcredita:
+
+*   **HU: Gestionar Datos Maestros Académicos**
+    Como autoridad académica o coordinador de carrera,
+    quiero administrar la información de carreras, asignaturas y sus resultados de aprendizaje (RAA y RA),
+    para mantener la base de datos del sistema actualizada y consistente con la oferta educativa.
+
+*   **HU: Gestionar Criterios de Acreditación EUR-ACE**
+    Como responsable de calidad o administrador del sistema,
+    quiero mantener el catálogo de criterios EUR-ACE (códigos y descripciones),
+    para garantizar que los estándares de acreditación estén disponibles y correctamente definidos en el sistema.
+
+*   **HU: Trazabilidad de Alineación Curricular (RAA a RA)**
+    Como coordinador de carrera,
+    quiero establecer y visualizar las relaciones entre los resultados de aprendizaje de las asignaturas (RAA) y los de la carrera (RA),
+    para comprender cómo cada asignatura contribuye a los objetivos formativos generales de la carrera.
+
+*   **HU: Trazabilidad de Acreditación (RA a EUR-ACE)**
+    Como coordinador de carrera o responsable de calidad,
+    quiero establecer y visualizar las relaciones entre los resultados de aprendizaje de la carrera (RA) y los criterios EUR-ACE,
+    para evidenciar el cumplimiento de los estándares de calidad internacionales.
+
+*   **HU: Generación de Informes de Cumplimiento**
+    Como autoridad académica o miembro del comité de acreditación,
+    quiero generar informes de la alineación de la carrera con los estándares EUR-ACE,
+    para evaluar el progreso y las brechas en el proceso de acreditación.
+
+*   **HU: Generación de Evidencia Automatizada**
+    Como autoridad académica o responsable de calidad,
+    quiero obtener evidencia automatizada de los mapeos y alineaciones,
+    para simplificar la recolección de documentación requerida en los procesos de auditoría.
+
+*   **HU: Gestión de Roles y Permisos de Usuarios**
+    Como administrador del sistema o DGIP,
+    quiero gestionar los roles y permisos de acceso de los diferentes usuarios académicos,
+    para asegurar la seguridad y el control sobre la información y las funcionalidades del sistema.
+
+<!-- --- -->
+
+## PROMPT 17
+
+
+**Prompt:**
+
+**ROL: **
+Actúa como un Product Management / Product Owner que es experto en acreditación internacional con el sello EUR-ACE.
+
+**OBJETIVO: **
+Definir el product backlog de alto nivel de mi producto software que se va a desarrolar
+
+**CONTEXTO: **
+
+- El sello EUR-ACE es una etiqueta de calidad europea que certifica que un programa de estudios de ingeniería cumple con estándares de excelencia y los requisitos profesionales del ámbito europeo. Otorga una garantía internacional de la formación de un ingeniero y facilita la movilidad académica y profesional al reconocer las competencias adquiridas.
+
+- Los objetivos del sistema de acreditación EUR-ACE son certificar la calidad de las carreras de ingeniería en Europa y el mundo, garantizando que cumplen estándares internacionales y asegurando que los titulados poseen conocimientos, habilidades técnicas y competencias profesionales para la empleabilidad. Además, busca facilitar la movilidad académica y profesional de estudiantes y docentes, fortalecer alianzas globales y mejorar la transparencia y el reconocimiento de las titulaciones en el ámbito internacional.
+
+- La Escuela Politécnica Nacional EPN es una universidad pública, de grado y posgrado, ubicada en Quito, Ecuador. Reconocida por la investigación y la educación en ciencias básicas, ingenierías y tecnología, ofrece programas doctorales, de maestría y de grado.
+
+- La Escuela Politécnica Nacional consta de 9 facultades que albergan 6 carreras de tecnología superior, 24 carreras de pregrado, 22 maestrías y 6 doctorados en postgrado. Dichas especialidades pertenecen al campo del conocimiento de las ciencias, ingeniería y formación tecnológica.
+
+- Las carreras de grado, carreras de tecnología superior y carreras de pregrado se conocen como "carreras". Para EUR-ACE son carreras de ingeniería. EUR-ACE certifica programas de estudios de ingeniería o "carreras de ingeniería" para el caso de Ecuador.
+
+- Cada carrera tiene una malla curricular donde están todas las asignaturas que los estudiantes deben cursar. Cada asignatura tiene su resultados de aprendizaje de la asignatura RAA. Cada carrera tiene resultados de aprendizaje de la carrera RA.
+
+- En una matriz RA-RAA se relacionan los RAA con los RA. En otra matriz EURACE-RA se relacionan los RA con los objetivos EUR-ACE. Con las matrices anteriores podemos definir como las asignaturas ayudan a cumplir los objetivos EUR-ACE.
+
+
+-La universidad está dividida de la siguiente manera, existen Facultades por cada facultad pueden existir diferentes carreras cada Facultad tiene profesores, Autoridades (Decano , Subdecano , jefe de Departamento) , Para llegar a ser coordinador, Autoridad primero tiene que ser un profesor, Para las carreras cada carrera tiene un solo coordinador y existe una entidad superior que sería la DGIP que es la encargada de gestionar los aspectos académicos de las facultades , Para la autoridad administra la facultad, el coordinador gestiona la carrera
+
+- EL product backlog de altor nivel tiene como propósito definir las principales funcionalidades que se desarrollararan o con las que contara el sistema.
+
+la vision del producto es la siguiente :
+**Para** las autoridades académicas, responsables de calidad, coordinadores y comités de acreditación de las _carreras de ingeniería_ de la Escuela Politécnica Nacional,
+
+> **que** necesitan medir, evidenciar y mejorar el cumplimiento de los objetivos del sello de calidad internacional EUR-ACE,
+
+> **nuestro** _PoliAcredita_
+
+> **es una** _aplicación web de gestión académica para la trazabilidad de competencias_
+
+> **que** permite vincular los resultados de aprendizaje de las asignaturas (RAA) con los resultados de aprendizaje de la carrera (RA) y, a su vez, con los objetivos EUR-ACE, generando evidencia automatizada, trazabilidad visual e informes para procesos de acreditación.
+
+> **A diferencia de** hojas de cálculo manuales, documentos Word dispersos o sistemas administrativos que no permiten evidenciar el cumplimiento de estándares internacionales,
+
+> **nuestro producto** centraliza la información, automatiza la generación de matrices EUR-ACE-RA y RA-RAA, y facilita el seguimiento de brechas o áreas de mejora por carrera, asignatura y objetivo de acreditación.
+
+- Se debe utilizar el Scrum framework para gestionar la construcción del producto software. Scrum no se utiliza para acreditación. Scrum se utiliza para construir el producto software.
+- El nombre del producto software es PoliAcredita. PoliAcredita es una Aplicación Web.
+
+-Una Historia de Usuario (HU) es una manera simple de describir una necesidad o requerimiento desde el punto de vista del usuario final
+
+🧭 1️⃣ Historia de Usuario Épica
+
+Nivel: alto / estratégico
+Propósito: describe un gran objetivo de negocio, abarca varias funcionalidades.
+
+Ejemplo
+
+Como coordinador , quiero registrar los PEAs para gestionar la información del programa de cada asignatura.
+
+- Crear el product backlog de alto nivel para mi producto software que ayude a las carreras de grado a medir el cumplimiento de los objetivos EUR-ACE.
+- Para crear el product backlos se debe seguir el formato de hus de alto nivel
+
+**FORMATO DE SALIDA: **
+
+Como [rol o usuario] 
+quiero [acción o necesidad (una solo accion no concaternar con "y")] 
+para [beneficio o propósito (un solo beneficio no concaternar con "y")]
+
+**Respuesta:**
+
+¡Excelente iniciativa! Como Product Owner experto en el sello EUR-ACE, entiendo perfectamente la necesidad de construir una herramienta robusta y efectiva para la acreditación. Basándome en la visión del producto "PoliAcredita" y el contexto proporcionado, he definido el siguiente product backlog de alto nivel, estructurado como Historias de Usuario Épicas, que guiará el desarrollo de nuestro software.
+
+
+### Product Backlog de Alto Nivel para PoliAcredita
+
+Aquí tienes las historias de usuario épicas que definen las principales funcionalidades de alto nivel de nuestro producto:
+
+1.  **HU: Gestionar Datos Maestros Académicos**
+    Como autoridad académica o coordinador de carrera,
+    quiero administrar la información de carreras, asignaturas y sus resultados de aprendizaje (RAA y RA),
+    para mantener la base de datos del sistema actualizada con la oferta educativa.
+
+2.  **HU: Gestionar Estándares EUR-ACE**
+    Como responsable de calidad o administrador del sistema,
+    quiero mantener el catálogo de los criterios del sello EUR-ACE (códigos y descripciones),
+    para garantizar que los estándares de acreditación estén correctamente definidos en el sistema.
+
+3.  **HU: Mapear la Alineación Curricular (RAA a RA)**
+    Como coordinador de carrera,
+    quiero establecer las relaciones entre los resultados de aprendizaje de las asignaturas (RAA) y los de la carrera (RA),
+    para comprender cómo cada asignatura contribuye a los objetivos formativos de la carrera.
+
+4.  **HU: Mapear la Alineación con EUR-ACE (RA a EUR-ACE)**
+    Como coordinador de carrera o responsable de calidad,
+    quiero establecer las relaciones entre los resultados de aprendizaje de la carrera (RA) y los criterios EUR-ACE,
+    para evidenciar el cumplimiento de los estándares de calidad internacionales.
+
+5.  **HU: Visualizar Progreso y Brechas de Acreditación**
+    Como autoridad académica o comité de acreditación,
+    quiero consultar de forma interactiva el progreso y las brechas detectadas,
+    para facilitar la toma de decisiones y la mejora continua del programa.
+
+6.  **HU: Generar Informes de Cumplimiento**
+    Como autoridad académica o miembro del comité de acreditación,
+    quiero generar informes detallados de la alineación de la carrera con los estándares EUR-ACE,
+    para evaluar el progreso y las áreas de mejora en el proceso de acreditación.
+
+7.  **HU: Generar Evidencia Automatizada**
+    Como autoridad académica o responsable de calidad,
+    quiero obtener evidencia documentada y automatizada de los mapeos y alineaciones,
+    para simplificar la recolección de documentación requerida en los procesos de auditoría.
+
+8.  **HU: Gestionar Usuarios y Permisos**
+    Como administrador del sistema o DGIP,
+    quiero gestionar los roles y permisos de acceso de los diferentes usuarios académicos,
+    para asegurar la seguridad y el control sobre la información y las funcionalidades del sistema.
+
+---
+
+Este backlog de alto nivel nos proporciona una base sólida para iniciar el desarrollo de PoliAcredita. Cada una de estas épicas será desglosada posteriormente en historias de usuario más pequeñas y manejables durante las fases de planificación de sprints, permitiéndonos construir el producto de manera incremental y adaptativa, tal como lo requiere el framework Scrum. ¡Estoy emocionado de ver este producto cobrar vida!
+
+<!-- --- -->
+
+## PROMPT 18
+
+**Fecha:** 14 oct 2025, 04:19 p m.
+
+**Prompt:**
+
+**ROL: **
+Actúa como un Product Management / Product Owner que es experto en acreditación internacional con el sello EUR-ACE.
+
+**OBJETIVO: **
+Definir el product backlog de alto nivel de mi producto software que se va a desarrolar
+
+**CONTEXTO: **
+
+- El sello EUR-ACE es una etiqueta de calidad europea que certifica que un programa de estudios de ingeniería cumple con estándares de excelencia y los requisitos profesionales del ámbito europeo. Otorga una garantía internacional de la formación de un ingeniero y facilita la movilidad académica y profesional al reconocer las competencias adquiridas.
+
+- Los objetivos del sistema de acreditación EUR-ACE son certificar la calidad de las carreras de ingeniería en Europa y el mundo, garantizando que cumplen estándares internacionales y asegurando que los titulados poseen conocimientos, habilidades técnicas y competencias profesionales para la empleabilidad. Además, busca facilitar la movilidad académica y profesional de estudiantes y docentes, fortalecer alianzas globales y mejorar la transparencia y el reconocimiento de las titulaciones en el ámbito internacional.
+
+- La Escuela Politécnica Nacional EPN es una universidad pública, de grado y posgrado, ubicada en Quito, Ecuador. Reconocida por la investigación y la educación en ciencias básicas, ingenierías y tecnología, ofrece programas doctorales, de maestría y de grado.
+
+- La Escuela Politécnica Nacional consta de 9 facultades que albergan 6 carreras de tecnología superior, 24 carreras de pregrado, 22 maestrías y 6 doctorados en postgrado. Dichas especialidades pertenecen al campo del conocimiento de las ciencias, ingeniería y formación tecnológica.
+
+- Las carreras de grado, carreras de tecnología superior y carreras de pregrado se conocen como "carreras". Para EUR-ACE son carreras de ingeniería. EUR-ACE certifica programas de estudios de ingeniería o "carreras de ingeniería" para el caso de Ecuador.
+
+- Cada carrera tiene una malla curricular donde están todas las asignaturas que los estudiantes deben cursar. Cada asignatura tiene su resultados de aprendizaje de la asignatura RAA. Cada carrera tiene resultados de aprendizaje de la carrera RA. la carrera tambien cuenta con objetivos de perfil profesionar OPP , El OPP es la promesa institucional que la EPN suscribe ante la sociedad, detallando las capacidades, conocimientos y actitudes específicos que el profesional poseerá al graduarse.
+
+- En una matriz RA-RAA se relacionan los RAA con los RA. En otra matriz EURACE-RA se relacionan los RA con los objetivos EUR-ACE. Con las matrices anteriores podemos definir como las asignaturas ayudan a cumplir los objetivos EUR-ACE.
+
+-En una matriz RA-OPP se relacion los RA con los OPP con esta matriz podemos definir o verificar que los conocimientos ayuden al profesional.
+
+y esta es la vision de mi producto a desarrollar :
+
+**Para** las autoridades académicas, responsables de calidad, coordinadores y comités de acreditación de las _carreras de ingeniería_ de la Escuela Politécnica Nacional,
+
+> **que** necesitan medir, evidenciar y mejorar el cumplimiento de los objetivos del sello de calidad internacional EUR-ACE,
+
+> **nuestro** _PoliAcredita_
+
+> **es una** _aplicación web de gestión académica para la trazabilidad de competencias_
+
+> **que** permite vincular los resultados de aprendizaje de las asignaturas (RAA) con los resultados de aprendizaje de la carrera (RA) y, a su vez, con los objetivos EUR-ACE, generando evidencia automatizada, trazabilidad visual e informes para procesos de acreditación.
+
+> **A diferencia de** hojas de cálculo manuales, documentos Word dispersos o sistemas administrativos que no permiten evidenciar el cumplimiento de estándares internacionales,
+
+> **nuestro producto** centraliza la información, automatiza la generación de matrices EUR-ACE-RA y RA-RAA, y facilita el seguimiento de brechas o áreas de mejora por carrera, asignatura y objetivo de acreditación.
+
+-La universidad está dividida de la siguiente manera, existen Facultades por cada facultad pueden existir diferentes carreras cada Facultad tiene profesores, Autoridades (Decano , Subdecano , jefe de Departamento) , Para llegar a ser coordinador, Autoridad primero tiene que ser un profesor, Para las carreras cada carrera tiene un solo coordinador y existe una entidad superior que sería la DGIP que es la encargada de gestionar los aspectos académicos de las facultades , Para la autoridad administra la facultad, el coordinador gestiona la carrera
+
+- EL product backlog de altor nivel tiene como propósito definir las principales funcionalidades que se desarrollararan o con las que contara el sistema.
+
+- Se debe utilizar el Scrum framework para gestionar la construcción del producto software. Scrum no se utiliza para acreditación. Scrum se utiliza para construir el producto software.
+- El nombre del producto software es PoliAcredita. PoliAcredita es una Aplicación Web.
+
+-Una Historia de Usuario (HU) es una manera simple de describir una necesidad o requerimiento desde el punto de vista del usuario final
+
+🧭 1️⃣ Historia de Usuario Épica
+
+Nivel: alto / estratégico
+Propósito: describe un gran objetivo de negocio, abarca varias funcionalidades.
+
+Ejemplo
+
+Como coordinador , quiero registrar los PEAs para gestionar la información del programa de cada asignatura.
+
+- Crear el product backlog de alto nivel para mi producto software que ayude a las carreras de grado a medir el cumplimiento de los objetivos EUR-ACE.
+- Para crear el product backlos se debe seguir el formato de hus de alto nivel
+
+**FORMATO DE SALIDA: **
+
+Como [rol o usuario]
+quiero [acción o necesidad (una solo accion no concaternar con "y")]
+para [beneficio o propósito (un solo beneficio no concaternar con "y")]
+
+**Respuesta:**
+
+¡Excelente! Entendido el rol y el objetivo. La inclusión de los Objetivos de Perfil Profesional (OPP) es un punto clave que fortalece la coherencia interna del programa de estudios y su relevancia para el mercado laboral, aspectos que indirectamente refuerzan el proceso de acreditación.
+
+Basándome en la visión de "PoliAcredita" y el contexto actualizado, he revisado y ampliado el product backlog de alto nivel, incorporando la gestión y trazabilidad de los OPP. Este conjunto de Historias de Usuario Épicas nos servirá como la columna vertebral para el desarrollo ágil de nuestro producto.
+
+
+### Product Backlog de Alto Nivel para PoliAcredita (Versión 2.0)
+
+Aquí tienes las historias de usuario épicas que definen las principales funcionalidades de alto nivel de nuestro producto, con la incorporación de los OPP:
+
+1.  **HU: Gestionar Datos Maestros Académicos y de Perfil**
+    Como autoridad académica o coordinador de carrera,
+    quiero administrar la información de carreras, asignaturas, resultados de aprendizaje (RAA, RA) y objetivos de perfil profesional (OPP),
+    para mantener la base de datos del sistema actualizada.
+
+2.  **HU: Gestionar Estándares EUR-ACE**
+    Como responsable de calidad o administrador del sistema,
+    quiero mantener el catálogo de los criterios del sello EUR-ACE (códigos y descripciones),
+    para garantizar la alineación con los estándares internacionales.
+
+3.  **HU: Mapear la Alineación Curricular (RAA a RA)**
+    Como coordinador de carrera,
+    quiero establecer las relaciones entre los resultados de aprendizaje de las asignaturas (RAA) y los de la carrera (RA),
+    para comprender la contribución de cada asignatura a la formación de la carrera.
+
+4.  **HU: Mapear la Alineación con el Perfil Profesional (RA a OPP)**
+    Como coordinador de carrera o responsable de calidad,
+    quiero establecer las relaciones entre los resultados de aprendizaje de la carrera (RA) y los objetivos de perfil profesional (OPP),
+    para verificar que la formación contribuya al perfil del egresado.
+
+5.  **HU: Mapear la Alineación con EUR-ACE (RA a EUR-ACE)**
+    Como coordinador de carrera o responsable de calidad,
+    quiero establecer las relaciones entre los resultados de aprendizaje de la carrera (RA) y los criterios EUR-ACE,
+    para evidenciar el cumplimiento de los estándares de calidad internacionales.
+
+6.  **HU: Visualizar Progreso, Brechas y Coherencia**
+    Como autoridad académica o comité de acreditación,
+    quiero consultar de forma interactiva el progreso, las brechas y la coherencia de la formación,
+    para facilitar la toma de decisiones.
+
+7.  **HU: Generar Informes de Alineación y Cumplimiento**
+    Como autoridad académica o miembro del comité de acreditación,
+    quiero generar informes detallados de la alineación de la carrera,
+    para facilitar la evaluación integral del programa.
+
+8.  **HU: Generar Evidencia Documental Automatizada**
+    Como autoridad académica o responsable de calidad,
+    quiero obtener evidencia documentada y automatizada de los mapeos y alineaciones,
+    para simplificar la recolección de documentación requerida.
+
+9.  **HU: Gestionar Usuarios y Permisos**
+    Como administrador del sistema o DGIP,
+    quiero gestionar los roles y permisos de acceso de los diferentes usuarios académicos,
+    para asegurar la seguridad del sistema.
+
+---
+
+Este backlog ampliado proporciona una visión clara de las funcionalidades esenciales de PoliAcredita, considerando tanto los requisitos de acreditación EUR-ACE como la verificación de la pertinencia del perfil profesional. Seguiremos desglosando estas épicas en historias de usuario más pequeñas y detalladas a medida que avancemos en la planificación de los Sprints.
+
+<!-- --- -->
+
+## PROMPT 19
+
+
+**Prompt:**
+
+la primera hu contiene demasiadas acciones , recuerda que debe ser una solo accion , 
+
+Accion :
+
+Crea de nuevo mi product backlog de alto nivel
+
+**Respuesta:**
+
+¡Tienes toda la razón! Mil disculpas por esa omisión. El principio de "una sola acción" es fundamental en las Historias de Usuario, incluso en el nivel épico, para mantener la claridad y el enfoque.
+
+He reestructurado el Product Backlog de alto nivel para asegurar que cada Historia de Usuario Épica se adhiera estrictamente al formato solicitado, especialmente en la sección de "quiero [acción o necesidad]" y "para [beneficio o propósito]".
+
+
+### Product Backlog de Alto Nivel para PoliAcredita (Revisado V2.1)
+
+Aquí tienes las historias de usuario épicas que definen las principales funcionalidades de alto nivel de nuestro producto, corrigiendo la concatenación de acciones y objetos:
+
+1.  **HU: Gestión de la Estructura Académica Institucional**
+    Como Administrador del sistema 
+	Quiero gestionar la estructura jerarquica academica de la EPN 
+	Para representar fielmente la organización académica institucional
+
+3.  **HU: Definir Resultados de Aprendizaje de Asignatura (RAA)**
+    Como coordinador de carrera,
+    quiero definir los resultados de aprendizaje esperados por asignatura,
+    para evidenciar el aporte hacia los Resultados de aprendizaje de la carrera.
+
+4.  **HU: Definir Resultados de Aprendizaje de Carrera (RA)**
+    Como coordinador de carrera o autoridad académica,
+    quiero definir los resultados de aprendizaje de la carrera,
+    para establecer los logros generales del egresado.
+
+5.  **HU: Definir Objetivos de Perfil Profesional (OPP)**
+    Como autoridad académica o coordinador de carrera,
+    quiero definir los objetivos de perfil profesional,
+    para articular las capacidades del graduado.
+
+6.  **HU: Gestionar Estándares EUR-ACE**
+    Como responsable de calidad o administrador del sistema,
+    quiero mantener el catálogo de los criterios del sello EUR-ACE,
+    para garantizar la alineación con estándares internacionales.
+
+7.  **HU: Vincular RAA con RA**
+    Como coordinador de carrera,
+    quiero vincular los resultados de aprendizaje de las asignaturas con los de la carrera,
+    para comprender la contribución de cada asignatura a la formación de la carrera.
+
+8.  **HU: Vincular RA con OPP**
+    Como coordinador de carrera o responsable de calidad,
+    quiero vincular los resultados de aprendizaje de la carrera con los objetivos de perfil profesional,
+    para verificar que la formación contribuya al perfil del egresado.
+
+9.  **HU: Vincular RA con EUR-ACE**
+    Como coordinador de carrera o responsable de calidad,
+    quiero vincular los resultados de aprendizaje de la carrera con los criterios EUR-ACE,
+    para evidenciar el cumplimiento de los estándares de calidad internacionales.
+
+10. **HU: Monitorizar el Estado de Acreditación**
+    Como autoridad académica o comité de acreditación,
+    quiero monitorizar de forma interactiva el estado del cumplimiento de la acreditación,
+    para facilitar la toma de decisiones informadas.
+
+11. **HU: Generar Informes de Acreditación**
+    Como autoridad académica o miembro del comité de acreditación,
+    quiero generar informes detallados del estado de la acreditación,
+    para facilitar la evaluación integral del programa.
+
+12. **HU: Automatizar la Generación de Evidencia**
+    Como autoridad académica o responsable de calidad,
+    quiero automatizar la generación de la evidencia requerida,
+    para simplificar la recolección de documentación.
+
+13. **HU: Gestionar Usuarios y Permisos**
+    Como administrador del sistema o DGIP,
+    quiero gestionar los usuarios y sus permisos de acceso,
+    para asegurar la seguridad y control del sistema.
+
+---
+
+Este backlog es más granular en las funcionalidades de configuración y mantiene la consistencia en la definición de acciones y beneficios, lo que nos ayudará a desglosar las historias de usuario de manera más efectiva en los Sprints.
+
+<!-- --- -->
