@@ -50,6 +50,11 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
                 </div>
 
                 <div className="relative max-w-6xl mx-auto px-4 py-20 text-center">
+                    <img
+                        src="/Prompts-PoliAcredita/images/Logo%20PoliAcredita-Photoroom.png"
+                        alt="PoliAcredita Logo"
+                        className="w-48 h-48 mx-auto mb-6 drop-shadow-lg"
+                    />
                     <h1 className="text-5xl md:text-7xl font-bold mb-6">
                         PoliAcredita <span className="text-3xl">🎓</span>
                     </h1>

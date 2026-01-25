@@ -46,7 +46,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
                             Sistema de Acreditación EUR-ACE para la Escuela Politécnica Nacional
                         </p>
                         <p className="text-gray-600 mb-8">
-                            Descubre la planificación estratégica, sprints ejecutados y criterios de calidad del proyecto
+                            Descubre la planificación estratégica, sprints ejecutados y criterios de calidad del proyec
                         </p>
                         <div className="flex gap-4">
                             <button
@@ -67,8 +67,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
                     {/* Lado derecho - Logo */}
                     <div className="flex justify-center">
                         <img
-                            src="/images/Logo PoliAcredita-Photoroom.png"
-                            alt="PoliAcredita Logo"
+                            src={`${import.meta.env.BASE_URL}images/Logo PoliAcredita-Photoroom.png`} alt="PoliAcredita Logo"
                             className="w-full max-w-sm object-contain"
                             onError={(e) => {
                                 (e.target as HTMLImageElement).style.display = 'none';

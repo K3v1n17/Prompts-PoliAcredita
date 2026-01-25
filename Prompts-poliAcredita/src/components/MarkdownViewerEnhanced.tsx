@@ -27,7 +27,7 @@ export const MarkdownViewerEnhanced: React.FC<MarkdownViewerEnhancedProps> = ({ 
                 setLoading(true);
                 setError(null);
 
-                const response = await fetch(`/docs/${filePath}`);
+                const response = await fetch(`${import.meta.env.BASE_URL}docs/${filePath}`);
                 if (!response.ok) throw new Error('No se pudo cargar el archivo');
                 const text = await response.text();
 
