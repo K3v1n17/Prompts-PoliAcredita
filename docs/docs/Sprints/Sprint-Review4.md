@@ -48,7 +48,7 @@ Para [beneficio o valor esperado]
 
 Asigna un ID único a cada historia de usuario (por ejemplo: HU-01, HU-02, HU-03, etc.)
 
-## SALIDA
+**RESPUESTA:**
 
 ### 📋 Historias de Usuario - Sprint Review 4
 

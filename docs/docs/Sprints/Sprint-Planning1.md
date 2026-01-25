@@ -30,10 +30,7 @@
 23. [PROMPT 23](#prompt-23)
 24. [PROMPT 24](#prompt-24)
 
----
-
-
-**Prompt:**
+**Prompt:
 
 Devuelve SOLO un array JSON (sin texto extra ni code fences). 
 
@@ -145,141 +142,134 @@ Ejemplo de salida[
 
 **Respuesta:**
 
-### HU: Registrar Facultad
+### 🎯 HU: Registrar Facultad
 **Como:** Administrador Académico
 **Quiero:** registrar una nueva facultad
 **Para:** establecer la estructura organizativa fundamental de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El formulario de registro de facultad es visible con campos para 'Nombre' y 'Código'.
-- La validación de campos obligatorios (ej. 'Nombre' no vacío) funciona correctamente.
-- Al enviar el formulario, la facultad se guarda exitosamente en el sistema.
-- Se muestra un mensaje de confirmación de registro de facultad exitoso.
-- La nueva facultad aparece en el listado de facultades.
+- ✅ El formulario de registro de facultad es visible con campos para 'Nombre' y 'Código'.
+- ✅ La validación de campos obligatorios (ej. 'Nombre' no vacío) funciona correctamente.
+- ✅ Al enviar el formulario, la facultad se guarda exitosamente en el sistema.
+- ✅ Se muestra un mensaje de confirmación de registro de facultad exitoso.
+- ✅ La nueva facultad aparece en el listado de facultades.
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Listar Facultades
+
+### 🎯 HU: Listar Facultades
 **Como:** Administrador Académico
 **Quiero:** visualizar un listado de todas las facultades registradas
 **Para:** consultar y verificar la estructura organizativa de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Se muestra una tabla o listado con todas las facultades registradas.
-- Cada facultad muestra al menos su 'Nombre' y 'Código'.
-- Los datos de las facultades se cargan correctamente desde el backend.
+- ✅ Se muestra una tabla o listado con todas las facultades registradas.
+- ✅ Cada facultad muestra al menos su 'Nombre' y 'Código'.
+- ✅ Los datos de las facultades se cargan correctamente desde el backend.
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Registrar Carrera
+
+### 🎯 HU: Registrar Carrera
 **Como:** Administrador Académico
 **Quiero:** registrar una nueva carrera asociada a una facultad existente
 **Para:** expandir la oferta académica dentro de la estructura de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El formulario de registro de carrera es visible con campos para 'Nombre', 'Código' y un selector de 'Facultad'.
-- El selector de 'Facultad' muestra una lista de las facultades existentes.
-- La validación de campos obligatorios funciona correctamente.
-- Al enviar el formulario, la carrera se guarda con su facultad asociada.
-- Se muestra un mensaje de confirmación de registro de carrera exitoso.
-- La nueva carrera aparece en el listado de carreras.
+- ✅ El formulario de registro de carrera es visible con campos para 'Nombre', 'Código' y un selector de 'Facultad'.
+- ✅ El selector de 'Facultad' muestra una lista de las facultades existentes.
+- ✅ La validación de campos obligatorios funciona correctamente.
+- ✅ Al enviar el formulario, la carrera se guarda con su facultad asociada.
+- ✅ Se muestra un mensaje de confirmación de registro de carrera exitoso.
+- ✅ La nueva carrera aparece en el listado de carreras.
 
-**Story Points:** 4
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 4 | **Prioridad:** Alta (1)
 
-### HU: Listar Carreras
+
+### 🎯 HU: Listar Carreras
 **Como:** Administrador Académico
 **Quiero:** visualizar un listado de todas las carreras registradas, incluyendo su facultad
 **Para:** consultar la oferta académica y su organización dentro de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Se muestra una tabla o listado con todas las carreras registradas.
-- Cada carrera muestra al menos su 'Nombre', 'Código' y la 'Facultad Asociada'.
-- Los datos de las carreras se cargan correctamente desde el backend.
+- ✅ Se muestra una tabla o listado con todas las carreras registradas.
+- ✅ Cada carrera muestra al menos su 'Nombre', 'Código' y la 'Facultad Asociada'.
+- ✅ Los datos de las carreras se cargan correctamente desde el backend.
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Registrar Materia
+
+### 🎯 HU: Registrar Materia
 **Como:** Administrador Académico
 **Quiero:** registrar una nueva materia asociada a una carrera existente
 **Para:** establecer el plan de estudios de las carreras de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El formulario de registro de materia es visible con campos para 'Nombre', 'Código', 'Créditos' y un selector de 'Carrera'.
-- El selector de 'Carrera' muestra una lista de las carreras existentes.
-- La validación de campos obligatorios funciona correctamente.
-- Al enviar el formulario, la materia se guarda con su carrera asociada.
-- Se muestra un mensaje de confirmación de registro de materia exitoso.
-- La nueva materia aparece en el listado de materias.
+- ✅ El formulario de registro de materia es visible con campos para 'Nombre', 'Código', 'Créditos' y un selector de 'Carrera'.
+- ✅ El selector de 'Carrera' muestra una lista de las carreras existentes.
+- ✅ La validación de campos obligatorios funciona correctamente.
+- ✅ Al enviar el formulario, la materia se guarda con su carrera asociada.
+- ✅ Se muestra un mensaje de confirmación de registro de materia exitoso.
+- ✅ La nueva materia aparece en el listado de materias.
 
-**Story Points:** 4
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 4 | **Prioridad:** Alta (1)
 
-### HU: Listar Materias
+
+### 🎯 HU: Listar Materias
 **Como:** Administrador Académico
 **Quiero:** visualizar un listado de todas las materias registradas, incluyendo su carrera y facultad
 **Para:** consultar el plan de estudios y su organización
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Se muestra una tabla o listado con todas las materias registradas.
-- Cada materia muestra al menos su 'Nombre', 'Código', 'Créditos', 'Carrera Asociada' y 'Facultad Asociada'.
-- Los datos de las materias se cargan correctamente desde el backend.
+- ✅ Se muestra una tabla o listado con todas las materias registradas.
+- ✅ Cada materia muestra al menos su 'Nombre', 'Código', 'Créditos', 'Carrera Asociada' y 'Facultad Asociada'.
+- ✅ Los datos de las materias se cargan correctamente desde el backend.
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Registrar Profesor
+
+### 🎯 HU: Registrar Profesor
 **Como:** Administrador Académico
 **Quiero:** registrar un nuevo profesor en el sistema con su información básica
 **Para:** incorporar al personal docente a la plataforma y gestionarlo
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El formulario de registro de profesor es visible con campos para 'Nombre', 'Apellido', 'Cédula' y 'Email Institucional'.
-- La validación de campos obligatorios y de formato (ej. Email válido) funciona correctamente.
-- Al enviar el formulario, el profesor se guarda exitosamente en el sistema.
-- Se muestra un mensaje de confirmación de registro de profesor exitoso.
-- El nuevo profesor aparece en el listado de profesores.
+- ✅ El formulario de registro de profesor es visible con campos para 'Nombre', 'Apellido', 'Cédula' y 'Email Institucional'.
+- ✅ La validación de campos obligatorios y de formato (ej. Email válido) funciona correctamente.
+- ✅ Al enviar el formulario, el profesor se guarda exitosamente en el sistema.
+- ✅ Se muestra un mensaje de confirmación de registro de profesor exitoso.
+- ✅ El nuevo profesor aparece en el listado de profesores.
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Listar Profesores
+
+### 🎯 HU: Listar Profesores
 **Como:** Administrador Académico
 **Quiero:** visualizar un listado de todos los profesores registrados
 **Para:** consultar y gestionar el personal docente de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Se muestra una tabla o listado con todos los profesores registrados.
-- Cada profesor muestra al menos su 'Nombre', 'Apellido', 'Cédula' y 'Email Institucional'.
-- Los datos de los profesores se cargan correctamente desde el backend.
+- ✅ Se muestra una tabla o listado con todos los profesores registrados.
+- ✅ Cada profesor muestra al menos su 'Nombre', 'Apellido', 'Cédula' y 'Email Institucional'.
+- ✅ Los datos de los profesores se cargan correctamente desde el backend.
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
+
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
 <!-- --- -->
 
@@ -399,141 +389,134 @@ Ejemplo de salida[
 
 **Respuesta:**
 
-### HU: Registrar Facultad
+### 🎯 HU: Registrar Facultad
 **Como:** Administrador Académico
 **Quiero:** registrar una nueva facultad
 **Para:** establecer la estructura organizativa fundamental de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El formulario de registro de facultad es visible con campos para 'Nombre' y 'Código'.
-- La validación de campos obligatorios (ej. 'Nombre' no vacío) funciona correctamente.
-- Al enviar el formulario, la facultad se guarda exitosamente en el sistema.
-- Se muestra un mensaje de confirmación de registro de facultad exitoso.
-- La nueva facultad aparece en el listado de facultades.
+- ✅ El formulario de registro de facultad es visible con campos para 'Nombre' y 'Código'.
+- ✅ La validación de campos obligatorios (ej. 'Nombre' no vacío) funciona correctamente.
+- ✅ Al enviar el formulario, la facultad se guarda exitosamente en el sistema.
+- ✅ Se muestra un mensaje de confirmación de registro de facultad exitoso.
+- ✅ La nueva facultad aparece en el listado de facultades.
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Listar Facultades
+
+### 🎯 HU: Listar Facultades
 **Como:** Administrador Académico
 **Quiero:** visualizar un listado de todas las facultades registradas
 **Para:** consultar y verificar la estructura organizativa de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Se muestra una tabla o listado con todas las facultades registradas.
-- Cada facultad muestra al menos su 'Nombre' y 'Código'.
-- Los datos de las facultades se cargan correctamente desde el backend.
+- ✅ Se muestra una tabla o listado con todas las facultades registradas.
+- ✅ Cada facultad muestra al menos su 'Nombre' y 'Código'.
+- ✅ Los datos de las facultades se cargan correctamente desde el backend.
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Registrar Carrera
+
+### 🎯 HU: Registrar Carrera
 **Como:** Administrador Académico
 **Quiero:** registrar una nueva carrera asociada a una facultad existente
 **Para:** expandir la oferta académica dentro de la estructura de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El formulario de registro de carrera es visible con campos para 'Nombre', 'Código' y un selector de 'Facultad'.
-- El selector de 'Facultad' muestra una lista de las facultades existentes.
-- La validación de campos obligatorios funciona correctamente.
-- Al enviar el formulario, la carrera se guarda con su facultad asociada.
-- Se muestra un mensaje de confirmación de registro de carrera exitoso.
-- La nueva carrera aparece en el listado de carreras.
+- ✅ El formulario de registro de carrera es visible con campos para 'Nombre', 'Código' y un selector de 'Facultad'.
+- ✅ El selector de 'Facultad' muestra una lista de las facultades existentes.
+- ✅ La validación de campos obligatorios funciona correctamente.
+- ✅ Al enviar el formulario, la carrera se guarda con su facultad asociada.
+- ✅ Se muestra un mensaje de confirmación de registro de carrera exitoso.
+- ✅ La nueva carrera aparece en el listado de carreras.
 
-**Story Points:** 4
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 4 | **Prioridad:** Alta (1)
 
-### HU: Listar Carreras
+
+### 🎯 HU: Listar Carreras
 **Como:** Administrador Académico
 **Quiero:** visualizar un listado de todas las carreras registradas, incluyendo su facultad
 **Para:** consultar la oferta académica y su organización dentro de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Se muestra una tabla o listado con todas las carreras registradas.
-- Cada carrera muestra al menos su 'Nombre', 'Código' y la 'Facultad Asociada'.
-- Los datos de las carreras se cargan correctamente desde el backend.
+- ✅ Se muestra una tabla o listado con todas las carreras registradas.
+- ✅ Cada carrera muestra al menos su 'Nombre', 'Código' y la 'Facultad Asociada'.
+- ✅ Los datos de las carreras se cargan correctamente desde el backend.
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Registrar Materia
+
+### 🎯 HU: Registrar Materia
 **Como:** Administrador Académico
 **Quiero:** registrar una nueva materia asociada a una carrera existente
 **Para:** establecer el plan de estudios de las carreras de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El formulario de registro de materia es visible con campos para 'Nombre', 'Código', 'Créditos' y un selector de 'Carrera'.
-- El selector de 'Carrera' muestra una lista de las carreras existentes.
-- La validación de campos obligatorios funciona correctamente.
-- Al enviar el formulario, la materia se guarda con su carrera asociada.
-- Se muestra un mensaje de confirmación de registro de materia exitoso.
-- La nueva materia aparece en el listado de materias.
+- ✅ El formulario de registro de materia es visible con campos para 'Nombre', 'Código', 'Créditos' y un selector de 'Carrera'.
+- ✅ El selector de 'Carrera' muestra una lista de las carreras existentes.
+- ✅ La validación de campos obligatorios funciona correctamente.
+- ✅ Al enviar el formulario, la materia se guarda con su carrera asociada.
+- ✅ Se muestra un mensaje de confirmación de registro de materia exitoso.
+- ✅ La nueva materia aparece en el listado de materias.
 
-**Story Points:** 4
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 4 | **Prioridad:** Alta (1)
 
-### HU: Listar Materias
+
+### 🎯 HU: Listar Materias
 **Como:** Administrador Académico
 **Quiero:** visualizar un listado de todas las materias registradas, incluyendo su carrera y facultad
 **Para:** consultar el plan de estudios y su organización
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Se muestra una tabla o listado con todas las materias registradas.
-- Cada materia muestra al menos su 'Nombre', 'Código', 'Créditos', 'Carrera Asociada' y 'Facultad Asociada'.
-- Los datos de las materias se cargan correctamente desde el backend.
+- ✅ Se muestra una tabla o listado con todas las materias registradas.
+- ✅ Cada materia muestra al menos su 'Nombre', 'Código', 'Créditos', 'Carrera Asociada' y 'Facultad Asociada'.
+- ✅ Los datos de las materias se cargan correctamente desde el backend.
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Registrar Profesor
+
+### 🎯 HU: Registrar Profesor
 **Como:** Administrador Académico
 **Quiero:** registrar un nuevo profesor en el sistema con su información básica
 **Para:** incorporar al personal docente a la plataforma y gestionarlo
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El formulario de registro de profesor es visible con campos para 'Nombre', 'Apellido', 'Cédula' y 'Email Institucional'.
-- La validación de campos obligatorios y de formato (ej. Email válido) funciona correctamente.
-- Al enviar el formulario, el profesor se guarda exitosamente en el sistema.
-- Se muestra un mensaje de confirmación de registro de profesor exitoso.
-- El nuevo profesor aparece en el listado de profesores.
+- ✅ El formulario de registro de profesor es visible con campos para 'Nombre', 'Apellido', 'Cédula' y 'Email Institucional'.
+- ✅ La validación de campos obligatorios y de formato (ej. Email válido) funciona correctamente.
+- ✅ Al enviar el formulario, el profesor se guarda exitosamente en el sistema.
+- ✅ Se muestra un mensaje de confirmación de registro de profesor exitoso.
+- ✅ El nuevo profesor aparece en el listado de profesores.
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Listar Profesores
+
+### 🎯 HU: Listar Profesores
 **Como:** Administrador Académico
 **Quiero:** visualizar un listado de todos los profesores registrados
 **Para:** consultar y gestionar el personal docente de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Se muestra una tabla o listado con todos los profesores registrados.
-- Cada profesor muestra al menos su 'Nombre', 'Apellido', 'Cédula' y 'Email Institucional'.
-- Los datos de los profesores se cargan correctamente desde el backend.
+- ✅ Se muestra una tabla o listado con todos los profesores registrados.
+- ✅ Cada profesor muestra al menos su 'Nombre', 'Apellido', 'Cédula' y 'Email Institucional'.
+- ✅ Los datos de los profesores se cargan correctamente desde el backend.
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
+
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
 <!-- --- -->
 
@@ -653,141 +636,134 @@ Ejemplo de salida[
 
 **Respuesta:**
 
-### HU: Registrar Facultad
+### 🎯 HU: Registrar Facultad
 **Como:** Administrador Académico
 **Quiero:** registrar una nueva facultad
 **Para:** establecer la estructura organizativa fundamental de la EPN y optimizar la gestión inicial de la oferta académica
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El formulario de registro de facultad es visible con campos para 'Nombre' y 'Código'.
-- La validación de campos obligatorios (ej. 'Nombre' no vacío) funciona correctamente.
-- Al enviar el formulario, la facultad se guarda exitosamente en el sistema.
-- Se muestra un mensaje de confirmación de registro de facultad exitoso.
-- La nueva facultad aparece en el listado de facultades.
+- ✅ El formulario de registro de facultad es visible con campos para 'Nombre' y 'Código'.
+- ✅ La validación de campos obligatorios (ej. 'Nombre' no vacío) funciona correctamente.
+- ✅ Al enviar el formulario, la facultad se guarda exitosamente en el sistema.
+- ✅ Se muestra un mensaje de confirmación de registro de facultad exitoso.
+- ✅ La nueva facultad aparece en el listado de facultades.
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Listar Facultades
+
+### 🎯 HU: Listar Facultades
 **Como:** Administrador Académico
 **Quiero:** visualizar un listado de todas las facultades registradas
 **Para:** consultar y verificar la estructura organizativa de la EPN, mejorando la eficiencia administrativa
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Se muestra una tabla o listado con todas las facultades registradas.
-- Cada facultad muestra al menos su 'Nombre' y 'Código'.
-- Los datos de las facultades se cargan correctamente desde el backend.
+- ✅ Se muestra una tabla o listado con todas las facultades registradas.
+- ✅ Cada facultad muestra al menos su 'Nombre' y 'Código'.
+- ✅ Los datos de las facultades se cargan correctamente desde el backend.
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Registrar Carrera
+
+### 🎯 HU: Registrar Carrera
 **Como:** Administrador Académico
 **Quiero:** registrar una nueva carrera asociada a una facultad existente
 **Para:** expandir la oferta académica dentro de la estructura de la EPN y agilizar la preparación de nuevos programas
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El formulario de registro de carrera es visible con campos para 'Nombre', 'Código' y un selector de 'Facultad'.
-- El selector de 'Facultad' muestra una lista de las facultades existentes.
-- La validación de campos obligatorios funciona correctamente.
-- Al enviar el formulario, la carrera se guarda con su facultad asociada.
-- Se muestra un mensaje de confirmación de registro de carrera exitoso.
-- La nueva carrera aparece en el listado de carreras.
+- ✅ El formulario de registro de carrera es visible con campos para 'Nombre', 'Código' y un selector de 'Facultad'.
+- ✅ El selector de 'Facultad' muestra una lista de las facultades existentes.
+- ✅ La validación de campos obligatorios funciona correctamente.
+- ✅ Al enviar el formulario, la carrera se guarda con su facultad asociada.
+- ✅ Se muestra un mensaje de confirmación de registro de carrera exitoso.
+- ✅ La nueva carrera aparece en el listado de carreras.
 
-**Story Points:** 4
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 4 | **Prioridad:** Alta (1)
 
-### HU: Listar Carreras
+
+### 🎯 HU: Listar Carreras
 **Como:** Administrador Académico
 **Quiero:** visualizar un listado de todas las carreras registradas, incluyendo su facultad
 **Para:** consultar la oferta académica y su organización dentro de la EPN, facilitando la auditoría y planificación
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Se muestra una tabla o listado con todas las carreras registradas.
-- Cada carrera muestra al menos su 'Nombre', 'Código' y la 'Facultad Asociada'.
-- Los datos de las carreras se cargan correctamente desde el backend.
+- ✅ Se muestra una tabla o listado con todas las carreras registradas.
+- ✅ Cada carrera muestra al menos su 'Nombre', 'Código' y la 'Facultad Asociada'.
+- ✅ Los datos de las carreras se cargan correctamente desde el backend.
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Registrar Materia
+
+### 🎯 HU: Registrar Materia
 **Como:** Administrador Académico
 **Quiero:** registrar una nueva materia asociada a una carrera existente
 **Para:** establecer el plan de estudios de las carreras de la EPN y asegurar la correcta estructuración curricular
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El formulario de registro de materia es visible con campos para 'Nombre', 'Código', 'Créditos' y un selector de 'Carrera'.
-- El selector de 'Carrera' muestra una lista de las carreras existentes.
-- La validación de campos obligatorios funciona correctamente.
-- Al enviar el formulario, la materia se guarda con su carrera asociada.
-- Se muestra un mensaje de confirmación de registro de materia exitoso.
-- La nueva materia aparece en el listado de materias.
+- ✅ El formulario de registro de materia es visible con campos para 'Nombre', 'Código', 'Créditos' y un selector de 'Carrera'.
+- ✅ El selector de 'Carrera' muestra una lista de las carreras existentes.
+- ✅ La validación de campos obligatorios funciona correctamente.
+- ✅ Al enviar el formulario, la materia se guarda con su carrera asociada.
+- ✅ Se muestra un mensaje de confirmación de registro de materia exitoso.
+- ✅ La nueva materia aparece en el listado de materias.
 
-**Story Points:** 4
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 4 | **Prioridad:** Alta (1)
 
-### HU: Listar Materias
+
+### 🎯 HU: Listar Materias
 **Como:** Administrador Académico
 **Quiero:** visualizar un listado de todas las materias registradas, incluyendo su carrera y facultad
 **Para:** consultar el plan de estudios y su organización, mejorando la transparencia y gestión curricular
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Se muestra una tabla o listado con todas las materias registradas.
-- Cada materia muestra al menos su 'Nombre', 'Código', 'Créditos', 'Carrera Asociada' y 'Facultad Asociada'.
-- Los datos de las materias se cargan correctamente desde el backend.
+- ✅ Se muestra una tabla o listado con todas las materias registradas.
+- ✅ Cada materia muestra al menos su 'Nombre', 'Código', 'Créditos', 'Carrera Asociada' y 'Facultad Asociada'.
+- ✅ Los datos de las materias se cargan correctamente desde el backend.
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Registrar Profesor
+
+### 🎯 HU: Registrar Profesor
 **Como:** Administrador Académico
 **Quiero:** registrar un nuevo profesor en el sistema con su información básica
 **Para:** incorporar al personal docente a la plataforma y agilizar la asignación de recursos humanos
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El formulario de registro de profesor es visible con campos para 'Nombre', 'Apellido', 'Cédula' y 'Email Institucional'.
-- La validación de campos obligatorios y de formato (ej. Email válido) funciona correctamente.
-- Al enviar el formulario, el profesor se guarda exitosamente en el sistema.
-- Se muestra un mensaje de confirmación de registro de profesor exitoso.
-- El nuevo profesor aparece en el listado de profesores.
+- ✅ El formulario de registro de profesor es visible con campos para 'Nombre', 'Apellido', 'Cédula' y 'Email Institucional'.
+- ✅ La validación de campos obligatorios y de formato (ej. Email válido) funciona correctamente.
+- ✅ Al enviar el formulario, el profesor se guarda exitosamente en el sistema.
+- ✅ Se muestra un mensaje de confirmación de registro de profesor exitoso.
+- ✅ El nuevo profesor aparece en el listado de profesores.
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Listar Profesores
+
+### 🎯 HU: Listar Profesores
 **Como:** Administrador Académico
 **Quiero:** visualizar un listado de todos los profesores registrados
 **Para:** consultar y gestionar el personal docente de la EPN, mejorando la administración de recursos humanos
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Se muestra una tabla o listado con todos los profesores registrados.
-- Cada profesor muestra al menos su 'Nombre', 'Apellido', 'Cédula' y 'Email Institucional'.
-- Los datos de los profesores se cargan correctamente desde el backend.
+- ✅ Se muestra una tabla o listado con todos los profesores registrados.
+- ✅ Cada profesor muestra al menos su 'Nombre', 'Apellido', 'Cédula' y 'Email Institucional'.
+- ✅ Los datos de los profesores se cargan correctamente desde el backend.
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
+
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
 <!-- --- -->
 
@@ -911,130 +887,123 @@ Ejemplo de salida[
 **Como:** 
 **Quiero:** 
 **Para:** 
-**Story Points:** N/A
-**Prioridad:** N/A
 
----
+**Story Points:** N/A**Prioridad:** N/A
 
-### HU: Iniciar Sesión en Poliacredita
+
+### 🎯 HU: Iniciar Sesión en Poliacredita
 **Como:** usuario EPN
 **Quiero:** acceder con mis credenciales institucionales
 **Para:** usar las funcionalidades de mi rol
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Se muestra formulario con campos Email, Contraseña, y selector de Rol (temporal)
-- Al ingresar credenciales válidas, el usuario es redirigido al Dashboard
-- Al ingresar credenciales inválidas, se muestra un mensaje de error claro
-- Existe un enlace para 'Olvidé mi contraseña'
+- ✅ Se muestra formulario con campos Email, Contraseña, y selector de Rol (temporal)
+- ✅ Al ingresar credenciales válidas, el usuario es redirigido al Dashboard
+- ✅ Al ingresar credenciales inválidas, se muestra un mensaje de error claro
+- ✅ Existe un enlace para 'Olvidé mi contraseña'
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Visualizar Dashboard General
+
+### 🎯 HU: Visualizar Dashboard General
 **Como:** usuario autenticado
 **Quiero:** ver un resumen de la información clave del sistema
 **Para:** obtener una visión rápida del estado de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Al iniciar sesión, se redirige al Dashboard por defecto
-- El Dashboard muestra el conteo total de Facultades
-- El Dashboard muestra el conteo total de Carreras
-- El Dashboard muestra el conteo total de Profesores
-- Se muestra una sección de 'Últimos Cambios' con acciones y fechas
-- Se muestran 'Acciones Rápidas' para 'Nueva Facultad', 'Nueva Carrera', 'Nuevo Profesor'
+- ✅ Al iniciar sesión, se redirige al Dashboard por defecto
+- ✅ El Dashboard muestra el conteo total de Facultades
+- ✅ El Dashboard muestra el conteo total de Carreras
+- ✅ El Dashboard muestra el conteo total de Profesores
+- ✅ Se muestra una sección de 'Últimos Cambios' con acciones y fechas
+- ✅ Se muestran 'Acciones Rápidas' para 'Nueva Facultad', 'Nueva Carrera', 'Nuevo Profesor'
 
-**Story Points:** 5
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 5 | **Prioridad:** Alta (1)
 
-### HU: Listar Facultades Registradas
+
+### 🎯 HU: Listar Facultades Registradas
 **Como:** administrador del sistema
 **Quiero:** ver todas las facultades con su información principal
 **Para:** gestionar la estructura académica de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe una página dedicada a 'Facultades' accesible desde la navegación principal
-- Se muestra una tabla con 'Código', 'Nombre', 'Autoridades', 'Carreras' y 'Acciones' para cada facultad
-- La tabla permite ver detalles, editar o eliminar una facultad
-- Los datos se cargan correctamente en la tabla
-- Se muestra el botón 'Nueva Facultad'
+- ✅ Existe una página dedicada a 'Facultades' accesible desde la navegación principal
+- ✅ Se muestra una tabla con 'Código', 'Nombre', 'Autoridades', 'Carreras' y 'Acciones' para cada facultad
+- ✅ La tabla permite ver detalles, editar o eliminar una facultad
+- ✅ Los datos se cargan correctamente en la tabla
+- ✅ Se muestra el botón 'Nueva Facultad'
 
-**Story Points:** 8
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 8 | **Prioridad:** Alta (1)
 
-### HU: Registrar Nueva Facultad
+
+### 🎯 HU: Registrar Nueva Facultad
 **Como:** administrador del sistema
 **Quiero:** agregar una nueva facultad al sistema
 **Para:** mantener actualizada la estructura organizativa de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Al hacer clic en 'Nueva Facultad' (desde Dashboard o listado), se abre un formulario para el registro
-- El formulario incluye campos para 'Código' y 'Nombre' de la facultad
-- Al enviar datos válidos, la facultad se guarda y se muestra en el listado
-- Al enviar datos inválidos (ej. código duplicado), se muestra un mensaje de error claro
+- ✅ Al hacer clic en 'Nueva Facultad' (desde Dashboard o listado), se abre un formulario para el registro
+- ✅ El formulario incluye campos para 'Código' y 'Nombre' de la facultad
+- ✅ Al enviar datos válidos, la facultad se guarda y se muestra en el listado
+- ✅ Al enviar datos inválidos (ej. código duplicado), se muestra un mensaje de error claro
 
-**Story Points:** 5
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 5 | **Prioridad:** Alta (1)
 
-### HU: Registrar Nueva Carrera
+
+### 🎯 HU: Registrar Nueva Carrera
 **Como:** administrador del sistema
 **Quiero:** agregar una nueva carrera al sistema
 **Para:** organizar la oferta académica dentro de las facultades
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Al hacer clic en 'Nueva Carrera' (desde Dashboard), se abre un formulario de registro
-- El formulario incluye campos para 'Nombre de la Carrera', y un selector para la 'Facultad' a la que pertenece
-- Al enviar datos válidos, la carrera se guarda y se muestra el mensaje de éxito
-- Al enviar datos inválidos, se muestra un mensaje de error claro
+- ✅ Al hacer clic en 'Nueva Carrera' (desde Dashboard), se abre un formulario de registro
+- ✅ El formulario incluye campos para 'Nombre de la Carrera', y un selector para la 'Facultad' a la que pertenece
+- ✅ Al enviar datos válidos, la carrera se guarda y se muestra el mensaje de éxito
+- ✅ Al enviar datos inválidos, se muestra un mensaje de error claro
 
-**Story Points:** 5
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 5 | **Prioridad:** Alta (1)
 
-### HU: Registrar Nuevo Profesor
+
+### 🎯 HU: Registrar Nuevo Profesor
 **Como:** administrador del sistema
 **Quiero:** agregar un nuevo profesor al sistema
 **Para:** incluir al personal docente en la gestión académica
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Al hacer clic en 'Nuevo Profesor' (desde Dashboard), se abre un formulario de registro
-- El formulario incluye campos para el 'Nombre', 'Email', y otros datos relevantes del profesor (ej. 'Departamento')
-- Al enviar datos válidos, el profesor se guarda y se muestra el mensaje de éxito
-- Al enviar datos inválidos (ej. email duplicado), se muestra un mensaje de error claro
+- ✅ Al hacer clic en 'Nuevo Profesor' (desde Dashboard), se abre un formulario de registro
+- ✅ El formulario incluye campos para el 'Nombre', 'Email', y otros datos relevantes del profesor (ej. 'Departamento')
+- ✅ Al enviar datos válidos, el profesor se guarda y se muestra el mensaje de éxito
+- ✅ Al enviar datos inválidos (ej. email duplicado), se muestra un mensaje de error claro
 
-**Story Points:** 5
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 5 | **Prioridad:** Alta (1)
 
-### HU: Buscar Facultades por Nombre o Código
+
+### 🎯 HU: Buscar Facultades por Nombre o Código
 **Como:** administrador del sistema
 **Quiero:** encontrar facultades específicas rápidamente
 **Para:** agilizar la gestión de facultades
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un campo de búsqueda ('Buscar por Nombre o Código') en la página de listado de Facultades
-- Al escribir texto en el campo de búsqueda, la tabla se filtra y muestra solo las facultades que coinciden
-- La búsqueda debe ser insensible a mayúsculas y minúsculas
-- Al borrar el texto de búsqueda, se muestra el listado completo de facultades
+- ✅ Existe un campo de búsqueda ('Buscar por Nombre o Código') en la página de listado de Facultades
+- ✅ Al escribir texto en el campo de búsqueda, la tabla se filtra y muestra solo las facultades que coinciden
+- ✅ La búsqueda debe ser insensible a mayúsculas y minúsculas
+- ✅ Al borrar el texto de búsqueda, se muestra el listado completo de facultades
 
-**Story Points:** 3
-**Prioridad:** Media (2)
+
+**Story Points:** 3 | **Prioridad:** Media (2)
 
 <!-- --- -->
 
@@ -1158,198 +1127,187 @@ Ejemplo de salida[
 **Como:** 
 **Quiero:** 
 **Para:** 
-**Story Points:** N/A
-**Prioridad:** N/A
 
----
+**Story Points:** N/A**Prioridad:** N/A
 
-### HU: Iniciar Sesión en Poliacredita
+
+### 🎯 HU: Iniciar Sesión en Poliacredita
 **Como:** Usuario del sistema SAGA EPN EUR-ACE
 **Quiero:** ingresar mis credenciales institucionales
 **Para:** acceder a mis funcionalidades correspondientes a mi rol
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El sistema muestra un formulario de inicio de sesión con campos para email institucional
-- El sistema muestra un campo para contraseña
-- Al ingresar credenciales válidas, el usuario es redirigido al Dashboard
-- Al ingresar credenciales inválidas, se muestra un mensaje de error claro
-- Existe un enlace para '¿Olvidaste mi contraseña?'
+- ✅ El sistema muestra un formulario de inicio de sesión con campos para email institucional
+- ✅ El sistema muestra un campo para contraseña
+- ✅ Al ingresar credenciales válidas, el usuario es redirigido al Dashboard
+- ✅ Al ingresar credenciales inválidas, se muestra un mensaje de error claro
+- ✅ Existe un enlace para '¿Olvidaste mi contraseña?'
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Visualizar Dashboard General
+
+### 🎯 HU: Visualizar Dashboard General
 **Como:** Administrador
 **Quiero:** ver un resumen ejecutivo de las métricas clave del sistema
 **Para:** obtener una visión rápida del estado general de las facultades, carreras y usuarios
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El Dashboard muestra el 'Total Facultades' registradas
-- El Dashboard muestra el 'Total Carreras' registradas
-- El Dashboard muestra el 'Total Profesores' registrados
-- El Dashboard muestra una sección de 'Últimos Cambios' con Acción, Descripción y Fecha
-- El Dashboard muestra una sección de 'Acciones Rápidas' con botones para 'Nueva Facultad', 'Nueva Carrera', 'Nuevo Profesor'
+- ✅ El Dashboard muestra el 'Total Facultades' registradas
+- ✅ El Dashboard muestra el 'Total Carreras' registradas
+- ✅ El Dashboard muestra el 'Total Profesores' registrados
+- ✅ El Dashboard muestra una sección de 'Últimos Cambios' con Acción, Descripción y Fecha
+- ✅ El Dashboard muestra una sección de 'Acciones Rápidas' con botones para 'Nueva Facultad', 'Nueva Carrera', 'Nuevo Profesor'
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Listar Facultades Registradas
+
+### 🎯 HU: Listar Facultades Registradas
 **Como:** Administrador del sistema
 **Quiero:** ver todas las facultades con su información principal
 **Para:** gestionar la estructura académica de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe una página dedicada a 'Facultades' accesible desde la navegación principal
-- Se muestra una tabla con 'Código', 'Nombre', 'Autoridades', 'Carreras' y 'Acciones' para cada facultad
-- La tabla de facultades soporta paginación
-- Los datos se cargan correctamente en la tabla
-- Se muestra el botón 'Nueva Facultad'
+- ✅ Existe una página dedicada a 'Facultades' accesible desde la navegación principal
+- ✅ Se muestra una tabla con 'Código', 'Nombre', 'Autoridades', 'Carreras' y 'Acciones' para cada facultad
+- ✅ La tabla de facultades soporta paginación
+- ✅ Los datos se cargan correctamente en la tabla
+- ✅ Se muestra el botón 'Nueva Facultad'
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Buscar Facultades por Nombre o Código
+
+### 🎯 HU: Buscar Facultades por Nombre o Código
 **Como:** Administrador del sistema
 **Quiero:** encontrar facultades específicas rápidamente
 **Para:** agilizar la gestión de facultades
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un campo de búsqueda ('Buscar por Nombre o Código') en la página de listado de Facultades
-- Al escribir texto en el campo de búsqueda, la tabla se filtra y muestra solo las facultades que coinciden
-- La búsqueda debe ser insensible a mayúsculas y minúsculas
-- Al borrar el texto de búsqueda, se muestra el listado completo de facultades
+- ✅ Existe un campo de búsqueda ('Buscar por Nombre o Código') en la página de listado de Facultades
+- ✅ Al escribir texto en el campo de búsqueda, la tabla se filtra y muestra solo las facultades que coinciden
+- ✅ La búsqueda debe ser insensible a mayúsculas y minúsculas
+- ✅ Al borrar el texto de búsqueda, se muestra el listado completo de facultades
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Filtrar Listado de Facultades
+
+### 🎯 HU: Filtrar Listado de Facultades
 **Como:** Administrador del sistema
 **Quiero:** filtrar el listado de facultades
 **Para:** organizar la visualización por criterios específicos
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector de filtro ('Todas las Carreras') en la página de listado de Facultades
-- Al seleccionar una opción del filtro, la tabla de facultades se actualiza mostrando solo las que cumplen el criterio
-- Las opciones del filtro deben ser claras y relevantes (ej. por tipo de carrera o decano si aplica en el contexto)
+- ✅ Existe un selector de filtro ('Todas las Carreras') en la página de listado de Facultades
+- ✅ Al seleccionar una opción del filtro, la tabla de facultades se actualiza mostrando solo las que cumplen el criterio
+- ✅ Las opciones del filtro deben ser claras y relevantes (ej. por tipo de carrera o decano si aplica en el contexto)
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Registrar Nueva Facultad
+
+### 🎯 HU: Registrar Nueva Facultad
 **Como:** Administrador del sistema
 **Quiero:** agregar una nueva facultad al sistema
 **Para:** mantener actualizada la estructura organizativa de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Al hacer clic en 'Nueva Facultad' (desde Dashboard o listado), se abre un formulario de registro
-- El formulario incluye campos para 'Código' y 'Nombre' de la facultad
-- Al enviar datos válidos, la facultad se guarda y se muestra en el listado
-- Al enviar datos inválidos (ej. código duplicado), se muestra un mensaje de error claro
+- ✅ Al hacer clic en 'Nueva Facultad' (desde Dashboard o listado), se abre un formulario de registro
+- ✅ El formulario incluye campos para 'Código' y 'Nombre' de la facultad
+- ✅ Al enviar datos válidos, la facultad se guarda y se muestra en el listado
+- ✅ Al enviar datos inválidos (ej. código duplicado), se muestra un mensaje de error claro
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Editar Información de Facultad
+
+### 🎯 HU: Editar Información de Facultad
 **Como:** Administrador del sistema
 **Quiero:** modificar los datos de una facultad existente
 **Para:** corregir o actualizar su información
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de edición (lápiz) en la columna 'Acciones' de cada facultad en el listado
-- Al hacer clic en el icono de edición, se abre un formulario con los datos de la facultad precargados
-- Al guardar los cambios, la información de la facultad se actualiza correctamente
-- El sistema valida la unicidad del código de la facultad si se modifica
+- ✅ Existe un icono de edición (lápiz) en la columna 'Acciones' de cada facultad en el listado
+- ✅ Al hacer clic en el icono de edición, se abre un formulario con los datos de la facultad precargados
+- ✅ Al guardar los cambios, la información de la facultad se actualiza correctamente
+- ✅ El sistema valida la unicidad del código de la facultad si se modifica
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Eliminar Facultad del Sistema
+
+### 🎯 HU: Eliminar Facultad del Sistema
 **Como:** Administrador del sistema
 **Quiero:** remover una facultad del sistema
 **Para:** depurar información obsoleta o incorrecta
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de eliminación (papelera) en la columna 'Acciones' de cada facultad en el listado
-- Al hacer clic en el icono de eliminación, se muestra una confirmación al usuario
-- Si la facultad no tiene carreras asociadas, se elimina del sistema
-- Si la facultad tiene carreras asociadas, el sistema advierte e impide la eliminación
+- ✅ Existe un icono de eliminación (papelera) en la columna 'Acciones' de cada facultad en el listado
+- ✅ Al hacer clic en el icono de eliminación, se muestra una confirmación al usuario
+- ✅ Si la facultad no tiene carreras asociadas, se elimina del sistema
+- ✅ Si la facultad tiene carreras asociadas, el sistema advierte e impide la eliminación
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Visualizar Detalle de Facultad
+
+### 🎯 HU: Visualizar Detalle de Facultad
 **Como:** Administrador del sistema
 **Quiero:** ver la información completa de una facultad
 **Para:** consultar sus detalles específicos
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de 'Ver' (ojo) en la columna 'Acciones' de cada facultad en el listado
-- Al hacer clic en el icono 'Ver', se navega a una vista detallada de la facultad
-- La vista detallada muestra toda la información de la facultad (código, nombre, descripción, decano, lista de carreras asociadas)
+- ✅ Existe un icono de 'Ver' (ojo) en la columna 'Acciones' de cada facultad en el listado
+- ✅ Al hacer clic en el icono 'Ver', se navega a una vista detallada de la facultad
+- ✅ La vista detallada muestra toda la información de la facultad (código, nombre, descripción, decano, lista de carreras asociadas)
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Registrar Nueva Carrera
+
+### 🎯 HU: Registrar Nueva Carrera
 **Como:** Administrador
 **Quiero:** ingresar la información de una nueva carrera
 **Para:** agregar una oferta académica
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El sistema muestra un formulario con campos para Código, Nombre, Modalidad, Duración en años
-- Existe un selector para asociar la carrera a una Facultad existente
-- Existe un selector para asignar un Coordinador de una lista de usuarios existentes
-- El Código de la carrera es validado como único dentro de la facultad seleccionada
-- Al guardar, la carrera queda registrada exitosamente
+- ✅ El sistema muestra un formulario con campos para Código, Nombre, Modalidad, Duración en años
+- ✅ Existe un selector para asociar la carrera a una Facultad existente
+- ✅ Existe un selector para asignar un Coordinador de una lista de usuarios existentes
+- ✅ El Código de la carrera es validado como único dentro de la facultad seleccionada
+- ✅ Al guardar, la carrera queda registrada exitosamente
 
-**Story Points:** 5
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 5 | **Prioridad:** Alta (1)
 
-### HU: Registrar Nuevo Profesor
+
+### 🎯 HU: Registrar Nuevo Profesor
 **Como:** Administrador
 **Quiero:** ingresar la información de un nuevo profesor
 **Para:** registrarlo en el sistema
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El sistema muestra un formulario con campos para Cédula, Nombres, Apellidos, Email, Teléfono, Facultad, Título Académico
-- La Cédula del profesor es validada como única en el sistema
-- El Email del profesor es validado como único en el sistema
-- La Facultad se selecciona de una lista preexistente de facultades
-- Al guardar, el profesor queda registrado exitosamente
+- ✅ El sistema muestra un formulario con campos para Cédula, Nombres, Apellidos, Email, Teléfono, Facultad, Título Académico
+- ✅ La Cédula del profesor es validada como única en el sistema
+- ✅ El Email del profesor es validado como único en el sistema
+- ✅ La Facultad se selecciona de una lista preexistente de facultades
+- ✅ Al guardar, el profesor queda registrado exitosamente
 
-**Story Points:** 5
-**Prioridad:** Alta (1)
+
+**Story Points:** 5 | **Prioridad:** Alta (1)
 
 <!-- --- -->
 
@@ -1473,210 +1431,198 @@ Ejemplo de salida[
 **Como:** 
 **Quiero:** 
 **Para:** 
-**Story Points:** N/A
-**Prioridad:** N/A
 
----
+**Story Points:** N/A**Prioridad:** N/A
 
-### HU: Iniciar Sesión en Poliacredita
+
+### 🎯 HU: Iniciar Sesión en Poliacredita
 **Como:** Usuario del sistema SAGA EPN EUR-ACE
 **Quiero:** ingresar mis credenciales institucionales
 **Para:** acceder a mis funcionalidades correspondientes a mi rol
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El sistema muestra un formulario de inicio de sesión con campos para email institucional
-- El sistema muestra un campo para contraseña
-- Al ingresar credenciales válidas, el usuario es redirigido al Dashboard
-- Al ingresar credenciales inválidas, se muestra un mensaje de error claro
-- Existe un enlace para '¿Olvidaste mi contraseña?'
+- ✅ El sistema muestra un formulario de inicio de sesión con campos para email institucional
+- ✅ El sistema muestra un campo para contraseña
+- ✅ Al ingresar credenciales válidas, el usuario es redirigido al Dashboard
+- ✅ Al ingresar credenciales inválidas, se muestra un mensaje de error claro
+- ✅ Existe un enlace para '¿Olvidaste mi contraseña?'
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Visualizar Conteo de Entidades en Dashboard
+
+### 🎯 HU: Visualizar Conteo de Entidades en Dashboard
 **Como:** Administrador
 **Quiero:** ver el número total de facultades, carreras y profesores
 **Para:** obtener una visión general rápida del estado de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El Dashboard muestra el 'Total Facultades' registradas
-- El Dashboard muestra el 'Total Carreras' registradas
-- El Dashboard muestra el 'Total Profesores' registrados
+- ✅ El Dashboard muestra el 'Total Facultades' registradas
+- ✅ El Dashboard muestra el 'Total Carreras' registradas
+- ✅ El Dashboard muestra el 'Total Profesores' registrados
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Visualizar Actividad Reciente en Dashboard
+
+### 🎯 HU: Visualizar Actividad Reciente en Dashboard
 **Como:** Administrador
 **Quiero:** ver un registro de las últimas acciones realizadas en el sistema
 **Para:** monitorear la actividad de la plataforma
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El Dashboard muestra una sección de 'Últimos Cambios' con columnas 'Acción', 'Descripción', 'Fecha'
-- La tabla muestra las 5-10 últimas acciones relevantes del sistema (ej. creación, actualización, eliminación, asignación)
-- Cada acción muestra el tipo de acción, una breve descripción y la fecha en que ocurrió
+- ✅ El Dashboard muestra una sección de 'Últimos Cambios' con columnas 'Acción', 'Descripción', 'Fecha'
+- ✅ La tabla muestra las 5-10 últimas acciones relevantes del sistema (ej. creación, actualización, eliminación, asignación)
+- ✅ Cada acción muestra el tipo de acción, una breve descripción y la fecha en que ocurrió
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Acceder a Acciones Rápidas desde Dashboard
+
+### 🎯 HU: Acceder a Acciones Rápidas desde Dashboard
 **Como:** Administrador
 **Quiero:** tener enlaces directos a funcionalidades de gestión importantes
 **Para:** agilizar mi navegación la ejecución de tareas comunes
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El Dashboard muestra una sección de 'Acciones Rápidas'
-- Esta sección incluye botones o enlaces para 'Nueva Facultad'
-- Esta sección incluye botones o enlaces para 'Nueva Carrera'
-- Esta sección incluye botones o enlaces para 'Nuevo Profesor'
+- ✅ El Dashboard muestra una sección de 'Acciones Rápidas'
+- ✅ Esta sección incluye botones o enlaces para 'Nueva Facultad'
+- ✅ Esta sección incluye botones o enlaces para 'Nueva Carrera'
+- ✅ Esta sección incluye botones o enlaces para 'Nuevo Profesor'
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Listar Facultades Registradas
+
+### 🎯 HU: Listar Facultades Registradas
 **Como:** Administrador del sistema
 **Quiero:** ver todas las facultades con su información principal
 **Para:** gestionar la estructura académica de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe una página dedicada a 'Facultades' accesible desde la navegación principal
-- Se muestra una tabla con columnas 'Código', 'Nombre', 'Autoridades', 'Carreras' y 'Acciones' para cada facultad
-- Los datos de las facultades se cargan correctamente en la tabla
-- Se muestra el botón 'Nueva Facultad' en la página
+- ✅ Existe una página dedicada a 'Facultades' accesible desde la navegación principal
+- ✅ Se muestra una tabla con columnas 'Código', 'Nombre', 'Autoridades', 'Carreras' y 'Acciones' para cada facultad
+- ✅ Los datos de las facultades se cargan correctamente en la tabla
+- ✅ Se muestra el botón 'Nueva Facultad' en la página
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Buscar Facultades por Nombre o Código
+
+### 🎯 HU: Buscar Facultades por Nombre o Código
 **Como:** Administrador del sistema
 **Quiero:** encontrar facultades específicas rápidamente
 **Para:** agilizar la gestión de facultades
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un campo de búsqueda ('Buscar por Nombre o Código') en la página de listado de Facultades
-- Al escribir texto en el campo de búsqueda, la tabla se filtra y muestra solo las facultades que coinciden
-- La búsqueda debe ser insensible a mayúsculas y minúsculas
-- Al borrar el texto de búsqueda, se muestra el listado completo de facultades
+- ✅ Existe un campo de búsqueda ('Buscar por Nombre o Código') en la página de listado de Facultades
+- ✅ Al escribir texto en el campo de búsqueda, la tabla se filtra y muestra solo las facultades que coinciden
+- ✅ La búsqueda debe ser insensible a mayúsculas y minúsculas
+- ✅ Al borrar el texto de búsqueda, se muestra el listado completo de facultades
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Filtrar Listado de Facultades
+
+### 🎯 HU: Filtrar Listado de Facultades
 **Como:** Administrador del sistema
 **Quiero:** filtrar el listado de facultades
 **Para:** organizar la visualización por criterios específicos
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector de filtro (ej. 'Todas las Carreras') en la página de listado de Facultades
-- Al seleccionar una opción del filtro, la tabla de facultades se actualiza mostrando solo las que cumplen el criterio
-- Las opciones del filtro deben ser claras y relevantes (ej. por tipo de carrera o decano si aplica en el contexto)
+- ✅ Existe un selector de filtro (ej. 'Todas las Carreras') en la página de listado de Facultades
+- ✅ Al seleccionar una opción del filtro, la tabla de facultades se actualiza mostrando solo las que cumplen el criterio
+- ✅ Las opciones del filtro deben ser claras y relevantes (ej. por tipo de carrera o decano si aplica en el contexto)
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Paginar Listado de Facultades
+
+### 🎯 HU: Paginar Listado de Facultades
 **Como:** Administrador del sistema
 **Quiero:** navegar por el listado de facultades en bloques manejables
 **Para:** gestionar grandes volúmenes de información eficientemente
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un componente de paginación en la parte inferior de la tabla de Facultades
-- El componente permite ir a la página siguiente
-- El componente permite ir a la página anterior
-- El componente permite ir directamente a una página específica
-- Al cambiar de página, la tabla de facultades se actualiza con los datos correspondientes
+- ✅ Existe un componente de paginación en la parte inferior de la tabla de Facultades
+- ✅ El componente permite ir a la página siguiente
+- ✅ El componente permite ir a la página anterior
+- ✅ El componente permite ir directamente a una página específica
+- ✅ Al cambiar de página, la tabla de facultades se actualiza con los datos correspondientes
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Registrar Nueva Facultad
+
+### 🎯 HU: Registrar Nueva Facultad
 **Como:** Administrador del sistema
 **Quiero:** agregar una nueva facultad al sistema
 **Para:** mantener actualizada la estructura organizativa de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Al hacer clic en 'Nueva Facultad' (desde Dashboard o listado), se abre un formulario de registro
-- El formulario incluye campos para 'Código' y 'Nombre' de la facultad
-- Al enviar datos válidos, la facultad se guarda y se muestra en el listado
-- Al enviar datos inválidos (ej. código duplicado), se muestra un mensaje de error claro
+- ✅ Al hacer clic en 'Nueva Facultad' (desde Dashboard o listado), se abre un formulario de registro
+- ✅ El formulario incluye campos para 'Código' y 'Nombre' de la facultad
+- ✅ Al enviar datos válidos, la facultad se guarda y se muestra en el listado
+- ✅ Al enviar datos inválidos (ej. código duplicado), se muestra un mensaje de error claro
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Editar Información de Facultad
+
+### 🎯 HU: Editar Información de Facultad
 **Como:** Administrador del sistema
 **Quiero:** modificar los datos de una facultad existente
 **Para:** corregir o actualizar su información
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de edición (lápiz) en la columna 'Acciones' de cada facultad en el listado
-- Al hacer clic en el icono de edición, se abre un formulario con los datos de la facultad precargados
-- Al guardar los cambios, la información de la facultad se actualiza correctamente
-- El sistema valida la unicidad del código de la facultad si se modifica
+- ✅ Existe un icono de edición (lápiz) en la columna 'Acciones' de cada facultad en el listado
+- ✅ Al hacer clic en el icono de edición, se abre un formulario con los datos de la facultad precargados
+- ✅ Al guardar los cambios, la información de la facultad se actualiza correctamente
+- ✅ El sistema valida la unicidad del código de la facultad si se modifica
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Eliminar Facultad del Sistema
+
+### 🎯 HU: Eliminar Facultad del Sistema
 **Como:** Administrador del sistema
 **Quiero:** remover una facultad del sistema
 **Para:** depurar información obsoleta o incorrecta
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de eliminación (papelera) en la columna 'Acciones' de cada facultad en el listado
-- Al hacer clic en el icono de eliminación, se muestra una confirmación al usuario
-- Si la facultad no tiene carreras asociadas, se elimina del sistema
-- Si la facultad tiene carreras asociadas, el sistema advierte e impide la eliminación
+- ✅ Existe un icono de eliminación (papelera) en la columna 'Acciones' de cada facultad en el listado
+- ✅ Al hacer clic en el icono de eliminación, se muestra una confirmación al usuario
+- ✅ Si la facultad no tiene carreras asociadas, se elimina del sistema
+- ✅ Si la facultad tiene carreras asociadas, el sistema advierte e impide la eliminación
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Visualizar Detalle de Facultad
+
+### 🎯 HU: Visualizar Detalle de Facultad
 **Como:** Administrador del sistema
 **Quiero:** ver la información completa de una facultad
 **Para:** consultar sus detalles específicos
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de 'Ver' (ojo) en la columna 'Acciones' de cada facultad en el listado
-- Al hacer clic en el icono 'Ver', se navega a una vista detallada de la facultad
-- La vista detallada muestra toda la información de la facultad (código, nombre, descripción, decano, lista de carreras asociadas)
+- ✅ Existe un icono de 'Ver' (ojo) en la columna 'Acciones' de cada facultad en el listado
+- ✅ Al hacer clic en el icono 'Ver', se navega a una vista detallada de la facultad
+- ✅ La vista detallada muestra toda la información de la facultad (código, nombre, descripción, decano, lista de carreras asociadas)
 
-**Story Points:** 2
-**Prioridad:** Media (2)
+
+**Story Points:** 2 | **Prioridad:** Media (2)
 
 <!-- --- -->
 
@@ -1764,211 +1710,199 @@ Ejemplo de salida[
 **Como:** 
 **Quiero:** 
 **Para:** 
-**Story Points:** N/A
-**Prioridad:** N/A
 
----
+**Story Points:** N/A**Prioridad:** N/A
 
-### HU: Iniciar Sesión en Poliacredita
+
+### 🎯 HU: Iniciar Sesión en Poliacredita
 **Como:** Usuario del sistema SAGA EPN EUR-ACE
 **Quiero:** ingresar mis credenciales institucionales
 **Para:** acceder a mis funcionalidades correspondientes a mi rol
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El sistema muestra un formulario de inicio de sesión con campos para email institucional
-- El sistema muestra un campo para contraseña
-- Al ingresar credenciales válidas, el usuario es redirigido al Dashboard
-- Al ingresar credenciales inválidas, se muestra un mensaje de error claro
-- Existe un enlace para '¿Olvidaste mi contraseña?'
+- ✅ El sistema muestra un formulario de inicio de sesión con campos para email institucional
+- ✅ El sistema muestra un campo para contraseña
+- ✅ Al ingresar credenciales válidas, el usuario es redirigido al Dashboard
+- ✅ Al ingresar credenciales inválidas, se muestra un mensaje de error claro
+- ✅ Existe un enlace para '¿Olvidaste mi contraseña?'
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Visualizar Conteo de Entidades en Dashboard
+
+### 🎯 HU: Visualizar Conteo de Entidades en Dashboard
 **Como:** Administrador
 **Quiero:** ver el número total de facultades, carreras y profesores
 **Para:** obtener una visión general rápida del estado de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El Dashboard muestra el 'Total Facultades' registradas
-- El Dashboard muestra el 'Total Carreras' registradas
-- El Dashboard muestra el 'Total Profesores' registrados
-- Existe un botón 'Ver' junto a cada contador para navegar al detalle
+- ✅ El Dashboard muestra el 'Total Facultades' registradas
+- ✅ El Dashboard muestra el 'Total Carreras' registradas
+- ✅ El Dashboard muestra el 'Total Profesores' registrados
+- ✅ Existe un botón 'Ver' junto a cada contador para navegar al detalle
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Visualizar Actividad Reciente en Dashboard
+
+### 🎯 HU: Visualizar Actividad Reciente en Dashboard
 **Como:** Administrador
 **Quiero:** ver un registro de las últimas acciones realizadas en el sistema
 **Para:** monitorear la actividad de la plataforma
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El Dashboard muestra una sección de 'Últimos Cambios' con columnas 'Acción', 'Descripción', 'Fecha'
-- La tabla muestra las últimas acciones relevantes (ej. creación de carrera, actualización de profesor, eliminación de facultad)
-- Cada acción muestra el tipo de acción, una breve descripción y la fecha en que ocurrió
+- ✅ El Dashboard muestra una sección de 'Últimos Cambios' con columnas 'Acción', 'Descripción', 'Fecha'
+- ✅ La tabla muestra las últimas acciones relevantes (ej. creación de carrera, actualización de profesor, eliminación de facultad)
+- ✅ Cada acción muestra el tipo de acción, una breve descripción y la fecha en que ocurrió
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Acceder a Acciones Rápidas desde Dashboard
+
+### 🎯 HU: Acceder a Acciones Rápidas desde Dashboard
 **Como:** Administrador
 **Quiero:** tener enlaces directos a funcionalidades de gestión importantes
 **Para:** agilizar mi navegación la ejecución de tareas comunes
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El Dashboard muestra una sección de 'Acciones Rápidas'
-- Esta sección incluye un botón o enlace para 'Nueva Facultad'
-- Esta sección incluye un botón o enlace para 'Nueva Carrera'
-- Esta sección incluye un botón o enlace para 'Nuevo Profesor'
+- ✅ El Dashboard muestra una sección de 'Acciones Rápidas'
+- ✅ Esta sección incluye un botón o enlace para 'Nueva Facultad'
+- ✅ Esta sección incluye un botón o enlace para 'Nueva Carrera'
+- ✅ Esta sección incluye un botón o enlace para 'Nuevo Profesor'
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Listar Facultades Registradas
+
+### 🎯 HU: Listar Facultades Registradas
 **Como:** Administrador del sistema
 **Quiero:** ver todas las facultades con su información principal
 **Para:** gestionar la estructura académica de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe una página dedicada a 'Facultades' accesible desde la navegación principal
-- Se muestra una tabla con columnas 'Código', 'Nombre', 'Autoridades', 'Carreras' y 'Acciones' para cada facultad
-- Los datos de las facultades se cargan correctamente en la tabla
-- Se muestra el botón 'Nueva Facultad' en la página
+- ✅ Existe una página dedicada a 'Facultades' accesible desde la navegación principal
+- ✅ Se muestra una tabla con columnas 'Código', 'Nombre', 'Autoridades', 'Carreras' y 'Acciones' para cada facultad
+- ✅ Los datos de las facultades se cargan correctamente en la tabla
+- ✅ Se muestra el botón 'Nueva Facultad' en la página
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Buscar Facultades por Nombre o Código
+
+### 🎯 HU: Buscar Facultades por Nombre o Código
 **Como:** Administrador del sistema
 **Quiero:** encontrar facultades específicas rápidamente
 **Para:** agilizar la gestión de facultades
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un campo de búsqueda ('Buscar por Nombre o Código') en la página de listado de Facultades
-- Al escribir texto en el campo de búsqueda, la tabla se filtra y muestra solo las facultades que coinciden
-- La búsqueda debe ser insensible a mayúsculas y minúsculas
-- Al borrar el texto de búsqueda, se muestra el listado completo de facultades
+- ✅ Existe un campo de búsqueda ('Buscar por Nombre o Código') en la página de listado de Facultades
+- ✅ Al escribir texto en el campo de búsqueda, la tabla se filtra y muestra solo las facultades que coinciden
+- ✅ La búsqueda debe ser insensible a mayúsculas y minúsculas
+- ✅ Al borrar el texto de búsqueda, se muestra el listado completo de facultades
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Filtrar Listado de Facultades
+
+### 🎯 HU: Filtrar Listado de Facultades
 **Como:** Administrador del sistema
 **Quiero:** filtrar el listado de facultades
 **Para:** organizar la visualización por criterios específicos
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector de filtro (ej. 'Todas las Carreras') en la página de listado de Facultades
-- Al seleccionar una opción del filtro, la tabla de facultades se actualiza mostrando solo las que cumplen el criterio
-- Las opciones del filtro deben ser claras y relevantes (ej. por tipo de carrera o decano si aplica en el contexto)
+- ✅ Existe un selector de filtro (ej. 'Todas las Carreras') en la página de listado de Facultades
+- ✅ Al seleccionar una opción del filtro, la tabla de facultades se actualiza mostrando solo las que cumplen el criterio
+- ✅ Las opciones del filtro deben ser claras y relevantes (ej. por tipo de carrera o decano si aplica en el contexto)
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Paginar Listado de Facultades
+
+### 🎯 HU: Paginar Listado de Facultades
 **Como:** Administrador del sistema
 **Quiero:** navegar por el listado de facultades en bloques manejables
 **Para:** gestionar grandes volúmenes de información eficientemente
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un componente de paginación en la parte inferior de la tabla de Facultades
-- El componente permite ir a la página siguiente
-- El componente permite ir a la página anterior
-- El componente permite ir directamente a una página específica
-- Al cambiar de página, la tabla de facultades se actualiza con los datos correspondientes
+- ✅ Existe un componente de paginación en la parte inferior de la tabla de Facultades
+- ✅ El componente permite ir a la página siguiente
+- ✅ El componente permite ir a la página anterior
+- ✅ El componente permite ir directamente a una página específica
+- ✅ Al cambiar de página, la tabla de facultades se actualiza con los datos correspondientes
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Registrar Nueva Facultad
+
+### 🎯 HU: Registrar Nueva Facultad
 **Como:** Administrador del sistema
 **Quiero:** agregar una nueva facultad al sistema
 **Para:** mantener actualizada la estructura organizativa de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Al hacer clic en 'Nueva Facultad' (desde Dashboard o listado), se abre un formulario de registro
-- El formulario incluye campos para 'Código' y 'Nombre' de la facultad
-- Al enviar datos válidos, la facultad se guarda y se muestra en el listado
-- Al enviar datos inválidos (ej. código duplicado), se muestra un mensaje de error claro
+- ✅ Al hacer clic en 'Nueva Facultad' (desde Dashboard o listado), se abre un formulario de registro
+- ✅ El formulario incluye campos para 'Código' y 'Nombre' de la facultad
+- ✅ Al enviar datos válidos, la facultad se guarda y se muestra en el listado
+- ✅ Al enviar datos inválidos (ej. código duplicado), se muestra un mensaje de error claro
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Editar Información de Facultad
+
+### 🎯 HU: Editar Información de Facultad
 **Como:** Administrador del sistema
 **Quiero:** modificar los datos de una facultad existente
 **Para:** corregir o actualizar su información
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de edición (lápiz) en la columna 'Acciones' de cada facultad en el listado
-- Al hacer clic en el icono de edición, se abre un formulario con los datos de la facultad precargados
-- Al guardar los cambios, la información de la facultad se actualiza correctamente
-- El sistema valida la unicidad del código de la facultad si se modifica
+- ✅ Existe un icono de edición (lápiz) en la columna 'Acciones' de cada facultad en el listado
+- ✅ Al hacer clic en el icono de edición, se abre un formulario con los datos de la facultad precargados
+- ✅ Al guardar los cambios, la información de la facultad se actualiza correctamente
+- ✅ El sistema valida la unicidad del código de la facultad si se modifica
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Eliminar Facultad del Sistema
+
+### 🎯 HU: Eliminar Facultad del Sistema
 **Como:** Administrador del sistema
 **Quiero:** remover una facultad del sistema
 **Para:** depurar información obsoleta o incorrecta
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de eliminación (papelera) en la columna 'Acciones' de cada facultad en el listado
-- Al hacer clic en el icono de eliminación, se muestra una confirmación al usuario
-- Si la facultad no tiene carreras asociadas, se elimina del sistema
-- Si la facultad tiene carreras asociadas, el sistema advierte e impide la eliminación
+- ✅ Existe un icono de eliminación (papelera) en la columna 'Acciones' de cada facultad en el listado
+- ✅ Al hacer clic en el icono de eliminación, se muestra una confirmación al usuario
+- ✅ Si la facultad no tiene carreras asociadas, se elimina del sistema
+- ✅ Si la facultad tiene carreras asociadas, el sistema advierte e impide la eliminación
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Visualizar Detalle de Facultad
+
+### 🎯 HU: Visualizar Detalle de Facultad
 **Como:** Administrador del sistema
 **Quiero:** ver la información completa de una facultad
 **Para:** consultar sus detalles específicos
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de 'Ver' (ojo) en la columna 'Acciones' de cada facultad en el listado
-- Al hacer clic en el icono 'Ver', se navega a una vista detallada de la facultad
-- La vista detallada muestra toda la información de la facultad (código, nombre, descripción, decano, lista de carreras asociadas)
+- ✅ Existe un icono de 'Ver' (ojo) en la columna 'Acciones' de cada facultad en el listado
+- ✅ Al hacer clic en el icono 'Ver', se navega a una vista detallada de la facultad
+- ✅ La vista detallada muestra toda la información de la facultad (código, nombre, descripción, decano, lista de carreras asociadas)
 
-**Story Points:** 2
-**Prioridad:** Media (2)
+
+**Story Points:** 2 | **Prioridad:** Media (2)
 
 <!-- --- -->
 
@@ -2056,247 +1990,233 @@ Ejemplo de salida[
 **Como:** 
 **Quiero:** 
 **Para:** 
-**Story Points:** N/A
-**Prioridad:** N/A
 
----
+**Story Points:** N/A**Prioridad:** N/A
 
-### HU: Iniciar Sesión en Poliacredita
+
+### 🎯 HU: Iniciar Sesión en Poliacredita
 **Como:** Usuario del sistema SAGA EPN EUR-ACE
 **Quiero:** ingresar mis credenciales institucionales
 **Para:** acceder a mis funcionalidades correspondientes a mi rol
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El sistema muestra un formulario de inicio de sesión con campos para email institucional
-- El sistema muestra un campo para contraseña
-- Al ingresar credenciales válidas, el usuario es redirigido al Dashboard
-- Al ingresar credenciales inválidas, se muestra un mensaje de error claro
-- Existe un enlace para '¿Olvidaste mi contraseña?'
+- ✅ El sistema muestra un formulario de inicio de sesión con campos para email institucional
+- ✅ El sistema muestra un campo para contraseña
+- ✅ Al ingresar credenciales válidas, el usuario es redirigido al Dashboard
+- ✅ Al ingresar credenciales inválidas, se muestra un mensaje de error claro
+- ✅ Existe un enlace para '¿Olvidaste mi contraseña?'
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Visualizar Conteo de Entidades en Dashboard
+
+### 🎯 HU: Visualizar Conteo de Entidades en Dashboard
 **Como:** Administrador
 **Quiero:** ver el número total de facultades, carreras y profesores
 **Para:** obtener una visión general rápida del estado de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El Dashboard muestra el 'Total Facultades' registradas
-- El Dashboard muestra el 'Total Carreras' registradas
-- El Dashboard muestra el 'Total Profesores' registrados
-- Existe un botón 'Ver' junto a cada contador para navegar al detalle
+- ✅ El Dashboard muestra el 'Total Facultades' registradas
+- ✅ El Dashboard muestra el 'Total Carreras' registradas
+- ✅ El Dashboard muestra el 'Total Profesores' registrados
+- ✅ Existe un botón 'Ver' junto a cada contador para navegar al detalle
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Visualizar Actividad Reciente en Dashboard
+
+### 🎯 HU: Visualizar Actividad Reciente en Dashboard
 **Como:** Administrador
 **Quiero:** ver un registro de las últimas acciones realizadas en el sistema
 **Para:** monitorear la actividad de la plataforma
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El Dashboard muestra una sección de 'Últimos Cambios' con columnas 'Acción', 'Descripción', 'Fecha'
-- La tabla muestra las últimas acciones relevantes (ej. creación de carrera, actualización de profesor, eliminación de facultad)
-- Cada acción muestra el tipo de acción, una breve descripción y la fecha en que ocurrió
+- ✅ El Dashboard muestra una sección de 'Últimos Cambios' con columnas 'Acción', 'Descripción', 'Fecha'
+- ✅ La tabla muestra las últimas acciones relevantes (ej. creación de carrera, actualización de profesor, eliminación de facultad)
+- ✅ Cada acción muestra el tipo de acción, una breve descripción y la fecha en que ocurrió
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Acceder a Acciones Rápidas desde Dashboard
+
+### 🎯 HU: Acceder a Acciones Rápidas desde Dashboard
 **Como:** Administrador
 **Quiero:** tener enlaces directos a funcionalidades de gestión importantes
 **Para:** agilizar mi navegación la ejecución de tareas comunes
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El Dashboard muestra una sección de 'Acciones Rápidas'
-- Esta sección incluye un botón o enlace para 'Nueva Facultad'
-- Esta sección incluye un botón o enlace para 'Nueva Carrera'
-- Esta sección incluye un botón o enlace para 'Nuevo Profesor'
+- ✅ El Dashboard muestra una sección de 'Acciones Rápidas'
+- ✅ Esta sección incluye un botón o enlace para 'Nueva Facultad'
+- ✅ Esta sección incluye un botón o enlace para 'Nueva Carrera'
+- ✅ Esta sección incluye un botón o enlace para 'Nuevo Profesor'
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Listar Facultades Registradas
+
+### 🎯 HU: Listar Facultades Registradas
 **Como:** Administrador del sistema
 **Quiero:** ver todas las facultades con su información principal
 **Para:** gestionar la estructura académica de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe una página dedicada a 'Facultades' accesible desde la navegación principal
-- Se muestra una tabla con columnas 'Código', 'Nombre', 'Autoridades', 'Carreras' y 'Acciones' para cada facultad
-- Los datos de las facultades se cargan correctamente en la tabla
-- Se muestra el botón 'Nueva Facultad' en la página
+- ✅ Existe una página dedicada a 'Facultades' accesible desde la navegación principal
+- ✅ Se muestra una tabla con columnas 'Código', 'Nombre', 'Autoridades', 'Carreras' y 'Acciones' para cada facultad
+- ✅ Los datos de las facultades se cargan correctamente en la tabla
+- ✅ Se muestra el botón 'Nueva Facultad' en la página
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Buscar Facultades por Nombre o Código
+
+### 🎯 HU: Buscar Facultades por Nombre o Código
 **Como:** Administrador del sistema
 **Quiero:** encontrar facultades específicas rápidamente
 **Para:** agilizar la gestión de facultades
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un campo de búsqueda ('Buscar por Nombre o Código') en la página de listado de Facultades
-- Al escribir texto en el campo de búsqueda, la tabla se filtra y muestra solo las facultades que coinciden
-- La búsqueda debe ser insensible a mayúsculas y minúsculas
-- Al borrar el texto de búsqueda, se muestra el listado completo de facultades
+- ✅ Existe un campo de búsqueda ('Buscar por Nombre o Código') en la página de listado de Facultades
+- ✅ Al escribir texto en el campo de búsqueda, la tabla se filtra y muestra solo las facultades que coinciden
+- ✅ La búsqueda debe ser insensible a mayúsculas y minúsculas
+- ✅ Al borrar el texto de búsqueda, se muestra el listado completo de facultades
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Filtrar Listado de Facultades
+
+### 🎯 HU: Filtrar Listado de Facultades
 **Como:** Administrador del sistema
 **Quiero:** filtrar el listado de facultades
 **Para:** organizar la visualización por criterios específicos
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector de filtro (ej. 'Todas las Carreras') en la página de listado de Facultades
-- Al seleccionar una opción del filtro, la tabla de facultades se actualiza mostrando solo las que cumplen el criterio
-- Las opciones del filtro deben ser claras y relevantes (ej. por tipo de carrera o decano si aplica en el contexto)
+- ✅ Existe un selector de filtro (ej. 'Todas las Carreras') en la página de listado de Facultades
+- ✅ Al seleccionar una opción del filtro, la tabla de facultades se actualiza mostrando solo las que cumplen el criterio
+- ✅ Las opciones del filtro deben ser claras y relevantes (ej. por tipo de carrera o decano si aplica en el contexto)
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Paginar Listado de Facultades
+
+### 🎯 HU: Paginar Listado de Facultades
 **Como:** Administrador del sistema
 **Quiero:** navegar por el listado de facultades en bloques manejables
 **Para:** gestionar grandes volúmenes de información eficientemente
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un componente de paginación en la parte inferior de la tabla de Facultades
-- El componente permite ir a la página siguiente
-- El componente permite ir a la página anterior
-- El componente permite ir directamente a una página específica
-- Al cambiar de página, la tabla de facultades se actualiza con los datos correspondientes
+- ✅ Existe un componente de paginación en la parte inferior de la tabla de Facultades
+- ✅ El componente permite ir a la página siguiente
+- ✅ El componente permite ir a la página anterior
+- ✅ El componente permite ir directamente a una página específica
+- ✅ Al cambiar de página, la tabla de facultades se actualiza con los datos correspondientes
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Registrar Nueva Facultad
+
+### 🎯 HU: Registrar Nueva Facultad
 **Como:** Administrador del sistema
 **Quiero:** agregar una nueva facultad al sistema
 **Para:** mantener actualizada la estructura organizativa de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Al hacer clic en 'Nueva Facultad' (desde Dashboard o listado), se abre un formulario de registro
-- El formulario incluye campos para 'Código' y 'Nombre' de la facultad
-- Al enviar datos válidos, la facultad se guarda y se muestra en el listado
-- Al enviar datos inválidos (ej. código duplicado), se muestra un mensaje de error claro
+- ✅ Al hacer clic en 'Nueva Facultad' (desde Dashboard o listado), se abre un formulario de registro
+- ✅ El formulario incluye campos para 'Código' y 'Nombre' de la facultad
+- ✅ Al enviar datos válidos, la facultad se guarda y se muestra en el listado
+- ✅ Al enviar datos inválidos (ej. código duplicado), se muestra un mensaje de error claro
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Editar Información de Facultad
+
+### 🎯 HU: Editar Información de Facultad
 **Como:** Administrador del sistema
 **Quiero:** modificar los datos de una facultad existente
 **Para:** corregir o actualizar su información
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de edición (lápiz) en la columna 'Acciones' de cada facultad en el listado
-- Al hacer clic en el icono de edición, se abre un formulario con los datos de la facultad precargados
-- Al guardar los cambios, la información de la facultad se actualiza correctamente
-- El sistema valida la unicidad del código de la facultad si se modifica
+- ✅ Existe un icono de edición (lápiz) en la columna 'Acciones' de cada facultad en el listado
+- ✅ Al hacer clic en el icono de edición, se abre un formulario con los datos de la facultad precargados
+- ✅ Al guardar los cambios, la información de la facultad se actualiza correctamente
+- ✅ El sistema valida la unicidad del código de la facultad si se modifica
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Eliminar Facultad del Sistema
+
+### 🎯 HU: Eliminar Facultad del Sistema
 **Como:** Administrador del sistema
 **Quiero:** remover una facultad del sistema
 **Para:** depurar información obsoleta o incorrecta
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de eliminación (papelera) en la columna 'Acciones' de cada facultad en el listado
-- Al hacer clic en el icono de eliminación, se muestra una confirmación al usuario
-- Si la facultad no tiene carreras asociadas, se elimina del sistema
-- Si la facultad tiene carreras asociadas, el sistema advierte e impide la eliminación
+- ✅ Existe un icono de eliminación (papelera) en la columna 'Acciones' de cada facultad en el listado
+- ✅ Al hacer clic en el icono de eliminación, se muestra una confirmación al usuario
+- ✅ Si la facultad no tiene carreras asociadas, se elimina del sistema
+- ✅ Si la facultad tiene carreras asociadas, el sistema advierte e impide la eliminación
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Visualizar Detalle de Facultad
+
+### 🎯 HU: Visualizar Detalle de Facultad
 **Como:** Administrador del sistema
 **Quiero:** ver la información completa de una facultad
 **Para:** consultar sus detalles específicos
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de 'Ver' (ojo) en la columna 'Acciones' de cada facultad en el listado
-- Al hacer clic en el icono 'Ver', se navega a una vista detallada de la facultad
-- La vista detallada muestra toda la información de la facultad (código, nombre, descripción, decano, lista de carreras asociadas)
+- ✅ Existe un icono de 'Ver' (ojo) en la columna 'Acciones' de cada facultad en el listado
+- ✅ Al hacer clic en el icono 'Ver', se navega a una vista detallada de la facultad
+- ✅ La vista detallada muestra toda la información de la facultad (código, nombre, descripción, decano, lista de carreras asociadas)
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Registrar Nueva Carrera
+
+### 🎯 HU: Registrar Nueva Carrera
 **Como:** Administrador
 **Quiero:** ingresar la información de una nueva carrera
 **Para:** agregar una oferta académica
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El sistema muestra un formulario con campos para Código, Nombre, Modalidad, Duración en años
-- Existe un selector para asociar la carrera a una Facultad existente
-- Existe un selector para asignar un Coordinador de una lista de usuarios existentes
-- El Código de la carrera es validado como único dentro de la facultad seleccionada
-- Al guardar, la carrera queda registrada exitosamente
+- ✅ El sistema muestra un formulario con campos para Código, Nombre, Modalidad, Duración en años
+- ✅ Existe un selector para asociar la carrera a una Facultad existente
+- ✅ Existe un selector para asignar un Coordinador de una lista de usuarios existentes
+- ✅ El Código de la carrera es validado como único dentro de la facultad seleccionada
+- ✅ Al guardar, la carrera queda registrada exitosamente
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Registrar Nuevo Profesor
+
+### 🎯 HU: Registrar Nuevo Profesor
 **Como:** Administrador
 **Quiero:** ingresar la información de un nuevo profesor
 **Para:** registrarlo en el sistema
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El sistema muestra un formulario con campos para Cédula, Nombres, Apellidos, Email, Teléfono, Facultad, Título Académico
-- La Cédula del profesor es validada como única en el sistema
-- El Email del profesor es validado como único en el sistema
-- La Facultad se selecciona de una lista preexistente de facultades
-- Al guardar, el profesor queda registrado exitosamente
+- ✅ El sistema muestra un formulario con campos para Cédula, Nombres, Apellidos, Email, Teléfono, Facultad, Título Académico
+- ✅ La Cédula del profesor es validada como única en el sistema
+- ✅ El Email del profesor es validado como único en el sistema
+- ✅ La Facultad se selecciona de una lista preexistente de facultades
+- ✅ Al guardar, el profesor queda registrado exitosamente
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
+
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
 <!-- --- -->
 
@@ -2388,211 +2308,199 @@ Ejemplo de salida[
 **Como:** 
 **Quiero:** 
 **Para:** 
-**Story Points:** N/A
-**Prioridad:** N/A
 
----
+**Story Points:** N/A**Prioridad:** N/A
 
-### HU: Iniciar Sesión en Poliacredita
+
+### 🎯 HU: Iniciar Sesión en Poliacredita
 **Como:** Usuario del sistema SAGA EPN EUR-ACE
 **Quiero:** ingresar mis credenciales institucionales
 **Para:** acceder a mis funcionalidades correspondientes a mi rol
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El sistema muestra un formulario de inicio de sesión con campos para email institucional
-- El sistema muestra un campo para contraseña
-- Al ingresar credenciales válidas, el usuario es redirigido al Dashboard
-- Al ingresar credenciales inválidas, se muestra un mensaje de error claro
-- Existe un enlace para '¿Olvidaste mi contraseña?'
+- ✅ El sistema muestra un formulario de inicio de sesión con campos para email institucional
+- ✅ El sistema muestra un campo para contraseña
+- ✅ Al ingresar credenciales válidas, el usuario es redirigido al Dashboard
+- ✅ Al ingresar credenciales inválidas, se muestra un mensaje de error claro
+- ✅ Existe un enlace para '¿Olvidaste mi contraseña?'
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Visualizar Conteo de Entidades en Dashboard
+
+### 🎯 HU: Visualizar Conteo de Entidades en Dashboard
 **Como:** Administrador
 **Quiero:** ver el número total de facultades, carreras y profesores
 **Para:** obtener una visión general rápida del estado de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El Dashboard muestra el 'Total Facultades' registradas
-- El Dashboard muestra el 'Total Carreras' registradas
-- El Dashboard muestra el 'Total Profesores' registrados
-- Existe un botón 'Ver' junto a cada contador para navegar al detalle
+- ✅ El Dashboard muestra el 'Total Facultades' registradas
+- ✅ El Dashboard muestra el 'Total Carreras' registradas
+- ✅ El Dashboard muestra el 'Total Profesores' registrados
+- ✅ Existe un botón 'Ver' junto a cada contador para navegar al detalle
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Visualizar Actividad Reciente en Dashboard
+
+### 🎯 HU: Visualizar Actividad Reciente en Dashboard
 **Como:** Administrador
 **Quiero:** ver un registro de las últimas acciones realizadas en el sistema
 **Para:** monitorear la actividad de la plataforma
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El Dashboard muestra una sección de 'Últimos Cambios' con columnas 'Acción', 'Descripción', 'Fecha'
-- La tabla muestra las últimas acciones relevantes (ej. creación de carrera, actualización de profesor, eliminación de facultad)
-- Cada acción muestra el tipo de acción, una breve descripción y la fecha en que ocurrió
+- ✅ El Dashboard muestra una sección de 'Últimos Cambios' con columnas 'Acción', 'Descripción', 'Fecha'
+- ✅ La tabla muestra las últimas acciones relevantes (ej. creación de carrera, actualización de profesor, eliminación de facultad)
+- ✅ Cada acción muestra el tipo de acción, una breve descripción y la fecha en que ocurrió
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Acceder a Acciones Rápidas desde Dashboard
+
+### 🎯 HU: Acceder a Acciones Rápidas desde Dashboard
 **Como:** Administrador
 **Quiero:** tener enlaces directos a funcionalidades de gestión importantes
 **Para:** agilizar mi navegación la ejecución de tareas comunes
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El Dashboard muestra una sección de 'Acciones Rápidas'
-- Esta sección incluye un botón o enlace para 'Nueva Facultad'
-- Esta sección incluye un botón o enlace para 'Nueva Carrera'
-- Esta sección incluye un botón o enlace para 'Nuevo Profesor'
+- ✅ El Dashboard muestra una sección de 'Acciones Rápidas'
+- ✅ Esta sección incluye un botón o enlace para 'Nueva Facultad'
+- ✅ Esta sección incluye un botón o enlace para 'Nueva Carrera'
+- ✅ Esta sección incluye un botón o enlace para 'Nuevo Profesor'
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Listar Facultades Registradas
+
+### 🎯 HU: Listar Facultades Registradas
 **Como:** Administrador del sistema
 **Quiero:** ver todas las facultades con su información principal
 **Para:** gestionar la estructura académica de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe una página dedicada a 'Facultades' accesible desde la navegación principal
-- Se muestra una tabla con columnas 'Código', 'Nombre', 'Autoridades', 'Carreras' y 'Acciones' para cada facultad
-- Los datos de las facultades se cargan correctamente en la tabla
-- Se muestra el botón 'Nueva Facultad' en la página
+- ✅ Existe una página dedicada a 'Facultades' accesible desde la navegación principal
+- ✅ Se muestra una tabla con columnas 'Código', 'Nombre', 'Autoridades', 'Carreras' y 'Acciones' para cada facultad
+- ✅ Los datos de las facultades se cargan correctamente en la tabla
+- ✅ Se muestra el botón 'Nueva Facultad' en la página
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Buscar Facultades por Nombre o Código
+
+### 🎯 HU: Buscar Facultades por Nombre o Código
 **Como:** Administrador del sistema
 **Quiero:** encontrar facultades específicas rápidamente
 **Para:** agilizar la gestión de facultades
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un campo de búsqueda ('Buscar por Nombre o Código') en la página de listado de Facultades
-- Al escribir texto en el campo de búsqueda, la tabla se filtra y muestra solo las facultades que coinciden
-- La búsqueda debe ser insensible a mayúsculas y minúsculas
-- Al borrar el texto de búsqueda, se muestra el listado completo de facultades
+- ✅ Existe un campo de búsqueda ('Buscar por Nombre o Código') en la página de listado de Facultades
+- ✅ Al escribir texto en el campo de búsqueda, la tabla se filtra y muestra solo las facultades que coinciden
+- ✅ La búsqueda debe ser insensible a mayúsculas y minúsculas
+- ✅ Al borrar el texto de búsqueda, se muestra el listado completo de facultades
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Filtrar Listado de Facultades
+
+### 🎯 HU: Filtrar Listado de Facultades
 **Como:** Administrador del sistema
 **Quiero:** filtrar el listado de facultades
 **Para:** organizar la visualización por criterios específicos
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector de filtro (ej. 'Todas las Carreras') en la página de listado de Facultades
-- Al seleccionar una opción del filtro, la tabla de facultades se actualiza mostrando solo las que cumplen el criterio
-- Las opciones del filtro deben ser claras y relevantes (ej. por tipo de carrera o decano si aplica en el contexto)
+- ✅ Existe un selector de filtro (ej. 'Todas las Carreras') en la página de listado de Facultades
+- ✅ Al seleccionar una opción del filtro, la tabla de facultades se actualiza mostrando solo las que cumplen el criterio
+- ✅ Las opciones del filtro deben ser claras y relevantes (ej. por tipo de carrera o decano si aplica en el contexto)
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Paginar Listado de Facultades
+
+### 🎯 HU: Paginar Listado de Facultades
 **Como:** Administrador del sistema
 **Quiero:** navegar por el listado de facultades en bloques manejables
 **Para:** gestionar grandes volúmenes de información eficientemente
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un componente de paginación en la parte inferior de la tabla de Facultades
-- El componente permite ir a la página siguiente
-- El componente permite ir a la página anterior
-- El componente permite ir directamente a una página específica
-- Al cambiar de página, la tabla de facultades se actualiza con los datos correspondientes
+- ✅ Existe un componente de paginación en la parte inferior de la tabla de Facultades
+- ✅ El componente permite ir a la página siguiente
+- ✅ El componente permite ir a la página anterior
+- ✅ El componente permite ir directamente a una página específica
+- ✅ Al cambiar de página, la tabla de facultades se actualiza con los datos correspondientes
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Registrar Nueva Facultad
+
+### 🎯 HU: Registrar Nueva Facultad
 **Como:** Administrador del sistema
 **Quiero:** agregar una nueva facultad al sistema
 **Para:** mantener actualizada la estructura organizativa de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Al hacer clic en 'Nueva Facultad' (desde Dashboard o listado), se abre un formulario de registro
-- El formulario incluye campos para 'Código' y 'Nombre' de la facultad
-- Al enviar datos válidos, la facultad se guarda y se muestra en el listado
-- Al enviar datos inválidos (ej. código duplicado), se muestra un mensaje de error claro
+- ✅ Al hacer clic en 'Nueva Facultad' (desde Dashboard o listado), se abre un formulario de registro
+- ✅ El formulario incluye campos para 'Código' y 'Nombre' de la facultad
+- ✅ Al enviar datos válidos, la facultad se guarda y se muestra en el listado
+- ✅ Al enviar datos inválidos (ej. código duplicado), se muestra un mensaje de error claro
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Editar Información de Facultad
+
+### 🎯 HU: Editar Información de Facultad
 **Como:** Administrador del sistema
 **Quiero:** modificar los datos de una facultad existente
 **Para:** corregir o actualizar su información
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de edición (lápiz) en la columna 'Acciones' de cada facultad en el listado
-- Al hacer clic en el icono de edición, se abre un formulario con los datos de la facultad precargados
-- Al guardar los cambios, la información de la facultad se actualiza correctamente
-- El sistema valida la unicidad del código de la facultad si se modifica
+- ✅ Existe un icono de edición (lápiz) en la columna 'Acciones' de cada facultad en el listado
+- ✅ Al hacer clic en el icono de edición, se abre un formulario con los datos de la facultad precargados
+- ✅ Al guardar los cambios, la información de la facultad se actualiza correctamente
+- ✅ El sistema valida la unicidad del código de la facultad si se modifica
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Eliminar Facultad del Sistema
+
+### 🎯 HU: Eliminar Facultad del Sistema
 **Como:** Administrador del sistema
 **Quiero:** remover una facultad del sistema
 **Para:** depurar información obsoleta o incorrecta
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de eliminación (papelera) en la columna 'Acciones' de cada facultad en el listado
-- Al hacer clic en el icono de eliminación, se muestra una confirmación al usuario
-- Si la facultad no tiene carreras asociadas, se elimina del sistema
-- Si la facultad tiene carreras asociadas, el sistema advierte e impide la eliminación
+- ✅ Existe un icono de eliminación (papelera) en la columna 'Acciones' de cada facultad en el listado
+- ✅ Al hacer clic en el icono de eliminación, se muestra una confirmación al usuario
+- ✅ Si la facultad no tiene carreras asociadas, se elimina del sistema
+- ✅ Si la facultad tiene carreras asociadas, el sistema advierte e impide la eliminación
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Visualizar Detalle de Facultad
+
+### 🎯 HU: Visualizar Detalle de Facultad
 **Como:** Administrador del sistema
 **Quiero:** ver la información completa de una facultad
 **Para:** consultar sus detalles específicos
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de 'Ver' (ojo) en la columna 'Acciones' de cada facultad en el listado
-- Al hacer clic en el icono 'Ver', se navega a una vista detallada de la facultad
-- La vista detallada muestra toda la información de la facultad (código, nombre, descripción, decano, lista de carreras asociadas)
+- ✅ Existe un icono de 'Ver' (ojo) en la columna 'Acciones' de cada facultad en el listado
+- ✅ Al hacer clic en el icono 'Ver', se navega a una vista detallada de la facultad
+- ✅ La vista detallada muestra toda la información de la facultad (código, nombre, descripción, decano, lista de carreras asociadas)
 
-**Story Points:** 2
-**Prioridad:** Media (2)
+
+**Story Points:** 2 | **Prioridad:** Media (2)
 
 <!-- --- -->
 
@@ -2684,247 +2592,233 @@ Ejemplo de salida[
 **Como:** 
 **Quiero:** 
 **Para:** 
-**Story Points:** N/A
-**Prioridad:** N/A
 
----
+**Story Points:** N/A**Prioridad:** N/A
 
-### HU: Iniciar Sesión en Poliacredita
+
+### 🎯 HU: Iniciar Sesión en Poliacredita
 **Como:** Usuario del sistema SAGA EPN EUR-ACE
 **Quiero:** ingresar mis credenciales institucionales
 **Para:** acceder a mis funcionalidades correspondientes a mi rol
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El sistema muestra un formulario de inicio de sesión con campos para email institucional
-- El sistema muestra un campo para contraseña
-- Al ingresar credenciales válidas, el usuario es redirigido al Dashboard
-- Al ingresar credenciales inválidas, se muestra un mensaje de error claro
-- Existe un enlace para '¿Olvidaste mi contraseña?'
+- ✅ El sistema muestra un formulario de inicio de sesión con campos para email institucional
+- ✅ El sistema muestra un campo para contraseña
+- ✅ Al ingresar credenciales válidas, el usuario es redirigido al Dashboard
+- ✅ Al ingresar credenciales inválidas, se muestra un mensaje de error claro
+- ✅ Existe un enlace para '¿Olvidaste mi contraseña?'
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Visualizar Conteo de Entidades en Dashboard
+
+### 🎯 HU: Visualizar Conteo de Entidades en Dashboard
 **Como:** Administrador
 **Quiero:** ver el número total de facultades, carreras y profesores
 **Para:** obtener una visión general rápida del estado de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El Dashboard muestra el 'Total Facultades' registradas
-- El Dashboard muestra el 'Total Carreras' registradas
-- El Dashboard muestra el 'Total Profesores' registrados
-- Existe un botón 'Ver' junto a cada contador para navegar al detalle
+- ✅ El Dashboard muestra el 'Total Facultades' registradas
+- ✅ El Dashboard muestra el 'Total Carreras' registradas
+- ✅ El Dashboard muestra el 'Total Profesores' registrados
+- ✅ Existe un botón 'Ver' junto a cada contador para navegar al detalle
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Visualizar Actividad Reciente en Dashboard
+
+### 🎯 HU: Visualizar Actividad Reciente en Dashboard
 **Como:** Administrador
 **Quiero:** ver un registro de las últimas acciones realizadas en el sistema
 **Para:** monitorear la actividad de la plataforma
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El Dashboard muestra una sección de 'Últimos Cambios' con columnas 'Acción', 'Descripción', 'Fecha'
-- La tabla muestra las últimas acciones relevantes (ej. creación de carrera, actualización de profesor, eliminación de facultad)
-- Cada acción muestra el tipo de acción, una breve descripción y la fecha en que ocurrió
+- ✅ El Dashboard muestra una sección de 'Últimos Cambios' con columnas 'Acción', 'Descripción', 'Fecha'
+- ✅ La tabla muestra las últimas acciones relevantes (ej. creación de carrera, actualización de profesor, eliminación de facultad)
+- ✅ Cada acción muestra el tipo de acción, una breve descripción y la fecha en que ocurrió
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Acceder a Acciones Rápidas desde Dashboard
+
+### 🎯 HU: Acceder a Acciones Rápidas desde Dashboard
 **Como:** Administrador
 **Quiero:** tener enlaces directos a funcionalidades de gestión importantes
 **Para:** agilizar mi navegación la ejecución de tareas comunes
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El Dashboard muestra una sección de 'Acciones Rápidas'
-- Esta sección incluye un botón o enlace para 'Nueva Facultad'
-- Esta sección incluye un botón o enlace para 'Nueva Carrera'
-- Esta sección incluye un botón o enlace para 'Nuevo Profesor'
+- ✅ El Dashboard muestra una sección de 'Acciones Rápidas'
+- ✅ Esta sección incluye un botón o enlace para 'Nueva Facultad'
+- ✅ Esta sección incluye un botón o enlace para 'Nueva Carrera'
+- ✅ Esta sección incluye un botón o enlace para 'Nuevo Profesor'
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Listar Facultades Registradas
+
+### 🎯 HU: Listar Facultades Registradas
 **Como:** Administrador del sistema
 **Quiero:** ver todas las facultades con su información principal
 **Para:** gestionar la estructura académica de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe una página dedicada a 'Facultades' accesible desde la navegación principal
-- Se muestra una tabla con columnas 'Código', 'Nombre', 'Autoridades', 'Carreras' y 'Acciones' para cada facultad
-- Los datos de las facultades se cargan correctamente en la tabla
-- Se muestra el botón 'Nueva Facultad' en la página
+- ✅ Existe una página dedicada a 'Facultades' accesible desde la navegación principal
+- ✅ Se muestra una tabla con columnas 'Código', 'Nombre', 'Autoridades', 'Carreras' y 'Acciones' para cada facultad
+- ✅ Los datos de las facultades se cargan correctamente en la tabla
+- ✅ Se muestra el botón 'Nueva Facultad' en la página
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Buscar Facultades por Nombre o Código
+
+### 🎯 HU: Buscar Facultades por Nombre o Código
 **Como:** Administrador del sistema
 **Quiero:** encontrar facultades específicas rápidamente
 **Para:** agilizar la gestión de facultades
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un campo de búsqueda ('Buscar por Nombre o Código') en la página de listado de Facultades
-- Al escribir texto en el campo de búsqueda, la tabla se filtra y muestra solo las facultades que coinciden
-- La búsqueda debe ser insensible a mayúsculas y minúsculas
-- Al borrar el texto de búsqueda, se muestra el listado completo de facultades
+- ✅ Existe un campo de búsqueda ('Buscar por Nombre o Código') en la página de listado de Facultades
+- ✅ Al escribir texto en el campo de búsqueda, la tabla se filtra y muestra solo las facultades que coinciden
+- ✅ La búsqueda debe ser insensible a mayúsculas y minúsculas
+- ✅ Al borrar el texto de búsqueda, se muestra el listado completo de facultades
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Filtrar Listado de Facultades
+
+### 🎯 HU: Filtrar Listado de Facultades
 **Como:** Administrador del sistema
 **Quiero:** filtrar el listado de facultades
 **Para:** organizar la visualización por criterios específicos
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector de filtro (ej. 'Todas las Carreras') en la página de listado de Facultades
-- Al seleccionar una opción del filtro, la tabla de facultades se actualiza mostrando solo las que cumplen el criterio
-- Las opciones del filtro deben ser claras y relevantes (ej. por tipo de carrera o decano si aplica en el contexto)
+- ✅ Existe un selector de filtro (ej. 'Todas las Carreras') en la página de listado de Facultades
+- ✅ Al seleccionar una opción del filtro, la tabla de facultades se actualiza mostrando solo las que cumplen el criterio
+- ✅ Las opciones del filtro deben ser claras y relevantes (ej. por tipo de carrera o decano si aplica en el contexto)
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Paginar Listado de Facultades
+
+### 🎯 HU: Paginar Listado de Facultades
 **Como:** Administrador del sistema
 **Quiero:** navegar por el listado de facultades en bloques manejables
 **Para:** gestionar grandes volúmenes de información eficientemente
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un componente de paginación en la parte inferior de la tabla de Facultades
-- El componente permite ir a la página siguiente
-- El componente permite ir a la página anterior
-- El componente permite ir directamente a una página específica
-- Al cambiar de página, la tabla de facultades se actualiza con los datos correspondientes
+- ✅ Existe un componente de paginación en la parte inferior de la tabla de Facultades
+- ✅ El componente permite ir a la página siguiente
+- ✅ El componente permite ir a la página anterior
+- ✅ El componente permite ir directamente a una página específica
+- ✅ Al cambiar de página, la tabla de facultades se actualiza con los datos correspondientes
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Registrar Nueva Facultad
+
+### 🎯 HU: Registrar Nueva Facultad
 **Como:** Administrador del sistema
 **Quiero:** agregar una nueva facultad al sistema
 **Para:** mantener actualizada la estructura organizativa de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Al hacer clic en 'Nueva Facultad' (desde Dashboard o listado), se abre un formulario de registro
-- El formulario incluye campos para 'Código' y 'Nombre' de la facultad
-- Al enviar datos válidos, la facultad se guarda y se muestra en el listado
-- Al enviar datos inválidos (ej. código duplicado), se muestra un mensaje de error claro
+- ✅ Al hacer clic en 'Nueva Facultad' (desde Dashboard o listado), se abre un formulario de registro
+- ✅ El formulario incluye campos para 'Código' y 'Nombre' de la facultad
+- ✅ Al enviar datos válidos, la facultad se guarda y se muestra en el listado
+- ✅ Al enviar datos inválidos (ej. código duplicado), se muestra un mensaje de error claro
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Editar Información de Facultad
+
+### 🎯 HU: Editar Información de Facultad
 **Como:** Administrador del sistema
 **Quiero:** modificar los datos de una facultad existente
 **Para:** corregir o actualizar su información
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de edición (lápiz) en la columna 'Acciones' de cada facultad en el listado
-- Al hacer clic en el icono de edición, se abre un formulario con los datos de la facultad precargados
-- Al guardar los cambios, la información de la facultad se actualiza correctamente
-- El sistema valida la unicidad del código de la facultad si se modifica
+- ✅ Existe un icono de edición (lápiz) en la columna 'Acciones' de cada facultad en el listado
+- ✅ Al hacer clic en el icono de edición, se abre un formulario con los datos de la facultad precargados
+- ✅ Al guardar los cambios, la información de la facultad se actualiza correctamente
+- ✅ El sistema valida la unicidad del código de la facultad si se modifica
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Eliminar Facultad del Sistema
+
+### 🎯 HU: Eliminar Facultad del Sistema
 **Como:** Administrador del sistema
 **Quiero:** remover una facultad del sistema
 **Para:** depurar información obsoleta o incorrecta
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de eliminación (papelera) en la columna 'Acciones' de cada facultad en el listado
-- Al hacer clic en el icono de eliminación, se muestra una confirmación al usuario
-- Si la facultad no tiene carreras asociadas, se elimina del sistema
-- Si la facultad tiene carreras asociadas, el sistema advierte e impide la eliminación
+- ✅ Existe un icono de eliminación (papelera) en la columna 'Acciones' de cada facultad en el listado
+- ✅ Al hacer clic en el icono de eliminación, se muestra una confirmación al usuario
+- ✅ Si la facultad no tiene carreras asociadas, se elimina del sistema
+- ✅ Si la facultad tiene carreras asociadas, el sistema advierte e impide la eliminación
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Visualizar Detalle de Facultad
+
+### 🎯 HU: Visualizar Detalle de Facultad
 **Como:** Administrador del sistema
 **Quiero:** ver la información completa de una facultad
 **Para:** consultar sus detalles específicos
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de 'Ver' (ojo) en la columna 'Acciones' de cada facultad en el listado
-- Al hacer clic en el icono 'Ver', se navega a una vista detallada de la facultad
-- La vista detallada muestra toda la información de la facultad (código, nombre, descripción, decano, lista de carreras asociadas)
+- ✅ Existe un icono de 'Ver' (ojo) en la columna 'Acciones' de cada facultad en el listado
+- ✅ Al hacer clic en el icono 'Ver', se navega a una vista detallada de la facultad
+- ✅ La vista detallada muestra toda la información de la facultad (código, nombre, descripción, decano, lista de carreras asociadas)
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Registrar Nueva Carrera
+
+### 🎯 HU: Registrar Nueva Carrera
 **Como:** Administrador
 **Quiero:** ingresar la información de una nueva carrera
 **Para:** agregar una oferta académica
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El sistema muestra un formulario con campos para Código, Nombre, Modalidad, Duración en años
-- Existe un selector para asociar la carrera a una Facultad existente
-- Existe un selector para asignar un Coordinador de una lista de usuarios existentes
-- El Código de la carrera es validado como único dentro de la facultad seleccionada
-- Al guardar, la carrera queda registrada exitosamente
+- ✅ El sistema muestra un formulario con campos para Código, Nombre, Modalidad, Duración en años
+- ✅ Existe un selector para asociar la carrera a una Facultad existente
+- ✅ Existe un selector para asignar un Coordinador de una lista de usuarios existentes
+- ✅ El Código de la carrera es validado como único dentro de la facultad seleccionada
+- ✅ Al guardar, la carrera queda registrada exitosamente
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Registrar Nuevo Profesor
+
+### 🎯 HU: Registrar Nuevo Profesor
 **Como:** Administrador
 **Quiero:** ingresar la información de un nuevo profesor
 **Para:** registrarlo en el sistema
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El sistema muestra un formulario con campos para Cédula, Nombres, Apellidos, Email, Teléfono, Facultad, Título Académico
-- La Cédula del profesor es validada como única en el sistema
-- El Email del profesor es validado como único en el sistema
-- La Facultad se selecciona de una lista preexistente de facultades
-- Al guardar, el profesor queda registrado exitosamente
+- ✅ El sistema muestra un formulario con campos para Cédula, Nombres, Apellidos, Email, Teléfono, Facultad, Título Académico
+- ✅ La Cédula del profesor es validada como única en el sistema
+- ✅ El Email del profesor es validado como único en el sistema
+- ✅ La Facultad se selecciona de una lista preexistente de facultades
+- ✅ Al guardar, el profesor queda registrado exitosamente
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
+
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
 <!-- --- -->
 
@@ -3028,196 +2922,185 @@ No repetir títulos de tareas.
 **Como:** 
 **Quiero:** 
 **Para:** 
-**Story Points:** N/A
-**Prioridad:** N/A
 
----
+**Story Points:** N/A**Prioridad:** N/A
 
-### HU: Iniciar Sesión en Poliacredita
+
+### 🎯 HU: Iniciar Sesión en Poliacredita
 **Como:** Usuario del sistema SAGA EPN EUR-ACE
 **Quiero:** ingresar mis credenciales institucionales y seleccionar mi rol
 **Para:** acceder a mis funcionalidades correspondientes a mi rol
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El sistema muestra un formulario con campos para 'Correo Institucional' y 'Contraseña'
-- El sistema muestra un selector de 'Rol' con opciones
-- Al ingresar credenciales válidas y seleccionar un rol, el usuario es redirigido al Dashboard
-- Al ingresar credenciales inválidas, se muestra un mensaje de error claro
-- Existe un enlace para '¿Olvidaste tu contraseña?'
+- ✅ El sistema muestra un formulario con campos para 'Correo Institucional' y 'Contraseña'
+- ✅ El sistema muestra un selector de 'Rol' con opciones
+- ✅ Al ingresar credenciales válidas y seleccionar un rol, el usuario es redirigido al Dashboard
+- ✅ Al ingresar credenciales inválidas, se muestra un mensaje de error claro
+- ✅ Existe un enlace para '¿Olvidaste tu contraseña?'
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Visualizar Conteo de Entidades en Dashboard
+
+### 🎯 HU: Visualizar Conteo de Entidades en Dashboard
 **Como:** Administrador
 **Quiero:** ver el número total de facultades, carreras y usuarios activos
 **Para:** obtener una visión general rápida del estado de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El Dashboard muestra el 'Total Facultades' con un valor numérico
-- El Dashboard muestra el 'Total Carreras' con un valor numérico
-- El Dashboard muestra el 'Usuarios Activos' con un valor numérico
+- ✅ El Dashboard muestra el 'Total Facultades' con un valor numérico
+- ✅ El Dashboard muestra el 'Total Carreras' con un valor numérico
+- ✅ El Dashboard muestra el 'Usuarios Activos' con un valor numérico
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Visualizar Actividad Reciente en Dashboard
+
+### 🎯 HU: Visualizar Actividad Reciente en Dashboard
 **Como:** Administrador
 **Quiero:** ver un registro de las últimas acciones realizadas en el sistema
 **Para:** monitorear la actividad de la plataforma
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El Dashboard muestra una sección de 'Actividad Reciente' con columnas 'Hora', 'Usuario', 'Acción'
-- La tabla muestra un listado de acciones recientes (ej. 'Creo nueva facultad FIEC', 'Actualizó datos de carrera Ingeniería Civil', 'Revisó informe de acreditación', 'Asignó rol a 'profesor@epn.edu.ec'', 'Registró nuevo profesor Juan Pérez')
-- Cada acción muestra la hora en formato relativo ('Hace 5 min', 'Hace 15 min')
-- Cada acción muestra el email del usuario que la realizó
-- Cada acción muestra una descripción concisa de la actividad
+- ✅ El Dashboard muestra una sección de 'Actividad Reciente' con columnas 'Hora', 'Usuario', 'Acción'
+- ✅ La tabla muestra un listado de acciones recientes (ej. 'Creo nueva facultad FIEC', 'Actualizó datos de carrera Ingeniería Civil', 'Revisó informe de acreditación', 'Asignó rol a 'profesor@epn.edu.ec'', 'Registró nuevo profesor Juan Pérez')
+- ✅ Cada acción muestra la hora en formato relativo ('Hace 5 min', 'Hace 15 min')
+- ✅ Cada acción muestra el email del usuario que la realizó
+- ✅ Cada acción muestra una descripción concisa de la actividad
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Acceder a Acciones Rápidas desde Dashboard
+
+### 🎯 HU: Acceder a Acciones Rápidas desde Dashboard
 **Como:** Administrador
 **Quiero:** tener enlaces directos a funcionalidades de gestión importantes
 **Para:** agilizar mi navegación y ejecución de tareas comunes
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El Dashboard muestra una sección de 'Acceso Rápido'
-- Esta sección incluye un botón o enlace con icono y texto 'Gestionar Carreras'
-- Esta sección incluye un botón o enlace con icono y texto 'Gestionar Profesores'
-- Esta sección incluye un botón o enlace con icono y texto 'Ver Mi Perfil'
-- Al hacer clic en cada botón, el usuario es redirigido a la página correspondiente
+- ✅ El Dashboard muestra una sección de 'Acceso Rápido'
+- ✅ Esta sección incluye un botón o enlace con icono y texto 'Gestionar Carreras'
+- ✅ Esta sección incluye un botón o enlace con icono y texto 'Gestionar Profesores'
+- ✅ Esta sección incluye un botón o enlace con icono y texto 'Ver Mi Perfil'
+- ✅ Al hacer clic en cada botón, el usuario es redirigido a la página correspondiente
 
-**Story Points:** 1
-**Prioridad:** Media (2)
 
----
+**Story Points:** 1 | **Prioridad:** Media (2)
 
-### HU: Listar Usuarios Registrados
+
+### 🎯 HU: Listar Usuarios Registrados
 **Como:** Administrador
 **Quiero:** ver una lista de todos los usuarios registrados con su información clave
 **Para:** gestionar el acceso y los roles en el sistema
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe una página 'Gestión de Usuarios' accesible desde la navegación lateral
-- Se muestra una tabla con columnas 'Email', 'Nombre', 'Rol', 'Estado' y 'Acciones'
-- Los datos de los usuarios se cargan correctamente en la tabla
-- Se muestra el botón '+ Nuevo Usuario' en la página
+- ✅ Existe una página 'Gestión de Usuarios' accesible desde la navegación lateral
+- ✅ Se muestra una tabla con columnas 'Email', 'Nombre', 'Rol', 'Estado' y 'Acciones'
+- ✅ Los datos de los usuarios se cargan correctamente en la tabla
+- ✅ Se muestra el botón '+ Nuevo Usuario' en la página
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Registrar Nuevo Usuario
+
+### 🎯 HU: Registrar Nuevo Usuario
 **Como:** Administrador
 **Quiero:** crear un nuevo registro de usuario en el sistema
 **Para:** permitir que nuevas personas accedan a la plataforma
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Al hacer clic en '+ Nuevo Usuario', se abre un formulario de registro de usuario
-- El formulario incluye campos para 'Email', 'Nombre', un selector de 'Rol' y un selector de 'Estado' (Activo/Inactivo)
-- Al enviar datos válidos, el usuario se guarda y se muestra en el listado
-- Al enviar datos inválidos (ej. email duplicado), se muestra un mensaje de error claro
+- ✅ Al hacer clic en '+ Nuevo Usuario', se abre un formulario de registro de usuario
+- ✅ El formulario incluye campos para 'Email', 'Nombre', un selector de 'Rol' y un selector de 'Estado' (Activo/Inactivo)
+- ✅ Al enviar datos válidos, el usuario se guarda y se muestra en el listado
+- ✅ Al enviar datos inválidos (ej. email duplicado), se muestra un mensaje de error claro
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Buscar Usuarios por Palabra Clave
+
+### 🎯 HU: Buscar Usuarios por Palabra Clave
 **Como:** Administrador
 **Quiero:** encontrar usuarios específicos rápidamente por email o nombre
 **Para:** agilizar la gestión de usuarios
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un campo de búsqueda ('Buscar usuario...') en la página de listado de Usuarios
-- Al escribir texto, la tabla se filtra y muestra solo los usuarios que coinciden con el email o nombre
-- La búsqueda debe ser insensible a mayúsculas y minúsculas
-- Al borrar el texto de búsqueda, se muestra el listado completo de usuarios
+- ✅ Existe un campo de búsqueda ('Buscar usuario...') en la página de listado de Usuarios
+- ✅ Al escribir texto, la tabla se filtra y muestra solo los usuarios que coinciden con el email o nombre
+- ✅ La búsqueda debe ser insensible a mayúsculas y minúsculas
+- ✅ Al borrar el texto de búsqueda, se muestra el listado completo de usuarios
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Filtrar Usuarios por Rol
+
+### 🎯 HU: Filtrar Usuarios por Rol
 **Como:** Administrador
 **Quiero:** ver usuarios que tienen un rol específico
 **Para:** organizar la visualización y gestionar permisos por rol
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector de filtro ('Todos los Roles') en la página de listado de Usuarios
-- Al seleccionar un rol, la tabla se actualiza mostrando solo los usuarios con ese rol
-- La opción 'Todos los Roles' muestra todos los usuarios
+- ✅ Existe un selector de filtro ('Todos los Roles') en la página de listado de Usuarios
+- ✅ Al seleccionar un rol, la tabla se actualiza mostrando solo los usuarios con ese rol
+- ✅ La opción 'Todos los Roles' muestra todos los usuarios
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Filtrar Usuarios por Estado
+
+### 🎯 HU: Filtrar Usuarios por Estado
 **Como:** Administrador
 **Quiero:** ver usuarios que tienen un estado específico (Activo/Inactivo)
 **Para:** gestionar el acceso y habilitación/deshabilitación de cuentas
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector de filtro ('Todos los Estados') en la página de listado de Usuarios
-- Al seleccionar un estado, la tabla se actualiza mostrando solo los usuarios con ese estado
-- La opción 'Todos los Estados' muestra todos los usuarios
+- ✅ Existe un selector de filtro ('Todos los Estados') en la página de listado de Usuarios
+- ✅ Al seleccionar un estado, la tabla se actualiza mostrando solo los usuarios con ese estado
+- ✅ La opción 'Todos los Estados' muestra todos los usuarios
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Paginar Listado de Usuarios
+
+### 🎯 HU: Paginar Listado de Usuarios
 **Como:** Administrador
 **Quiero:** navegar por el listado de usuarios en bloques manejables
 **Para:** gestionar grandes volúmenes de usuarios eficientemente
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un componente de paginación ('< Previous 1 2 3 Next >') en la parte inferior de la tabla de Usuarios
-- El componente permite ir a la página siguiente
-- El componente permite ir a la página anterior
-- El componente permite ir directamente a una página específica
-- Al cambiar de página, la tabla de usuarios se actualiza con los datos correspondientes
+- ✅ Existe un componente de paginación ('< Previous 1 2 3 Next >') en la parte inferior de la tabla de Usuarios
+- ✅ El componente permite ir a la página siguiente
+- ✅ El componente permite ir a la página anterior
+- ✅ El componente permite ir directamente a una página específica
+- ✅ Al cambiar de página, la tabla de usuarios se actualiza con los datos correspondientes
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Cambiar Estado de Usuario (Activar/Desactivar)
+
+### 🎯 HU: Cambiar Estado de Usuario (Activar/Desactivar)
 **Como:** Administrador
 **Quiero:** habilitar o deshabilitar el acceso de un usuario
 **Para:** controlar quién puede usar el sistema
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un botón 'Desactivar' o 'Activar' en la columna 'Acciones' de cada usuario
-- Al hacer clic en el botón, el estado del usuario cambia (Activo a Inactivo, o viceversa)
-- El estado visual en la tabla se actualiza inmediatamente
-- Se muestra una confirmación o mensaje de éxito/error al usuario
+- ✅ Existe un botón 'Desactivar' o 'Activar' en la columna 'Acciones' de cada usuario
+- ✅ Al hacer clic en el botón, el estado del usuario cambia (Activo a Inactivo, o viceversa)
+- ✅ El estado visual en la tabla se actualiza inmediatamente
+- ✅ Se muestra una confirmación o mensaje de éxito/error al usuario
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
+
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
 <!-- --- -->
 
@@ -3293,524 +3176,495 @@ No repetir títulos de tareas.
 **Como:** 
 **Quiero:** 
 **Para:** 
-**Story Points:** N/A
-**Prioridad:** N/A
 
----
+**Story Points:** N/A**Prioridad:** N/A
 
-### HU: Iniciar Sesión en Poliacredita
+
+### 🎯 HU: Iniciar Sesión en Poliacredita
 **Como:** Usuario del sistema SAGA EPN EUR-ACE
 **Quiero:** ingresar mis credenciales institucionales y seleccionar mi rol
 **Para:** acceder a mis funcionalidades correspondientes a mi rol
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El sistema muestra un formulario con campos para 'Correo Institucional' y 'Contraseña'
-- El sistema muestra un selector de 'Rol' con opciones (Administrador, CEI, Autoridad Académica, Coordinador de Carrera, Profesor)
-- Al ingresar credenciales válidas y seleccionar un rol, el usuario es redirigido al Dashboard
-- Al ingresar credenciales inválidas, se muestra un mensaje de error claro
-- Existe un enlace para '¿Olvidaste tu contraseña?'
+- ✅ El sistema muestra un formulario con campos para 'Correo Institucional' y 'Contraseña'
+- ✅ El sistema muestra un selector de 'Rol' con opciones (Administrador, CEI, Autoridad Académica, Coordinador de Carrera, Profesor)
+- ✅ Al ingresar credenciales válidas y seleccionar un rol, el usuario es redirigido al Dashboard
+- ✅ Al ingresar credenciales inválidas, se muestra un mensaje de error claro
+- ✅ Existe un enlace para '¿Olvidaste tu contraseña?'
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Visualizar Conteo de Entidades en Dashboard
+
+### 🎯 HU: Visualizar Conteo de Entidades en Dashboard
 **Como:** Administrador
 **Quiero:** ver el número total de facultades, carreras y usuarios activos
 **Para:** obtener una visión general rápida del estado de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El Dashboard muestra el 'Total Facultades' con un valor numérico
-- El Dashboard muestra el 'Total Carreras' con un valor numérico
-- El Dashboard muestra el 'Usuarios Activos' con un valor numérico
+- ✅ El Dashboard muestra el 'Total Facultades' con un valor numérico
+- ✅ El Dashboard muestra el 'Total Carreras' con un valor numérico
+- ✅ El Dashboard muestra el 'Usuarios Activos' con un valor numérico
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Visualizar Actividad Reciente en Dashboard
+
+### 🎯 HU: Visualizar Actividad Reciente en Dashboard
 **Como:** Administrador
 **Quiero:** ver un registro de las últimas acciones realizadas en el sistema
 **Para:** monitorear la actividad de la plataforma
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El Dashboard muestra una sección de 'Actividad Reciente' con columnas 'Hora', 'Usuario', 'Acción'
-- La tabla muestra un listado de acciones recientes (ej. 'Creo nueva facultad FIEC', 'Actualizó datos de carrera Ingeniería Civil')
-- Cada acción muestra la hora en formato relativo ('Hace 5 min', 'Hace 15 min')
-- Cada acción muestra el email del usuario que la realizó
-- Cada acción muestra una descripción concisa de la actividad
+- ✅ El Dashboard muestra una sección de 'Actividad Reciente' con columnas 'Hora', 'Usuario', 'Acción'
+- ✅ La tabla muestra un listado de acciones recientes (ej. 'Creo nueva facultad FIEC', 'Actualizó datos de carrera Ingeniería Civil')
+- ✅ Cada acción muestra la hora en formato relativo ('Hace 5 min', 'Hace 15 min')
+- ✅ Cada acción muestra el email del usuario que la realizó
+- ✅ Cada acción muestra una descripción concisa de la actividad
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Acceder a Acciones Rápidas desde Dashboard
+
+### 🎯 HU: Acceder a Acciones Rápidas desde Dashboard
 **Como:** Administrador
 **Quiero:** tener enlaces directos a funcionalidades de gestión importantes
 **Para:** agilizar mi navegación y ejecución de tareas comunes
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El Dashboard muestra una sección de 'Acceso Rápido'
-- Esta sección incluye un botón o enlace con icono y texto 'Gestionar Carreras'
-- Esta sección incluye un botón o enlace con icono y texto 'Gestionar Profesores'
-- Esta sección incluye un botón o enlace con icono y texto 'Ver Mi Perfil'
-- Al hacer clic en cada botón, el usuario es redirigido a la página correspondiente
+- ✅ El Dashboard muestra una sección de 'Acceso Rápido'
+- ✅ Esta sección incluye un botón o enlace con icono y texto 'Gestionar Carreras'
+- ✅ Esta sección incluye un botón o enlace con icono y texto 'Gestionar Profesores'
+- ✅ Esta sección incluye un botón o enlace con icono y texto 'Ver Mi Perfil'
+- ✅ Al hacer clic en cada botón, el usuario es redirigido a la página correspondiente
 
-**Story Points:** 1
-**Prioridad:** Media (2)
 
----
+**Story Points:** 1 | **Prioridad:** Media (2)
 
-### HU: Listar Facultades Registradas
+
+### 🎯 HU: Listar Facultades Registradas
 **Como:** Administrador del sistema
 **Quiero:** ver todas las facultades con su información principal
 **Para:** gestionar la estructura académica de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe una página dedicada a 'Gestión de Facultades' accesible desde la navegación lateral
-- Se muestra una tabla con columnas 'Código', 'Nombre', 'Carreras', 'Decano' y 'Acciones'
-- Los datos de las facultades se cargan correctamente en la tabla
-- Se muestra el botón '+ Nueva Facultad' en la página
+- ✅ Existe una página dedicada a 'Gestión de Facultades' accesible desde la navegación lateral
+- ✅ Se muestra una tabla con columnas 'Código', 'Nombre', 'Carreras', 'Decano' y 'Acciones'
+- ✅ Los datos de las facultades se cargan correctamente en la tabla
+- ✅ Se muestra el botón '+ Nueva Facultad' en la página
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Buscar Facultades por Código o Nombre
+
+### 🎯 HU: Buscar Facultades por Código o Nombre
 **Como:** Administrador del sistema
 **Quiero:** encontrar facultades específicas rápidamente
 **Para:** agilizar la gestión de facultades
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un campo de búsqueda ('Buscar por código o nombre...') en la página de listado de Facultades
-- Al escribir texto, la tabla se filtra y muestra solo las facultades que coinciden con el código o nombre
-- La búsqueda debe ser insensible a mayúsculas y minúsculas
-- Al borrar el texto de búsqueda, se muestra el listado completo de facultades
+- ✅ Existe un campo de búsqueda ('Buscar por código o nombre...') en la página de listado de Facultades
+- ✅ Al escribir texto, la tabla se filtra y muestra solo las facultades que coinciden con el código o nombre
+- ✅ La búsqueda debe ser insensible a mayúsculas y minúsculas
+- ✅ Al borrar el texto de búsqueda, se muestra el listado completo de facultades
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Filtrar Facultades por Carreras
+
+### 🎯 HU: Filtrar Facultades por Carreras
 **Como:** Administrador del sistema
 **Quiero:** filtrar el listado de facultades
 **Para:** organizar la visualización por la cantidad de carreras que gestionan
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector de filtro ('Filtrar por Carreras') en la página de listado de Facultades
-- Al seleccionar una opción del filtro (ej. 'Con más de 5 carreras'), la tabla de facultades se actualiza mostrando solo las que cumplen el criterio
-- La opción 'Todas las Carreras' muestra todas las facultades
+- ✅ Existe un selector de filtro ('Filtrar por Carreras') en la página de listado de Facultades
+- ✅ Al seleccionar una opción del filtro (ej. 'Con más de 5 carreras'), la tabla de facultades se actualiza mostrando solo las que cumplen el criterio
+- ✅ La opción 'Todas las Carreras' muestra todas las facultades
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Paginar Listado de Facultades
+
+### 🎯 HU: Paginar Listado de Facultades
 **Como:** Administrador del sistema
 **Quiero:** navegar por el listado de facultades en bloques manejables
 **Para:** gestionar grandes volúmenes de información eficientemente
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Facultades
-- El componente permite ir a la página siguiente
-- El componente permite ir a la página anterior
-- El componente permite ir directamente a una página específica
-- Al cambiar de página, la tabla de facultades se actualiza con los datos correspondientes
+- ✅ Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Facultades
+- ✅ El componente permite ir a la página siguiente
+- ✅ El componente permite ir a la página anterior
+- ✅ El componente permite ir directamente a una página específica
+- ✅ Al cambiar de página, la tabla de facultades se actualiza con los datos correspondientes
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Registrar Nueva Facultad
+
+### 🎯 HU: Registrar Nueva Facultad
 **Como:** Administrador del sistema
 **Quiero:** agregar una nueva facultad al sistema
 **Para:** mantener actualizada la estructura organizativa de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Al hacer clic en '+ Nueva Facultad', se abre un formulario modal de registro de Facultad
-- El formulario incluye campos para 'Código', 'Nombre', 'Descripción' y un selector de 'Decano'
-- El selector de 'Decano' permite buscar y seleccionar un usuario existente
-- Al enviar datos válidos, la facultad se guarda y se muestra en el listado
-- Al enviar datos inválidos (ej. código o nombre duplicado), se muestra un mensaje de error claro
+- ✅ Al hacer clic en '+ Nueva Facultad', se abre un formulario modal de registro de Facultad
+- ✅ El formulario incluye campos para 'Código', 'Nombre', 'Descripción' y un selector de 'Decano'
+- ✅ El selector de 'Decano' permite buscar y seleccionar un usuario existente
+- ✅ Al enviar datos válidos, la facultad se guarda y se muestra en el listado
+- ✅ Al enviar datos inválidos (ej. código o nombre duplicado), se muestra un mensaje de error claro
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Editar Información de Facultad
+
+### 🎯 HU: Editar Información de Facultad
 **Como:** Administrador del sistema
 **Quiero:** modificar los datos de una facultad existente
 **Para:** corregir o actualizar su información
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de edición (lápiz) en la columna 'Acciones' de cada facultad en el listado
-- Al hacer clic en el icono de edición, se abre un formulario modal con los datos de la facultad precargados
-- Al guardar los cambios, la información de la facultad se actualiza correctamente
-- El sistema valida la unicidad del código y nombre de la facultad si se modifican
+- ✅ Existe un icono de edición (lápiz) en la columna 'Acciones' de cada facultad en el listado
+- ✅ Al hacer clic en el icono de edición, se abre un formulario modal con los datos de la facultad precargados
+- ✅ Al guardar los cambios, la información de la facultad se actualiza correctamente
+- ✅ El sistema valida la unicidad del código y nombre de la facultad si se modifican
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Eliminar Facultad del Sistema
+
+### 🎯 HU: Eliminar Facultad del Sistema
 **Como:** Administrador del sistema
 **Quiero:** remover una facultad del sistema
 **Para:** depurar información obsoleta o incorrecta
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de eliminación (papelera) en la columna 'Acciones' de cada facultad en el listado
-- Al hacer clic en el icono de eliminación, se muestra una confirmación al usuario
-- Si la facultad no tiene carreras asociadas, se elimina del sistema
-- Si la facultad tiene carreras asociadas, el sistema advierte e impide la eliminación
+- ✅ Existe un icono de eliminación (papelera) en la columna 'Acciones' de cada facultad en el listado
+- ✅ Al hacer clic en el icono de eliminación, se muestra una confirmación al usuario
+- ✅ Si la facultad no tiene carreras asociadas, se elimina del sistema
+- ✅ Si la facultad tiene carreras asociadas, el sistema advierte e impide la eliminación
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Listar Carreras Registradas
+
+### 🎯 HU: Listar Carreras Registradas
 **Como:** Administrador del sistema
 **Quiero:** ver todas las carreras con su información principal
 **Para:** gestionar la oferta académica de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe una página dedicada a 'Gestión de Carreras' accesible desde la navegación lateral
-- Se muestra una tabla con columnas 'Código', 'Nombre', 'Facultad', 'Coordinador' y 'Acciones'
-- Los datos de las carreras se cargan correctamente en la tabla
-- Se muestra el botón '+ Nueva Carrera' en la página
+- ✅ Existe una página dedicada a 'Gestión de Carreras' accesible desde la navegación lateral
+- ✅ Se muestra una tabla con columnas 'Código', 'Nombre', 'Facultad', 'Coordinador' y 'Acciones'
+- ✅ Los datos de las carreras se cargan correctamente en la tabla
+- ✅ Se muestra el botón '+ Nueva Carrera' en la página
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Buscar Carreras por Palabra Clave
+
+### 🎯 HU: Buscar Carreras por Palabra Clave
 **Como:** Administrador del sistema
 **Quiero:** encontrar carreras específicas rápidamente por código o nombre
 **Para:** agilizar la gestión de carreras
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un campo de búsqueda ('Buscar carrera...') en la página de listado de Carreras
-- Al escribir texto, la tabla se filtra y muestra solo las carreras que coinciden con el código o nombre
-- La búsqueda debe ser insensible a mayúsculas y minúsculas
-- Al borrar el texto de búsqueda, se muestra el listado completo de carreras
+- ✅ Existe un campo de búsqueda ('Buscar carrera...') en la página de listado de Carreras
+- ✅ Al escribir texto, la tabla se filtra y muestra solo las carreras que coinciden con el código o nombre
+- ✅ La búsqueda debe ser insensible a mayúsculas y minúsculas
+- ✅ Al borrar el texto de búsqueda, se muestra el listado completo de carreras
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Filtrar Carreras por Facultad
+
+### 🎯 HU: Filtrar Carreras por Facultad
 **Como:** Administrador del sistema
 **Quiero:** ver carreras que pertenecen a una facultad específica
 **Para:** organizar la visualización de la oferta académica
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector de filtro ('Todas las Facultades') en la página de listado de Carreras
-- Al seleccionar una facultad, la tabla se actualiza mostrando solo las carreras de esa facultad
-- La opción 'Todas las Facultades' muestra todas las carreras
+- ✅ Existe un selector de filtro ('Todas las Facultades') en la página de listado de Carreras
+- ✅ Al seleccionar una facultad, la tabla se actualiza mostrando solo las carreras de esa facultad
+- ✅ La opción 'Todas las Facultades' muestra todas las carreras
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Filtrar Carreras por Estado
+
+### 🎯 HU: Filtrar Carreras por Estado
 **Como:** Administrador del sistema
 **Quiero:** ver carreras que tienen un estado específico
 **Para:** organizar la visualización por estado de la carrera (ej. activa, inactiva, en revisión)
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector de filtro ('Todos los Estados') en la página de listado de Carreras
-- Al seleccionar un estado, la tabla se actualiza mostrando solo las carreras con ese estado
-- La opción 'Todos los Estados' muestra todas las carreras
+- ✅ Existe un selector de filtro ('Todos los Estados') en la página de listado de Carreras
+- ✅ Al seleccionar un estado, la tabla se actualiza mostrando solo las carreras con ese estado
+- ✅ La opción 'Todos los Estados' muestra todas las carreras
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Paginar Listado de Carreras
+
+### 🎯 HU: Paginar Listado de Carreras
 **Como:** Administrador del sistema
 **Quiero:** navegar por el listado de carreras en bloques manejables
 **Para:** gestionar grandes volúmenes de información eficientemente
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Carreras
-- El componente permite ir a la página siguiente
-- El componente permite ir a la página anterior
-- El componente permite ir directamente a una página específica
-- Al cambiar de página, la tabla de carreras se actualiza con los datos correspondientes
+- ✅ Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Carreras
+- ✅ El componente permite ir a la página siguiente
+- ✅ El componente permite ir a la página anterior
+- ✅ El componente permite ir directamente a una página específica
+- ✅ Al cambiar de página, la tabla de carreras se actualiza con los datos correspondientes
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Registrar Nueva Carrera
+
+### 🎯 HU: Registrar Nueva Carrera
 **Como:** Administrador
 **Quiero:** ingresar la información de una nueva carrera
 **Para:** agregar una oferta académica
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Al hacer clic en '+ Nueva Carrera', se abre un formulario de registro de carrera
-- El formulario incluye campos para 'Código', 'Nombre', 'Modalidad', 'Duración en años'
-- Existe un selector para asociar la carrera a una 'Facultad' existente
-- Existe un selector para asignar un 'Coordinador' de una lista de usuarios existentes
-- El Código de la carrera es validado como único
-- Al guardar, la carrera queda registrada exitosamente y se muestra en el listado
+- ✅ Al hacer clic en '+ Nueva Carrera', se abre un formulario de registro de carrera
+- ✅ El formulario incluye campos para 'Código', 'Nombre', 'Modalidad', 'Duración en años'
+- ✅ Existe un selector para asociar la carrera a una 'Facultad' existente
+- ✅ Existe un selector para asignar un 'Coordinador' de una lista de usuarios existentes
+- ✅ El Código de la carrera es validado como único
+- ✅ Al guardar, la carrera queda registrada exitosamente y se muestra en el listado
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Editar Información de Carrera
+
+### 🎯 HU: Editar Información de Carrera
 **Como:** Administrador del sistema
 **Quiero:** modificar los datos de una carrera existente
 **Para:** corregir o actualizar su información
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de edición (lápiz) en la columna 'Acciones' de cada carrera en el listado
-- Al hacer clic en el icono de edición, se abre un formulario modal con los datos de la carrera precargados
-- Al guardar los cambios, la información de la carrera se actualiza correctamente
-- El sistema valida la unicidad del código de la carrera si se modifica
+- ✅ Existe un icono de edición (lápiz) en la columna 'Acciones' de cada carrera en el listado
+- ✅ Al hacer clic en el icono de edición, se abre un formulario modal con los datos de la carrera precargados
+- ✅ Al guardar los cambios, la información de la carrera se actualiza correctamente
+- ✅ El sistema valida la unicidad del código de la carrera si se modifica
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Eliminar Carrera del Sistema
+
+### 🎯 HU: Eliminar Carrera del Sistema
 **Como:** Administrador del sistema
 **Quiero:** remover una carrera del sistema
 **Para:** depurar información obsoleta o incorrecta
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de eliminación (papelera) en la columna 'Acciones' de cada carrera en el listado
-- Al hacer clic en el icono de eliminación, se muestra una confirmación al usuario
-- Si la carrera no tiene materias o profesores asociados, se elimina del sistema
-- Si la carrera tiene dependencias, el sistema advierte e impide la eliminación
+- ✅ Existe un icono de eliminación (papelera) en la columna 'Acciones' de cada carrera en el listado
+- ✅ Al hacer clic en el icono de eliminación, se muestra una confirmación al usuario
+- ✅ Si la carrera no tiene materias o profesores asociados, se elimina del sistema
+- ✅ Si la carrera tiene dependencias, el sistema advierte e impide la eliminación
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Listar Usuarios Registrados
+
+### 🎯 HU: Listar Usuarios Registrados
 **Como:** Administrador
 **Quiero:** ver una lista de todos los usuarios registrados con su información clave
 **Para:** gestionar el acceso y los roles en el sistema
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe una página 'Gestión de Usuarios' accesible desde la navegación lateral
-- Se muestra una tabla con columnas 'Email', 'Nombre', 'Rol', 'Estado' y 'Acciones'
-- Los datos de los usuarios se cargan correctamente en la tabla
-- Se muestra el botón '+ Nuevo Usuario' en la página
+- ✅ Existe una página 'Gestión de Usuarios' accesible desde la navegación lateral
+- ✅ Se muestra una tabla con columnas 'Email', 'Nombre', 'Rol', 'Estado' y 'Acciones'
+- ✅ Los datos de los usuarios se cargan correctamente en la tabla
+- ✅ Se muestra el botón '+ Nuevo Usuario' en la página
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Registrar Nuevo Usuario
+
+### 🎯 HU: Registrar Nuevo Usuario
 **Como:** Administrador
 **Quiero:** crear un nuevo registro de usuario en el sistema
 **Para:** permitir que nuevas personas accedan a la plataforma
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Al hacer clic en '+ Nuevo Usuario', se abre un formulario modal de registro de usuario
-- El formulario incluye campos para 'Cédula', 'Nombres', 'Apellidos', 'Email', 'Teléfono'
-- El formulario incluye un selector de 'Rol' con opciones de checkbox (ej. Comité Evaluación Interna, Autoridad Académica)
-- El formulario incluye un selector de 'Facultad' con función de búsqueda
-- La Cédula y el Email son validados como únicos en el sistema
-- Al enviar datos válidos, el usuario se guarda y se muestra en el listado
+- ✅ Al hacer clic en '+ Nuevo Usuario', se abre un formulario modal de registro de usuario
+- ✅ El formulario incluye campos para 'Cédula', 'Nombres', 'Apellidos', 'Email', 'Teléfono'
+- ✅ El formulario incluye un selector de 'Rol' con opciones de checkbox (ej. Comité Evaluación Interna, Autoridad Académica)
+- ✅ El formulario incluye un selector de 'Facultad' con función de búsqueda
+- ✅ La Cédula y el Email son validados como únicos en el sistema
+- ✅ Al enviar datos válidos, el usuario se guarda y se muestra en el listado
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Buscar Usuarios por Palabra Clave
+
+### 🎯 HU: Buscar Usuarios por Palabra Clave
 **Como:** Administrador
 **Quiero:** encontrar usuarios específicos rápidamente por email o nombre
 **Para:** agilizar la gestión de usuarios
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un campo de búsqueda ('Buscar usuario...') en la página de listado de Usuarios
-- Al escribir texto, la tabla se filtra y muestra solo los usuarios que coinciden con el email o nombre
-- La búsqueda debe ser insensible a mayúsculas y minúsculas
-- Al borrar el texto de búsqueda, se muestra el listado completo de usuarios
+- ✅ Existe un campo de búsqueda ('Buscar usuario...') en la página de listado de Usuarios
+- ✅ Al escribir texto, la tabla se filtra y muestra solo los usuarios que coinciden con el email o nombre
+- ✅ La búsqueda debe ser insensible a mayúsculas y minúsculas
+- ✅ Al borrar el texto de búsqueda, se muestra el listado completo de usuarios
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Filtrar Usuarios por Rol
+
+### 🎯 HU: Filtrar Usuarios por Rol
 **Como:** Administrador
 **Quiero:** ver usuarios que tienen uno o más roles específicos
 **Para:** organizar la visualización y gestionar permisos por rol
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector de filtro ('Todos los Roles') en la página de listado de Usuarios
-- Al seleccionar uno o varios roles, la tabla se actualiza mostrando solo los usuarios con esos roles
-- La opción 'Todos los Roles' muestra todos los usuarios
+- ✅ Existe un selector de filtro ('Todos los Roles') en la página de listado de Usuarios
+- ✅ Al seleccionar uno o varios roles, la tabla se actualiza mostrando solo los usuarios con esos roles
+- ✅ La opción 'Todos los Roles' muestra todos los usuarios
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Filtrar Usuarios por Estado
+
+### 🎯 HU: Filtrar Usuarios por Estado
 **Como:** Administrador
 **Quiero:** ver usuarios que tienen un estado específico (Activo/Inactivo)
 **Para:** gestionar el acceso y habilitación/deshabilitación de cuentas
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector de filtro ('Todos los Estados') en la página de listado de Usuarios
-- Al seleccionar un estado, la tabla se actualiza mostrando solo los usuarios con ese estado
-- La opción 'Todos los Estados' muestra todos los usuarios
+- ✅ Existe un selector de filtro ('Todos los Estados') en la página de listado de Usuarios
+- ✅ Al seleccionar un estado, la tabla se actualiza mostrando solo los usuarios con ese estado
+- ✅ La opción 'Todos los Estados' muestra todos los usuarios
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Paginar Listado de Usuarios
+
+### 🎯 HU: Paginar Listado de Usuarios
 **Como:** Administrador
 **Quiero:** navegar por el listado de usuarios en bloques manejables
 **Para:** gestionar grandes volúmenes de usuarios eficientemente
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Usuarios
-- El componente permite ir a la página siguiente
-- El componente permite ir a la página anterior
-- El componente permite ir directamente a una página específica
-- Al cambiar de página, la tabla de usuarios se actualiza con los datos correspondientes
+- ✅ Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Usuarios
+- ✅ El componente permite ir a la página siguiente
+- ✅ El componente permite ir a la página anterior
+- ✅ El componente permite ir directamente a una página específica
+- ✅ Al cambiar de página, la tabla de usuarios se actualiza con los datos correspondientes
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Cambiar Estado de Usuario (Activar/Desactivar)
+
+### 🎯 HU: Cambiar Estado de Usuario (Activar/Desactivar)
 **Como:** Administrador
 **Quiero:** habilitar o deshabilitar el acceso de un usuario
 **Para:** controlar quién puede usar el sistema
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un botón 'Desactivar' o 'Activar' en la columna 'Acciones' de cada usuario, según el estado actual
-- Al hacer clic en el botón, el estado del usuario cambia (Activo a Inactivo, o viceversa)
-- El estado visual en la tabla se actualiza inmediatamente (ej. texto 'Activo'/'Inactivo' y botón)
-- Se muestra una confirmación o mensaje de éxito/error al usuario
+- ✅ Existe un botón 'Desactivar' o 'Activar' en la columna 'Acciones' de cada usuario, según el estado actual
+- ✅ Al hacer clic en el botón, el estado del usuario cambia (Activo a Inactivo, o viceversa)
+- ✅ El estado visual en la tabla se actualiza inmediatamente (ej. texto 'Activo'/'Inactivo' y botón)
+- ✅ Se muestra una confirmación o mensaje de éxito/error al usuario
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Visualizar Permisos por Rol
+
+### 🎯 HU: Visualizar Permisos por Rol
 **Como:** Administrador
 **Quiero:** ver los permisos asociados a cada rol definido en el sistema
 **Para:** entender las capacidades de cada tipo de usuario y revisar la configuración de seguridad
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe una página 'Gestión de Roles' accesible desde la navegación lateral
-- La página muestra tarjetas para cada rol (ej. 'Administrador', 'CEI', 'Autoridad de facultad', 'Coordinador de Carrera', 'Profesor')
-- Cada tarjeta de rol muestra un listado de permisos asociados (ej. 'Ver facultades', 'Crear facultades', 'Asignar roles')
-- Los permisos se presentan como checkboxes, mostrando si están habilitados para ese rol
+- ✅ Existe una página 'Gestión de Roles' accesible desde la navegación lateral
+- ✅ La página muestra tarjetas para cada rol (ej. 'Administrador', 'CEI', 'Autoridad de facultad', 'Coordinador de Carrera', 'Profesor')
+- ✅ Cada tarjeta de rol muestra un listado de permisos asociados (ej. 'Ver facultades', 'Crear facultades', 'Asignar roles')
+- ✅ Los permisos se presentan como checkboxes, mostrando si están habilitados para ese rol
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Visualizar Perfil Personal
+
+### 🎯 HU: Visualizar Perfil Personal
 **Como:** Usuario del sistema
 **Quiero:** ver mi información personal y de contacto registrada
 **Para:** confirmar mis datos en la plataforma y tenerlos a mano
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe una página 'Mi Perfil' accesible desde la navegación lateral
-- La página muestra una sección de 'Información Personal' con campos (Nombre Completo, Correo Institucional, Facultad, Teléfono, Fecha de Registro)
-- Todos los campos de información personal muestran los datos del usuario logueado
+- ✅ Existe una página 'Mi Perfil' accesible desde la navegación lateral
+- ✅ La página muestra una sección de 'Información Personal' con campos (Nombre Completo, Correo Institucional, Facultad, Teléfono, Fecha de Registro)
+- ✅ Todos los campos de información personal muestran los datos del usuario logueado
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Visualizar Roles y Permisos Detallados de Perfil
+
+### 🎯 HU: Visualizar Roles y Permisos Detallados de Perfil
 **Como:** Usuario del sistema
 **Quiero:** ver los roles que tengo asignados y los permisos detallados de los mismos
 **Para:** comprender mis capacidades y accesos dentro del sistema
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- La página 'Mi Perfil' muestra una sección de 'Rol y Permisos'
-- Se muestra el 'Rol Asignado' (ej. 'Profesor', 'Decano')
-- Existe un desplegable o botón 'Ver Permisos Detallados'
-- Al expandir 'Ver Permisos Detallados', se lista los permisos específicos del usuario (ej. 'Visualizar Dashboard', 'Gestionar Cursos', 'Registrar Calificaciones')
+- ✅ La página 'Mi Perfil' muestra una sección de 'Rol y Permisos'
+- ✅ Se muestra el 'Rol Asignado' (ej. 'Profesor', 'Decano')
+- ✅ Existe un desplegable o botón 'Ver Permisos Detallados'
+- ✅ Al expandir 'Ver Permisos Detallados', se lista los permisos específicos del usuario (ej. 'Visualizar Dashboard', 'Gestionar Cursos', 'Registrar Calificaciones')
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Cambiar Contraseña Personal
+
+
+### 🎯 HU: Cambiar Contraseña Personal
 **Como:** Usuario del sistema
 **Quiero:** actualizar mi contraseña
 **Para:** mantener mi cuenta segura regularmente
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- La página 'Mi Perfil' muestra una sección de 'Cambiar Contraseña'
-- Existe un botón 'Actualizar Contraseña'
-- Al hacer clic en el botón, se abre un formulario modal para cambiar contraseña (campos: Contraseña Actual, Nueva Contraseña, Confirmar Nueva Contraseña)
-- El sistema valida que la 'Contraseña Actual' sea correcta
-- El sistema valida que 'Nueva Contraseña' y 'Confirmar Nueva Contraseña' coincidan y cumplan con políticas de seguridad
-- Al guardar, la contraseña se actualiza y se muestra un mensaje de éxito
+- ✅ La página 'Mi Perfil' muestra una sección de 'Cambiar Contraseña'
+- ✅ Existe un botón 'Actualizar Contraseña'
+- ✅ Al hacer clic en el botón, se abre un formulario modal para cambiar contraseña (campos: Contraseña Actual, Nueva Contraseña, Confirmar Nueva Contraseña)
+- ✅ El sistema valida que la 'Contraseña Actual' sea correcta
+- ✅ El sistema valida que 'Nueva Contraseña' y 'Confirmar Nueva Contraseña' coincidan y cumplan con políticas de seguridad
+- ✅ Al guardar, la contraseña se actualiza y se muestra un mensaje de éxito
 
-**Story Points:** 2
-**Prioridad:** Media (2)
+
+**Story Points:** 2 | **Prioridad:** Media (2)
 
 <!-- --- -->
 
@@ -3886,524 +3740,494 @@ No repetir títulos de tareas.
 **Como:** 
 **Quiero:** 
 **Para:** 
-**Story Points:** N/A
-**Prioridad:** N/A
 
----
+**Story Points:** N/A**Prioridad:** N/A
 
-### HU: Iniciar Sesión en Poliacredita
+
+### 🎯 HU: Iniciar Sesión en Poliacredita
 **Como:** Usuario del sistema SAGA EPN EUR-ACE
 **Quiero:** ingresar mis credenciales institucionales y seleccionar mi rol
 **Para:** acceder a mis funcionalidades correspondientes a mi rol
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El sistema muestra un formulario con campos para 'Correo Institucional' y 'Contraseña'
-- El sistema muestra un selector de 'Rol' con opciones (Administrador, CEI, Autoridad Académica, Coordinador de Carrera, Profesor)
-- Al ingresar credenciales válidas y seleccionar un rol, el usuario es redirigido al Dashboard
-- Al ingresar credenciales inválidas, se muestra un mensaje de error claro
-- Existe un enlace para '¿Olvidaste tu contraseña?'
+- ✅ El sistema muestra un formulario con campos para 'Correo Institucional' y 'Contraseña'
+- ✅ El sistema muestra un selector de 'Rol' con opciones (Administrador, CEI, Autoridad Académica, Coordinador de Carrera, Profesor)
+- ✅ Al ingresar credenciales válidas y seleccionar un rol, el usuario es redirigido al Dashboard
+- ✅ Al ingresar credenciales inválidas, se muestra un mensaje de error claro
+- ✅ Existe un enlace para '¿Olvidaste tu contraseña?'
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Visualizar Conteo de Entidades en Dashboard
+
+### 🎯 HU: Visualizar Conteo de Entidades en Dashboard
 **Como:** Administrador
 **Quiero:** ver el número total de facultades, carreras y usuarios activos
 **Para:** obtener una visión general rápida del estado de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El Dashboard muestra el 'Total Facultades' con un valor numérico
-- El Dashboard muestra el 'Total Carreras' con un valor numérico
-- El Dashboard muestra el 'Usuarios Activos' con un valor numérico
+- ✅ El Dashboard muestra el 'Total Facultades' con un valor numérico
+- ✅ El Dashboard muestra el 'Total Carreras' con un valor numérico
+- ✅ El Dashboard muestra el 'Usuarios Activos' con un valor numérico
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Visualizar Actividad Reciente en Dashboard
+
+### 🎯 HU: Visualizar Actividad Reciente en Dashboard
 **Como:** Administrador
 **Quiero:** ver un registro de las últimas acciones realizadas en el sistema
 **Para:** monitorear la actividad de la plataforma
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El Dashboard muestra una sección de 'Actividad Reciente' con columnas 'Hora', 'Usuario', 'Acción'
-- La tabla muestra un listado de acciones recientes (ej. 'Creo nueva facultad FIEC', 'Actualizó datos de carrera Ingeniería Civil')
-- Cada acción muestra la hora en formato relativo ('Hace 5 min', 'Hace 15 min')
-- Cada acción muestra el email del usuario que la realizó
-- Cada acción muestra una descripción concisa de la actividad
+- ✅ El Dashboard muestra una sección de 'Actividad Reciente' con columnas 'Hora', 'Usuario', 'Acción'
+- ✅ La tabla muestra un listado de acciones recientes (ej. 'Creo nueva facultad FIEC', 'Actualizó datos de carrera Ingeniería Civil')
+- ✅ Cada acción muestra la hora en formato relativo ('Hace 5 min', 'Hace 15 min')
+- ✅ Cada acción muestra el email del usuario que la realizó
+- ✅ Cada acción muestra una descripción concisa de la actividad
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Acceder a Acciones Rápidas desde Dashboard
+
+### 🎯 HU: Acceder a Acciones Rápidas desde Dashboard
 **Como:** Administrador
 **Quiero:** tener enlaces directos a funcionalidades de gestión importantes
 **Para:** agilizar mi navegación y ejecución de tareas comunes
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El Dashboard muestra una sección de 'Acceso Rápido'
-- Esta sección incluye un botón o enlace con icono y texto 'Gestionar Carreras'
-- Esta sección incluye un botón o enlace con icono y texto 'Gestionar Profesores'
-- Esta sección incluye un botón o enlace con icono y texto 'Ver Mi Perfil'
-- Al hacer clic en cada botón, el usuario es redirigido a la página correspondiente
+- ✅ El Dashboard muestra una sección de 'Acceso Rápido'
+- ✅ Esta sección incluye un botón o enlace con icono y texto 'Gestionar Carreras'
+- ✅ Esta sección incluye un botón o enlace con icono y texto 'Gestionar Profesores'
+- ✅ Esta sección incluye un botón o enlace con icono y texto 'Ver Mi Perfil'
+- ✅ Al hacer clic en cada botón, el usuario es redirigido a la página correspondiente
 
-**Story Points:** 1
-**Prioridad:** Media (2)
 
----
+**Story Points:** 1 | **Prioridad:** Media (2)
 
-### HU: Listar Usuarios Registrados
+
+### 🎯 HU: Listar Usuarios Registrados
 **Como:** Administrador
 **Quiero:** ver una lista de todos los usuarios registrados con su información clave
 **Para:** gestionar el acceso y los roles en el sistema
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe una página 'Gestión de Usuarios' accesible desde la navegación lateral
-- Se muestra una tabla con columnas 'Email', 'Nombre', 'Rol', 'Estado' y 'Acciones'
-- Los datos de los usuarios se cargan correctamente en la tabla
-- Se muestra el botón '+ Nuevo Usuario' en la página
+- ✅ Existe una página 'Gestión de Usuarios' accesible desde la navegación lateral
+- ✅ Se muestra una tabla con columnas 'Email', 'Nombre', 'Rol', 'Estado' y 'Acciones'
+- ✅ Los datos de los usuarios se cargan correctamente en la tabla
+- ✅ Se muestra el botón '+ Nuevo Usuario' en la página
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Registrar Nuevo Usuario
+
+### 🎯 HU: Registrar Nuevo Usuario
 **Como:** Administrador
 **Quiero:** crear un nuevo registro de usuario en el sistema
 **Para:** permitir que nuevas personas accedan a la plataforma
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Al hacer clic en '+ Nuevo Usuario', se abre un formulario modal de registro de usuario
-- El formulario incluye campos para 'Cédula', 'Nombres', 'Apellidos', 'Email', 'Teléfono'
-- El formulario incluye un selector de 'Rol' con opciones de checkbox (ej. Comité Evaluación Interna, Autoridad Académica)
-- El formulario incluye un selector de 'Facultad' con función de búsqueda
-- La Cédula y el Email son validados como únicos en el sistema
-- Al enviar datos válidos, el usuario se guarda y se muestra en el listado
+- ✅ Al hacer clic en '+ Nuevo Usuario', se abre un formulario modal de registro de usuario
+- ✅ El formulario incluye campos para 'Cédula', 'Nombres', 'Apellidos', 'Email', 'Teléfono'
+- ✅ El formulario incluye un selector de 'Rol' con opciones de checkbox (ej. Comité Evaluación Interna, Autoridad Académica)
+- ✅ El formulario incluye un selector de 'Facultad' con función de búsqueda
+- ✅ La Cédula y el Email son validados como únicos en el sistema
+- ✅ Al enviar datos válidos, el usuario se guarda y se muestra en el listado
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Buscar Usuarios por Palabra Clave
+
+### 🎯 HU: Buscar Usuarios por Palabra Clave
 **Como:** Administrador
 **Quiero:** encontrar usuarios específicos rápidamente por email, nombre o cédula
 **Para:** agilizar la gestión de usuarios
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un campo de búsqueda ('Buscar usuario...') en la página de listado de Usuarios
-- Al escribir texto, la tabla se filtra y muestra solo los usuarios que coinciden con el email, nombre o cédula
-- La búsqueda debe ser insensible a mayúsculas y minúsculas
-- Al borrar el texto de búsqueda, se muestra el listado completo de usuarios
+- ✅ Existe un campo de búsqueda ('Buscar usuario...') en la página de listado de Usuarios
+- ✅ Al escribir texto, la tabla se filtra y muestra solo los usuarios que coinciden con el email, nombre o cédula
+- ✅ La búsqueda debe ser insensible a mayúsculas y minúsculas
+- ✅ Al borrar el texto de búsqueda, se muestra el listado completo de usuarios
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Filtrar Usuarios por Rol
+
+### 🎯 HU: Filtrar Usuarios por Rol
 **Como:** Administrador
 **Quiero:** ver usuarios que tienen uno o más roles específicos
 **Para:** organizar la visualización y gestionar permisos por rol
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector de filtro ('Todos los Roles') en la página de listado de Usuarios
-- Al seleccionar uno o varios roles, la tabla se actualiza mostrando solo los usuarios con esos roles
-- La opción 'Todos los Roles' muestra todos los usuarios
+- ✅ Existe un selector de filtro ('Todos los Roles') en la página de listado de Usuarios
+- ✅ Al seleccionar uno o varios roles, la tabla se actualiza mostrando solo los usuarios con esos roles
+- ✅ La opción 'Todos los Roles' muestra todos los usuarios
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Filtrar Usuarios por Estado
+
+### 🎯 HU: Filtrar Usuarios por Estado
 **Como:** Administrador
 **Quiero:** ver usuarios que tienen un estado específico (Activo/Inactivo)
 **Para:** gestionar el acceso y habilitación/deshabilitación de cuentas
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector de filtro ('Todos los Estados') en la página de listado de Usuarios
-- Al seleccionar un estado, la tabla se actualiza mostrando solo los usuarios con ese estado
-- La opción 'Todos los Estados' muestra todos los usuarios
+- ✅ Existe un selector de filtro ('Todos los Estados') en la página de listado de Usuarios
+- ✅ Al seleccionar un estado, la tabla se actualiza mostrando solo los usuarios con ese estado
+- ✅ La opción 'Todos los Estados' muestra todos los usuarios
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Paginar Listado de Usuarios
+
+### 🎯 HU: Paginar Listado de Usuarios
 **Como:** Administrador
 **Quiero:** navegar por el listado de usuarios en bloques manejables
 **Para:** gestionar grandes volúmenes de usuarios eficientemente
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Usuarios
-- El componente permite ir a la página siguiente
-- El componente permite ir a la página anterior
-- El componente permite ir directamente a una página específica
-- Al cambiar de página, la tabla de usuarios se actualiza con los datos correspondientes
+- ✅ Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Usuarios
+- ✅ El componente permite ir a la página siguiente
+- ✅ El componente permite ir a la página anterior
+- ✅ El componente permite ir directamente a una página específica
+- ✅ Al cambiar de página, la tabla de usuarios se actualiza con los datos correspondientes
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Cambiar Estado de Usuario (Activar/Desactivar)
+
+### 🎯 HU: Cambiar Estado de Usuario (Activar/Desactivar)
 **Como:** Administrador
 **Quiero:** habilitar o deshabilitar el acceso de un usuario
 **Para:** controlar quién puede usar el sistema
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un botón 'Desactivar' o 'Activar' en la columna 'Acciones' de cada usuario, según el estado actual
-- Al hacer clic en el botón, el estado del usuario cambia (Activo a Inactivo, o viceversa)
-- El estado visual en la tabla se actualiza inmediatamente (ej. texto 'Activo'/'Inactivo' y botón)
-- Se muestra una confirmación o mensaje de éxito/error al usuario
+- ✅ Existe un botón 'Desactivar' o 'Activar' en la columna 'Acciones' de cada usuario, según el estado actual
+- ✅ Al hacer clic en el botón, el estado del usuario cambia (Activo a Inactivo, o viceversa)
+- ✅ El estado visual en la tabla se actualiza inmediatamente (ej. texto 'Activo'/'Inactivo' y botón)
+- ✅ Se muestra una confirmación o mensaje de éxito/error al usuario
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Listar Facultades Registradas
+
+### 🎯 HU: Listar Facultades Registradas
 **Como:** Administrador del sistema
 **Quiero:** ver todas las facultades con su información principal
 **Para:** gestionar la estructura académica de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe una página dedicada a 'Gestión de Facultades' accesible desde la navegación lateral
-- Se muestra una tabla con columnas 'Código', 'Nombre', 'Carreras', 'Decano' y 'Acciones'
-- Los datos de las facultades se cargan correctamente en la tabla
-- Se muestra el botón '+ Nueva Facultad' en la página
+- ✅ Existe una página dedicada a 'Gestión de Facultades' accesible desde la navegación lateral
+- ✅ Se muestra una tabla con columnas 'Código', 'Nombre', 'Carreras', 'Decano' y 'Acciones'
+- ✅ Los datos de las facultades se cargan correctamente en la tabla
+- ✅ Se muestra el botón '+ Nueva Facultad' en la página
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Buscar Facultades por Código o Nombre
+
+### 🎯 HU: Buscar Facultades por Código o Nombre
 **Como:** Administrador del sistema
 **Quiero:** encontrar facultades específicas rápidamente
 **Para:** agilizar la gestión de facultades
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un campo de búsqueda ('Buscar por código o nombre...') en la página de listado de Facultades
-- Al escribir texto, la tabla se filtra y muestra solo las facultades que coinciden con el código o nombre
-- La búsqueda debe ser insensible a mayúsculas y minúsculas
-- Al borrar el texto de búsqueda, se muestra el listado completo de facultades
+- ✅ Existe un campo de búsqueda ('Buscar por código o nombre...') en la página de listado de Facultades
+- ✅ Al escribir texto, la tabla se filtra y muestra solo las facultades que coinciden con el código o nombre
+- ✅ La búsqueda debe ser insensible a mayúsculas y minúsculas
+- ✅ Al borrar el texto de búsqueda, se muestra el listado completo de facultades
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Filtrar Facultades por Carreras
+
+### 🎯 HU: Filtrar Facultades por Carreras
 **Como:** Administrador del sistema
 **Quiero:** filtrar el listado de facultades
 **Para:** organizar la visualización por la cantidad de carreras que gestionan
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector de filtro ('Filtrar por Carreras') en la página de listado de Facultades
-- Al seleccionar una opción del filtro (ej. 'Con más de 5 carreras'), la tabla de facultades se actualiza mostrando solo las que cumplen el criterio
-- La opción 'Todas las Carreras' muestra todas las facultades
+- ✅ Existe un selector de filtro ('Filtrar por Carreras') en la página de listado de Facultades
+- ✅ Al seleccionar una opción del filtro (ej. 'Con más de 5 carreras'), la tabla de facultades se actualiza mostrando solo las que cumplen el criterio
+- ✅ La opción 'Todas las Carreras' muestra todas las facultades
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Paginar Listado de Facultades
+
+### 🎯 HU: Paginar Listado de Facultades
 **Como:** Administrador del sistema
 **Quiero:** navegar por el listado de facultades en bloques manejables
 **Para:** gestionar grandes volúmenes de información eficientemente
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Facultades
-- El componente permite ir a la página siguiente
-- El componente permite ir a la página anterior
-- El componente permite ir directamente a una página específica
-- Al cambiar de página, la tabla de facultades se actualiza con los datos correspondientes
+- ✅ Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Facultades
+- ✅ El componente permite ir a la página siguiente
+- ✅ El componente permite ir a la página anterior
+- ✅ El componente permite ir directamente a una página específica
+- ✅ Al cambiar de página, la tabla de facultades se actualiza con los datos correspondientes
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Registrar Nueva Facultad
+
+### 🎯 HU: Registrar Nueva Facultad
 **Como:** Administrador del sistema
 **Quiero:** agregar una nueva facultad al sistema
 **Para:** mantener actualizada la estructura organizativa de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Al hacer clic en '+ Nueva Facultad', se abre un formulario modal de registro de Facultad
-- El formulario incluye campos para 'Código', 'Nombre', 'Descripción' y un selector de 'Decano'
-- El selector de 'Decano' permite buscar y seleccionar un usuario existente
-- Al enviar datos válidos, la facultad se guarda y se muestra en el listado
-- Al enviar datos inválidos (ej. código o nombre duplicado), se muestra un mensaje de error claro
+- ✅ Al hacer clic en '+ Nueva Facultad', se abre un formulario modal de registro de Facultad
+- ✅ El formulario incluye campos para 'Código', 'Nombre', 'Descripción' y un selector de 'Decano'
+- ✅ El selector de 'Decano' permite buscar y seleccionar un usuario existente
+- ✅ Al enviar datos válidos, la facultad se guarda y se muestra en el listado
+- ✅ Al enviar datos inválidos (ej. código o nombre duplicado), se muestra un mensaje de error claro
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Editar Información de Facultad
+
+### 🎯 HU: Editar Información de Facultad
 **Como:** Administrador del sistema
 **Quiero:** modificar los datos de una facultad existente
 **Para:** corregir o actualizar su información
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de edición (lápiz) en la columna 'Acciones' de cada facultad en el listado
-- Al hacer clic en el icono de edición, se abre un formulario modal con los datos de la facultad precargados
-- Al guardar los cambios, la información de la facultad se actualiza correctamente
-- El sistema valida la unicidad del código y nombre de la facultad si se modifican
+- ✅ Existe un icono de edición (lápiz) en la columna 'Acciones' de cada facultad en el listado
+- ✅ Al hacer clic en el icono de edición, se abre un formulario modal con los datos de la facultad precargados
+- ✅ Al guardar los cambios, la información de la facultad se actualiza correctamente
+- ✅ El sistema valida la unicidad del código y nombre de la facultad si se modifican
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Eliminar Facultad del Sistema
+
+### 🎯 HU: Eliminar Facultad del Sistema
 **Como:** Administrador del sistema
 **Quiero:** remover una facultad del sistema
 **Para:** depurar información obsoleta o incorrecta
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de eliminación (papelera) en la columna 'Acciones' de cada facultad en el listado
-- Al hacer clic en el icono de eliminación, se muestra una confirmación al usuario
-- Si la facultad no tiene carreras asociadas, se elimina del sistema
-- Si la facultad tiene carreras asociadas, el sistema advierte e impide la eliminación
+- ✅ Existe un icono de eliminación (papelera) en la columna 'Acciones' de cada facultad en el listado
+- ✅ Al hacer clic en el icono de eliminación, se muestra una confirmación al usuario
+- ✅ Si la facultad no tiene carreras asociadas, se elimina del sistema
+- ✅ Si la facultad tiene carreras asociadas, el sistema advierte e impide la eliminación
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Listar Carreras Registradas
+
+### 🎯 HU: Listar Carreras Registradas
 **Como:** Administrador del sistema
 **Quiero:** ver todas las carreras con su información principal
 **Para:** gestionar la oferta académica de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe una página dedicada a 'Gestión de Carreras' accesible desde la navegación lateral
-- Se muestra una tabla con columnas 'Código', 'Nombre', 'Facultad', 'Coordinador' y 'Acciones'
-- Los datos de las carreras se cargan correctamente en la tabla
-- Se muestra el botón '+ Nueva Carrera' en la página
+- ✅ Existe una página dedicada a 'Gestión de Carreras' accesible desde la navegación lateral
+- ✅ Se muestra una tabla con columnas 'Código', 'Nombre', 'Facultad', 'Coordinador' y 'Acciones'
+- ✅ Los datos de las carreras se cargan correctamente en la tabla
+- ✅ Se muestra el botón '+ Nueva Carrera' en la página
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Buscar Carreras por Palabra Clave
+
+### 🎯 HU: Buscar Carreras por Palabra Clave
 **Como:** Administrador del sistema
 **Quiero:** encontrar carreras específicas rápidamente por código o nombre
 **Para:** agilizar la gestión de carreras
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un campo de búsqueda ('Buscar carrera...') en la página de listado de Carreras
-- Al escribir texto, la tabla se filtra y muestra solo las carreras que coinciden con el código o nombre
-- La búsqueda debe ser insensible a mayúsculas y minúsculas
-- Al borrar el texto de búsqueda, se muestra el listado completo de carreras
+- ✅ Existe un campo de búsqueda ('Buscar carrera...') en la página de listado de Carreras
+- ✅ Al escribir texto, la tabla se filtra y muestra solo las carreras que coinciden con el código o nombre
+- ✅ La búsqueda debe ser insensible a mayúsculas y minúsculas
+- ✅ Al borrar el texto de búsqueda, se muestra el listado completo de carreras
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Filtrar Carreras por Facultad
+
+### 🎯 HU: Filtrar Carreras por Facultad
 **Como:** Administrador del sistema
 **Quiero:** ver carreras que pertenecen a una facultad específica
 **Para:** organizar la visualización de la oferta académica
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector de filtro ('Todas las Facultades') en la página de listado de Carreras
-- Al seleccionar una facultad, la tabla se actualiza mostrando solo las carreras de esa facultad
-- La opción 'Todas las Facultades' muestra todas las carreras
+- ✅ Existe un selector de filtro ('Todas las Facultades') en la página de listado de Carreras
+- ✅ Al seleccionar una facultad, la tabla se actualiza mostrando solo las carreras de esa facultad
+- ✅ La opción 'Todas las Facultades' muestra todas las carreras
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Filtrar Carreras por Estado
+
+### 🎯 HU: Filtrar Carreras por Estado
 **Como:** Administrador del sistema
 **Quiero:** ver carreras que tienen un estado específico
 **Para:** organizar la visualización por estado de la carrera (ej. activa, inactiva, en revisión)
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector de filtro ('Todos los Estados') en la página de listado de Carreras
-- Al seleccionar un estado, la tabla se actualiza mostrando solo las carreras con ese estado
-- La opción 'Todos los Estados' muestra todas las carreras
+- ✅ Existe un selector de filtro ('Todos los Estados') en la página de listado de Carreras
+- ✅ Al seleccionar un estado, la tabla se actualiza mostrando solo las carreras con ese estado
+- ✅ La opción 'Todos los Estados' muestra todas las carreras
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Paginar Listado de Carreras
+
+### 🎯 HU: Paginar Listado de Carreras
 **Como:** Administrador del sistema
 **Quiero:** navegar por el listado de carreras en bloques manejables
 **Para:** gestionar grandes volúmenes de información eficientemente
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Carreras
-- El componente permite ir a la página siguiente
-- El componente permite ir a la página anterior
-- El componente permite ir directamente a una página específica
-- Al cambiar de página, la tabla de carreras se actualiza con los datos correspondientes
+- ✅ Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Carreras
+- ✅ El componente permite ir a la página siguiente
+- ✅ El componente permite ir a la página anterior
+- ✅ El componente permite ir directamente a una página específica
+- ✅ Al cambiar de página, la tabla de carreras se actualiza con los datos correspondientes
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Registrar Nueva Carrera
+
+### 🎯 HU: Registrar Nueva Carrera
 **Como:** Administrador
 **Quiero:** ingresar la información de una nueva carrera
 **Para:** agregar una oferta académica
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Al hacer clic en '+ Nueva Carrera', se abre un formulario de registro de carrera
-- El formulario incluye campos para 'Código', 'Nombre', 'Modalidad', 'Duración en años'
-- Existe un selector para asociar la carrera a una 'Facultad' existente
-- Existe un selector para asignar un 'Coordinador' de una lista de usuarios existentes
-- El Código de la carrera es validado como único
-- Al guardar, la carrera queda registrada exitosamente y se muestra en el listado
+- ✅ Al hacer clic en '+ Nueva Carrera', se abre un formulario de registro de carrera
+- ✅ El formulario incluye campos para 'Código', 'Nombre', 'Modalidad', 'Duración en años'
+- ✅ Existe un selector para asociar la carrera a una 'Facultad' existente
+- ✅ Existe un selector para asignar un 'Coordinador' de una lista de usuarios existentes
+- ✅ El Código de la carrera es validado como único
+- ✅ Al guardar, la carrera queda registrada exitosamente y se muestra en el listado
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Editar Información de Carrera
+
+### 🎯 HU: Editar Información de Carrera
 **Como:** Administrador del sistema
 **Quiero:** modificar los datos de una carrera existente
 **Para:** corregir o actualizar su información
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de edición (lápiz) en la columna 'Acciones' de cada carrera en el listado
-- Al hacer clic en el icono de edición, se abre un formulario modal con los datos de la carrera precargados
-- Al guardar los cambios, la información de la carrera se actualiza correctamente
-- El sistema valida la unicidad del código de la carrera si se modifica
+- ✅ Existe un icono de edición (lápiz) en la columna 'Acciones' de cada carrera en el listado
+- ✅ Al hacer clic en el icono de edición, se abre un formulario modal con los datos de la carrera precargados
+- ✅ Al guardar los cambios, la información de la carrera se actualiza correctamente
+- ✅ El sistema valida la unicidad del código de la carrera si se modifica
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Eliminar Carrera del Sistema
+
+### 🎯 HU: Eliminar Carrera del Sistema
 **Como:** Administrador del sistema
 **Quiero:** remover una carrera del sistema
 **Para:** depurar información obsoleta o incorrecta
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de eliminación (papelera) en la columna 'Acciones' de cada carrera en el listado
-- Al hacer clic en el icono de eliminación, se muestra una confirmación al usuario
-- Si la carrera no tiene materias o profesores asociados, se elimina del sistema
-- Si la carrera tiene dependencias, el sistema advierte e impide la eliminación
+- ✅ Existe un icono de eliminación (papelera) en la columna 'Acciones' de cada carrera en el listado
+- ✅ Al hacer clic en el icono de eliminación, se muestra una confirmación al usuario
+- ✅ Si la carrera no tiene materias o profesores asociados, se elimina del sistema
+- ✅ Si la carrera tiene dependencias, el sistema advierte e impide la eliminación
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Visualizar Permisos por Rol
+
+### 🎯 HU: Visualizar Permisos por Rol
 **Como:** Administrador
 **Quiero:** ver los permisos asociados a cada rol definido en el sistema
 **Para:** entender las capacidades de cada tipo de usuario y revisar la configuración de seguridad
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe una página 'Gestión de Roles' accesible desde la navegación lateral
-- La página muestra tarjetas para cada rol (ej. 'Administrador', 'CEI', 'Autoridad de facultad', 'Coordinador de Carrera', 'Profesor')
-- Cada tarjeta de rol muestra un listado de permisos asociados (ej. 'Ver facultades', 'Crear facultades', 'Asignar roles')
-- Los permisos se presentan como checkboxes, mostrando si están habilitados para ese rol
+- ✅ Existe una página 'Gestión de Roles' accesible desde la navegación lateral
+- ✅ La página muestra tarjetas para cada rol (ej. 'Administrador', 'CEI', 'Autoridad de facultad', 'Coordinador de Carrera', 'Profesor')
+- ✅ Cada tarjeta de rol muestra un listado de permisos asociados (ej. 'Ver facultades', 'Crear facultades', 'Asignar roles')
+- ✅ Los permisos se presentan como checkboxes, mostrando si están habilitados para ese rol
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Visualizar Perfil Personal
+
+### 🎯 HU: Visualizar Perfil Personal
 **Como:** Usuario del sistema
 **Quiero:** ver mi información personal y de contacto registrada
 **Para:** confirmar mis datos en la plataforma y tenerlos a mano
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe una página 'Mi Perfil' accesible desde la navegación lateral
-- La página muestra una sección de 'Información Personal' con campos (Nombre Completo, Correo Institucional, Facultad, Teléfono, Fecha de Registro)
-- Todos los campos de información personal muestran los datos del usuario logueado
+- ✅ Existe una página 'Mi Perfil' accesible desde la navegación lateral
+- ✅ La página muestra una sección de 'Información Personal' con campos (Nombre Completo, Correo Institucional, Facultad, Teléfono, Fecha de Registro)
+- ✅ Todos los campos de información personal muestran los datos del usuario logueado
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Visualizar Roles y Permisos Detallados de Perfil
+
+### 🎯 HU: Visualizar Roles y Permisos Detallados de Perfil
 **Como:** Usuario del sistema
 **Quiero:** ver los roles que tengo asignados y los permisos detallados de los mismos
 **Para:** comprender mis capacidades y accesos dentro del sistema
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- La página 'Mi Perfil' muestra una sección de 'Rol y Permisos'
-- Se muestra el 'Rol Asignado' (ej. 'Profesor', 'Decano')
-- Existe un desplegable o botón 'Ver Permisos Detallados'
-- Al expandir 'Ver Permisos Detallados', se lista los permisos específicos del usuario (ej. 'Visualizar Dashboard', 'Gestionar Cursos', 'Registrar Calificaciones')
+- ✅ La página 'Mi Perfil' muestra una sección de 'Rol y Permisos'
+- ✅ Se muestra el 'Rol Asignado' (ej. 'Profesor', 'Decano')
+- ✅ Existe un desplegable o botón 'Ver Permisos Detallados'
+- ✅ Al expandir 'Ver Permisos Detallados', se lista los permisos específicos del usuario (ej. 'Visualizar Dashboard', 'Gestionar Cursos', 'Registrar Calificaciones')
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Cambiar Contraseña Personal
+
+### 🎯 HU: Cambiar Contraseña Personal
 **Como:** Usuario del sistema
 **Quiero:** actualizar mi contraseña
 **Para:** mantener mi cuenta segura regularmente
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- La página 'Mi Perfil' muestra una sección de 'Cambiar Contraseña'
-- Existe un botón 'Actualizar Contraseña'
-- Al hacer clic en el botón, se abre un formulario modal para cambiar contraseña (campos: Contraseña Actual, Nueva Contraseña, Confirmar Nueva Contraseña)
-- El sistema valida que la 'Contraseña Actual' sea correcta
-- El sistema valida que 'Nueva Contraseña' y 'Confirmar Nueva Contraseña' coincidan y cumplan con políticas de seguridad
-- Al guardar, la contraseña se actualiza y se muestra un mensaje de éxito
+- ✅ La página 'Mi Perfil' muestra una sección de 'Cambiar Contraseña'
+- ✅ Existe un botón 'Actualizar Contraseña'
+- ✅ Al hacer clic en el botón, se abre un formulario modal para cambiar contraseña (campos: Contraseña Actual, Nueva Contraseña, Confirmar Nueva Contraseña)
+- ✅ El sistema valida que la 'Contraseña Actual' sea correcta
+- ✅ El sistema valida que 'Nueva Contraseña' y 'Confirmar Nueva Contraseña' coincidan y cumplan con políticas de seguridad
+- ✅ Al guardar, la contraseña se actualiza y se muestra un mensaje de éxito
 
-**Story Points:** 2
-**Prioridad:** Media (2)
+
+**Story Points:** 2 | **Prioridad:** Media (2)
 
 <!-- --- -->
 
@@ -4479,542 +4303,511 @@ No repetir títulos de tareas.
 **Como:** 
 **Quiero:** 
 **Para:** 
-**Story Points:** N/A
-**Prioridad:** N/A
 
----
+**Story Points:** N/A**Prioridad:** N/A
 
-### HU: Iniciar Sesión en Poliacredita
+
+### 🎯 HU: Iniciar Sesión en Poliacredita
 **Como:** Usuario del sistema SAGA EPN EUR-ACE
 **Quiero:** ingresar mis credenciales institucionales y seleccionar mi rol
 **Para:** acceder a mis funcionalidades correspondientes a mi rol
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El sistema muestra un formulario con campos para 'Correo Institucional' y 'Contraseña'
-- El sistema muestra un selector de 'Rol' con opciones (Administrador, CEI, Autoridad Académica, Coordinador de Carrera, Profesor)
-- Al ingresar credenciales válidas y seleccionar un rol, el usuario es redirigido al Dashboard
-- Al ingresar credenciales inválidas, se muestra un mensaje de error claro
-- Existe un enlace para '¿Olvidaste tu contraseña?'
+- ✅ El sistema muestra un formulario con campos para 'Correo Institucional' y 'Contraseña'
+- ✅ El sistema muestra un selector de 'Rol' con opciones (Administrador, CEI, Autoridad Académica, Coordinador de Carrera, Profesor)
+- ✅ Al ingresar credenciales válidas y seleccionar un rol, el usuario es redirigido al Dashboard
+- ✅ Al ingresar credenciales inválidas, se muestra un mensaje de error claro
+- ✅ Existe un enlace para '¿Olvidaste tu contraseña?'
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Visualizar Conteo de Entidades en Dashboard
+
+### 🎯 HU: Visualizar Conteo de Entidades en Dashboard
 **Como:** Administrador
 **Quiero:** ver el número total de facultades, carreras y usuarios activos
 **Para:** obtener una visión general rápida del estado de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El Dashboard muestra el 'Total Facultades' con un valor numérico
-- El Dashboard muestra el 'Total Carreras' con un valor numérico
-- El Dashboard muestra el 'Usuarios Activos' con un valor numérico
+- ✅ El Dashboard muestra el 'Total Facultades' con un valor numérico
+- ✅ El Dashboard muestra el 'Total Carreras' con un valor numérico
+- ✅ El Dashboard muestra el 'Usuarios Activos' con un valor numérico
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Visualizar Actividad Reciente en Dashboard
+
+### 🎯 HU: Visualizar Actividad Reciente en Dashboard
 **Como:** Administrador
 **Quiero:** ver un registro de las últimas acciones realizadas en el sistema
 **Para:** monitorear la actividad de la plataforma
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El Dashboard muestra una sección de 'Actividad Reciente' con columnas 'Hora', 'Usuario', 'Acción'
-- La tabla muestra un listado de acciones recientes (ej. 'Creo nueva facultad FIEC', 'Actualizó datos de carrera Ingeniería Civil')
-- Cada acción muestra la hora en formato relativo ('Hace 5 min', 'Hace 15 min')
-- Cada acción muestra el email del usuario que la realizó
-- Cada acción muestra una descripción concisa de la actividad
+- ✅ El Dashboard muestra una sección de 'Actividad Reciente' con columnas 'Hora', 'Usuario', 'Acción'
+- ✅ La tabla muestra un listado de acciones recientes (ej. 'Creo nueva facultad FIEC', 'Actualizó datos de carrera Ingeniería Civil')
+- ✅ Cada acción muestra la hora en formato relativo ('Hace 5 min', 'Hace 15 min')
+- ✅ Cada acción muestra el email del usuario que la realizó
+- ✅ Cada acción muestra una descripción concisa de la actividad
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Acceder a Acciones Rápidas desde Dashboard
+
+### 🎯 HU: Acceder a Acciones Rápidas desde Dashboard
 **Como:** Administrador
 **Quiero:** tener enlaces directos a funcionalidades de gestión importantes
 **Para:** agilizar mi navegación y ejecución de tareas comunes
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El Dashboard muestra una sección de 'Acceso Rápido'
-- Esta sección incluye un botón o enlace con icono y texto 'Gestionar Carreras'
-- Esta sección incluye un botón o enlace con icono y texto 'Gestionar Profesores'
-- Esta sección incluye un botón o enlace con icono y texto 'Ver Mi Perfil'
-- Al hacer clic en cada botón, el usuario es redirigido a la página correspondiente
+- ✅ El Dashboard muestra una sección de 'Acceso Rápido'
+- ✅ Esta sección incluye un botón o enlace con icono y texto 'Gestionar Carreras'
+- ✅ Esta sección incluye un botón o enlace con icono y texto 'Gestionar Profesores'
+- ✅ Esta sección incluye un botón o enlace con icono y texto 'Ver Mi Perfil'
+- ✅ Al hacer clic en cada botón, el usuario es redirigido a la página correspondiente
 
-**Story Points:** 1
-**Prioridad:** Media (2)
 
----
+**Story Points:** 1 | **Prioridad:** Media (2)
 
-### HU: Listar Usuarios Registrados
+
+### 🎯 HU: Listar Usuarios Registrados
 **Como:** Administrador
 **Quiero:** ver una lista de todos los usuarios registrados con su información clave
 **Para:** gestionar el acceso y los roles en el sistema
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe una página 'Gestión de Usuarios' accesible desde la navegación lateral
-- Se muestra una tabla con columnas 'Email', 'Nombre', 'Rol', 'Estado' y 'Acciones'
-- Los datos de los usuarios se cargan correctamente en la tabla
-- Se muestra el botón '+ Nuevo Usuario' en la página
+- ✅ Existe una página 'Gestión de Usuarios' accesible desde la navegación lateral
+- ✅ Se muestra una tabla con columnas 'Email', 'Nombre', 'Rol', 'Estado' y 'Acciones'
+- ✅ Los datos de los usuarios se cargan correctamente en la tabla
+- ✅ Se muestra el botón '+ Nuevo Usuario' en la página
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Registrar Nuevo Usuario
+
+### 🎯 HU: Registrar Nuevo Usuario
 **Como:** Administrador
 **Quiero:** crear un nuevo registro de usuario en el sistema
 **Para:** permitir que nuevas personas accedan a la plataforma
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Al hacer clic en '+ Nuevo Usuario', se abre un formulario modal de registro de usuario
-- El formulario incluye campos para 'Cédula', 'Nombres', 'Apellidos', 'Email', 'Teléfono'
-- El formulario incluye un selector de 'Rol' con opciones de checkbox (ej. Comité Evaluación Interna, Autoridad Académica)
-- El formulario incluye un selector de 'Facultad' con función de búsqueda
-- La Cédula y el Email son validados como únicos en el sistema
-- Al enviar datos válidos, el usuario se guarda y se muestra en el listado
+- ✅ Al hacer clic en '+ Nuevo Usuario', se abre un formulario modal de registro de usuario
+- ✅ El formulario incluye campos para 'Cédula', 'Nombres', 'Apellidos', 'Email', 'Teléfono'
+- ✅ El formulario incluye un selector de 'Rol' con opciones de checkbox (ej. Comité Evaluación Interna, Autoridad Académica)
+- ✅ El formulario incluye un selector de 'Facultad' con función de búsqueda
+- ✅ La Cédula y el Email son validados como únicos en el sistema
+- ✅ Al enviar datos válidos, el usuario se guarda y se muestra en el listado
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Editar Información de Usuario
+
+### 🎯 HU: Editar Información de Usuario
 **Como:** Administrador
 **Quiero:** modificar los datos de un usuario existente
 **Para:** corregir o actualizar su información, roles o estado
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de edición (lápiz) en la columna 'Acciones' de cada usuario en el listado
-- Al hacer clic en el icono de edición, se abre un formulario modal con los datos del usuario precargados
-- El formulario permite modificar 'Nombres', 'Apellidos', 'Email', 'Teléfono', 'Roles' y 'Facultad'
-- El sistema valida la unicidad del Email y Cédula si se modifican
-- Al guardar los cambios, la información del usuario se actualiza correctamente
+- ✅ Existe un icono de edición (lápiz) en la columna 'Acciones' de cada usuario en el listado
+- ✅ Al hacer clic en el icono de edición, se abre un formulario modal con los datos del usuario precargados
+- ✅ El formulario permite modificar 'Nombres', 'Apellidos', 'Email', 'Teléfono', 'Roles' y 'Facultad'
+- ✅ El sistema valida la unicidad del Email y Cédula si se modifican
+- ✅ Al guardar los cambios, la información del usuario se actualiza correctamente
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Buscar Usuarios por Palabra Clave
+
+### 🎯 HU: Buscar Usuarios por Palabra Clave
 **Como:** Administrador
 **Quiero:** encontrar usuarios específicos rápidamente por email, nombre o cédula
 **Para:** agilizar la gestión de usuarios
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un campo de búsqueda ('Buscar usuario...') en la página de listado de Usuarios
-- Al escribir texto, la tabla se filtra y muestra solo los usuarios que coinciden con el email, nombre o cédula
-- La búsqueda debe ser insensible a mayúsculas y minúsculas
-- Al borrar el texto de búsqueda, se muestra el listado completo de usuarios
+- ✅ Existe un campo de búsqueda ('Buscar usuario...') en la página de listado de Usuarios
+- ✅ Al escribir texto, la tabla se filtra y muestra solo los usuarios que coinciden con el email, nombre o cédula
+- ✅ La búsqueda debe ser insensible a mayúsculas y minúsculas
+- ✅ Al borrar el texto de búsqueda, se muestra el listado completo de usuarios
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Filtrar Usuarios por Rol
+
+### 🎯 HU: Filtrar Usuarios por Rol
 **Como:** Administrador
 **Quiero:** ver usuarios que tienen uno o más roles específicos
 **Para:** organizar la visualización y gestionar permisos por rol
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector de filtro ('Todos los Roles') en la página de listado de Usuarios
-- Al seleccionar uno o varios roles, la tabla se actualiza mostrando solo los usuarios con esos roles
-- La opción 'Todos los Roles' muestra todos los usuarios
+- ✅ Existe un selector de filtro ('Todos los Roles') en la página de listado de Usuarios
+- ✅ Al seleccionar uno o varios roles, la tabla se actualiza mostrando solo los usuarios con esos roles
+- ✅ La opción 'Todos los Roles' muestra todos los usuarios
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Filtrar Usuarios por Estado
+
+### 🎯 HU: Filtrar Usuarios por Estado
 **Como:** Administrador
 **Quiero:** ver usuarios que tienen un estado específico (Activo/Inactivo)
 **Para:** gestionar el acceso y habilitación/deshabilitación de cuentas
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector de filtro ('Todos los Estados') en la página de listado de Usuarios
-- Al seleccionar un estado, la tabla se actualiza mostrando solo los usuarios con ese estado
-- La opción 'Todos los Estados' muestra todos los usuarios
+- ✅ Existe un selector de filtro ('Todos los Estados') en la página de listado de Usuarios
+- ✅ Al seleccionar un estado, la tabla se actualiza mostrando solo los usuarios con ese estado
+- ✅ La opción 'Todos los Estados' muestra todos los usuarios
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Paginar Listado de Usuarios
+
+### 🎯 HU: Paginar Listado de Usuarios
 **Como:** Administrador
 **Quiero:** navegar por el listado de usuarios en bloques manejables
 **Para:** gestionar grandes volúmenes de usuarios eficientemente
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Usuarios
-- El componente permite ir a la página siguiente
-- El componente permite ir a la página anterior
-- El componente permite ir directamente a una página específica
-- Al cambiar de página, la tabla de usuarios se actualiza con los datos correspondientes
+- ✅ Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Usuarios
+- ✅ El componente permite ir a la página siguiente
+- ✅ El componente permite ir a la página anterior
+- ✅ El componente permite ir directamente a una página específica
+- ✅ Al cambiar de página, la tabla de usuarios se actualiza con los datos correspondientes
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Cambiar Estado de Usuario (Activar/Desactivar)
+
+### 🎯 HU: Cambiar Estado de Usuario (Activar/Desactivar)
 **Como:** Administrador
 **Quiero:** habilitar o deshabilitar el acceso de un usuario
 **Para:** controlar quién puede usar el sistema
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un botón 'Desactivar' o 'Activar' en la columna 'Acciones' de cada usuario, según el estado actual
-- Al hacer clic en el botón, el estado del usuario cambia (Activo a Inactivo, o viceversa)
-- El estado visual en la tabla se actualiza inmediatamente (ej. texto 'Activo'/'Inactivo' y botón)
-- Se muestra una confirmación o mensaje de éxito/error al usuario
+- ✅ Existe un botón 'Desactivar' o 'Activar' en la columna 'Acciones' de cada usuario, según el estado actual
+- ✅ Al hacer clic en el botón, el estado del usuario cambia (Activo a Inactivo, o viceversa)
+- ✅ El estado visual en la tabla se actualiza inmediatamente (ej. texto 'Activo'/'Inactivo' y botón)
+- ✅ Se muestra una confirmación o mensaje de éxito/error al usuario
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Listar Facultades Registradas
+
+### 🎯 HU: Listar Facultades Registradas
 **Como:** Administrador del sistema
 **Quiero:** ver todas las facultades con su información principal
 **Para:** gestionar la estructura académica de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe una página dedicada a 'Gestión de Facultades' accesible desde la navegación lateral
-- Se muestra una tabla con columnas 'Código', 'Nombre', 'Carreras', 'Decano' y 'Acciones'
-- Los datos de las facultades se cargan correctamente en la tabla
-- Se muestra el botón '+ Nueva Facultad' en la página
+- ✅ Existe una página dedicada a 'Gestión de Facultades' accesible desde la navegación lateral
+- ✅ Se muestra una tabla con columnas 'Código', 'Nombre', 'Carreras', 'Decano' y 'Acciones'
+- ✅ Los datos de las facultades se cargan correctamente en la tabla
+- ✅ Se muestra el botón '+ Nueva Facultad' en la página
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Buscar Facultades por Código o Nombre
+
+### 🎯 HU: Buscar Facultades por Código o Nombre
 **Como:** Administrador del sistema
 **Quiero:** encontrar facultades específicas rápidamente
 **Para:** agilizar la gestión de facultades
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un campo de búsqueda ('Buscar por código o nombre...') en la página de listado de Facultades
-- Al escribir texto, la tabla se filtra y muestra solo las facultades que coinciden con el código o nombre
-- La búsqueda debe ser insensible a mayúsculas y minúsculas
-- Al borrar el texto de búsqueda, se muestra el listado completo de facultades
+- ✅ Existe un campo de búsqueda ('Buscar por código o nombre...') en la página de listado de Facultades
+- ✅ Al escribir texto, la tabla se filtra y muestra solo las facultades que coinciden con el código o nombre
+- ✅ La búsqueda debe ser insensible a mayúsculas y minúsculas
+- ✅ Al borrar el texto de búsqueda, se muestra el listado completo de facultades
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Filtrar Facultades por Carreras
+
+### 🎯 HU: Filtrar Facultades por Carreras
 **Como:** Administrador del sistema
 **Quiero:** filtrar el listado de facultades
 **Para:** organizar la visualización por la cantidad de carreras que gestionan
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector de filtro ('Filtrar por Carreras') en la página de listado de Facultades
-- Al seleccionar una opción del filtro (ej. 'Con más de 5 carreras'), la tabla de facultades se actualiza mostrando solo las que cumplen el criterio
-- La opción 'Todas las Carreras' muestra todas las facultades
+- ✅ Existe un selector de filtro ('Filtrar por Carreras') en la página de listado de Facultades
+- ✅ Al seleccionar una opción del filtro (ej. 'Con más de 5 carreras'), la tabla de facultades se actualiza mostrando solo las que cumplen el criterio
+- ✅ La opción 'Todas las Carreras' muestra todas las facultades
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Paginar Listado de Facultades
+
+### 🎯 HU: Paginar Listado de Facultades
 **Como:** Administrador del sistema
 **Quiero:** navegar por el listado de facultades en bloques manejables
 **Para:** gestionar grandes volúmenes de información eficientemente
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Facultades
-- El componente permite ir a la página siguiente
-- El componente permite ir a la página anterior
-- El componente permite ir directamente a una página específica
-- Al cambiar de página, la tabla de facultades se actualiza con los datos correspondientes
+- ✅ Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Facultades
+- ✅ El componente permite ir a la página siguiente
+- ✅ El componente permite ir a la página anterior
+- ✅ El componente permite ir directamente a una página específica
+- ✅ Al cambiar de página, la tabla de facultades se actualiza con los datos correspondientes
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Registrar Nueva Facultad
+
+### 🎯 HU: Registrar Nueva Facultad
 **Como:** Administrador del sistema
 **Quiero:** agregar una nueva facultad al sistema
 **Para:** mantener actualizada la estructura organizativa de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Al hacer clic en '+ Nueva Facultad', se abre un formulario modal de registro de Facultad
-- El formulario incluye campos para 'Código', 'Nombre', 'Descripción' y un selector de 'Decano'
-- El selector de 'Decano' permite buscar y seleccionar un usuario existente
-- Al enviar datos válidos, la facultad se guarda y se muestra en el listado
-- Al enviar datos inválidos (ej. código o nombre duplicado), se muestra un mensaje de error claro
+- ✅ Al hacer clic en '+ Nueva Facultad', se abre un formulario modal de registro de Facultad
+- ✅ El formulario incluye campos para 'Código', 'Nombre', 'Descripción' y un selector de 'Decano'
+- ✅ El selector de 'Decano' permite buscar y seleccionar un usuario existente
+- ✅ Al enviar datos válidos, la facultad se guarda y se muestra en el listado
+- ✅ Al enviar datos inválidos (ej. código o nombre duplicado), se muestra un mensaje de error claro
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Editar Información de Facultad
+
+### 🎯 HU: Editar Información de Facultad
 **Como:** Administrador del sistema
 **Quiero:** modificar los datos de una facultad existente
 **Para:** corregir o actualizar su información
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de edición (lápiz) en la columna 'Acciones' de cada facultad en el listado
-- Al hacer clic en el icono de edición, se abre un formulario modal con los datos de la facultad precargados
-- Al guardar los cambios, la información de la facultad se actualiza correctamente
-- El sistema valida la unicidad del código y nombre de la facultad si se modifican
+- ✅ Existe un icono de edición (lápiz) en la columna 'Acciones' de cada facultad en el listado
+- ✅ Al hacer clic en el icono de edición, se abre un formulario modal con los datos de la facultad precargados
+- ✅ Al guardar los cambios, la información de la facultad se actualiza correctamente
+- ✅ El sistema valida la unicidad del código y nombre de la facultad si se modifican
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Eliminar Facultad del Sistema
+
+### 🎯 HU: Eliminar Facultad del Sistema
 **Como:** Administrador del sistema
 **Quiero:** remover una facultad del sistema
 **Para:** depurar información obsoleta o incorrecta
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de eliminación (papelera) en la columna 'Acciones' de cada facultad en el listado
-- Al hacer clic en el icono de eliminación, se muestra una confirmación al usuario
-- Si la facultad no tiene carreras asociadas, se elimina del sistema
-- Si la facultad tiene carreras asociadas, el sistema advierte e impide la eliminación
+- ✅ Existe un icono de eliminación (papelera) en la columna 'Acciones' de cada facultad en el listado
+- ✅ Al hacer clic en el icono de eliminación, se muestra una confirmación al usuario
+- ✅ Si la facultad no tiene carreras asociadas, se elimina del sistema
+- ✅ Si la facultad tiene carreras asociadas, el sistema advierte e impide la eliminación
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Listar Carreras Registradas
+
+### 🎯 HU: Listar Carreras Registradas
 **Como:** Administrador del sistema
 **Quiero:** ver todas las carreras con su información principal
 **Para:** gestionar la oferta académica de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe una página dedicada a 'Gestión de Carreras' accesible desde la navegación lateral
-- Se muestra una tabla con columnas 'Código', 'Nombre', 'Facultad', 'Coordinador' y 'Acciones'
-- Los datos de las carreras se cargan correctamente en la tabla
-- Se muestra el botón '+ Nueva Carrera' en la página
+- ✅ Existe una página dedicada a 'Gestión de Carreras' accesible desde la navegación lateral
+- ✅ Se muestra una tabla con columnas 'Código', 'Nombre', 'Facultad', 'Coordinador' y 'Acciones'
+- ✅ Los datos de las carreras se cargan correctamente en la tabla
+- ✅ Se muestra el botón '+ Nueva Carrera' en la página
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Buscar Carreras por Palabra Clave
+
+### 🎯 HU: Buscar Carreras por Palabra Clave
 **Como:** Administrador del sistema
 **Quiero:** encontrar carreras específicas rápidamente por código o nombre
 **Para:** agilizar la gestión de carreras
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un campo de búsqueda ('Buscar carrera...') en la página de listado de Carreras
-- Al escribir texto, la tabla se filtra y muestra solo las carreras que coinciden con el código o nombre
-- La búsqueda debe ser insensible a mayúsculas y minúsculas
-- Al borrar el texto de búsqueda, se muestra el listado completo de carreras
+- ✅ Existe un campo de búsqueda ('Buscar carrera...') en la página de listado de Carreras
+- ✅ Al escribir texto, la tabla se filtra y muestra solo las carreras que coinciden con el código o nombre
+- ✅ La búsqueda debe ser insensible a mayúsculas y minúsculas
+- ✅ Al borrar el texto de búsqueda, se muestra el listado completo de carreras
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Filtrar Carreras por Facultad
+
+### 🎯 HU: Filtrar Carreras por Facultad
 **Como:** Administrador del sistema
 **Quiero:** ver carreras que pertenecen a una facultad específica
 **Para:** organizar la visualización de la oferta académica
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector de filtro ('Todas las Facultades') en la página de listado de Carreras
-- Al seleccionar una facultad, la tabla se actualiza mostrando solo las carreras de esa facultad
-- La opción 'Todas las Facultades' muestra todas las carreras
+- ✅ Existe un selector de filtro ('Todas las Facultades') en la página de listado de Carreras
+- ✅ Al seleccionar una facultad, la tabla se actualiza mostrando solo las carreras de esa facultad
+- ✅ La opción 'Todas las Facultades' muestra todas las carreras
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Filtrar Carreras por Estado
+
+### 🎯 HU: Filtrar Carreras por Estado
 **Como:** Administrador del sistema
 **Quiero:** ver carreras que tienen un estado específico
 **Para:** organizar la visualización por estado de la carrera (ej. activa, inactiva, en revisión)
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector de filtro ('Todos los Estados') en la página de listado de Carreras
-- Al seleccionar un estado, la tabla se actualiza mostrando solo las carreras con ese estado
-- La opción 'Todos los Estados' muestra todas las carreras
+- ✅ Existe un selector de filtro ('Todos los Estados') en la página de listado de Carreras
+- ✅ Al seleccionar un estado, la tabla se actualiza mostrando solo las carreras con ese estado
+- ✅ La opción 'Todos los Estados' muestra todas las carreras
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Paginar Listado de Carreras
+
+### 🎯 HU: Paginar Listado de Carreras
 **Como:** Administrador del sistema
 **Quiero:** navegar por el listado de carreras en bloques manejables
 **Para:** gestionar grandes volúmenes de información eficientemente
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Carreras
-- El componente permite ir a la página siguiente
-- El componente permite ir a la página anterior
-- El componente permite ir directamente a una página específica
-- Al cambiar de página, la tabla de carreras se actualiza con los datos correspondientes
+- ✅ Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Carreras
+- ✅ El componente permite ir a la página siguiente
+- ✅ El componente permite ir a la página anterior
+- ✅ El componente permite ir directamente a una página específica
+- ✅ Al cambiar de página, la tabla de carreras se actualiza con los datos correspondientes
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Registrar Nueva Carrera
+
+### 🎯 HU: Registrar Nueva Carrera
 **Como:** Administrador
 **Quiero:** ingresar la información de una nueva carrera
 **Para:** agregar una oferta académica
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Al hacer clic en '+ Nueva Carrera', se abre un formulario de registro de carrera
-- El formulario incluye campos para 'Código', 'Nombre', 'Modalidad', 'Duración en años'
-- Existe un selector para asociar la carrera a una 'Facultad' existente
-- Existe un selector para asignar un 'Coordinador' de una lista de usuarios existentes
-- El Código de la carrera es validado como único
-- Al guardar, la carrera queda registrada exitosamente y se muestra en el listado
+- ✅ Al hacer clic en '+ Nueva Carrera', se abre un formulario de registro de carrera
+- ✅ El formulario incluye campos para 'Código', 'Nombre', 'Modalidad', 'Duración en años'
+- ✅ Existe un selector para asociar la carrera a una 'Facultad' existente
+- ✅ Existe un selector para asignar un 'Coordinador' de una lista de usuarios existentes
+- ✅ El Código de la carrera es validado como único
+- ✅ Al guardar, la carrera queda registrada exitosamente y se muestra en el listado
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Editar Información de Carrera
+
+### 🎯 HU: Editar Información de Carrera
 **Como:** Administrador del sistema
 **Quiero:** modificar los datos de una carrera existente
 **Para:** corregir o actualizar su información
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de edición (lápiz) en la columna 'Acciones' de cada carrera en el listado
-- Al hacer clic en el icono de edición, se abre un formulario modal con los datos de la carrera precargados
-- Al guardar los cambios, la información de la carrera se actualiza correctamente
-- El sistema valida la unicidad del código de la carrera si se modifica
+- ✅ Existe un icono de edición (lápiz) en la columna 'Acciones' de cada carrera en el listado
+- ✅ Al hacer clic en el icono de edición, se abre un formulario modal con los datos de la carrera precargados
+- ✅ Al guardar los cambios, la información de la carrera se actualiza correctamente
+- ✅ El sistema valida la unicidad del código de la carrera si se modifica
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Eliminar Carrera del Sistema
+
+### 🎯 HU: Eliminar Carrera del Sistema
 **Como:** Administrador del sistema
 **Quiero:** remover una carrera del sistema
 **Para:** depurar información obsoleta o incorrecta
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de eliminación (papelera) en la columna 'Acciones' de cada carrera en el listado
-- Al hacer clic en el icono de eliminación, se muestra una confirmación al usuario
-- Si la carrera no tiene materias o profesores asociados, se elimina del sistema
-- Si la carrera tiene dependencias, el sistema advierte e impide la eliminación
+- ✅ Existe un icono de eliminación (papelera) en la columna 'Acciones' de cada carrera en el listado
+- ✅ Al hacer clic en el icono de eliminación, se muestra una confirmación al usuario
+- ✅ Si la carrera no tiene materias o profesores asociados, se elimina del sistema
+- ✅ Si la carrera tiene dependencias, el sistema advierte e impide la eliminación
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Visualizar Permisos por Rol
+
+### 🎯 HU: Visualizar Permisos por Rol
 **Como:** Administrador
 **Quiero:** ver los permisos asociados a cada rol definido en el sistema
 **Para:** entender las capacidades de cada tipo de usuario y revisar la configuración de seguridad
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe una página 'Gestión de Roles' accesible desde la navegación lateral
-- La página muestra tarjetas para cada rol (ej. 'Administrador', 'CEI', 'Autoridad de facultad', 'Coordinador de Carrera', 'Profesor')
-- Cada tarjeta de rol muestra un listado de permisos asociados (ej. 'Ver facultades', 'Crear facultades', 'Eliminar facultades', 'Ver usuarios')
-- Los permisos se presentan como checkboxes, mostrando si están habilitados para ese rol
+- ✅ Existe una página 'Gestión de Roles' accesible desde la navegación lateral
+- ✅ La página muestra tarjetas para cada rol (ej. 'Administrador', 'CEI', 'Autoridad de facultad', 'Coordinador de Carrera', 'Profesor')
+- ✅ Cada tarjeta de rol muestra un listado de permisos asociados (ej. 'Ver facultades', 'Crear facultades', 'Eliminar facultades', 'Ver usuarios')
+- ✅ Los permisos se presentan como checkboxes, mostrando si están habilitados para ese rol
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Visualizar Perfil Personal
+
+### 🎯 HU: Visualizar Perfil Personal
 **Como:** Usuario del sistema
 **Quiero:** ver mi información personal y de contacto registrada
 **Para:** confirmar mis datos en la plataforma y tenerlos a mano
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe una página 'Mi Perfil' accesible desde la navegación lateral
-- La página muestra una sección de 'Información Personal' con campos (Nombre Completo, Correo Institucional, Facultad, Teléfono, Fecha de Registro)
-- Todos los campos de información personal muestran los datos del usuario logueado
+- ✅ Existe una página 'Mi Perfil' accesible desde la navegación lateral
+- ✅ La página muestra una sección de 'Información Personal' con campos (Nombre Completo, Correo Institucional, Facultad, Teléfono, Fecha de Registro)
+- ✅ Todos los campos de información personal muestran los datos del usuario logueado
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Visualizar Roles y Permisos Detallados de Perfil
+
+### 🎯 HU: Visualizar Roles y Permisos Detallados de Perfil
 **Como:** Usuario del sistema
 **Quiero:** ver los roles que tengo asignados y los permisos detallados de los mismos
 **Para:** comprender mis capacidades y accesos dentro del sistema
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- La página 'Mi Perfil' muestra una sección de 'Rol y Permisos'
-- Se muestra el 'Rol Asignado' (ej. 'Profesor', 'Decano')
-- Existe un desplegable o botón 'Ver Permisos Detallados'
-- Al expandir 'Ver Permisos Detallados', se lista los permisos específicos del usuario (ej. 'Visualizar Dashboard', 'Gestionar Cursos', 'Registrar Calificaciones')
+- ✅ La página 'Mi Perfil' muestra una sección de 'Rol y Permisos'
+- ✅ Se muestra el 'Rol Asignado' (ej. 'Profesor', 'Decano')
+- ✅ Existe un desplegable o botón 'Ver Permisos Detallados'
+- ✅ Al expandir 'Ver Permisos Detallados', se lista los permisos específicos del usuario (ej. 'Visualizar Dashboard', 'Gestionar Cursos', 'Registrar Calificaciones')
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Cambiar Contraseña Personal
+
+### 🎯 HU: Cambiar Contraseña Personal
 **Como:** Usuario del sistema
 **Quiero:** actualizar mi contraseña
 **Para:** mantener mi cuenta segura regularmente
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- La página 'Mi Perfil' muestra una sección de 'Cambiar Contraseña'
-- Existe un botón 'Actualizar Contraseña'
-- Al hacer clic en el botón, se abre un formulario modal para cambiar contraseña (campos: Contraseña Actual, Nueva Contraseña, Confirmar Nueva Contraseña)
-- El sistema valida que la 'Contraseña Actual' sea correcta
-- El sistema valida que 'Nueva Contraseña' y 'Confirmar Nueva Contraseña' coincidan y cumplan con políticas de seguridad
-- Al guardar, la contraseña se actualiza y se muestra un mensaje de éxito
+- ✅ La página 'Mi Perfil' muestra una sección de 'Cambiar Contraseña'
+- ✅ Existe un botón 'Actualizar Contraseña'
+- ✅ Al hacer clic en el botón, se abre un formulario modal para cambiar contraseña (campos: Contraseña Actual, Nueva Contraseña, Confirmar Nueva Contraseña)
+- ✅ El sistema valida que la 'Contraseña Actual' sea correcta
+- ✅ El sistema valida que 'Nueva Contraseña' y 'Confirmar Nueva Contraseña' coincidan y cumplan con políticas de seguridad
+- ✅ Al guardar, la contraseña se actualiza y se muestra un mensaje de éxito
 
-**Story Points:** 2
-**Prioridad:** Media (2)
+
+**Story Points:** 2 | **Prioridad:** Media (2)
 
 <!-- --- -->
 
@@ -5090,542 +4883,511 @@ No repetir títulos de tareas.
 **Como:** 
 **Quiero:** 
 **Para:** 
-**Story Points:** N/A
-**Prioridad:** N/A
 
----
+**Story Points:** N/A**Prioridad:** N/A
 
-### HU: Iniciar Sesión en Poliacredita
+
+### 🎯 HU: Iniciar Sesión en Poliacredita
 **Como:** Usuario del sistema SAGA EPN EUR-ACE
 **Quiero:** ingresar mis credenciales institucionales y seleccionar mi rol
 **Para:** acceder a mis funcionalidades correspondientes a mi rol
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El sistema muestra un formulario con campos para 'Correo Institucional' y 'Contraseña'
-- El sistema muestra un selector de 'Rol'
-- Al ingresar credenciales válidas y seleccionar un rol, el usuario es redirigido al Dashboard
-- Al ingresar credenciales inválidas, se muestra un mensaje de error claro
-- Existe un enlace para '¿Olvidaste tu contraseña?'
+- ✅ El sistema muestra un formulario con campos para 'Correo Institucional' y 'Contraseña'
+- ✅ El sistema muestra un selector de 'Rol'
+- ✅ Al ingresar credenciales válidas y seleccionar un rol, el usuario es redirigido al Dashboard
+- ✅ Al ingresar credenciales inválidas, se muestra un mensaje de error claro
+- ✅ Existe un enlace para '¿Olvidaste tu contraseña?'
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Visualizar Conteo de Entidades en Dashboard
+
+### 🎯 HU: Visualizar Conteo de Entidades en Dashboard
 **Como:** Administrador
 **Quiero:** ver el número total de facultades, carreras y usuarios activos
 **Para:** obtener una visión general rápida del estado de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El Dashboard muestra el 'Total Facultades' con un valor numérico
-- El Dashboard muestra el 'Total Carreras' con un valor numérico
-- El Dashboard muestra el 'Usuarios Activos' con un valor numérico
+- ✅ El Dashboard muestra el 'Total Facultades' con un valor numérico
+- ✅ El Dashboard muestra el 'Total Carreras' con un valor numérico
+- ✅ El Dashboard muestra el 'Usuarios Activos' con un valor numérico
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Visualizar Actividad Reciente en Dashboard
+
+### 🎯 HU: Visualizar Actividad Reciente en Dashboard
 **Como:** Administrador
 **Quiero:** ver un registro de las últimas acciones realizadas en el sistema
 **Para:** monitorear la actividad de la plataforma
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El Dashboard muestra una sección de 'Actividad Reciente' con columnas 'Hora', 'Usuario', 'Acción'
-- La tabla muestra un listado de acciones recientes (ej. 'Creo nueva facultad FIEC', 'Actualizó datos de carrera Ingeniería Civil')
-- Cada acción muestra la hora en formato relativo ('Hace 5 min', 'Hace 15 min')
-- Cada acción muestra el email del usuario que la realizó
-- Cada acción muestra una descripción concisa de la actividad
+- ✅ El Dashboard muestra una sección de 'Actividad Reciente' con columnas 'Hora', 'Usuario', 'Acción'
+- ✅ La tabla muestra un listado de acciones recientes (ej. 'Creo nueva facultad FIEC', 'Actualizó datos de carrera Ingeniería Civil')
+- ✅ Cada acción muestra la hora en formato relativo ('Hace 5 min', 'Hace 15 min')
+- ✅ Cada acción muestra el email del usuario que la realizó
+- ✅ Cada acción muestra una descripción concisa de la actividad
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Acceder a Acciones Rápidas desde Dashboard
+
+### 🎯 HU: Acceder a Acciones Rápidas desde Dashboard
 **Como:** Administrador
 **Quiero:** tener enlaces directos a funcionalidades de gestión importantes
 **Para:** agilizar mi navegación y ejecución de tareas comunes
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El Dashboard muestra una sección de 'Acceso Rápido'
-- Esta sección incluye un botón o enlace con icono y texto 'Gestionar Carreras'
-- Esta sección incluye un botón o enlace con icono y texto 'Gestionar Profesores'
-- Esta sección incluye un botón o enlace con icono y texto 'Ver Mi Perfil'
-- Al hacer clic en cada botón, el usuario es redirigido a la página correspondiente
+- ✅ El Dashboard muestra una sección de 'Acceso Rápido'
+- ✅ Esta sección incluye un botón o enlace con icono y texto 'Gestionar Carreras'
+- ✅ Esta sección incluye un botón o enlace con icono y texto 'Gestionar Profesores'
+- ✅ Esta sección incluye un botón o enlace con icono y texto 'Ver Mi Perfil'
+- ✅ Al hacer clic en cada botón, el usuario es redirigido a la página correspondiente
 
-**Story Points:** 1
-**Prioridad:** Media (2)
 
----
+**Story Points:** 1 | **Prioridad:** Media (2)
 
-### HU: Listar Usuarios Registrados
+
+### 🎯 HU: Listar Usuarios Registrados
 **Como:** Administrador
 **Quiero:** ver una lista de todos los usuarios registrados con su información clave
 **Para:** gestionar el acceso y los roles en el sistema
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe una página 'Gestión de Usuarios' accesible desde la navegación lateral
-- Se muestra una tabla con columnas 'Email', 'Nombre', 'Rol', 'Estado' y 'Acciones'
-- Los datos de los usuarios se cargan correctamente en la tabla
-- Se muestra el botón '+ Nuevo Usuario' en la página
+- ✅ Existe una página 'Gestión de Usuarios' accesible desde la navegación lateral
+- ✅ Se muestra una tabla con columnas 'Email', 'Nombre', 'Rol', 'Estado' y 'Acciones'
+- ✅ Los datos de los usuarios se cargan correctamente en la tabla
+- ✅ Se muestra el botón '+ Nuevo Usuario' en la página
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Registrar Nuevo Usuario
+
+### 🎯 HU: Registrar Nuevo Usuario
 **Como:** Administrador
 **Quiero:** crear un nuevo registro de usuario en el sistema
 **Para:** permitir que nuevas personas accedan a la plataforma
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Al hacer clic en '+ Nuevo Usuario', se abre un formulario modal de registro de usuario
-- El formulario incluye campos para 'Cédula', 'Nombres', 'Apellidos', 'Email', 'Teléfono'
-- El formulario incluye un selector de 'Rol' con opciones de checkbox (ej. Comité Evaluación Interna, Autoridad Académica)
-- El formulario incluye un selector de 'Facultad' con función de búsqueda
-- La Cédula y el Email son validados como únicos en el sistema
-- Al enviar datos válidos, el usuario se guarda y se muestra en el listado
+- ✅ Al hacer clic en '+ Nuevo Usuario', se abre un formulario modal de registro de usuario
+- ✅ El formulario incluye campos para 'Cédula', 'Nombres', 'Apellidos', 'Email', 'Teléfono'
+- ✅ El formulario incluye un selector de 'Rol' con opciones de checkbox (ej. Comité Evaluación Interna, Autoridad Académica)
+- ✅ El formulario incluye un selector de 'Facultad' con función de búsqueda
+- ✅ La Cédula y el Email son validados como únicos en el sistema
+- ✅ Al enviar datos válidos, el usuario se guarda y se muestra en el listado
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Editar Información de Usuario
+
+### 🎯 HU: Editar Información de Usuario
 **Como:** Administrador
 **Quiero:** modificar los datos de un usuario existente
 **Para:** corregir o actualizar su información, roles o estado
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de edición (lápiz) en la columna 'Acciones' de cada usuario en el listado
-- Al hacer clic en el icono de edición, se abre un formulario modal con los datos del usuario precargados
-- El formulario permite modificar 'Nombres', 'Apellidos', 'Email', 'Teléfono', 'Roles' y 'Facultad'
-- El sistema valida la unicidad del Email y Cédula si se modifican
-- Al guardar los cambios, la información del usuario se actualiza correctamente
+- ✅ Existe un icono de edición (lápiz) en la columna 'Acciones' de cada usuario en el listado
+- ✅ Al hacer clic en el icono de edición, se abre un formulario modal con los datos del usuario precargados
+- ✅ El formulario permite modificar 'Nombres', 'Apellidos', 'Email', 'Teléfono', 'Roles' y 'Facultad'
+- ✅ El sistema valida la unicidad del Email y Cédula si se modifican
+- ✅ Al guardar los cambios, la información del usuario se actualiza correctamente
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Buscar Usuarios por Palabra Clave
+
+### 🎯 HU: Buscar Usuarios por Palabra Clave
 **Como:** Administrador
 **Quiero:** encontrar usuarios específicos rápidamente por email, nombre o cédula
 **Para:** agilizar la gestión de usuarios
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un campo de búsqueda ('Buscar usuario...') en la página de listado de Usuarios
-- Al escribir texto, la tabla se filtra y muestra solo los usuarios que coinciden con el email, nombre o cédula
-- La búsqueda debe ser insensible a mayúsculas y minúsculas
-- Al borrar el texto de búsqueda, se muestra el listado completo de usuarios
+- ✅ Existe un campo de búsqueda ('Buscar usuario...') en la página de listado de Usuarios
+- ✅ Al escribir texto, la tabla se filtra y muestra solo los usuarios que coinciden con el email, nombre o cédula
+- ✅ La búsqueda debe ser insensible a mayúsculas y minúsculas
+- ✅ Al borrar el texto de búsqueda, se muestra el listado completo de usuarios
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Filtrar Usuarios por Rol
+
+### 🎯 HU: Filtrar Usuarios por Rol
 **Como:** Administrador
 **Quiero:** ver usuarios que tienen uno o más roles específicos
 **Para:** organizar la visualización y gestionar permisos por rol
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector de filtro ('Todos los Roles') en la página de listado de Usuarios
-- Al seleccionar uno o varios roles, la tabla se actualiza mostrando solo los usuarios con esos roles
-- La opción 'Todos los Roles' muestra todos los usuarios
+- ✅ Existe un selector de filtro ('Todos los Roles') en la página de listado de Usuarios
+- ✅ Al seleccionar uno o varios roles, la tabla se actualiza mostrando solo los usuarios con esos roles
+- ✅ La opción 'Todos los Roles' muestra todos los usuarios
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Filtrar Usuarios por Estado
+
+### 🎯 HU: Filtrar Usuarios por Estado
 **Como:** Administrador
 **Quiero:** ver usuarios que tienen un estado específico (Activo/Inactivo)
 **Para:** gestionar el acceso y habilitación/deshabilitación de cuentas
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector de filtro ('Todos los Estados') en la página de listado de Usuarios
-- Al seleccionar un estado, la tabla se actualiza mostrando solo los usuarios con ese estado
-- La opción 'Todos los Estados' muestra todos los usuarios
+- ✅ Existe un selector de filtro ('Todos los Estados') en la página de listado de Usuarios
+- ✅ Al seleccionar un estado, la tabla se actualiza mostrando solo los usuarios con ese estado
+- ✅ La opción 'Todos los Estados' muestra todos los usuarios
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Paginar Listado de Usuarios
+
+### 🎯 HU: Paginar Listado de Usuarios
 **Como:** Administrador
 **Quiero:** navegar por el listado de usuarios en bloques manejables
 **Para:** gestionar grandes volúmenes de usuarios eficientemente
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Usuarios
-- El componente permite ir a la página siguiente
-- El componente permite ir a la página anterior
-- El componente permite ir directamente a una página específica
-- Al cambiar de página, la tabla de usuarios se actualiza con los datos correspondientes
+- ✅ Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Usuarios
+- ✅ El componente permite ir a la página siguiente
+- ✅ El componente permite ir a la página anterior
+- ✅ El componente permite ir directamente a una página específica
+- ✅ Al cambiar de página, la tabla de usuarios se actualiza con los datos correspondientes
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Cambiar Estado de Usuario (Activar/Desactivar)
+
+### 🎯 HU: Cambiar Estado de Usuario (Activar/Desactivar)
 **Como:** Administrador
 **Quiero:** habilitar o deshabilitar el acceso de un usuario
 **Para:** controlar quién puede usar el sistema
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un botón 'Desactivar' o 'Activar' en la columna 'Acciones' de cada usuario, según el estado actual
-- Al hacer clic en el botón, el estado del usuario cambia (Activo a Inactivo, o viceversa)
-- El estado visual en la tabla se actualiza inmediatamente (ej. texto 'Activo'/'Inactivo' y botón)
-- Se muestra una confirmación o mensaje de éxito/error al usuario
+- ✅ Existe un botón 'Desactivar' o 'Activar' en la columna 'Acciones' de cada usuario, según el estado actual
+- ✅ Al hacer clic en el botón, el estado del usuario cambia (Activo a Inactivo, o viceversa)
+- ✅ El estado visual en la tabla se actualiza inmediatamente (ej. texto 'Activo'/'Inactivo' y botón)
+- ✅ Se muestra una confirmación o mensaje de éxito/error al usuario
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Listar Facultades Registradas
+
+### 🎯 HU: Listar Facultades Registradas
 **Como:** Administrador del sistema
 **Quiero:** ver todas las facultades con su información principal
 **Para:** gestionar la estructura académica de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe una página dedicada a 'Gestión de Facultades' accesible desde la navegación lateral
-- Se muestra una tabla con columnas 'Código', 'Nombre', 'Carreras', 'Decano' y 'Acciones'
-- Los datos de las facultades se cargan correctamente en la tabla
-- Se muestra el botón '+ Nueva Facultad' en la página
+- ✅ Existe una página dedicada a 'Gestión de Facultades' accesible desde la navegación lateral
+- ✅ Se muestra una tabla con columnas 'Código', 'Nombre', 'Carreras', 'Decano' y 'Acciones'
+- ✅ Los datos de las facultades se cargan correctamente en la tabla
+- ✅ Se muestra el botón '+ Nueva Facultad' en la página
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Buscar Facultades por Código o Nombre
+
+### 🎯 HU: Buscar Facultades por Código o Nombre
 **Como:** Administrador del sistema
 **Quiero:** encontrar facultades específicas rápidamente
 **Para:** agilizar la gestión de facultades
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un campo de búsqueda ('Buscar por código o nombre...') en la página de listado de Facultades
-- Al escribir texto, la tabla se filtra y muestra solo las facultades que coinciden con el código o nombre
-- La búsqueda debe ser insensible a mayúsculas y minúsculas
-- Al borrar el texto de búsqueda, se muestra el listado completo de facultades
+- ✅ Existe un campo de búsqueda ('Buscar por código o nombre...') en la página de listado de Facultades
+- ✅ Al escribir texto, la tabla se filtra y muestra solo las facultades que coinciden con el código o nombre
+- ✅ La búsqueda debe ser insensible a mayúsculas y minúsculas
+- ✅ Al borrar el texto de búsqueda, se muestra el listado completo de facultades
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Filtrar Facultades por Carreras
+
+### 🎯 HU: Filtrar Facultades por Carreras
 **Como:** Administrador del sistema
 **Quiero:** filtrar el listado de facultades
 **Para:** organizar la visualización por la cantidad de carreras que gestionan
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector de filtro ('Filtrar por Carreras') en la página de listado de Facultades
-- Al seleccionar una opción del filtro (ej. 'Con más de 5 carreras'), la tabla de facultades se actualiza mostrando solo las que cumplen el criterio
-- La opción 'Todas las Carreras' muestra todas las facultades
+- ✅ Existe un selector de filtro ('Filtrar por Carreras') en la página de listado de Facultades
+- ✅ Al seleccionar una opción del filtro (ej. 'Con más de 5 carreras'), la tabla de facultades se actualiza mostrando solo las que cumplen el criterio
+- ✅ La opción 'Todas las Carreras' muestra todas las facultades
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Paginar Listado de Facultades
+
+### 🎯 HU: Paginar Listado de Facultades
 **Como:** Administrador del sistema
 **Quiero:** navegar por el listado de facultades en bloques manejables
 **Para:** gestionar grandes volúmenes de información eficientemente
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Facultades
-- El componente permite ir a la página siguiente
-- El componente permite ir a la página anterior
-- El componente permite ir directamente a una página específica
-- Al cambiar de página, la tabla de facultades se actualiza con los datos correspondientes
+- ✅ Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Facultades
+- ✅ El componente permite ir a la página siguiente
+- ✅ El componente permite ir a la página anterior
+- ✅ El componente permite ir directamente a una página específica
+- ✅ Al cambiar de página, la tabla de facultades se actualiza con los datos correspondientes
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Registrar Nueva Facultad
+
+### 🎯 HU: Registrar Nueva Facultad
 **Como:** Administrador del sistema
 **Quiero:** agregar una nueva facultad al sistema
 **Para:** mantener actualizada la estructura organizativa de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Al hacer clic en '+ Nueva Facultad', se abre un formulario modal de registro de Facultad
-- El formulario incluye campos para 'Código', 'Nombre', 'Descripción' y un selector de 'Decano'
-- El selector de 'Decano' permite buscar y seleccionar un usuario existente
-- Al enviar datos válidos, la facultad se guarda y se muestra en el listado
-- Al enviar datos inválidos (ej. código o nombre duplicado), se muestra un mensaje de error claro
+- ✅ Al hacer clic en '+ Nueva Facultad', se abre un formulario modal de registro de Facultad
+- ✅ El formulario incluye campos para 'Código', 'Nombre', 'Descripción' y un selector de 'Decano'
+- ✅ El selector de 'Decano' permite buscar y seleccionar un usuario existente
+- ✅ Al enviar datos válidos, la facultad se guarda y se muestra en el listado
+- ✅ Al enviar datos inválidos (ej. código o nombre duplicado), se muestra un mensaje de error claro
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Editar Información de Facultad
+
+### 🎯 HU: Editar Información de Facultad
 **Como:** Administrador del sistema
 **Quiero:** modificar los datos de una facultad existente
 **Para:** corregir o actualizar su información
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de edición (lápiz) en la columna 'Acciones' de cada facultad en el listado
-- Al hacer clic en el icono de edición, se abre un formulario modal con los datos de la facultad precargados
-- Al guardar los cambios, la información de la facultad se actualiza correctamente
-- El sistema valida la unicidad del código y nombre de la facultad si se modifican
+- ✅ Existe un icono de edición (lápiz) en la columna 'Acciones' de cada facultad en el listado
+- ✅ Al hacer clic en el icono de edición, se abre un formulario modal con los datos de la facultad precargados
+- ✅ Al guardar los cambios, la información de la facultad se actualiza correctamente
+- ✅ El sistema valida la unicidad del código y nombre de la facultad si se modifican
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Eliminar Facultad del Sistema
+
+### 🎯 HU: Eliminar Facultad del Sistema
 **Como:** Administrador del sistema
 **Quiero:** remover una facultad del sistema
 **Para:** depurar información obsoleta o incorrecta
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de eliminación (papelera) en la columna 'Acciones' de cada facultad en el listado
-- Al hacer clic en el icono de eliminación, se muestra una confirmación al usuario
-- Si la facultad no tiene carreras asociadas, se elimina del sistema
-- Si la facultad tiene carreras asociadas, el sistema advierte e impide la eliminación
+- ✅ Existe un icono de eliminación (papelera) en la columna 'Acciones' de cada facultad en el listado
+- ✅ Al hacer clic en el icono de eliminación, se muestra una confirmación al usuario
+- ✅ Si la facultad no tiene carreras asociadas, se elimina del sistema
+- ✅ Si la facultad tiene carreras asociadas, el sistema advierte e impide la eliminación
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Listar Carreras Registradas
+
+### 🎯 HU: Listar Carreras Registradas
 **Como:** Administrador del sistema
 **Quiero:** ver todas las carreras con su información principal
 **Para:** gestionar la oferta académica de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe una página dedicada a 'Gestión de Carreras' accesible desde la navegación lateral
-- Se muestra una tabla con columnas 'Código', 'Nombre', 'Facultad', 'Coordinador' y 'Acciones'
-- Los datos de las carreras se cargan correctamente en la tabla
-- Se muestra el botón '+ Nueva Carrera' en la página
+- ✅ Existe una página dedicada a 'Gestión de Carreras' accesible desde la navegación lateral
+- ✅ Se muestra una tabla con columnas 'Código', 'Nombre', 'Facultad', 'Coordinador' y 'Acciones'
+- ✅ Los datos de las carreras se cargan correctamente en la tabla
+- ✅ Se muestra el botón '+ Nueva Carrera' en la página
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Buscar Carreras por Palabra Clave
+
+### 🎯 HU: Buscar Carreras por Palabra Clave
 **Como:** Administrador del sistema
 **Quiero:** encontrar carreras específicas rápidamente por código o nombre
 **Para:** agilizar la gestión de carreras
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un campo de búsqueda ('Buscar carrera...') en la página de listado de Carreras
-- Al escribir texto, la tabla se filtra y muestra solo las carreras que coinciden con el código o nombre
-- La búsqueda debe ser insensible a mayúsculas y minúsculas
-- Al borrar el texto de búsqueda, se muestra el listado completo de carreras
+- ✅ Existe un campo de búsqueda ('Buscar carrera...') en la página de listado de Carreras
+- ✅ Al escribir texto, la tabla se filtra y muestra solo las carreras que coinciden con el código o nombre
+- ✅ La búsqueda debe ser insensible a mayúsculas y minúsculas
+- ✅ Al borrar el texto de búsqueda, se muestra el listado completo de carreras
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Filtrar Carreras por Facultad
+
+### 🎯 HU: Filtrar Carreras por Facultad
 **Como:** Administrador del sistema
 **Quiero:** ver carreras que pertenecen a una facultad específica
 **Para:** organizar la visualización de la oferta académica
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector de filtro ('Todas las Facultades') en la página de listado de Carreras
-- Al seleccionar una facultad, la tabla se actualiza mostrando solo las carreras de esa facultad
-- La opción 'Todas las Facultades' muestra todas las carreras
+- ✅ Existe un selector de filtro ('Todas las Facultades') en la página de listado de Carreras
+- ✅ Al seleccionar una facultad, la tabla se actualiza mostrando solo las carreras de esa facultad
+- ✅ La opción 'Todas las Facultades' muestra todas las carreras
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Filtrar Carreras por Estado
+
+### 🎯 HU: Filtrar Carreras por Estado
 **Como:** Administrador del sistema
 **Quiero:** ver carreras que tienen un estado específico
 **Para:** organizar la visualización por estado de la carrera (ej. activa, inactiva, en revisión)
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector de filtro ('Todos los Estados') en la página de listado de Carreras
-- Al seleccionar un estado, la tabla se actualiza mostrando solo las carreras con ese estado
-- La opción 'Todos los Estados' muestra todas las carreras
+- ✅ Existe un selector de filtro ('Todos los Estados') en la página de listado de Carreras
+- ✅ Al seleccionar un estado, la tabla se actualiza mostrando solo las carreras con ese estado
+- ✅ La opción 'Todos los Estados' muestra todas las carreras
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Paginar Listado de Carreras
+
+### 🎯 HU: Paginar Listado de Carreras
 **Como:** Administrador del sistema
 **Quiero:** navegar por el listado de carreras en bloques manejables
 **Para:** gestionar grandes volúmenes de información eficientemente
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Carreras
-- El componente permite ir a la página siguiente
-- El componente permite ir a la página anterior
-- El componente permite ir directamente a una página específica
-- Al cambiar de página, la tabla de carreras se actualiza con los datos correspondientes
+- ✅ Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Carreras
+- ✅ El componente permite ir a la página siguiente
+- ✅ El componente permite ir a la página anterior
+- ✅ El componente permite ir directamente a una página específica
+- ✅ Al cambiar de página, la tabla de carreras se actualiza con los datos correspondientes
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Registrar Nueva Carrera
+
+### 🎯 HU: Registrar Nueva Carrera
 **Como:** Administrador
 **Quiero:** ingresar la información de una nueva carrera
 **Para:** agregar una oferta académica
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Al hacer clic en '+ Nueva Carrera', se abre un formulario de registro de carrera
-- El formulario incluye campos para 'Código', 'Nombre', 'Modalidad', 'Duración en años'
-- Existe un selector para asociar la carrera a una 'Facultad' existente
-- Existe un selector para asignar un 'Coordinador' de una lista de usuarios existentes
-- El Código de la carrera es validado como único
-- Al guardar, la carrera queda registrada exitosamente y se muestra en el listado
+- ✅ Al hacer clic en '+ Nueva Carrera', se abre un formulario de registro de carrera
+- ✅ El formulario incluye campos para 'Código', 'Nombre', 'Modalidad', 'Duración en años'
+- ✅ Existe un selector para asociar la carrera a una 'Facultad' existente
+- ✅ Existe un selector para asignar un 'Coordinador' de una lista de usuarios existentes
+- ✅ El Código de la carrera es validado como único
+- ✅ Al guardar, la carrera queda registrada exitosamente y se muestra en el listado
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Editar Información de Carrera
+
+### 🎯 HU: Editar Información de Carrera
 **Como:** Administrador del sistema
 **Quiero:** modificar los datos de una carrera existente
 **Para:** corregir o actualizar su información
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de edición (lápiz) en la columna 'Acciones' de cada carrera en el listado
-- Al hacer clic en el icono de edición, se abre un formulario modal con los datos de la carrera precargados
-- Al guardar los cambios, la información de la carrera se actualiza correctamente
-- El sistema valida la unicidad del código de la carrera si se modifica
+- ✅ Existe un icono de edición (lápiz) en la columna 'Acciones' de cada carrera en el listado
+- ✅ Al hacer clic en el icono de edición, se abre un formulario modal con los datos de la carrera precargados
+- ✅ Al guardar los cambios, la información de la carrera se actualiza correctamente
+- ✅ El sistema valida la unicidad del código de la carrera si se modifica
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Eliminar Carrera del Sistema
+
+### 🎯 HU: Eliminar Carrera del Sistema
 **Como:** Administrador del sistema
 **Quiero:** remover una carrera del sistema
 **Para:** depurar información obsoleta o incorrecta
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de eliminación (papelera) en la columna 'Acciones' de cada carrera en el listado
-- Al hacer clic en el icono de eliminación, se muestra una confirmación al usuario
-- Si la carrera no tiene materias o profesores asociados, se elimina del sistema
-- Si la carrera tiene dependencias, el sistema advierte e impide la eliminación
+- ✅ Existe un icono de eliminación (papelera) en la columna 'Acciones' de cada carrera en el listado
+- ✅ Al hacer clic en el icono de eliminación, se muestra una confirmación al usuario
+- ✅ Si la carrera no tiene materias o profesores asociados, se elimina del sistema
+- ✅ Si la carrera tiene dependencias, el sistema advierte e impide la eliminación
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Visualizar Permisos por Rol
+
+### 🎯 HU: Visualizar Permisos por Rol
 **Como:** Administrador
 **Quiero:** ver los permisos asociados a cada rol definido en el sistema
 **Para:** entender las capacidades de cada tipo de usuario y revisar la configuración de seguridad
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe una página 'Gestión de Roles' accesible desde la navegación lateral
-- La página muestra tarjetas para cada rol (ej. 'Administrador', 'CEI', 'Autoridad de facultad', 'Coordinador de Carrera', 'Profesor')
-- Cada tarjeta de rol muestra un listado de permisos asociados (ej. 'Ver facultades', 'Crear facultades', 'Eliminar facultades', 'Ver usuarios')
-- Los permisos se presentan como checkboxes, mostrando si están habilitados para ese rol
+- ✅ Existe una página 'Gestión de Roles' accesible desde la navegación lateral
+- ✅ La página muestra tarjetas para cada rol (ej. 'Administrador', 'CEI', 'Autoridad de facultad', 'Coordinador de Carrera', 'Profesor')
+- ✅ Cada tarjeta de rol muestra un listado de permisos asociados (ej. 'Ver facultades', 'Crear facultades', 'Eliminar facultades', 'Ver usuarios')
+- ✅ Los permisos se presentan como checkboxes, mostrando si están habilitados para ese rol
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Visualizar Perfil Personal
+
+### 🎯 HU: Visualizar Perfil Personal
 **Como:** Usuario del sistema
 **Quiero:** ver mi información personal y de contacto registrada
 **Para:** confirmar mis datos en la plataforma y tenerlos a mano
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe una página 'Mi Perfil' accesible desde la navegación lateral
-- La página muestra una sección de 'Información Personal' con campos (Nombre Completo, Correo Institucional, Facultad, Teléfono, Fecha de Registro)
-- Todos los campos de información personal muestran los datos del usuario logueado
+- ✅ Existe una página 'Mi Perfil' accesible desde la navegación lateral
+- ✅ La página muestra una sección de 'Información Personal' con campos (Nombre Completo, Correo Institucional, Facultad, Teléfono, Fecha de Registro)
+- ✅ Todos los campos de información personal muestran los datos del usuario logueado
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Visualizar Roles y Permisos Detallados de Perfil
+
+### 🎯 HU: Visualizar Roles y Permisos Detallados de Perfil
 **Como:** Usuario del sistema
 **Quiero:** ver los roles que tengo asignados y los permisos detallados de los mismos
 **Para:** comprender mis capacidades y accesos dentro del sistema
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- La página 'Mi Perfil' muestra una sección de 'Rol y Permisos'
-- Se muestra el 'Rol Asignado' (ej. 'Profesor', 'Decano')
-- Existe un desplegable o botón 'Ver Permisos Detallados'
-- Al expandir 'Ver Permisos Detallados', se lista los permisos específicos del usuario (ej. 'Visualizar Dashboard', 'Gestionar Cursos', 'Registrar Calificaciones')
+- ✅ La página 'Mi Perfil' muestra una sección de 'Rol y Permisos'
+- ✅ Se muestra el 'Rol Asignado' (ej. 'Profesor', 'Decano')
+- ✅ Existe un desplegable o botón 'Ver Permisos Detallados'
+- ✅ Al expandir 'Ver Permisos Detallados', se lista los permisos específicos del usuario (ej. 'Visualizar Dashboard', 'Gestionar Cursos', 'Registrar Calificaciones')
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Cambiar Contraseña Personal
+
+### 🎯 HU: Cambiar Contraseña Personal
 **Como:** Usuario del sistema
 **Quiero:** actualizar mi contraseña
 **Para:** mantener mi cuenta segura regularmente
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- La página 'Mi Perfil' muestra una sección de 'Cambiar Contraseña'
-- Existe un botón 'Actualizar Contraseña'
-- Al hacer clic en el botón, se abre un formulario modal para cambiar contraseña (campos: Contraseña Actual, Nueva Contraseña, Confirmar Nueva Contraseña)
-- El sistema valida que la 'Contraseña Actual' sea correcta
-- El sistema valida que 'Nueva Contraseña' y 'Confirmar Nueva Contraseña' coincidan y cumplan con políticas de seguridad
-- Al guardar, la contraseña se actualiza y se muestra un mensaje de éxito
+- ✅ La página 'Mi Perfil' muestra una sección de 'Cambiar Contraseña'
+- ✅ Existe un botón 'Actualizar Contraseña'
+- ✅ Al hacer clic en el botón, se abre un formulario modal para cambiar contraseña (campos: Contraseña Actual, Nueva Contraseña, Confirmar Nueva Contraseña)
+- ✅ El sistema valida que la 'Contraseña Actual' sea correcta
+- ✅ El sistema valida que 'Nueva Contraseña' y 'Confirmar Nueva Contraseña' coincidan y cumplan con políticas de seguridad
+- ✅ Al guardar, la contraseña se actualiza y se muestra un mensaje de éxito
 
-**Story Points:** 2
-**Prioridad:** Media (2)
+
+**Story Points:** 2 | **Prioridad:** Media (2)
 
 <!-- --- -->
 
@@ -5701,542 +5463,511 @@ No repetir títulos de tareas.
 **Como:** 
 **Quiero:** 
 **Para:** 
-**Story Points:** N/A
-**Prioridad:** N/A
 
----
+**Story Points:** N/A**Prioridad:** N/A
 
-### HU: Iniciar Sesión en Poliacredita
+
+### 🎯 HU: Iniciar Sesión en Poliacredita
 **Como:** Usuario del sistema SAGA EPN EUR-ACE
 **Quiero:** ingresar mis credenciales institucionales y seleccionar mi rol
 **Para:** acceder a mis funcionalidades correspondientes a mi rol
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El sistema muestra un formulario con campos para 'Correo Institucional' y 'Contraseña'
-- El sistema muestra un selector de 'Rol' con opciones
-- Al ingresar credenciales válidas y seleccionar un rol, el usuario es redirigido al Dashboard
-- Al ingresar credenciales inválidas, se muestra un mensaje de error claro
-- Existe un enlace para '¿Olvidaste tu contraseña?'
+- ✅ El sistema muestra un formulario con campos para 'Correo Institucional' y 'Contraseña'
+- ✅ El sistema muestra un selector de 'Rol' con opciones
+- ✅ Al ingresar credenciales válidas y seleccionar un rol, el usuario es redirigido al Dashboard
+- ✅ Al ingresar credenciales inválidas, se muestra un mensaje de error claro
+- ✅ Existe un enlace para '¿Olvidaste tu contraseña?'
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Visualizar Conteo de Entidades en Dashboard
+
+### 🎯 HU: Visualizar Conteo de Entidades en Dashboard
 **Como:** Administrador
 **Quiero:** ver el número total de facultades, carreras y usuarios activos
 **Para:** obtener una visión general rápida del estado de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El Dashboard muestra el 'Total Facultades' con un valor numérico
-- El Dashboard muestra el 'Total Carreras' con un valor numérico
-- El Dashboard muestra el 'Usuarios Activos' con un valor numérico
+- ✅ El Dashboard muestra el 'Total Facultades' con un valor numérico
+- ✅ El Dashboard muestra el 'Total Carreras' con un valor numérico
+- ✅ El Dashboard muestra el 'Usuarios Activos' con un valor numérico
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Visualizar Actividad Reciente en Dashboard
+
+### 🎯 HU: Visualizar Actividad Reciente en Dashboard
 **Como:** Administrador
 **Quiero:** ver un registro de las últimas acciones realizadas en el sistema
 **Para:** monitorear la actividad de la plataforma
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El Dashboard muestra una sección de 'Actividad Reciente' con columnas 'Hora', 'Usuario', 'Acción'
-- La tabla muestra un listado de acciones recientes (ej. 'Creo nueva facultad FIEC', 'Actualizó datos de carrera Ingeniería Civil')
-- Cada acción muestra la hora en formato relativo ('Hace 5 min', 'Hace 15 min')
-- Cada acción muestra el email del usuario que la realizó
-- Cada acción muestra una descripción concisa de la actividad
+- ✅ El Dashboard muestra una sección de 'Actividad Reciente' con columnas 'Hora', 'Usuario', 'Acción'
+- ✅ La tabla muestra un listado de acciones recientes (ej. 'Creo nueva facultad FIEC', 'Actualizó datos de carrera Ingeniería Civil')
+- ✅ Cada acción muestra la hora en formato relativo ('Hace 5 min', 'Hace 15 min')
+- ✅ Cada acción muestra el email del usuario que la realizó
+- ✅ Cada acción muestra una descripción concisa de la actividad
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Acceder a Acciones Rápidas desde Dashboard
+
+### 🎯 HU: Acceder a Acciones Rápidas desde Dashboard
 **Como:** Administrador
 **Quiero:** tener enlaces directos a funcionalidades de gestión importantes
 **Para:** agilizar mi navegación y ejecución de tareas comunes
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El Dashboard muestra una sección de 'Acceso Rápido'
-- Esta sección incluye un botón o enlace con icono y texto 'Gestionar Carreras'
-- Esta sección incluye un botón o enlace con icono y texto 'Gestionar Profesores'
-- Esta sección incluye un botón o enlace con icono y texto 'Ver Mi Perfil'
-- Al hacer clic en cada botón, el usuario es redirigido a la página correspondiente
+- ✅ El Dashboard muestra una sección de 'Acceso Rápido'
+- ✅ Esta sección incluye un botón o enlace con icono y texto 'Gestionar Carreras'
+- ✅ Esta sección incluye un botón o enlace con icono y texto 'Gestionar Profesores'
+- ✅ Esta sección incluye un botón o enlace con icono y texto 'Ver Mi Perfil'
+- ✅ Al hacer clic en cada botón, el usuario es redirigido a la página correspondiente
 
-**Story Points:** 1
-**Prioridad:** Media (2)
 
----
+**Story Points:** 1 | **Prioridad:** Media (2)
 
-### HU: Listar Usuarios Registrados
+
+### 🎯 HU: Listar Usuarios Registrados
 **Como:** Administrador
 **Quiero:** ver una lista de todos los usuarios registrados con su información clave
 **Para:** gestionar el acceso y los roles en el sistema
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe una página 'Gestión de Usuarios' accesible desde la navegación lateral
-- Se muestra una tabla con columnas 'Email', 'Nombre', 'Rol', 'Estado' y 'Acciones'
-- Los datos de los usuarios se cargan correctamente en la tabla
-- Se muestra el botón '+ Nuevo Usuario' en la página
+- ✅ Existe una página 'Gestión de Usuarios' accesible desde la navegación lateral
+- ✅ Se muestra una tabla con columnas 'Email', 'Nombre', 'Rol', 'Estado' y 'Acciones'
+- ✅ Los datos de los usuarios se cargan correctamente en la tabla
+- ✅ Se muestra el botón '+ Nuevo Usuario' en la página
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Registrar Nuevo Usuario
+
+### 🎯 HU: Registrar Nuevo Usuario
 **Como:** Administrador
 **Quiero:** crear un nuevo registro de usuario en el sistema
 **Para:** permitir que nuevas personas accedan a la plataforma
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Al hacer clic en '+ Nuevo Usuario', se abre un formulario modal de registro de usuario
-- El formulario incluye campos para 'Cédula', 'Nombres', 'Apellidos', 'Email', 'Teléfono'
-- El formulario incluye un selector de 'Rol' con opciones de checkbox (ej. Comité Evaluación Interna, Autoridad Académica, Coordinador de Carrera, Profesor)
-- El formulario incluye un selector de 'Facultad' con función de búsqueda
-- La Cédula y el Email son validados como únicos en el sistema
-- Al enviar datos válidos, el usuario se guarda y se muestra en el listado
+- ✅ Al hacer clic en '+ Nuevo Usuario', se abre un formulario modal de registro de usuario
+- ✅ El formulario incluye campos para 'Cédula', 'Nombres', 'Apellidos', 'Email', 'Teléfono'
+- ✅ El formulario incluye un selector de 'Rol' con opciones de checkbox (ej. Comité Evaluación Interna, Autoridad Académica, Coordinador de Carrera, Profesor)
+- ✅ El formulario incluye un selector de 'Facultad' con función de búsqueda
+- ✅ La Cédula y el Email son validados como únicos en el sistema
+- ✅ Al enviar datos válidos, el usuario se guarda y se muestra en el listado
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Editar Información de Usuario
+
+### 🎯 HU: Editar Información de Usuario
 **Como:** Administrador
 **Quiero:** modificar los datos de un usuario existente
 **Para:** corregir o actualizar su información, roles o estado
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de edición (lápiz) en la columna 'Acciones' de cada usuario en el listado
-- Al hacer clic en el icono de edición, se abre un formulario modal con los datos del usuario precargados
-- El formulario permite modificar 'Nombres', 'Apellidos', 'Email', 'Teléfono', 'Roles' y 'Facultad'
-- El sistema valida la unicidad del Email y Cédula si se modifican
-- Al guardar los cambios, la información del usuario se actualiza correctamente
+- ✅ Existe un icono de edición (lápiz) en la columna 'Acciones' de cada usuario en el listado
+- ✅ Al hacer clic en el icono de edición, se abre un formulario modal con los datos del usuario precargados
+- ✅ El formulario permite modificar 'Nombres', 'Apellidos', 'Email', 'Teléfono', 'Roles' y 'Facultad'
+- ✅ El sistema valida la unicidad del Email y Cédula si se modifican
+- ✅ Al guardar los cambios, la información del usuario se actualiza correctamente
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Buscar Usuarios por Palabra Clave
+
+### 🎯 HU: Buscar Usuarios por Palabra Clave
 **Como:** Administrador
 **Quiero:** encontrar usuarios específicos rápidamente por email, nombre o cédula
 **Para:** agilizar la gestión de usuarios
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un campo de búsqueda ('Buscar usuario...') en la página de listado de Usuarios
-- Al escribir texto, la tabla se filtra y muestra solo los usuarios que coinciden con el email, nombre o cédula
-- La búsqueda debe ser insensible a mayúsculas y minúsculas
-- Al borrar el texto de búsqueda, se muestra el listado completo de usuarios
+- ✅ Existe un campo de búsqueda ('Buscar usuario...') en la página de listado de Usuarios
+- ✅ Al escribir texto, la tabla se filtra y muestra solo los usuarios que coinciden con el email, nombre o cédula
+- ✅ La búsqueda debe ser insensible a mayúsculas y minúsculas
+- ✅ Al borrar el texto de búsqueda, se muestra el listado completo de usuarios
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Filtrar Usuarios por Rol
+
+### 🎯 HU: Filtrar Usuarios por Rol
 **Como:** Administrador
 **Quiero:** ver usuarios que tienen uno o más roles específicos
 **Para:** organizar la visualización y gestionar permisos por rol
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector de filtro ('Todos los Roles') en la página de listado de Usuarios
-- Al seleccionar uno o varios roles, la tabla se actualiza mostrando solo los usuarios con esos roles
-- La opción 'Todos los Roles' muestra todos los usuarios
+- ✅ Existe un selector de filtro ('Todos los Roles') en la página de listado de Usuarios
+- ✅ Al seleccionar uno o varios roles, la tabla se actualiza mostrando solo los usuarios con esos roles
+- ✅ La opción 'Todos los Roles' muestra todos los usuarios
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Filtrar Usuarios por Estado
+
+### 🎯 HU: Filtrar Usuarios por Estado
 **Como:** Administrador
 **Quiero:** ver usuarios que tienen un estado específico (Activo/Inactivo)
 **Para:** gestionar el acceso y habilitación/deshabilitación de cuentas
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector de filtro ('Todos los Estados') en la página de listado de Usuarios
-- Al seleccionar un estado, la tabla se actualiza mostrando solo los usuarios con ese estado
-- La opción 'Todos los Estados' muestra todos los usuarios
+- ✅ Existe un selector de filtro ('Todos los Estados') en la página de listado de Usuarios
+- ✅ Al seleccionar un estado, la tabla se actualiza mostrando solo los usuarios con ese estado
+- ✅ La opción 'Todos los Estados' muestra todos los usuarios
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Paginar Listado de Usuarios
+
+### 🎯 HU: Paginar Listado de Usuarios
 **Como:** Administrador
 **Quiero:** navegar por el listado de usuarios en bloques manejables
 **Para:** gestionar grandes volúmenes de usuarios eficientemente
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Usuarios
-- El componente permite ir a la página siguiente
-- El componente permite ir a la página anterior
-- El componente permite ir directamente a una página específica
-- Al cambiar de página, la tabla de usuarios se actualiza con los datos correspondientes
+- ✅ Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Usuarios
+- ✅ El componente permite ir a la página siguiente
+- ✅ El componente permite ir a la página anterior
+- ✅ El componente permite ir directamente a una página específica
+- ✅ Al cambiar de página, la tabla de usuarios se actualiza con los datos correspondientes
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Cambiar Estado de Usuario (Activar/Desactivar)
+
+### 🎯 HU: Cambiar Estado de Usuario (Activar/Desactivar)
 **Como:** Administrador
 **Quiero:** habilitar o deshabilitar el acceso de un usuario
 **Para:** controlar quién puede usar el sistema
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un botón 'Desactivar' o 'Activar' en la columna 'Acciones' de cada usuario, según el estado actual
-- Al hacer clic en el botón, el estado del usuario cambia (Activo a Inactivo, o viceversa)
-- El estado visual en la tabla se actualiza inmediatamente (ej. texto 'Activo'/'Inactivo' y botón)
-- Se muestra una confirmación o mensaje de éxito/error al usuario
+- ✅ Existe un botón 'Desactivar' o 'Activar' en la columna 'Acciones' de cada usuario, según el estado actual
+- ✅ Al hacer clic en el botón, el estado del usuario cambia (Activo a Inactivo, o viceversa)
+- ✅ El estado visual en la tabla se actualiza inmediatamente (ej. texto 'Activo'/'Inactivo' y botón)
+- ✅ Se muestra una confirmación o mensaje de éxito/error al usuario
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Listar Facultades Registradas
+
+### 🎯 HU: Listar Facultades Registradas
 **Como:** Administrador del sistema
 **Quiero:** ver todas las facultades con su información principal
 **Para:** gestionar la estructura académica de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe una página dedicada a 'Gestión de Facultades' accesible desde la navegación lateral
-- Se muestra una tabla con columnas 'Código', 'Nombre', 'Carreras', 'Decano' y 'Acciones'
-- Los datos de las facultades se cargan correctamente en la tabla
-- Se muestra el botón '+ Nueva Facultad' en la página
+- ✅ Existe una página dedicada a 'Gestión de Facultades' accesible desde la navegación lateral
+- ✅ Se muestra una tabla con columnas 'Código', 'Nombre', 'Carreras', 'Decano' y 'Acciones'
+- ✅ Los datos de las facultades se cargan correctamente en la tabla
+- ✅ Se muestra el botón '+ Nueva Facultad' en la página
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Buscar Facultades por Código o Nombre
+
+### 🎯 HU: Buscar Facultades por Código o Nombre
 **Como:** Administrador del sistema
 **Quiero:** encontrar facultades específicas rápidamente
 **Para:** agilizar la gestión de facultades
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un campo de búsqueda ('Buscar por código o nombre...') en la página de listado de Facultades
-- Al escribir texto, la tabla se filtra y muestra solo las facultades que coinciden con el código o nombre
-- La búsqueda debe ser insensible a mayúsculas y minúsculas
-- Al borrar el texto de búsqueda, se muestra el listado completo de facultades
+- ✅ Existe un campo de búsqueda ('Buscar por código o nombre...') en la página de listado de Facultades
+- ✅ Al escribir texto, la tabla se filtra y muestra solo las facultades que coinciden con el código o nombre
+- ✅ La búsqueda debe ser insensible a mayúsculas y minúsculas
+- ✅ Al borrar el texto de búsqueda, se muestra el listado completo de facultades
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Filtrar Facultades por Carreras
+
+### 🎯 HU: Filtrar Facultades por Carreras
 **Como:** Administrador del sistema
 **Quiero:** filtrar el listado de facultades
 **Para:** organizar la visualización por la cantidad de carreras que gestionan
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector de filtro ('Filtrar por Carreras') en la página de listado de Facultades
-- Al seleccionar una opción del filtro (ej. 'Con más de 5 carreras'), la tabla de facultades se actualiza mostrando solo las que cumplen el criterio
-- La opción 'Todas las Carreras' muestra todas las facultades
+- ✅ Existe un selector de filtro ('Filtrar por Carreras') en la página de listado de Facultades
+- ✅ Al seleccionar una opción del filtro (ej. 'Con más de 5 carreras'), la tabla de facultades se actualiza mostrando solo las que cumplen el criterio
+- ✅ La opción 'Todas las Carreras' muestra todas las facultades
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Paginar Listado de Facultades
+
+### 🎯 HU: Paginar Listado de Facultades
 **Como:** Administrador del sistema
 **Quiero:** navegar por el listado de facultades en bloques manejables
 **Para:** gestionar grandes volúmenes de información eficientemente
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Facultades
-- El componente permite ir a la página siguiente
-- El componente permite ir a la página anterior
-- El componente permite ir directamente a una página específica
-- Al cambiar de página, la tabla de facultades se actualiza con los datos correspondientes
+- ✅ Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Facultades
+- ✅ El componente permite ir a la página siguiente
+- ✅ El componente permite ir a la página anterior
+- ✅ El componente permite ir directamente a una página específica
+- ✅ Al cambiar de página, la tabla de facultades se actualiza con los datos correspondientes
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Registrar Nueva Facultad
+
+### 🎯 HU: Registrar Nueva Facultad
 **Como:** Administrador del sistema
 **Quiero:** agregar una nueva facultad al sistema
 **Para:** mantener actualizada la estructura organizativa de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Al hacer clic en '+ Nueva Facultad', se abre un formulario modal de registro de Facultad
-- El formulario incluye campos para 'Código', 'Nombre', 'Descripción' y un selector de 'Decano'
-- El selector de 'Decano' permite buscar y seleccionar un usuario existente
-- Al enviar datos válidos, la facultad se guarda y se muestra en el listado
-- Al enviar datos inválidos (ej. código o nombre duplicado), se muestra un mensaje de error claro
+- ✅ Al hacer clic en '+ Nueva Facultad', se abre un formulario modal de registro de Facultad
+- ✅ El formulario incluye campos para 'Código', 'Nombre', 'Descripción' y un selector de 'Decano'
+- ✅ El selector de 'Decano' permite buscar y seleccionar un usuario existente
+- ✅ Al enviar datos válidos, la facultad se guarda y se muestra en el listado
+- ✅ Al enviar datos inválidos (ej. código o nombre duplicado), se muestra un mensaje de error claro
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Editar Información de Facultad
+
+### 🎯 HU: Editar Información de Facultad
 **Como:** Administrador del sistema
 **Quiero:** modificar los datos de una facultad existente
 **Para:** corregir o actualizar su información
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de edición (lápiz) en la columna 'Acciones' de cada facultad en el listado
-- Al hacer clic en el icono de edición, se abre un formulario modal con los datos de la facultad precargados
-- Al guardar los cambios, la información de la facultad se actualiza correctamente
-- El sistema valida la unicidad del código y nombre de la facultad si se modifican
+- ✅ Existe un icono de edición (lápiz) en la columna 'Acciones' de cada facultad en el listado
+- ✅ Al hacer clic en el icono de edición, se abre un formulario modal con los datos de la facultad precargados
+- ✅ Al guardar los cambios, la información de la facultad se actualiza correctamente
+- ✅ El sistema valida la unicidad del código y nombre de la facultad si se modifican
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Eliminar Facultad del Sistema
+
+### 🎯 HU: Eliminar Facultad del Sistema
 **Como:** Administrador del sistema
 **Quiero:** remover una facultad del sistema
 **Para:** depurar información obsoleta o incorrecta
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de eliminación (papelera) en la columna 'Acciones' de cada facultad en el listado
-- Al hacer clic en el icono de eliminación, se muestra una confirmación al usuario
-- Si la facultad no tiene carreras asociadas, se elimina del sistema
-- Si la facultad tiene carreras asociadas, el sistema advierte e impide la eliminación
+- ✅ Existe un icono de eliminación (papelera) en la columna 'Acciones' de cada facultad en el listado
+- ✅ Al hacer clic en el icono de eliminación, se muestra una confirmación al usuario
+- ✅ Si la facultad no tiene carreras asociadas, se elimina del sistema
+- ✅ Si la facultad tiene carreras asociadas, el sistema advierte e impide la eliminación
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Listar Carreras Registradas
+
+### 🎯 HU: Listar Carreras Registradas
 **Como:** Administrador del sistema
 **Quiero:** ver todas las carreras con su información principal
 **Para:** gestionar la oferta académica de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe una página dedicada a 'Gestión de Carreras' accesible desde la navegación lateral
-- Se muestra una tabla con columnas 'Código', 'Nombre', 'Facultad', 'Coordinador' y 'Acciones'
-- Los datos de las carreras se cargan correctamente en la tabla
-- Se muestra el botón '+ Nueva Carrera' en la página
+- ✅ Existe una página dedicada a 'Gestión de Carreras' accesible desde la navegación lateral
+- ✅ Se muestra una tabla con columnas 'Código', 'Nombre', 'Facultad', 'Coordinador' y 'Acciones'
+- ✅ Los datos de las carreras se cargan correctamente en la tabla
+- ✅ Se muestra el botón '+ Nueva Carrera' en la página
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Buscar Carreras por Palabra Clave
+
+### 🎯 HU: Buscar Carreras por Palabra Clave
 **Como:** Administrador del sistema
 **Quiero:** encontrar carreras específicas rápidamente por código o nombre
 **Para:** agilizar la gestión de carreras
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un campo de búsqueda ('Buscar carrera...') en la página de listado de Carreras
-- Al escribir texto, la tabla se filtra y muestra solo las carreras que coinciden con el código o nombre
-- La búsqueda debe ser insensible a mayúsculas y minúsculas
-- Al borrar el texto de búsqueda, se muestra el listado completo de carreras
+- ✅ Existe un campo de búsqueda ('Buscar carrera...') en la página de listado de Carreras
+- ✅ Al escribir texto, la tabla se filtra y muestra solo las carreras que coinciden con el código o nombre
+- ✅ La búsqueda debe ser insensible a mayúsculas y minúsculas
+- ✅ Al borrar el texto de búsqueda, se muestra el listado completo de carreras
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Filtrar Carreras por Facultad
+
+### 🎯 HU: Filtrar Carreras por Facultad
 **Como:** Administrador del sistema
 **Quiero:** ver carreras que pertenecen a una facultad específica
 **Para:** organizar la visualización de la oferta académica
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector de filtro ('Todas las Facultades') en la página de listado de Carreras
-- Al seleccionar una facultad, la tabla se actualiza mostrando solo las carreras de esa facultad
-- La opción 'Todas las Facultades' muestra todas las carreras
+- ✅ Existe un selector de filtro ('Todas las Facultades') en la página de listado de Carreras
+- ✅ Al seleccionar una facultad, la tabla se actualiza mostrando solo las carreras de esa facultad
+- ✅ La opción 'Todas las Facultades' muestra todas las carreras
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Filtrar Carreras por Estado
+
+### 🎯 HU: Filtrar Carreras por Estado
 **Como:** Administrador del sistema
 **Quiero:** ver carreras que tienen un estado específico
 **Para:** organizar la visualización por estado de la carrera (ej. activa, inactiva, en revisión)
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector de filtro ('Todos los Estados') en la página de listado de Carreras
-- Al seleccionar un estado, la tabla se actualiza mostrando solo las carreras con ese estado
-- La opción 'Todos los Estados' muestra todas las carreras
+- ✅ Existe un selector de filtro ('Todos los Estados') en la página de listado de Carreras
+- ✅ Al seleccionar un estado, la tabla se actualiza mostrando solo las carreras con ese estado
+- ✅ La opción 'Todos los Estados' muestra todas las carreras
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Paginar Listado de Carreras
+
+### 🎯 HU: Paginar Listado de Carreras
 **Como:** Administrador del sistema
 **Quiero:** navegar por el listado de carreras en bloques manejables
 **Para:** gestionar grandes volúmenes de información eficientemente
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Carreras
-- El componente permite ir a la página siguiente
-- El componente permite ir a la página anterior
-- El componente permite ir directamente a una página específica
-- Al cambiar de página, la tabla de carreras se actualiza con los datos correspondientes
+- ✅ Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Carreras
+- ✅ El componente permite ir a la página siguiente
+- ✅ El componente permite ir a la página anterior
+- ✅ El componente permite ir directamente a una página específica
+- ✅ Al cambiar de página, la tabla de carreras se actualiza con los datos correspondientes
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Registrar Nueva Carrera
+
+### 🎯 HU: Registrar Nueva Carrera
 **Como:** Administrador
 **Quiero:** ingresar la información de una nueva carrera
 **Para:** agregar una oferta académica
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Al hacer clic en '+ Nueva Carrera', se abre un formulario de registro de carrera
-- El formulario incluye campos para 'Código', 'Nombre'
-- Existe un selector para asociar la carrera a una 'Facultad' existente
-- Existe un selector para asignar un 'Coordinador' de una lista de usuarios existentes
-- El Código de la carrera es validado como único
-- Al guardar, la carrera queda registrada exitosamente y se muestra en el listado
+- ✅ Al hacer clic en '+ Nueva Carrera', se abre un formulario de registro de carrera
+- ✅ El formulario incluye campos para 'Código', 'Nombre'
+- ✅ Existe un selector para asociar la carrera a una 'Facultad' existente
+- ✅ Existe un selector para asignar un 'Coordinador' de una lista de usuarios existentes
+- ✅ El Código de la carrera es validado como único
+- ✅ Al guardar, la carrera queda registrada exitosamente y se muestra en el listado
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Editar Información de Carrera
+
+### 🎯 HU: Editar Información de Carrera
 **Como:** Administrador del sistema
 **Quiero:** modificar los datos de una carrera existente
 **Para:** corregir o actualizar su información
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de edición (lápiz) en la columna 'Acciones' de cada carrera en el listado
-- Al hacer clic en el icono de edición, se abre un formulario modal con los datos de la carrera precargados
-- Al guardar los cambios, la información de la carrera se actualiza correctamente
-- El sistema valida la unicidad del código de la carrera si se modifica
+- ✅ Existe un icono de edición (lápiz) en la columna 'Acciones' de cada carrera en el listado
+- ✅ Al hacer clic en el icono de edición, se abre un formulario modal con los datos de la carrera precargados
+- ✅ Al guardar los cambios, la información de la carrera se actualiza correctamente
+- ✅ El sistema valida la unicidad del código de la carrera si se modifica
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Eliminar Carrera del Sistema
+
+### 🎯 HU: Eliminar Carrera del Sistema
 **Como:** Administrador del sistema
 **Quiero:** remover una carrera del sistema
 **Para:** depurar información obsoleta o incorrecta
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de eliminación (papelera) en la columna 'Acciones' de cada carrera en el listado
-- Al hacer clic en el icono de eliminación, se muestra una confirmación al usuario
-- Si la carrera no tiene materias o profesores asociados, se elimina del sistema
-- Si la carrera tiene dependencias, el sistema advierte e impide la eliminación
+- ✅ Existe un icono de eliminación (papelera) en la columna 'Acciones' de cada carrera en el listado
+- ✅ Al hacer clic en el icono de eliminación, se muestra una confirmación al usuario
+- ✅ Si la carrera no tiene materias o profesores asociados, se elimina del sistema
+- ✅ Si la carrera tiene dependencias, el sistema advierte e impide la eliminación
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Visualizar Permisos por Rol
+
+### 🎯 HU: Visualizar Permisos por Rol
 **Como:** Administrador
 **Quiero:** ver los permisos asociados a cada rol definido en el sistema
 **Para:** entender las capacidades de cada tipo de usuario y revisar la configuración de seguridad
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe una página 'Gestión de Roles' accesible desde la navegación lateral
-- La página muestra tarjetas para cada rol (ej. 'Administrador', 'CEI', 'Autoridad de facultad', 'Coordinador de Carrera', 'Profesor')
-- Cada tarjeta de rol muestra un listado de permisos asociados (ej. 'Ver facultades', 'Crear facultades', 'Eliminar facultades', 'Ver usuarios')
-- Los permisos se presentan como checkboxes, mostrando si están habilitados para ese rol
+- ✅ Existe una página 'Gestión de Roles' accesible desde la navegación lateral
+- ✅ La página muestra tarjetas para cada rol (ej. 'Administrador', 'CEI', 'Autoridad de facultad', 'Coordinador de Carrera', 'Profesor')
+- ✅ Cada tarjeta de rol muestra un listado de permisos asociados (ej. 'Ver facultades', 'Crear facultades', 'Eliminar facultades', 'Ver usuarios')
+- ✅ Los permisos se presentan como checkboxes, mostrando si están habilitados para ese rol
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Visualizar Perfil Personal
+
+### 🎯 HU: Visualizar Perfil Personal
 **Como:** Usuario del sistema
 **Quiero:** ver mi información personal y de contacto registrada
 **Para:** confirmar mis datos en la plataforma y tenerlos a mano
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe una página 'Mi Perfil' accesible desde la navegación lateral
-- La página muestra una sección de 'Información Personal' con campos (Nombre Completo, Correo Institucional, Facultad, Teléfono, Fecha de Registro)
-- Todos los campos de información personal muestran los datos del usuario logueado
+- ✅ Existe una página 'Mi Perfil' accesible desde la navegación lateral
+- ✅ La página muestra una sección de 'Información Personal' con campos (Nombre Completo, Correo Institucional, Facultad, Teléfono, Fecha de Registro)
+- ✅ Todos los campos de información personal muestran los datos del usuario logueado
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Visualizar Roles y Permisos Detallados de Perfil
+
+### 🎯 HU: Visualizar Roles y Permisos Detallados de Perfil
 **Como:** Usuario del sistema
 **Quiero:** ver los roles que tengo asignados y los permisos detallados de los mismos
 **Para:** comprender mis capacidades y accesos dentro del sistema
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- La página 'Mi Perfil' muestra una sección de 'Rol y Permisos'
-- Se muestra el 'Rol Asignado' (ej. 'Profesor', 'Decano')
-- Existe un desplegable o botón 'Ver Permisos Detallados'
-- Al expandir 'Ver Permisos Detallados', se lista los permisos específicos del usuario (ej. 'Visualizar Dashboard', 'Gestionar Cursos', 'Registrar Calificaciones')
+- ✅ La página 'Mi Perfil' muestra una sección de 'Rol y Permisos'
+- ✅ Se muestra el 'Rol Asignado' (ej. 'Profesor', 'Decano')
+- ✅ Existe un desplegable o botón 'Ver Permisos Detallados'
+- ✅ Al expandir 'Ver Permisos Detallados', se lista los permisos específicos del usuario (ej. 'Visualizar Dashboard', 'Gestionar Cursos', 'Registrar Calificaciones')
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Cambiar Contraseña Personal
+
+### 🎯 HU: Cambiar Contraseña Personal
 **Como:** Usuario del sistema
 **Quiero:** actualizar mi contraseña
 **Para:** mantener mi cuenta segura regularmente
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- La página 'Mi Perfil' muestra una sección de 'Cambiar Contraseña'
-- Existe un botón 'Actualizar Contraseña'
-- Al hacer clic en el botón, se abre un formulario modal para cambiar contraseña (campos: Contraseña Actual, Nueva Contraseña, Confirmar Nueva Contraseña)
-- El sistema valida que la 'Contraseña Actual' sea correcta
-- El sistema valida que 'Nueva Contraseña' y 'Confirmar Nueva Contraseña' coincidan y cumplan con políticas de seguridad
-- Al guardar, la contraseña se actualiza y se muestra un mensaje de éxito
+- ✅ La página 'Mi Perfil' muestra una sección de 'Cambiar Contraseña'
+- ✅ Existe un botón 'Actualizar Contraseña'
+- ✅ Al hacer clic en el botón, se abre un formulario modal para cambiar contraseña (campos: Contraseña Actual, Nueva Contraseña, Confirmar Nueva Contraseña)
+- ✅ El sistema valida que la 'Contraseña Actual' sea correcta
+- ✅ El sistema valida que 'Nueva Contraseña' y 'Confirmar Nueva Contraseña' coincidan y cumplan con políticas de seguridad
+- ✅ Al guardar, la contraseña se actualiza y se muestra un mensaje de éxito
 
-**Story Points:** 2
-**Prioridad:** Media (2)
+
+**Story Points:** 2 | **Prioridad:** Media (2)
 
 <!-- --- -->
 
@@ -6287,542 +6018,511 @@ No repetir títulos de tareas.
 **Como:** 
 **Quiero:** 
 **Para:** 
-**Story Points:** N/A
-**Prioridad:** N/A
 
----
+**Story Points:** N/A**Prioridad:** N/A
 
-### HU: Iniciar Sesión en Poliacredita
+
+### 🎯 HU: Iniciar Sesión en Poliacredita
 **Como:** Usuario del sistema SAGA EPN EUR-ACE
 **Quiero:** ingresar mis credenciales institucionales y seleccionar mi rol
 **Para:** acceder a mis funcionalidades correspondientes a mi rol
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El sistema muestra un formulario con campos para 'Correo Institucional' y 'Contraseña'
-- El sistema muestra un selector de 'Rol' con opciones (Administrador, CEI, Autoridad Académica, Coordinador de Carrera, Profesor)
-- Al ingresar credenciales válidas y seleccionar un rol, el usuario es redirigido al Dashboard
-- Al ingresar credenciales inválidas, se muestra un mensaje de error claro
-- Existe un enlace para '¿Olvidaste tu contraseña?'
+- ✅ El sistema muestra un formulario con campos para 'Correo Institucional' y 'Contraseña'
+- ✅ El sistema muestra un selector de 'Rol' con opciones (Administrador, CEI, Autoridad Académica, Coordinador de Carrera, Profesor)
+- ✅ Al ingresar credenciales válidas y seleccionar un rol, el usuario es redirigido al Dashboard
+- ✅ Al ingresar credenciales inválidas, se muestra un mensaje de error claro
+- ✅ Existe un enlace para '¿Olvidaste tu contraseña?'
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Visualizar Conteo de Entidades en Dashboard
+
+### 🎯 HU: Visualizar Conteo de Entidades en Dashboard
 **Como:** Administrador
 **Quiero:** ver el número total de facultades, carreras y usuarios activos
 **Para:** obtener una visión general rápida del estado de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El Dashboard muestra el 'Total Facultades' con un valor numérico
-- El Dashboard muestra el 'Total Carreras' con un valor numérico
-- El Dashboard muestra el 'Usuarios Activos' con un valor numérico
+- ✅ El Dashboard muestra el 'Total Facultades' con un valor numérico
+- ✅ El Dashboard muestra el 'Total Carreras' con un valor numérico
+- ✅ El Dashboard muestra el 'Usuarios Activos' con un valor numérico
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Visualizar Actividad Reciente en Dashboard
+
+### 🎯 HU: Visualizar Actividad Reciente en Dashboard
 **Como:** Administrador
 **Quiero:** ver un registro de las últimas acciones realizadas en el sistema
 **Para:** monitorear la actividad de la plataforma
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El Dashboard muestra una sección de 'Actividad Reciente' con columnas 'Hora', 'Usuario', 'Acción'
-- La tabla muestra un listado de acciones recientes (ej. 'Creo nueva facultad FIEC', 'Actualizó datos de carrera Ingeniería Civil', 'Revisó informe de acreditación', 'Asignó rol a 'profesor@epn.edu.ec'', 'Registró nuevo profesor Juan Pérez')
-- Cada acción muestra la hora en formato relativo ('Hace 5 min', 'Hace 15 min')
-- Cada acción muestra el email del usuario que la realizó
-- Cada acción muestra una descripción concisa de la actividad
+- ✅ El Dashboard muestra una sección de 'Actividad Reciente' con columnas 'Hora', 'Usuario', 'Acción'
+- ✅ La tabla muestra un listado de acciones recientes (ej. 'Creo nueva facultad FIEC', 'Actualizó datos de carrera Ingeniería Civil', 'Revisó informe de acreditación', 'Asignó rol a 'profesor@epn.edu.ec'', 'Registró nuevo profesor Juan Pérez')
+- ✅ Cada acción muestra la hora en formato relativo ('Hace 5 min', 'Hace 15 min')
+- ✅ Cada acción muestra el email del usuario que la realizó
+- ✅ Cada acción muestra una descripción concisa de la actividad
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Acceder a Acciones Rápidas desde Dashboard
+
+### 🎯 HU: Acceder a Acciones Rápidas desde Dashboard
 **Como:** Administrador
 **Quiero:** tener enlaces directos a funcionalidades de gestión importantes
 **Para:** agilizar mi navegación y ejecución de tareas comunes
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El Dashboard muestra una sección de 'Acceso Rápido'
-- Esta sección incluye un botón o enlace con icono y texto 'Gestionar Carreras'
-- Esta sección incluye un botón o enlace con icono y texto 'Gestionar Profesores'
-- Esta sección incluye un botón o enlace con icono y texto 'Ver Mi Perfil'
-- Al hacer clic en cada botón, el usuario es redirigido a la página correspondiente
+- ✅ El Dashboard muestra una sección de 'Acceso Rápido'
+- ✅ Esta sección incluye un botón o enlace con icono y texto 'Gestionar Carreras'
+- ✅ Esta sección incluye un botón o enlace con icono y texto 'Gestionar Profesores'
+- ✅ Esta sección incluye un botón o enlace con icono y texto 'Ver Mi Perfil'
+- ✅ Al hacer clic en cada botón, el usuario es redirigido a la página correspondiente
 
-**Story Points:** 1
-**Prioridad:** Media (2)
 
----
+**Story Points:** 1 | **Prioridad:** Media (2)
 
-### HU: Listar Usuarios Registrados
+
+### 🎯 HU: Listar Usuarios Registrados
 **Como:** Administrador
 **Quiero:** ver una lista de todos los usuarios registrados con su información clave
 **Para:** gestionar el acceso y los roles en el sistema
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe una página 'Gestión de Usuarios' accesible desde la navegación lateral
-- Se muestra una tabla con columnas 'Email', 'Nombre', 'Rol', 'Estado' y 'Acciones'
-- Los datos de los usuarios se cargan correctamente en la tabla
-- Se muestra el botón '+ Nuevo Usuario' en la página
+- ✅ Existe una página 'Gestión de Usuarios' accesible desde la navegación lateral
+- ✅ Se muestra una tabla con columnas 'Email', 'Nombre', 'Rol', 'Estado' y 'Acciones'
+- ✅ Los datos de los usuarios se cargan correctamente en la tabla
+- ✅ Se muestra el botón '+ Nuevo Usuario' en la página
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Registrar Nuevo Usuario
+
+### 🎯 HU: Registrar Nuevo Usuario
 **Como:** Administrador
 **Quiero:** crear un nuevo registro de usuario en el sistema
 **Para:** permitir que nuevas personas accedan a la plataforma
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Al hacer clic en '+ Nuevo Usuario', se abre un formulario modal de registro de usuario
-- El formulario incluye campos para 'Cédula', 'Nombres', 'Apellidos', 'Email', 'Teléfono'
-- El formulario incluye un selector de 'Rol' con opciones de checkbox (ej. Comité Evaluación Interna, Autoridad Académica, Coordinador de Carrera, Profesor)
-- El formulario incluye un selector de 'Facultad' con función de búsqueda
-- La Cédula y el Email son validados como únicos en el sistema
-- Al enviar datos válidos, el usuario se guarda y se muestra en el listado
+- ✅ Al hacer clic en '+ Nuevo Usuario', se abre un formulario modal de registro de usuario
+- ✅ El formulario incluye campos para 'Cédula', 'Nombres', 'Apellidos', 'Email', 'Teléfono'
+- ✅ El formulario incluye un selector de 'Rol' con opciones de checkbox (ej. Comité Evaluación Interna, Autoridad Académica, Coordinador de Carrera, Profesor)
+- ✅ El formulario incluye un selector de 'Facultad' con función de búsqueda
+- ✅ La Cédula y el Email son validados como únicos en el sistema
+- ✅ Al enviar datos válidos, el usuario se guarda y se muestra en el listado
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Editar Información de Usuario
+
+### 🎯 HU: Editar Información de Usuario
 **Como:** Administrador
 **Quiero:** modificar los datos de un usuario existente
 **Para:** corregir o actualizar su información, roles o estado
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de edición (lápiz) en la columna 'Acciones' de cada usuario en el listado
-- Al hacer clic en el icono de edición, se abre un formulario modal con los datos del usuario precargados
-- El formulario permite modificar 'Nombres', 'Apellidos', 'Email', 'Teléfono', 'Roles' y 'Facultad'
-- El sistema valida la unicidad del Email y Cédula si se modifican
-- Al guardar los cambios, la información del usuario se actualiza correctamente
+- ✅ Existe un icono de edición (lápiz) en la columna 'Acciones' de cada usuario en el listado
+- ✅ Al hacer clic en el icono de edición, se abre un formulario modal con los datos del usuario precargados
+- ✅ El formulario permite modificar 'Nombres', 'Apellidos', 'Email', 'Teléfono', 'Roles' y 'Facultad'
+- ✅ El sistema valida la unicidad del Email y Cédula si se modifican
+- ✅ Al guardar los cambios, la información del usuario se actualiza correctamente
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Buscar Usuarios por Palabra Clave
+
+### 🎯 HU: Buscar Usuarios por Palabra Clave
 **Como:** Administrador
 **Quiero:** encontrar usuarios específicos rápidamente por email, nombre o cédula
 **Para:** agilizar la gestión de usuarios
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un campo de búsqueda ('Buscar usuario...') en la página de listado de Usuarios
-- Al escribir texto, la tabla se filtra y muestra solo los usuarios que coinciden con el email, nombre o cédula
-- La búsqueda debe ser insensible a mayúsculas y minúsculas
-- Al borrar el texto de búsqueda, se muestra el listado completo de usuarios
+- ✅ Existe un campo de búsqueda ('Buscar usuario...') en la página de listado de Usuarios
+- ✅ Al escribir texto, la tabla se filtra y muestra solo los usuarios que coinciden con el email, nombre o cédula
+- ✅ La búsqueda debe ser insensible a mayúsculas y minúsculas
+- ✅ Al borrar el texto de búsqueda, se muestra el listado completo de usuarios
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Filtrar Usuarios por Rol
+
+### 🎯 HU: Filtrar Usuarios por Rol
 **Como:** Administrador
 **Quiero:** ver usuarios que tienen uno o más roles específicos
 **Para:** organizar la visualización y gestionar permisos por rol
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector de filtro ('Todos los Roles') en la página de listado de Usuarios
-- Al seleccionar uno o varios roles, la tabla se actualiza mostrando solo los usuarios con esos roles
-- La opción 'Todos los Roles' muestra todos los usuarios
+- ✅ Existe un selector de filtro ('Todos los Roles') en la página de listado de Usuarios
+- ✅ Al seleccionar uno o varios roles, la tabla se actualiza mostrando solo los usuarios con esos roles
+- ✅ La opción 'Todos los Roles' muestra todos los usuarios
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Filtrar Usuarios por Estado
+
+### 🎯 HU: Filtrar Usuarios por Estado
 **Como:** Administrador
 **Quiero:** ver usuarios que tienen un estado específico (Activo/Inactivo)
 **Para:** gestionar el acceso y habilitación/deshabilitación de cuentas
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector de filtro ('Todos los Estados') en la página de listado de Usuarios
-- Al seleccionar un estado, la tabla se actualiza mostrando solo los usuarios con ese estado
-- La opción 'Todos los Estados' muestra todos los usuarios
+- ✅ Existe un selector de filtro ('Todos los Estados') en la página de listado de Usuarios
+- ✅ Al seleccionar un estado, la tabla se actualiza mostrando solo los usuarios con ese estado
+- ✅ La opción 'Todos los Estados' muestra todos los usuarios
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Paginar Listado de Usuarios
+
+### 🎯 HU: Paginar Listado de Usuarios
 **Como:** Administrador
 **Quiero:** navegar por el listado de usuarios en bloques manejables
 **Para:** gestionar grandes volúmenes de usuarios eficientemente
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Usuarios
-- El componente permite ir a la página siguiente
-- El componente permite ir a la página anterior
-- El componente permite ir directamente a una página específica
-- Al cambiar de página, la tabla de usuarios se actualiza con los datos correspondientes
+- ✅ Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Usuarios
+- ✅ El componente permite ir a la página siguiente
+- ✅ El componente permite ir a la página anterior
+- ✅ El componente permite ir directamente a una página específica
+- ✅ Al cambiar de página, la tabla de usuarios se actualiza con los datos correspondientes
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Cambiar Estado de Usuario (Activar/Desactivar)
+
+### 🎯 HU: Cambiar Estado de Usuario (Activar/Desactivar)
 **Como:** Administrador
 **Quiero:** habilitar o deshabilitar el acceso de un usuario
 **Para:** controlar quién puede usar el sistema
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un botón 'Desactivar' o 'Activar' en la columna 'Acciones' de cada usuario, según el estado actual
-- Al hacer clic en el botón, el estado del usuario cambia (Activo a Inactivo, o viceversa)
-- El estado visual en la tabla se actualiza inmediatamente (ej. texto 'Activo'/'Inactivo' y botón)
-- Se muestra una confirmación o mensaje de éxito/error al usuario
+- ✅ Existe un botón 'Desactivar' o 'Activar' en la columna 'Acciones' de cada usuario, según el estado actual
+- ✅ Al hacer clic en el botón, el estado del usuario cambia (Activo a Inactivo, o viceversa)
+- ✅ El estado visual en la tabla se actualiza inmediatamente (ej. texto 'Activo'/'Inactivo' y botón)
+- ✅ Se muestra una confirmación o mensaje de éxito/error al usuario
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Listar Facultades Registradas
+
+### 🎯 HU: Listar Facultades Registradas
 **Como:** Administrador del sistema
 **Quiero:** ver todas las facultades con su información principal
 **Para:** gestionar la estructura académica de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe una página dedicada a 'Gestión de Facultades' accesible desde la navegación lateral
-- Se muestra una tabla con columnas 'Código', 'Nombre', 'Carreras', 'Decano' y 'Acciones'
-- Los datos de las facultades se cargan correctamente en la tabla
-- Se muestra el botón '+ Nueva Facultad' en la página
+- ✅ Existe una página dedicada a 'Gestión de Facultades' accesible desde la navegación lateral
+- ✅ Se muestra una tabla con columnas 'Código', 'Nombre', 'Carreras', 'Decano' y 'Acciones'
+- ✅ Los datos de las facultades se cargan correctamente en la tabla
+- ✅ Se muestra el botón '+ Nueva Facultad' en la página
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Buscar Facultades por Código o Nombre
+
+### 🎯 HU: Buscar Facultades por Código o Nombre
 **Como:** Administrador del sistema
 **Quiero:** encontrar facultades específicas rápidamente
 **Para:** agilizar la gestión de facultades
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un campo de búsqueda ('Buscar por código o nombre...') en la página de listado de Facultades
-- Al escribir texto, la tabla se filtra y muestra solo las facultades que coinciden con el código o nombre
-- La búsqueda debe ser insensible a mayúsculas y minúsculas
-- Al borrar el texto de búsqueda, se muestra el listado completo de facultades
+- ✅ Existe un campo de búsqueda ('Buscar por código o nombre...') en la página de listado de Facultades
+- ✅ Al escribir texto, la tabla se filtra y muestra solo las facultades que coinciden con el código o nombre
+- ✅ La búsqueda debe ser insensible a mayúsculas y minúsculas
+- ✅ Al borrar el texto de búsqueda, se muestra el listado completo de facultades
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Filtrar Facultades por Carreras
+
+### 🎯 HU: Filtrar Facultades por Carreras
 **Como:** Administrador del sistema
 **Quiero:** filtrar el listado de facultades
 **Para:** organizar la visualización por la cantidad de carreras que gestionan
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector de filtro ('Filtrar por Carreras') en la página de listado de Facultades
-- Al seleccionar una opción del filtro (ej. 'Con más de 5 carreras'), la tabla de facultades se actualiza mostrando solo las que cumplen el criterio
-- La opción 'Todas las Carreras' muestra todas las facultades
+- ✅ Existe un selector de filtro ('Filtrar por Carreras') en la página de listado de Facultades
+- ✅ Al seleccionar una opción del filtro (ej. 'Con más de 5 carreras'), la tabla de facultades se actualiza mostrando solo las que cumplen el criterio
+- ✅ La opción 'Todas las Carreras' muestra todas las facultades
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Paginar Listado de Facultades
+
+### 🎯 HU: Paginar Listado de Facultades
 **Como:** Administrador del sistema
 **Quiero:** navegar por el listado de facultades en bloques manejables
 **Para:** gestionar grandes volúmenes de información eficientemente
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Facultades
-- El componente permite ir a la página siguiente
-- El componente permite ir a la página anterior
-- El componente permite ir directamente a una página específica
-- Al cambiar de página, la tabla de facultades se actualiza con los datos correspondientes
+- ✅ Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Facultades
+- ✅ El componente permite ir a la página siguiente
+- ✅ El componente permite ir a la página anterior
+- ✅ El componente permite ir directamente a una página específica
+- ✅ Al cambiar de página, la tabla de facultades se actualiza con los datos correspondientes
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Registrar Nueva Facultad
+
+### 🎯 HU: Registrar Nueva Facultad
 **Como:** Administrador del sistema
 **Quiero:** agregar una nueva facultad al sistema
 **Para:** mantener actualizada la estructura organizativa de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Al hacer clic en '+ Nueva Facultad', se abre un formulario modal de registro de Facultad
-- El formulario incluye campos para 'Código', 'Nombre', 'Descripción' y un selector de 'Decano'
-- El selector de 'Decano' permite buscar y seleccionar un usuario existente
-- Al enviar datos válidos, la facultad se guarda y se muestra en el listado
-- Al enviar datos inválidos (ej. código o nombre duplicado), se muestra un mensaje de error claro
+- ✅ Al hacer clic en '+ Nueva Facultad', se abre un formulario modal de registro de Facultad
+- ✅ El formulario incluye campos para 'Código', 'Nombre', 'Descripción' y un selector de 'Decano'
+- ✅ El selector de 'Decano' permite buscar y seleccionar un usuario existente
+- ✅ Al enviar datos válidos, la facultad se guarda y se muestra en el listado
+- ✅ Al enviar datos inválidos (ej. código o nombre duplicado), se muestra un mensaje de error claro
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Editar Información de Facultad
+
+### 🎯 HU: Editar Información de Facultad
 **Como:** Administrador del sistema
 **Quiero:** modificar los datos de una facultad existente
 **Para:** corregir o actualizar su información
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de edición (lápiz) en la columna 'Acciones' de cada facultad en el listado
-- Al hacer clic en el icono de edición, se abre un formulario modal con los datos de la facultad precargados
-- Al guardar los cambios, la información de la facultad se actualiza correctamente
-- El sistema valida la unicidad del código y nombre de la facultad si se modifican
+- ✅ Existe un icono de edición (lápiz) en la columna 'Acciones' de cada facultad en el listado
+- ✅ Al hacer clic en el icono de edición, se abre un formulario modal con los datos de la facultad precargados
+- ✅ Al guardar los cambios, la información de la facultad se actualiza correctamente
+- ✅ El sistema valida la unicidad del código y nombre de la facultad si se modifican
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Eliminar Facultad del Sistema
+
+### 🎯 HU: Eliminar Facultad del Sistema
 **Como:** Administrador del sistema
 **Quiero:** remover una facultad del sistema
 **Para:** depurar información obsoleta o incorrecta
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de eliminación (papelera) en la columna 'Acciones' de cada facultad en el listado
-- Al hacer clic en el icono de eliminación, se muestra una confirmación al usuario
-- Si la facultad no tiene carreras asociadas, se elimina del sistema
-- Si la facultad tiene carreras asociadas, el sistema advierte e impide la eliminación
+- ✅ Existe un icono de eliminación (papelera) en la columna 'Acciones' de cada facultad en el listado
+- ✅ Al hacer clic en el icono de eliminación, se muestra una confirmación al usuario
+- ✅ Si la facultad no tiene carreras asociadas, se elimina del sistema
+- ✅ Si la facultad tiene carreras asociadas, el sistema advierte e impide la eliminación
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Listar Carreras Registradas
+
+### 🎯 HU: Listar Carreras Registradas
 **Como:** Administrador del sistema
 **Quiero:** ver todas las carreras con su información principal
 **Para:** gestionar la oferta académica de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe una página dedicada a 'Gestión de Carreras' accesible desde la navegación lateral
-- Se muestra una tabla con columnas 'Código', 'Nombre', 'Facultad', 'Coordinador' y 'Acciones'
-- Los datos de las carreras se cargan correctamente en la tabla
-- Se muestra el botón '+ Nueva Carrera' en la página
+- ✅ Existe una página dedicada a 'Gestión de Carreras' accesible desde la navegación lateral
+- ✅ Se muestra una tabla con columnas 'Código', 'Nombre', 'Facultad', 'Coordinador' y 'Acciones'
+- ✅ Los datos de las carreras se cargan correctamente en la tabla
+- ✅ Se muestra el botón '+ Nueva Carrera' en la página
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Buscar Carreras por Palabra Clave
+
+### 🎯 HU: Buscar Carreras por Palabra Clave
 **Como:** Administrador del sistema
 **Quiero:** encontrar carreras específicas rápidamente por código o nombre
 **Para:** agilizar la gestión de carreras
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un campo de búsqueda ('Buscar carrera...') en la página de listado de Carreras
-- Al escribir texto, la tabla se filtra y muestra solo las carreras que coinciden con el código o nombre
-- La búsqueda debe ser insensible a mayúsculas y minúsculas
-- Al borrar el texto de búsqueda, se muestra el listado completo de carreras
+- ✅ Existe un campo de búsqueda ('Buscar carrera...') en la página de listado de Carreras
+- ✅ Al escribir texto, la tabla se filtra y muestra solo las carreras que coinciden con el código o nombre
+- ✅ La búsqueda debe ser insensible a mayúsculas y minúsculas
+- ✅ Al borrar el texto de búsqueda, se muestra el listado completo de carreras
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Filtrar Carreras por Facultad
+
+### 🎯 HU: Filtrar Carreras por Facultad
 **Como:** Administrador del sistema
 **Quiero:** ver carreras que pertenecen a una facultad específica
 **Para:** organizar la visualización de la oferta académica
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector de filtro ('Todas las Facultades') en la página de listado de Carreras
-- Al seleccionar una facultad, la tabla se actualiza mostrando solo las carreras de esa facultad
-- La opción 'Todas las Facultades' muestra todas las carreras
+- ✅ Existe un selector de filtro ('Todas las Facultades') en la página de listado de Carreras
+- ✅ Al seleccionar una facultad, la tabla se actualiza mostrando solo las carreras de esa facultad
+- ✅ La opción 'Todas las Facultades' muestra todas las carreras
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Filtrar Carreras por Estado
+
+### 🎯 HU: Filtrar Carreras por Estado
 **Como:** Administrador del sistema
 **Quiero:** ver carreras que tienen un estado específico
 **Para:** organizar la visualización por estado de la carrera (ej. activa, inactiva, en revisión)
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector de filtro ('Todos los Estados') en la página de listado de Carreras
-- Al seleccionar un estado, la tabla se actualiza mostrando solo las carreras con ese estado
-- La opción 'Todos los Estados' muestra todas las carreras
+- ✅ Existe un selector de filtro ('Todos los Estados') en la página de listado de Carreras
+- ✅ Al seleccionar un estado, la tabla se actualiza mostrando solo las carreras con ese estado
+- ✅ La opción 'Todos los Estados' muestra todas las carreras
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Paginar Listado de Carreras
+
+### 🎯 HU: Paginar Listado de Carreras
 **Como:** Administrador del sistema
 **Quiero:** navegar por el listado de carreras en bloques manejables
 **Para:** gestionar grandes volúmenes de información eficientemente
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Carreras
-- El componente permite ir a la página siguiente
-- El componente permite ir a la página anterior
-- El componente permite ir directamente a una página específica
-- Al cambiar de página, la tabla de carreras se actualiza con los datos correspondientes
+- ✅ Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Carreras
+- ✅ El componente permite ir a la página siguiente
+- ✅ El componente permite ir a la página anterior
+- ✅ El componente permite ir directamente a una página específica
+- ✅ Al cambiar de página, la tabla de carreras se actualiza con los datos correspondientes
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Registrar Nueva Carrera
+
+### 🎯 HU: Registrar Nueva Carrera
 **Como:** Administrador
 **Quiero:** ingresar la información de una nueva carrera
 **Para:** agregar una oferta académica
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Al hacer clic en '+ Nueva Carrera', se abre un formulario de registro de carrera
-- El formulario incluye campos para 'Código', 'Nombre'
-- Existe un selector para asociar la carrera a una 'Facultad' existente
-- Existe un selector para asignar un 'Coordinador' de una lista de usuarios existentes (que sean profesores)
-- El Código de la carrera es validado como único
-- Al guardar, la carrera queda registrada exitosamente y se muestra en el listado
+- ✅ Al hacer clic en '+ Nueva Carrera', se abre un formulario de registro de carrera
+- ✅ El formulario incluye campos para 'Código', 'Nombre'
+- ✅ Existe un selector para asociar la carrera a una 'Facultad' existente
+- ✅ Existe un selector para asignar un 'Coordinador' de una lista de usuarios existentes (que sean profesores)
+- ✅ El Código de la carrera es validado como único
+- ✅ Al guardar, la carrera queda registrada exitosamente y se muestra en el listado
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Editar Información de Carrera
+
+### 🎯 HU: Editar Información de Carrera
 **Como:** Administrador del sistema
 **Quiero:** modificar los datos de una carrera existente
 **Para:** corregir o actualizar su información
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de edición (lápiz) en la columna 'Acciones' de cada carrera en el listado
-- Al hacer clic en el icono de edición, se abre un formulario modal con los datos de la carrera precargados
-- Al guardar los cambios, la información de la carrera se actualiza correctamente
-- El sistema valida la unicidad del código de la carrera si se modifica
+- ✅ Existe un icono de edición (lápiz) en la columna 'Acciones' de cada carrera en el listado
+- ✅ Al hacer clic en el icono de edición, se abre un formulario modal con los datos de la carrera precargados
+- ✅ Al guardar los cambios, la información de la carrera se actualiza correctamente
+- ✅ El sistema valida la unicidad del código de la carrera si se modifica
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Eliminar Carrera del Sistema
+
+### 🎯 HU: Eliminar Carrera del Sistema
 **Como:** Administrador del sistema
 **Quiero:** remover una carrera del sistema
 **Para:** depurar información obsoleta o incorrecta
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de eliminación (papelera) en la columna 'Acciones' de cada carrera en el listado
-- Al hacer clic en el icono de eliminación, se muestra una confirmación al usuario
-- Si la carrera no tiene materias o profesores asociados, se elimina del sistema
-- Si la carrera tiene dependencias, el sistema advierte e impide la eliminación
+- ✅ Existe un icono de eliminación (papelera) en la columna 'Acciones' de cada carrera en el listado
+- ✅ Al hacer clic en el icono de eliminación, se muestra una confirmación al usuario
+- ✅ Si la carrera no tiene materias o profesores asociados, se elimina del sistema
+- ✅ Si la carrera tiene dependencias, el sistema advierte e impide la eliminación
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Visualizar Permisos por Rol
+
+### 🎯 HU: Visualizar Permisos por Rol
 **Como:** Administrador
 **Quiero:** ver los permisos asociados a cada rol definido en el sistema
 **Para:** entender las capacidades de cada tipo de usuario y revisar la configuración de seguridad
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe una página 'Gestión de Roles' accesible desde la navegación lateral
-- La página muestra tarjetas para cada rol (ej. 'Administrador', 'CEI', 'Autoridad de facultad', 'Coordinador de Carrera', 'Profesor')
-- Cada tarjeta de rol muestra un listado de permisos asociados (ej. 'Ver facultades', 'Crear facultades', 'Eliminar facultades', 'Ver usuarios')
-- Los permisos se presentan como checkboxes, mostrando si están habilitados para ese rol
+- ✅ Existe una página 'Gestión de Roles' accesible desde la navegación lateral
+- ✅ La página muestra tarjetas para cada rol (ej. 'Administrador', 'CEI', 'Autoridad de facultad', 'Coordinador de Carrera', 'Profesor')
+- ✅ Cada tarjeta de rol muestra un listado de permisos asociados (ej. 'Ver facultades', 'Crear facultades', 'Eliminar facultades', 'Ver usuarios')
+- ✅ Los permisos se presentan como checkboxes, mostrando si están habilitados para ese rol
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Visualizar Perfil Personal
+
+### 🎯 HU: Visualizar Perfil Personal
 **Como:** Usuario del sistema
 **Quiero:** ver mi información personal y de contacto registrada
 **Para:** confirmar mis datos en la plataforma y tenerlos a mano
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe una página 'Mi Perfil' accesible desde la navegación lateral
-- La página muestra una sección de 'Información Personal' con campos (Nombre Completo, Correo Institucional, Facultad, Teléfono, Fecha de Registro)
-- Todos los campos de información personal muestran los datos del usuario logueado
+- ✅ Existe una página 'Mi Perfil' accesible desde la navegación lateral
+- ✅ La página muestra una sección de 'Información Personal' con campos (Nombre Completo, Correo Institucional, Facultad, Teléfono, Fecha de Registro)
+- ✅ Todos los campos de información personal muestran los datos del usuario logueado
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Visualizar Roles y Permisos Detallados de Perfil
+
+### 🎯 HU: Visualizar Roles y Permisos Detallados de Perfil
 **Como:** Usuario del sistema
 **Quiero:** ver los roles que tengo asignados y los permisos detallados de los mismos
 **Para:** comprender mis capacidades y accesos dentro del sistema
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- La página 'Mi Perfil' muestra una sección de 'Rol y Permisos'
-- Se muestra el 'Rol Asignado' (ej. 'Profesor', 'Decano')
-- Existe un desplegable o botón 'Ver Permisos Detallados'
-- Al expandir 'Ver Permisos Detallados', se lista los permisos específicos del usuario (ej. 'Visualizar Dashboard', 'Gestionar Cursos', 'Registrar Calificaciones')
+- ✅ La página 'Mi Perfil' muestra una sección de 'Rol y Permisos'
+- ✅ Se muestra el 'Rol Asignado' (ej. 'Profesor', 'Decano')
+- ✅ Existe un desplegable o botón 'Ver Permisos Detallados'
+- ✅ Al expandir 'Ver Permisos Detallados', se lista los permisos específicos del usuario (ej. 'Visualizar Dashboard', 'Gestionar Cursos', 'Registrar Calificaciones')
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Cambiar Contraseña Personal
+
+### 🎯 HU: Cambiar Contraseña Personal
 **Como:** Usuario del sistema
 **Quiero:** actualizar mi contraseña
 **Para:** mantener mi cuenta segura regularmente
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- La página 'Mi Perfil' muestra una sección de 'Cambiar Contraseña'
-- Existe un botón 'Actualizar Contraseña'
-- Al hacer clic en el botón, se abre un formulario modal para cambiar contraseña (campos: Contraseña Actual, Nueva Contraseña, Confirmar Nueva Contraseña)
-- El sistema valida que la 'Contraseña Actual' sea correcta
-- El sistema valida que 'Nueva Contraseña' y 'Confirmar Nueva Contraseña' coincidan y cumplan con políticas de seguridad
-- Al guardar, la contraseña se actualiza y se muestra un mensaje de éxito
+- ✅ La página 'Mi Perfil' muestra una sección de 'Cambiar Contraseña'
+- ✅ Existe un botón 'Actualizar Contraseña'
+- ✅ Al hacer clic en el botón, se abre un formulario modal para cambiar contraseña (campos: Contraseña Actual, Nueva Contraseña, Confirmar Nueva Contraseña)
+- ✅ El sistema valida que la 'Contraseña Actual' sea correcta
+- ✅ El sistema valida que 'Nueva Contraseña' y 'Confirmar Nueva Contraseña' coincidan y cumplan con políticas de seguridad
+- ✅ Al guardar, la contraseña se actualiza y se muestra un mensaje de éxito
 
-**Story Points:** 2
-**Prioridad:** Media (2)
+
+**Story Points:** 2 | **Prioridad:** Media (2)
 
 <!-- --- -->
 
@@ -6873,542 +6573,511 @@ No repetir títulos de tareas.
 **Como:** 
 **Quiero:** 
 **Para:** 
-**Story Points:** N/A
-**Prioridad:** N/A
 
----
+**Story Points:** N/A**Prioridad:** N/A
 
-### HU: Iniciar Sesión en Poliacredita
+
+### 🎯 HU: Iniciar Sesión en Poliacredita
 **Como:** Usuario del sistema SAGA EPN EUR-ACE
 **Quiero:** ingresar mis credenciales institucionales y seleccionar mi rol
 **Para:** acceder a mis funcionalidades correspondientes a mi rol
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El sistema muestra un formulario con campos para 'Correo Institucional' y 'Contraseña'
-- El sistema muestra un selector de 'Rol' con opciones
-- Al ingresar credenciales válidas y seleccionar un rol, el usuario es redirigido al Dashboard
-- Al ingresar credenciales inválidas, se muestra un mensaje de error claro
-- Existe un enlace para '¿Olvidaste tu contraseña?'
+- ✅ El sistema muestra un formulario con campos para 'Correo Institucional' y 'Contraseña'
+- ✅ El sistema muestra un selector de 'Rol' con opciones
+- ✅ Al ingresar credenciales válidas y seleccionar un rol, el usuario es redirigido al Dashboard
+- ✅ Al ingresar credenciales inválidas, se muestra un mensaje de error claro
+- ✅ Existe un enlace para '¿Olvidaste tu contraseña?'
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Visualizar Conteo de Entidades en Dashboard
+
+### 🎯 HU: Visualizar Conteo de Entidades en Dashboard
 **Como:** Administrador
 **Quiero:** ver el número total de facultades, carreras y usuarios activos
 **Para:** obtener una visión general rápida del estado de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El Dashboard muestra el 'Total Facultades' con un valor numérico
-- El Dashboard muestra el 'Total Carreras' con un valor numérico
-- El Dashboard muestra el 'Usuarios Activos' con un valor numérico
+- ✅ El Dashboard muestra el 'Total Facultades' con un valor numérico
+- ✅ El Dashboard muestra el 'Total Carreras' con un valor numérico
+- ✅ El Dashboard muestra el 'Usuarios Activos' con un valor numérico
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Visualizar Actividad Reciente en Dashboard
+
+### 🎯 HU: Visualizar Actividad Reciente en Dashboard
 **Como:** Administrador
 **Quiero:** ver un registro de las últimas acciones realizadas en el sistema
 **Para:** monitorear la actividad de la plataforma
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El Dashboard muestra una sección de 'Actividad Reciente' con columnas 'Hora', 'Usuario', 'Acción'
-- La tabla muestra un listado de acciones recientes (ej. 'Creo nueva facultad FIEC', 'Actualizó datos de carrera Ingeniería Civil')
-- Cada acción muestra la hora en formato relativo ('Hace 5 min', 'Hace 15 min')
-- Cada acción muestra el email del usuario que la realizó
-- Cada acción muestra una descripción concisa de la actividad
+- ✅ El Dashboard muestra una sección de 'Actividad Reciente' con columnas 'Hora', 'Usuario', 'Acción'
+- ✅ La tabla muestra un listado de acciones recientes (ej. 'Creo nueva facultad FIEC', 'Actualizó datos de carrera Ingeniería Civil')
+- ✅ Cada acción muestra la hora en formato relativo ('Hace 5 min', 'Hace 15 min')
+- ✅ Cada acción muestra el email del usuario que la realizó
+- ✅ Cada acción muestra una descripción concisa de la actividad
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Acceder a Acciones Rápidas desde Dashboard
+
+### 🎯 HU: Acceder a Acciones Rápidas desde Dashboard
 **Como:** Administrador
 **Quiero:** tener enlaces directos a funcionalidades de gestión importantes
 **Para:** agilizar mi navegación y ejecución de tareas comunes
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El Dashboard muestra una sección de 'Acceso Rápido'
-- Esta sección incluye un botón o enlace con icono y texto 'Gestionar Carreras'
-- Esta sección incluye un botón o enlace con icono y texto 'Gestionar Profesores'
-- Esta sección incluye un botón o enlace con icono y texto 'Ver Mi Perfil'
-- Al hacer clic en cada botón, el usuario es redirigido a la página correspondiente
+- ✅ El Dashboard muestra una sección de 'Acceso Rápido'
+- ✅ Esta sección incluye un botón o enlace con icono y texto 'Gestionar Carreras'
+- ✅ Esta sección incluye un botón o enlace con icono y texto 'Gestionar Profesores'
+- ✅ Esta sección incluye un botón o enlace con icono y texto 'Ver Mi Perfil'
+- ✅ Al hacer clic en cada botón, el usuario es redirigido a la página correspondiente
 
-**Story Points:** 1
-**Prioridad:** Media (2)
 
----
+**Story Points:** 1 | **Prioridad:** Media (2)
 
-### HU: Listar Usuarios Registrados
+
+### 🎯 HU: Listar Usuarios Registrados
 **Como:** Administrador
 **Quiero:** ver una lista de todos los usuarios registrados con su información clave
 **Para:** gestionar el acceso y los roles en el sistema
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe una página 'Gestión de Usuarios' accesible desde la navegación lateral
-- Se muestra una tabla con columnas 'Email', 'Nombre', 'Rol', 'Estado' y 'Acciones'
-- Los datos de los usuarios se cargan correctamente en la tabla
-- Se muestra el botón '+ Nuevo Usuario' en la página
+- ✅ Existe una página 'Gestión de Usuarios' accesible desde la navegación lateral
+- ✅ Se muestra una tabla con columnas 'Email', 'Nombre', 'Rol', 'Estado' y 'Acciones'
+- ✅ Los datos de los usuarios se cargan correctamente en la tabla
+- ✅ Se muestra el botón '+ Nuevo Usuario' en la página
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Registrar Nuevo Usuario
+
+### 🎯 HU: Registrar Nuevo Usuario
 **Como:** Administrador
 **Quiero:** crear un nuevo registro de usuario en el sistema
 **Para:** permitir que nuevas personas accedan a la plataforma
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Al hacer clic en '+ Nuevo Usuario', se abre un formulario modal de registro de usuario
-- El formulario incluye campos para 'Cédula', 'Nombres', 'Apellidos', 'Email', 'Teléfono'
-- El formulario incluye un selector de 'Rol' con opciones de checkbox (ej. Comité Evaluación Interna, Autoridad Académica, Coordinador de Carrera, Profesor)
-- El formulario incluye un selector de 'Facultad' con función de búsqueda
-- La Cédula y el Email son validados como únicos en el sistema
-- Al enviar datos válidos, el usuario se guarda y se muestra en el listado
+- ✅ Al hacer clic en '+ Nuevo Usuario', se abre un formulario modal de registro de usuario
+- ✅ El formulario incluye campos para 'Cédula', 'Nombres', 'Apellidos', 'Email', 'Teléfono'
+- ✅ El formulario incluye un selector de 'Rol' con opciones de checkbox (ej. Comité Evaluación Interna, Autoridad Académica, Coordinador de Carrera, Profesor)
+- ✅ El formulario incluye un selector de 'Facultad' con función de búsqueda
+- ✅ La Cédula y el Email son validados como únicos en el sistema
+- ✅ Al enviar datos válidos, el usuario se guarda y se muestra en el listado
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Editar Información de Usuario
+
+### 🎯 HU: Editar Información de Usuario
 **Como:** Administrador
 **Quiero:** modificar los datos de un usuario existente
 **Para:** corregir o actualizar su información, roles o estado
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de edición (lápiz) en la columna 'Acciones' de cada usuario en el listado
-- Al hacer clic en el icono de edición, se abre un formulario modal con los datos del usuario precargados
-- El formulario permite modificar 'Nombres', 'Apellidos', 'Email', 'Teléfono', 'Roles' y 'Facultad'
-- El sistema valida la unicidad del Email y Cédula si se modifican
-- Al guardar los cambios, la información del usuario se actualiza correctamente
+- ✅ Existe un icono de edición (lápiz) en la columna 'Acciones' de cada usuario en el listado
+- ✅ Al hacer clic en el icono de edición, se abre un formulario modal con los datos del usuario precargados
+- ✅ El formulario permite modificar 'Nombres', 'Apellidos', 'Email', 'Teléfono', 'Roles' y 'Facultad'
+- ✅ El sistema valida la unicidad del Email y Cédula si se modifican
+- ✅ Al guardar los cambios, la información del usuario se actualiza correctamente
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Buscar Usuarios por Palabra Clave
+
+### 🎯 HU: Buscar Usuarios por Palabra Clave
 **Como:** Administrador
 **Quiero:** encontrar usuarios específicos rápidamente por email, nombre o cédula
 **Para:** agilizar la gestión de usuarios
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un campo de búsqueda ('Buscar usuario...') en la página de listado de Usuarios
-- Al escribir texto, la tabla se filtra y muestra solo los usuarios que coinciden con el email, nombre o cédula
-- La búsqueda debe ser insensible a mayúsculas y minúsculas
-- Al borrar el texto de búsqueda, se muestra el listado completo de usuarios
+- ✅ Existe un campo de búsqueda ('Buscar usuario...') en la página de listado de Usuarios
+- ✅ Al escribir texto, la tabla se filtra y muestra solo los usuarios que coinciden con el email, nombre o cédula
+- ✅ La búsqueda debe ser insensible a mayúsculas y minúsculas
+- ✅ Al borrar el texto de búsqueda, se muestra el listado completo de usuarios
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Filtrar Usuarios por Rol
+
+### 🎯 HU: Filtrar Usuarios por Rol
 **Como:** Administrador
 **Quiero:** ver usuarios que tienen uno o más roles específicos
 **Para:** organizar la visualización y gestionar permisos por rol
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector de filtro ('Todos los Roles') en la página de listado de Usuarios
-- Al seleccionar uno o varios roles, la tabla se actualiza mostrando solo los usuarios con esos roles
-- La opción 'Todos los Roles' muestra todos los usuarios
+- ✅ Existe un selector de filtro ('Todos los Roles') en la página de listado de Usuarios
+- ✅ Al seleccionar uno o varios roles, la tabla se actualiza mostrando solo los usuarios con esos roles
+- ✅ La opción 'Todos los Roles' muestra todos los usuarios
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Filtrar Usuarios por Estado
+
+### 🎯 HU: Filtrar Usuarios por Estado
 **Como:** Administrador
 **Quiero:** ver usuarios que tienen un estado específico (Activo/Inactivo)
 **Para:** gestionar el acceso y habilitación/deshabilitación de cuentas
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector de filtro ('Todos los Estados') en la página de listado de Usuarios
-- Al seleccionar un estado, la tabla se actualiza mostrando solo los usuarios con ese estado
-- La opción 'Todos los Estados' muestra todos los usuarios
+- ✅ Existe un selector de filtro ('Todos los Estados') en la página de listado de Usuarios
+- ✅ Al seleccionar un estado, la tabla se actualiza mostrando solo los usuarios con ese estado
+- ✅ La opción 'Todos los Estados' muestra todos los usuarios
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Paginar Listado de Usuarios
+
+### 🎯 HU: Paginar Listado de Usuarios
 **Como:** Administrador
 **Quiero:** navegar por el listado de usuarios en bloques manejables
 **Para:** gestionar grandes volúmenes de usuarios eficientemente
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Usuarios
-- El componente permite ir a la página siguiente
-- El componente permite ir a la página anterior
-- El componente permite ir directamente a una página específica
-- Al cambiar de página, la tabla de usuarios se actualiza con los datos correspondientes
+- ✅ Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Usuarios
+- ✅ El componente permite ir a la página siguiente
+- ✅ El componente permite ir a la página anterior
+- ✅ El componente permite ir directamente a una página específica
+- ✅ Al cambiar de página, la tabla de usuarios se actualiza con los datos correspondientes
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Cambiar Estado de Usuario (Activar/Desactivar)
+
+### 🎯 HU: Cambiar Estado de Usuario (Activar/Desactivar)
 **Como:** Administrador
 **Quiero:** habilitar o deshabilitar el acceso de un usuario
 **Para:** controlar quién puede usar el sistema
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un botón 'Desactivar' o 'Activar' en la columna 'Acciones' de cada usuario, según el estado actual
-- Al hacer clic en el botón, el estado del usuario cambia (Activo a Inactivo, o viceversa)
-- El estado visual en la tabla se actualiza inmediatamente (ej. texto 'Activo'/'Inactivo' y botón)
-- Se muestra una confirmación o mensaje de éxito/error al usuario
+- ✅ Existe un botón 'Desactivar' o 'Activar' en la columna 'Acciones' de cada usuario, según el estado actual
+- ✅ Al hacer clic en el botón, el estado del usuario cambia (Activo a Inactivo, o viceversa)
+- ✅ El estado visual en la tabla se actualiza inmediatamente (ej. texto 'Activo'/'Inactivo' y botón)
+- ✅ Se muestra una confirmación o mensaje de éxito/error al usuario
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Listar Facultades Registradas
+
+### 🎯 HU: Listar Facultades Registradas
 **Como:** Administrador del sistema
 **Quiero:** ver todas las facultades con su información principal
 **Para:** gestionar la estructura académica de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe una página dedicada a 'Gestión de Facultades' accesible desde la navegación lateral
-- Se muestra una tabla con columnas 'Código', 'Nombre', 'Carreras', 'Decano' y 'Acciones'
-- Los datos de las facultades se cargan correctamente en la tabla
-- Se muestra el botón '+ Nueva Facultad' en la página
+- ✅ Existe una página dedicada a 'Gestión de Facultades' accesible desde la navegación lateral
+- ✅ Se muestra una tabla con columnas 'Código', 'Nombre', 'Carreras', 'Decano' y 'Acciones'
+- ✅ Los datos de las facultades se cargan correctamente en la tabla
+- ✅ Se muestra el botón '+ Nueva Facultad' en la página
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Buscar Facultades por Código o Nombre
+
+### 🎯 HU: Buscar Facultades por Código o Nombre
 **Como:** Administrador del sistema
 **Quiero:** encontrar facultades específicas rápidamente
 **Para:** agilizar la gestión de facultades
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un campo de búsqueda ('Buscar por código o nombre...') en la página de listado de Facultades
-- Al escribir texto, la tabla se filtra y muestra solo las facultades que coinciden con el código o nombre
-- La búsqueda debe ser insensible a mayúsculas y minúsculas
-- Al borrar el texto de búsqueda, se muestra el listado completo de facultades
+- ✅ Existe un campo de búsqueda ('Buscar por código o nombre...') en la página de listado de Facultades
+- ✅ Al escribir texto, la tabla se filtra y muestra solo las facultades que coinciden con el código o nombre
+- ✅ La búsqueda debe ser insensible a mayúsculas y minúsculas
+- ✅ Al borrar el texto de búsqueda, se muestra el listado completo de facultades
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Filtrar Facultades por Carreras
+
+### 🎯 HU: Filtrar Facultades por Carreras
 **Como:** Administrador del sistema
 **Quiero:** filtrar el listado de facultades
 **Para:** organizar la visualización por la cantidad de carreras que gestionan
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector de filtro ('Filtrar por Carreras') en la página de listado de Facultades
-- Al seleccionar una opción del filtro (ej. 'Con más de 5 carreras'), la tabla de facultades se actualiza mostrando solo las que cumplen el criterio
-- La opción 'Todas las Carreras' muestra todas las facultades
+- ✅ Existe un selector de filtro ('Filtrar por Carreras') en la página de listado de Facultades
+- ✅ Al seleccionar una opción del filtro (ej. 'Con más de 5 carreras'), la tabla de facultades se actualiza mostrando solo las que cumplen el criterio
+- ✅ La opción 'Todas las Carreras' muestra todas las facultades
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Paginar Listado de Facultades
+
+### 🎯 HU: Paginar Listado de Facultades
 **Como:** Administrador del sistema
 **Quiero:** navegar por el listado de facultades en bloques manejables
 **Para:** gestionar grandes volúmenes de información eficientemente
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Facultades
-- El componente permite ir a la página siguiente
-- El componente permite ir a la página anterior
-- El componente permite ir directamente a una página específica
-- Al cambiar de página, la tabla de facultades se actualiza con los datos correspondientes
+- ✅ Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Facultades
+- ✅ El componente permite ir a la página siguiente
+- ✅ El componente permite ir a la página anterior
+- ✅ El componente permite ir directamente a una página específica
+- ✅ Al cambiar de página, la tabla de facultades se actualiza con los datos correspondientes
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Registrar Nueva Facultad
+
+### 🎯 HU: Registrar Nueva Facultad
 **Como:** Administrador del sistema
 **Quiero:** agregar una nueva facultad al sistema
 **Para:** mantener actualizada la estructura organizativa de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Al hacer clic en '+ Nueva Facultad', se abre un formulario modal de registro de Facultad
-- El formulario incluye campos para 'Código', 'Nombre', 'Descripción' y un selector de 'Decano'
-- El selector de 'Decano' permite buscar y seleccionar un usuario existente
-- Al enviar datos válidos, la facultad se guarda y se muestra en el listado
-- Al enviar datos inválidos (ej. código o nombre duplicado), se muestra un mensaje de error claro
+- ✅ Al hacer clic en '+ Nueva Facultad', se abre un formulario modal de registro de Facultad
+- ✅ El formulario incluye campos para 'Código', 'Nombre', 'Descripción' y un selector de 'Decano'
+- ✅ El selector de 'Decano' permite buscar y seleccionar un usuario existente
+- ✅ Al enviar datos válidos, la facultad se guarda y se muestra en el listado
+- ✅ Al enviar datos inválidos (ej. código o nombre duplicado), se muestra un mensaje de error claro
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Editar Información de Facultad
+
+### 🎯 HU: Editar Información de Facultad
 **Como:** Administrador del sistema
 **Quiero:** modificar los datos de una facultad existente
 **Para:** corregir o actualizar su información
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de edición (lápiz) en la columna 'Acciones' de cada facultad en el listado
-- Al hacer clic en el icono de edición, se abre un formulario modal con los datos de la facultad precargados
-- Al guardar los cambios, la información de la facultad se actualiza correctamente
-- El sistema valida la unicidad del código y nombre de la facultad si se modifican
+- ✅ Existe un icono de edición (lápiz) en la columna 'Acciones' de cada facultad en el listado
+- ✅ Al hacer clic en el icono de edición, se abre un formulario modal con los datos de la facultad precargados
+- ✅ Al guardar los cambios, la información de la facultad se actualiza correctamente
+- ✅ El sistema valida la unicidad del código y nombre de la facultad si se modifican
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Eliminar Facultad del Sistema
+
+### 🎯 HU: Eliminar Facultad del Sistema
 **Como:** Administrador del sistema
 **Quiero:** remover una facultad del sistema
 **Para:** depurar información obsoleta o incorrecta
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de eliminación (papelera) en la columna 'Acciones' de cada facultad en el listado
-- Al hacer clic en el icono de eliminación, se muestra una confirmación al usuario
-- Si la facultad no tiene carreras asociadas, se elimina del sistema
-- Si la facultad tiene carreras asociadas, el sistema advierte e impide la eliminación
+- ✅ Existe un icono de eliminación (papelera) en la columna 'Acciones' de cada facultad en el listado
+- ✅ Al hacer clic en el icono de eliminación, se muestra una confirmación al usuario
+- ✅ Si la facultad no tiene carreras asociadas, se elimina del sistema
+- ✅ Si la facultad tiene carreras asociadas, el sistema advierte e impide la eliminación
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Listar Carreras Registradas
+
+### 🎯 HU: Listar Carreras Registradas
 **Como:** Administrador del sistema
 **Quiero:** ver todas las carreras con su información principal
 **Para:** gestionar la oferta académica de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe una página dedicada a 'Gestión de Carreras' accesible desde la navegación lateral
-- Se muestra una tabla con columnas 'Código', 'Nombre', 'Facultad', 'Coordinador' y 'Acciones'
-- Los datos de las carreras se cargan correctamente en la tabla
-- Se muestra el botón '+ Nueva Carrera' en la página
+- ✅ Existe una página dedicada a 'Gestión de Carreras' accesible desde la navegación lateral
+- ✅ Se muestra una tabla con columnas 'Código', 'Nombre', 'Facultad', 'Coordinador' y 'Acciones'
+- ✅ Los datos de las carreras se cargan correctamente en la tabla
+- ✅ Se muestra el botón '+ Nueva Carrera' en la página
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Buscar Carreras por Palabra Clave
+
+### 🎯 HU: Buscar Carreras por Palabra Clave
 **Como:** Administrador del sistema
 **Quiero:** encontrar carreras específicas rápidamente por código o nombre
 **Para:** agilizar la gestión de carreras
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un campo de búsqueda ('Buscar carrera...') en la página de listado de Carreras
-- Al escribir texto, la tabla se filtra y muestra solo las carreras que coinciden con el código o nombre
-- La búsqueda debe ser insensible a mayúsculas y minúsculas
-- Al borrar el texto de búsqueda, se muestra el listado completo de carreras
+- ✅ Existe un campo de búsqueda ('Buscar carrera...') en la página de listado de Carreras
+- ✅ Al escribir texto, la tabla se filtra y muestra solo las carreras que coinciden con el código o nombre
+- ✅ La búsqueda debe ser insensible a mayúsculas y minúsculas
+- ✅ Al borrar el texto de búsqueda, se muestra el listado completo de carreras
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Filtrar Carreras por Facultad
+
+### 🎯 HU: Filtrar Carreras por Facultad
 **Como:** Administrador del sistema
 **Quiero:** ver carreras que pertenecen a una facultad específica
 **Para:** organizar la visualización de la oferta académica
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector de filtro ('Todas las Facultades') en la página de listado de Carreras
-- Al seleccionar una facultad, la tabla se actualiza mostrando solo las carreras de esa facultad
-- La opción 'Todas las Facultades' muestra todas las carreras
+- ✅ Existe un selector de filtro ('Todas las Facultades') en la página de listado de Carreras
+- ✅ Al seleccionar una facultad, la tabla se actualiza mostrando solo las carreras de esa facultad
+- ✅ La opción 'Todas las Facultades' muestra todas las carreras
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Filtrar Carreras por Estado
+
+### 🎯 HU: Filtrar Carreras por Estado
 **Como:** Administrador del sistema
 **Quiero:** ver carreras que tienen un estado específico
 **Para:** organizar la visualización por estado de la carrera (ej. activa, inactiva, en revisión)
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector de filtro ('Todos los Estados') en la página de listado de Carreras
-- Al seleccionar un estado, la tabla se actualiza mostrando solo las carreras con ese estado
-- La opción 'Todos los Estados' muestra todas las carreras
+- ✅ Existe un selector de filtro ('Todos los Estados') en la página de listado de Carreras
+- ✅ Al seleccionar un estado, la tabla se actualiza mostrando solo las carreras con ese estado
+- ✅ La opción 'Todos los Estados' muestra todas las carreras
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Paginar Listado de Carreras
+
+### 🎯 HU: Paginar Listado de Carreras
 **Como:** Administrador del sistema
 **Quiero:** navegar por el listado de carreras en bloques manejables
 **Para:** gestionar grandes volúmenes de información eficientemente
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Carreras
-- El componente permite ir a la página siguiente
-- El componente permite ir a la página anterior
-- El componente permite ir directamente a una página específica
-- Al cambiar de página, la tabla de carreras se actualiza con los datos correspondientes
+- ✅ Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Carreras
+- ✅ El componente permite ir a la página siguiente
+- ✅ El componente permite ir a la página anterior
+- ✅ El componente permite ir directamente a una página específica
+- ✅ Al cambiar de página, la tabla de carreras se actualiza con los datos correspondientes
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Registrar Nueva Carrera
+
+### 🎯 HU: Registrar Nueva Carrera
 **Como:** Administrador
 **Quiero:** ingresar la información de una nueva carrera
 **Para:** agregar una oferta académica
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Al hacer clic en '+ Nueva Carrera', se abre un formulario de registro de carrera
-- El formulario incluye campos para 'Código', 'Nombre'
-- Existe un selector para asociar la carrera a una 'Facultad' existente
-- Existe un selector para asignar un 'Coordinador' de una lista de usuarios existentes
-- El Código de la carrera es validado como único
-- Al guardar, la carrera queda registrada exitosamente y se muestra en el listado
+- ✅ Al hacer clic en '+ Nueva Carrera', se abre un formulario de registro de carrera
+- ✅ El formulario incluye campos para 'Código', 'Nombre'
+- ✅ Existe un selector para asociar la carrera a una 'Facultad' existente
+- ✅ Existe un selector para asignar un 'Coordinador' de una lista de usuarios existentes
+- ✅ El Código de la carrera es validado como único
+- ✅ Al guardar, la carrera queda registrada exitosamente y se muestra en el listado
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Editar Información de Carrera
+
+### 🎯 HU: Editar Información de Carrera
 **Como:** Administrador del sistema
 **Quiero:** modificar los datos de una carrera existente
 **Para:** corregir o actualizar su información
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de edición (lápiz) en la columna 'Acciones' de cada carrera en el listado
-- Al hacer clic en el icono de edición, se abre un formulario modal con los datos de la carrera precargados
-- Al guardar los cambios, la información de la carrera se actualiza correctamente
-- El sistema valida la unicidad del código de la carrera si se modifica
+- ✅ Existe un icono de edición (lápiz) en la columna 'Acciones' de cada carrera en el listado
+- ✅ Al hacer clic en el icono de edición, se abre un formulario modal con los datos de la carrera precargados
+- ✅ Al guardar los cambios, la información de la carrera se actualiza correctamente
+- ✅ El sistema valida la unicidad del código de la carrera si se modifica
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Eliminar Carrera del Sistema
+
+### 🎯 HU: Eliminar Carrera del Sistema
 **Como:** Administrador del sistema
 **Quiero:** remover una carrera del sistema
 **Para:** depurar información obsoleta o incorrecta
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de eliminación (papelera) en la columna 'Acciones' de cada carrera en el listado
-- Al hacer clic en el icono de eliminación, se muestra una confirmación al usuario
-- Si la carrera no tiene materias o profesores asociados, se elimina del sistema
-- Si la carrera tiene dependencias, el sistema advierte e impide la eliminación
+- ✅ Existe un icono de eliminación (papelera) en la columna 'Acciones' de cada carrera en el listado
+- ✅ Al hacer clic en el icono de eliminación, se muestra una confirmación al usuario
+- ✅ Si la carrera no tiene materias o profesores asociados, se elimina del sistema
+- ✅ Si la carrera tiene dependencias, el sistema advierte e impide la eliminación
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Visualizar Permisos por Rol
+
+### 🎯 HU: Visualizar Permisos por Rol
 **Como:** Administrador
 **Quiero:** ver los permisos asociados a cada rol definido en el sistema
 **Para:** entender las capacidades de cada tipo de usuario y revisar la configuración de seguridad
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe una página 'Gestión de Roles' accesible desde la navegación lateral
-- La página muestra tarjetas para cada rol (ej. 'Administrador', 'CEI', 'Autoridad de facultad', 'Coordinador de Carrera', 'Profesor')
-- Cada tarjeta de rol muestra un listado de permisos asociados (ej. 'Ver facultades', 'Crear facultades', 'Eliminar facultades', 'Ver usuarios')
-- Los permisos se presentan como checkboxes, mostrando si están habilitados para ese rol
+- ✅ Existe una página 'Gestión de Roles' accesible desde la navegación lateral
+- ✅ La página muestra tarjetas para cada rol (ej. 'Administrador', 'CEI', 'Autoridad de facultad', 'Coordinador de Carrera', 'Profesor')
+- ✅ Cada tarjeta de rol muestra un listado de permisos asociados (ej. 'Ver facultades', 'Crear facultades', 'Eliminar facultades', 'Ver usuarios')
+- ✅ Los permisos se presentan como checkboxes, mostrando si están habilitados para ese rol
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Visualizar Perfil Personal
+
+### 🎯 HU: Visualizar Perfil Personal
 **Como:** Usuario del sistema
 **Quiero:** ver mi información personal y de contacto registrada
 **Para:** confirmar mis datos en la plataforma y tenerlos a mano
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe una página 'Mi Perfil' accesible desde la navegación lateral
-- La página muestra una sección de 'Información Personal' con campos (Nombre Completo, Correo Institucional, Facultad, Teléfono, Fecha de Registro)
-- Todos los campos de información personal muestran los datos del usuario logueado
+- ✅ Existe una página 'Mi Perfil' accesible desde la navegación lateral
+- ✅ La página muestra una sección de 'Información Personal' con campos (Nombre Completo, Correo Institucional, Facultad, Teléfono, Fecha de Registro)
+- ✅ Todos los campos de información personal muestran los datos del usuario logueado
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Visualizar Roles y Permisos Detallados de Perfil
+
+### 🎯 HU: Visualizar Roles y Permisos Detallados de Perfil
 **Como:** Usuario del sistema
 **Quiero:** ver los roles que tengo asignados y los permisos detallados de los mismos
 **Para:** comprender mis capacidades y accesos dentro del sistema
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- La página 'Mi Perfil' muestra una sección de 'Rol y Permisos'
-- Se muestra el 'Rol Asignado' (ej. 'Profesor', 'Decano')
-- Existe un desplegable o botón 'Ver Permisos Detallados'
-- Al expandir 'Ver Permisos Detallados', se lista los permisos específicos del usuario (ej. 'Visualizar Dashboard', 'Gestionar Cursos', 'Registrar Calificaciones')
+- ✅ La página 'Mi Perfil' muestra una sección de 'Rol y Permisos'
+- ✅ Se muestra el 'Rol Asignado' (ej. 'Profesor', 'Decano')
+- ✅ Existe un desplegable o botón 'Ver Permisos Detallados'
+- ✅ Al expandir 'Ver Permisos Detallados', se lista los permisos específicos del usuario (ej. 'Visualizar Dashboard', 'Gestionar Cursos', 'Registrar Calificaciones')
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Cambiar Contraseña Personal
+
+### 🎯 HU: Cambiar Contraseña Personal
 **Como:** Usuario del sistema
 **Quiero:** actualizar mi contraseña
 **Para:** mantener mi cuenta segura regularmente
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- La página 'Mi Perfil' muestra una sección de 'Cambiar Contraseña'
-- Existe un botón 'Actualizar Contraseña'
-- Al hacer clic en el botón, se abre un formulario modal para cambiar contraseña (campos: Contraseña Actual, Nueva Contraseña, Confirmar Nueva Contraseña)
-- El sistema valida que la 'Contraseña Actual' sea correcta
-- El sistema valida que 'Nueva Contraseña' y 'Confirmar Nueva Contraseña' coincidan y cumplan con políticas de seguridad
-- Al guardar, la contraseña se actualiza y se muestra un mensaje de éxito
+- ✅ La página 'Mi Perfil' muestra una sección de 'Cambiar Contraseña'
+- ✅ Existe un botón 'Actualizar Contraseña'
+- ✅ Al hacer clic en el botón, se abre un formulario modal para cambiar contraseña (campos: Contraseña Actual, Nueva Contraseña, Confirmar Nueva Contraseña)
+- ✅ El sistema valida que la 'Contraseña Actual' sea correcta
+- ✅ El sistema valida que 'Nueva Contraseña' y 'Confirmar Nueva Contraseña' coincidan y cumplan con políticas de seguridad
+- ✅ Al guardar, la contraseña se actualiza y se muestra un mensaje de éxito
 
-**Story Points:** 2
-**Prioridad:** Media (2)
+
+**Story Points:** 2 | **Prioridad:** Media (2)
 
 <!-- --- -->
 
@@ -7466,542 +7135,511 @@ Para las carreras cada carrera tiene un solo coordinador y existe una entidad su
 **Como:** 
 **Quiero:** 
 **Para:** 
-**Story Points:** N/A
-**Prioridad:** N/A
 
----
+**Story Points:** N/A**Prioridad:** N/A
 
-### HU: Iniciar Sesión en Poliacredita
+
+### 🎯 HU: Iniciar Sesión en Poliacredita
 **Como:** Usuario del sistema SAGA EPN EUR-ACE
 **Quiero:** ingresar mis credenciales institucionales y seleccionar mi rol
 **Para:** acceder a mis funcionalidades correspondientes a mi rol
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El sistema muestra un formulario con campos para 'Correo Institucional' y 'Contraseña'
-- El sistema muestra un selector de 'Rol' con opciones (Administrador, CEI, Autoridad Académica, Coordinador de Carrera, Profesor)
-- Al ingresar credenciales válidas y seleccionar un rol, el usuario es redirigido al Dashboard
-- Al ingresar credenciales inválidas, se muestra un mensaje de error claro
-- Existe un enlace para '¿Olvidaste tu contraseña?'
+- ✅ El sistema muestra un formulario con campos para 'Correo Institucional' y 'Contraseña'
+- ✅ El sistema muestra un selector de 'Rol' con opciones (Administrador, CEI, Autoridad Académica, Coordinador de Carrera, Profesor)
+- ✅ Al ingresar credenciales válidas y seleccionar un rol, el usuario es redirigido al Dashboard
+- ✅ Al ingresar credenciales inválidas, se muestra un mensaje de error claro
+- ✅ Existe un enlace para '¿Olvidaste tu contraseña?'
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Visualizar Conteo de Entidades en Dashboard
+
+### 🎯 HU: Visualizar Conteo de Entidades en Dashboard
 **Como:** Administrador
 **Quiero:** ver el número total de facultades, carreras y usuarios activos
 **Para:** obtener una visión general rápida del estado de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El Dashboard muestra el 'Total Facultades' con un valor numérico
-- El Dashboard muestra el 'Total Carreras' con un valor numérico
-- El Dashboard muestra el 'Usuarios Activos' con un valor numérico
+- ✅ El Dashboard muestra el 'Total Facultades' con un valor numérico
+- ✅ El Dashboard muestra el 'Total Carreras' con un valor numérico
+- ✅ El Dashboard muestra el 'Usuarios Activos' con un valor numérico
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Visualizar Actividad Reciente en Dashboard
+
+### 🎯 HU: Visualizar Actividad Reciente en Dashboard
 **Como:** Administrador
 **Quiero:** ver un registro de las últimas acciones realizadas en el sistema
 **Para:** monitorear la actividad de la plataforma
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El Dashboard muestra una sección de 'Actividad Reciente' con columnas 'Hora', 'Usuario', 'Acción'
-- La tabla muestra un listado de acciones recientes (ej. 'Creo nueva facultad FIEC', 'Actualizó datos de carrera Ingeniería Civil', 'Revisó informe de acreditación', 'Asignó rol a 'profesor@epn.edu.ec'', 'Registró nuevo profesor Juan Pérez')
-- Cada acción muestra la hora en formato relativo ('Hace 5 min', 'Hace 15 min')
-- Cada acción muestra el email del usuario que la realizó
-- Cada acción muestra una descripción concisa de la actividad
+- ✅ El Dashboard muestra una sección de 'Actividad Reciente' con columnas 'Hora', 'Usuario', 'Acción'
+- ✅ La tabla muestra un listado de acciones recientes (ej. 'Creo nueva facultad FIEC', 'Actualizó datos de carrera Ingeniería Civil', 'Revisó informe de acreditación', 'Asignó rol a 'profesor@epn.edu.ec'', 'Registró nuevo profesor Juan Pérez')
+- ✅ Cada acción muestra la hora en formato relativo ('Hace 5 min', 'Hace 15 min')
+- ✅ Cada acción muestra el email del usuario que la realizó
+- ✅ Cada acción muestra una descripción concisa de la actividad
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Acceder a Acciones Rápidas desde Dashboard
+
+### 🎯 HU: Acceder a Acciones Rápidas desde Dashboard
 **Como:** Administrador
 **Quiero:** tener enlaces directos a funcionalidades de gestión importantes
 **Para:** agilizar mi navegación y ejecución de tareas comunes
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El Dashboard muestra una sección de 'Acceso Rápido'
-- Esta sección incluye un botón o enlace con icono y texto 'Gestionar Carreras'
-- Esta sección incluye un botón o enlace con icono y texto 'Gestionar Profesores'
-- Esta sección incluye un botón o enlace con icono y texto 'Ver Mi Perfil'
-- Al hacer clic en cada botón, el usuario es redirigido a la página correspondiente
+- ✅ El Dashboard muestra una sección de 'Acceso Rápido'
+- ✅ Esta sección incluye un botón o enlace con icono y texto 'Gestionar Carreras'
+- ✅ Esta sección incluye un botón o enlace con icono y texto 'Gestionar Profesores'
+- ✅ Esta sección incluye un botón o enlace con icono y texto 'Ver Mi Perfil'
+- ✅ Al hacer clic en cada botón, el usuario es redirigido a la página correspondiente
 
-**Story Points:** 1
-**Prioridad:** Media (2)
 
----
+**Story Points:** 1 | **Prioridad:** Media (2)
 
-### HU: Listar Usuarios Registrados
+
+### 🎯 HU: Listar Usuarios Registrados
 **Como:** Administrador
 **Quiero:** ver una lista de todos los usuarios registrados con su información clave
 **Para:** gestionar el acceso y los roles en el sistema
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe una página 'Gestión de Usuarios' accesible desde la navegación lateral
-- Se muestra una tabla con columnas 'Email', 'Nombre', 'Rol', 'Estado' y 'Acciones'
-- Los datos de los usuarios se cargan correctamente en la tabla
-- Se muestra el botón '+ Nuevo Usuario' en la página
+- ✅ Existe una página 'Gestión de Usuarios' accesible desde la navegación lateral
+- ✅ Se muestra una tabla con columnas 'Email', 'Nombre', 'Rol', 'Estado' y 'Acciones'
+- ✅ Los datos de los usuarios se cargan correctamente en la tabla
+- ✅ Se muestra el botón '+ Nuevo Usuario' en la página
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Registrar Nuevo Usuario
+
+### 🎯 HU: Registrar Nuevo Usuario
 **Como:** Administrador
 **Quiero:** crear un nuevo registro de usuario en el sistema
 **Para:** permitir que nuevas personas accedan a la plataforma
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Al hacer clic en '+ Nuevo Usuario', se abre un formulario modal de registro de usuario
-- El formulario incluye campos para 'Cédula', 'Nombres', 'Apellidos', 'Email', 'Teléfono'
-- El formulario incluye un selector de 'Rol' con opciones de checkbox (ej. Comité Evaluación Interna, Autoridad Académica, Coordinador de Carrera, Profesor)
-- El formulario incluye un selector de 'Facultad' con función de búsqueda
-- La Cédula y el Email son validados como únicos en el sistema
-- Al enviar datos válidos, el usuario se guarda y se muestra en el listado
+- ✅ Al hacer clic en '+ Nuevo Usuario', se abre un formulario modal de registro de usuario
+- ✅ El formulario incluye campos para 'Cédula', 'Nombres', 'Apellidos', 'Email', 'Teléfono'
+- ✅ El formulario incluye un selector de 'Rol' con opciones de checkbox (ej. Comité Evaluación Interna, Autoridad Académica, Coordinador de Carrera, Profesor)
+- ✅ El formulario incluye un selector de 'Facultad' con función de búsqueda
+- ✅ La Cédula y el Email son validados como únicos en el sistema
+- ✅ Al enviar datos válidos, el usuario se guarda y se muestra en el listado
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Editar Información de Usuario
+
+### 🎯 HU: Editar Información de Usuario
 **Como:** Administrador
 **Quiero:** modificar los datos de un usuario existente
 **Para:** corregir o actualizar su información, roles o estado
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de edición (lápiz) en la columna 'Acciones' de cada usuario en el listado
-- Al hacer clic en el icono de edición, se abre un formulario modal con los datos del usuario precargados
-- El formulario permite modificar 'Nombres', 'Apellidos', 'Email', 'Teléfono', 'Roles' y 'Facultad'
-- El sistema valida la unicidad del Email y Cédula si se modifican
-- Al guardar los cambios, la información del usuario se actualiza correctamente
+- ✅ Existe un icono de edición (lápiz) en la columna 'Acciones' de cada usuario en el listado
+- ✅ Al hacer clic en el icono de edición, se abre un formulario modal con los datos del usuario precargados
+- ✅ El formulario permite modificar 'Nombres', 'Apellidos', 'Email', 'Teléfono', 'Roles' y 'Facultad'
+- ✅ El sistema valida la unicidad del Email y Cédula si se modifican
+- ✅ Al guardar los cambios, la información del usuario se actualiza correctamente
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Buscar Usuarios por Palabra Clave
+
+### 🎯 HU: Buscar Usuarios por Palabra Clave
 **Como:** Administrador
 **Quiero:** encontrar usuarios específicos rápidamente por email, nombre o cédula
 **Para:** agilizar la gestión de usuarios
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un campo de búsqueda ('Buscar usuario...') en la página de listado de Usuarios
-- Al escribir texto, la tabla se filtra y muestra solo los usuarios que coinciden con el email, nombre o cédula
-- La búsqueda debe ser insensible a mayúsculas y minúsculas
-- Al borrar el texto de búsqueda, se muestra el listado completo de usuarios
+- ✅ Existe un campo de búsqueda ('Buscar usuario...') en la página de listado de Usuarios
+- ✅ Al escribir texto, la tabla se filtra y muestra solo los usuarios que coinciden con el email, nombre o cédula
+- ✅ La búsqueda debe ser insensible a mayúsculas y minúsculas
+- ✅ Al borrar el texto de búsqueda, se muestra el listado completo de usuarios
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Filtrar Usuarios por Rol
+
+### 🎯 HU: Filtrar Usuarios por Rol
 **Como:** Administrador
 **Quiero:** ver usuarios que tienen uno o más roles específicos
 **Para:** organizar la visualización y gestionar permisos por rol
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector de filtro ('Todos los Roles') en la página de listado de Usuarios
-- Al seleccionar uno o varios roles, la tabla se actualiza mostrando solo los usuarios con esos roles
-- La opción 'Todos los Roles' muestra todos los usuarios
+- ✅ Existe un selector de filtro ('Todos los Roles') en la página de listado de Usuarios
+- ✅ Al seleccionar uno o varios roles, la tabla se actualiza mostrando solo los usuarios con esos roles
+- ✅ La opción 'Todos los Roles' muestra todos los usuarios
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Filtrar Usuarios por Estado
+
+### 🎯 HU: Filtrar Usuarios por Estado
 **Como:** Administrador
 **Quiero:** ver usuarios que tienen un estado específico (Activo/Inactivo)
 **Para:** gestionar el acceso y habilitación/deshabilitación de cuentas
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector de filtro ('Todos los Estados') en la página de listado de Usuarios
-- Al seleccionar un estado, la tabla se actualiza mostrando solo los usuarios con ese estado
-- La opción 'Todos los Estados' muestra todos los usuarios
+- ✅ Existe un selector de filtro ('Todos los Estados') en la página de listado de Usuarios
+- ✅ Al seleccionar un estado, la tabla se actualiza mostrando solo los usuarios con ese estado
+- ✅ La opción 'Todos los Estados' muestra todos los usuarios
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Paginar Listado de Usuarios
+
+### 🎯 HU: Paginar Listado de Usuarios
 **Como:** Administrador
 **Quiero:** navegar por el listado de usuarios en bloques manejables
 **Para:** gestionar grandes volúmenes de usuarios eficientemente
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Usuarios
-- El componente permite ir a la página siguiente
-- El componente permite ir a la página anterior
-- El componente permite ir directamente a una página específica
-- Al cambiar de página, la tabla de usuarios se actualiza con los datos correspondientes
+- ✅ Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Usuarios
+- ✅ El componente permite ir a la página siguiente
+- ✅ El componente permite ir a la página anterior
+- ✅ El componente permite ir directamente a una página específica
+- ✅ Al cambiar de página, la tabla de usuarios se actualiza con los datos correspondientes
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Cambiar Estado de Usuario (Activar/Desactivar)
+
+### 🎯 HU: Cambiar Estado de Usuario (Activar/Desactivar)
 **Como:** Administrador
 **Quiero:** habilitar o deshabilitar el acceso de un usuario
 **Para:** controlar quién puede usar el sistema
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un botón 'Desactivar' o 'Activar' en la columna 'Acciones' de cada usuario, según el estado actual
-- Al hacer clic en el botón, el estado del usuario cambia (Activo a Inactivo, o viceversa)
-- El estado visual en la tabla se actualiza inmediatamente (ej. texto 'Activo'/'Inactivo' y botón)
-- Se muestra una confirmación o mensaje de éxito/error al usuario
+- ✅ Existe un botón 'Desactivar' o 'Activar' en la columna 'Acciones' de cada usuario, según el estado actual
+- ✅ Al hacer clic en el botón, el estado del usuario cambia (Activo a Inactivo, o viceversa)
+- ✅ El estado visual en la tabla se actualiza inmediatamente (ej. texto 'Activo'/'Inactivo' y botón)
+- ✅ Se muestra una confirmación o mensaje de éxito/error al usuario
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Listar Facultades Registradas
+
+### 🎯 HU: Listar Facultades Registradas
 **Como:** Administrador del sistema
 **Quiero:** ver todas las facultades con su información principal
 **Para:** gestionar la estructura académica de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe una página dedicada a 'Gestión de Facultades' accesible desde la navegación lateral
-- Se muestra una tabla con columnas 'Código', 'Nombre', 'Carreras', 'Decano' y 'Acciones'
-- Los datos de las facultades se cargan correctamente en la tabla
-- Se muestra el botón '+ Nueva Facultad' en la página
+- ✅ Existe una página dedicada a 'Gestión de Facultades' accesible desde la navegación lateral
+- ✅ Se muestra una tabla con columnas 'Código', 'Nombre', 'Carreras', 'Decano' y 'Acciones'
+- ✅ Los datos de las facultades se cargan correctamente en la tabla
+- ✅ Se muestra el botón '+ Nueva Facultad' en la página
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Buscar Facultades por Código o Nombre
+
+### 🎯 HU: Buscar Facultades por Código o Nombre
 **Como:** Administrador del sistema
 **Quiero:** encontrar facultades específicas rápidamente
 **Para:** agilizar la gestión de facultades
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un campo de búsqueda ('Buscar por código o nombre...') en la página de listado de Facultades
-- Al escribir texto, la tabla se filtra y muestra solo las facultades que coinciden con el código o nombre
-- La búsqueda debe ser insensible a mayúsculas y minúsculas
-- Al borrar el texto de búsqueda, se muestra el listado completo de facultades
+- ✅ Existe un campo de búsqueda ('Buscar por código o nombre...') en la página de listado de Facultades
+- ✅ Al escribir texto, la tabla se filtra y muestra solo las facultades que coinciden con el código o nombre
+- ✅ La búsqueda debe ser insensible a mayúsculas y minúsculas
+- ✅ Al borrar el texto de búsqueda, se muestra el listado completo de facultades
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Filtrar Facultades por Carreras
+
+### 🎯 HU: Filtrar Facultades por Carreras
 **Como:** Administrador del sistema
 **Quiero:** filtrar el listado de facultades
 **Para:** organizar la visualización por la cantidad de carreras que gestionan
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector de filtro ('Filtrar por Carreras') en la página de listado de Facultades
-- Al seleccionar una opción del filtro (ej. 'Con más de 5 carreras'), la tabla de facultades se actualiza mostrando solo las que cumplen el criterio
-- La opción 'Todas las Carreras' muestra todas las facultades
+- ✅ Existe un selector de filtro ('Filtrar por Carreras') en la página de listado de Facultades
+- ✅ Al seleccionar una opción del filtro (ej. 'Con más de 5 carreras'), la tabla de facultades se actualiza mostrando solo las que cumplen el criterio
+- ✅ La opción 'Todas las Carreras' muestra todas las facultades
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Paginar Listado de Facultades
+
+### 🎯 HU: Paginar Listado de Facultades
 **Como:** Administrador del sistema
 **Quiero:** navegar por el listado de facultades en bloques manejables
 **Para:** gestionar grandes volúmenes de información eficientemente
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Facultades
-- El componente permite ir a la página siguiente
-- El componente permite ir a la página anterior
-- El componente permite ir directamente a una página específica
-- Al cambiar de página, la tabla de facultades se actualiza con los datos correspondientes
+- ✅ Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Facultades
+- ✅ El componente permite ir a la página siguiente
+- ✅ El componente permite ir a la página anterior
+- ✅ El componente permite ir directamente a una página específica
+- ✅ Al cambiar de página, la tabla de facultades se actualiza con los datos correspondientes
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Registrar Nueva Facultad
+
+### 🎯 HU: Registrar Nueva Facultad
 **Como:** Administrador del sistema
 **Quiero:** agregar una nueva facultad al sistema
 **Para:** mantener actualizada la estructura organizativa de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Al hacer clic en '+ Nueva Facultad', se abre un formulario modal de registro de Facultad
-- El formulario incluye campos para 'Código', 'Nombre', 'Descripción' y un selector de 'Decano'
-- El selector de 'Decano' permite buscar y seleccionar un usuario existente
-- Al enviar datos válidos, la facultad se guarda y se muestra en el listado
-- Al enviar datos inválidos (ej. código o nombre duplicado), se muestra un mensaje de error claro
+- ✅ Al hacer clic en '+ Nueva Facultad', se abre un formulario modal de registro de Facultad
+- ✅ El formulario incluye campos para 'Código', 'Nombre', 'Descripción' y un selector de 'Decano'
+- ✅ El selector de 'Decano' permite buscar y seleccionar un usuario existente
+- ✅ Al enviar datos válidos, la facultad se guarda y se muestra en el listado
+- ✅ Al enviar datos inválidos (ej. código o nombre duplicado), se muestra un mensaje de error claro
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Editar Información de Facultad
+
+### 🎯 HU: Editar Información de Facultad
 **Como:** Administrador del sistema
 **Quiero:** modificar los datos de una facultad existente
 **Para:** corregir o actualizar su información
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de edición (lápiz) en la columna 'Acciones' de cada facultad en el listado
-- Al hacer clic en el icono de edición, se abre un formulario modal con los datos de la facultad precargados
-- Al guardar los cambios, la información de la facultad se actualiza correctamente
-- El sistema valida la unicidad del código y nombre de la facultad si se modifican
+- ✅ Existe un icono de edición (lápiz) en la columna 'Acciones' de cada facultad en el listado
+- ✅ Al hacer clic en el icono de edición, se abre un formulario modal con los datos de la facultad precargados
+- ✅ Al guardar los cambios, la información de la facultad se actualiza correctamente
+- ✅ El sistema valida la unicidad del código y nombre de la facultad si se modifican
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Eliminar Facultad del Sistema
+
+### 🎯 HU: Eliminar Facultad del Sistema
 **Como:** Administrador del sistema
 **Quiero:** remover una facultad del sistema
 **Para:** depurar información obsoleta o incorrecta
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de eliminación (papelera) en la columna 'Acciones' de cada facultad en el listado
-- Al hacer clic en el icono de eliminación, se muestra una confirmación al usuario
-- Si la facultad no tiene carreras asociadas, se elimina del sistema
-- Si la facultad tiene carreras asociadas, el sistema advierte e impide la eliminación
+- ✅ Existe un icono de eliminación (papelera) en la columna 'Acciones' de cada facultad en el listado
+- ✅ Al hacer clic en el icono de eliminación, se muestra una confirmación al usuario
+- ✅ Si la facultad no tiene carreras asociadas, se elimina del sistema
+- ✅ Si la facultad tiene carreras asociadas, el sistema advierte e impide la eliminación
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Listar Carreras Registradas
+
+### 🎯 HU: Listar Carreras Registradas
 **Como:** Administrador del sistema
 **Quiero:** ver todas las carreras con su información principal
 **Para:** gestionar la oferta académica de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe una página dedicada a 'Gestión de Carreras' accesible desde la navegación lateral
-- Se muestra una tabla con columnas 'Código', 'Nombre', 'Facultad', 'Coordinador' y 'Acciones'
-- Los datos de las carreras se cargan correctamente en la tabla
-- Se muestra el botón '+ Nueva Carrera' en la página
+- ✅ Existe una página dedicada a 'Gestión de Carreras' accesible desde la navegación lateral
+- ✅ Se muestra una tabla con columnas 'Código', 'Nombre', 'Facultad', 'Coordinador' y 'Acciones'
+- ✅ Los datos de las carreras se cargan correctamente en la tabla
+- ✅ Se muestra el botón '+ Nueva Carrera' en la página
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Buscar Carreras por Palabra Clave
+
+### 🎯 HU: Buscar Carreras por Palabra Clave
 **Como:** Administrador del sistema
 **Quiero:** encontrar carreras específicas rápidamente por código o nombre
 **Para:** agilizar la gestión de carreras
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un campo de búsqueda ('Buscar carrera...') en la página de listado de Carreras
-- Al escribir texto, la tabla se filtra y muestra solo las carreras que coinciden con el código o nombre
-- La búsqueda debe ser insensible a mayúsculas y minúsculas
-- Al borrar el texto de búsqueda, se muestra el listado completo de carreras
+- ✅ Existe un campo de búsqueda ('Buscar carrera...') en la página de listado de Carreras
+- ✅ Al escribir texto, la tabla se filtra y muestra solo las carreras que coinciden con el código o nombre
+- ✅ La búsqueda debe ser insensible a mayúsculas y minúsculas
+- ✅ Al borrar el texto de búsqueda, se muestra el listado completo de carreras
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Filtrar Carreras por Facultad
+
+### 🎯 HU: Filtrar Carreras por Facultad
 **Como:** Administrador del sistema
 **Quiero:** ver carreras que pertenecen a una facultad específica
 **Para:** organizar la visualización de la oferta académica
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector de filtro ('Todas las Facultades') en la página de listado de Carreras
-- Al seleccionar una facultad, la tabla se actualiza mostrando solo las carreras de esa facultad
-- La opción 'Todas las Facultades' muestra todas las carreras
+- ✅ Existe un selector de filtro ('Todas las Facultades') en la página de listado de Carreras
+- ✅ Al seleccionar una facultad, la tabla se actualiza mostrando solo las carreras de esa facultad
+- ✅ La opción 'Todas las Facultades' muestra todas las carreras
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Filtrar Carreras por Estado
+
+### 🎯 HU: Filtrar Carreras por Estado
 **Como:** Administrador del sistema
 **Quiero:** ver carreras que tienen un estado específico
 **Para:** organizar la visualización por estado de la carrera (ej. activa, inactiva, en revisión)
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector de filtro ('Todos los Estados') en la página de listado de Carreras
-- Al seleccionar un estado, la tabla se actualiza mostrando solo las carreras con ese estado
-- La opción 'Todos los Estados' muestra todas las carreras
+- ✅ Existe un selector de filtro ('Todos los Estados') en la página de listado de Carreras
+- ✅ Al seleccionar un estado, la tabla se actualiza mostrando solo las carreras con ese estado
+- ✅ La opción 'Todos los Estados' muestra todas las carreras
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Paginar Listado de Carreras
+
+### 🎯 HU: Paginar Listado de Carreras
 **Como:** Administrador del sistema
 **Quiero:** navegar por el listado de carreras en bloques manejables
 **Para:** gestionar grandes volúmenes de información eficientemente
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Carreras
-- El componente permite ir a la página siguiente
-- El componente permite ir a la página anterior
-- El componente permite ir directamente a una página específica
-- Al cambiar de página, la tabla de carreras se actualiza con los datos correspondientes
+- ✅ Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Carreras
+- ✅ El componente permite ir a la página siguiente
+- ✅ El componente permite ir a la página anterior
+- ✅ El componente permite ir directamente a una página específica
+- ✅ Al cambiar de página, la tabla de carreras se actualiza con los datos correspondientes
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Registrar Nueva Carrera
+
+### 🎯 HU: Registrar Nueva Carrera
 **Como:** Administrador
 **Quiero:** ingresar la información de una nueva carrera
 **Para:** agregar una oferta académica
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Al hacer clic en '+ Nueva Carrera', se abre un formulario de registro de carrera
-- El formulario incluye campos para 'Código', 'Nombre'
-- Existe un selector para asociar la carrera a una 'Facultad' existente
-- Existe un selector para asignar un 'Coordinador' de una lista de usuarios existentes (que sean profesores)
-- El Código de la carrera es validado como único
-- Al guardar, la carrera queda registrada exitosamente y se muestra en el listado
+- ✅ Al hacer clic en '+ Nueva Carrera', se abre un formulario de registro de carrera
+- ✅ El formulario incluye campos para 'Código', 'Nombre'
+- ✅ Existe un selector para asociar la carrera a una 'Facultad' existente
+- ✅ Existe un selector para asignar un 'Coordinador' de una lista de usuarios existentes (que sean profesores)
+- ✅ El Código de la carrera es validado como único
+- ✅ Al guardar, la carrera queda registrada exitosamente y se muestra en el listado
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Editar Información de Carrera
+
+### 🎯 HU: Editar Información de Carrera
 **Como:** Administrador del sistema
 **Quiero:** modificar los datos de una carrera existente
 **Para:** corregir o actualizar su información
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de edición (lápiz) en la columna 'Acciones' de cada carrera en el listado
-- Al hacer clic en el icono de edición, se abre un formulario modal con los datos de la carrera precargados
-- Al guardar los cambios, la información de la carrera se actualiza correctamente
-- El sistema valida la unicidad del código de la carrera si se modifica
+- ✅ Existe un icono de edición (lápiz) en la columna 'Acciones' de cada carrera en el listado
+- ✅ Al hacer clic en el icono de edición, se abre un formulario modal con los datos de la carrera precargados
+- ✅ Al guardar los cambios, la información de la carrera se actualiza correctamente
+- ✅ El sistema valida la unicidad del código de la carrera si se modifica
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Eliminar Carrera del Sistema
+
+### 🎯 HU: Eliminar Carrera del Sistema
 **Como:** Administrador del sistema
 **Quiero:** remover una carrera del sistema
 **Para:** depurar información obsoleta o incorrecta
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de eliminación (papelera) en la columna 'Acciones' de cada carrera en el listado
-- Al hacer clic en el icono de eliminación, se muestra una confirmación al usuario
-- Si la carrera no tiene materias o profesores asociados, se elimina del sistema
-- Si la carrera tiene dependencias, el sistema advierte e impide la eliminación
+- ✅ Existe un icono de eliminación (papelera) en la columna 'Acciones' de cada carrera en el listado
+- ✅ Al hacer clic en el icono de eliminación, se muestra una confirmación al usuario
+- ✅ Si la carrera no tiene materias o profesores asociados, se elimina del sistema
+- ✅ Si la carrera tiene dependencias, el sistema advierte e impide la eliminación
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Visualizar Permisos por Rol
+
+### 🎯 HU: Visualizar Permisos por Rol
 **Como:** Administrador
 **Quiero:** ver los permisos asociados a cada rol definido en el sistema
 **Para:** entender las capacidades de cada tipo de usuario y revisar la configuración de seguridad
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe una página 'Gestión de Roles' accesible desde la navegación lateral
-- La página muestra tarjetas para cada rol (ej. 'Administrador', 'CEI', 'Autoridad de facultad', 'Coordinador de Carrera', 'Profesor')
-- Cada tarjeta de rol muestra un listado de permisos asociados (ej. 'Ver facultades', 'Crear facultades', 'Eliminar facultades', 'Ver usuarios')
-- Los permisos se presentan como checkboxes, mostrando si están habilitados para ese rol
+- ✅ Existe una página 'Gestión de Roles' accesible desde la navegación lateral
+- ✅ La página muestra tarjetas para cada rol (ej. 'Administrador', 'CEI', 'Autoridad de facultad', 'Coordinador de Carrera', 'Profesor')
+- ✅ Cada tarjeta de rol muestra un listado de permisos asociados (ej. 'Ver facultades', 'Crear facultades', 'Eliminar facultades', 'Ver usuarios')
+- ✅ Los permisos se presentan como checkboxes, mostrando si están habilitados para ese rol
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Visualizar Perfil Personal
+
+### 🎯 HU: Visualizar Perfil Personal
 **Como:** Usuario del sistema
 **Quiero:** ver mi información personal y de contacto registrada
 **Para:** confirmar mis datos en la plataforma y tenerlos a mano
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe una página 'Mi Perfil' accesible desde la navegación lateral
-- La página muestra una sección de 'Información Personal' con campos (Nombre Completo, Correo Institucional, Facultad, Teléfono, Fecha de Registro)
-- Todos los campos de información personal muestran los datos del usuario logueado
+- ✅ Existe una página 'Mi Perfil' accesible desde la navegación lateral
+- ✅ La página muestra una sección de 'Información Personal' con campos (Nombre Completo, Correo Institucional, Facultad, Teléfono, Fecha de Registro)
+- ✅ Todos los campos de información personal muestran los datos del usuario logueado
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Visualizar Roles y Permisos Detallados de Perfil
+
+### 🎯 HU: Visualizar Roles y Permisos Detallados de Perfil
 **Como:** Usuario del sistema
 **Quiero:** ver los roles que tengo asignados y los permisos detallados de los mismos
 **Para:** comprender mis capacidades y accesos dentro del sistema
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- La página 'Mi Perfil' muestra una sección de 'Rol y Permisos'
-- Se muestra el 'Rol Asignado' (ej. 'Profesor', 'Decano')
-- Existe un desplegable o botón 'Ver Permisos Detallados'
-- Al expandir 'Ver Permisos Detallados', se lista los permisos específicos del usuario (ej. 'Visualizar Dashboard', 'Gestionar Cursos', 'Registrar Calificaciones')
+- ✅ La página 'Mi Perfil' muestra una sección de 'Rol y Permisos'
+- ✅ Se muestra el 'Rol Asignado' (ej. 'Profesor', 'Decano')
+- ✅ Existe un desplegable o botón 'Ver Permisos Detallados'
+- ✅ Al expandir 'Ver Permisos Detallados', se lista los permisos específicos del usuario (ej. 'Visualizar Dashboard', 'Gestionar Cursos', 'Registrar Calificaciones')
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Cambiar Contraseña Personal
+
+### 🎯 HU: Cambiar Contraseña Personal
 **Como:** Usuario del sistema
 **Quiero:** actualizar mi contraseña
 **Para:** mantener mi cuenta segura regularmente
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- La página 'Mi Perfil' muestra una sección de 'Cambiar Contraseña'
-- Existe un botón 'Actualizar Contraseña'
-- Al hacer clic en el botón, se abre un formulario modal para cambiar contraseña (campos: Contraseña Actual, Nueva Contraseña, Confirmar Nueva Contraseña)
-- El sistema valida que la 'Contraseña Actual' sea correcta
-- El sistema valida que 'Nueva Contraseña' y 'Confirmar Nueva Contraseña' coincidan y cumplan con políticas de seguridad
-- Al guardar, la contraseña se actualiza y se muestra un mensaje de éxito
+- ✅ La página 'Mi Perfil' muestra una sección de 'Cambiar Contraseña'
+- ✅ Existe un botón 'Actualizar Contraseña'
+- ✅ Al hacer clic en el botón, se abre un formulario modal para cambiar contraseña (campos: Contraseña Actual, Nueva Contraseña, Confirmar Nueva Contraseña)
+- ✅ El sistema valida que la 'Contraseña Actual' sea correcta
+- ✅ El sistema valida que 'Nueva Contraseña' y 'Confirmar Nueva Contraseña' coincidan y cumplan con políticas de seguridad
+- ✅ Al guardar, la contraseña se actualiza y se muestra un mensaje de éxito
 
-**Story Points:** 2
-**Prioridad:** Media (2)
+
+**Story Points:** 2 | **Prioridad:** Media (2)
 
 <!-- --- -->
 
@@ -8023,544 +7661,513 @@ Sprint planning vuevle a crearme las hus
 **Como:** 
 **Quiero:** 
 **Para:** 
-**Story Points:** N/A
-**Prioridad:** N/A
 
----
+**Story Points:** N/A**Prioridad:** N/A
 
-### HU: Iniciar Sesión en Poliacredita
+
+### 🎯 HU: Iniciar Sesión en Poliacredita
 **Como:** Usuario del sistema SAGA EPN EUR-ACE
 **Quiero:** ingresar mis credenciales institucionales y seleccionar mi rol
 **Para:** acceder a mis funcionalidades correspondientes a mi rol
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El sistema muestra un formulario con campos para 'Correo Institucional' y 'Contraseña'
-- El sistema muestra un selector de 'Rol' con opciones (Administrador, CEI, Autoridad Académica, Coordinador de Carrera, Profesor)
-- Al ingresar credenciales válidas y seleccionar un rol, el usuario es redirigido al Dashboard
-- Al ingresar credenciales inválidas, se muestra un mensaje de error claro
-- Existe un enlace para '¿Olvidaste tu contraseña?'
+- ✅ El sistema muestra un formulario con campos para 'Correo Institucional' y 'Contraseña'
+- ✅ El sistema muestra un selector de 'Rol' con opciones (Administrador, CEI, Autoridad Académica, Coordinador de Carrera, Profesor)
+- ✅ Al ingresar credenciales válidas y seleccionar un rol, el usuario es redirigido al Dashboard
+- ✅ Al ingresar credenciales inválidas, se muestra un mensaje de error claro
+- ✅ Existe un enlace para '¿Olvidaste tu contraseña?'
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Visualizar Conteo de Entidades en Dashboard
+
+### 🎯 HU: Visualizar Conteo de Entidades en Dashboard
 **Como:** Administrador
 **Quiero:** ver el número total de facultades, carreras y usuarios activos
 **Para:** obtener una visión general rápida del estado de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El Dashboard muestra el 'Total Facultades' con un valor numérico
-- El Dashboard muestra el 'Total Carreras' con un valor numérico
-- El Dashboard muestra el 'Usuarios Activos' con un valor numérico
+- ✅ El Dashboard muestra el 'Total Facultades' con un valor numérico
+- ✅ El Dashboard muestra el 'Total Carreras' con un valor numérico
+- ✅ El Dashboard muestra el 'Usuarios Activos' con un valor numérico
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Visualizar Actividad Reciente en Dashboard
+
+### 🎯 HU: Visualizar Actividad Reciente en Dashboard
 **Como:** Administrador
 **Quiero:** ver un registro de las últimas acciones realizadas en el sistema
 **Para:** monitorear la actividad de la plataforma
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El Dashboard muestra una sección de 'Actividad Reciente' con columnas 'Hora', 'Usuario', 'Acción'
-- La tabla muestra un listado de acciones recientes (ej. 'Creo nueva facultad FIEC', 'Actualizó datos de carrera Ingeniería Civil', 'Revisó informe de acreditación', 'Asignó rol a 'profesor@epn.edu.ec'', 'Registró nuevo profesor Juan Pérez')
-- Cada acción muestra la hora en formato relativo ('Hace 5 min', 'Hace 15 min')
-- Cada acción muestra el email del usuario que la realizó
-- Cada acción muestra una descripción concisa de la actividad
+- ✅ El Dashboard muestra una sección de 'Actividad Reciente' con columnas 'Hora', 'Usuario', 'Acción'
+- ✅ La tabla muestra un listado de acciones recientes (ej. 'Creo nueva facultad FIEC', 'Actualizó datos de carrera Ingeniería Civil', 'Revisó informe de acreditación', 'Asignó rol a 'profesor@epn.edu.ec'', 'Registró nuevo profesor Juan Pérez')
+- ✅ Cada acción muestra la hora en formato relativo ('Hace 5 min', 'Hace 15 min')
+- ✅ Cada acción muestra el email del usuario que la realizó
+- ✅ Cada acción muestra una descripción concisa de la actividad
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Acceder a Acciones Rápidas desde Dashboard
+
+### 🎯 HU: Acceder a Acciones Rápidas desde Dashboard
 **Como:** Administrador
 **Quiero:** tener enlaces directos a funcionalidades de gestión importantes
 **Para:** agilizar mi navegación y ejecución de tareas comunes
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El Dashboard muestra una sección de 'Acceso Rápido'
-- Esta sección incluye un botón o enlace con icono y texto 'Gestionar Carreras'
-- Esta sección incluye un botón o enlace con icono y texto 'Gestionar Profesores'
-- Esta sección incluye un botón o enlace con icono y texto 'Ver Mi Perfil'
-- Al hacer clic en cada botón, el usuario es redirigido a la página correspondiente
+- ✅ El Dashboard muestra una sección de 'Acceso Rápido'
+- ✅ Esta sección incluye un botón o enlace con icono y texto 'Gestionar Carreras'
+- ✅ Esta sección incluye un botón o enlace con icono y texto 'Gestionar Profesores'
+- ✅ Esta sección incluye un botón o enlace con icono y texto 'Ver Mi Perfil'
+- ✅ Al hacer clic en cada botón, el usuario es redirigido a la página correspondiente
 
-**Story Points:** 1
-**Prioridad:** Media (2)
 
----
+**Story Points:** 1 | **Prioridad:** Media (2)
 
-### HU: Listar Usuarios Registrados
+
+### 🎯 HU: Listar Usuarios Registrados
 **Como:** Administrador
 **Quiero:** ver una lista de todos los usuarios registrados con su información clave
 **Para:** gestionar el acceso y los roles en el sistema
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe una página 'Gestión de Usuarios' accesible desde la navegación lateral
-- Se muestra una tabla con columnas 'Email', 'Nombre', 'Rol', 'Estado' y 'Acciones'
-- Los datos de los usuarios se cargan correctamente en la tabla
-- Se muestra el botón '+ Nuevo Usuario' en la página
+- ✅ Existe una página 'Gestión de Usuarios' accesible desde la navegación lateral
+- ✅ Se muestra una tabla con columnas 'Email', 'Nombre', 'Rol', 'Estado' y 'Acciones'
+- ✅ Los datos de los usuarios se cargan correctamente en la tabla
+- ✅ Se muestra el botón '+ Nuevo Usuario' en la página
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Registrar Nuevo Usuario
+
+### 🎯 HU: Registrar Nuevo Usuario
 **Como:** Administrador
 **Quiero:** crear un nuevo registro de usuario en el sistema
 **Para:** permitir que nuevas personas accedan a la plataforma
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Al hacer clic en '+ Nuevo Usuario', se abre un formulario modal de registro de usuario
-- El formulario incluye campos para 'Cédula', 'Nombres', 'Apellidos', 'Email', 'Teléfono'
-- El formulario incluye un selector de 'Rol' con opciones de checkbox (ej. Comité Evaluación Interna, Autoridad Académica, Coordinador de Carrera, Profesor)
-- El formulario incluye un selector de 'Facultad' con función de búsqueda
-- La Cédula y el Email son validados como únicos en el sistema
-- Al guardar datos válidos, el usuario se guarda y se muestra en el listado
+- ✅ Al hacer clic en '+ Nuevo Usuario', se abre un formulario modal de registro de usuario
+- ✅ El formulario incluye campos para 'Cédula', 'Nombres', 'Apellidos', 'Email', 'Teléfono'
+- ✅ El formulario incluye un selector de 'Rol' con opciones de checkbox (ej. Comité Evaluación Interna, Autoridad Académica, Coordinador de Carrera, Profesor)
+- ✅ El formulario incluye un selector de 'Facultad' con función de búsqueda
+- ✅ La Cédula y el Email son validados como únicos en el sistema
+- ✅ Al guardar datos válidos, el usuario se guarda y se muestra en el listado
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Editar Información de Usuario
+
+### 🎯 HU: Editar Información de Usuario
 **Como:** Administrador
 **Quiero:** modificar los datos de un usuario existente
 **Para:** corregir o actualizar su información, roles o estado
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de edición (lápiz) en la columna 'Acciones' de cada usuario en el listado
-- Al hacer clic en el icono de edición, se abre un formulario modal con los datos del usuario precargados
-- El formulario permite modificar 'Nombres', 'Apellidos', 'Email', 'Teléfono', 'Roles' y 'Facultad'
-- El sistema valida la unicidad del Email y Cédula si se modifican
-- Al guardar los cambios, la información del usuario se actualiza correctamente
+- ✅ Existe un icono de edición (lápiz) en la columna 'Acciones' de cada usuario en el listado
+- ✅ Al hacer clic en el icono de edición, se abre un formulario modal con los datos del usuario precargados
+- ✅ El formulario permite modificar 'Nombres', 'Apellidos', 'Email', 'Teléfono', 'Roles' y 'Facultad'
+- ✅ El sistema valida la unicidad del Email y Cédula si se modifican
+- ✅ Al guardar los cambios, la información del usuario se actualiza correctamente
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Buscar Usuarios por Palabra Clave
+
+### 🎯 HU: Buscar Usuarios por Palabra Clave
 **Como:** Administrador
 **Quiero:** encontrar usuarios específicos rápidamente por email, nombre o cédula
 **Para:** agilizar la gestión de usuarios
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un campo de búsqueda ('Buscar usuario...') en la página de listado de Usuarios
-- Al escribir texto, la tabla se filtra y muestra solo los usuarios que coinciden con el email, nombre o cédula
-- La búsqueda debe ser insensible a mayúsculas y minúsculas
-- Al borrar el texto de búsqueda, se muestra el listado completo de usuarios
+- ✅ Existe un campo de búsqueda ('Buscar usuario...') en la página de listado de Usuarios
+- ✅ Al escribir texto, la tabla se filtra y muestra solo los usuarios que coinciden con el email, nombre o cédula
+- ✅ La búsqueda debe ser insensible a mayúsculas y minúsculas
+- ✅ Al borrar el texto de búsqueda, se muestra el listado completo de usuarios
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Filtrar Usuarios por Rol
+
+### 🎯 HU: Filtrar Usuarios por Rol
 **Como:** Administrador
 **Quiero:** ver usuarios que tienen uno o más roles específicos
 **Para:** organizar la visualización y gestionar permisos por rol
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector de filtro ('Todos los Roles') en la página de listado de Usuarios
-- Al seleccionar uno o varios roles, la tabla se actualiza mostrando solo los usuarios con esos roles
-- La opción 'Todos los Roles' muestra todos los usuarios
+- ✅ Existe un selector de filtro ('Todos los Roles') en la página de listado de Usuarios
+- ✅ Al seleccionar uno o varios roles, la tabla se actualiza mostrando solo los usuarios con esos roles
+- ✅ La opción 'Todos los Roles' muestra todos los usuarios
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Filtrar Usuarios por Estado
+
+### 🎯 HU: Filtrar Usuarios por Estado
 **Como:** Administrador
 **Quiero:** ver usuarios que tienen un estado específico (Activo/Inactivo)
 **Para:** gestionar el acceso y habilitación/deshabilitación de cuentas
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector de filtro ('Todos los Estados') en la página de listado de Usuarios
-- Al seleccionar un estado, la tabla se actualiza mostrando solo los usuarios con ese estado
-- La opción 'Todos los Estados' muestra todos los usuarios
+- ✅ Existe un selector de filtro ('Todos los Estados') en la página de listado de Usuarios
+- ✅ Al seleccionar un estado, la tabla se actualiza mostrando solo los usuarios con ese estado
+- ✅ La opción 'Todos los Estados' muestra todos los usuarios
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Paginar Listado de Usuarios
+
+### 🎯 HU: Paginar Listado de Usuarios
 **Como:** Administrador
 **Quiero:** navegar por el listado de usuarios en bloques manejables
 **Para:** gestionar grandes volúmenes de usuarios eficientemente
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Usuarios
-- El componente permite ir a la página siguiente
-- El componente permite ir a la página anterior
-- El componente permite ir directamente a una página específica
-- Al cambiar de página, la tabla de usuarios se actualiza con los datos correspondientes
+- ✅ Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Usuarios
+- ✅ El componente permite ir a la página siguiente
+- ✅ El componente permite ir a la página anterior
+- ✅ El componente permite ir directamente a una página específica
+- ✅ Al cambiar de página, la tabla de usuarios se actualiza con los datos correspondientes
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Cambiar Estado de Usuario (Activar/Desactivar)
+
+### 🎯 HU: Cambiar Estado de Usuario (Activar/Desactivar)
 **Como:** Administrador
 **Quiero:** habilitar o deshabilitar el acceso de un usuario
 **Para:** controlar quién puede usar el sistema
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un botón 'Desactivar' o 'Activar' en la columna 'Acciones' de cada usuario, según el estado actual
-- Al hacer clic en el botón, el estado del usuario cambia (Activo a Inactivo, o viceversa)
-- El estado visual en la tabla se actualiza inmediatamente (ej. texto 'Activo'/'Inactivo' y botón)
-- Se muestra una confirmación o mensaje de éxito/error al usuario
+- ✅ Existe un botón 'Desactivar' o 'Activar' en la columna 'Acciones' de cada usuario, según el estado actual
+- ✅ Al hacer clic en el botón, el estado del usuario cambia (Activo a Inactivo, o viceversa)
+- ✅ El estado visual en la tabla se actualiza inmediatamente (ej. texto 'Activo'/'Inactivo' y botón)
+- ✅ Se muestra una confirmación o mensaje de éxito/error al usuario
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Listar Facultades Registradas
+
+### 🎯 HU: Listar Facultades Registradas
 **Como:** Administrador del sistema
 **Quiero:** ver todas las facultades con su información principal
 **Para:** gestionar la estructura académica de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe una página dedicada a 'Gestión de Facultades' accesible desde la navegación lateral
-- Se muestra una tabla con columnas 'Código', 'Nombre', 'Carreras', 'Decano' y 'Acciones'
-- Los datos de las facultades se cargan correctamente en la tabla
-- Se muestra el botón '+ Nueva Facultad' en la página
+- ✅ Existe una página dedicada a 'Gestión de Facultades' accesible desde la navegación lateral
+- ✅ Se muestra una tabla con columnas 'Código', 'Nombre', 'Carreras', 'Decano' y 'Acciones'
+- ✅ Los datos de las facultades se cargan correctamente en la tabla
+- ✅ Se muestra el botón '+ Nueva Facultad' en la página
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Buscar Facultades por Código o Nombre
+
+### 🎯 HU: Buscar Facultades por Código o Nombre
 **Como:** Administrador del sistema
 **Quiero:** encontrar facultades específicas rápidamente
 **Para:** agilizar la gestión de facultades
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un campo de búsqueda ('Buscar por código o nombre...') en la página de listado de Facultades
-- Al escribir texto, la tabla se filtra y muestra solo las facultades que coinciden con el código o nombre
-- La búsqueda debe ser insensible a mayúsculas y minúsculas
-- Al borrar el texto de búsqueda, se muestra el listado completo de facultades
+- ✅ Existe un campo de búsqueda ('Buscar por código o nombre...') en la página de listado de Facultades
+- ✅ Al escribir texto, la tabla se filtra y muestra solo las facultades que coinciden con el código o nombre
+- ✅ La búsqueda debe ser insensible a mayúsculas y minúsculas
+- ✅ Al borrar el texto de búsqueda, se muestra el listado completo de facultades
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Filtrar Facultades por Carreras
+
+### 🎯 HU: Filtrar Facultades por Carreras
 **Como:** Administrador del sistema
 **Quiero:** filtrar el listado de facultades
 **Para:** organizar la visualización por la cantidad de carreras que gestionan
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector de filtro ('Filtrar por Carreras') en la página de listado de Facultades
-- Al seleccionar una opción del filtro (ej. 'Con más de 5 carreras'), la tabla de facultades se actualiza mostrando solo las que cumplen el criterio
-- La opción 'Todas las Carreras' muestra todas las facultades
+- ✅ Existe un selector de filtro ('Filtrar por Carreras') en la página de listado de Facultades
+- ✅ Al seleccionar una opción del filtro (ej. 'Con más de 5 carreras'), la tabla de facultades se actualiza mostrando solo las que cumplen el criterio
+- ✅ La opción 'Todas las Carreras' muestra todas las facultades
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Paginar Listado de Facultades
+
+### 🎯 HU: Paginar Listado de Facultades
 **Como:** Administrador del sistema
 **Quiero:** navegar por el listado de facultades en bloques manejables
 **Para:** gestionar grandes volúmenes de información eficientemente
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Facultades
-- El componente permite ir a la página siguiente
-- El componente permite ir a la página anterior
-- El componente permite ir directamente a una página específica
-- Al cambiar de página, la tabla de facultades se actualiza con los datos correspondientes
+- ✅ Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Facultades
+- ✅ El componente permite ir a la página siguiente
+- ✅ El componente permite ir a la página anterior
+- ✅ El componente permite ir directamente a una página específica
+- ✅ Al cambiar de página, la tabla de facultades se actualiza con los datos correspondientes
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Registrar Nueva Facultad
+
+### 🎯 HU: Registrar Nueva Facultad
 **Como:** Administrador del sistema
 **Quiero:** agregar una nueva facultad al sistema
 **Para:** mantener actualizada la estructura organizativa de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Al hacer clic en '+ Nueva Facultad', se abre un formulario modal de registro de Facultad
-- El formulario incluye campos para 'Código', 'Nombre', 'Descripción'
-- Existe un selector de 'Decano' que permite buscar y seleccionar un usuario existente con rol de Profesor
-- Al enviar datos válidos, la facultad se guarda y se muestra en el listado
-- Al enviar datos inválidos (ej. código o nombre duplicado), se muestra un mensaje de error claro
+- ✅ Al hacer clic en '+ Nueva Facultad', se abre un formulario modal de registro de Facultad
+- ✅ El formulario incluye campos para 'Código', 'Nombre', 'Descripción'
+- ✅ Existe un selector de 'Decano' que permite buscar y seleccionar un usuario existente con rol de Profesor
+- ✅ Al enviar datos válidos, la facultad se guarda y se muestra en el listado
+- ✅ Al enviar datos inválidos (ej. código o nombre duplicado), se muestra un mensaje de error claro
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Editar Información de Facultad
+
+### 🎯 HU: Editar Información de Facultad
 **Como:** Administrador del sistema
 **Quiero:** modificar los datos de una facultad existente
 **Para:** corregir o actualizar su información
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de edición (lápiz) en la columna 'Acciones' de cada facultad en el listado
-- Al hacer clic en el icono de edición, se abre un formulario modal con los datos de la facultad precargados
-- El selector de 'Decano' en el formulario de edición permite buscar y seleccionar un usuario existente con rol de Profesor
-- Al guardar los cambios, la información de la facultad se actualiza correctamente
-- El sistema valida la unicidad del código y nombre de la facultad si se modifican
+- ✅ Existe un icono de edición (lápiz) en la columna 'Acciones' de cada facultad en el listado
+- ✅ Al hacer clic en el icono de edición, se abre un formulario modal con los datos de la facultad precargados
+- ✅ El selector de 'Decano' en el formulario de edición permite buscar y seleccionar un usuario existente con rol de Profesor
+- ✅ Al guardar los cambios, la información de la facultad se actualiza correctamente
+- ✅ El sistema valida la unicidad del código y nombre de la facultad si se modifican
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Eliminar Facultad del Sistema
+
+### 🎯 HU: Eliminar Facultad del Sistema
 **Como:** Administrador del sistema
 **Quiero:** remover una facultad del sistema
 **Para:** depurar información obsoleta o incorrecta
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de eliminación (papelera) en la columna 'Acciones' de cada facultad en el listado
-- Al hacer clic en el icono de eliminación, se muestra una confirmación al usuario
-- Si la facultad no tiene carreras asociadas, se elimina del sistema
-- Si la facultad tiene carreras asociadas, el sistema advierte e impide la eliminación
+- ✅ Existe un icono de eliminación (papelera) en la columna 'Acciones' de cada facultad en el listado
+- ✅ Al hacer clic en el icono de eliminación, se muestra una confirmación al usuario
+- ✅ Si la facultad no tiene carreras asociadas, se elimina del sistema
+- ✅ Si la facultad tiene carreras asociadas, el sistema advierte e impide la eliminación
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Listar Carreras Registradas
+
+### 🎯 HU: Listar Carreras Registradas
 **Como:** Administrador del sistema
 **Quiero:** ver todas las carreras con su información principal
 **Para:** gestionar la oferta académica de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe una página dedicada a 'Gestión de Carreras' accesible desde la navegación lateral
-- Se muestra una tabla con columnas 'Código', 'Nombre', 'Facultad', 'Coordinador' y 'Acciones'
-- Los datos de las carreras se cargan correctamente en la tabla
-- Se muestra el botón '+ Nueva Carrera' en la página
+- ✅ Existe una página dedicada a 'Gestión de Carreras' accesible desde la navegación lateral
+- ✅ Se muestra una tabla con columnas 'Código', 'Nombre', 'Facultad', 'Coordinador' y 'Acciones'
+- ✅ Los datos de las carreras se cargan correctamente en la tabla
+- ✅ Se muestra el botón '+ Nueva Carrera' en la página
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Buscar Carreras por Palabra Clave
+
+### 🎯 HU: Buscar Carreras por Palabra Clave
 **Como:** Administrador del sistema
 **Quiero:** encontrar carreras específicas rápidamente por código o nombre
 **Para:** agilizar la gestión de carreras
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un campo de búsqueda ('Buscar carrera...') en la página de listado de Carreras
-- Al escribir texto, la tabla se filtra y muestra solo las carreras que coinciden con el código o nombre
-- La búsqueda debe ser insensible a mayúsculas y minúsculas
-- Al borrar el texto de búsqueda, se muestra el listado completo de carreras
+- ✅ Existe un campo de búsqueda ('Buscar carrera...') en la página de listado de Carreras
+- ✅ Al escribir texto, la tabla se filtra y muestra solo las carreras que coinciden con el código o nombre
+- ✅ La búsqueda debe ser insensible a mayúsculas y minúsculas
+- ✅ Al borrar el texto de búsqueda, se muestra el listado completo de carreras
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Filtrar Carreras por Facultad
+
+### 🎯 HU: Filtrar Carreras por Facultad
 **Como:** Administrador del sistema
 **Quiero:** ver carreras que pertenecen a una facultad específica
 **Para:** organizar la visualización de la oferta académica
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector de filtro ('Todas las Facultades') en la página de listado de Carreras
-- Al seleccionar una facultad, la tabla se actualiza mostrando solo las carreras de esa facultad
-- La opción 'Todas las Facultades' muestra todas las carreras
+- ✅ Existe un selector de filtro ('Todas las Facultades') en la página de listado de Carreras
+- ✅ Al seleccionar una facultad, la tabla se actualiza mostrando solo las carreras de esa facultad
+- ✅ La opción 'Todas las Facultades' muestra todas las carreras
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Filtrar Carreras por Estado
+
+### 🎯 HU: Filtrar Carreras por Estado
 **Como:** Administrador del sistema
 **Quiero:** ver carreras que tienen un estado específico
 **Para:** organizar la visualización por estado de la carrera (ej. activa, inactiva, en revisión)
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector de filtro ('Todos los Estados') en la página de listado de Carreras
-- Al seleccionar un estado, la tabla se actualiza mostrando solo las carreras con ese estado
-- La opción 'Todos los Estados' muestra todas las carreras
+- ✅ Existe un selector de filtro ('Todos los Estados') en la página de listado de Carreras
+- ✅ Al seleccionar un estado, la tabla se actualiza mostrando solo las carreras con ese estado
+- ✅ La opción 'Todos los Estados' muestra todas las carreras
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Paginar Listado de Carreras
+
+### 🎯 HU: Paginar Listado de Carreras
 **Como:** Administrador del sistema
 **Quiero:** navegar por el listado de carreras en bloques manejables
 **Para:** gestionar grandes volúmenes de información eficientemente
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Carreras
-- El componente permite ir a la página siguiente
-- El componente permite ir a la página anterior
-- El componente permite ir directamente a una página específica
-- Al cambiar de página, la tabla de carreras se actualiza con los datos correspondientes
+- ✅ Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Carreras
+- ✅ El componente permite ir a la página siguiente
+- ✅ El componente permite ir a la página anterior
+- ✅ El componente permite ir directamente a una página específica
+- ✅ Al cambiar de página, la tabla de carreras se actualiza con los datos correspondientes
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Registrar Nueva Carrera
+
+### 🎯 HU: Registrar Nueva Carrera
 **Como:** Administrador
 **Quiero:** ingresar la información de una nueva carrera
 **Para:** agregar una oferta académica
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Al hacer clic en '+ Nueva Carrera', se abre un formulario de registro de carrera
-- El formulario incluye campos para 'Código', 'Nombre'
-- Existe un selector para asociar la carrera a una 'Facultad' existente
-- Existe un selector para asignar un 'Coordinador' de una lista de usuarios existentes con rol de Profesor
-- El Código de la carrera es validado como único
-- Al guardar, la carrera queda registrada exitosamente y se muestra en el listado
+- ✅ Al hacer clic en '+ Nueva Carrera', se abre un formulario de registro de carrera
+- ✅ El formulario incluye campos para 'Código', 'Nombre'
+- ✅ Existe un selector para asociar la carrera a una 'Facultad' existente
+- ✅ Existe un selector para asignar un 'Coordinador' de una lista de usuarios existentes con rol de Profesor
+- ✅ El Código de la carrera es validado como único
+- ✅ Al guardar, la carrera queda registrada exitosamente y se muestra en el listado
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Editar Información de Carrera
+
+### 🎯 HU: Editar Información de Carrera
 **Como:** Administrador del sistema
 **Quiero:** modificar los datos de una carrera existente
 **Para:** corregir o actualizar su información
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de edición (lápiz) en la columna 'Acciones' de cada carrera en el listado
-- Al hacer clic en el icono de edición, se abre un formulario modal con los datos de la carrera precargados
-- El selector de 'Coordinador' en el formulario de edición permite buscar y seleccionar un usuario existente con rol de Profesor
-- Al guardar los cambios, la información de la carrera se actualiza correctamente
-- El sistema valida la unicidad del código de la carrera si se modifica
+- ✅ Existe un icono de edición (lápiz) en la columna 'Acciones' de cada carrera en el listado
+- ✅ Al hacer clic en el icono de edición, se abre un formulario modal con los datos de la carrera precargados
+- ✅ El selector de 'Coordinador' en el formulario de edición permite buscar y seleccionar un usuario existente con rol de Profesor
+- ✅ Al guardar los cambios, la información de la carrera se actualiza correctamente
+- ✅ El sistema valida la unicidad del código de la carrera si se modifica
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Eliminar Carrera del Sistema
+
+### 🎯 HU: Eliminar Carrera del Sistema
 **Como:** Administrador del sistema
 **Quiero:** remover una carrera del sistema
 **Para:** depurar información obsoleta o incorrecta
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de eliminación (papelera) en la columna 'Acciones' de cada carrera en el listado
-- Al hacer clic en el icono de eliminación, se muestra una confirmación al usuario
-- Si la carrera no tiene materias o profesores asociados, se elimina del sistema
-- Si la carrera tiene dependencias, el sistema advierte e impide la eliminación
+- ✅ Existe un icono de eliminación (papelera) en la columna 'Acciones' de cada carrera en el listado
+- ✅ Al hacer clic en el icono de eliminación, se muestra una confirmación al usuario
+- ✅ Si la carrera no tiene materias o profesores asociados, se elimina del sistema
+- ✅ Si la carrera tiene dependencias, el sistema advierte e impide la eliminación
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Visualizar Permisos por Rol
+
+### 🎯 HU: Visualizar Permisos por Rol
 **Como:** Administrador
 **Quiero:** ver los permisos asociados a cada rol definido en el sistema
 **Para:** entender las capacidades de cada tipo de usuario y revisar la configuración de seguridad
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe una página 'Gestión de Roles' accesible desde la navegación lateral
-- La página muestra tarjetas para cada rol (ej. 'Administrador', 'CEI', 'Autoridad de facultad', 'Coordinador de Carrera', 'Profesor')
-- Cada tarjeta de rol muestra un listado de permisos asociados (ej. 'Ver facultades', 'Crear facultades', 'Eliminar facultades', 'Ver usuarios')
-- Los permisos se presentan como checkboxes, mostrando si están habilitados para ese rol
+- ✅ Existe una página 'Gestión de Roles' accesible desde la navegación lateral
+- ✅ La página muestra tarjetas para cada rol (ej. 'Administrador', 'CEI', 'Autoridad de facultad', 'Coordinador de Carrera', 'Profesor')
+- ✅ Cada tarjeta de rol muestra un listado de permisos asociados (ej. 'Ver facultades', 'Crear facultades', 'Eliminar facultades', 'Ver usuarios')
+- ✅ Los permisos se presentan como checkboxes, mostrando si están habilitados para ese rol
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Visualizar Perfil Personal
+
+### 🎯 HU: Visualizar Perfil Personal
 **Como:** Usuario del sistema
 **Quiero:** ver mi información personal y de contacto registrada
 **Para:** confirmar mis datos en la plataforma y tenerlos a mano
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe una página 'Mi Perfil' accesible desde la navegación lateral
-- La página muestra una sección de 'Información Personal' con campos (Nombre Completo, Correo Institucional, Facultad, Teléfono, Fecha de Registro)
-- Todos los campos de información personal muestran los datos del usuario logueado
+- ✅ Existe una página 'Mi Perfil' accesible desde la navegación lateral
+- ✅ La página muestra una sección de 'Información Personal' con campos (Nombre Completo, Correo Institucional, Facultad, Teléfono, Fecha de Registro)
+- ✅ Todos los campos de información personal muestran los datos del usuario logueado
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Visualizar Roles y Permisos Detallados de Perfil
+
+### 🎯 HU: Visualizar Roles y Permisos Detallados de Perfil
 **Como:** Usuario del sistema
 **Quiero:** ver los roles que tengo asignados y los permisos detallados de los mismos
 **Para:** comprender mis capacidades y accesos dentro del sistema
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- La página 'Mi Perfil' muestra una sección de 'Rol y Permisos'
-- Se muestra el 'Rol Asignado' (ej. 'Profesor', 'Decano')
-- Existe un desplegable o botón 'Ver Permisos Detallados'
-- Al expandir 'Ver Permisos Detallados', se lista los permisos específicos del usuario (ej. 'Visualizar Dashboard', 'Gestionar Cursos', 'Registrar Calificaciones')
+- ✅ La página 'Mi Perfil' muestra una sección de 'Rol y Permisos'
+- ✅ Se muestra el 'Rol Asignado' (ej. 'Profesor', 'Decano')
+- ✅ Existe un desplegable o botón 'Ver Permisos Detallados'
+- ✅ Al expandir 'Ver Permisos Detallados', se lista los permisos específicos del usuario (ej. 'Visualizar Dashboard', 'Gestionar Cursos', 'Registrar Calificaciones')
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Cambiar Contraseña Personal
+
+### 🎯 HU: Cambiar Contraseña Personal
 **Como:** Usuario del sistema
 **Quiero:** actualizar mi contraseña
 **Para:** mantener mi cuenta segura regularmente
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- La página 'Mi Perfil' muestra una sección de 'Cambiar Contraseña'
-- Existe un botón 'Actualizar Contraseña'
-- Al hacer clic en el botón, se abre un formulario modal para cambiar contraseña (campos: Contraseña Actual, Nueva Contraseña, Confirmar Nueva Contraseña)
-- El sistema valida que la 'Contraseña Actual' sea correcta
-- El sistema valida que 'Nueva Contraseña' y 'Confirmar Nueva Contraseña' coincidan y cumplan con políticas de seguridad
-- Al guardar, la contraseña se actualiza y se muestra un mensaje de éxito
+- ✅ La página 'Mi Perfil' muestra una sección de 'Cambiar Contraseña'
+- ✅ Existe un botón 'Actualizar Contraseña'
+- ✅ Al hacer clic en el botón, se abre un formulario modal para cambiar contraseña (campos: Contraseña Actual, Nueva Contraseña, Confirmar Nueva Contraseña)
+- ✅ El sistema valida que la 'Contraseña Actual' sea correcta
+- ✅ El sistema valida que 'Nueva Contraseña' y 'Confirmar Nueva Contraseña' coincidan y cumplan con políticas de seguridad
+- ✅ Al guardar, la contraseña se actualiza y se muestra un mensaje de éxito
 
-**Story Points:** 2
-**Prioridad:** Media (2)
+
+**Story Points:** 2 | **Prioridad:** Media (2)
 
 <!-- --- -->
 
@@ -8582,544 +8189,513 @@ Sprint planning vuevle a crearme las hus
 **Como:** 
 **Quiero:** 
 **Para:** 
-**Story Points:** N/A
-**Prioridad:** N/A
 
----
+**Story Points:** N/A**Prioridad:** N/A
 
-### HU: Iniciar Sesión en Poliacredita
+
+### 🎯 HU: Iniciar Sesión en Poliacredita
 **Como:** Usuario del sistema SAGA EPN EUR-ACE
 **Quiero:** ingresar mis credenciales institucionales y seleccionar mi rol
 **Para:** acceder a mis funcionalidades correspondientes a mi rol
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El sistema muestra un formulario con campos para 'Correo Institucional' y 'Contraseña'
-- El sistema muestra un selector de 'Rol' con opciones (Administrador, CEI, Autoridad Académica, Coordinador de Carrera, Profesor)
-- Al ingresar credenciales válidas y seleccionar un rol, el usuario es redirigido al Dashboard
-- Al ingresar credenciales inválidas, se muestra un mensaje de error claro
-- Existe un enlace para '¿Olvidaste tu contraseña?'
+- ✅ El sistema muestra un formulario con campos para 'Correo Institucional' y 'Contraseña'
+- ✅ El sistema muestra un selector de 'Rol' con opciones (Administrador, CEI, Autoridad Académica, Coordinador de Carrera, Profesor)
+- ✅ Al ingresar credenciales válidas y seleccionar un rol, el usuario es redirigido al Dashboard
+- ✅ Al ingresar credenciales inválidas, se muestra un mensaje de error claro
+- ✅ Existe un enlace para '¿Olvidaste tu contraseña?'
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Visualizar Conteo de Entidades en Dashboard
+
+### 🎯 HU: Visualizar Conteo de Entidades en Dashboard
 **Como:** Administrador
 **Quiero:** ver el número total de facultades, carreras y usuarios activos
 **Para:** obtener una visión general rápida del estado de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El Dashboard muestra el 'Total Facultades' con un valor numérico
-- El Dashboard muestra el 'Total Carreras' con un valor numérico
-- El Dashboard muestra el 'Usuarios Activos' con un valor numérico
+- ✅ El Dashboard muestra el 'Total Facultades' con un valor numérico
+- ✅ El Dashboard muestra el 'Total Carreras' con un valor numérico
+- ✅ El Dashboard muestra el 'Usuarios Activos' con un valor numérico
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Visualizar Actividad Reciente en Dashboard
+
+### 🎯 HU: Visualizar Actividad Reciente en Dashboard
 **Como:** Administrador
 **Quiero:** ver un registro de las últimas acciones realizadas en el sistema
 **Para:** monitorear la actividad de la plataforma
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El Dashboard muestra una sección de 'Actividad Reciente' con columnas 'Hora', 'Usuario', 'Acción'
-- La tabla muestra un listado de acciones recientes (ej. 'Creo nueva facultad FIEC', 'Actualizó datos de carrera Ingeniería Civil')
-- Cada acción muestra la hora en formato relativo ('Hace 5 min', 'Hace 15 min')
-- Cada acción muestra el email del usuario que la realizó
-- Cada acción muestra una descripción concisa de la actividad
+- ✅ El Dashboard muestra una sección de 'Actividad Reciente' con columnas 'Hora', 'Usuario', 'Acción'
+- ✅ La tabla muestra un listado de acciones recientes (ej. 'Creo nueva facultad FIEC', 'Actualizó datos de carrera Ingeniería Civil')
+- ✅ Cada acción muestra la hora en formato relativo ('Hace 5 min', 'Hace 15 min')
+- ✅ Cada acción muestra el email del usuario que la realizó
+- ✅ Cada acción muestra una descripción concisa de la actividad
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Acceder a Acciones Rápidas desde Dashboard
+
+### 🎯 HU: Acceder a Acciones Rápidas desde Dashboard
 **Como:** Administrador
 **Quiero:** tener enlaces directos a funcionalidades de gestión importantes
 **Para:** agilizar mi navegación y ejecución de tareas comunes
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El Dashboard muestra una sección de 'Acceso Rápido'
-- Esta sección incluye un botón o enlace con icono y texto 'Gestionar Carreras'
-- Esta sección incluye un botón o enlace con icono y texto 'Gestionar Profesores'
-- Esta sección incluye un botón o enlace con icono y texto 'Ver Mi Perfil'
-- Al hacer clic en cada botón, el usuario es redirigido a la página correspondiente
+- ✅ El Dashboard muestra una sección de 'Acceso Rápido'
+- ✅ Esta sección incluye un botón o enlace con icono y texto 'Gestionar Carreras'
+- ✅ Esta sección incluye un botón o enlace con icono y texto 'Gestionar Profesores'
+- ✅ Esta sección incluye un botón o enlace con icono y texto 'Ver Mi Perfil'
+- ✅ Al hacer clic en cada botón, el usuario es redirigido a la página correspondiente
 
-**Story Points:** 1
-**Prioridad:** Media (2)
 
----
+**Story Points:** 1 | **Prioridad:** Media (2)
 
-### HU: Listar Usuarios Registrados
+
+### 🎯 HU: Listar Usuarios Registrados
 **Como:** Administrador
 **Quiero:** ver una lista de todos los usuarios registrados con su información clave
 **Para:** gestionar el acceso y los roles en el sistema
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe una página 'Gestión de Usuarios' accesible desde la navegación lateral
-- Se muestra una tabla con columnas 'Email', 'Nombre', 'Rol', 'Estado' y 'Acciones'
-- Los datos de los usuarios se cargan correctamente en la tabla
-- Se muestra el botón '+ Nuevo Usuario' en la página
+- ✅ Existe una página 'Gestión de Usuarios' accesible desde la navegación lateral
+- ✅ Se muestra una tabla con columnas 'Email', 'Nombre', 'Rol', 'Estado' y 'Acciones'
+- ✅ Los datos de los usuarios se cargan correctamente en la tabla
+- ✅ Se muestra el botón '+ Nuevo Usuario' en la página
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Registrar Nuevo Usuario
+
+### 🎯 HU: Registrar Nuevo Usuario
 **Como:** Administrador
 **Quiero:** crear un nuevo registro de usuario en el sistema
 **Para:** permitir que nuevas personas accedan a la plataforma
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Al hacer clic en '+ Nuevo Usuario', se abre un formulario modal de registro de usuario
-- El formulario incluye campos para 'Cédula', 'Nombres', 'Apellidos', 'Email', 'Teléfono'
-- El formulario incluye un selector de 'Rol' con opciones de checkbox (ej. Comité Evaluación Interna, Autoridad Académica, Coordinador de Carrera, Profesor)
-- El formulario incluye un selector de 'Facultad' con función de búsqueda
-- La Cédula y el Email son validados como únicos en el sistema
-- Al enviar datos válidos, el usuario se guarda y se muestra en el listado
+- ✅ Al hacer clic en '+ Nuevo Usuario', se abre un formulario modal de registro de usuario
+- ✅ El formulario incluye campos para 'Cédula', 'Nombres', 'Apellidos', 'Email', 'Teléfono'
+- ✅ El formulario incluye un selector de 'Rol' con opciones de checkbox (ej. Comité Evaluación Interna, Autoridad Académica, Coordinador de Carrera, Profesor)
+- ✅ El formulario incluye un selector de 'Facultad' con función de búsqueda
+- ✅ La Cédula y el Email son validados como únicos en el sistema
+- ✅ Al enviar datos válidos, el usuario se guarda y se muestra en el listado
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Editar Información de Usuario
+
+### 🎯 HU: Editar Información de Usuario
 **Como:** Administrador
 **Quiero:** modificar los datos de un usuario existente
 **Para:** corregir o actualizar su información, roles o estado
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de edición (lápiz) en la columna 'Acciones' de cada usuario en el listado
-- Al hacer clic en el icono de edición, se abre un formulario modal con los datos del usuario precargados
-- El formulario permite modificar 'Nombres', 'Apellidos', 'Email', 'Teléfono', 'Roles' y 'Facultad'
-- El sistema valida la unicidad del Email y Cédula si se modifican
-- Al guardar los cambios, la información del usuario se actualiza correctamente
+- ✅ Existe un icono de edición (lápiz) en la columna 'Acciones' de cada usuario en el listado
+- ✅ Al hacer clic en el icono de edición, se abre un formulario modal con los datos del usuario precargados
+- ✅ El formulario permite modificar 'Nombres', 'Apellidos', 'Email', 'Teléfono', 'Roles' y 'Facultad'
+- ✅ El sistema valida la unicidad del Email y Cédula si se modifican
+- ✅ Al guardar los cambios, la información del usuario se actualiza correctamente
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Buscar Usuarios por Palabra Clave
+
+### 🎯 HU: Buscar Usuarios por Palabra Clave
 **Como:** Administrador
 **Quiero:** encontrar usuarios específicos rápidamente por email, nombre o cédula
 **Para:** agilizar la gestión de usuarios
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un campo de búsqueda ('Buscar usuario...') en la página de listado de Usuarios
-- Al escribir texto, la tabla se filtra y muestra solo los usuarios que coinciden con el email, nombre o cédula
-- La búsqueda debe ser insensible a mayúsculas y minúsculas
-- Al borrar el texto de búsqueda, se muestra el listado completo de usuarios
+- ✅ Existe un campo de búsqueda ('Buscar usuario...') en la página de listado de Usuarios
+- ✅ Al escribir texto, la tabla se filtra y muestra solo los usuarios que coinciden con el email, nombre o cédula
+- ✅ La búsqueda debe ser insensible a mayúsculas y minúsculas
+- ✅ Al borrar el texto de búsqueda, se muestra el listado completo de usuarios
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Filtrar Usuarios por Rol
+
+### 🎯 HU: Filtrar Usuarios por Rol
 **Como:** Administrador
 **Quiero:** ver usuarios que tienen uno o más roles específicos
 **Para:** organizar la visualización y gestionar permisos por rol
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector de filtro ('Todos los Roles') en la página de listado de Usuarios
-- Al seleccionar uno o varios roles, la tabla se actualiza mostrando solo los usuarios con esos roles
-- La opción 'Todos los Roles' muestra todos los usuarios
+- ✅ Existe un selector de filtro ('Todos los Roles') en la página de listado de Usuarios
+- ✅ Al seleccionar uno o varios roles, la tabla se actualiza mostrando solo los usuarios con esos roles
+- ✅ La opción 'Todos los Roles' muestra todos los usuarios
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Filtrar Usuarios por Estado
+
+### 🎯 HU: Filtrar Usuarios por Estado
 **Como:** Administrador
 **Quiero:** ver usuarios que tienen un estado específico (Activo/Inactivo)
 **Para:** gestionar el acceso y habilitación/deshabilitación de cuentas
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector de filtro ('Todos los Estados') en la página de listado de Usuarios
-- Al seleccionar un estado, la tabla se actualiza mostrando solo los usuarios con ese estado
-- La opción 'Todos los Estados' muestra todos los usuarios
+- ✅ Existe un selector de filtro ('Todos los Estados') en la página de listado de Usuarios
+- ✅ Al seleccionar un estado, la tabla se actualiza mostrando solo los usuarios con ese estado
+- ✅ La opción 'Todos los Estados' muestra todos los usuarios
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Paginar Listado de Usuarios
+
+### 🎯 HU: Paginar Listado de Usuarios
 **Como:** Administrador
 **Quiero:** navegar por el listado de usuarios en bloques manejables
 **Para:** gestionar grandes volúmenes de usuarios eficientemente
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Usuarios
-- El componente permite ir a la página siguiente
-- El componente permite ir a la página anterior
-- El componente permite ir directamente a una página específica
-- Al cambiar de página, la tabla de usuarios se actualiza con los datos correspondientes
+- ✅ Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Usuarios
+- ✅ El componente permite ir a la página siguiente
+- ✅ El componente permite ir a la página anterior
+- ✅ El componente permite ir directamente a una página específica
+- ✅ Al cambiar de página, la tabla de usuarios se actualiza con los datos correspondientes
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Cambiar Estado de Usuario (Activar/Desactivar)
+
+### 🎯 HU: Cambiar Estado de Usuario (Activar/Desactivar)
 **Como:** Administrador
 **Quiero:** habilitar o deshabilitar el acceso de un usuario
 **Para:** controlar quién puede usar el sistema
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un botón 'Desactivar' o 'Activar' en la columna 'Acciones' de cada usuario, según el estado actual
-- Al hacer clic en el botón, el estado del usuario cambia (Activo a Inactivo, o viceversa)
-- El estado visual en la tabla se actualiza inmediatamente (ej. texto 'Activo'/'Inactivo' y botón)
-- Se muestra una confirmación o mensaje de éxito/error al usuario
+- ✅ Existe un botón 'Desactivar' o 'Activar' en la columna 'Acciones' de cada usuario, según el estado actual
+- ✅ Al hacer clic en el botón, el estado del usuario cambia (Activo a Inactivo, o viceversa)
+- ✅ El estado visual en la tabla se actualiza inmediatamente (ej. texto 'Activo'/'Inactivo' y botón)
+- ✅ Se muestra una confirmación o mensaje de éxito/error al usuario
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Listar Facultades Registradas
+
+### 🎯 HU: Listar Facultades Registradas
 **Como:** Autoridad (Decano, Subdecano, Jefe de Departamento)
 **Quiero:** ver todas las facultades con su información principal
 **Para:** gestionar la estructura académica de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe una página dedicada a 'Gestión de Facultades' accesible desde la navegación lateral
-- Se muestra una tabla con columnas 'Código', 'Nombre', 'Carreras', 'Decano' y 'Acciones'
-- Los datos de las facultades se cargan correctamente en la tabla
-- Se muestra el botón '+ Nueva Facultad' en la página
+- ✅ Existe una página dedicada a 'Gestión de Facultades' accesible desde la navegación lateral
+- ✅ Se muestra una tabla con columnas 'Código', 'Nombre', 'Carreras', 'Decano' y 'Acciones'
+- ✅ Los datos de las facultades se cargan correctamente en la tabla
+- ✅ Se muestra el botón '+ Nueva Facultad' en la página
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Buscar Facultades por Código o Nombre
+
+### 🎯 HU: Buscar Facultades por Código o Nombre
 **Como:** Autoridad (Decano, Subdecano, Jefe de Departamento)
 **Quiero:** encontrar facultades específicas rápidamente
 **Para:** agilizar la gestión de facultades
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un campo de búsqueda ('Buscar por código o nombre...') en la página de listado de Facultades
-- Al escribir texto, la tabla se filtra y muestra solo las facultades que coinciden con el código o nombre
-- La búsqueda debe ser insensible a mayúsculas y minúsculas
-- Al borrar el texto de búsqueda, se muestra el listado completo de facultades
+- ✅ Existe un campo de búsqueda ('Buscar por código o nombre...') en la página de listado de Facultades
+- ✅ Al escribir texto, la tabla se filtra y muestra solo las facultades que coinciden con el código o nombre
+- ✅ La búsqueda debe ser insensible a mayúsculas y minúsculas
+- ✅ Al borrar el texto de búsqueda, se muestra el listado completo de facultades
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Filtrar Facultades por Carreras
+
+### 🎯 HU: Filtrar Facultades por Carreras
 **Como:** Autoridad (Decano, Subdecano, Jefe de Departamento)
 **Quiero:** filtrar el listado de facultades
 **Para:** organizar la visualización por la cantidad de carreras que gestionan
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector de filtro ('Filtrar por Carreras') en la página de listado de Facultades
-- Al seleccionar una opción del filtro (ej. 'Con más de 5 carreras'), la tabla de facultades se actualiza mostrando solo las que cumplen el criterio
-- La opción 'Todas las Carreras' muestra todas las facultades
+- ✅ Existe un selector de filtro ('Filtrar por Carreras') en la página de listado de Facultades
+- ✅ Al seleccionar una opción del filtro (ej. 'Con más de 5 carreras'), la tabla de facultades se actualiza mostrando solo las que cumplen el criterio
+- ✅ La opción 'Todas las Carreras' muestra todas las facultades
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Paginar Listado de Facultades
+
+### 🎯 HU: Paginar Listado de Facultades
 **Como:** Autoridad (Decano, Subdecano, Jefe de Departamento)
 **Quiero:** navegar por el listado de facultades en bloques manejables
 **Para:** gestionar grandes volúmenes de información eficientemente
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Facultades
-- El componente permite ir a la página siguiente
-- El componente permite ir a la página anterior
-- El componente permite ir directamente a una página específica
-- Al cambiar de página, la tabla de facultades se actualiza con los datos correspondientes
+- ✅ Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Facultades
+- ✅ El componente permite ir a la página siguiente
+- ✅ El componente permite ir a la página anterior
+- ✅ El componente permite ir directamente a una página específica
+- ✅ Al cambiar de página, la tabla de facultades se actualiza con los datos correspondientes
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Registrar Nueva Facultad
+
+### 🎯 HU: Registrar Nueva Facultad
 **Como:** Autoridad (Decano, Subdecano, Jefe de Departamento)
 **Quiero:** agregar una nueva facultad al sistema
 **Para:** mantener actualizada la estructura organizativa de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Al hacer clic en '+ Nueva Facultad', se abre un formulario modal de registro de Facultad
-- El formulario incluye campos para 'Código', 'Nombre', 'Descripción'
-- Existe un selector de 'Decano' que permite buscar y seleccionar un usuario existente con rol de Profesor
-- Al enviar datos válidos, la facultad se guarda y se muestra en el listado
-- Al enviar datos inválidos (ej. código o nombre duplicado), se muestra un mensaje de error claro
+- ✅ Al hacer clic en '+ Nueva Facultad', se abre un formulario modal de registro de Facultad
+- ✅ El formulario incluye campos para 'Código', 'Nombre', 'Descripción'
+- ✅ Existe un selector de 'Decano' que permite buscar y seleccionar un usuario existente con rol de Profesor
+- ✅ Al enviar datos válidos, la facultad se guarda y se muestra en el listado
+- ✅ Al enviar datos inválidos (ej. código o nombre duplicado), se muestra un mensaje de error claro
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Editar Información de Facultad
+
+### 🎯 HU: Editar Información de Facultad
 **Como:** Autoridad (Decano, Subdecano, Jefe de Departamento)
 **Quiero:** modificar los datos de una facultad existente
 **Para:** corregir o actualizar su información
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de edición (lápiz) en la columna 'Acciones' de cada facultad en el listado
-- Al hacer clic en el icono de edición, se abre un formulario modal con los datos de la facultad precargados
-- El selector de 'Decano' en el formulario de edición permite buscar y seleccionar un usuario existente con rol de Profesor
-- Al guardar los cambios, la información de la facultad se actualiza correctamente
-- El sistema valida la unicidad del código y nombre de la facultad si se modifican
+- ✅ Existe un icono de edición (lápiz) en la columna 'Acciones' de cada facultad en el listado
+- ✅ Al hacer clic en el icono de edición, se abre un formulario modal con los datos de la facultad precargados
+- ✅ El selector de 'Decano' en el formulario de edición permite buscar y seleccionar un usuario existente con rol de Profesor
+- ✅ Al guardar los cambios, la información de la facultad se actualiza correctamente
+- ✅ El sistema valida la unicidad del código y nombre de la facultad si se modifican
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Eliminar Facultad del Sistema
+
+### 🎯 HU: Eliminar Facultad del Sistema
 **Como:** Autoridad (Decano, Subdecano, Jefe de Departamento)
 **Quiero:** remover una facultad del sistema
 **Para:** depurar información obsoleta o incorrecta
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de eliminación (papelera) en la columna 'Acciones' de cada facultad en el listado
-- Al hacer clic en el icono de eliminación, se muestra una confirmación al usuario
-- Si la facultad no tiene carreras asociadas, se elimina del sistema
-- Si la facultad tiene carreras asociadas, el sistema advierte e impide la eliminación
+- ✅ Existe un icono de eliminación (papelera) en la columna 'Acciones' de cada facultad en el listado
+- ✅ Al hacer clic en el icono de eliminación, se muestra una confirmación al usuario
+- ✅ Si la facultad no tiene carreras asociadas, se elimina del sistema
+- ✅ Si la facultad tiene carreras asociadas, el sistema advierte e impide la eliminación
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Listar Carreras Registradas
+
+### 🎯 HU: Listar Carreras Registradas
 **Como:** Autoridad (Decano, Subdecano, Jefe de Departamento)
 **Quiero:** ver todas las carreras con su información principal
 **Para:** gestionar la oferta académica de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe una página dedicada a 'Gestión de Carreras' accesible desde la navegación lateral
-- Se muestra una tabla con columnas 'Código', 'Nombre', 'Facultad', 'Coordinador' y 'Acciones'
-- Los datos de las carreras se cargan correctamente en la tabla
-- Se muestra el botón '+ Nueva Carrera' en la página
+- ✅ Existe una página dedicada a 'Gestión de Carreras' accesible desde la navegación lateral
+- ✅ Se muestra una tabla con columnas 'Código', 'Nombre', 'Facultad', 'Coordinador' y 'Acciones'
+- ✅ Los datos de las carreras se cargan correctamente en la tabla
+- ✅ Se muestra el botón '+ Nueva Carrera' en la página
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Buscar Carreras por Palabra Clave
+
+### 🎯 HU: Buscar Carreras por Palabra Clave
 **Como:** Autoridad (Decano, Subdecano, Jefe de Departamento)
 **Quiero:** encontrar carreras específicas rápidamente por código o nombre
 **Para:** agilizar la gestión de carreras
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un campo de búsqueda ('Buscar carrera...') en la página de listado de Carreras
-- Al escribir texto, la tabla se filtra y muestra solo las carreras que coinciden con el código o nombre
-- La búsqueda debe ser insensible a mayúsculas y minúsculas
-- Al borrar el texto de búsqueda, se muestra el listado completo de carreras
+- ✅ Existe un campo de búsqueda ('Buscar carrera...') en la página de listado de Carreras
+- ✅ Al escribir texto, la tabla se filtra y muestra solo las carreras que coinciden con el código o nombre
+- ✅ La búsqueda debe ser insensible a mayúsculas y minúsculas
+- ✅ Al borrar el texto de búsqueda, se muestra el listado completo de carreras
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Filtrar Carreras por Facultad
+
+### 🎯 HU: Filtrar Carreras por Facultad
 **Como:** Autoridad (Decano, Subdecano, Jefe de Departamento)
 **Quiero:** ver carreras que pertenecen a una facultad específica
 **Para:** organizar la visualización de la oferta académica
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector de filtro ('Todas las Facultades') en la página de listado de Carreras
-- Al seleccionar una facultad, la tabla se actualiza mostrando solo las carreras de esa facultad
-- La opción 'Todas las Facultades' muestra todas las carreras
+- ✅ Existe un selector de filtro ('Todas las Facultades') en la página de listado de Carreras
+- ✅ Al seleccionar una facultad, la tabla se actualiza mostrando solo las carreras de esa facultad
+- ✅ La opción 'Todas las Facultades' muestra todas las carreras
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Filtrar Carreras por Estado
+
+### 🎯 HU: Filtrar Carreras por Estado
 **Como:** Autoridad (Decano, Subdecano, Jefe de Departamento)
 **Quiero:** ver carreras que tienen un estado específico
 **Para:** organizar la visualización por estado de la carrera (ej. activa, inactiva, en revisión)
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector de filtro ('Todos los Estados') en la página de listado de Carreras
-- Al seleccionar un estado, la tabla se actualiza mostrando solo las carreras con ese estado
-- La opción 'Todos los Estados' muestra todas las carreras
+- ✅ Existe un selector de filtro ('Todos los Estados') en la página de listado de Carreras
+- ✅ Al seleccionar un estado, la tabla se actualiza mostrando solo las carreras con ese estado
+- ✅ La opción 'Todos los Estados' muestra todas las carreras
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Paginar Listado de Carreras
+
+### 🎯 HU: Paginar Listado de Carreras
 **Como:** Autoridad (Decano, Subdecano, Jefe de Departamento)
 **Quiero:** navegar por el listado de carreras en bloques manejables
 **Para:** gestionar grandes volúmenes de información eficientemente
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Carreras
-- El componente permite ir a la página siguiente
-- El componente permite ir a la página anterior
-- El componente permite ir directamente a una página específica
-- Al cambiar de página, la tabla de carreras se actualiza con los datos correspondientes
+- ✅ Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Carreras
+- ✅ El componente permite ir a la página siguiente
+- ✅ El componente permite ir a la página anterior
+- ✅ El componente permite ir directamente a una página específica
+- ✅ Al cambiar de página, la tabla de carreras se actualiza con los datos correspondientes
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Registrar Nueva Carrera
+
+### 🎯 HU: Registrar Nueva Carrera
 **Como:** Autoridad (Decano, Subdecano, Jefe de Departamento)
 **Quiero:** ingresar la información de una nueva carrera
 **Para:** agregar una oferta académica
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Al hacer clic en '+ Nueva Carrera', se abre un formulario de registro de carrera
-- El formulario incluye campos para 'Código', 'Nombre'
-- Existe un selector para asociar la carrera a una 'Facultad' existente
-- Existe un selector para asignar un 'Coordinador' de una lista de usuarios existentes con rol de Profesor
-- El Código de la carrera es validado como único
-- Al guardar, la carrera queda registrada exitosamente y se muestra en el listado
+- ✅ Al hacer clic en '+ Nueva Carrera', se abre un formulario de registro de carrera
+- ✅ El formulario incluye campos para 'Código', 'Nombre'
+- ✅ Existe un selector para asociar la carrera a una 'Facultad' existente
+- ✅ Existe un selector para asignar un 'Coordinador' de una lista de usuarios existentes con rol de Profesor
+- ✅ El Código de la carrera es validado como único
+- ✅ Al guardar, la carrera queda registrada exitosamente y se muestra en el listado
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Editar Información de Carrera
+
+### 🎯 HU: Editar Información de Carrera
 **Como:** Autoridad (Decano, Subdecano, Jefe de Departamento)
 **Quiero:** modificar los datos de una carrera existente
 **Para:** corregir o actualizar su información
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de edición (lápiz) en la columna 'Acciones' de cada carrera en el listado
-- Al hacer clic en el icono de edición, se abre un formulario modal con los datos de la carrera precargados
-- El selector de 'Coordinador' en el formulario de edición permite buscar y seleccionar un usuario existente con rol de Profesor
-- Al guardar los cambios, la información de la carrera se actualiza correctamente
-- El sistema valida la unicidad del código de la carrera si se modifica
+- ✅ Existe un icono de edición (lápiz) en la columna 'Acciones' de cada carrera en el listado
+- ✅ Al hacer clic en el icono de edición, se abre un formulario modal con los datos de la carrera precargados
+- ✅ El selector de 'Coordinador' en el formulario de edición permite buscar y seleccionar un usuario existente con rol de Profesor
+- ✅ Al guardar los cambios, la información de la carrera se actualiza correctamente
+- ✅ El sistema valida la unicidad del código de la carrera si se modifica
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Eliminar Carrera del Sistema
+
+### 🎯 HU: Eliminar Carrera del Sistema
 **Como:** Autoridad (Decano, Subdecano, Jefe de Departamento)
 **Quiero:** remover una carrera del sistema
 **Para:** depurar información obsoleta o incorrecta
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de eliminación (papelera) en la columna 'Acciones' de cada carrera en el listado
-- Al hacer clic en el icono de eliminación, se muestra una confirmación al usuario
-- Si la carrera no tiene materias o profesores asociados, se elimina del sistema
-- Si la carrera tiene dependencias, el sistema advierte e impide la eliminación
+- ✅ Existe un icono de eliminación (papelera) en la columna 'Acciones' de cada carrera en el listado
+- ✅ Al hacer clic en el icono de eliminación, se muestra una confirmación al usuario
+- ✅ Si la carrera no tiene materias o profesores asociados, se elimina del sistema
+- ✅ Si la carrera tiene dependencias, el sistema advierte e impide la eliminación
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Visualizar Permisos por Rol
+
+### 🎯 HU: Visualizar Permisos por Rol
 **Como:** Administrador
 **Quiero:** ver los permisos asociados a cada rol definido en el sistema
 **Para:** entender las capacidades de cada tipo de usuario y revisar la configuración de seguridad
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe una página 'Gestión de Roles' accesible desde la navegación lateral
-- La página muestra tarjetas para cada rol (ej. 'Administrador', 'CEI', 'Autoridad de facultad', 'Coordinador de Carrera', 'Profesor')
-- Cada tarjeta de rol muestra un listado de permisos asociados (ej. 'Ver facultades', 'Crear facultades', 'Eliminar facultades', 'Ver usuarios')
-- Los permisos se presentan como checkboxes, mostrando si están habilitados para ese rol
+- ✅ Existe una página 'Gestión de Roles' accesible desde la navegación lateral
+- ✅ La página muestra tarjetas para cada rol (ej. 'Administrador', 'CEI', 'Autoridad de facultad', 'Coordinador de Carrera', 'Profesor')
+- ✅ Cada tarjeta de rol muestra un listado de permisos asociados (ej. 'Ver facultades', 'Crear facultades', 'Eliminar facultades', 'Ver usuarios')
+- ✅ Los permisos se presentan como checkboxes, mostrando si están habilitados para ese rol
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Visualizar Perfil Personal
+
+### 🎯 HU: Visualizar Perfil Personal
 **Como:** Usuario del sistema
 **Quiero:** ver mi información personal y de contacto registrada
 **Para:** confirmar mis datos en la plataforma y tenerlos a mano
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe una página 'Mi Perfil' accesible desde la navegación lateral
-- La página muestra una sección de 'Información Personal' con campos (Nombre Completo, Correo Institucional, Facultad, Teléfono, Fecha de Registro)
-- Todos los campos de información personal muestran los datos del usuario logueado
+- ✅ Existe una página 'Mi Perfil' accesible desde la navegación lateral
+- ✅ La página muestra una sección de 'Información Personal' con campos (Nombre Completo, Correo Institucional, Facultad, Teléfono, Fecha de Registro)
+- ✅ Todos los campos de información personal muestran los datos del usuario logueado
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Visualizar Roles y Permisos Detallados de Perfil
+
+### 🎯 HU: Visualizar Roles y Permisos Detallados de Perfil
 **Como:** Usuario del sistema
 **Quiero:** ver los roles que tengo asignados y los permisos detallados de los mismos
 **Para:** comprender mis capacidades y accesos dentro del sistema
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- La página 'Mi Perfil' muestra una sección de 'Rol y Permisos'
-- Se muestra el 'Rol Asignado' (ej. 'Profesor', 'Decano')
-- Existe un desplegable o botón 'Ver Permisos Detallados'
-- Al expandir 'Ver Permisos Detallados', se lista los permisos específicos del usuario (ej. 'Visualizar Dashboard', 'Gestionar Cursos', 'Registrar Calificaciones')
+- ✅ La página 'Mi Perfil' muestra una sección de 'Rol y Permisos'
+- ✅ Se muestra el 'Rol Asignado' (ej. 'Profesor', 'Decano')
+- ✅ Existe un desplegable o botón 'Ver Permisos Detallados'
+- ✅ Al expandir 'Ver Permisos Detallados', se lista los permisos específicos del usuario (ej. 'Visualizar Dashboard', 'Gestionar Cursos', 'Registrar Calificaciones')
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Cambiar Contraseña Personal
+
+### 🎯 HU: Cambiar Contraseña Personal
 **Como:** Usuario del sistema
 **Quiero:** actualizar mi contraseña
 **Para:** mantener mi cuenta segura regularmente
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- La página 'Mi Perfil' muestra una sección de 'Cambiar Contraseña'
-- Existe un botón 'Actualizar Contraseña'
-- Al hacer clic en el botón, se abre un formulario modal para cambiar contraseña (campos: Contraseña Actual, Nueva Contraseña, Confirmar Nueva Contraseña)
-- El sistema valida que la 'Contraseña Actual' sea correcta
-- El sistema valida que 'Nueva Contraseña' y 'Confirmar Nueva Contraseña' coincidan y cumplan con políticas de seguridad
-- Al guardar, la contraseña se actualiza y se muestra un mensaje de éxito
+- ✅ La página 'Mi Perfil' muestra una sección de 'Cambiar Contraseña'
+- ✅ Existe un botón 'Actualizar Contraseña'
+- ✅ Al hacer clic en el botón, se abre un formulario modal para cambiar contraseña (campos: Contraseña Actual, Nueva Contraseña, Confirmar Nueva Contraseña)
+- ✅ El sistema valida que la 'Contraseña Actual' sea correcta
+- ✅ El sistema valida que 'Nueva Contraseña' y 'Confirmar Nueva Contraseña' coincidan y cumplan con políticas de seguridad
+- ✅ Al guardar, la contraseña se actualiza y se muestra un mensaje de éxito
 
-**Story Points:** 2
-**Prioridad:** Media (2)
+
+**Story Points:** 2 | **Prioridad:** Media (2)
 
 <!-- --- -->
 
@@ -9223,544 +8799,513 @@ No repetir títulos de tareas.
 **Como:** 
 **Quiero:** 
 **Para:** 
-**Story Points:** N/A
-**Prioridad:** N/A
 
----
+**Story Points:** N/A**Prioridad:** N/A
 
-### HU: Iniciar Sesión en Poliacredita
+
+### 🎯 HU: Iniciar Sesión en Poliacredita
 **Como:** Usuario del sistema SAGA EPN EUR-ACE
 **Quiero:** ingresar mis credenciales institucionales y seleccionar mi rol
 **Para:** acceder a mis funcionalidades correspondientes a mi rol
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El sistema muestra un formulario con campos para 'Correo Institucional' y 'Contraseña'
-- El sistema muestra un selector de 'Rol' con opciones (Administrador, CEI, Autoridad Académica, Coordinador de Carrera, Profesor)
-- Al ingresar credenciales válidas y seleccionar un rol, el usuario es redirigido al Dashboard
-- Al ingresar credenciales inválidas, se muestra un mensaje de error claro
-- Existe un enlace para '¿Olvidaste mi contraseña?'
+- ✅ El sistema muestra un formulario con campos para 'Correo Institucional' y 'Contraseña'
+- ✅ El sistema muestra un selector de 'Rol' con opciones (Administrador, CEI, Autoridad Académica, Coordinador de Carrera, Profesor)
+- ✅ Al ingresar credenciales válidas y seleccionar un rol, el usuario es redirigido al Dashboard
+- ✅ Al ingresar credenciales inválidas, se muestra un mensaje de error claro
+- ✅ Existe un enlace para '¿Olvidaste mi contraseña?'
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Visualizar Conteo de Entidades en Dashboard
+
+### 🎯 HU: Visualizar Conteo de Entidades en Dashboard
 **Como:** Administrador
 **Quiero:** ver el número total de facultades, carreras y usuarios activos
 **Para:** obtener una visión general rápida del estado de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El Dashboard muestra el 'Total Facultades' con un valor numérico
-- El Dashboard muestra el 'Total Carreras' con un valor numérico
-- El Dashboard muestra el 'Usuarios Activos' con un valor numérico
+- ✅ El Dashboard muestra el 'Total Facultades' con un valor numérico
+- ✅ El Dashboard muestra el 'Total Carreras' con un valor numérico
+- ✅ El Dashboard muestra el 'Usuarios Activos' con un valor numérico
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Visualizar Actividad Reciente en Dashboard
+
+### 🎯 HU: Visualizar Actividad Reciente en Dashboard
 **Como:** Administrador
 **Quiero:** ver un registro de las últimas acciones realizadas en el sistema
 **Para:** monitorear la actividad de la plataforma
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El Dashboard muestra una sección de 'Actividad Reciente' con columnas 'Hora', 'Usuario', 'Acción'
-- La tabla muestra un listado de acciones recientes (ej. 'Creo nueva facultad FIEC', 'Actualizó datos de carrera Ingeniería Civil')
-- Cada acción muestra la hora en formato relativo ('Hace 5 min', 'Hace 15 min')
-- Cada acción muestra el email del usuario que la realizó
-- Cada acción muestra una descripción concisa de la actividad
+- ✅ El Dashboard muestra una sección de 'Actividad Reciente' con columnas 'Hora', 'Usuario', 'Acción'
+- ✅ La tabla muestra un listado de acciones recientes (ej. 'Creo nueva facultad FIEC', 'Actualizó datos de carrera Ingeniería Civil')
+- ✅ Cada acción muestra la hora en formato relativo ('Hace 5 min', 'Hace 15 min')
+- ✅ Cada acción muestra el email del usuario que la realizó
+- ✅ Cada acción muestra una descripción concisa de la actividad
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Acceder a Acciones Rápidas desde Dashboard
+
+### 🎯 HU: Acceder a Acciones Rápidas desde Dashboard
 **Como:** Administrador
 **Quiero:** tener enlaces directos a funcionalidades de gestión importantes
 **Para:** agilizar mi navegación y ejecución de tareas comunes
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El Dashboard muestra una sección de 'Acceso Rápido'
-- Esta sección incluye un botón o enlace con icono y texto 'Gestionar Carreras'
-- Esta sección incluye un botón o enlace con icono y texto 'Gestionar Profesores'
-- Esta sección incluye un botón o enlace con icono y texto 'Ver Mi Perfil'
-- Al hacer clic en cada botón, el usuario es redirigido a la página correspondiente
+- ✅ El Dashboard muestra una sección de 'Acceso Rápido'
+- ✅ Esta sección incluye un botón o enlace con icono y texto 'Gestionar Carreras'
+- ✅ Esta sección incluye un botón o enlace con icono y texto 'Gestionar Profesores'
+- ✅ Esta sección incluye un botón o enlace con icono y texto 'Ver Mi Perfil'
+- ✅ Al hacer clic en cada botón, el usuario es redirigido a la página correspondiente
 
-**Story Points:** 1
-**Prioridad:** Media (2)
 
----
+**Story Points:** 1 | **Prioridad:** Media (2)
 
-### HU: Listar Usuarios Registrados
+
+### 🎯 HU: Listar Usuarios Registrados
 **Como:** Administrador
 **Quiero:** ver una lista de todos los usuarios registrados con su información clave
 **Para:** gestionar el acceso y los roles en el sistema
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe una página 'Gestión de Usuarios' accesible desde la navegación lateral
-- Se muestra una tabla con columnas 'Email', 'Nombre', 'Rol', 'Estado' y 'Acciones'
-- Los datos de los usuarios se cargan correctamente en la tabla
-- Se muestra el botón '+ Nuevo Usuario' en la página
+- ✅ Existe una página 'Gestión de Usuarios' accesible desde la navegación lateral
+- ✅ Se muestra una tabla con columnas 'Email', 'Nombre', 'Rol', 'Estado' y 'Acciones'
+- ✅ Los datos de los usuarios se cargan correctamente en la tabla
+- ✅ Se muestra el botón '+ Nuevo Usuario' en la página
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Registrar Nuevo Usuario
+
+### 🎯 HU: Registrar Nuevo Usuario
 **Como:** Administrador
 **Quiero:** crear un nuevo registro de usuario en el sistema
 **Para:** permitir que nuevas personas accedan a la plataforma
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Al hacer clic en '+ Nuevo Usuario', se abre un formulario modal de registro de usuario
-- El formulario incluye campos para 'Cédula', 'Nombres', 'Apellidos', 'Email', 'Teléfono'
-- El formulario incluye un selector de 'Rol' con opciones de checkbox (ej. Comité Evaluación Interna, Autoridad Académica, Coordinador de Carrera, Profesor)
-- El formulario incluye un selector de 'Facultad' con función de búsqueda
-- La Cédula y el Email son validados como únicos en el sistema
-- Al enviar datos válidos, el usuario se guarda y se muestra en el listado
+- ✅ Al hacer clic en '+ Nuevo Usuario', se abre un formulario modal de registro de usuario
+- ✅ El formulario incluye campos para 'Cédula', 'Nombres', 'Apellidos', 'Email', 'Teléfono'
+- ✅ El formulario incluye un selector de 'Rol' con opciones de checkbox (ej. Comité Evaluación Interna, Autoridad Académica, Coordinador de Carrera, Profesor)
+- ✅ El formulario incluye un selector de 'Facultad' con función de búsqueda
+- ✅ La Cédula y el Email son validados como únicos en el sistema
+- ✅ Al enviar datos válidos, el usuario se guarda y se muestra en el listado
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Editar Información de Usuario
+
+### 🎯 HU: Editar Información de Usuario
 **Como:** Administrador
 **Quiero:** modificar los datos de un usuario existente
 **Para:** corregir o actualizar su información, roles o estado
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de edición (lápiz) en la columna 'Acciones' de cada usuario en el listado
-- Al hacer clic en el icono de edición, se abre un formulario modal con los datos del usuario precargados
-- El formulario permite modificar 'Nombres', 'Apellidos', 'Email', 'Teléfono', 'Roles' y 'Facultad'
-- El sistema valida la unicidad del Email y Cédula si se modifican
-- Al guardar los cambios, la información del usuario se actualiza correctamente
+- ✅ Existe un icono de edición (lápiz) en la columna 'Acciones' de cada usuario en el listado
+- ✅ Al hacer clic en el icono de edición, se abre un formulario modal con los datos del usuario precargados
+- ✅ El formulario permite modificar 'Nombres', 'Apellidos', 'Email', 'Teléfono', 'Roles' y 'Facultad'
+- ✅ El sistema valida la unicidad del Email y Cédula si se modifican
+- ✅ Al guardar los cambios, la información del usuario se actualiza correctamente
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Buscar Usuarios por Palabra Clave
+
+### 🎯 HU: Buscar Usuarios por Palabra Clave
 **Como:** Administrador
 **Quiero:** encontrar usuarios específicos rápidamente por email, nombre o cédula
 **Para:** agilizar la gestión de usuarios
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un campo de búsqueda ('Buscar usuario...') en la página de listado de Usuarios
-- Al escribir texto, la tabla se filtra y muestra solo los usuarios que coinciden con el email, nombre o cédula
-- La búsqueda debe ser insensible a mayúsculas y minúsculas
-- Al borrar el texto de búsqueda, se muestra el listado completo de usuarios
+- ✅ Existe un campo de búsqueda ('Buscar usuario...') en la página de listado de Usuarios
+- ✅ Al escribir texto, la tabla se filtra y muestra solo los usuarios que coinciden con el email, nombre o cédula
+- ✅ La búsqueda debe ser insensible a mayúsculas y minúsculas
+- ✅ Al borrar el texto de búsqueda, se muestra el listado completo de usuarios
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Filtrar Usuarios por Rol
+
+### 🎯 HU: Filtrar Usuarios por Rol
 **Como:** Administrador
 **Quiero:** ver usuarios que tienen uno o más roles específicos
 **Para:** organizar la visualización y gestionar permisos por rol
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector de filtro ('Todos los Roles') en la página de listado de Usuarios
-- Al seleccionar uno o varios roles, la tabla se actualiza mostrando solo los usuarios con esos roles
-- La opción 'Todos los Roles' muestra todos los usuarios
+- ✅ Existe un selector de filtro ('Todos los Roles') en la página de listado de Usuarios
+- ✅ Al seleccionar uno o varios roles, la tabla se actualiza mostrando solo los usuarios con esos roles
+- ✅ La opción 'Todos los Roles' muestra todos los usuarios
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Filtrar Usuarios por Estado
+
+### 🎯 HU: Filtrar Usuarios por Estado
 **Como:** Administrador
 **Quiero:** ver usuarios que tienen un estado específico (Activo/Inactivo)
 **Para:** gestionar el acceso y habilitación/deshabilitación de cuentas
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector de filtro ('Todos los Estados') en la página de listado de Usuarios
-- Al seleccionar un estado, la tabla se actualiza mostrando solo los usuarios con ese estado
-- La opción 'Todos los Estados' muestra todos los usuarios
+- ✅ Existe un selector de filtro ('Todos los Estados') en la página de listado de Usuarios
+- ✅ Al seleccionar un estado, la tabla se actualiza mostrando solo los usuarios con ese estado
+- ✅ La opción 'Todos los Estados' muestra todos los usuarios
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Paginar Listado de Usuarios
+
+### 🎯 HU: Paginar Listado de Usuarios
 **Como:** Administrador
 **Quiero:** navegar por el listado de usuarios en bloques manejables
 **Para:** gestionar grandes volúmenes de usuarios eficientemente
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Usuarios
-- El componente permite ir a la página siguiente
-- El componente permite ir a la página anterior
-- El componente permite ir directamente a una página específica
-- Al cambiar de página, la tabla de usuarios se actualiza con los datos correspondientes
+- ✅ Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Usuarios
+- ✅ El componente permite ir a la página siguiente
+- ✅ El componente permite ir a la página anterior
+- ✅ El componente permite ir directamente a una página específica
+- ✅ Al cambiar de página, la tabla de usuarios se actualiza con los datos correspondientes
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Cambiar Estado de Usuario (Activar/Desactivar)
+
+### 🎯 HU: Cambiar Estado de Usuario (Activar/Desactivar)
 **Como:** Administrador
 **Quiero:** habilitar o deshabilitar el acceso de un usuario
 **Para:** controlar quién puede usar el sistema
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un botón 'Desactivar' o 'Activar' en la columna 'Acciones' de cada usuario, según el estado actual
-- Al hacer clic en el botón, el estado del usuario cambia (Activo a Inactivo, o viceversa)
-- El estado visual en la tabla se actualiza inmediatamente (ej. texto 'Activo'/'Inactivo' y botón)
-- Se muestra una confirmación o mensaje de éxito/error al usuario
+- ✅ Existe un botón 'Desactivar' o 'Activar' en la columna 'Acciones' de cada usuario, según el estado actual
+- ✅ Al hacer clic en el botón, el estado del usuario cambia (Activo a Inactivo, o viceversa)
+- ✅ El estado visual en la tabla se actualiza inmediatamente (ej. texto 'Activo'/'Inactivo' y botón)
+- ✅ Se muestra una confirmación o mensaje de éxito/error al usuario
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Listar Facultades Registradas
+
+### 🎯 HU: Listar Facultades Registradas
 **Como:** Administrador del sistema
 **Quiero:** ver todas las facultades con su información principal
 **Para:** gestionar la estructura académica de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe una página dedicada a 'Gestión de Facultades' accesible desde la navegación lateral
-- Se muestra una tabla con columnas 'Código', 'Nombre', 'Carreras', 'Decano' y 'Acciones'
-- Los datos de las facultades se cargan correctamente en la tabla
-- Se muestra el botón '+ Nueva Facultad' en la página
+- ✅ Existe una página dedicada a 'Gestión de Facultades' accesible desde la navegación lateral
+- ✅ Se muestra una tabla con columnas 'Código', 'Nombre', 'Carreras', 'Decano' y 'Acciones'
+- ✅ Los datos de las facultades se cargan correctamente en la tabla
+- ✅ Se muestra el botón '+ Nueva Facultad' en la página
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Buscar Facultades por Código o Nombre
+
+### 🎯 HU: Buscar Facultades por Código o Nombre
 **Como:** Administrador del sistema
 **Quiero:** encontrar facultades específicas rápidamente
 **Para:** agilizar la gestión de facultades
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un campo de búsqueda ('Buscar por código o nombre...') en la página de listado de Facultades
-- Al escribir texto, la tabla se filtra y muestra solo las facultades que coinciden con el código o nombre
-- La búsqueda debe ser insensible a mayúsculas y minúsculas
-- Al borrar el texto de búsqueda, se muestra el listado completo de facultades
+- ✅ Existe un campo de búsqueda ('Buscar por código o nombre...') en la página de listado de Facultades
+- ✅ Al escribir texto, la tabla se filtra y muestra solo las facultades que coinciden con el código o nombre
+- ✅ La búsqueda debe ser insensible a mayúsculas y minúsculas
+- ✅ Al borrar el texto de búsqueda, se muestra el listado completo de facultades
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Filtrar Facultades por Carreras
+
+### 🎯 HU: Filtrar Facultades por Carreras
 **Como:** Administrador del sistema
 **Quiero:** filtrar el listado de facultades
 **Para:** organizar la visualización por la cantidad de carreras que gestionan
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector de filtro ('Filtrar por Carreras') en la página de listado de Facultades
-- Al seleccionar una opción del filtro (ej. 'Con más de 5 carreras'), la tabla de facultades se actualiza mostrando solo las que cumplen el criterio
-- La opción 'Todas las Carreras' muestra todas las facultades
+- ✅ Existe un selector de filtro ('Filtrar por Carreras') en la página de listado de Facultades
+- ✅ Al seleccionar una opción del filtro (ej. 'Con más de 5 carreras'), la tabla de facultades se actualiza mostrando solo las que cumplen el criterio
+- ✅ La opción 'Todas las Carreras' muestra todas las facultades
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Paginar Listado de Facultades
+
+### 🎯 HU: Paginar Listado de Facultades
 **Como:** Administrador del sistema
 **Quiero:** navegar por el listado de facultades en bloques manejables
 **Para:** gestionar grandes volúmenes de información eficientemente
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Facultades
-- El componente permite ir a la página siguiente
-- El componente permite ir a la página anterior
-- El componente permite ir directamente a una página específica
-- Al cambiar de página, la tabla de facultades se actualiza con los datos correspondientes
+- ✅ Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Facultades
+- ✅ El componente permite ir a la página siguiente
+- ✅ El componente permite ir a la página anterior
+- ✅ El componente permite ir directamente a una página específica
+- ✅ Al cambiar de página, la tabla de facultades se actualiza con los datos correspondientes
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Registrar Nueva Facultad
+
+### 🎯 HU: Registrar Nueva Facultad
 **Como:** Administrador del sistema
 **Quiero:** agregar una nueva facultad al sistema
 **Para:** mantener actualizada la estructura organizativa de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Al hacer clic en '+ Nueva Facultad', se abre un formulario modal de registro de Facultad
-- El formulario incluye campos para 'Código', 'Nombre', 'Descripción'
-- Existe un selector de 'Decano' que permite buscar y seleccionar un usuario existente con rol de Profesor
-- Al enviar datos válidos, la facultad se guarda y se muestra en el listado
-- Al enviar datos inválidos (ej. código o nombre duplicado), se muestra un mensaje de error claro
+- ✅ Al hacer clic en '+ Nueva Facultad', se abre un formulario modal de registro de Facultad
+- ✅ El formulario incluye campos para 'Código', 'Nombre', 'Descripción'
+- ✅ Existe un selector de 'Decano' que permite buscar y seleccionar un usuario existente con rol de Profesor
+- ✅ Al enviar datos válidos, la facultad se guarda y se muestra en el listado
+- ✅ Al enviar datos inválidos (ej. código o nombre duplicado), se muestra un mensaje de error claro
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Editar Información de Facultad
+
+### 🎯 HU: Editar Información de Facultad
 **Como:** Administrador del sistema
 **Quiero:** modificar los datos de una facultad existente
 **Para:** corregir o actualizar su información
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de edición (lápiz) en la columna 'Acciones' de cada facultad en el listado
-- Al hacer clic en el icono de edición, se abre un formulario modal con los datos de la facultad precargados
-- El selector de 'Decano' en el formulario de edición permite buscar y seleccionar un usuario existente con rol de Profesor
-- Al guardar los cambios, la información de la facultad se actualiza correctamente
-- El sistema valida la unicidad del código y nombre de la facultad si se modifican
+- ✅ Existe un icono de edición (lápiz) en la columna 'Acciones' de cada facultad en el listado
+- ✅ Al hacer clic en el icono de edición, se abre un formulario modal con los datos de la facultad precargados
+- ✅ El selector de 'Decano' en el formulario de edición permite buscar y seleccionar un usuario existente con rol de Profesor
+- ✅ Al guardar los cambios, la información de la facultad se actualiza correctamente
+- ✅ El sistema valida la unicidad del código y nombre de la facultad si se modifican
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Eliminar Facultad del Sistema
+
+### 🎯 HU: Eliminar Facultad del Sistema
 **Como:** Administrador del sistema
 **Quiero:** remover una facultad del sistema
 **Para:** depurar información obsoleta o incorrecta
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de eliminación (papelera) en la columna 'Acciones' de cada facultad en el listado
-- Al hacer clic en el icono de eliminación, se muestra una confirmación al usuario
-- Si la facultad no tiene carreras asociadas, se elimina del sistema
-- Si la facultad tiene carreras asociadas, el sistema advierte e impide la eliminación
+- ✅ Existe un icono de eliminación (papelera) en la columna 'Acciones' de cada facultad en el listado
+- ✅ Al hacer clic en el icono de eliminación, se muestra una confirmación al usuario
+- ✅ Si la facultad no tiene carreras asociadas, se elimina del sistema
+- ✅ Si la facultad tiene carreras asociadas, el sistema advierte e impide la eliminación
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Listar Carreras Registradas
+
+### 🎯 HU: Listar Carreras Registradas
 **Como:** Administrador del sistema
 **Quiero:** ver todas las carreras con su información principal
 **Para:** gestionar la oferta académica de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe una página dedicada a 'Gestión de Carreras' accesible desde la navegación lateral
-- Se muestra una tabla con columnas 'Código', 'Nombre', 'Facultad', 'Coordinador' y 'Acciones'
-- Los datos de las carreras se cargan correctamente en la tabla
-- Se muestra el botón '+ Nueva Carrera' en la página
+- ✅ Existe una página dedicada a 'Gestión de Carreras' accesible desde la navegación lateral
+- ✅ Se muestra una tabla con columnas 'Código', 'Nombre', 'Facultad', 'Coordinador' y 'Acciones'
+- ✅ Los datos de las carreras se cargan correctamente en la tabla
+- ✅ Se muestra el botón '+ Nueva Carrera' en la página
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Buscar Carreras por Palabra Clave
+
+### 🎯 HU: Buscar Carreras por Palabra Clave
 **Como:** Administrador del sistema
 **Quiero:** encontrar carreras específicas rápidamente por código o nombre
 **Para:** agilizar la gestión de carreras
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un campo de búsqueda ('Buscar carrera...') en la página de listado de Carreras
-- Al escribir texto, la tabla se filtra y muestra solo las carreras que coinciden con el código o nombre
-- La búsqueda debe ser insensible a mayúsculas y minúsculas
-- Al borrar el texto de búsqueda, se muestra el listado completo de carreras
+- ✅ Existe un campo de búsqueda ('Buscar carrera...') en la página de listado de Carreras
+- ✅ Al escribir texto, la tabla se filtra y muestra solo las carreras que coinciden con el código o nombre
+- ✅ La búsqueda debe ser insensible a mayúsculas y minúsculas
+- ✅ Al borrar el texto de búsqueda, se muestra el listado completo de carreras
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Filtrar Carreras por Facultad
+
+### 🎯 HU: Filtrar Carreras por Facultad
 **Como:** Administrador del sistema
 **Quiero:** ver carreras que pertenecen a una facultad específica
 **Para:** organizar la visualización de la oferta académica
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector de filtro ('Todas las Facultades') en la página de listado de Carreras
-- Al seleccionar una facultad, la tabla se actualiza mostrando solo las carreras de esa facultad
-- La opción 'Todas las Facultades' muestra todas las carreras
+- ✅ Existe un selector de filtro ('Todas las Facultades') en la página de listado de Carreras
+- ✅ Al seleccionar una facultad, la tabla se actualiza mostrando solo las carreras de esa facultad
+- ✅ La opción 'Todas las Facultades' muestra todas las carreras
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Filtrar Carreras por Estado
+
+### 🎯 HU: Filtrar Carreras por Estado
 **Como:** Administrador del sistema
 **Quiero:** ver carreras que tienen un estado específico
 **Para:** organizar la visualización por estado de la carrera (ej. activa, inactiva, en revisión)
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector de filtro ('Todos los Estados') en la página de listado de Carreras
-- Al seleccionar un estado, la tabla se actualiza mostrando solo las carreras con ese estado
-- La opción 'Todos los Estados' muestra todas las carreras
+- ✅ Existe un selector de filtro ('Todos los Estados') en la página de listado de Carreras
+- ✅ Al seleccionar un estado, la tabla se actualiza mostrando solo las carreras con ese estado
+- ✅ La opción 'Todos los Estados' muestra todas las carreras
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Paginar Listado de Carreras
+
+### 🎯 HU: Paginar Listado de Carreras
 **Como:** Administrador del sistema
 **Quiero:** navegar por el listado de carreras en bloques manejables
 **Para:** gestionar grandes volúmenes de información eficientemente
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Carreras
-- El componente permite ir a la página siguiente
-- El componente permite ir a la página anterior
-- El componente permite ir directamente a una página específica
-- Al cambiar de página, la tabla de carreras se actualiza con los datos correspondientes
+- ✅ Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Carreras
+- ✅ El componente permite ir a la página siguiente
+- ✅ El componente permite ir a la página anterior
+- ✅ El componente permite ir directamente a una página específica
+- ✅ Al cambiar de página, la tabla de carreras se actualiza con los datos correspondientes
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Registrar Nueva Carrera
+
+### 🎯 HU: Registrar Nueva Carrera
 **Como:** Administrador
 **Quiero:** ingresar la información de una nueva carrera
 **Para:** agregar una oferta académica
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Al hacer clic en '+ Nueva Carrera', se abre un formulario de registro de carrera
-- El formulario incluye campos para 'Código', 'Nombre'
-- Existe un selector para asociar la carrera a una 'Facultad' existente
-- Existe un selector para asignar un 'Coordinador' de una lista de usuarios existentes con rol de Profesor
-- El Código de la carrera es validado como único
-- Al guardar, la carrera queda registrada exitosamente y se muestra en el listado
+- ✅ Al hacer clic en '+ Nueva Carrera', se abre un formulario de registro de carrera
+- ✅ El formulario incluye campos para 'Código', 'Nombre'
+- ✅ Existe un selector para asociar la carrera a una 'Facultad' existente
+- ✅ Existe un selector para asignar un 'Coordinador' de una lista de usuarios existentes con rol de Profesor
+- ✅ El Código de la carrera es validado como único
+- ✅ Al guardar, la carrera queda registrada exitosamente y se muestra en el listado
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Editar Información de Carrera
+
+### 🎯 HU: Editar Información de Carrera
 **Como:** Administrador del sistema
 **Quiero:** modificar los datos de una carrera existente
 **Para:** corregir o actualizar su información
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de edición (lápiz) en la columna 'Acciones' de cada carrera en el listado
-- Al hacer clic en el icono de edición, se abre un formulario modal con los datos de la carrera precargados
-- El selector de 'Coordinador' en el formulario de edición permite buscar y seleccionar un usuario existente con rol de Profesor
-- Al guardar los cambios, la información de la carrera se actualiza correctamente
-- El sistema valida la unicidad del código de la carrera si se modifica
+- ✅ Existe un icono de edición (lápiz) en la columna 'Acciones' de cada carrera en el listado
+- ✅ Al hacer clic en el icono de edición, se abre un formulario modal con los datos de la carrera precargados
+- ✅ El selector de 'Coordinador' en el formulario de edición permite buscar y seleccionar un usuario existente con rol de Profesor
+- ✅ Al guardar los cambios, la información de la carrera se actualiza correctamente
+- ✅ El sistema valida la unicidad del código de la carrera si se modifica
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Eliminar Carrera del Sistema
+
+### 🎯 HU: Eliminar Carrera del Sistema
 **Como:** Administrador del sistema
 **Quiero:** remover una carrera del sistema
 **Para:** depurar información obsoleta o incorrecta
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de eliminación (papelera) en la columna 'Acciones' de cada carrera en el listado
-- Al hacer clic en el icono de eliminación, se muestra una confirmación al usuario
-- Si la carrera no tiene materias o profesores asociados, se elimina del sistema
-- Si la carrera tiene dependencias, el sistema advierte e impide la eliminación
+- ✅ Existe un icono de eliminación (papelera) en la columna 'Acciones' de cada carrera en el listado
+- ✅ Al hacer clic en el icono de eliminación, se muestra una confirmación al usuario
+- ✅ Si la carrera no tiene materias o profesores asociados, se elimina del sistema
+- ✅ Si la carrera tiene dependencias, el sistema advierte e impide la eliminación
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Visualizar Permisos por Rol
+
+### 🎯 HU: Visualizar Permisos por Rol
 **Como:** Administrador
 **Quiero:** ver los permisos asociados a cada rol definido en el sistema
 **Para:** entender las capacidades de cada tipo de usuario y revisar la configuración de seguridad
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe una página 'Gestión de Roles' accesible desde la navegación lateral
-- La página muestra tarjetas para cada rol (ej. 'Administrador', 'CEI', 'Autoridad de facultad', 'Coordinador de Carrera', 'Profesor')
-- Cada tarjeta de rol muestra un listado de permisos asociados (ej. 'Ver facultades', 'Crear facultades', 'Eliminar facultades', 'Ver usuarios')
-- Los permisos se presentan como checkboxes, mostrando si están habilitados para ese rol
+- ✅ Existe una página 'Gestión de Roles' accesible desde la navegación lateral
+- ✅ La página muestra tarjetas para cada rol (ej. 'Administrador', 'CEI', 'Autoridad de facultad', 'Coordinador de Carrera', 'Profesor')
+- ✅ Cada tarjeta de rol muestra un listado de permisos asociados (ej. 'Ver facultades', 'Crear facultades', 'Eliminar facultades', 'Ver usuarios')
+- ✅ Los permisos se presentan como checkboxes, mostrando si están habilitados para ese rol
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Visualizar Perfil Personal
+
+### 🎯 HU: Visualizar Perfil Personal
 **Como:** Usuario del sistema
 **Quiero:** ver mi información personal y de contacto registrada
 **Para:** confirmar mis datos en la plataforma y tenerlos a mano
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe una página 'Mi Perfil' accesible desde la navegación lateral
-- La página muestra una sección de 'Información Personal' con campos (Nombre Completo, Correo Institucional, Facultad, Teléfono, Fecha de Registro)
-- Todos los campos de información personal muestran los datos del usuario logueado
+- ✅ Existe una página 'Mi Perfil' accesible desde la navegación lateral
+- ✅ La página muestra una sección de 'Información Personal' con campos (Nombre Completo, Correo Institucional, Facultad, Teléfono, Fecha de Registro)
+- ✅ Todos los campos de información personal muestran los datos del usuario logueado
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Visualizar Roles y Permisos Detallados de Perfil
+
+### 🎯 HU: Visualizar Roles y Permisos Detallados de Perfil
 **Como:** Usuario del sistema
 **Quiero:** ver los roles que tengo asignados y los permisos detallados de los mismos
 **Para:** comprender mis capacidades y accesos dentro del sistema
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- La página 'Mi Perfil' muestra una sección de 'Rol y Permisos'
-- Se muestra el 'Rol Asignado' (ej. 'Profesor', 'Decano')
-- Existe un desplegable o botón 'Ver Permisos Detallados'
-- Al expandir 'Ver Permisos Detallados', se lista los permisos específicos del usuario (ej. 'Visualizar Dashboard', 'Gestionar Cursos', 'Registrar Calificaciones')
+- ✅ La página 'Mi Perfil' muestra una sección de 'Rol y Permisos'
+- ✅ Se muestra el 'Rol Asignado' (ej. 'Profesor', 'Decano')
+- ✅ Existe un desplegable o botón 'Ver Permisos Detallados'
+- ✅ Al expandir 'Ver Permisos Detallados', se lista los permisos específicos del usuario (ej. 'Visualizar Dashboard', 'Gestionar Cursos', 'Registrar Calificaciones')
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Cambiar Contraseña Personal
+
+### 🎯 HU: Cambiar Contraseña Personal
 **Como:** Usuario del sistema
 **Quiero:** actualizar mi contraseña
 **Para:** mantener mi cuenta segura regularmente
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- La página 'Mi Perfil' muestra una sección de 'Cambiar Contraseña'
-- Existe un botón 'Actualizar Contraseña'
-- Al hacer clic en el botón, se abre un formulario modal para cambiar contraseña (campos: Contraseña Actual, Nueva Contraseña, Confirmar Nueva Contraseña)
-- El sistema valida que la 'Contraseña Actual' sea correcta
-- El sistema valida que 'Nueva Contraseña' y 'Confirmar Nueva Contraseña' coincidan y cumplan con políticas de seguridad
-- Al guardar, la contraseña se actualiza y se muestra un mensaje de éxito
+- ✅ La página 'Mi Perfil' muestra una sección de 'Cambiar Contraseña'
+- ✅ Existe un botón 'Actualizar Contraseña'
+- ✅ Al hacer clic en el botón, se abre un formulario modal para cambiar contraseña (campos: Contraseña Actual, Nueva Contraseña, Confirmar Nueva Contraseña)
+- ✅ El sistema valida que la 'Contraseña Actual' sea correcta
+- ✅ El sistema valida que 'Nueva Contraseña' y 'Confirmar Nueva Contraseña' coincidan y cumplan con políticas de seguridad
+- ✅ Al guardar, la contraseña se actualiza y se muestra un mensaje de éxito
 
-**Story Points:** 2
-**Prioridad:** Media (2)
+
+**Story Points:** 2 | **Prioridad:** Media (2)
 
 <!-- --- -->
 
@@ -9864,545 +9409,515 @@ No repetir títulos de tareas.
 **Como:** 
 **Quiero:** 
 **Para:** 
-**Story Points:** N/A
-**Prioridad:** N/A
 
----
+**Story Points:** N/A**Prioridad:** N/A
 
-### HU: Iniciar Sesión en Poliacredita
+
+### 🎯 HU: Iniciar Sesión en Poliacredita
 **Como:** Usuario del sistema SAGA EPN EUR-ACE
 **Quiero:** ingresar mis credenciales institucionales y seleccionar mi rol
 **Para:** acceder a mis funcionalidades correspondientes a mi rol
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El sistema muestra un formulario con campos para 'Correo Institucional'
-- El sistema muestra un campo para 'Contraseña'
-- El sistema muestra un selector de 'Rol' con opciones (ej. Administrador, CEI, Autoridad Académica, Coordinador de Carrera, Profesor)
-- Al ingresar credenciales válidas y seleccionar un rol, el usuario es redirigido al Dashboard
-- Al ingresar credenciales inválidas, se muestra un mensaje de error claro
-- Existe un enlace para '¿Olvidaste tu contraseña?'
+- ✅ El sistema muestra un formulario con campos para 'Correo Institucional'
+- ✅ El sistema muestra un campo para 'Contraseña'
+- ✅ El sistema muestra un selector de 'Rol' con opciones (ej. Administrador, CEI, Autoridad Académica, Coordinador de Carrera, Profesor)
+- ✅ Al ingresar credenciales válidas y seleccionar un rol, el usuario es redirigido al Dashboard
+- ✅ Al ingresar credenciales inválidas, se muestra un mensaje de error claro
+- ✅ Existe un enlace para '¿Olvidaste tu contraseña?'
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Visualizar Conteo de Entidades en Dashboard
+
+### 🎯 HU: Visualizar Conteo de Entidades en Dashboard
 **Como:** Administrador
 **Quiero:** ver el número total de facultades, carreras y usuarios activos
 **Para:** obtener una visión general rápida del estado de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El Dashboard muestra el 'Total Facultades' con un valor numérico
-- El Dashboard muestra el 'Total Carreras' con un valor numérico
-- El Dashboard muestra el 'Usuarios Activos' con un valor numérico
+- ✅ El Dashboard muestra el 'Total Facultades' con un valor numérico
+- ✅ El Dashboard muestra el 'Total Carreras' con un valor numérico
+- ✅ El Dashboard muestra el 'Usuarios Activos' con un valor numérico
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Visualizar Actividad Reciente en Dashboard
+
+### 🎯 HU: Visualizar Actividad Reciente en Dashboard
 **Como:** Administrador
 **Quiero:** ver un registro de las últimas acciones realizadas en el sistema
 **Para:** monitorear la actividad de la plataforma
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El Dashboard muestra una sección de 'Actividad Reciente' con columnas 'Hora', 'Usuario', 'Acción'
-- La tabla muestra un listado de acciones recientes (ej. 'Creo nueva facultad FIEC', 'Actualizó datos de carrera Ingeniería Civil')
-- Cada acción muestra la hora en formato relativo ('Hace 5 min', 'Hace 15 min')
-- Cada acción muestra el email del usuario que la realizó
-- Cada acción muestra una descripción concisa de la actividad
+- ✅ El Dashboard muestra una sección de 'Actividad Reciente' con columnas 'Hora', 'Usuario', 'Acción'
+- ✅ La tabla muestra un listado de acciones recientes (ej. 'Creo nueva facultad FIEC', 'Actualizó datos de carrera Ingeniería Civil')
+- ✅ Cada acción muestra la hora en formato relativo ('Hace 5 min', 'Hace 15 min')
+- ✅ Cada acción muestra el email del usuario que la realizó
+- ✅ Cada acción muestra una descripción concisa de la actividad
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Acceder a Acciones Rápidas desde Dashboard
+
+### 🎯 HU: Acceder a Acciones Rápidas desde Dashboard
 **Como:** Administrador
 **Quiero:** tener enlaces directos a funcionalidades de gestión importantes
 **Para:** agilizar mi navegación y ejecución de tareas comunes
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El Dashboard muestra una sección de 'Acceso Rápido'
-- Esta sección incluye un botón o enlace con icono y texto 'Gestionar Carreras'
-- Esta sección incluye un botón o enlace con icono y texto 'Gestionar Profesores'
-- Esta sección incluye un botón o enlace con icono y texto 'Ver Mi Perfil'
-- Al hacer clic en cada botón, el usuario es redirigido a la página correspondiente
+- ✅ El Dashboard muestra una sección de 'Acceso Rápido'
+- ✅ Esta sección incluye un botón o enlace con icono y texto 'Gestionar Carreras'
+- ✅ Esta sección incluye un botón o enlace con icono y texto 'Gestionar Profesores'
+- ✅ Esta sección incluye un botón o enlace con icono y texto 'Ver Mi Perfil'
+- ✅ Al hacer clic en cada botón, el usuario es redirigido a la página correspondiente
 
-**Story Points:** 1
-**Prioridad:** Media (2)
 
----
+**Story Points:** 1 | **Prioridad:** Media (2)
 
-### HU: Listar Usuarios Registrados
+
+### 🎯 HU: Listar Usuarios Registrados
 **Como:** Administrador
 **Quiero:** ver una lista de todos los usuarios registrados con su información clave
 **Para:** gestionar el acceso y los roles en el sistema
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe una página 'Gestión de Usuarios' accesible desde la navegación lateral
-- Se muestra una tabla con columnas 'Email', 'Nombre', 'Rol', 'Estado' y 'Acciones'
-- Los datos de los usuarios se cargan correctamente en la tabla
-- Se muestra el botón '+ Nuevo Usuario' en la página
+- ✅ Existe una página 'Gestión de Usuarios' accesible desde la navegación lateral
+- ✅ Se muestra una tabla con columnas 'Email', 'Nombre', 'Rol', 'Estado' y 'Acciones'
+- ✅ Los datos de los usuarios se cargan correctamente en la tabla
+- ✅ Se muestra el botón '+ Nuevo Usuario' en la página
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Registrar Nuevo Usuario
+
+### 🎯 HU: Registrar Nuevo Usuario
 **Como:** Administrador
 **Quiero:** crear un nuevo registro de usuario en el sistema
 **Para:** permitir que nuevas personas accedan a la plataforma
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Al hacer clic en '+ Nuevo Usuario', se abre un formulario modal de registro de usuario
-- El formulario incluye campos para 'Cédula', 'Nombres', 'Apellidos', 'Email', 'Teléfono'
-- El formulario incluye un selector de 'Rol' con opciones de checkbox (ej. Comité Evaluación Interna, Autoridad Académica, Coordinador de Carrera, Profesor)
-- El formulario incluye un selector de 'Facultad' con función de búsqueda
-- La Cédula y el Email son validados como únicos en el sistema
-- Al enviar datos válidos, el usuario se guarda y se muestra en el listado
+- ✅ Al hacer clic en '+ Nuevo Usuario', se abre un formulario modal de registro de usuario
+- ✅ El formulario incluye campos para 'Cédula', 'Nombres', 'Apellidos', 'Email', 'Teléfono'
+- ✅ El formulario incluye un selector de 'Rol' con opciones de checkbox (ej. Comité Evaluación Interna, Autoridad Académica, Coordinador de Carrera, Profesor)
+- ✅ El formulario incluye un selector de 'Facultad' con función de búsqueda
+- ✅ La Cédula y el Email son validados como únicos en el sistema
+- ✅ Al enviar datos válidos, el usuario se guarda y se muestra en el listado
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Editar Información de Usuario
+
+### 🎯 HU: Editar Información de Usuario
 **Como:** Administrador
 **Quiero:** modificar los datos de un usuario existente
 **Para:** corregir o actualizar su información, roles o estado
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de edición (lápiz) en la columna 'Acciones' de cada usuario en el listado
-- Al hacer clic en el icono de edición, se abre un formulario modal con los datos del usuario precargados
-- El formulario permite modificar 'Nombres', 'Apellidos', 'Email', 'Teléfono', 'Roles' y 'Facultad'
-- El sistema valida la unicidad del Email y Cédula si se modifican
-- Al guardar los cambios, la información del usuario se actualiza correctamente
+- ✅ Existe un icono de edición (lápiz) en la columna 'Acciones' de cada usuario en el listado
+- ✅ Al hacer clic en el icono de edición, se abre un formulario modal con los datos del usuario precargados
+- ✅ El formulario permite modificar 'Nombres', 'Apellidos', 'Email', 'Teléfono', 'Roles' y 'Facultad'
+- ✅ El sistema valida la unicidad del Email y Cédula si se modifican
+- ✅ Al guardar los cambios, la información del usuario se actualiza correctamente
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Buscar Usuarios por Palabra Clave
+
+### 🎯 HU: Buscar Usuarios por Palabra Clave
 **Como:** Administrador
 **Quiero:** encontrar usuarios específicos rápidamente por email, nombre o cédula
 **Para:** agilizar la gestión de usuarios
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un campo de búsqueda ('Buscar usuario...') en la página de listado de Usuarios
-- Al escribir texto, la tabla se filtra y muestra solo los usuarios que coinciden con el email, nombre o cédula
-- La búsqueda debe ser insensible a mayúsculas y minúsculas
-- Al borrar el texto de búsqueda, se muestra el listado completo de usuarios
+- ✅ Existe un campo de búsqueda ('Buscar usuario...') en la página de listado de Usuarios
+- ✅ Al escribir texto, la tabla se filtra y muestra solo los usuarios que coinciden con el email, nombre o cédula
+- ✅ La búsqueda debe ser insensible a mayúsculas y minúsculas
+- ✅ Al borrar el texto de búsqueda, se muestra el listado completo de usuarios
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Filtrar Usuarios por Rol
+
+### 🎯 HU: Filtrar Usuarios por Rol
 **Como:** Administrador
 **Quiero:** ver usuarios que tienen uno o más roles específicos
 **Para:** organizar la visualización y gestionar permisos por rol
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector de filtro ('Todos los Roles') en la página de listado de Usuarios
-- Al seleccionar uno o varios roles, la tabla se actualiza mostrando solo los usuarios con esos roles
-- La opción 'Todos los Roles' muestra todos los usuarios
+- ✅ Existe un selector de filtro ('Todos los Roles') en la página de listado de Usuarios
+- ✅ Al seleccionar uno o varios roles, la tabla se actualiza mostrando solo los usuarios con esos roles
+- ✅ La opción 'Todos los Roles' muestra todos los usuarios
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Filtrar Usuarios por Estado
+
+### 🎯 HU: Filtrar Usuarios por Estado
 **Como:** Administrador
 **Quiero:** ver usuarios que tienen un estado específico (Activo/Inactivo)
 **Para:** gestionar el acceso y habilitación/deshabilitación de cuentas
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector de filtro ('Todos los Estados') en la página de listado de Usuarios
-- Al seleccionar un estado, la tabla se actualiza mostrando solo los usuarios con ese estado
-- La opción 'Todos los Estados' muestra todos los usuarios
+- ✅ Existe un selector de filtro ('Todos los Estados') en la página de listado de Usuarios
+- ✅ Al seleccionar un estado, la tabla se actualiza mostrando solo los usuarios con ese estado
+- ✅ La opción 'Todos los Estados' muestra todos los usuarios
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Paginar Listado de Usuarios
+
+### 🎯 HU: Paginar Listado de Usuarios
 **Como:** Administrador
 **Quiero:** navegar por el listado de usuarios en bloques manejables
 **Para:** gestionar grandes volúmenes de usuarios eficientemente
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Usuarios
-- El componente permite ir a la página siguiente
-- El componente permite ir a la página anterior
-- El componente permite ir directamente a una página específica
-- Al cambiar de página, la tabla de usuarios se actualiza con los datos correspondientes
+- ✅ Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Usuarios
+- ✅ El componente permite ir a la página siguiente
+- ✅ El componente permite ir a la página anterior
+- ✅ El componente permite ir directamente a una página específica
+- ✅ Al cambiar de página, la tabla de usuarios se actualiza con los datos correspondientes
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Cambiar Estado de Usuario (Activar/Desactivar)
+
+### 🎯 HU: Cambiar Estado de Usuario (Activar/Desactivar)
 **Como:** Administrador
 **Quiero:** habilitar o deshabilitar el acceso de un usuario
 **Para:** controlar quién puede usar el sistema
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un botón 'Desactivar' o 'Activar' en la columna 'Acciones' de cada usuario, según el estado actual
-- Al hacer clic en el botón, el estado del usuario cambia (Activo a Inactivo, o viceversa)
-- El estado visual en la tabla se actualiza inmediatamente (ej. texto 'Activo'/'Inactivo' y botón)
-- Se muestra una confirmación o mensaje de éxito/error al usuario
+- ✅ Existe un botón 'Desactivar' o 'Activar' en la columna 'Acciones' de cada usuario, según el estado actual
+- ✅ Al hacer clic en el botón, el estado del usuario cambia (Activo a Inactivo, o viceversa)
+- ✅ El estado visual en la tabla se actualiza inmediatamente (ej. texto 'Activo'/'Inactivo' y botón)
+- ✅ Se muestra una confirmación o mensaje de éxito/error al usuario
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Listar Facultades Registradas
+
+### 🎯 HU: Listar Facultades Registradas
 **Como:** DGIP
 **Quiero:** ver todas las facultades con su información principal
 **Para:** gestionar la estructura académica de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe una página dedicada a 'Gestión de Facultades' accesible desde la navegación lateral
-- Se muestra una tabla con columnas 'Código', 'Nombre', 'Carreras', 'Decano' y 'Acciones'
-- Los datos de las facultades se cargan correctamente en la tabla
-- Se muestra el botón '+ Nueva Facultad' en la página
+- ✅ Existe una página dedicada a 'Gestión de Facultades' accesible desde la navegación lateral
+- ✅ Se muestra una tabla con columnas 'Código', 'Nombre', 'Carreras', 'Decano' y 'Acciones'
+- ✅ Los datos de las facultades se cargan correctamente en la tabla
+- ✅ Se muestra el botón '+ Nueva Facultad' en la página
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Buscar Facultades por Código o Nombre
+
+### 🎯 HU: Buscar Facultades por Código o Nombre
 **Como:** DGIP
 **Quiero:** encontrar facultades específicas rápidamente
 **Para:** agilizar la gestión de facultades
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un campo de búsqueda ('Buscar por código o nombre...') en la página de listado de Facultades
-- Al escribir texto, la tabla se filtra y muestra solo las facultades que coinciden con el código o nombre
-- La búsqueda debe ser insensible a mayúsculas y minúsculas
-- Al borrar el texto de búsqueda, se muestra el listado completo de facultades
+- ✅ Existe un campo de búsqueda ('Buscar por código o nombre...') en la página de listado de Facultades
+- ✅ Al escribir texto, la tabla se filtra y muestra solo las facultades que coinciden con el código o nombre
+- ✅ La búsqueda debe ser insensible a mayúsculas y minúsculas
+- ✅ Al borrar el texto de búsqueda, se muestra el listado completo de facultades
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Filtrar Facultades por Carreras
+
+### 🎯 HU: Filtrar Facultades por Carreras
 **Como:** DGIP
 **Quiero:** filtrar el listado de facultades
 **Para:** organizar la visualización por la cantidad de carreras que gestionan
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector de filtro ('Filtrar por Carreras') en la página de listado de Facultades
-- Al seleccionar una opción del filtro (ej. 'Con más de 5 carreras'), la tabla de facultades se actualiza mostrando solo las que cumplen el criterio
-- La opción 'Todas las Carreras' muestra todas las facultades
+- ✅ Existe un selector de filtro ('Filtrar por Carreras') en la página de listado de Facultades
+- ✅ Al seleccionar una opción del filtro (ej. 'Con más de 5 carreras'), la tabla de facultades se actualiza mostrando solo las que cumplen el criterio
+- ✅ La opción 'Todas las Carreras' muestra todas las facultades
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Paginar Listado de Facultades
+
+### 🎯 HU: Paginar Listado de Facultades
 **Como:** DGIP
 **Quiero:** navegar por el listado de facultades en bloques manejables
 **Para:** gestionar grandes volúmenes de información eficientemente
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Facultades
-- El componente permite ir a la página siguiente
-- El componente permite ir a la página anterior
-- El componente permite ir directamente a una página específica
-- Al cambiar de página, la tabla de facultades se actualiza con los datos correspondientes
+- ✅ Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Facultades
+- ✅ El componente permite ir a la página siguiente
+- ✅ El componente permite ir a la página anterior
+- ✅ El componente permite ir directamente a una página específica
+- ✅ Al cambiar de página, la tabla de facultades se actualiza con los datos correspondientes
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Registrar Nueva Facultad
+
+
+### 🎯 HU: Registrar Nueva Facultad
 **Como:** DGIP
 **Quiero:** agregar una nueva facultad al sistema
 **Para:** mantener actualizada la estructura organizativa de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Al hacer clic en '+ Nueva Facultad', se abre un formulario modal de registro de Facultad
-- El formulario incluye campos para 'Código', 'Nombre', 'Descripción'
-- Existe un selector de 'Decano' que permite buscar y seleccionar un usuario existente con rol de Profesor
-- Al enviar datos válidos, la facultad se guarda y se muestra en el listado
-- Al enviar datos inválidos (ej. código o nombre duplicado), se muestra un mensaje de error claro
+- ✅ Al hacer clic en '+ Nueva Facultad', se abre un formulario modal de registro de Facultad
+- ✅ El formulario incluye campos para 'Código', 'Nombre', 'Descripción'
+- ✅ Existe un selector de 'Decano' que permite buscar y seleccionar un usuario existente con rol de Profesor
+- ✅ Al enviar datos válidos, la facultad se guarda y se muestra en el listado
+- ✅ Al enviar datos inválidos (ej. código o nombre duplicado), se muestra un mensaje de error claro
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Editar Información de Facultad
+
+### 🎯 HU: Editar Información de Facultad
 **Como:** DGIP
 **Quiero:** modificar los datos de una facultad existente
 **Para:** corregir o actualizar su información
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de edición (lápiz) en la columna 'Acciones' de cada facultad en el listado
-- Al hacer clic en el icono de edición, se abre un formulario modal con los datos de la facultad precargados
-- El selector de 'Decano' en el formulario de edición permite buscar y seleccionar un usuario existente con rol de Profesor
-- Al guardar los cambios, la información de la facultad se actualiza correctamente
-- El sistema valida la unicidad del código y nombre de la facultad si se modifican
+- ✅ Existe un icono de edición (lápiz) en la columna 'Acciones' de cada facultad en el listado
+- ✅ Al hacer clic en el icono de edición, se abre un formulario modal con los datos de la facultad precargados
+- ✅ El selector de 'Decano' en el formulario de edición permite buscar y seleccionar un usuario existente con rol de Profesor
+- ✅ Al guardar los cambios, la información de la facultad se actualiza correctamente
+- ✅ El sistema valida la unicidad del código y nombre de la facultad si se modifican
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Eliminar Facultad del Sistema
+
+### 🎯 HU: Eliminar Facultad del Sistema
 **Como:** DGIP
 **Quiero:** remover una facultad del sistema
 **Para:** depurar información obsoleta o incorrecta
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de eliminación (papelera) en la columna 'Acciones' de cada facultad en el listado
-- Al hacer clic en el icono de eliminación, se muestra una confirmación al usuario
-- Si la facultad no tiene carreras asociadas, se elimina del sistema
-- Si la facultad tiene carreras asociadas, el sistema advierte e impide la eliminación
+- ✅ Existe un icono de eliminación (papelera) en la columna 'Acciones' de cada facultad en el listado
+- ✅ Al hacer clic en el icono de eliminación, se muestra una confirmación al usuario
+- ✅ Si la facultad no tiene carreras asociadas, se elimina del sistema
+- ✅ Si la facultad tiene carreras asociadas, el sistema advierte e impide la eliminación
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Listar Carreras Registradas
+
+### 🎯 HU: Listar Carreras Registradas
 **Como:** DGIP
 **Quiero:** ver todas las carreras con su información principal
 **Para:** gestionar la oferta académica de la EPN
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe una página dedicada a 'Gestión de Carreras' accesible desde la navegación lateral
-- Se muestra una tabla con columnas 'Código', 'Nombre', 'Facultad', 'Coordinador' y 'Acciones'
-- Los datos de las carreras se cargan correctamente en la tabla
-- Se muestra el botón '+ Nueva Carrera' en la página
+- ✅ Existe una página dedicada a 'Gestión de Carreras' accesible desde la navegación lateral
+- ✅ Se muestra una tabla con columnas 'Código', 'Nombre', 'Facultad', 'Coordinador' y 'Acciones'
+- ✅ Los datos de las carreras se cargan correctamente en la tabla
+- ✅ Se muestra el botón '+ Nueva Carrera' en la página
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Buscar Carreras por Palabra Clave
+
+### 🎯 HU: Buscar Carreras por Palabra Clave
 **Como:** DGIP
 **Quiero:** encontrar carreras específicas rápidamente por código o nombre
 **Para:** agilizar la gestión de carreras
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un campo de búsqueda ('Buscar carrera...') en la página de listado de Carreras
-- Al escribir texto, la tabla se filtra y muestra solo las carreras que coinciden con el código o nombre
-- La búsqueda debe ser insensible a mayúsculas y minúsculas
-- Al borrar el texto de búsqueda, se muestra el listado completo de carreras
+- ✅ Existe un campo de búsqueda ('Buscar carrera...') en la página de listado de Carreras
+- ✅ Al escribir texto, la tabla se filtra y muestra solo las carreras que coinciden con el código o nombre
+- ✅ La búsqueda debe ser insensible a mayúsculas y minúsculas
+- ✅ Al borrar el texto de búsqueda, se muestra el listado completo de carreras
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Filtrar Carreras por Facultad
+
+### 🎯 HU: Filtrar Carreras por Facultad
 **Como:** DGIP
 **Quiero:** ver carreras que pertenecen a una facultad específica
 **Para:** organizar la visualización de la oferta académica
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector de filtro ('Todas las Facultades') en la página de listado de Carreras
-- Al seleccionar una facultad, la tabla se actualiza mostrando solo las carreras de esa facultad
-- La opción 'Todas las Facultades' muestra todas las carreras
+- ✅ Existe un selector de filtro ('Todas las Facultades') en la página de listado de Carreras
+- ✅ Al seleccionar una facultad, la tabla se actualiza mostrando solo las carreras de esa facultad
+- ✅ La opción 'Todas las Facultades' muestra todas las carreras
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Filtrar Carreras por Estado
+
+### 🎯 HU: Filtrar Carreras por Estado
 **Como:** DGIP
 **Quiero:** ver carreras que tienen un estado específico
 **Para:** organizar la visualización por estado de la carrera (ej. activa, inactiva, en revisión)
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector de filtro ('Todos los Estados') en la página de listado de Carreras
-- Al seleccionar un estado, la tabla se actualiza mostrando solo las carreras con ese estado
-- La opción 'Todos los Estados' muestra todas las carreras
+- ✅ Existe un selector de filtro ('Todos los Estados') en la página de listado de Carreras
+- ✅ Al seleccionar un estado, la tabla se actualiza mostrando solo las carreras con ese estado
+- ✅ La opción 'Todos los Estados' muestra todas las carreras
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Paginar Listado de Carreras
+
+### 🎯 HU: Paginar Listado de Carreras
 **Como:** DGIP
 **Quiero:** navegar por el listado de carreras en bloques manejables
 **Para:** gestionar grandes volúmenes de información eficientemente
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Carreras
-- El componente permite ir a la página siguiente
-- El componente permite ir a la página anterior
-- El componente permite ir directamente a una página específica
-- Al cambiar de página, la tabla de carreras se actualiza con los datos correspondientes
+- ✅ Existe un componente de paginación ('Previous 1 2 3 Next') en la parte inferior de la tabla de Carreras
+- ✅ El componente permite ir a la página siguiente
+- ✅ El componente permite ir a la página anterior
+- ✅ El componente permite ir directamente a una página específica
+- ✅ Al cambiar de página, la tabla de carreras se actualiza con los datos correspondientes
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Registrar Nueva Carrera
+
+### 🎯 HU: Registrar Nueva Carrera
 **Como:** DGIP
 **Quiero:** ingresar la información de una nueva carrera
 **Para:** agregar una oferta académica
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Al hacer clic en '+ Nueva Carrera', se abre un formulario de registro de carrera
-- El formulario incluye campos para 'Código', 'Nombre'
-- Existe un selector para asociar la carrera a una 'Facultad' existente
-- Existe un selector para asignar un 'Coordinador' de una lista de usuarios existentes con rol de Profesor
-- El Código de la carrera es validado como único
-- Al guardar, la carrera queda registrada exitosamente y se muestra en el listado
+- ✅ Al hacer clic en '+ Nueva Carrera', se abre un formulario de registro de carrera
+- ✅ El formulario incluye campos para 'Código', 'Nombre'
+- ✅ Existe un selector para asociar la carrera a una 'Facultad' existente
+- ✅ Existe un selector para asignar un 'Coordinador' de una lista de usuarios existentes con rol de Profesor
+- ✅ El Código de la carrera es validado como único
+- ✅ Al guardar, la carrera queda registrada exitosamente y se muestra en el listado
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Editar Información de Carrera
+
+### 🎯 HU: Editar Información de Carrera
 **Como:** DGIP
 **Quiero:** modificar los datos de una carrera existente
 **Para:** corregir o actualizar su información
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de edición (lápiz) en la columna 'Acciones' de cada carrera en el listado
-- Al hacer clic en el icono de edición, se abre un formulario modal con los datos de la carrera precargados
-- El selector de 'Coordinador' en el formulario de edición permite buscar y seleccionar un usuario existente con rol de Profesor
-- Al guardar los cambios, la información de la carrera se actualiza correctamente
-- El sistema valida la unicidad del código de la carrera si se modifica
+- ✅ Existe un icono de edición (lápiz) en la columna 'Acciones' de cada carrera en el listado
+- ✅ Al hacer clic en el icono de edición, se abre un formulario modal con los datos de la carrera precargados
+- ✅ El selector de 'Coordinador' en el formulario de edición permite buscar y seleccionar un usuario existente con rol de Profesor
+- ✅ Al guardar los cambios, la información de la carrera se actualiza correctamente
+- ✅ El sistema valida la unicidad del código de la carrera si se modifica
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Eliminar Carrera del Sistema
+
+### 🎯 HU: Eliminar Carrera del Sistema
 **Como:** DGIP
 **Quiero:** remover una carrera del sistema
 **Para:** depurar información obsoleta o incorrecta
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un icono de eliminación (papelera) en la columna 'Acciones' de cada carrera en el listado
-- Al hacer clic en el icono de eliminación, se muestra una confirmación al usuario
-- Si la carrera no tiene materias o profesores asociados, se elimina del sistema
-- Si la carrera tiene dependencias, el sistema advierte e impide la eliminación
+- ✅ Existe un icono de eliminación (papelera) en la columna 'Acciones' de cada carrera en el listado
+- ✅ Al hacer clic en el icono de eliminación, se muestra una confirmación al usuario
+- ✅ Si la carrera no tiene materias o profesores asociados, se elimina del sistema
+- ✅ Si la carrera tiene dependencias, el sistema advierte e impide la eliminación
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Visualizar Permisos por Rol
+
+### 🎯 HU: Visualizar Permisos por Rol
 **Como:** Administrador
 **Quiero:** ver los permisos asociados a cada rol definido en el sistema
 **Para:** entender las capacidades de cada tipo de usuario y revisar la configuración de seguridad
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe una página 'Gestión de Roles' accesible desde la navegación lateral
-- La página muestra tarjetas para cada rol (ej. 'Administrador', 'CEI', 'Autoridad de facultad', 'Coordinador de Carrera', 'Profesor')
-- Cada tarjeta de rol muestra un listado de permisos asociados (ej. 'Ver facultades', 'Crear facultades', 'Eliminar facultades', 'Ver usuarios')
-- Los permisos se presentan como checkboxes, mostrando si están habilitados para ese rol
+- ✅ Existe una página 'Gestión de Roles' accesible desde la navegación lateral
+- ✅ La página muestra tarjetas para cada rol (ej. 'Administrador', 'CEI', 'Autoridad de facultad', 'Coordinador de Carrera', 'Profesor')
+- ✅ Cada tarjeta de rol muestra un listado de permisos asociados (ej. 'Ver facultades', 'Crear facultades', 'Eliminar facultades', 'Ver usuarios')
+- ✅ Los permisos se presentan como checkboxes, mostrando si están habilitados para ese rol
 
-**Story Points:** 3
-**Prioridad:** Media (2)
 
----
+**Story Points:** 3 | **Prioridad:** Media (2)
 
-### HU: Visualizar Perfil Personal
+
+### 🎯 HU: Visualizar Perfil Personal
 **Como:** Usuario del sistema
 **Quiero:** ver mi información personal y de contacto registrada
 **Para:** confirmar mis datos en la plataforma y tenerlos a mano
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe una página 'Mi Perfil' accesible desde la navegación lateral
-- La página muestra una sección de 'Información Personal' con campos (Nombre Completo, Correo Institucional, Facultad, Teléfono, Fecha de Registro)
-- Todos los campos de información personal muestran los datos del usuario logueado
+- ✅ Existe una página 'Mi Perfil' accesible desde la navegación lateral
+- ✅ La página muestra una sección de 'Información Personal' con campos (Nombre Completo, Correo Institucional, Facultad, Teléfono, Fecha de Registro)
+- ✅ Todos los campos de información personal muestran los datos del usuario logueado
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Visualizar Roles y Permisos Detallados de Perfil
+
+### 🎯 HU: Visualizar Roles y Permisos Detallados de Perfil
 **Como:** Usuario del sistema
 **Quiero:** ver los roles que tengo asignados y los permisos detallados de los mismos
 **Para:** comprender mis capacidades y accesos dentro del sistema
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- La página 'Mi Perfil' muestra una sección de 'Rol y Permisos'
-- Se muestra el 'Rol Asignado' (ej. 'Profesor', 'Decano')
-- Existe un desplegable o botón 'Ver Permisos Detallados'
-- Al expandir 'Ver Permisos Detallados', se lista los permisos específicos del usuario (ej. 'Visualizar Dashboard', 'Gestionar Cursos', 'Registrar Calificaciones')
+- ✅ La página 'Mi Perfil' muestra una sección de 'Rol y Permisos'
+- ✅ Se muestra el 'Rol Asignado' (ej. 'Profesor', 'Decano')
+- ✅ Existe un desplegable o botón 'Ver Permisos Detallados'
+- ✅ Al expandir 'Ver Permisos Detallados', se lista los permisos específicos del usuario (ej. 'Visualizar Dashboard', 'Gestionar Cursos', 'Registrar Calificaciones')
 
-**Story Points:** 2
-**Prioridad:** Media (2)
 
----
+**Story Points:** 2 | **Prioridad:** Media (2)
 
-### HU: Cambiar Contraseña Personal
+
+### 🎯 HU: Cambiar Contraseña Personal
 **Como:** Usuario del sistema
 **Quiero:** actualizar mi contraseña
 **Para:** mantener mi cuenta segura regularmente
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- La página 'Mi Perfil' muestra una sección de 'Cambiar Contraseña'
-- Existe un botón 'Actualizar Contraseña'
-- Al hacer clic en el botón, se abre un formulario modal para cambiar contraseña (campos: Contraseña Actual, Nueva Contraseña, Confirmar Nueva Contraseña)
-- El sistema valida que la 'Contraseña Actual' sea correcta
-- El sistema valida que 'Nueva Contraseña' y 'Confirmar Nueva Contraseña' coincidan y cumplan con políticas de seguridad
-- Al guardar, la contraseña se actualiza y se muestra un mensaje de éxito
+- ✅ La página 'Mi Perfil' muestra una sección de 'Cambiar Contraseña'
+- ✅ Existe un botón 'Actualizar Contraseña'
+- ✅ Al hacer clic en el botón, se abre un formulario modal para cambiar contraseña (campos: Contraseña Actual, Nueva Contraseña, Confirmar Nueva Contraseña)
+- ✅ El sistema valida que la 'Contraseña Actual' sea correcta
+- ✅ El sistema valida que 'Nueva Contraseña' y 'Confirmar Nueva Contraseña' coincidan y cumplan con políticas de seguridad
+- ✅ Al guardar, la contraseña se actualiza y se muestra un mensaje de éxito
 
-**Story Points:** 2
-**Prioridad:** Media (2)
+
+**Story Points:** 2 | **Prioridad:** Media (2)
 
 <!-- --- -->
 
@@ -10484,132 +9999,126 @@ Crea mi  hus basándote únicamente en los prototipos (imagenes) que te proporci
 
 **Respuesta:**
 
-### HU: Iniciar Sesión con Rol
+### 🎯 HU: Iniciar Sesión con Rol
 **Como:** Usuario de PoliAcredita
 **Quiero:** iniciar sesión con mi correo institucional, contraseña y seleccionar mi rol
 **Para:** acceder a las funcionalidades específicas que me corresponden en la aplicación.
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El usuario puede ingresar su correo institucional y contraseña.
-- El usuario puede seleccionar su rol (Administrador, Coordinador de Carrera, Comité Evaluación Interna (CEI), Autoridad Académica, Profesor) de un selector.
-- Al hacer clic en 'Iniciar Sesión', el sistema valida las credenciales y el rol seleccionado.
-- Si las credenciales y el rol son válidos, el usuario es redirigido a la página de inicio o a su dashboard correspondiente.
-- Si las credenciales o el rol son inválidos, se muestra un mensaje de error claro al usuario.
-- Existe un enlace '¿Olvidaste tu contraseña?' visible y funcional.
+- ✅ El usuario puede ingresar su correo institucional y contraseña.
+- ✅ El usuario puede seleccionar su rol (Administrador, Coordinador de Carrera, Comité Evaluación Interna (CEI), Autoridad Académica, Profesor) de un selector.
+- ✅ Al hacer clic en 'Iniciar Sesión', el sistema valida las credenciales y el rol seleccionado.
+- ✅ Si las credenciales y el rol son válidos, el usuario es redirigido a la página de inicio o a su dashboard correspondiente.
+- ✅ Si las credenciales o el rol son inválidos, se muestra un mensaje de error claro al usuario.
+- ✅ Existe un enlace '¿Olvidaste tu contraseña?' visible y funcional.
 
-**Story Points:** 5
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 5 | **Prioridad:** Alta (1)
 
-### HU: Visualizar y Buscar Criterios EUR-ACE
+
+### 🎯 HU: Visualizar y Buscar Criterios EUR-ACE
 **Como:** Coordinador de Carrera
 **Quiero:** ver un listado de los Criterios EUR-ACE y poder buscar por código o descripción
 **Para:** consultar los estándares de acreditación relevantes de forma rápida y sencilla.
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- La página 'Criterios EUR-ACE' muestra una tabla con columnas 'Código' y 'Descripción'.
-- Existe un campo de búsqueda que permite filtrar los criterios por su código o por texto en la descripción.
-- Los resultados de la búsqueda se actualizan dinámicamente o al presionar Enter.
-- La tabla muestra los resultados paginados, permitiendo navegar entre páginas (Previous, Next, números de página).
+- ✅ La página 'Criterios EUR-ACE' muestra una tabla con columnas 'Código' y 'Descripción'.
+- ✅ Existe un campo de búsqueda que permite filtrar los criterios por su código o por texto en la descripción.
+- ✅ Los resultados de la búsqueda se actualizan dinámicamente o al presionar Enter.
+- ✅ La tabla muestra los resultados paginados, permitiendo navegar entre páginas (Previous, Next, números de página).
 
-**Story Points:** 3
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 3 | **Prioridad:** Alta (1)
 
-### HU: Gestionar Objetivos de Programa (OPP)
+
+### 🎯 HU: Gestionar Objetivos de Programa (OPP)
 **Como:** Coordinador de Carrera
 **Quiero:** ver, buscar, paginar, crear, editar y eliminar los Objetivos de Programa (OPP)
 **Para:** mantener actualizada y organizada la lista de objetivos de mi carrera para el proceso de acreditación.
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- La página 'Gestión de Objetivos de Programa (OPP)' muestra una tabla con Código, Descripción y Acciones (íconos de editar y eliminar).
-- Existe un campo de búsqueda que permite filtrar los OPPs por su código o descripción.
-- La tabla muestra los resultados paginados y el usuario puede navegar entre páginas.
-- Hay un botón '+ Nuevo OPP' que abre un formulario modal para crear un OPP.
-- Al hacer clic en el ícono de 'Editar' en un OPP, se abre un formulario modal pre-llenado para modificarlo.
-- Al hacer clic en el ícono de 'Eliminar' en un OPP, se presenta una confirmación y, al aceptar, el OPP es eliminado.
+- ✅ La página 'Gestión de Objetivos de Programa (OPP)' muestra una tabla con Código, Descripción y Acciones (íconos de editar y eliminar).
+- ✅ Existe un campo de búsqueda que permite filtrar los OPPs por su código o descripción.
+- ✅ La tabla muestra los resultados paginados y el usuario puede navegar entre páginas.
+- ✅ Hay un botón '+ Nuevo OPP' que abre un formulario modal para crear un OPP.
+- ✅ Al hacer clic en el ícono de 'Editar' en un OPP, se abre un formulario modal pre-llenado para modificarlo.
+- ✅ Al hacer clic en el ícono de 'Eliminar' en un OPP, se presenta una confirmación y, al aceptar, el OPP es eliminado.
 
-**Story Points:** 8
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 8 | **Prioridad:** Alta (1)
 
-### HU: Gestionar Resultados de Aprendizaje (RA)
+
+### 🎯 HU: Gestionar Resultados de Aprendizaje (RA)
 **Como:** Coordinador de Carrera
 **Quiero:** ver, buscar, paginar, crear, editar y eliminar Resultados de Aprendizaje (RA), tanto Generales como Específicos
 **Para:** administrar eficazmente los resultados de aprendizaje definidos para la carrera y su alineación con EUR-ACE.
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- La página 'Gestión de Resultados de Aprendizaje (RA)' muestra dos pestañas: 'Resultados Generales (RG)' y 'Resultados Específicos (RE)'.
-- Al seleccionar una pestaña, se muestra la lista correspondiente de RAs en una tabla con Código, Descripción y Acciones.
-- Cada pestaña tiene un campo de búsqueda para filtrar por código o descripción y componentes de paginación.
-- Hay un botón '+ Nuevo RA' que abre un formulario modal para crear un RA, permitiendo seleccionar su 'Tipo' (General o Específico).
-- Al hacer clic en el ícono de 'Editar' en un RA, se abre un formulario modal pre-llenado para modificarlo, incluyendo su tipo.
-- Al hacer clic en el ícono de 'Eliminar' en un RA, se presenta una confirmación y, al aceptar, el RA es eliminado.
+- ✅ La página 'Gestión de Resultados de Aprendizaje (RA)' muestra dos pestañas: 'Resultados Generales (RG)' y 'Resultados Específicos (RE)'.
+- ✅ Al seleccionar una pestaña, se muestra la lista correspondiente de RAs en una tabla con Código, Descripción y Acciones.
+- ✅ Cada pestaña tiene un campo de búsqueda para filtrar por código o descripción y componentes de paginación.
+- ✅ Hay un botón '+ Nuevo RA' que abre un formulario modal para crear un RA, permitiendo seleccionar su 'Tipo' (General o Específico).
+- ✅ Al hacer clic en el ícono de 'Editar' en un RA, se abre un formulario modal pre-llenado para modificarlo, incluyendo su tipo.
+- ✅ Al hacer clic en el ícono de 'Eliminar' en un RA, se presenta una confirmación y, al aceptar, el RA es eliminado.
 
-**Story Points:** 10
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 10 | **Prioridad:** Alta (1)
 
-### HU: Visualizar Matriz de Mapeo OPP vs RA
+
+### 🎯 HU: Visualizar Matriz de Mapeo OPP vs RA
 **Como:** Coordinador de Carrera
 **Quiero:** ver la matriz de relaciones entre Objetivos de Programa (OPP) y Resultados de Aprendizaje (RA)
 **Para:** comprender visualmente la cobertura de los OPPs por los RAs y evaluar la coherencia curricular.
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- La página 'Editor Mapeos' muestra una pestaña 'OPP vs RA' que contiene una tabla matriz.
-- La matriz tiene los OPPs como filas y los RAs (Generales y Específicos) como columnas.
-- Las celdas muestran un indicador (ej. checkmark) si existe una relación entre el OPP y el RA correspondiente.
-- La matriz incluye una leyenda clara para 'Objetivos de Carrera' y 'Resultados de Aprendizaje Carrera'.
-- Cada OPP en la matriz tiene un ícono de información (i) que al ser pulsado, muestra la descripción completa del OPP.
-- Hay un botón '+ Nueva Relación' para iniciar el proceso de creación de mapeos.
+- ✅ La página 'Editor Mapeos' muestra una pestaña 'OPP vs RA' que contiene una tabla matriz.
+- ✅ La matriz tiene los OPPs como filas y los RAs (Generales y Específicos) como columnas.
+- ✅ Las celdas muestran un indicador (ej. checkmark) si existe una relación entre el OPP y el RA correspondiente.
+- ✅ La matriz incluye una leyenda clara para 'Objetivos de Carrera' y 'Resultados de Aprendizaje Carrera'.
+- ✅ Cada OPP en la matriz tiene un ícono de información (i) que al ser pulsado, muestra la descripción completa del OPP.
+- ✅ Hay un botón '+ Nueva Relación' para iniciar el proceso de creación de mapeos.
 
-**Story Points:** 5
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 5 | **Prioridad:** Alta (1)
 
-### HU: Crear Nueva Relación en Matriz OPP vs RA (Asistente Multipasos)
+
+### 🎯 HU: Crear Nueva Relación en Matriz OPP vs RA (Asistente Multipasos)
 **Como:** Coordinador de Carrera
 **Quiero:** establecer nuevas relaciones entre Objetivos de Programa (OPP) y Resultados de Aprendizaje (RA) a través de un asistente de 3 pasos con justificación
 **Para:** documentar explícitamente cómo los resultados de aprendizaje contribuyen a los objetivos del programa.
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Al hacer clic en '+ Nueva Relación', se abre un asistente de 3 pasos ('Seleccionar Objetivos de carrera (OPP)', 'Seleccionar Resultados de Aprendizaje (RA)', 'Justificar Relación').
-- Paso 1: Permite seleccionar uno o varios OPPs de una lista con búsqueda y paginación.
-- Paso 2: Permite seleccionar uno o varios RAs (generales o específicos) de una lista con búsqueda, paginación y filtro por 'Tipo de Aprendizaje'.
-- Paso 3: Muestra un resumen de los OPPs y RAs seleccionados y un campo de texto para ingresar una 'Justificación' detallada.
-- Al hacer clic en 'Guardar' en el Paso 3, la nueva relación (o relaciones) con su justificación es registrada y la matriz se actualiza.
-- El botón 'Cancelar' está disponible en todos los pasos y cierra el asistente sin guardar cambios.
+- ✅ Al hacer clic en '+ Nueva Relación', se abre un asistente de 3 pasos ('Seleccionar Objetivos de carrera (OPP)', 'Seleccionar Resultados de Aprendizaje (RA)', 'Justificar Relación').
+- ✅ Paso 1: Permite seleccionar uno o varios OPPs de una lista con búsqueda y paginación.
+- ✅ Paso 2: Permite seleccionar uno o varios RAs (generales o específicos) de una lista con búsqueda, paginación y filtro por 'Tipo de Aprendizaje'.
+- ✅ Paso 3: Muestra un resumen de los OPPs y RAs seleccionados y un campo de texto para ingresar una 'Justificación' detallada.
+- ✅ Al hacer clic en 'Guardar' en el Paso 3, la nueva relación (o relaciones) con su justificación es registrada y la matriz se actualiza.
+- ✅ El botón 'Cancelar' está disponible en todos los pasos y cierra el asistente sin guardar cambios.
 
-**Story Points:** 8
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 8 | **Prioridad:** Alta (1)
 
-### HU: Visualizar Matriz de Mapeo RA vs EUR-ACE
+
+### 🎯 HU: Visualizar Matriz de Mapeo RA vs EUR-ACE
 **Como:** Coordinador de Carrera
 **Quiero:** ver la matriz de relaciones entre Resultados de Aprendizaje (RA) y Criterios EUR-ACE
 **Para:** evaluar cómo los resultados de aprendizaje de la carrera contribuyen al cumplimiento de los criterios EUR-ACE.
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Al seleccionar la pestaña 'RA vs EUR-ACE' en la página 'Editor Mapeos', se muestra una tabla matriz.
-- La matriz tiene los RAs (Generales y Específicos) como filas y los Criterios EUR-ACE como columnas.
-- Las celdas muestran un indicador si existe una relación entre el RA y el Criterio EUR-ACE correspondiente.
-- La matriz incluye una leyenda clara para sus elementos.
-- Cada RA en la matriz tiene un ícono de información (i) que al ser pulsado, muestra la descripción completa del RA.
+- ✅ Al seleccionar la pestaña 'RA vs EUR-ACE' en la página 'Editor Mapeos', se muestra una tabla matriz.
+- ✅ La matriz tiene los RAs (Generales y Específicos) como filas y los Criterios EUR-ACE como columnas.
+- ✅ Las celdas muestran un indicador si existe una relación entre el RA y el Criterio EUR-ACE correspondiente.
+- ✅ La matriz incluye una leyenda clara para sus elementos.
+- ✅ Cada RA en la matriz tiene un ícono de información (i) que al ser pulsado, muestra la descripción completa del RA.
 
-**Story Points:** 5
-**Prioridad:** Alta (1)
+
+**Story Points:** 5 | **Prioridad:** Alta (1)
 
 <!-- --- -->

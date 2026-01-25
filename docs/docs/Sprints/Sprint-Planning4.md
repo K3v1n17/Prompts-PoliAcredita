@@ -76,141 +76,133 @@ Crea mi  hus basándote únicamente en los prototipos (imagenes) que te proporci
 
 **Respuesta:**
 
-### HU: Visualizar Reporte Asignatura vs Criterios EURACE
+### 🎯 HU: Visualizar Reporte Asignatura vs Criterios EURACE
 **Como:** Coordinador de Carrera
 **Quiero:** visualizar el reporte de contribución de asignaturas a los criterios EURACE
 **Para:** analizar la alineación de los programas de estudio con los estándares de acreditación
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- La página de 'Reporte: Asignatura vs Criterios EURACE' se muestra correctamente.
-- El reporte muestra una matriz con las 'Asignaturas' en las filas y los 'Criterios EUR-ACE' en las columnas.
-- Las celdas de la matriz indican la existencia de una contribución con un checkmark.
+- ✅ La página de 'Reporte: Asignatura vs Criterios EURACE' se muestra correctamente.
+- ✅ El reporte muestra una matriz con las 'Asignaturas' en las filas y los 'Criterios EUR-ACE' en las columnas.
+- ✅ Las celdas de la matriz indican la existencia de una contribución con un checkmark.
 
-**Story Points:** 5
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 5**Prioridad:** Alta (1)
 
-### HU: Filtrar Reporte Asignatura vs Criterios EURACE por Facultad
+
+### 🎯 HU: Filtrar Reporte Asignatura vs Criterios EURACE por Facultad
 **Como:** Coordinador de Carrera
 **Quiero:** filtrar el reporte de asignaturas vs criterios EURACE por facultad
 **Para:** acotar la información a facultades específicas
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El reporte incluye un campo de búsqueda de 'Facultad'.
-- Al seleccionar una facultad, la matriz se actualiza mostrando solo las asignaturas de esa facultad.
+- ✅ El reporte incluye un campo de búsqueda de 'Facultad'.
+- ✅ Al seleccionar una facultad, la matriz se actualiza mostrando solo las asignaturas de esa facultad.
 
-**Story Points:** 1
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 1**Prioridad:** Alta (1)
 
-### HU: Filtrar Reporte Asignatura vs Criterios EURACE por Carrera
+
+### 🎯 HU: Filtrar Reporte Asignatura vs Criterios EURACE por Carrera
 **Como:** Coordinador de Carrera
 **Quiero:** filtrar el reporte de asignaturas vs criterios EURACE por carrera
 **Para:** analizar la contribución de asignaturas dentro de una carrera específica
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El reporte incluye un selector de 'Carrera'.
-- Al seleccionar una carrera, la matriz se actualiza mostrando solo las asignaturas de esa carrera.
+- ✅ El reporte incluye un selector de 'Carrera'.
+- ✅ Al seleccionar una carrera, la matriz se actualiza mostrando solo las asignaturas de esa carrera.
 
-**Story Points:** 1
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 1**Prioridad:** Alta (1)
 
-### HU: Filtrar Reporte Asignatura vs Criterios EURACE por Nivel de Aporte
+
+### 🎯 HU: Filtrar Reporte Asignatura vs Criterios EURACE por Nivel de Aporte
 **Como:** Coordinador de Carrera
 **Quiero:** filtrar el reporte de asignaturas vs criterios EURACE por nivel de aporte
 **Para:** identificar las contribuciones de una intensidad específica
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El reporte incluye opciones de filtro por 'Nivel de aporte' (Alto, Medio, Bajo).
-- Al seleccionar una o más opciones, la matriz se actualiza mostrando solo las contribuciones que coinciden con el nivel seleccionado.
+- ✅ El reporte incluye opciones de filtro por 'Nivel de aporte' (Alto, Medio, Bajo).
+- ✅ Al seleccionar una o más opciones, la matriz se actualiza mostrando solo las contribuciones que coinciden con el nivel seleccionado.
 
-**Story Points:** 1
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 1**Prioridad:** Alta (1)
 
-### HU: Visualizar Trazabilidad detallada de Contribución Asignatura-Criterio
+
+### 🎯 HU: Visualizar Trazabilidad detallada de Contribución Asignatura-Criterio
 **Como:** Coordinador de Carrera
 **Quiero:** ver el detalle de la trazabilidad de la contribución de una asignatura a un criterio EURACE
 **Para:** entender la justificación completa de una relación RAA-RA-EURACE
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- La página de 'Trazabilidad de [Nombre de Asignatura]' se carga mostrando el detalle.
-- La trazabilidad presenta un flujo visual: Resultado de Aprendizaje Asignatura (RAA) -> Resultado de Aprendizaje (RA) -> Justificación RA-EURACE -> Criterio EUR-ACE.
-- La información se agrupa por 'Nivel de aporte' (Alto, Medio, Bajo).
+- ✅ La página de 'Trazabilidad de [Nombre de Asignatura]' se carga mostrando el detalle.
+- ✅ La trazabilidad presenta un flujo visual: Resultado de Aprendizaje Asignatura (RAA) -> Resultado de Aprendizaje (RA) -> Justificación RA-EURACE -> Criterio EUR-ACE.
+- ✅ La información se agrupa por 'Nivel de aporte' (Alto, Medio, Bajo).
 
-**Story Points:** 5
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 5**Prioridad:** Alta (1)
 
-### HU: Visualizar Reporte Objetivos de Carrera vs Resultados de Aprendizaje vs Asignaturas
+
+### 🎯 HU: Visualizar Reporte Objetivos de Carrera vs Resultados de Aprendizaje vs Asignaturas
 **Como:** Coordinador de Carrera
 **Quiero:** visualizar el reporte de alineación entre objetivos de carrera, resultados de aprendizaje y asignaturas
 **Para:** evaluar la coherencia y el alcance del programa académico
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- La página de 'Reporte: Objetivos de Carrera vs Resultados de Aprendizaje vs Asignaturas' se muestra correctamente.
-- El reporte presenta una estructura organizada mostrando 'Objetivos de Carrera', sus 'Resultados de Aprendizaje' asociados y las 'Asignaturas' que contribuyen a estos.
-- Se muestra la alineación de todos los elementos para la carrera seleccionada.
+- ✅ La página de 'Reporte: Objetivos de Carrera vs Resultados de Aprendizaje vs Asignaturas' se muestra correctamente.
+- ✅ El reporte presenta una estructura organizada mostrando 'Objetivos de Carrera', sus 'Resultados de Aprendizaje' asociados y las 'Asignaturas' que contribuyen a estos.
+- ✅ Se muestra la alineación de todos los elementos para la carrera seleccionada.
 
-**Story Points:** 5
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 5**Prioridad:** Alta (1)
 
-### HU: Filtrar Reporte Objetivos de Carrera vs Resultados de Aprendizaje vs Asignaturas por Facultad
+
+### 🎯 HU: Filtrar Reporte Objetivos de Carrera vs Resultados de Aprendizaje vs Asignaturas por Facultad
 **Como:** Coordinador de Carrera
 **Quiero:** filtrar el reporte de alineación por facultad
 **Para:** acotar la información a facultades específicas
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El reporte incluye un campo de búsqueda de 'Facultad'.
-- Al seleccionar una facultad, el reporte se actualiza mostrando solo los datos relacionados con esa facultad.
+- ✅ El reporte incluye un campo de búsqueda de 'Facultad'.
+- ✅ Al seleccionar una facultad, el reporte se actualiza mostrando solo los datos relacionados con esa facultad.
 
-**Story Points:** 1
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 1**Prioridad:** Alta (1)
 
-### HU: Filtrar Reporte Objetivos de Carrera vs Resultados de Aprendizaje vs Asignaturas por Carrera
+
+### 🎯 HU: Filtrar Reporte Objetivos de Carrera vs Resultados de Aprendizaje vs Asignaturas por Carrera
 **Como:** Coordinador de Carrera
 **Quiero:** filtrar el reporte de alineación por carrera
 **Para:** analizar la alineación de un programa de estudios específico
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El reporte incluye un selector de 'Carrera'.
-- Al seleccionar una carrera, el reporte se actualiza mostrando solo los datos de esa carrera.
+- ✅ El reporte incluye un selector de 'Carrera'.
+- ✅ Al seleccionar una carrera, el reporte se actualiza mostrando solo los datos de esa carrera.
 
-**Story Points:** 1
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 1**Prioridad:** Alta (1)
 
-### HU: Filtrar Reporte Objetivos de Carrera vs Resultados de Aprendizaje vs Asignaturas por Nivel de Aporte
+
+### 🎯 HU: Filtrar Reporte Objetivos de Carrera vs Resultados de Aprendizaje vs Asignaturas por Nivel de Aporte
 **Como:** Coordinador de Carrera
 **Quiero:** filtrar el reporte de alineación por nivel de aporte
 **Para:** identificar las relaciones de una intensidad específica
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El reporte incluye opciones de filtro por 'Nivel de aporte' (Alto, Medio, Bajo).
-- Al seleccionar una o más opciones, el reporte se actualiza mostrando solo las relaciones que coinciden con el nivel seleccionado.
+- ✅ El reporte incluye opciones de filtro por 'Nivel de aporte' (Alto, Medio, Bajo).
+- ✅ Al seleccionar una o más opciones, el reporte se actualiza mostrando solo las relaciones que coinciden con el nivel seleccionado.
 
-**Story Points:** 1
-**Prioridad:** Alta (1)
+
+**Story Points:** 1**Prioridad:** Alta (1)
 
 <!-- --- -->
 
@@ -287,155 +279,146 @@ Crea mi  hus basándote únicamente en los prototipos (imagenes) que te proporci
 
 **Respuesta:**
 
-### HU: Visualizar Reporte Asignatura vs Criterios EURACE
+### 🎯 HU: Visualizar Reporte Asignatura vs Criterios EURACE
 **Como:** Coordinador de Carrera
 **Quiero:** visualizar el reporte de contribución de asignaturas a los criterios EURACE
 **Para:** analizar la alineación de los programas de estudio con los estándares de acreditación
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- La página de 'Reporte: Asignatura vs Criterios EURACE' se muestra correctamente.
-- El reporte muestra una matriz con las 'Asignaturas' en las filas y los 'Criterios EUR-ACE' en las columnas.
-- Las celdas de la matriz indican la existencia de una contribución con un checkmark.
+- ✅ La página de 'Reporte: Asignatura vs Criterios EURACE' se muestra correctamente.
+- ✅ El reporte muestra una matriz con las 'Asignaturas' en las filas y los 'Criterios EUR-ACE' en las columnas.
+- ✅ Las celdas de la matriz indican la existencia de una contribución con un checkmark.
 
-**Story Points:** 5
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 5**Prioridad:** Alta (1)
 
-### HU: Filtrar Reporte Asignatura vs Criterios EURACE por Facultad
+
+### 🎯 HU: Filtrar Reporte Asignatura vs Criterios EURACE por Facultad
 **Como:** Coordinador de Carrera
 **Quiero:** filtrar el reporte de asignaturas vs criterios EURACE por facultad
 **Para:** acotar la información a facultades específicas
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El reporte incluye un campo de búsqueda de 'Facultad'.
-- Al seleccionar una facultad, la matriz se actualiza mostrando solo las asignaturas de esa facultad.
+- ✅ El reporte incluye un campo de búsqueda de 'Facultad'.
+- ✅ Al seleccionar una facultad, la matriz se actualiza mostrando solo las asignaturas de esa facultad.
 
-**Story Points:** 1
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 1**Prioridad:** Alta (1)
 
-### HU: Filtrar Reporte Asignatura vs Criterios EURACE por Carrera
+
+### 🎯 HU: Filtrar Reporte Asignatura vs Criterios EURACE por Carrera
 **Como:** Coordinador de Carrera
 **Quiero:** filtrar el reporte de asignaturas vs criterios EURACE por carrera
 **Para:** analizar la contribución de asignaturas dentro de una carrera específica
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El reporte incluye un selector de 'Carrera'.
-- Al seleccionar una carrera, la matriz se actualiza mostrando solo las asignaturas de esa carrera.
+- ✅ El reporte incluye un selector de 'Carrera'.
+- ✅ Al seleccionar una carrera, la matriz se actualiza mostrando solo las asignaturas de esa carrera.
 
-**Story Points:** 1
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 1**Prioridad:** Alta (1)
 
-### HU: Filtrar Reporte Asignatura vs Criterios EURACE por Nivel de Aporte
+
+### 🎯 HU: Filtrar Reporte Asignatura vs Criterios EURACE por Nivel de Aporte
 **Como:** Coordinador de Carrera
 **Quiero:** filtrar el reporte de asignaturas vs criterios EURACE por nivel de aporte
 **Para:** identificar las contribuciones de una intensidad específica
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El reporte incluye opciones de filtro por 'Nivel de aporte' (Alto, Medio, Bajo).
-- Al seleccionar una o más opciones, la matriz se actualiza mostrando solo las contribuciones que coinciden con el nivel seleccionado.
+- ✅ El reporte incluye opciones de filtro por 'Nivel de aporte' (Alto, Medio, Bajo).
+- ✅ Al seleccionar una o más opciones, la matriz se actualiza mostrando solo las contribuciones que coinciden con el nivel seleccionado.
 
-**Story Points:** 1
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 1**Prioridad:** Alta (1)
 
-### HU: Buscar Asignatura en Reporte Asignatura vs Criterios EURACE
+
+### 🎯 HU: Buscar Asignatura en Reporte Asignatura vs Criterios EURACE
 **Como:** Coordinador de Carrera
 **Quiero:** buscar asignaturas por código o nombre en el reporte Asignatura vs Criterios EURACE
 **Para:** encontrar rápidamente la contribución de asignaturas específicas
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Un campo de búsqueda 'Buscar por código o nombre de asignatura' aparece en el reporte.
-- Al ingresar texto, la tabla de asignaturas se filtra mostrando las filas coincidentes en tiempo real.
+- ✅ Un campo de búsqueda 'Buscar por código o nombre de asignatura' aparece en el reporte.
+- ✅ Al ingresar texto, la tabla de asignaturas se filtra mostrando las filas coincidentes en tiempo real.
 
-**Story Points:** 1
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 1**Prioridad:** Alta (1)
 
-### HU: Visualizar Trazabilidad detallada de Contribución Asignatura-Criterio
+
+### 🎯 HU: Visualizar Trazabilidad detallada de Contribución Asignatura-Criterio
 **Como:** Coordinador de Carrera
 **Quiero:** ver el detalle de la trazabilidad de la contribución de una asignatura a un criterio EURACE
 **Para:** entender la justificación completa de una relación RAA-RA-EURACE
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- La página de 'Trazabilidad de [Nombre de Asignatura]' se carga mostrando el detalle.
-- La trazabilidad presenta un flujo visual: Resultado de Aprendizaje Asignatura (RAA) → Resultado de Aprendizaje (RA) → Justificación RA-EURACE → Criterio EUR-ACE.
-- La información se agrupa por 'Nivel de aporte' (Alto, Medio, Bajo).
+- ✅ La página de 'Trazabilidad de [Nombre de Asignatura]' se carga mostrando el detalle.
+- ✅ La trazabilidad presenta un flujo visual: Resultado de Aprendizaje Asignatura (RAA) → Resultado de Aprendizaje (RA) → Justificación RA-EURACE → Criterio EUR-ACE.
+- ✅ La información se agrupa por 'Nivel de aporte' (Alto, Medio, Bajo).
 
-**Story Points:** 5
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 5**Prioridad:** Alta (1)
 
-### HU: Visualizar Reporte Objetivos de Carrera vs Resultados de Aprendizaje vs Asignaturas
+
+### 🎯 HU: Visualizar Reporte Objetivos de Carrera vs Resultados de Aprendizaje vs Asignaturas
 **Como:** Coordinador de Carrera
 **Quiero:** visualizar el reporte de alineación entre objetivos de carrera, resultados de aprendizaje y asignaturas
 **Para:** evaluar la coherencia y el alcance del programa académico
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- La página de 'Reporte: Objetivos de Carrera vs Resultados de Aprendizaje vs Asignaturas' se muestra correctamente.
-- El reporte presenta una estructura organizada mostrando 'Objetivos de Carrera', sus 'Resultados de Aprendizaje' asociados y las 'Asignaturas' que contribuyen a estos.
-- Se muestra la alineación de todos los elementos para la carrera seleccionada.
+- ✅ La página de 'Reporte: Objetivos de Carrera vs Resultados de Aprendizaje vs Asignaturas' se muestra correctamente.
+- ✅ El reporte presenta una estructura organizada mostrando 'Objetivos de Carrera', sus 'Resultados de Aprendizaje' asociados y las 'Asignaturas' que contribuyen a estos.
+- ✅ Se muestra la alineación de todos los elementos para la carrera seleccionada.
 
-**Story Points:** 5
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 5**Prioridad:** Alta (1)
 
-### HU: Filtrar Reporte Objetivos de Carrera vs Resultados de Aprendizaje vs Asignaturas por Facultad
+
+### 🎯 HU: Filtrar Reporte Objetivos de Carrera vs Resultados de Aprendizaje vs Asignaturas por Facultad
 **Como:** Coordinador de Carrera
 **Quiero:** filtrar el reporte de alineación por facultad
 **Para:** acotar la información a facultades específicas
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El reporte incluye un campo de búsqueda de 'Facultad'.
-- Al seleccionar una facultad, el reporte se actualiza mostrando solo los datos relacionados con esa facultad.
+- ✅ El reporte incluye un campo de búsqueda de 'Facultad'.
+- ✅ Al seleccionar una facultad, el reporte se actualiza mostrando solo los datos relacionados con esa facultad.
 
-**Story Points:** 1
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 1**Prioridad:** Alta (1)
 
-### HU: Filtrar Reporte Objetivos de Carrera vs Resultados de Aprendizaje vs Asignaturas por Carrera
+
+### 🎯 HU: Filtrar Reporte Objetivos de Carrera vs Resultados de Aprendizaje vs Asignaturas por Carrera
 **Como:** Coordinador de Carrera
 **Quiero:** filtrar el reporte de alineación por carrera
 **Para:** analizar la alineación de un programa de estudios específico
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El reporte incluye un selector de 'Carrera'.
-- Al seleccionar una carrera, el reporte se actualiza mostrando solo los datos de esa carrera.
+- ✅ El reporte incluye un selector de 'Carrera'.
+- ✅ Al seleccionar una carrera, el reporte se actualiza mostrando solo los datos de esa carrera.
 
-**Story Points:** 1
-**Prioridad:** Alta (1)
 
----
+**Story Points:** 1**Prioridad:** Alta (1)
 
-### HU: Filtrar Reporte Objetivos de Carrera vs Resultados de Aprendizaje vs Asignaturas por Nivel de Aporte
+
+### 🎯 HU: Filtrar Reporte Objetivos de Carrera vs Resultados de Aprendizaje vs Asignaturas por Nivel de Aporte
 **Como:** Coordinador de Carrera
 **Quiero:** filtrar el reporte de alineación por nivel de aporte
 **Para:** identificar las relaciones de una intensidad específica
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- El reporte incluye opciones de filtro por 'Nivel de aporte' (Alto, Medio, Bajo).
-- Al seleccionar una o más opciones, el reporte se actualiza mostrando solo las relaciones que coinciden con el nivel seleccionado.
+- ✅ El reporte incluye opciones de filtro por 'Nivel de aporte' (Alto, Medio, Bajo).
+- ✅ Al seleccionar una o más opciones, el reporte se actualiza mostrando solo las relaciones que coinciden con el nivel seleccionado.
 
-**Story Points:** 1
-**Prioridad:** Alta (1)
+
+**Story Points:** 1**Prioridad:** Alta (1)
 
 <!-- --- -->

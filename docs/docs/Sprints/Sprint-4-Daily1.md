@@ -36,7 +36,7 @@ Cada fila debe representar un hallazgo único, redactado de forma clara, concret
 
 ---
 
-## SALIDA
+**RESPUESTA:**
 
 ### 🧩 Tabla de Problemas / Riesgos Identificados y Posibles Soluciones
 

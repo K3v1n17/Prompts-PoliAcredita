@@ -20,7 +20,7 @@ Crea una lista con los malestares así como sus posibles soluciones para que el 
 ### FORMATO DE SALIDA
 Usa un formato de tabla con dos columnas: el problema y la posible solución.
 
-## SALIDA
+**RESPUESTA:**
 
 ### 🧩 Malestares del Sprint 4 y Acciones de Mejora
 

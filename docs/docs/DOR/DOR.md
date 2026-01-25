@@ -1,12 +1,10 @@
 
 
-# PROMPT 4 
+## PROMPT 4 
 
 Solo dame los items que entrarian en el checklist del dor 
 
-
-## Respuesta 4
-
+**Respuesta:** 
 
 🧩 Checklist – Definition of Ready (DoR)
 
@@ -41,7 +39,7 @@ Solo dame los items que entrarian en el checklist del dor
 
 
 
-# PROMPT 3
+## PROMPT 3
 
 **ROL:** Actúa como un Product Management / Product Owner experto en Scrum.
 
@@ -58,7 +56,7 @@ Crea la Definition of Ready con ítems que aseguren que todas las HUs o los PBIs
 
 ---
 
-# RESPUESTA 3
+**RESPUESTA:**
 
 ## 🧭 Definition of Ready (DoR) – Producto: Verificación de Acreditación EUR-ACE
 
@@ -130,7 +128,7 @@ Asegurar que cada Product Backlog Item (PBI) o Historia de Usuario (HU) esté co
 
 <!-- DOR: Definition of Ready - Producto EUR-ACE EPN -->
 
-# PROMPT 1
+## PROMPT 1
 
 **ROL:** Actúa como un Product Management / Product Owner experto en Scrum.
 
@@ -149,7 +147,7 @@ Crea la Definition of Ready con ítems que aseguren que todas las HUs o los PBIs
 
 ---
 
-# RESPUESTA 1
+**RESPUESTA:** 
 
 ## 🧭 Definition of Ready (DoR) – Producto EUR-ACE EPN
 
@@ -215,7 +213,7 @@ Una historia se considera “Ready” cuando:
 
 ---
 
-# PROMPT 2
+## PROMPT 2
 
 **ROL:** Actúa como un Product Management / Product Owner experto en Scrum.
 
@@ -240,8 +238,7 @@ Puedes guiarte también en que las HU deben cumplir con los criterios INVEST:
 Crea la Definition of Ready con ítems que aseguren que todas las HUs o los PBIs estén claros y entendibles.
 
 ---
-
-# RESPUESTA 2
+ **RESPUESTA:**
 
 ## 🧭 Definition of Ready (DoR) — Producto EPN EUR-ACE
 

@@ -34,7 +34,7 @@ Como [tipo de usuario] / Quiero [necesidad funcional] / Para [beneficio o valor 
 
 ---
 
-## SALIDA
+**RESPUESTA:**
 
 ### 📝 Historias de Usuario (Sprint Review 3)
 
