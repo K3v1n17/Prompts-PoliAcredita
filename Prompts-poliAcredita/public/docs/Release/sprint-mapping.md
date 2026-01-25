@@ -28,7 +28,7 @@ Crea un release mapping identificando dependencias y valor comercial en cada spr
 
 ---
 
-## RESPUESTA
+**RESPUESTA:**
 
 
 📌 **Sprint Mapping – Release único**
@@ -103,7 +103,7 @@ de esta manera se tiene un poco más claro la trayectoria.
 
 ---
 
-## RESPUESTA
+**RESPUESTA:**
 
 
 📌 **Release Mapping – Sistema de Gestión de Acreditación EUR-ACE**
@@ -178,7 +178,7 @@ de esta manera se tiene un poco más claro la trayectoria.
 
 ---
 
-## RESPUESTA
+**RESPUESTA:**
 
 
 📌 **Release Mapping – Sistema de Acreditación EUR-ACE**
@@ -279,7 +279,7 @@ para el objetivo ten en cuenta que debe ser un objetivo comercial claro y concis
 ## Objetivo del Release:
 Construir la base organizacional y curricular del sistema, habilitar la gestión de resultados de aprendizaje y sus relaciones de aporte, y proporcionar una primera visión del cumplimiento EUR-ACE para un programa de ingeniería.
 
----
+
 
 ## Sprint 1: (Día 1 – Día 5)
 **Objetivo:** Establecer la infraestructura fundamental del sistema, incluyendo la organización académica básica, la gestión de usuarios y la definición de los objetivos EUR-ACE.
@@ -292,7 +292,6 @@ Construir la base organizacional y curricular del sistema, habilitar la gestión
   { "title": "HU: Asignar Roles a Profesores", "como": "DGIP", "quiero": "asignar roles (Coordinador, Autoridad, CEI) a los profesores registrados en el sistema", "para": "controlar los permisos de acceso y las funcionalidades que cada usuario puede realizar.", "acceptanceCriteria": [ "El DGIP puede ver una lista de profesores existentes.", "El DGIP puede seleccionar un profesor y asignarle uno o varios roles (ej. 'Coordinador', 'Autoridad', 'CEI').", "Los roles asignados se reflejan en los permisos del usuario al iniciar sesión.", "Se puede modificar o revocar un rol a un profesor."], "storyPoints": 5, "priority": 1, "backendTasks": ["Desarrollo de API para gestionar usuarios y sus roles.", "Lógica para asociar roles a un usuario.", "Validación de permisos del DGIP para esta acción."], "frontendTasks": ["Interfaz para listar usuarios/profesores con sus roles actuales.", "Componente para asignar/modificar roles a usuarios.", "Integración con el API de gestión de roles."]}
 **Dependencias:** Ninguna interna en este sprint. PBIs de sprints posteriores dependen de esta base.
 
----
 
 ## Sprint 2: (Día 6 – Día 10)
 **Objetivo:** Habilitar a los Coordinadores de Carrera para definir los resultados de aprendizaje de la carrera (RA), los objetivos de perfil profesional (OPP) y gestionar las asignaturas, incluyendo la asignación de profesores.
@@ -305,7 +304,7 @@ Construir la base organizacional y curricular del sistema, habilitar la gestión
   { "title": "HU: Filtrar Entidades por Carrera", "como": "Coordinador de carrera", "quiero": "filtrar listados de RAA, RA, OPP y Asignaturas por mi carrera", "para": "gestionar eficientemente la información relevante para mi rol.", "acceptanceCriteria": [ "En los listados de RAA, RA, OPP y Asignaturas, existe una opción para filtrar por la carrera del coordinador.", "Al aplicar el filtro, solo se muestran las entidades correspondientes a la carrera seleccionada (o asignada al coordinador)." ], "storyPoints": 3, "priority": 2, "backendTasks": ["Ajustar APIs existentes para soportar filtrado por carrera.", "Asegurar que el coordinador solo puede ver sus datos."], "frontendTasks": ["Implementar componentes de filtro en las vistas correspondientes.", "Actualizar lógica de carga de datos para usar el filtro de carrera."]}
 **Dependencias:** Depende de la configuración de Facultades, Carreras y Asignación de Roles (Sprint 1).
 
----
+
 
 ## Sprint 3: (Día 11 – Día 15)
 **Objetivo:** Habilitar a los profesores para ingresar y gestionar los Programas de Estudio Académicos (PEA) y sus Resultados de Aprendizaje de la Asignatura (RAA).
@@ -317,7 +316,6 @@ Construir la base organizacional y curricular del sistema, habilitar la gestión
   { "title": "HU: Consultar Criterios EUR-ACE Detallados", "como": "Miembro del CEI", "quiero": "consultar la descripción detallada de los criterios EUR-ACE", "para": "tener una comprensión completa de los requisitos de acreditación.", "acceptanceCriteria": [ "Se puede seleccionar un criterio EUR-ACE de una lista.", "Se muestra la descripción completa y cualquier subcriterio asociado al criterio seleccionado.", "La información es de solo lectura."], "storyPoints": 1, "priority": 2, "backendTasks": ["Modificar API de Criterios EUR-ACE para devolver detalles completos."], "frontendTasks": ["Interfaz de usuario para ver el detalle de un criterio EUR-ACE."]}
 **Dependencias:** Depende de la gestión de Asignaturas y Asignación de Profesores (Sprint 2). Los profesores deben tener el rol asignado (Sprint 1).
 
----
 
 ## Sprint 4: (Día 16 – Día 20)
 **Objetivo:** Establecer las relaciones de aporte fundamentales entre los Resultados de Aprendizaje de las Asignaturas (RAA) y los Resultados de Aprendizaje de la Carrera (RA), así como de los RA a los Objetivos de Perfil Profesional (OPP).
@@ -330,7 +328,6 @@ Construir la base organizacional y curricular del sistema, habilitar la gestión
   { "title": "HU: Wizard para Aporte RAA a RA", "como": "Coordinador de carrera", "quiero": "seguir un proceso guiado paso a paso para crear una relación entre RAA y RA", "para": "asegurar la correcta definición del aporte de los RAA a los RA.", "acceptanceCriteria": [ "El usuario es guiado a través de pasos claros: seleccionar RAA, seleccionar RA, asignar nivel de aporte.", "Se muestran mensajes de validación en cada paso.", "Se permite retroceder o avanzar en los pasos.", "La relación se guarda exitosamente al finalizar el wizard."], "storyPoints": 3, "priority": 2, "backendTasks": ["Reutilizar lógica de creación de relación RAA-RA del PBI anterior."], "frontendTasks": ["Diseño e implementación del componente wizard para la creación de relaciones RAA-RA.", "Integración del wizard con el API."]}
 **Dependencias:** Depende de la gestión de RAA (Sprint 3) y RA y OPP (Sprint 2).
 
----
 
 ## Sprint 5: (Día 21 – Día 25)
 **Objetivo:** Completar la vinculación de los Resultados de Aprendizaje de la Carrera (RA) con los objetivos EUR-ACE y generar un reporte inicial del cumplimiento, proporcionando una primera visión de la acreditación.
@@ -414,7 +411,7 @@ para el objetivo ten en cuenta que debe ser un objetivo comercial claro y concis
 ## Objetivo del Release:
 Construir la base organizacional y curricular del sistema, habilitar la gestión de resultados de aprendizaje y sus relaciones de aporte, y proporcionar una primera visión del cumplimiento EUR-ACE para un programa de ingeniería.
 
----
+
 
 ## Sprint 1: (Día 1 – Día 5)
 **Objetivo:** Establecer la infraestructura fundamental del sistema, incluyendo la organización académica básica, la gestión de usuarios y la definición de los objetivos EUR-ACE.
@@ -440,7 +437,7 @@ Construir la base organizacional y curricular del sistema, habilitar la gestión
   { "title": "HU: Filtrar Entidades por Carrera", "como": "Coordinador de carrera", "quiero": "filtrar listados de RAA, RA, OPP y Asignaturas por mi carrera", "para": "gestionar eficientemente la información relevante para mi rol.", "acceptanceCriteria": [ "En los listados de RAA, RA, OPP y Asignaturas, existe una opción para filtrar por la carrera del coordinador.", "Al aplicar el filtro, solo se muestran las entidades correspondientes a la carrera seleccionada (o asignada al coordinador)." ], "storyPoints": 3, "priority": 2, "backendTasks": ["Ajustar APIs existentes para soportar filtrado por carrera.", "Asegurar que el coordinador solo puede ver sus datos."], "frontendTasks": ["Implementar componentes de filtro en las vistas correspondientes.", "Actualizar lógica de carga de datos para usar el filtro de carrera."]}
 **Dependencias:** Depende de la configuración de Facultades, Carreras y Asignación de Roles (Sprint 1).
 
----
+
 
 ## Sprint 3: (Día 11 – Día 15)
 **Objetivo:** Habilitar a los profesores para ingresar y gestionar los Programas de Estudio Académicos (PEA) y sus Resultados de Aprendizaje de la Asignatura (RAA).
@@ -452,7 +449,7 @@ Construir la base organizacional y curricular del sistema, habilitar la gestión
   { "title": "HU: Consultar Criterios EUR-ACE Detallados", "como": "Miembro del CEI", "quiero": "consultar la descripción detallada de los criterios EUR-ACE", "para": "tener una comprensión completa de los requisitos de acreditación.", "acceptanceCriteria": [ "Se puede seleccionar un criterio EUR-ACE de una lista.", "Se muestra la descripción completa y cualquier subcriterio asociado al criterio seleccionado.", "La información es de solo lectura."], "storyPoints": 1, "priority": 2, "backendTasks": ["Modificar API de Criterios EUR-ACE para devolver detalles completos."], "frontendTasks": ["Interfaz de usuario para ver el detalle de un criterio EUR-ACE."]}
 **Dependencias:** Depende de la gestión de Asignaturas y Asignación de Profesores (Sprint 2). Los profesores deben tener el rol asignado (Sprint 1).
 
----
+
 
 ## Sprint 4: (Día 16 – Día 20)
 **Objetivo:** Establecer las relaciones de aporte fundamentales entre los Resultados de Aprendizaje de las Asignaturas (RAA) y los Resultados de Aprendizaje de la Carrera (RA), así como de los RA a los Objetivos de Perfil Profesional (OPP).
@@ -465,7 +462,7 @@ Construir la base organizacional y curricular del sistema, habilitar la gestión
   { "title": "HU: Wizard para Aporte RAA a RA", "como": "Coordinador de carrera", "quiero": "seguir un proceso guiado paso a paso para crear una relación entre RAA y RA", "para": "asegurar la correcta definición del aporte de los RAA a los RA.", "acceptanceCriteria": [ "El usuario es guiado a través de pasos claros: seleccionar RAA, seleccionar RA, asignar nivel de aporte.", "Se muestran mensajes de validación en cada paso.", "Se permite retroceder o avanzar en los pasos.", "La relación se guarda exitosamente al finalizar el wizard."], "storyPoints": 3, "priority": 2, "backendTasks": ["Reutilizar lógica de creación de relación RAA-RA del PBI anterior."], "frontendTasks": ["Diseño e implementación del componente wizard para la creación de relaciones RAA-RA.", "Integración del wizard con el API."]}
 **Dependencias:** Depende de la gestión de RAA (Sprint 3) y RA y OPP (Sprint 2).
 
----
+
 
 ## Sprint 5: (Día 21 – Día 25)
 **Objetivo:** Completar la vinculación de los Resultados de Aprendizaje de la Carrera (RA) con los objetivos EUR-ACE y generar un reporte inicial del cumplimiento, proporcionando una primera visión de la acreditación.
@@ -598,7 +595,7 @@ para el objetivo ten en cuenta que debe ser un objetivo comercial claro y concis
 
 Este plan de sprints está diseñado para construir un Producto Mínimo Viable (MVP) del sistema de gestión de acreditación EUR-ACE. Se enfoca en una entrega incremental de valor, estableciendo primero las bases organizativas y de estándares, para luego construir la trazabilidad académica y los reportes esenciales para la acreditación.
 
-## Sprints Planificados:
+# Sprints Planificados:
 
 *   [Sprint 1: Fundación y Estándares](#Sprint_1_Fundacion_y_Estandares)
 *   [Sprint 2: Definición Curricular de Carrera](#Sprint_2_Definicion_Curricular_de_Carrera)
@@ -731,7 +728,7 @@ para el objetivo ten en cuenta que debe ser un objetivo comercial claro y concis
 
 Este plan de sprints está diseñado para construir un Producto Mínimo Viable (MVP) del sistema de gestión de acreditación EUR-ACE. Se enfoca en una entrega incremental de valor, estableciendo primero las bases organizativas y de estándares, para luego construir la trazabilidad académica y los reportes esenciales para la acreditación.
 
-## Sprints Planificados:
+# Sprints Planificados:
 
 *   [Sprint 1: Fundación y Estándares](#Sprint_1_Fundacion_y_Estandares)
 *   [Sprint 2: Definición Curricular de Carrera](#Sprint_2_Definicion_Curricular_de_Carrera)
@@ -1406,7 +1403,7 @@ para el objetivo ten en cuenta que debe ser un objetivo comercial claro y concis
 
 Aquí tienes el SPRINT MAPPING para construir el sistema de gestión de acreditación EUR-ACE, actuando como un Product Owner experto. He priorizado las historias de usuario (PBI) basándome en dependencias y el valor comercial inmediato para la EPN en su proceso de acreditación.
 
----
+
 
 **Sprint Mapping – Sistema de Acreditación EUR-ACE**
 
@@ -1506,7 +1503,6 @@ para el objetivo ten en cuenta que debe ser un objetivo comercial claro y concis
 
 Aquí tienes el Sprint Mapping, priorizando las funcionalidades críticas para establecer una base sólida y avanzar hacia el objetivo de la acreditación EUR-ACE:
 
----
 
 **Sprint Mapping – Sistema de Acreditación EUR-ACE**
 
@@ -1555,7 +1551,6 @@ crea de nuevo el sprint mapping
 
 Aquí tienes la propuesta mejorada:
 
----
 
 **Sprint Mapping – Sistema de Acreditación EUR-ACE**
 
@@ -1605,13 +1600,12 @@ Nuestro objetivo principal es construir un sistema que permita a la EPN gestiona
 
 Aquí te presento el SPRINT MAPPING propuesto:
 
----
+
 
 **Introducción del Product Owner:**
 
 Como Product Owner, mi enfoque es maximizar el valor del producto para la EPN, asegurando que cada sprint entregue funcionalidades útiles y que el equipo de desarrollo tenga una visión clara de lo que necesitamos construir. La acreditación EUR-ACE es crítica, por lo que priorizaremos la trazabilidad y la generación de evidencia.
 
----
 
 **SPRINT MAPPING**
 
@@ -1660,7 +1654,6 @@ Como Product Owner, mi enfoque es maximizar el valor del producto para la EPN, a
     *   Exportación básica del reporte a formatos comunes (ej. PDF).
 *   **Valor Comercial:** **Extremadamente Alto.** Este es el output final y el más visible del valor del sistema. Permite a la EPN presentar pruebas verificables a los evaluadores externos, cumpliendo directamente con el objetivo de la acreditación.
 
----
 
 Este SPRINT MAPPING proporciona una ruta clara y lógica para construir el sistema, comenzando por los fundamentos y avanzando hacia la lógica de negocio central y la entrega de valor a través de los reportes clave para la acreditación EUR-ACE. Cada sprint está diseñado para entregar valor comercial incremental y abordar las dependencias de manera efectiva.
 
@@ -1672,13 +1665,13 @@ Nuestro objetivo principal es construir un sistema que permita a la EPN gestiona
 
 Aquí te presento el SPRINT MAPPING propuesto:
 
----
+
 
 **Introducción del Product Owner:**
 
 Como Product Owner, mi enfoque es maximizar el valor del producto para la EPN, asegurando que cada sprint entregue funcionalidades útiles y que el equipo de desarrollo tenga una visión clara de lo que necesitamos construir. La acreditación EUR-ACE es crítica, por lo que priorizaremos la trazabilidad y la generación de evidencia.
 
----
+
 
 **SPRINT MAPPING**
 
@@ -1727,7 +1720,6 @@ Como Product Owner, mi enfoque es maximizar el valor del producto para la EPN, a
     *   Exportación básica del reporte a formatos comunes (ej. PDF).
 *   **Valor Comercial:** **Extremadamente Alto.** Este es el output final y el más visible del valor del sistema. Permite a la EPN presentar pruebas verificables a los evaluadores externos, cumpliendo directamente con el objetivo de la acreditación.
 
----
 
 Este SPRINT MAPPING proporciona una ruta clara y lógica para construir el sistema, comenzando por los fundamentos y avanzando hacia la lógica de negocio central y la entrega de valor a través de los reportes clave para la acreditación EUR-ACE. Cada sprint está diseñado para entregar valor comercial incremental y abordar las dependencias de manera efectiva.
 
@@ -1874,13 +1866,13 @@ Considerando la velocidad del equipo (54-75 SP por sprint, con el apoyo de la IA
 
 Aquí tienes el Sprint Mapping detallado para las próximas 5 semanas:
 
----
+
 
 ### **Sprint Mapping**
 
 **Release Objetivo:** Habilitar la digitalización de la estructura académica y curricular de la EPN, junto con la alineación preliminar con los estándares EUR-ACE, para iniciar el proceso de acreditación de carreras.
 
----
+
 
 **Sprint 1: Infraestructura Fundamental y Gestión de Usuarios**
 **(Semana 1: Lunes - Domingo)**
@@ -1895,7 +1887,7 @@ Aquí tienes el Sprint Mapping detallado para las próximas 5 semanas:
     *   HU-05 (8 sp): Como Administrador del sistema, Quiero asignar el rol de “Coordinador de Carrera” a un usuario, Para otorgarle permisos para gestionar la información de una carrera específica.
 *   **Total SP Sprint 1:** 34 SP
 
----
+
 
 **Sprint 2: Base de Acreditación y Perfil de Egreso de Carrera**
 **(Semana 2: Lunes - Domingo)**
@@ -1908,7 +1900,7 @@ Aquí tienes el Sprint Mapping detallado para las próximas 5 semanas:
     *   HU-08 (13 sp): Como Coordinador de Carrera, Quiero registrar los Resultados de Aprendizaje (RA) esperados para mi carrera, Para especificar las competencias globales que los estudiantes deben adquirir al egresar.
 *   **Total SP Sprint 2:** 47 SP
 
----
+
 
 **Sprint 3: Detalle Curricular y Pre-Alineación**
 **(Semana 3: Lunes - Domingo)**
@@ -1921,7 +1913,6 @@ Aquí tienes el Sprint Mapping detallado para las próximas 5 semanas:
     *   HU-11 (21 sp): Como Coordinador de Carrera, Quiero vincular un Resultado de Aprendizaje (RA) de mi carrera a un Objetivo de Perfil Profesional (OPP), Para demostrar la coherencia entre las competencias esperadas y el perfil final del egresado.
 *   **Total SP Sprint 3:** 42 SP
 
----
 
 **Sprint 4: Coherencia Curricular y Contribución**
 **(Semana 4: Lunes - Domingo)**
@@ -1933,7 +1924,6 @@ Aquí tienes el Sprint Mapping detallado para las próximas 5 semanas:
     *   HU-13 (13 sp): Como Coordinador de Carrera, Quiero especificar el nivel de contribución (Bajo, Medio, Alto) de un RAA a un RA de mi carrera, Para evaluar la intensidad de la aportación de cada asignatura al perfil de egreso.
 *   **Total SP Sprint 4:** 34 SP
 
----
 
 **Sprint 5: Informe de Alineación EUR-ACE**
 **(Semana 5: Lunes - Domingo)**
@@ -1944,7 +1934,7 @@ Aquí tienes el Sprint Mapping detallado para las próximas 5 semanas:
     *   HU-14 (34 sp): Como Coordinador de Carrera, Quiero generar un informe que muestre cómo los Resultados de Aprendizaje (RA) de mi carrera se alinean con los estándares EUR-ACE, Para evaluar el cumplimiento de los criterios de acreditación.
 *   **Total SP Sprint 5:** 34 SP
 
----
+
 
 Este Sprint Mapping asegura una entrega de valor constante y progresiva, con cada sprint construyendo sobre el anterior para culminar en la capacidad de generar un informe de alineación EUR-ACE, un hito crucial para la EPN. ¡Estamos en el camino correcto!
 
@@ -1967,13 +1957,13 @@ vuelve a crear mi sprint mapping analizando esto que te comento
 
 Aquí tienes el Sprint Mapping revisado, con objetivos comerciales claros, concisos y sin ambigüedades, enfocados en el impacto directo para la EPN:
 
----
+
 
 ### **Sprint Mapping**
 
 **Release Objetivo Comercial Global:** Acelerar el proceso de acreditación EUR-ACE para las carreras de ingeniería de la EPN, mediante la digitalización y autoevaluación estratégica de su currículo frente a estándares de calidad reconocidos internacionalmente.
 
----
+
 
 **Sprint 1: Cimientos Organizacionales y Acceso Estratégico**
 **(Semana 1: Lunes - Domingo)**
@@ -1988,7 +1978,7 @@ Aquí tienes el Sprint Mapping revisado, con objetivos comerciales claros, conci
     *   HU-05 (8 sp): Como Administrador del sistema, Quiero asignar el rol de “Coordinador de Carrera” a un usuario, Para otorgarle permisos para gestionar la información de una carrera específica.
 *   **Total SP Sprint 1:** 34 SP
 
----
+
 
 **Sprint 2: Marco de Calidad y Compromiso de Egreso**
 **(Semana 2: Lunes - Domingo)**
@@ -2001,7 +1991,7 @@ Aquí tienes el Sprint Mapping revisado, con objetivos comerciales claros, conci
     *   HU-08 (13 sp): Como Coordinador de Carrera, Quiero registrar los Resultados de Aprendizaje (RA) esperados para mi carrera, Para especificar las competencias globales que los estudiantes deben adquirir al egresar.
 *   **Total SP Sprint 2:** 47 SP
 
----
+
 
 **Sprint 3: Detalle Curricular y Articulación Estratégica**
 **(Semana 3: Lunes - Domingo)**
@@ -2014,7 +2004,7 @@ Aquí tienes el Sprint Mapping revisado, con objetivos comerciales claros, conci
     *   HU-11 (21 sp): Como Coordinador de Carrera, Quiero vincular un Resultado de Aprendizaje (RA) de mi carrera a un Objetivo de Perfil Profesional (OPP), Para demostrar la coherencia entre las competencias esperadas y el perfil final del egresado.
 *   **Total SP Sprint 3:** 42 SP
 
----
+
 
 **Sprint 4: Análisis de Contribución y Optimización Curricular**
 **(Semana 4: Lunes - Domingo)**
@@ -2026,7 +2016,6 @@ Aquí tienes el Sprint Mapping revisado, con objetivos comerciales claros, conci
     *   HU-13 (13 sp): Como Coordinador de Carrera, Quiero especificar el nivel de contribución (Bajo, Medio, Alto) de un RAA a un RA de mi carrera, Para evaluar la intensidad de la aportación de cada asignatura al perfil de egreso.
 *   **Total SP Sprint 4:** 34 SP
 
----
 
 **Sprint 5: Evidencia de Alineación EUR-ACE**
 **(Semana 5: Lunes - Domingo)**
@@ -2037,7 +2026,6 @@ Aquí tienes el Sprint Mapping revisado, con objetivos comerciales claros, conci
     *   HU-14 (34 sp): Como Coordinador de Carrera, Quiero generar un informe que muestre cómo los Resultados de Aprendizaje (RA) de mi carrera se alinean con los estándares EUR-ACE, Para evaluar el cumplimiento de los criterios de acreditación.
 *   **Total SP Sprint 5:** 34 SP
 
----
 
 Este enfoque asegura que cada sprint tenga un impacto comercial directo y medible en el objetivo final de la EPN: lograr la acreditación EUR-ACE.
 
@@ -2240,13 +2228,13 @@ para el objetivo ten en cuenta que debe ser un objetivo comercial claro y concis
 
 Aquí tienes el Sprint Mapping detallado, alineado con tus requerimientos:
 
----
+
 
 ### **Sprint Mapping**
 
 **Objetivo Comercial Global del Proyecto:** Acelerar y simplificar el proceso de acreditación EUR-ACE para las carreras de ingeniería de la EPN, mediante la digitalización estratégica, alineación curricular y autoevaluación continua frente a estándares de calidad reconocidos internacionalmente.
 
----
+
 
 **Sprint 1: Gestión Institucional y Acceso Esencial**
 **(Fecha Inicio – Fecha Fin: 06 de Mayo – 12 de Mayo)**
@@ -2262,7 +2250,7 @@ Aquí tienes el Sprint Mapping detallado, alineado con tus requerimientos:
     *   Como Administrador del sistema, Quiero asignar el rol de “Profesor” a un usuario, Para otorgarle permisos para gestionar la información de sus asignaturas. (8 SP)
 *   **Total SP Sprint 1:** 34 SP
 
----
+
 
 **Sprint 2: Declaración Curricular Estratégica y Marco de Calidad EUR-ACE**
 **(Fecha Inicio – Fecha Fin: 13 de Mayo – 19 de Mayo)**
@@ -2277,7 +2265,6 @@ Aquí tienes el Sprint Mapping detallado, alineado con tus requerimientos:
     *   Como Administrador del sistema, Quiero cargar los criterios y estándares de acreditación EUR-ACE en el sistema, Para disponer de la referencia oficial para la evaluación de la calidad. (21 SP)
 *   **Total SP Sprint 2:** 50 SP
 
----
 
 **Sprint 3: Detalle Académico y Mapeo Interno de Asignaturas**
 **(Fecha Inicio – Fecha Fin: 20 de Mayo – 26 de Mayo)**
@@ -2292,7 +2279,6 @@ Aquí tienes el Sprint Mapping detallado, alineado con tus requerimientos:
     *   Como Coordinador de Carrera, Quiero especificar el nivel de contribución (Bajo, Medio, Alto) de un RAA a un RA de mi carrera, Para evaluar la intensidad de la aportación de cada asignatura al perfil de egreso. (8 SP)
 *   **Total SP Sprint 3:** 42 SP
 
----
 
 **Sprint 4: Diagnóstico de Cumplimiento EUR-ACE**
 **(Fecha Inicio – Fecha Fin: 27 de Mayo – 02 de Junio)**
@@ -2326,13 +2312,11 @@ Analiza detenidamente y vuelve a crear mi sprint mapping
 
 ¡Absolutamente! Mis disculpas por el exceso de "adornos". Como Product Owner, mi trabajo es ser directo y enfocado en el valor. He revisado el Sprint Mapping para ser mucho más conciso y claro en los objetivos comerciales y el valor entregado, manteniendo el formato y la calidad de los PBIs.
 
----
-
 ### **Sprint Mapping (Revisado y Conciso)**
 
 **Objetivo Comercial Global del Proyecto:** Acelerar y simplificar la acreditación EUR-ACE de las carreras de ingeniería de la EPN mediante la digitalización y autoevaluación continua.
 
----
+
 
 **Sprint 1: Fundación del Sistema y Gestión de Usuarios**
 **(Fecha Inicio – Fecha Fin: 06 de Mayo – 12 de Mayo)**
@@ -2348,8 +2332,6 @@ Analiza detenidamente y vuelve a crear mi sprint mapping
     *   Como Administrador del sistema, Quiero asignar el rol de “Profesor” a un usuario, Para otorgarle permisos de gestión de asignaturas. (8 SP)
 *   **Total SP Sprint 1:** 34 SP
 
----
-
 **Sprint 2: Definición Curricular Central y Estándares EUR-ACE**
 **(Fecha Inicio – Fecha Fin: 13 de Mayo – 19 de Mayo)**
 
@@ -2363,7 +2345,7 @@ Analiza detenidamente y vuelve a crear mi sprint mapping
     *   Como Administrador del sistema, Quiero cargar los criterios y estándares de acreditación EUR-ACE en el sistema, Para disponer de la referencia oficial de evaluación. (21 SP)
 *   **Total SP Sprint 2:** 50 SP
 
----
+
 
 **Sprint 3: Detalle de Asignaturas y Mapeo de Contribuciones**
 **(Fecha Inicio – Fecha Fin: 20 de Mayo – 26 de Mayo)**
@@ -2378,7 +2360,7 @@ Analiza detenidamente y vuelve a crear mi sprint mapping
     *   Como Coordinador de Carrera, Quiero especificar el nivel de contribución (Bajo, Medio, Alto) de un RAA a un RA de mi carrera, Para evaluar la intensidad de su aporte. (8 SP)
 *   **Total SP Sprint 3:** 42 SP
 
----
+
 
 **Sprint 4: Diagnóstico Preliminar de Acreditación EUR-ACE**
 **(Fecha Inicio – Fecha Fin: 03 de Junio – 09 de Junio)**
@@ -2390,7 +2372,7 @@ Analiza detenidamente y vuelve a crear mi sprint mapping
     *   Como Coordinador de Carrera, Quiero generar un informe que muestre cómo los Resultados de Aprendizaje (RA) de mi carrera se alinean con los estándares EUR-ACE, Para evaluar el cumplimiento de los criterios de acreditación. (34 SP)
 *   **Total SP Sprint 4:** 34 SP
 
----
+
 
 <!-- --- -->
 
@@ -2471,7 +2453,6 @@ te proporciono el product backlo del release s :
 | 13 | 13       | S    | 13        | **Como** Coordinador de Carrera, **Quiero** vincular un Resultado de Aprendizaje de Asignatura (RAA) a un Resultado de Aprendizaje (RA) de mi carrera, **Para** entender cómo cada asignatura contribuye a las competencias globales. | 191 |
 | 14 | 8        | S    | 14        | **Como** Coordinador de Carrera, **Quiero** especificar el nivel de contribución (Bajo, Medio, Alto) de un RAA a un RA de mi carrera, **Para** evaluar la intensidad de su aporte. | 199 |
 | 15 | 13       | S    | 15        | **Como** Coordinador de Carrera, **Quiero** generar un informe que muestre cómo los Resultados de Aprendizaje (RA) de mi carrera se alinean con los estándares EUR-ACE, **Para** evaluar el cumplimiento de los criterios de acreditación. | 212 |
-
 ---
 
 #### **Might have (> 212 SP y ≤ 300 SP)**
@@ -2570,13 +2551,13 @@ para el objetivo ten en cuenta que debe ser un objetivo comercial claro y concis
 
 Aquí tienes el Sprint Mapping revisado, diseñado para entregar valor incremental en el proceso de acreditación EUR-ACE de la EPN:
 
----
+
 
 ### **Sprint Mapping (Revisado y Conciso)**
 
 **Objetivo Comercial Global del Proyecto:** Acelerar y simplificar la acreditación EUR-ACE de las carreras de ingeniería de la EPN mediante la digitalización y autoevaluación continua.
 
----
+
 
 **Sprint 1: Fundación Organizacional y Acceso Inicial**
 **(Fecha Inicio – Fecha Fin: 06 de Mayo – 12 de Mayo)**
@@ -2592,7 +2573,7 @@ Aquí tienes el Sprint Mapping revisado, diseñado para entregar valor increment
     *   Como Administrador del sistema, Quiero asignar el rol de “Profesor” a un usuario, Para otorgarle permisos para gestionar sus asignaturas. (13 SP)
 *   **Total SP Sprint 1:** 55 SP
 
----
+
 
 **Sprint 2: Definición Curricular Central y Estándares EUR-ACE**
 **(Fecha Inicio – Fecha Fin: 13 de Mayo – 19 de Mayo)**
@@ -2607,7 +2588,6 @@ Aquí tienes el Sprint Mapping revisado, diseñado para entregar valor increment
     *   Como Administrador del sistema, Quiero cargar los criterios y estándares de acreditación EUR-ACE en el sistema, Para disponer de la referencia oficial de evaluación. (21 SP)
 *   **Total SP Sprint 2:** 68 SP
 
----
 
 **Sprint 3: Detalle de Asignaturas y Mapeo de Contribuciones**
 **(Fecha Inicio – Fecha Fin: 20 de Mayo – 26 de Mayo)**
@@ -2622,7 +2602,7 @@ Aquí tienes el Sprint Mapping revisado, diseñado para entregar valor increment
     *   Como Coordinador de Carrera, Quiero especificar el nivel de contribución (Bajo, Medio, Alto) de un RAA a un RA de mi carrera, Para evaluar la intensidad de su aporte. (8 SP)
 *   **Total SP Sprint 3:** 55 SP
 
----
+
 
 **Sprint 4: Diagnóstico Preliminar EUR-ACE**
 **(Fecha Inicio – Fecha Fin: 27 de Mayo – 02 de Junio)**
@@ -2634,6 +2614,6 @@ Aquí tienes el Sprint Mapping revisado, diseñado para entregar valor increment
     *   Como Coordinador de Carrera, Quiero generar un informe que muestre cómo los Resultados de Aprendizaje (RA) de mi carrera se alinean con los estándares EUR-ACE, Para evaluar el cumplimiento de los criterios de acreditación. (55 SP)
 *   **Total SP Sprint 4:** 55 SP
 
----
+
 
 <!-- --- -->

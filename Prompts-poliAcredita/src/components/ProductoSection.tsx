@@ -20,8 +20,8 @@ export const ProductoSection: React.FC = () => {
                         key={item.id}
                         onClick={() => setSelectedItem(item.id)}
                         className={`px-4 py-3 text-sm font-medium whitespace-nowrap transition-colors ${selectedItem === item.id
-                                ? 'text-blue-600 border-b-2 border-blue-600'
-                                : 'text-gray-600 hover:text-gray-900'
+                            ? 'text-blue-600 border-b-2 border-blue-600'
+                            : 'text-gray-600 hover:text-gray-900'
                             }`}
                     >
                         {item.nombre}

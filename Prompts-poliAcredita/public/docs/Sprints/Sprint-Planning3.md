@@ -76,330 +76,331 @@ Crea mi  hus basándote únicamente en los prototipos (imagenes) que te proporci
 
 **Respuesta:**
 
-### HU: Listar Asignaturas (PEA)
+### 🎯 HU: Listar Asignaturas (PEA)
 **Como:** Profesor
 **Quiero:** listar las asignaturas
 **Para:** visualizar los programas de estudio
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- La página de 'Asignaturas (PEA)' muestra una tabla con Código, Nombre, Unidad de Integración Curricular, Créditos y Nivel Referencial.
-- La tabla muestra las asignaturas asociadas al profesor o a su rol.
-- Cada fila de la tabla incluye iconos para editar y eliminar la asignatura.
+- ✅ La página de 'Asignaturas (PEA)' muestra una tabla con Código, Nombre, Unidad de Integración Curricular, Créditos y Nivel Referencial.
+- ✅ La tabla muestra las asignaturas asociadas al profesor o a su rol.
+- ✅ Cada fila de la tabla incluye iconos para editar y eliminar la asignatura.
+
 
 **Story Points:** 3
 **Prioridad:** Alta (1)
 
----
 
-### HU: Buscar Asignaturas (PEA)
+### 🎯 HU: Buscar Asignaturas (PEA)
 **Como:** Profesor
 **Quiero:** buscar asignaturas por código o descripción
 **Para:** encontrar rápidamente un programa de estudio específico
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un campo de búsqueda ('Buscar por código o descripción...') en la página de Asignaturas.
-- Al ingresar texto en el campo de búsqueda, la tabla de asignaturas se actualiza mostrando solo las coincidencias.
-- La búsqueda filtra por código y descripción de la asignatura.
+- ✅ Existe un campo de búsqueda ('Buscar por código o descripción...') en la página de Asignaturas.
+- ✅ Al ingresar texto en el campo de búsqueda, la tabla de asignaturas se actualiza mostrando solo las coincidencias.
+- ✅ La búsqueda filtra por código y descripción de la asignatura.
+
 
 **Story Points:** 1
 **Prioridad:** Alta (1)
 
----
 
-### HU: Filtrar Asignaturas por Pénsum (PEA)
+### 🎯 HU: Filtrar Asignaturas por Pénsum (PEA)
 **Como:** Profesor
 **Quiero:** filtrar las asignaturas por pénsum
 **Para:** acotar la búsqueda a un plan de estudios específico
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector desplegable ('Pénsum') en la página de Asignaturas.
-- El selector muestra los años de pénsum disponibles.
-- Al seleccionar un pénsum, la tabla de asignaturas se actualiza mostrando solo las asignaturas de ese pénsum.
+- ✅ Existe un selector desplegable ('Pénsum') en la página de Asignaturas.
+- ✅ El selector muestra los años de pénsum disponibles.
+- ✅ Al seleccionar un pénsum, la tabla de asignaturas se actualiza mostrando solo las asignaturas de ese pénsum.
+
 
 **Story Points:** 1
 **Prioridad:** Alta (1)
 
----
 
-### HU: Filtrar Asignaturas por Periodo académico (PEA)
+### 🎯 HU: Filtrar Asignaturas por Periodo académico (PEA)
 **Como:** Profesor
 **Quiero:** filtrar las asignaturas por periodo académico
 **Para:** ver los programas activos en un ciclo
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector desplegable ('Periodo académico') en la página de Asignaturas.
-- El selector de periodo académico muestra los periodos disponibles.
-- Al seleccionar un periodo, la tabla de asignaturas se actualiza mostrando solo las asignaturas de ese periodo.
+- ✅ Existe un selector desplegable ('Periodo académico') en la página de Asignaturas.
+- ✅ El selector de periodo académico muestra los periodos disponibles.
+- ✅ Al seleccionar un periodo, la tabla de asignaturas se actualiza mostrando solo las asignaturas de ese periodo.
+
 
 **Story Points:** 1
 **Prioridad:** Alta (1)
 
----
 
-### HU: Paginar Asignaturas (PEA)
+### 🎯 HU: Paginar Asignaturas (PEA)
 **Como:** Profesor
 **Quiero:** paginar las asignaturas
 **Para:** navegar por un gran número de programas de estudio
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Los controles de paginación (Previous, Next, números de página) se muestran debajo de la tabla de asignaturas.
-- Al hacer clic en un número de página o en 'Previous'/'Next', la tabla muestra el conjunto correspondiente de asignaturas.
-- La paginación funciona correctamente junto con la búsqueda y los filtros.
+- ✅ Los controles de paginación (Previous, Next, números de página) se muestran debajo de la tabla de asignaturas.
+- ✅ Al hacer clic en un número de página o en 'Previous'/'Next', la tabla muestra el conjunto correspondiente de asignaturas.
+- ✅ La paginación funciona correctamente junto con la búsqueda y los filtros.
+
 
 **Story Points:** 1
 **Prioridad:** Alta (1)
 
----
 
-### HU: Crear Asignatura (PEA)
+### 🎯 HU: Crear Asignatura (PEA)
 **Como:** Profesor
 **Quiero:** crear una nueva asignatura
 **Para:** registrar los detalles de un programa de estudio
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Al hacer clic en '+ Nueva Asignatura', se muestra el formulario 'Crear/Editar Asignatura (PEA)'.
-- El formulario contiene campos obligatorios: Código, Nombre, Unidad de integración curricular, Tipo de asignatura, Pénsum, Número de créditos, Nivel Referencial.
-- Al rellenar los campos y hacer clic en 'Guardar', la nueva asignatura se guarda y aparece en la lista.
+- ✅ Al hacer clic en '+ Nueva Asignatura', se muestra el formulario 'Crear/Editar Asignatura (PEA)'.
+- ✅ El formulario contiene campos obligatorios: Código, Nombre, Unidad de integración curricular, Tipo de asignatura, Pénsum, Número de créditos, Nivel Referencial.
+- ✅ Al rellenar los campos y hacer clic en 'Guardar', la nueva asignatura se guarda y aparece en la lista.
+
 
 **Story Points:** 8
 **Prioridad:** Alta (1)
 
----
 
-### HU: Editar Asignatura (PEA)
+### 🎯 HU: Editar Asignatura (PEA)
 **Como:** Profesor
 **Quiero:** editar una asignatura existente
 **Para:** actualizar los detalles de un programa de estudio
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Al hacer clic en el icono de edición de una asignatura, el formulario 'Crear/Editar Asignatura (PEA)' se carga con los datos de la asignatura seleccionada.
-- Al modificar los campos y hacer clic en 'Guardar', los cambios se aplican a la asignatura y se reflejan en la lista.
+- ✅ Al hacer clic en el icono de edición de una asignatura, el formulario 'Crear/Editar Asignatura (PEA)' se carga con los datos de la asignatura seleccionada.
+- ✅ Al modificar los campos y hacer clic en 'Guardar', los cambios se aplican a la asignatura y se reflejan en la lista.
+
 
 **Story Points:** 8
 **Prioridad:** Alta (1)
 
----
 
-### HU: Eliminar Asignatura (PEA)
+### 🎯 HU: Eliminar Asignatura (PEA)
 **Como:** Profesor
 **Quiero:** eliminar una asignatura
 **Para:** retirar un programa de estudio obsoleto o incorrecto
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Al hacer clic en el icono de eliminar de una asignatura, se muestra una confirmación antes de la eliminación.
-- Tras la confirmación, la asignatura se elimina del sistema y desaparece de la lista.
+- ✅ Al hacer clic en el icono de eliminar de una asignatura, se muestra una confirmación antes de la eliminación.
+- ✅ Tras la confirmación, la asignatura se elimina del sistema y desaparece de la lista.
+
 
 **Story Points:** 3
 **Prioridad:** Alta (1)
 
----
 
-### HU: Listar Resultados de Aprendizaje de Asignatura (RAA)
+### 🎯 HU: Listar Resultados de Aprendizaje de Asignatura (RAA)
 **Como:** Profesor
 **Quiero:** listar los resultados de aprendizaje de una asignatura
 **Para:** visualizar sus competencias específicas
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Dentro de la edición de una asignatura, la pestaña 'Gestión de Resultados de Aprendizaje Asignatura (RAA)' muestra una tabla con Código, Tipo y Descripción de los RAA.
-- La tabla muestra los RAA asociados a la asignatura actualmente seleccionada.
+- ✅ Dentro de la edición de una asignatura, la pestaña 'Gestión de Resultados de Aprendizaje Asignatura (RAA)' muestra una tabla con Código, Tipo y Descripción de los RAA.
+- ✅ La tabla muestra los RAA asociados a la asignatura actualmente seleccionada.
+
 
 **Story Points:** 3
 **Prioridad:** Alta (1)
 
----
 
-### HU: Crear Resultado de Aprendizaje de Asignatura (RAA)
+### 🎯 HU: Crear Resultado de Aprendizaje de Asignatura (RAA)
 **Como:** Profesor
 **Quiero:** crear un nuevo resultado de aprendizaje de asignatura
 **Para:** definir las competencias específicas
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Al hacer clic en '+ Nuevo RAA' en la pestaña 'Gestión de Resultados de Aprendizaje Asignatura (RAA)', se muestra el modal 'Agregar Resultado de Aprendizaje de Asignatura (RAA)'.
-- El modal contiene campos para Código, Tipo (dropdown con Conocimientos, Destrezas, Valores y actitudes) y Descripción.
-- Al rellenar los campos y hacer clic en 'Guardar', el nuevo RAA se guarda y aparece en la tabla.
+- ✅ Al hacer clic en '+ Nuevo RAA' en la pestaña 'Gestión de Resultados de Aprendizaje Asignatura (RAA)', se muestra el modal 'Agregar Resultado de Aprendizaje de Asignatura (RAA)'.
+- ✅ El modal contiene campos para Código, Tipo (dropdown con Conocimientos, Destrezas, Valores y actitudes) y Descripción.
+- ✅ Al rellenar los campos y hacer clic en 'Guardar', el nuevo RAA se guarda y aparece en la tabla.
+
 
 **Story Points:** 8
 **Prioridad:** Alta (1)
 
----
 
-### HU: Editar Resultado de Aprendizaje de Asignatura (RAA)
+### 🎯 HU: Editar Resultado de Aprendizaje de Asignatura (RAA)
 **Como:** Profesor
 **Quiero:** editar un resultado de aprendizaje de asignatura existente
 **Para:** actualizar su descripción o tipo
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Al hacer clic en el icono de edición de un RAA en la tabla, el modal 'Agregar Resultado de Aprendizaje de Asignatura (RAA)' se carga con los datos del RAA seleccionado.
-- Al modificar los campos y hacer clic en 'Guardar', los cambios se aplican al RAA y se reflejan en la tabla.
+- ✅ Al hacer clic en el icono de edición de un RAA en la tabla, el modal 'Agregar Resultado de Aprendizaje de Asignatura (RAA)' se carga con los datos del RAA seleccionado.
+- ✅ Al modificar los campos y hacer clic en 'Guardar', los cambios se aplican al RAA y se reflejan en la tabla.
+
 
 **Story Points:** 5
 **Prioridad:** Alta (1)
 
----
 
-### HU: Eliminar Resultado de Aprendizaje de Asignatura (RAA)
+### 🎯 HU: Eliminar Resultado de Aprendizaje de Asignatura (RAA)
 **Como:** Profesor
 **Quiero:** eliminar un resultado de aprendizaje de asignatura
 **Para:** corregir o retirar competencias
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Al hacer clic en el icono de eliminar de un RAA, se muestra una confirmación antes de la eliminación.
-- Tras la confirmación, el RAA se elimina del sistema y desaparece de la tabla.
+- ✅ Al hacer clic en el icono de eliminar de un RAA, se muestra una confirmación antes de la eliminación.
+- ✅ Tras la confirmación, el RAA se elimina del sistema y desaparece de la tabla.
+
 
 **Story Points:** 3
 **Prioridad:** Alta (1)
 
----
 
-### HU: Listar Objetivos de Perfil Profesional (OPP)
+### 🎯 HU: Listar Objetivos de Perfil Profesional (OPP)
 **Como:** Coordinador de Carrera
 **Quiero:** listar los objetivos de perfil profesional
 **Para:** consultar las capacidades del graduado
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- La página de 'Gestión de Objetivos de Carrera (OPP)' muestra una tabla con Código y Descripción de los OPP.
-- La tabla muestra todos los OPP definidos para la carrera asignada al coordinador.
+- ✅ La página de 'Gestión de Objetivos de Carrera (OPP)' muestra una tabla con Código y Descripción de los OPP.
+- ✅ La tabla muestra todos los OPP definidos para la carrera asignada al coordinador.
+
 
 **Story Points:** 3
 **Prioridad:** Alta (1)
 
----
 
-### HU: Crear Objetivo de Perfil Profesional (OPP)
+### 🎯 HU: Crear Objetivo de Perfil Profesional (OPP)
 **Como:** Coordinador de Carrera
 **Quiero:** crear un nuevo objetivo de perfil profesional
 **Para:** definir una capacidad del graduado
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Al hacer clic en '+ Nuevo OPP', se muestra un formulario o modal para agregar un OPP.
-- El formulario contiene campos para Código y Descripción.
-- Al rellenar los campos y hacer clic en 'Guardar', el nuevo OPP se guarda y aparece en la lista.
+- ✅ Al hacer clic en '+ Nuevo OPP', se muestra un formulario o modal para agregar un OPP.
+- ✅ El formulario contiene campos para Código y Descripción.
+- ✅ Al rellenar los campos y hacer clic en 'Guardar', el nuevo OPP se guarda y aparece en la lista.
+
 
 **Story Points:** 5
 **Prioridad:** Alta (1)
 
----
 
-### HU: Editar Objetivo de Perfil Profesional (OPP)
+### 🎯 HU: Editar Objetivo de Perfil Profesional (OPP)
 **Como:** Coordinador de Carrera
 **Quiero:** editar un objetivo de perfil profesional existente
 **Para:** actualizar su descripción
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Al hacer clic en el icono de edición de un OPP, el formulario/modal se carga con los datos del OPP seleccionado.
-- Al modificar los campos y hacer clic en 'Guardar', los cambios se aplican al OPP y se reflejan en la tabla.
+- ✅ Al hacer clic en el icono de edición de un OPP, el formulario/modal se carga con los datos del OPP seleccionado.
+- ✅ Al modificar los campos y hacer clic en 'Guardar', los cambios se aplican al OPP y se reflejan en la tabla.
+
 
 **Story Points:** 3
 **Prioridad:** Alta (1)
 
----
 
-### HU: Eliminar Objetivo de Perfil Profesional (OPP)
+### 🎯 HU: Eliminar Objetivo de Perfil Profesional (OPP)
 **Como:** Coordinador de Carrera
 **Quiero:** eliminar un objetivo de perfil profesional
 **Para:** retirar una capacidad obsoleta o incorrecta
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Al hacer clic en el icono de eliminar de un OPP, se muestra una confirmación antes de la eliminación.
-- Tras la confirmación, el OPP se elimina del sistema y desaparece de la lista.
+- ✅ Al hacer clic en el icono de eliminar de un OPP, se muestra una confirmación antes de la eliminación.
+- ✅ Tras la confirmación, el OPP se elimina del sistema y desaparece de la lista.
+
 
 **Story Points:** 3
 **Prioridad:** Alta (1)
 
----
 
-### HU: Buscar Objetivos de Perfil Profesional (OPP)
+### 🎯 HU: Buscar Objetivos de Perfil Profesional (OPP)
 **Como:** Coordinador de Carrera
 **Quiero:** buscar objetivos de perfil profesional
 **Para:** encontrar rápidamente una capacidad específica
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un campo de búsqueda en la página de OPP.
-- Al ingresar texto en el campo de búsqueda, la tabla de OPPs se actualiza mostrando las coincidencias.
-- La búsqueda filtra por código y descripción del OPP.
+- ✅ Existe un campo de búsqueda en la página de OPP.
+- ✅ Al ingresar texto en el campo de búsqueda, la tabla de OPPs se actualiza mostrando las coincidencias.
+- ✅ La búsqueda filtra por código y descripción del OPP.
+
 
 **Story Points:** 1
 **Prioridad:** Alta (1)
 
----
 
-### HU: Paginar Objetivos de Perfil Profesional (OPP)
+### 🎯 HU: Paginar Objetivos de Perfil Profesional (OPP)
 **Como:** Coordinador de Carrera
 **Quiero:** paginar los objetivos de perfil profesional
 **Para:** navegar por la lista de capacidades
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Los controles de paginación se muestran debajo de la tabla de OPPs.
-- Al hacer clic en los controles, la tabla muestra el conjunto correspondiente de OPPs.
-- La paginación funciona correctamente junto con la búsqueda.
+- ✅ Los controles de paginación se muestran debajo de la tabla de OPPs.
+- ✅ Al hacer clic en los controles, la tabla muestra el conjunto correspondiente de OPPs.
+- ✅ La paginación funciona correctamente junto con la búsqueda.
+
 
 **Story Points:** 1
 **Prioridad:** Alta (1)
 
----
 
-### HU: Visualizar Matriz de Contribución RAA vs RA
+### 🎯 HU: Visualizar Matriz de Contribución RAA vs RA
 **Como:** Coordinador de Carrera
 **Quiero:** visualizar la matriz de contribución RAA vs RA de una asignatura
 **Para:** entender cómo las asignaturas aportan a la carrera
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- La página 'Matriz: Resultados de aprendizaje de Asignatura (RAA) y Resultados de aprendizaje (RA)' muestra una cuadrícula.
-- Las filas representan RAAs y las columnas representan RAs para una asignatura seleccionada.
-- Los puntos de intersección muestran un indicador visual (ej. checkmark) si existe una relación.
+- ✅ La página 'Matriz: Resultados de aprendizaje de Asignatura (RAA) y Resultados de aprendizaje (RA)' muestra una cuadrícula.
+- ✅ Las filas representan RAAs y las columnas representan RAs para una asignatura seleccionada.
+- ✅ Los puntos de intersección muestran un indicador visual (ej. checkmark) si existe una relación.
+
 
 **Story Points:** 8
 **Prioridad:** Alta (1)
 
----
 
-### HU: Buscar Asignatura para Matriz RAA vs RA
+### 🎯 HU: Buscar Asignatura para Matriz RAA vs RA
 **Como:** Coordinador de Carrera
 **Quiero:** buscar una asignatura para la matriz RAA vs RA
 **Para:** consultar sus contribuciones
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un campo de búsqueda ('Buscar una Asignatura') en la página de la matriz RAA vs RA.
-- Al ingresar texto, se muestra una lista desplegable de asignaturas coincidentes para seleccionar.
-- Al seleccionar una asignatura, la matriz se actualiza mostrando las relaciones para esa asignatura.
+- ✅ Existe un campo de búsqueda ('Buscar una Asignatura') en la página de la matriz RAA vs RA.
+- ✅ Al ingresar texto, se muestra una lista desplegable de asignaturas coincidentes para seleccionar.
+- ✅ Al seleccionar una asignatura, la matriz se actualiza mostrando las relaciones para esa asignatura.
+
 
 **Story Points:** 1
 **Prioridad:** Alta (1)
 
----
 
-### HU: Vincular RAA con RA
+### 🎯 HU: Vincular RAA con RA
 **Como:** Coordinador de Carrera
 **Quiero:** vincular un Resultado de Aprendizaje de Asignatura (RAA) a un Resultado de Aprendizaje (RA) de mi carrera
 **Para:** entender cómo cada asignatura contribuye a las competencias globales
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Al hacer clic en '+ Nueva Relación' en la matriz RAA vs RA, se inicia un proceso de wizard.
-- El paso 1 del wizard permite seleccionar un RAA de una lista paginada y filtrable.
-- El paso 2 del wizard permite seleccionar un RA de una lista paginada y filtrable.
-- El paso 3 del wizard permite seleccionar el 'Nivel de Aporte' (Alto, Medio, Bajo) y añadir una justificación.
-- Al guardar en el paso 3, la relación se registra y se muestra en la matriz actualizada.
+- ✅ Al hacer clic en '+ Nueva Relación' en la matriz RAA vs RA, se inicia un proceso de wizard.
+- ✅ El paso 1 del wizard permite seleccionar un RAA de una lista paginada y filtrable.
+- ✅ El paso 2 del wizard permite seleccionar un RA de una lista paginada y filtrable.
+- ✅ El paso 3 del wizard permite seleccionar el 'Nivel de Aporte' (Alto, Medio, Bajo) y añadir una justificación.
+- ✅ Al guardar en el paso 3, la relación se registra y se muestra en la matriz actualizada.
+
 
 **Story Points:** 13
 **Prioridad:** Alta (1)
@@ -479,300 +480,301 @@ Crea mi  hus basándote únicamente en los prototipos (imagenes) que te proporci
 
 **Respuesta:**
 
-### HU: Listar Asignaturas (PEA)
+### 🎯 HU: Listar Asignaturas (PEA)
 **Como:** Profesor
 **Quiero:** listar las asignaturas
 **Para:** visualizar los programas de estudio
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- La página de 'Asignaturas (PEA)' muestra una tabla con Código, Nombre, Unidad de Integración Curricular, Créditos y Nivel Referencial.
-- La tabla muestra las asignaturas asociadas al profesor o a su rol.
-- Cada fila de la tabla incluye iconos para editar y eliminar la asignatura.
+- ✅ La página de 'Asignaturas (PEA)' muestra una tabla con Código, Nombre, Unidad de Integración Curricular, Créditos y Nivel Referencial.
+- ✅ La tabla muestra las asignaturas asociadas al profesor o a su rol.
+- ✅ Cada fila de la tabla incluye iconos para editar y eliminar la asignatura.
+
 
 **Story Points:** 3
 **Prioridad:** Alta (1)
 
----
 
-### HU: Buscar Asignaturas (PEA)
+### 🎯 HU: Buscar Asignaturas (PEA)
 **Como:** Profesor
 **Quiero:** buscar asignaturas por código o descripción
 **Para:** encontrar rápidamente un programa de estudio específico
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un campo de búsqueda ('Buscar por código o descripción...') en la página de Asignaturas.
-- Al ingresar texto en el campo de búsqueda, la tabla de asignaturas se actualiza mostrando solo las coincidencias.
-- La búsqueda filtra por código y descripción de la asignatura.
+- ✅ Existe un campo de búsqueda ('Buscar por código o descripción...') en la página de Asignaturas.
+- ✅ Al ingresar texto en el campo de búsqueda, la tabla de asignaturas se actualiza mostrando solo las coincidencias.
+- ✅ La búsqueda filtra por código y descripción de la asignatura.
+
 
 **Story Points:** 1
 **Prioridad:** Alta (1)
 
----
 
-### HU: Filtrar Asignaturas por Pénsum (PEA)
+### 🎯 HU: Filtrar Asignaturas por Pénsum (PEA)
 **Como:** Profesor
 **Quiero:** filtrar las asignaturas por pénsum
 **Para:** acotar la búsqueda a un plan de estudios específico
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector desplegable ('Pénsum') en la página de Asignaturas.
-- El selector muestra los años de pénsum disponibles.
-- Al seleccionar un pénsum, la tabla de asignaturas se actualiza mostrando solo las asignaturas de ese pénsum.
+- ✅ Existe un selector desplegable ('Pénsum') en la página de Asignaturas.
+- ✅ El selector muestra los años de pénsum disponibles.
+- ✅ Al seleccionar un pénsum, la tabla de asignaturas se actualiza mostrando solo las asignaturas de ese pénsum.
+
 
 **Story Points:** 1
 **Prioridad:** Alta (1)
 
----
 
-### HU: Filtrar Asignaturas por Periodo académico (PEA)
+### 🎯 HU: Filtrar Asignaturas por Periodo académico (PEA)
 **Como:** Profesor
 **Quiero:** filtrar las asignaturas por periodo académico
 **Para:** ver los programas activos en un ciclo
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un selector desplegable ('Periodo académico') en la página de Asignaturas.
-- El selector de periodo académico muestra los periodos disponibles.
-- Al seleccionar un periodo, la tabla de asignaturas se actualiza mostrando solo las asignaturas de ese periodo.
+- ✅ Existe un selector desplegable ('Periodo académico') en la página de Asignaturas.
+- ✅ El selector de periodo académico muestra los periodos disponibles.
+- ✅ Al seleccionar un periodo, la tabla de asignaturas se actualiza mostrando solo las asignaturas de ese periodo.
+
 
 **Story Points:** 1
 **Prioridad:** Alta (1)
 
----
 
-### HU: Paginar Asignaturas (PEA)
+### 🎯 HU: Paginar Asignaturas (PEA)
 **Como:** Profesor
 **Quiero:** paginar las asignaturas
 **Para:** navegar por un gran número de programas de estudio
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Los controles de paginación (Previous, Next, números de página) se muestran debajo de la tabla de asignaturas.
-- Al hacer clic en un número de página o en 'Previous'/'Next', la tabla muestra el conjunto correspondiente de asignaturas.
-- La paginación funciona correctamente junto con la búsqueda y los filtros.
+- ✅ Los controles de paginación (Previous, Next, números de página) se muestran debajo de la tabla de asignaturas.
+- ✅ Al hacer clic en un número de página o en 'Previous'/'Next', la tabla muestra el conjunto correspondiente de asignaturas.
+- ✅ La paginación funciona correctamente junto con la búsqueda y los filtros.
+
 
 **Story Points:** 1
 **Prioridad:** Alta (1)
 
----
 
-### HU: Crear Asignatura (PEA)
+### 🎯 HU: Crear Asignatura (PEA)
 **Como:** Profesor
 **Quiero:** crear una nueva asignatura
 **Para:** registrar los detalles de un programa de estudio
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Al hacer clic en '+ Nueva Asignatura', se muestra el formulario 'Crear/Editar Asignatura (PEA)'.
-- El formulario contiene campos obligatorios: Código, Nombre, Unidad de integración curricular, Tipo de asignatura, Pénsum, Número de créditos, Nivel Referencial.
-- Al rellenar los campos y hacer clic en 'Guardar', la nueva asignatura se guarda y aparece en la lista.
+- ✅ Al hacer clic en '+ Nueva Asignatura', se muestra el formulario 'Crear/Editar Asignatura (PEA)'.
+- ✅ El formulario contiene campos obligatorios: Código, Nombre, Unidad de integración curricular, Tipo de asignatura, Pénsum, Número de créditos, Nivel Referencial.
+- ✅ Al rellenar los campos y hacer clic en 'Guardar', la nueva asignatura se guarda y aparece en la lista.
+
 
 **Story Points:** 8
 **Prioridad:** Alta (1)
 
----
 
-### HU: Editar Asignatura (PEA)
+### 🎯 HU: Editar Asignatura (PEA)
 **Como:** Profesor
 **Quiero:** editar una asignatura existente
 **Para:** actualizar los detalles de un programa de estudio
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Al hacer clic en el icono de edición de una asignatura, el formulario 'Crear/Editar Asignatura (PEA)' se carga con los datos de la asignatura seleccionada.
-- Al modificar los campos y hacer clic en 'Guardar', los cambios se aplican a la asignatura y se reflejan en la lista.
+- ✅ Al hacer clic en el icono de edición de una asignatura, el formulario 'Crear/Editar Asignatura (PEA)' se carga con los datos de la asignatura seleccionada.
+- ✅ Al modificar los campos y hacer clic en 'Guardar', los cambios se aplican a la asignatura y se reflejan en la lista.
+
 
 **Story Points:** 8
 **Prioridad:** Alta (1)
 
----
 
-### HU: Eliminar Asignatura (PEA)
+### 🎯 HU: Eliminar Asignatura (PEA)
 **Como:** Profesor
 **Quiero:** eliminar una asignatura
 **Para:** retirar un programa de estudio obsoleto o incorrecto
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Al hacer clic en el icono de eliminar de una asignatura, se muestra una confirmación antes de la eliminación.
-- Tras la confirmación, la asignatura se elimina del sistema y desaparece de la lista.
+- ✅ Al hacer clic en el icono de eliminar de una asignatura, se muestra una confirmación antes de la eliminación.
+- ✅ Tras la confirmación, la asignatura se elimina del sistema y desaparece de la lista.
+
 
 **Story Points:** 3
 **Prioridad:** Alta (1)
 
----
 
-### HU: Listar Resultados de Aprendizaje de Asignatura (RAA)
+### 🎯 HU: Listar Resultados de Aprendizaje de Asignatura (RAA)
 **Como:** Profesor
 **Quiero:** listar los resultados de aprendizaje de una asignatura
 **Para:** visualizar sus competencias específicas
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Dentro de la edición de una asignatura, la pestaña 'Gestión de Resultados de Aprendizaje Asignatura (RAA)' muestra una tabla con Código, Tipo y Descripción de los RAA.
-- La tabla muestra los RAA asociados a la asignatura actualmente seleccionada.
+- ✅ Dentro de la edición de una asignatura, la pestaña 'Gestión de Resultados de Aprendizaje Asignatura (RAA)' muestra una tabla con Código, Tipo y Descripción de los RAA.
+- ✅ La tabla muestra los RAA asociados a la asignatura actualmente seleccionada.
+
 
 **Story Points:** 3
 **Prioridad:** Alta (1)
 
----
 
-### HU: Crear Resultado de Aprendizaje de Asignatura (RAA)
+### 🎯 HU: Crear Resultado de Aprendizaje de Asignatura (RAA)
 **Como:** Profesor
 **Quiero:** crear un nuevo resultado de aprendizaje de asignatura
 **Para:** definir las competencias específicas
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Al hacer clic en '+ Nuevo RAA' en la pestaña 'Gestión de Resultados de Aprendizaje Asignatura (RAA)', se muestra el modal 'Agregar Resultado de Aprendizaje de Asignatura (RAA)'.
-- El modal contiene campos para Código, Tipo (dropdown con Conocimientos, Destrezas, Valores y actitudes) y Descripción.
-- Al rellenar los campos y hacer clic en 'Guardar', el nuevo RAA se guarda y aparece en la tabla.
+- ✅ Al hacer clic en '+ Nuevo RAA' en la pestaña 'Gestión de Resultados de Aprendizaje Asignatura (RAA)', se muestra el modal 'Agregar Resultado de Aprendizaje de Asignatura (RAA)'.
+- ✅ El modal contiene campos para Código, Tipo (dropdown con Conocimientos, Destrezas, Valores y actitudes) y Descripción.
+- ✅ Al rellenar los campos y hacer clic en 'Guardar', el nuevo RAA se guarda y aparece en la tabla.
+
 
 **Story Points:** 8
 **Prioridad:** Alta (1)
 
----
 
-### HU: Editar Resultado de Aprendizaje de Asignatura (RAA)
+### 🎯 HU: Editar Resultado de Aprendizaje de Asignatura (RAA)
 **Como:** Profesor
 **Quiero:** editar un resultado de aprendizaje de asignatura existente
 **Para:** actualizar su descripción o tipo
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Al hacer clic en el icono de edición de un RAA en la tabla, el modal 'Agregar Resultado de Aprendizaje de Asignatura (RAA)' se carga con los datos del RAA seleccionado.
-- Al modificar los campos y hacer clic en 'Guardar', los cambios se aplican al RAA y se reflejan en la tabla.
+- ✅ Al hacer clic en el icono de edición de un RAA en la tabla, el modal 'Agregar Resultado de Aprendizaje de Asignatura (RAA)' se carga con los datos del RAA seleccionado.
+- ✅ Al modificar los campos y hacer clic en 'Guardar', los cambios se aplican al RAA y se reflejan en la tabla.
+
 
 **Story Points:** 5
 **Prioridad:** Alta (1)
 
----
 
-### HU: Eliminar Resultado de Aprendizaje de Asignatura (RAA)
+### 🎯 HU: Eliminar Resultado de Aprendizaje de Asignatura (RAA)
 **Como:** Profesor
 **Quiero:** eliminar un resultado de aprendizaje de asignatura
 **Para:** corregir o retirar competencias
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Al hacer clic en el icono de eliminar de un RAA, se muestra una confirmación antes de la eliminación.
-- Tras la confirmación, el RAA se elimina del sistema y desaparece de la tabla.
+- ✅ Al hacer clic en el icono de eliminar de un RAA, se muestra una confirmación antes de la eliminación.
+- ✅ Tras la confirmación, el RAA se elimina del sistema y desaparece de la tabla.
+
 
 **Story Points:** 3
 **Prioridad:** Alta (1)
 
----
 
-### HU: Visualizar Matriz de Contribución RAA vs RA
+### 🎯 HU: Visualizar Matriz de Contribución RAA vs RA
 **Como:** Coordinador de Carrera
 **Quiero:** visualizar la matriz de contribución RAA vs RA de una asignatura
 **Para:** entender cómo las asignaturas aportan a la carrera
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- La página 'Matriz: Resultados de aprendizaje de Asignatura (RAA) y Resultados de aprendizaje (RA)' muestra una cuadrícula.
-- Las filas representan RAAs y las columnas representan RAs para una asignatura seleccionada.
-- Los puntos de intersección muestran un indicador visual (ej. checkmark) si existe una relación.
+- ✅ La página 'Matriz: Resultados de aprendizaje de Asignatura (RAA) y Resultados de aprendizaje (RA)' muestra una cuadrícula.
+- ✅ Las filas representan RAAs y las columnas representan RAs para una asignatura seleccionada.
+- ✅ Los puntos de intersección muestran un indicador visual (ej. checkmark) si existe una relación.
+
 
 **Story Points:** 8
 **Prioridad:** Alta (1)
 
----
 
-### HU: Buscar Asignatura para Matriz RAA vs RA
+### 🎯 HU: Buscar Asignatura para Matriz RAA vs RA
 **Como:** Coordinador de Carrera
 **Quiero:** buscar una asignatura para la matriz RAA vs RA
 **Para:** consultar sus contribuciones
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Existe un campo de búsqueda ('Buscar una Asignatura') en la página de la matriz RAA vs RA.
-- Al ingresar texto, se muestra una lista desplegable de asignaturas coincidentes para seleccionar.
-- Al seleccionar una asignatura, la matriz se actualiza mostrando las relaciones para esa asignatura.
+- ✅ Existe un campo de búsqueda ('Buscar una Asignatura') en la página de la matriz RAA vs RA.
+- ✅ Al ingresar texto, se muestra una lista desplegable de asignaturas coincidentes para seleccionar.
+- ✅ Al seleccionar una asignatura, la matriz se actualiza mostrando las relaciones para esa asignatura.
+
 
 **Story Points:** 1
 **Prioridad:** Alta (1)
 
----
 
-### HU: Listar Resultados de Aprendizaje (RA) para selección
+### 🎯 HU: Listar Resultados de Aprendizaje (RA) para selección
 **Como:** Coordinador de Carrera
 **Quiero:** listar los resultados de aprendizaje de la carrera
 **Para:** poder seleccionarlos en el proceso de vinculación
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- En el paso 2 del wizard de vinculación, se muestra una tabla con Código y Descripción de los Resultados de Aprendizaje (RA).
-- La tabla de RAs muestra los resultados de aprendizaje definidos para la carrera.
+- ✅ En el paso 2 del wizard de vinculación, se muestra una tabla con Código y Descripción de los Resultados de Aprendizaje (RA).
+- ✅ La tabla de RAs muestra los resultados de aprendizaje definidos para la carrera.
+
 
 **Story Points:** 3
 **Prioridad:** Alta (1)
 
----
 
-### HU: Buscar Resultados de Aprendizaje (RA) para selección
+### 🎯 HU: Buscar Resultados de Aprendizaje (RA) para selección
 **Como:** Coordinador de Carrera
 **Quiero:** buscar resultados de aprendizaje por código o descripción
 **Para:** encontrar un RA específico en el proceso de vinculación
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- En el paso 2 del wizard, existe un campo de búsqueda ('Buscar por código o descripción...') para RAs.
-- Al ingresar texto en el campo de búsqueda, la tabla de RAs se actualiza mostrando solo las coincidencias.
-- La búsqueda filtra por código y descripción del RA.
+- ✅ En el paso 2 del wizard, existe un campo de búsqueda ('Buscar por código o descripción...') para RAs.
+- ✅ Al ingresar texto en el campo de búsqueda, la tabla de RAs se actualiza mostrando solo las coincidencias.
+- ✅ La búsqueda filtra por código y descripción del RA.
+
 
 **Story Points:** 1
 **Prioridad:** Alta (1)
 
----
 
-### HU: Filtrar Resultados de Aprendizaje (RA) por Tipo para selección
+### 🎯 HU: Filtrar Resultados de Aprendizaje (RA) por Tipo para selección
 **Como:** Coordinador de Carrera
 **Quiero:** filtrar los resultados de aprendizaje por tipo
 **Para:** acotar la búsqueda de RAs en el proceso de vinculación
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- En el paso 2 del wizard, existe un selector desplegable ('Tipo de Aprendizaje') para RAs.
-- El selector muestra los tipos de aprendizaje disponibles.
-- Al seleccionar un tipo, la tabla de RAs se actualiza mostrando solo los resultados de ese tipo.
+- ✅ En el paso 2 del wizard, existe un selector desplegable ('Tipo de Aprendizaje') para RAs.
+- ✅ El selector muestra los tipos de aprendizaje disponibles.
+- ✅ Al seleccionar un tipo, la tabla de RAs se actualiza mostrando solo los resultados de ese tipo.
+
 
 **Story Points:** 1
 **Prioridad:** Alta (1)
 
----
 
-### HU: Paginar Resultados de Aprendizaje (RA) para selección
+### 🎯 HU: Paginar Resultados de Aprendizaje (RA) para selección
 **Como:** Coordinador de Carrera
 **Quiero:** paginar los resultados de aprendizaje
 **Para:** navegar por un gran número de RAs en el proceso de vinculación
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- En el paso 2 del wizard, los controles de paginación se muestran debajo de la tabla de RAs.
-- Al hacer clic en los controles, la tabla muestra el conjunto correspondiente de RAs.
-- La paginación funciona correctamente junto con la búsqueda y los filtros de RA.
+- ✅ En el paso 2 del wizard, los controles de paginación se muestran debajo de la tabla de RAs.
+- ✅ Al hacer clic en los controles, la tabla muestra el conjunto correspondiente de RAs.
+- ✅ La paginación funciona correctamente junto con la búsqueda y los filtros de RA.
+
 
 **Story Points:** 1
 **Prioridad:** Alta (1)
 
----
 
-### HU: Vincular RAA con RA
+### 🎯 HU: Vincular RAA con RA
 **Como:** Coordinador de Carrera
 **Quiero:** vincular un Resultado de Aprendizaje de Asignatura (RAA) a un Resultado de Aprendizaje (RA) de mi carrera
 **Para:** entender cómo cada asignatura contribuye a las competencias globales
 
-Criterios de aceptación:
+#### Criterios de Aceptación
 
-- Al hacer clic en '+ Nueva Relación' en la matriz RAA vs RA, se inicia un proceso de wizard.
-- El paso 1 del wizard permite seleccionar un RAA de una lista paginada y filtrable.
-- El paso 2 del wizard permite seleccionar un RA de una lista paginada y filtrable.
-- El paso 3 del wizard permite seleccionar el 'Nivel de Aporte' (Alto, Medio, Bajo) y añadir una justificación.
-- Al guardar en el paso 3, la relación se registra y se muestra en la matriz actualizada.
+- ✅ Al hacer clic en '+ Nueva Relación' en la matriz RAA vs RA, se inicia un proceso de wizard.
+- ✅ El paso 1 del wizard permite seleccionar un RAA de una lista paginada y filtrable.
+- ✅ El paso 2 del wizard permite seleccionar un RA de una lista paginada y filtrable.
+- ✅ El paso 3 del wizard permite seleccionar el 'Nivel de Aporte' (Alto, Medio, Bajo) y añadir una justificación.
+- ✅ Al guardar en el paso 3, la relación se registra y se muestra en la matriz actualizada.
+
 
 **Story Points:** 13
 **Prioridad:** Alta (1)

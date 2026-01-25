@@ -27,7 +27,7 @@ Usa un formato de tabla con dos columnas: el problema y la posible solución.
 
 ---
 
-## SALIDA
+**RESPUESTA:**
 
 A continuación se presenta la síntesis de malestares del Sprint 1 junto con acciones de mejora concretas y accionables, elaboradas a partir del análisis completo de la retrospectiva.
 

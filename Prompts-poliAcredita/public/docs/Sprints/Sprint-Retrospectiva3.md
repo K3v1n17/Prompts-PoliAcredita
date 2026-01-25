@@ -27,7 +27,7 @@ Usa un formato de tabla con dos columnas: el problema y la posible solución.
 
 ---
 
-## SALIDA
+**RESPUESTA:**
 
 A continuación se presenta el análisis de malestares del Sprint 3 junto con acciones de mejora concretas y accionables. El foco está en acuerdos claros y compromisos operables para el Sprint 4 (último sprint).
 

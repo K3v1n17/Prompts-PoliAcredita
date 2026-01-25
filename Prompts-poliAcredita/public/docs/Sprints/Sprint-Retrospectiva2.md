@@ -31,7 +31,7 @@ Usa un formato de tabla con dos columnas: el problema y la posible solución.
 
 ---
 
-## SALIDA
+**RESPUESTA:**
 
 Aquí tienes la lista de malestares del equipo identificados en la transcripción y sus acciones de mejora propuestas, en un formato claro y listo para usar en la planificación del próximo sprint.
 

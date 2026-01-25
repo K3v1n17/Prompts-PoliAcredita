@@ -29,7 +29,7 @@ Devuelve exclusivamente una tabla, sin explicaciones adicionales, con las siguie
 
 Cada fila debe representar un hallazgo único, redactado de forma clara, concreta y accionable.
 
-## SALIDA
+**RESPUESTA:**
 
 ### 🧩 Tabla de Problemas / Riesgos / Bloqueos
 

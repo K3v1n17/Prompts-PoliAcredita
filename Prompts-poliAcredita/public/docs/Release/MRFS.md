@@ -1,7 +1,7 @@
 .
 ---
 
-## Índice
+Índice
 
 1. [PROMPT 1](#prompt-1)
    - [PROMPT 1.1 (Continuación de PROMPT 1)](#prompt-11-continuacion-de-prompt-1)
@@ -11,21 +11,20 @@
 5. [PROMPT 5](#prompt-5)
 6. [PROMPT 6](#prompt-6)
 7. [PROMPT 7](#prompt-7)
-8. [PROMPT 8](#prompt-8) ---- mejor revisado
+8. [PROMPT 8](#prompt-8) 
 9. [PROMPT 9](#prompt-9)
 10. [PROMPT 10](#prompt-10)
 11. [PROMPT 11](#prompt-11)
 12. [PROMPT 12](#prompt-12)
 
 
----
-# PROMPT 1
-### ROL 
+## PROMPT 1
+### **ROL**
 Actúa como un Product Owner experto con un profundo conocimiento de metodologías ágiles y gestión de productos.
 
 Te proporciono a continuación la planificación de mi producto.
 
-### Contexto 
+### **Contexto** 
 Planificación del producto:
 
 **Visión del producto**
@@ -71,15 +70,14 @@ Como usuario de la EPN (profesor, coordinador, autoridad, DGIP, CEI)
 Quiero acceder al sistema con permisos según rol
 Para asegurar uso correcto de la información académica.
 
-### Accion 
+### **Accion**
 crear el conjunto de mrfs 
----
 
-# RESPUESTA
+**RESPUESTA:**
 
 Perfecto 🚀. Te presento un conjunto de MRFs (Minimum Releasable Features) expresados en formato de Historias de Usuario (HU), asegurando que sean directas, independientes, sin mezclar funcionalidades y alineadas al objetivo de tu producto: garantizar trazabilidad y evidencias de acreditación EUR-ACE.
 
-## Gestión de organización académica
+#Gestión de organización académica
 
 HU1: Como autoridad de la EPN, quiero registrar facultades, para mantener actualizada la estructura académica.
 
@@ -89,11 +87,11 @@ HU3: Como autoridad de la EPN, quiero registrar materias, para tener un catálog
 
 HU4: Como autoridad de la EPN, quiero registrar profesores, para vincularlos a las materias de manera organizada.
 
-## Gestión de PEA (Programa de Estudio de Asignatura)
+# Gestión de PEA (Programa de Estudio de Asignatura)
 
 HU5: Como profesor, quiero ingresar información del PEA con sus datos básicos (unidad académica, créditos, código), para asegurar consistencia en la gestión de asignaturas.
 
-## Gestión de RAA (Resultados de Aprendizaje de Asignatura)
+#Gestión de RAA (Resultados de Aprendizaje de Asignatura)
 
 HU6: Como profesor, quiero registrar conocimientos de una asignatura, para evidenciar la contribución a competencias cognitivas.
 
@@ -101,19 +99,19 @@ HU7: Como profesor, quiero registrar destrezas de una asignatura, para evidencia
 
 HU8: Como profesor, quiero registrar actitudes de una asignatura, para evidenciar la contribución a competencias actitudinales.
 
-## Gestión de RA (Resultados de Aprendizaje de Carrera)
+# Gestión de RA (Resultados de Aprendizaje de Carrera)
 
 HU9: Como coordinador de carrera, quiero definir resultados de aprendizaje de carrera, para formalizar el perfil de egreso.
 
-## Gestión de OPP (Objetivos de Perfil Profesional)
+# Gestión de OPP (Objetivos de Perfil Profesional)
 
 HU10: Como coordinador de carrera, quiero registrar objetivos de perfil profesional, para alinear el perfil de egreso con competencias de la profesión de ingeniería.
 
-## Gestión de objetivos EUR-ACE
+# Gestión de objetivos EUR-ACE
 
 HU11: Como miembro del CEI, quiero registrar objetivos EUR-ACE, para disponer de los criterios internacionales de acreditación.
 
-## Definición de relaciones
+# Definición de relaciones
 
 HU12: Como coordinador de carrera, quiero relacionar RAA con RA, para asegurar trazabilidad de asignaturas hacia el perfil de egreso.
 
@@ -121,11 +119,11 @@ HU13: Como coordinador de carrera, quiero relacionar RA con OPP, para garantizar
 
 HU14: Como coordinador de carrera, quiero relacionar OPP con objetivos EUR-ACE, para evidenciar el cumplimiento de estándares internacionales.
 
-## Generación de reportes
+# Generación de reportes
 
 HU15: Como DGIP, quiero generar reportes de cumplimiento de criterios EUR-ACE, para contar con evidencias verificables en los procesos de acreditación.
 
-## Control de acceso
+# Control de acceso
 
 HU16: Como usuario de la EPN, quiero acceder al sistema con autenticación, para garantizar seguridad en el ingreso.
 
@@ -141,13 +139,13 @@ pero dame las mrf las minimas para cumplir con mi vision
 
 ---
 
-# RESPUESTA
+**RESPUESTA:**
 
 Muy buena precisión 👌. La clave está en distinguir entre todas las funcionalidades deseables y las mínimas indispensables (MRF) que permiten cumplir con la visión del producto:
 
 “Un sistema que verifica el cumplimiento de los criterios EUR-ACE automatizando la trazabilidad de los estándares de acreditación”.
 
-## MRF mínimas en formato HU
+MRF mínimas en formato HU
 
 ### 1. Estructura académica básica
 
@@ -180,16 +178,16 @@ HU8: Como coordinador de carrera, quiero relacionar RA con objetivos EUR-ACE, pa
 HU9: Como DGIP, quiero generar reportes de cumplimiento de criterios EUR-ACE, para contar con evidencias verificables en el proceso de acreditación.
 
 
-# MRFs Principales
+MRFs Principales
 
 ---
 
 ## PROMPT 3
 
-### Rol
+### **Rol**
 Actúa como experto de análisis de épicas para identificar los MRFs principales.
 
-### Contexto 
+### **Contexto** 
 Te proporciono a continuación la planificación de mi producto.
 
 Actúa como un experto analista en descubrir funcionalidades principales para cumplir con el objetivo de mi producto. Nada más. Evita usar "y" en las HUs ya que esto une dos funcionalidades.
@@ -240,11 +238,11 @@ A diferencia de procesos manuales y sistemas genéricos, nuestro producto automa
 		- Quiero acceder al sistema con permisos según rol
 		- Para asegurar uso correcto de la información académica.
 
-### Accion 
+### **Accion**
 Generame el conjunto de mrfs
 ---
 
-## Respuesta
+#**RESPUESTA:**
 
 Perfecto. He revisado tu planificación y voy a identificar los MRFs (Minimum Required Features) traducidos en historias de usuario (HU) bajo la estructura que pediste:
 "Como quiero para", evitando conectores como "y" que mezclen funcionalidades.
@@ -326,10 +324,10 @@ Quiero autenticarme con mi rol específico
 Para acceder únicamente a las funcionalidades permitidas.
 
 ## PROMPT 4
-### Rol
+### **Rol**
 Actúa como un Product Owner experto con un profundo conocimiento de metodologías ágiles y gestión de productos.
 
-### contexto 
+### **contexto** 
 *Visión del producto*: Para la Escuela Politécnica Nacional, que necesita acreditar que sus programas de ingeniería cumplen con los objetivos del sello EUR-ACE, nuestro Sistema de Gestión de Acreditación EUR-ACE es una plataforma de gestión académica que verifica el cumplimiento de los criterios EUR-ACE.
 
 ### Obejtivo 
@@ -340,12 +338,12 @@ Necesito que me ayudes a definir un conjunto de MRFs para mi producto de softwar
 ✅ Cumple con los criterios de calidad y definición de terminado (Definition of Done)
 
 
-### Accion
+### **Accion**
 Crea las MRFs únicamente necesarias que me aportan a cumplir con mi visión de producto. Dame en formato de HUs independientes, cada una debe tener un título.
 
 ---
 
-# RESPUESTA FINAL
+**RESPUESTA:** FINAL
 
 📌 **MRFs del Sistema de Gestión de Acreditación EUR-ACE**
 
@@ -401,11 +399,10 @@ Para asegurar un uso controlado y seguro de la información de acreditación.
 
 ## PROMPT 5
 
-**Fecha:** 28 sept 2025, 03:09 a m. (UTC)
 
 **Prompt:**
 
-###ROL
+###**ROL**
 
 Actua como un Product owner que es experto en gestión de productos de Software.
 
@@ -513,11 +510,15 @@ Gestión Básica de la Cuenta y Pago Rápido.	Permite a los clientes recurrentes
 
 
 
-ACCION:
+**ACCION:**
 
 Crea el conjunto de mrfs indispensables para mi producto software a desarrollar
 
-**Respuesta:**
+**Formato de salida :**
+
+como quiero y para .
+
+**RESPUESTA:**
 
 ¡Excelente! Como tu Product Owner experto, entiendo perfectamente la importancia de definir las Características Mínimas Lanzables (MRF) para garantizar que nuestro primer lanzamiento entregue valor real y esté enfocado en el objetivo primordial: facilitar la acreditación EUR-ACE de la EPN.
 
@@ -527,7 +528,6 @@ El **propósito principal** de este primer lanzamiento es: **Proveer a la EPN la
 
 Aquí te presento el conjunto de MRFs indispensables para nuestro producto software:
 
----
 
 **MRF (Características Mínimas Lanzables) - Lanzamiento "Base de Acreditación EUR-ACE"**
 
@@ -561,7 +561,7 @@ Este primer lanzamiento se enfoca en habilitar la estructuración fundamental de
     *   *HU: EPIC: Verificación del Cumplimiento con Estándares EUR-ACE*
     *   *HU: EPIC: Generación de Reportes para la Acreditación (en su alcance mínimo, como una visualización interactiva del mapeo)*
 
----
+
 
 Este conjunto de MRFs representa el producto mínimo más valioso que podemos lanzar para abordar la necesidad crítica de la EPN de iniciar y gestionar el proceso de acreditación EUR-ACE digitalmente. Cada MRF es interdependiente y contribuye directamente al objetivo general, asegurando que el esfuerzo de desarrollo inicial genere un impacto significativo.
 
@@ -569,11 +569,10 @@ Este conjunto de MRFs representa el producto mínimo más valioso que podemos la
 
 ## PROMPT 6
 
-**Fecha:** 28 sept 2025, 03:11 a m. (UTC)
 
 **Prompt:**
 
-###ROL
+###**ROL**
 
 Actua como un Product owner que es experto en gestión de productos de Software.
 
@@ -681,11 +680,11 @@ Gestión Básica de la Cuenta y Pago Rápido.	Permite a los clientes recurrentes
 
 
 
-ACCION:
+**ACCION:**
 
 Crea el conjunto de mrfs indispensables para mi producto software a desarrollar 
 
-Formato de salida :
+**Formato de salida :**
 
 como quiero y para .
 
@@ -699,7 +698,6 @@ El **propósito** de este primer conjunto de MRFs es: **"Habilitar la gestión f
 
 Aquí está el conjunto de MRFs indispensables, formulado en el formato solicitado:
 
----
 
 **MRF 1: Configuración Básica de la EPN y Gestión de Accesos Clave**
 
@@ -735,7 +733,7 @@ Aquí está el conjunto de MRFs indispensables, formulado en el formato solicita
     *   HU: EPIC: Verificación del Cumplimiento con Estándares EUR-ACE
     *   HU: EPIC: Generación de Reportes para la Acreditación (en su forma más simple, como una visualización directa de la alineación).
 
----
+
 
 Este conjunto de MRFs conforma un primer producto que, si bien es mínimo, es potente y enfocado. Permitirá a la EPN comenzar a trabajar activamente en su proceso de acreditación, recopilando y organizando la información crítica que se requiere. Cada una de estas características es un "must-have" para que el producto sea viable y entregue el valor fundamental prometido para la acreditación EUR-ACE.
 
@@ -743,7 +741,6 @@ Este conjunto de MRFs conforma un primer producto que, si bien es mínimo, es po
 
 ## PROMPT 7
 
-**Fecha:** 28 sept 2025, 03:16 a m. (UTC)
 
 **Prompt:**
 
@@ -754,7 +751,7 @@ Actua como un Product owner que es experto en gestión de productos de Software.
 ### objetivo 
 Mi objetivo es definir las mrf principales para mi producto software a desarrollar .
 
-## contexto 
+## **contexto** 
 
 
 MRF significa Características Mínimas Lanzables (Minimum Releasable Features). Este término se refiere al conjunto mínimo de características que deben estar presentes en un lanzamiento para que sea viable.
@@ -855,11 +852,11 @@ Gestión Básica de la Cuenta y Pago Rápido.	Permite a los clientes recurrentes
 
 
 
-ACCION:
+**ACCION:**
 
 Crea el conjunto de mrfs indispensables para mi producto software a desarrollar 
 
-Formato de salida :
+**Formato de salida :**
 
 En formato de una hu : como quiero y para . recuerda que la hu debe ser clara y concisa 
 
@@ -880,8 +877,6 @@ PARA	¿Cuál es el valor que esto aporta al usuario o al negocio?	Enfoque en el 
 He analizado el contexto, las épicas y la definición de MRF, enfocándome en el valor real para el cliente final (la EPN y sus usuarios clave). El objetivo es que este primer lanzamiento sea útil, usable y que la EPN esté dispuesta a adoptarlo para iniciar el proceso.
 
 Aquí tienes el conjunto de MRFs indispensables, formulados como Historias de Usuario claras y concisas:
-
----
 
 **MRF 1: Configuración Institucional Básica y Gestión de Acceso**
 
@@ -909,7 +904,7 @@ Aquí tienes el conjunto de MRFs indispensables, formulados como Historias de Us
 
 **Prompt:**
 
-ACCION :
+**ACCION :**
 
 no pues estas uniendo varias funcionalidades con el "y" crea de nuevo el conjunto de mrfs
 
@@ -921,7 +916,7 @@ Me disculpo nuevamente por el desliz. He vuelto a desglosar cada funcionalidad h
 
 Aquí tienes el nuevo conjunto de MRFs indispensables, cada uno enfocado en una única funcionalidad:
 
----
+
 
 ### **MRF Set 1: Infraestructura Básica y Gestión de Usuarios**
 *(Establece el esqueleto del sistema y quiénes pueden interactuar con él.)*
@@ -951,7 +946,7 @@ Aquí tienes el nuevo conjunto de MRFs indispensables, cada uno enfocado en una 
     *   **Quiero:** Asignar el rol de "Profesor" a un usuario
     *   **Para:** Otorgarle permisos para gestionar la información de sus asignaturas.
 
----
+
 
 ### **MRF Set 2: Definición y Alineación Curricular Interna**
 *(Permite a la EPN digitalizar y verificar la coherencia interna de su currículo.)*
@@ -991,7 +986,7 @@ Aquí tienes el nuevo conjunto de MRFs indispensables, cada uno enfocado en una 
     *   **Quiero:** Vincular un Resultado de Aprendizaje (RA) de mi carrera a un Objetivo de Perfil Profesional (OPP)
     *   **Para:** Demostrar la coherencia entre las competencias esperadas y el perfil final del egresado.
 
----
+
 
 ### **MRF Set 3: Verificación Preliminar de Acreditación EUR-ACE**
 *(Permite a la EPN iniciar la autoevaluación frente a los estándares EUR-ACE.)*
@@ -1006,7 +1001,7 @@ Aquí tienes el nuevo conjunto de MRFs indispensables, cada uno enfocado en una 
     *   **Quiero:** Generar un informe que muestre cómo los Resultados de Aprendizaje (RA) de mi carrera se alinean con los estándares EUR-ACE
     *   **Para:** Realizar una autoevaluación inicial y planificar mejoras para la acreditación.
 
----
+
 
 Ahora sí, cada MRF es una unidad de valor mínima, atómica y claramente definida. ¡Gracias por la corrección persistente! Esto asegura que el producto se construya de la manera más efectiva y con entregas de valor incrementales muy claras.
 
@@ -1018,13 +1013,13 @@ Ahora sí, cada MRF es una unidad de valor mínima, atómica y claramente defini
 
 **Prompt:**
 
-#Rol
+#**Rol**
 Actúa como un Product Management / Product Owner que es experto en acreditación internacional con el sello EUR-ACE.
 
 #Objetivo
 Definir el conjunto de mrfs para mi producto software a desarrollar para estableces las funcionalidades principales
 
-#Contexto
+#**Contexto**
 
 - El sello EUR-ACE es una etiqueta de calidad europea que certifica que un programa de estudios de ingeniería cumple con estándares de excelencia y los requisitos profesionales del ámbito europeo. Otorga una garantía internacional de la formación de un ingeniero y facilita la movilidad académica y profesional al reconocer las competencias adquiridas.
 
@@ -1100,7 +1095,6 @@ PARA ¿Cuál es el valor que esto aporta al usuario o al negocio? Enfoque en el 
 
 Aquí tienes el conjunto de Minimum Marketable Features (MMFs) definidos como Historias de Usuario, indispensables para el desarrollo inicial de PoliAcredita, agrupando y priorizando las funcionalidades clave que has proporcionado:
 
----
 
 ### MMF 1: Configuración de la Plataforma y Gestión de Acceso
 
@@ -1108,7 +1102,6 @@ Aquí tienes el conjunto de Minimum Marketable Features (MMFs) definidos como Hi
 **Quiero** establecer y gestionar la estructura académica completa de la EPN (Facultades, Carreras, Departamentos, Profesores, Coordinadores, Autoridades) y administrar los usuarios con sus roles y permisos de acceso,
 **Para** asegurar un entorno de trabajo organizado, seguro y que represente fielmente la organización institucional, sirviendo como base para todas las demás operaciones del sistema.
 
----
 
 ### MMF 2: Gestión y Alineación del Diseño Curricular con Estándares
 
@@ -1116,7 +1109,6 @@ Aquí tienes el conjunto de Minimum Marketable Features (MMFs) definidos como Hi
 **Quiero** poder definir los Resultados de Aprendizaje de Asignatura (RAA), los Resultados de Aprendizaje de Carrera (RA), los Objetivos de Perfil Profesional (OPP) y los Estándares EUR-ACE, y vincularlos entre sí (RAA con RA, RA con OPP, y RA con EUR-ACE),
 **Para** asegurar la coherencia curricular, evidenciar la contribución de cada componente educativo a la formación profesional y alinear el programa con los requisitos de excelencia y empleabilidad del sello EUR-ACE.
 
----
 
 ### MMF 3: Monitoreo y Reporting del Proceso de Acreditación
 
@@ -1124,7 +1116,6 @@ Aquí tienes el conjunto de Minimum Marketable Features (MMFs) definidos como Hi
 **Quiero** poder monitorizar de forma interactiva el estado del cumplimiento de la acreditación EUR-ACE para cada carrera y generar informes detallados y personalizables del progreso,
 **Para** facilitar la toma de decisiones informadas, identificar áreas de mejora oportunas y presentar el estado de la acreditación a nivel interno y externo con la transparencia requerida.
 
----
 
 ### MMF 4: Facilitación y Automatización de la Evidencia para Auditorías
 
@@ -1132,7 +1123,7 @@ Aquí tienes el conjunto de Minimum Marketable Features (MMFs) definidos como Hi
 **Quiero** tener un sistema que me permita registrar, asociar y facilitar la automatización de la recopilación y organización de la evidencia requerida para cada criterio de acreditación,
 **Para** simplificar drásticamente la preparación de las auditorías, asegurar la disponibilidad y trazabilidad de la documentación de soporte, y reducir significativamente la carga administrativa y el riesgo de inconsistencias.
 
----
+
 
 Estas cuatro MMFs constituyen el núcleo indispensable de PoliAcredita para su primera versión, permitiendo a la EPN dar pasos firmes hacia la gestión eficiente de la acreditación EUR-ACE. Cada una de ellas es un conjunto coherente de funcionalidades que, una vez implementadas, proveen un valor significativo y operable a los stakeholders clave.
 
@@ -1146,13 +1137,13 @@ Estas cuatro MMFs constituyen el núcleo indispensable de PoliAcredita para su p
 
 # 1. Producto
 
-#Rol
+#**Rol**
 Actúa como un Product Management / Product Owner que es experto en acreditación internacional con el sello EUR-ACE.
 
 #Objetivo
 Definir el conjunto de mrfs para mi producto software a desarrollar para estableces las funcionalidades principales
 
-#Contexto
+#**Contexto**
 
 - El sello EUR-ACE es una etiqueta de calidad europea que certifica que un programa de estudios de ingeniería cumple con estándares de excelencia y los requisitos profesionales del ámbito europeo. Otorga una garantía internacional de la formación de un ingeniero y facilita la movilidad académica y profesional al reconocer las competencias adquiridas.
 
@@ -1205,7 +1196,7 @@ HU: Gestionar Usuarios y Permisos Como administrador del sistema o DGIP, quiero 
 
 
 
-#Accion 
+#**Accion**
 Crea el conjunto de mrfs indispensables para mi producto software a desarrollar para las hus no puedes unir con un "y"
 
 
@@ -1230,7 +1221,6 @@ Considerando que cada una de tus HUs ya está formulada como un requisito valios
 
 A continuación, el conjunto de Minimum Marketable Features (MMFs) para PoliAcredita, manteniendo la exactitud de tus HUs originales para respetar la restricción:
 
----
 
 ### MMF 1: Gestión de la Estructura Académica Institucional
 
@@ -1238,7 +1228,6 @@ A continuación, el conjunto de Minimum Marketable Features (MMFs) para PoliAcre
 *   **Quiero** gestionar la estructura jerárquica académica de la EPN,
 *   **Para** representar fielmente la organización académica institucional.
 
----
 
 ### MMF 2: Gestión de Usuarios y Permisos
 
@@ -1246,7 +1235,6 @@ A continuación, el conjunto de Minimum Marketable Features (MMFs) para PoliAcre
 *   **Quiero** gestionar los usuarios y sus permisos de acceso,
 *   **Para** asegurar la seguridad y control del sistema.
 
----
 
 ### MMF 3: Definición de Resultados de Aprendizaje de Asignatura (RAA)
 
@@ -1254,7 +1242,7 @@ A continuación, el conjunto de Minimum Marketable Features (MMFs) para PoliAcre
 *   **Quiero** definir los resultados de aprendizaje esperados por asignatura,
 *   **Para** evidenciar el aporte hacia los Resultados de aprendizaje de la carrera.
 
----
+
 
 ### MMF 4: Definición de Resultados de Aprendizaje de Carrera (RA)
 
@@ -1262,7 +1250,6 @@ A continuación, el conjunto de Minimum Marketable Features (MMFs) para PoliAcre
 *   **Quiero** definir los resultados de aprendizaje de la carrera,
 *   **Para** establecer los logros generales del egresado.
 
----
 
 ### MMF 5: Definición de Objetivos de Perfil Profesional (OPP)
 
@@ -1270,7 +1257,7 @@ A continuación, el conjunto de Minimum Marketable Features (MMFs) para PoliAcre
 *   **Quiero** definir los objetivos de perfil profesional,
 *   **Para** articular las capacidades del graduado.
 
----
+
 
 ### MMF 6: Gestión de Estándares EUR-ACE
 
@@ -1278,7 +1265,7 @@ A continuación, el conjunto de Minimum Marketable Features (MMFs) para PoliAcre
 *   **Quiero** mantener el catálogo de los criterios del sello EUR-ACE,
 *   **Para** garantizar la alineación con estándares internacionales.
 
----
+
 
 ### MMF 7: Vinculación RAA con RA
 
@@ -1286,7 +1273,7 @@ A continuación, el conjunto de Minimum Marketable Features (MMFs) para PoliAcre
 *   **Quiero** vincular los resultados de aprendizaje de las asignaturas con los de la carrera,
 *   **Para** comprender la contribución de cada asignatura a la formación de la carrera.
 
----
+
 
 ### MMF 8: Vinculación RA con OPP
 
@@ -1294,7 +1281,7 @@ A continuación, el conjunto de Minimum Marketable Features (MMFs) para PoliAcre
 *   **Quiero** vincular los resultados de aprendizaje de la carrera con los objetivos de perfil profesional,
 *   **Para** verificar que la formación contribuya al perfil del egresado.
 
----
+
 
 ### MMF 9: Vinculación RA con EUR-ACE
 
@@ -1302,7 +1289,7 @@ A continuación, el conjunto de Minimum Marketable Features (MMFs) para PoliAcre
 *   **Quiero** vincular los resultados de aprendizaje de la carrera con los criterios EUR-ACE,
 *   **Para** evidenciar el cumplimiento de los estándares de calidad internacionales.
 
----
+
 
 ### MMF 10: Monitoreo Interactivo del Estado de Acreditación
 
@@ -1310,7 +1297,6 @@ A continuación, el conjunto de Minimum Marketable Features (MMFs) para PoliAcre
 *   **Quiero** monitorizar de forma interactiva el estado del cumplimiento de la acreditación,
 *   **Para** facilitar la toma de decisiones informadas.
 
----
 
 ### MMF 11: Generación de Informes de Acreditación
 
@@ -1318,7 +1304,6 @@ A continuación, el conjunto de Minimum Marketable Features (MMFs) para PoliAcre
 *   **Quiero** generar informes detallados del estado de la acreditación,
 *   **Para** facilitar la evaluación integral del programa.
 
----
 
 ### MMF 12: Automatización de la Generación de Evidencia
 
@@ -1326,7 +1311,7 @@ A continuación, el conjunto de Minimum Marketable Features (MMFs) para PoliAcre
 *   **Quiero** automatizar la generación de la evidencia requerida,
 *   **Para** simplificar la recolección de documentación.
 
----
+
 
 Este conjunto de MMFs, al reflejar directamente tus HUs, asegura que cada pieza entregada al mercado tiene un valor concreto y es "marketable" por sí misma, adhiriéndose estrictamente a tu requisito de no usar "y" para combinar funcionalidades o valores dentro de la descripción de cada MMF.
 
@@ -1559,13 +1544,13 @@ Analizando las HUs de alto nivel que has proporcionado, y considerando el contex
 
 A continuación, presento el conjunto de MRFs indispensables para el producto PoliAcredita, manteniendo la estructura y la concisión requeridas:
 
----
+
 
 ### Conjunto de MRFs Indispensables para PoliAcredita
 
 Cada MRF representa una capacidad mínima y valiosa que puede ser entregada de forma independiente.
 
----
+
 
 #### MRF 1: Gestión de la Estructura Académica Institucional
 
@@ -1573,7 +1558,6 @@ Cada MRF representa una capacidad mínima y valiosa que puede ser entregada de f
 *   **Quiero** gestionar la estructura jerárquica académica de la EPN,
 *   **Para** representar fielmente la organización académica institucional.
 
----
 
 #### MRF 2: Gestión de Usuarios y Permisos
 
@@ -1581,7 +1565,7 @@ Cada MRF representa una capacidad mínima y valiosa que puede ser entregada de f
 *   **Quiero** gestionar los usuarios y sus permisos de acceso,
 *   **Para** asegurar la seguridad y control del sistema.
 
----
+
 
 #### MRF 3: Definición de Resultados de Aprendizaje de Asignatura (RAA)
 
@@ -1589,7 +1573,7 @@ Cada MRF representa una capacidad mínima y valiosa que puede ser entregada de f
 *   **Quiero** definir los resultados de aprendizaje esperados por asignatura,
 *   **Para** evidenciar el aporte hacia los Resultados de aprendizaje de la carrera.
 
----
+
 
 #### MRF 4: Definición de Resultados de Aprendizaje de Carrera (RA)
 
@@ -1597,7 +1581,7 @@ Cada MRF representa una capacidad mínima y valiosa que puede ser entregada de f
 *   **Quiero** definir los resultados de aprendizaje de la carrera,
 *   **Para** establecer los logros generales del egresado.
 
----
+
 
 #### MRF 5: Definición de Objetivos de Perfil Profesional (OPP)
 
@@ -1605,7 +1589,7 @@ Cada MRF representa una capacidad mínima y valiosa que puede ser entregada de f
 *   **Quiero** definir los objetivos de perfil profesional,
 *   **Para** articular las capacidades del graduado.
 
----
+
 
 #### MRF 6: Gestión de Estándares EUR-ACE
 
@@ -1613,7 +1597,7 @@ Cada MRF representa una capacidad mínima y valiosa que puede ser entregada de f
 *   **Quiero** mantener el catálogo de los criterios del sello EUR-ACE,
 *   **Para** garantizar la alineación con estándares internacionales.
 
----
+
 
 #### MRF 7: Vinculación RAA con RA
 
@@ -1621,7 +1605,7 @@ Cada MRF representa una capacidad mínima y valiosa que puede ser entregada de f
 *   **Quiero** vincular los resultados de aprendizaje de las asignaturas con los de la carrera,
 *   **Para** comprender la contribución de cada asignatura a la formación de la carrera.
 
----
+
 
 #### MRF 8: Vinculación RA con OPP
 
@@ -1629,7 +1613,7 @@ Cada MRF representa una capacidad mínima y valiosa que puede ser entregada de f
 *   **Quiero** vincular los resultados de aprendizaje de la carrera con los objetivos de perfil profesional,
 *   **Para** verificar que la formación contribuya al perfil del egresado.
 
----
+
 
 #### MRF 9: Vinculación RA con EUR-ACE
 
@@ -1637,7 +1621,7 @@ Cada MRF representa una capacidad mínima y valiosa que puede ser entregada de f
 *   **Quiero** vincular los resultados de aprendizaje de la carrera con los criterios EUR-ACE,
 *   **Para** evidenciar el cumplimiento de los estándares de calidad internacionales.
 
----
+
 
 #### MRF 10: Monitoreo Interactivo del Estado de Acreditación
 
@@ -1645,7 +1629,7 @@ Cada MRF representa una capacidad mínima y valiosa que puede ser entregada de f
 *   **Quiero** monitorizar de forma interactiva el estado del cumplimiento de la acreditación,
 *   **Para** facilitar la toma de decisiones informadas.
 
----
+
 
 #### MRF 11: Generación de Informes de Acreditación
 
@@ -1653,7 +1637,7 @@ Cada MRF representa una capacidad mínima y valiosa que puede ser entregada de f
 *   **Quiero** generar informes detallados del estado de la acreditación,
 *   **Para** facilitar la evaluación integral del programa.
 
----
+
 
 #### MRF 12: Automatización de la Generación de Evidencia
 
@@ -1661,7 +1645,7 @@ Cada MRF representa una capacidad mínima y valiosa que puede ser entregada de f
 *   **Quiero** automatizar la generación de la evidencia requerida,
 *   **Para** simplificar la recolección de documentación.
 
----
+
 
 <!-- --- -->
 
@@ -1807,13 +1791,13 @@ Cada una de las HUs que has presentado ya está formulada de una manera que repr
 
 Por lo tanto, el conjunto de MRFs indispensables para el primer lanzamiento de PoliAcredita se construye directamente a partir de tus HUs, ya que cada una cumple con los criterios de ser mínima, lanzable y valiosa en sí misma para el propósito de la acreditación.
 
----
+
 
 ### Conjunto de MRFs Indispensables para PoliAcredita (Primer Lanzamiento)
 
 Cada MRF representa una funcionalidad clave que entrega valor tangible y es crucial para iniciar el proceso de acreditación EUR-ACE.
 
----
+
 
 #### MRF 1: Gestión de la Estructura Académica Institucional
 
@@ -1821,7 +1805,6 @@ Cada MRF representa una funcionalidad clave que entrega valor tangible y es cruc
 *   **Quiero** gestionar la estructura jerárquica académica de la EPN,
 *   **Para** representar fielmente la organización académica institucional.
 
----
 
 #### MRF 2: Gestión de Usuarios y Permisos
 
@@ -1829,7 +1812,6 @@ Cada MRF representa una funcionalidad clave que entrega valor tangible y es cruc
 *   **Quiero** gestionar los usuarios y sus permisos de acceso,
 *   **Para** asegurar la seguridad y control del sistema.
 
----
 
 #### MRF 3: Definición de Resultados de Aprendizaje de Asignatura (RAA)
 
@@ -1837,7 +1819,6 @@ Cada MRF representa una funcionalidad clave que entrega valor tangible y es cruc
 *   **Quiero** definir los resultados de aprendizaje esperados por asignatura,
 *   **Para** evidenciar el aporte hacia los Resultados de Aprendizaje de la carrera.
 
----
 
 #### MRF 4: Definición de Resultados de Aprendizaje de Carrera (RA)
 
@@ -1845,7 +1826,7 @@ Cada MRF representa una funcionalidad clave que entrega valor tangible y es cruc
 *   **Quiero** definir los resultados de aprendizaje de la carrera,
 *   **Para** establecer los logros generales del egresado.
 
----
+
 
 #### MRF 5: Definición de Objetivos de Perfil Profesional (OPP)
 
@@ -1853,7 +1834,7 @@ Cada MRF representa una funcionalidad clave que entrega valor tangible y es cruc
 *   **Quiero** definir los objetivos de perfil profesional,
 *   **Para** articular las capacidades del graduado.
 
----
+
 
 #### MRF 6: Gestión de Estándares EUR-ACE
 
@@ -1861,7 +1842,7 @@ Cada MRF representa una funcionalidad clave que entrega valor tangible y es cruc
 *   **Quiero** mantener el catálogo de los criterios del sello EUR-ACE,
 *   **Para** garantizar la alineación con estándares internacionales.
 
----
+
 
 #### MRF 7: Vinculación RAA con RA
 
@@ -1869,7 +1850,7 @@ Cada MRF representa una funcionalidad clave que entrega valor tangible y es cruc
 *   **Quiero** vincular los resultados de aprendizaje de las asignaturas con los de la carrera,
 *   **Para** comprender la contribución de cada asignatura a la formación de la carrera.
 
----
+
 
 #### MRF 8: Vinculación RA con OPP
 
@@ -1877,7 +1858,6 @@ Cada MRF representa una funcionalidad clave que entrega valor tangible y es cruc
 *   **Quiero** vincular los resultados de aprendizaje de la carrera con los objetivos de perfil profesional,
 *   **Para** verificar que la formación contribuya al perfil del egresado.
 
----
 
 #### MRF 9: Vinculación RA con EUR-ACE
 
@@ -1885,7 +1865,7 @@ Cada MRF representa una funcionalidad clave que entrega valor tangible y es cruc
 *   **Quiero** vincular los resultados de aprendizaje de la carrera con los criterios EUR-ACE,
 *   **Para** evidenciar el cumplimiento de los estándares de calidad internacionales.
 
----
+
 
 #### MRF 10: Monitoreo Interactivo del Estado de Acreditación
 
@@ -1893,7 +1873,7 @@ Cada MRF representa una funcionalidad clave que entrega valor tangible y es cruc
 *   **Quiero** monitorizar de forma interactiva el estado del cumplimiento de la acreditación,
 *   **Para** facilitar la toma de decisiones informadas.
 
----
+
 
 #### MRF 11: Generación de Informes de Acreditación
 
@@ -1901,14 +1881,12 @@ Cada MRF representa una funcionalidad clave que entrega valor tangible y es cruc
 *   **Quiero** generar informes detallados del estado de la acreditación,
 *   **Para** facilitar la evaluación integral del programa.
 
----
+
 
 #### MRF 12: Automatización de la Generación de Evidencia
 
 *   **Como** Autoridad académica o Responsable de calidad,
 *   **Quiero** automatizar la generación de la evidencia requerida,
 *   **Para** simplificar la recolección de documentación.
-
----
 
 <!-- --- -->

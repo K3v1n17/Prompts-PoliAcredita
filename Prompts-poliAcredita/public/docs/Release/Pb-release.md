@@ -9,7 +9,7 @@ Actúa como un Product Owner experto con un profundo conocimiento de metodologí
 ### Objetivo
 Necesito definir un product backlog, 
 
-### Contexzro
+### Contexto
 teniendo en cuenta que el release será un release de fecha fija de un mes.
 
 
@@ -24,9 +24,9 @@ Este product backlog necesito que contenga lo siguiente:
 - Items sin estimación: lista aparte con ID | Título | Motivo (sin estimación).
 - Supuestos, riesgos y acciones
 
----
 
-## RESPUESTA
+
+## **RESPUESTA:**
 
 Capacidad estimada: 40 sp en total (10 sp por sprint, 4 sprints).
 Must-have ≤ 70% de la capacidad total (≈28 sp).
@@ -69,7 +69,7 @@ Might-have line: 40 sp (capacidad máxima).
 
 (No hay ítems sin estimación en este backlog)
 
----
+
 
 ## Supuestos, riesgos y acciones
 
@@ -107,7 +107,7 @@ Velocidad del Equipo: Velocidad Baja: 54 Story Points (sp) Velocidad Alta: 75 St
 
 ---
 
-## RESPUESTA
+## **RESPUESTA:**
 
 Capacidad planificada para el release: entre 54 y 75 sp
 Will-have line: 70 sp (capacidad esperada)
@@ -196,7 +196,7 @@ Crea el Product Backlog
 
 ---
 
-## RESPUESTA
+## **RESPUESTA:**
 
 Capacidad planificada para el release: 4 sprints
 Velocidad baja: 54 sp × 4 = 216 sp
@@ -263,7 +263,7 @@ Total Might-have: 50 sp (acum: 300 sp)
 
 
 
-## PROMPT 4 ---- #MEJOR RESPUESTA##
+## PROMPT 4
 ### Rol 
 Actúa como un Product Owner experto con un profundo conocimiento de metodologías ágiles y gestión de productos.
 
@@ -288,8 +288,7 @@ te doy mi velocidad es en base a un histórico con la que ya contamos y es el si
 Crea mi product backlog recuerda que para el desarrollo vamos apoyarnos de la IA
 
 ---
-
-## RESPUESTA
+ **RESPUESTA:**
 
 Capacidad planificada para el release: 5 sprints
 Velocidad baja: 54 sp × 5 = 270 sp
@@ -425,7 +424,7 @@ Con una velocidad histórica del equipo entre 54 SP (baja) y 75 SP (alta) por sp
 *   **Will-have line:** **70 Story Points (sp)**. Este es un objetivo ambicioso pero realista, buscando optimizar la entrega de valor sin sobrecargar al equipo y manteniendo un pequeño colchón.
 *   **Might-have line:** **95 Story Points (sp)**. Esta línea nos permite incluir funcionalidades adicionales si el equipo supera las expectativas, entregando valor extra más allá del mínimo viable para esta fase.
 
----
+
 
 ### SPRINT MAPPING (para el Release de 1 Mes: Expansión de Trazabilidad EUR-ACE)
 
@@ -442,7 +441,7 @@ La estrategia se enfoca en completar las cadenas de trazabilidad y habilitar la 
 2.  **Trazabilidad Descendente (PBI 2, 3, 4):** Establecer la contribución RAA-RA y definir los OPP junto con su vinculación a los RA.
 3.  **Visualización Inicial (PBI 5):** Un reporte básico que permita a la DGIP empezar a evaluar el cumplimiento EUR-ACE.
 
----
+
 
 ### Product Backlog (Release de 1 Mes: Expansión de Trazabilidad EUR-ACE)
 
@@ -450,7 +449,7 @@ La estrategia se enfoca en completar las cadenas de trazabilidad y habilitar la 
 *   **Will-have line:** 70 Story Points (sp) - Objetivo de entrega para el release.
 *   **Might-have line:** 95 Story Points (sp) - Capacidad de estiramiento si el equipo sobrepasa el objetivo principal.
 
----
+
 
 ### 1. Will Have (≤ 70 sp)
 
@@ -462,7 +461,7 @@ La estrategia se enfoca en completar las cadenas de trazabilidad y habilitar la 
 | PBI 4  | 8        | Sí   | 4 (Alta)    | Definición de la relación RA-OPP                                             | 50        |
 | PBI 5  | 13       | Sí   | 5 (Alta)    | Generación de reporte de cumplimiento RA-EUR-ACE (Básico por Carrera y Facultad) | 63        |
 
----
+
 
 ### 2. Might Have (> 70 sp y ≤ 95 sp)
 
@@ -472,7 +471,7 @@ La estrategia se enfoca en completar las cadenas de trazabilidad y habilitar la 
 | PBI 7  | 8        | No   | 7 (Media)   | Funcionalidad de búsqueda y filtrado avanzada de Asignaturas, RA y RAA | 79        |
 | PBI 8  | 8        | No   | 8 (Media)   | Mejora en la visualización de la estructura académica (árbol de Facultades/Carreras/Asignaturas) | 87        |
 
----
+
 
 ### 3. Won’t Have (> 95 sp)
 
@@ -482,13 +481,12 @@ La estrategia se enfoca en completar las cadenas de trazabilidad y habilitar la 
 | PBI 10 | 8        | No   | 10 (Baja)   | Notificaciones automáticas para coordinadores sobre PEAs incompletos | 108       |
 | PBI 11 | 21       | No   | 11 (Baja)   | Generación de reporte de cumplimiento completo (incluyendo RAA-RA y RA-OPP) | 129       |
 
----
 
 ### Items sin Estimación
 
 Actualmente, no hay ítems sin estimación. Todos los PBIs identificados han recibido una estimación de Story Points y se han ubicado dentro de los buckets de capacidad, lo que facilita la planificación y el seguimiento para nuestro release de un mes.
 
----
+
 
 Este Product Backlog está diseñado para maximizar el valor entregado en el próximo mes, completando elementos clave de trazabilidad y proporcionando una capacidad de reporte inicial, lo cual es fundamental para el proceso de acreditación EUR-ACE en la EPN. Contaremos con el apoyo de la IA para optimizar la eficiencia del desarrollo y asegurar la calidad de la entrega.
 
@@ -515,7 +513,7 @@ Para este **release de fecha fija de un mes**, utilizaremos las siguientes líne
 
 Nuestro objetivo para este release es establecer los **cimientos fundamentales del sistema**, permitiendo la **gestión de la estructura académica básica, la definición de los Resultados de Aprendizaje de Carrera (RA) y los Objetivos EUR-ACE, y la vinculación crítica entre ellos**. Adicionalmente, buscaremos entregar una capacidad básica de reporte y la gestión de Objetivos de Perfil Profesional (OPP) como "Might-have".
 
----
+
 
 ### Product Backlog Release (1 Mes)
 
@@ -523,7 +521,7 @@ Nuestro objetivo para este release es establecer los **cimientos fundamentales d
 *   **Will-have line:** 54 Story Points (sp)
 *   **Might-have line:** 75 Story Points (sp)
 
----
+
 
 ### 1. Will Have (≤ 54 sp)
 
@@ -535,7 +533,7 @@ Nuestro objetivo para este release es establecer los **cimientos fundamentales d
 | PBI-04 | 8        | Sí   | 4 (Alta)    | Gestión de Objetivos EUR-ACE (CRUD para CEI)                         | 37        |
 | PBI-05 | 13       | Sí   | 5 (Alta)    | Definición de la relación RA-Objetivos EUR-ACE                       | 50        |
 
----
+
 
 ### 2. Might Have (> 54 sp y ≤ 75 sp)
 
@@ -544,7 +542,6 @@ Nuestro objetivo para este release es establecer los **cimientos fundamentales d
 | PBI-06 | 13       | No   | 6 (Media)   | Generación de reporte básico de cumplimiento RA-EUR-ACE (por Carrera y Facultad) | 63        |
 | PBI-07 | 8        | No   | 7 (Media)   | Gestión de Objetivos de Perfil Profesional (OPP - CRUD)                      | 71        |
 
----
 
 ### 3. Won’t Have (> 75 sp)
 
@@ -555,7 +552,7 @@ Nuestro objetivo para este release es establecer los **cimientos fundamentales d
 | PBI-10 | 21       | No   | 10 (Baja)   | Definición de la relación RAA-RA (con nivel de aporte: Bajo, Medio, Alto) | 126       |
 | PBI-11 | 8        | No   | 11 (Baja)   | Definición de la relación RA-OPP                                     | 134       |
 
----
+
 
 ### Items sin Estimación
 
@@ -586,7 +583,7 @@ Para este **release de fecha fija de 5 semanas (5 sprints)**, utilizaremos las s
 
 Nuestro objetivo para este release, dada la mayor capacidad, es establecer un **sistema robusto de gestión académica inicial**, cubriendo la **estructura, resultados de aprendizaje (RA y RAA), objetivos EUR-ACE y OPP, y sus relaciones clave**, incluyendo una capacidad básica de reporte. Esto nos permitirá tener una base sólida para futuras iteraciones y para el apoyo de la IA en el desarrollo de funcionalidades más avanzadas.
 
----
+
 
 ### Product Backlog Release (5 Semanas)
 
@@ -594,7 +591,7 @@ Nuestro objetivo para este release, dada la mayor capacidad, es establecer un **
 *   **Will-have line:** 270 Story Points (sp)
 *   **Might-have line:** 375 Story Points (sp)
 
----
+
 
 ### 1. Will Have (≤ 270 sp)
 
@@ -612,19 +609,17 @@ Nuestro objetivo para este release, dada la mayor capacidad, es establecer un **
 | PBI-10 | 21       | Sí   | 10 (Media)  | Definición de la relación RAA-RA (con nivel de aporte: Bajo, Medio, Alto) | 126       |
 | PBI-11 | 8        | Sí   | 11 (Media)  | Definición de la relación RA-OPP                                     | 134       |
 
----
 
 ### 2. Might Have (> 270 sp y ≤ 375 sp)
 
 Basado en los PBIs identificados hasta el momento (134 sp), no hay ítems que caigan en esta categoría, ya que todos están cómodamente dentro de la capacidad "Will Have".
 
----
 
 ### 3. Won’t Have (> 375 sp)
 
 Basado en los PBIs identificados hasta el momento (134 sp), no hay ítems que caigan en esta categoría, ya que todos están cómodamente dentro de la capacidad "Will Have".
 
----
+
 
 ### Items sin Estimación
 
@@ -705,7 +700,7 @@ Basado en tu histórico, nuestras líneas de capacidad para este release de 5 sp
 
 El Product Backlog que presento a continuación está diseñado para establecer un **sistema de gestión académica fundamental para la acreditación EUR-ACE**. Priorizamos la infraestructura básica, las entidades clave y las relaciones más críticas que permitirán la trazabilidad y la generación de reportes esenciales. La estructuración de estos datos es crucial para el futuro apoyo de la IA en el desarrollo de funcionalidades más avanzadas.
 
----
+
 
 ### Product Backlog Release (5 Semanas)
 
@@ -713,7 +708,7 @@ El Product Backlog que presento a continuación está diseñado para establecer 
 *   **Will-have line:** 270 Story Points (sp)
 *   **Might-have line:** 375 Story Points (sp)
 
----
+
 
 ### 1. Will Have (≤ 270 sp)
 
@@ -737,25 +732,23 @@ Estos son los PBIs que nos comprometemos a entregar. Representan la funcionalida
 | PBI-14 | 8        | Sí   | 3 (Media)   | Definición y gestión de la relación RA-OPP (N-M)                     | 189       |
 | PBI-15 | 13       | Sí   | 3 (Media)   | Generación de reporte de cumplimiento RA-OPP (por Carrera)           | 202       |
 
----
+
 
 ### 2. Might Have (> 270 sp y ≤ 375 sp)
 
 Con los PBIs actuales sumando 202 sp, nos encontramos cómodamente dentro de la línea "Will Have" de 270 sp. Por lo tanto, no hay PBIs adicionales que caigan en el bucket "Might Have" en este momento. Si surgieran nuevas ideas o desgloses de PBIs existentes, evaluaríamos su inclusión aquí.
 
----
 
 ### 3. Won’t Have (> 375 sp)
 
 Similar al bucket anterior, todos los PBIs identificados están dentro de nuestra capacidad "Will Have". No tenemos elementos que excedan la capacidad "Might Have" en este momento.
 
----
 
 ### Items sin Estimación
 
 Actualmente, no hay ítems sin estimación. Todos los PBIs identificados han recibido una estimación de Story Points y están listos para ser trabajados.
 
----
+
 
 Este backlog prioriza una entrega temprana de valor en las funcionalidades de **gestión y establecimiento de las relaciones clave para la acreditación EUR-ACE**, culminando con la capacidad de generar reportes críticos. Esto nos proporciona una base sólida para seguir construyendo sobre ella en futuros releases y para explotar el potencial de la IA. ¡Vamos a por ello!
 
@@ -834,7 +827,7 @@ Basado en tu histórico, nuestras líneas de capacidad para este release de 5 sp
 
 El Product Backlog que presento a continuación está diseñado para establecer un **sistema de gestión académica fundamental para la acreditación EUR-ACE**. Priorizamos la infraestructura básica, la gestión de todas las entidades clave y el establecimiento de las relaciones más críticas que permitirán la trazabilidad y la generación de reportes esenciales para la acreditación.
 
----
+
 
 ### Product Backlog Release (5 Semanas)
 
@@ -842,7 +835,6 @@ El Product Backlog que presento a continuación está diseñado para establecer 
 *   **Will-have line:** 270 Story Points (sp)
 *   **Might-have line:** 375 Story Points (sp)
 
----
 
 ### 1. Will Have (≤ 270 sp)
 
@@ -866,25 +858,25 @@ Estos son los PBIs que nos comprometemos a entregar. Representan la funcionalida
 | PBI-14 | 8        | Sí   | 3 (Media)   | Definición y gestión de la relación RA-OPP (N-M)                     | 186       |
 | PBI-15 | 13       | Sí   | 3 (Media)   | Generación de reporte de cumplimiento RA-OPP (por Carrera)           | 199       |
 
----
+
 
 ### 2. Might Have (> 270 sp y ≤ 375 sp)
 
 El total de Story Points en el bucket "Will Have" es **199 SP**, lo cual está cómodamente dentro de nuestra capacidad comprometida (270 SP). Esto nos da un margen saludable. En este momento, no hemos identificado PBIs adicionales que caigan en el bucket "Might Have". Si el equipo supera consistentemente su velocidad baja, podríamos considerar desglosar PBIs existentes o incorporar alguna mejora menor si el tiempo y el valor lo justifican durante el sprint planning.
 
----
+
 
 ### 3. Won’t Have (> 375 sp)
 
 Dado que todos los PBIs prioritarios se encuentran dentro de nuestra capacidad "Will Have", no hay elementos que excedan la línea "Might Have" en este momento. Este bucket permanecerá vacío para este release.
 
----
+
 
 ### Items sin Estimación
 
 Actualmente, no hay ítems sin estimación. Todos los PBIs identificados han recibido una estimación de Story Points y están listos para ser trabajados.
 
----
+
 
 Este backlog prioriza una entrega temprana de valor en las funcionalidades de **gestión y establecimiento de las relaciones clave para la acreditación EUR-ACE**, culminando con la capacidad de generar reportes críticos. Esto nos proporciona una base sólida para seguir construyendo sobre ella en futuros releases y para explotar el potencial de la IA en la optimización de procesos y análisis de datos. ¡Vamos a por ello!
 
@@ -1013,7 +1005,6 @@ Dada la duración del release de **5 semanas (5 sprints)** y la velocidad histó
 
 He priorizado el backlog para este release de fecha fija, asegurando que los ítems se desarrollen con las mínimas dependencias, agregando valor incremental desde el principio y construyendo la infraestructura de datos necesaria para la acreditación y futuras optimizaciones con IA.
 
----
 
 ### Product Backlog Release (5 Semanas)
 
@@ -1021,7 +1012,7 @@ He priorizado el backlog para este release de fecha fija, asegurando que los ít
 *   **Will-have line (Comprometido):** 270 Story Points (sp)
 *   **Might-have line (Opcional/Stretch):** 375 Story Points (sp)
 
----
+
 
 ### 1. Will Have (≤ 270 sp)
 
@@ -1046,7 +1037,7 @@ Estos son los Product Backlog Items (PBIs) que nos comprometemos a entregar. Rep
 | PBI-15 | 13       | Sí   | 3 (Media)   | Como coordinador de carrera, quiero establecer la relación entre RA y OPP para asegurar la trazabilidad del perfil profesional.            | 197       |
 | PBI-16 | 13       | Sí   | 3 (Media)   | Como DGIP, quiero generar un reporte básico del cumplimiento de RA con OPP por carrera para evaluar la alineación profesional.             | 210       |
 
----
+
 
 ### 2. Might Have (> 270 sp y ≤ 375 sp)
 
@@ -1054,19 +1045,19 @@ El total acumulado en el bucket "Will Have" es **210 Story Points (sp)**. Esto e
 
 Por el momento, no se han identificado PBIs adicionales que superen la línea "Will Have" y entren en este bucket. Si durante los sprints la velocidad del equipo supera consistentemente la expectativa baja, podemos considerar refinar o desglosar más a fondo alguno de los ítems existentes para añadir valor adicional, pero manteniendo el foco principal en lo comprometido.
 
----
+
 
 ### 3. Won’t Have (> 375 sp)
 
 Dado que todos los PBIs priorizados y estimados para este release se encuentran dentro de la capacidad de "Will Have", este bucket permanece vacío. Nuestro objetivo es entregar con éxito el conjunto de funcionalidades definidas en el "Will Have".
 
----
+
 
 ### Items sin Estimación
 
 Actualmente, no hay ítems sin estimación. Todos los PBIs incluidos en este Product Backlog de release han sido estimados y están listos para ser considerados en la planificación de los sprints.
 
----
+
 
 Este Product Backlog está diseñado para establecer la infraestructura de datos y las funcionalidades CRUD esenciales, junto con las relaciones y reportes más críticos para la acreditación EUR-ACE. Esto proporciona una base de datos limpia y estructurada, ideal para que en futuros releases podamos integrar funcionalidades de análisis más avanzadas, apoyadas por la IA, para obtener insights y optimizar la gestión de la acreditación.
 
@@ -1149,7 +1140,7 @@ Considerando un release de **5 semanas (5 sprints)** y la velocidad de tu equipo
 
 He priorizado y desglosado los MRFs en User Stories (Historias de Usuario o HUs) concisas, enfocándome en construir una base sólida de datos y relaciones clave para la acreditación.
 
----
+
 
 ### Product Backlog Release (5 Semanas)
 
@@ -1157,7 +1148,7 @@ He priorizado y desglosado los MRFs en User Stories (Historias de Usuario o HUs)
 *   **Will-have line (Comprometido):** 270 Story Points (sp)
 *   **Might-have line (Opcional/Stretch):** 375 Story Points (sp)
 
----
+
 
 ### 1. Will Have (≤ 270 sp)
 
@@ -1186,7 +1177,7 @@ Este bloque contiene las Historias de Usuario esenciales que nos comprometemos a
 | HU-019 | 13       | Sí   | 3 (Media)   | Como coordinador de carrera, quiero relacionar los RA de mi carrera con los OPP para asegurar la coherencia del perfil de egreso con la profesión. | 218       |
 | HU-020 | 13       | Sí   | 3 (Media)   | Como DGIP, quiero generar un reporte básico que muestre la alineación de los RA de una Carrera con los OPP.                           | 231       |
 
----
+
 
 ### 2. Might Have (> 270 sp y ≤ 375 sp)
 
@@ -1194,19 +1185,17 @@ El total acumulado en el bucket "Will Have" es **231 Story Points (sp)**. Esto e
 
 Por el momento, no se han identificado Historias de Usuario adicionales que superen la línea "Will Have" y quepan en este bucket. Priorizamos la entrega estable y de alta calidad del conjunto de funcionalidades "Will Have". Si el equipo supera consistentemente su velocidad y logra una estabilidad excepcional, podríamos considerar refinar o ampliar alguna funcionalidad existente dentro de este mismo bloque, pero sin añadir ítems nuevos y complejos.
 
----
 
 ### 3. Won’t Have (> 375 sp)
 
 Dado que todas las Historias de Usuario priorizadas y estimadas para este release se encuentran dentro de la capacidad del bloque "Will Have", este bucket permanece vacío. Nuestro enfoque es lograr una entrega exitosa y de alto valor del alcance definido en el "Will Have".
 
----
+
 
 ### Items sin Estimación
 
 Actualmente, no hay ítems sin estimación. Todas las Historias de Usuario incluidas en este Product Backlog de release han sido estimadas y están listas para ser consideradas en la planificación de los sprints.
 
----
 
 Este Product Backlog está diseñado para proporcionar una primera versión robusta del sistema, cubriendo las necesidades esenciales de gestión de la estructura académica y, lo más importante, estableciendo la trazabilidad y los reportes básicos necesarios para la acreditación EUR-ACE. Esta base sólida será fundamental para futuras iteraciones, donde el apoyo de la IA podrá ser explotado para análisis más profundos y optimización de procesos.
 
@@ -1234,7 +1223,7 @@ Mantendremos el mismo objetivo de release de 5 semanas, con las siguientes capac
 
 El Product Backlog que presento a continuación está priorizado para construir una base robusta del sistema de Gestión de Acreditación EUR-ACE, minimizando dependencias y entregando valor fundamental para la acreditación.
 
----
+
 
 ### Product Backlog Release (5 Semanas)
 
@@ -1242,7 +1231,7 @@ El Product Backlog que presento a continuación está priorizado para construir 
 *   **Will-have line (Comprometido):** 270 Story Points (sp)
 *   **Might-have line (Opcional/Stretch):** 375 Story Points (sp)
 
----
+
 
 ### 1. Will Have (≤ 270 sp)
 
@@ -1273,7 +1262,7 @@ Este bloque contiene las Historias de Usuario esenciales y atómicas que nos com
 | HU-021 | 13       | Sí   | 3 (Media)   | Como coordinador de carrera, quiero **relacionar** RA de mi carrera con OPP para asegurar la coherencia del perfil de egreso con la profesión. | 218       |
 | HU-022 | 13       | Sí   | 3 (Media)   | Como DGIP, quiero **generar** un reporte básico de alineación RA con OPP.                                                             | 231       |
 
----
+
 
 ### 2. Might Have (> 270 sp y ≤ 375 sp)
 
@@ -1281,19 +1270,19 @@ El total acumulado en el bloque "Will Have" es **231 Story Points (sp)**. Esto e
 
 Por el momento, no se han identificado Historias de Usuario adicionales que superen la línea "Will Have" y quepan en este bucket. Priorizamos la entrega estable y de alta calidad del conjunto de funcionalidades "Will Have". Si el equipo supera consistentemente su velocidad y logra una estabilidad excepcional, podríamos considerar refinar o ampliar alguna funcionalidad existente dentro de este mismo bloque, pero sin añadir ítems nuevos y complejos.
 
----
+
 
 ### 3. Won’t Have (> 375 sp)
 
 Dado que todas las Historias de Usuario priorizadas y estimadas para este release se encuentran dentro de la capacidad del bloque "Will Have", este bucket permanece vacío. Nuestro enfoque es lograr una entrega exitosa y de alto valor del alcance definido en el "Will Have".
 
----
+
 
 ### Items sin Estimación
 
 Actualmente, no hay ítems sin estimación. Todas las Historias de Usuario incluidas en este Product Backlog de release han sido estimadas y están listas para ser consideradas en la planificación de los sprints.
 
----
+
 
 Este Product Backlog ahora es más conciso y claro, lo que facilitará la planificación del sprint y la comunicación con el equipo de desarrollo. ¡Esta base sentará las pautas para un sistema robusto de acreditación EUR-ACE!
 
@@ -1451,14 +1440,14 @@ Considerando la velocidad del equipo (Velocidad Baja: 54 SP, Velocidad Alta: 75 
 
 Aquí tienes el Product Backlog Release priorizado y ordenado por sprint, con sus respectivas Historias de Usuario y estimaciones en Story Points.
 
----
+
 
 ### **Product Backlog Release: Acreditación EUR-ACE (Fase 1: Configuración y Alineación Preliminar)**
 **Duración del Release:** 5 Semanas (Fecha Fija)
 **Capacidad Estimada del Equipo:** 270 SP (mínimo) - 375 SP (máximo)
 **Total SP en Backlog (Estimado):** 191 SP
 
----
+
 
 #### **Sprint 1: Cimientos y Estructura (Base del Sistema y Estándares)**
 *En este sprint, nos centraremos en establecer la estructura básica de la EPN en el sistema, gestionar los usuarios iniciales y cargar los estándares de referencia EUR-ACE. Esto proporciona la columna vertebral para la carga de datos curricular futura y prepara el terreno para la evaluación.*
@@ -1490,7 +1479,7 @@ Aquí tienes el Product Backlog Release priorizado y ordenado por sprint, con su
 
     **TOTAL SPRINT 1 (Estimado): 55 SP**
 
----
+
 
 #### **Sprint 2: Definición Curricular (Visión de Carrera)**
 *En este sprint, los Coordinadores de Carrera empezarán a definir los elementos clave de sus programas de estudio: el perfil del egresado y los resultados de aprendizaje esperados a nivel de carrera. Esta información es fundamental para la coherencia interna y la futura alineación con EUR-ACE.*
@@ -1510,7 +1499,7 @@ Aquí tienes el Product Backlog Release priorizado y ordenado por sprint, con su
 
     **TOTAL SPRINT 2 (Estimado): 39 SP**
 
----
+
 
 #### **Sprint 3: Detalle Curricular y Primeras Conexiones**
 *Este sprint se centra en que los profesores detallen los resultados de aprendizaje específicos de sus asignaturas y en que los coordinadores comiencen a establecer las primeras relaciones de alto nivel entre los RA de carrera y el perfil del egresado (OPP).*
@@ -1526,7 +1515,7 @@ Aquí tienes el Product Backlog Release priorizado y ordenado por sprint, con su
 
     **TOTAL SPRINT 3 (Estimado): 29 SP**
 
----
+
 
 #### **Sprint 4: Mapeo Detallado de Contribución**
 *Este sprint es crucial para la autoevaluación de la calidad interna. Los coordinadores realizarán los mapeos detallados de cómo cada asignatura contribuye a los resultados de aprendizaje de la carrera, especificando el nivel de impacto.*
@@ -1542,7 +1531,7 @@ Aquí tienes el Product Backlog Release priorizado y ordenado por sprint, con su
 
     **TOTAL SPRINT 4 (Estimado): 34 SP**
 
----
+
 
 #### **Sprint 5: Valor de Acreditación y Autoevaluación**
 *Este sprint entrega el valor final de este release: la capacidad de generar un informe preliminar que alinea la carrera con los estándares EUR-ACE, utilizando toda la información curricular cargada y mapeada en sprints anteriores.*
@@ -1554,7 +1543,7 @@ Aquí tienes el Product Backlog Release priorizado y ordenado por sprint, con su
 
     **TOTAL SPRINT 5 (Estimado): 34 SP**
 
----
+
 
 **Resumen de Story Points por Sprint:**
 *   **Sprint 1:** 55 SP
@@ -1726,14 +1715,14 @@ He transformado cada MRF en Historias de Usuario (HU) atómicas, priorizadas par
 
 Esto significa que nuestro release estará compuesto íntegramente por elementos "Will have", garantizando la entrega completa del valor propuesto para esta fase inicial de acreditación.
 
----
+
 
 ### **Product Backlog Release: Acreditación EUR-ACE (Fase 1: Configuración y Alineación Preliminar)**
 **Duración del Release:** 5 Semanas (Fecha Fija)
 **Capacidad Estimada del Equipo para el Release:** 270 SP (mínimo) - 375 SP (máximo)
 **Total SP en Backlog de este Release (Estimado):** 191 SP
 
----
+
 
 ### **WILL HAVE (Elementos críticos y alcanzables en este release)**
 *(Línea Will-have: $\le$ 270 SP)*
@@ -1755,26 +1744,26 @@ Esto significa que nuestro release estará compuesto íntegramente por elementos
 | HU-13 | 13       | Sí   | Media     | Nivel de Contribución de RAA a RA                           | 157       |
 | HU-14 | 34       | Sí   | Crítica   | Generación de Informe de Alineación EUR-ACE                 | 191       |
 
----
+
 
 ### **MIGHT HAVE (Elementos deseables si hay capacidad adicional, no aplica en este release)**
 *(Línea Might-have: $\le$ 375 SP)*
 
 No hay ítems en esta categoría para este release, ya que todo el backlog cabe en "Will have".
 
----
+
 
 ### **WON'T HAVE (Elementos que no se contemplan para este release)**
 *(Línea Won't-have: > 375 SP)*
 
 No hay ítems en esta categoría para este release, ya que todo el backlog cabe en "Will have".
 
----
+
 
 ### **Ítems sin Estimación**
 No hay ítems sin estimación en este backlog, todas las Historias de Usuario han sido estimadas.
 
----
+
 
 **Justificación de Priorización y Orden:**
 
@@ -1797,7 +1786,6 @@ Este plan de release está optimizado para entregar el mayor valor comercial y d
 
 ## PROMPT 15
 
-**Fecha:** 14 oct 2025, 06:06 p m.
 
 **Prompt:**
 
@@ -1899,7 +1887,7 @@ A continuación, presento el Product Backlog del Release, priorizado por depende
 
 **Valor Comercial del Release:** Este release establece el *esqueleto fundamental* de PoliAcredita, digitalizando la estructura académica de la EPN, definiendo los perfiles de egreso (OPP, RA), los programas de asignaturas (PEA, RAA), y lo más importante, **conectando la malla curricular con los criterios EUR-ACE**. Con este conjunto de funcionalidades, la EPN podrá iniciar formalmente su proceso de autoevaluación y generar un informe clave de alineación, además de obtener una visibilidad interactiva del progreso, lo que representa un valor inmenso para la toma de decisiones informadas en el camino hacia la acreditación.
 
----
+
 
 #### **Will have (Capacidad: 290 SP | Acumulado: 288 SP)**
 *(Elementos esenciales para el primer lanzamiento que cumplen con la capacidad del release y aportan valor crítico para iniciar la acreditación EUR-ACE.)*
@@ -1923,7 +1911,7 @@ A continuación, presento el Product Backlog del Release, priorizado por depende
 | 15 | 55       | S    | 15        | **Como** Coordinador de Carrera, **Quiero** generar un informe que muestre cómo los Resultados de Aprendizaje (RA) de mi carrera se alinean con los estándares EUR-ACE, **Para** evaluar el cumplimiento de los criterios de acreditación. | 254 |
 | 16 | 34       | S    | 16        | **Como** Autoridad académica o comité de acreditación, **Quiero** visualizar un panel de control interactivo del estado de acreditación de mi carrera, **Para** identificar rápidamente áreas de cumplimiento y brechas. | 288 |
 
----
+
 
 #### **Might have (> Will-have line | Acumulado: 322 SP)**
 *(Elementos de alto valor que no caben en la capacidad "Will have" pero que se desarrollarán si hay una liberación temprana de otros elementos, si se descubre capacidad adicional o en el próximo release.)*
@@ -1932,7 +1920,7 @@ A continuación, presento el Product Backlog del Release, priorizado por depende
 |----|----------|------|-----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
 | 17 | 34       | N    | 17        | **Como** Autoridad académica o Responsable de calidad, **Quiero** configurar la generación automática de documentos de evidencia para EUR-ACE, **Para** cumplir con los requisitos de la acreditación. | 322 |
 
----
+
 
 #### **Won't have (> Might-have line)**
 *(Elementos que no se considerarán para este release debido a limitaciones de capacidad o menor prioridad para el valor mínimo viable. No aplica en este caso, ya que todas las HUs de alto nivel han sido abordadas y se ha asignado un bucket.)*
@@ -1941,7 +1929,7 @@ A continuación, presento el Product Backlog del Release, priorizado por depende
 |----|----------|------|-----------|--------|----------|
 |    |          |      |           | *No hay elementos en esta categoría para este release, ya que todas las HUs han sido categorizadas en Will-have o Might-have.* |          |
 
----
+
 
 #### **Items sin estimación:**
 *(Lista de elementos que no han podido ser estimados por falta de información o claridad.)*
@@ -1950,7 +1938,7 @@ A continuación, presento el Product Backlog del Release, priorizado por depende
 |----|--------|-------------------------|
 |    | *No hay elementos sin estimación en este backlog, ya que se han proporcionado SP o se han estimado para nuevas PBIs.* | |
 
----
+
 
 Este Product Backlog del Release de 5 semanas prioriza las funcionalidades que permiten a la EPN establecer la columna vertebral de la acreditación EUR-ACE en PoliAcredita, desde la configuración de la estructura académica y la definición curricular hasta la vinculación con los estándares y un monitoreo inicial. El uso de la IA en el desarrollo facilitará la ejecución eficiente de estos PBIs.
 
@@ -2057,7 +2045,7 @@ He consolidado los PBIs de tus sprints anteriores, asegurando que se cubran toda
 
 **Valor Comercial del Release:** Este release establece el *fundamento digital y conceptual* de PoliAcredita. Permite a la EPN organizar su estructura académica en el sistema, definir sus perfiles de egreso (OPP, RA), cargar y vincular con los estándares EUR-ACE, y registrar la contribución de las asignaturas. El logro más significativo es la **capacidad de generar un informe de alineación inicial entre los Resultados de Aprendizaje de la Carrera y los estándares EUR-ACE**, lo cual es un hito crucial para el proceso de autoevaluación y para identificar brechas desde el principio, proporcionando valor estratégico inmediato.
 
----
+
 
 #### **Will have (≤ 216 SP | Acumulado: 212 SP)**
 *(Elementos esenciales para el primer lanzamiento que, aunque ligeramente superan la capacidad conservadora, son críticos para entregar un valor mínimo viable y funcional para iniciar la autoevaluación EUR-ACE. Se asume que la velocidad del equipo permitirá este ajuste, dado que el informe final era ya parte de un sprint planificado.)*
@@ -2080,7 +2068,7 @@ He consolidado los PBIs de tus sprints anteriores, asegurando que se cubran toda
 | 14 | 8        | S    | 14        | **Como** Coordinador de Carrera, **Quiero** especificar el nivel de contribución (Bajo, Medio, Alto) de un RAA a un RA de mi carrera, **Para** evaluar la intensidad de su aporte. | 199 |
 | 15 | 13       | S    | 15        | **Como** Coordinador de Carrera, **Quiero** generar un informe que muestre cómo los Resultados de Aprendizaje (RA) de mi carrera se alinean con los estándares EUR-ACE, **Para** evaluar el cumplimiento de los criterios de acreditación. | 212 |
 
----
+
 
 #### **Might have (> 212 SP y ≤ 300 SP)**
 *(Elementos de alto valor que no caben en la capacidad "Will have" de este release, pero que se desarrollarían si se libera capacidad, se descubre una mayor velocidad del equipo, o en el próximo release.)*
@@ -2090,7 +2078,7 @@ He consolidado los PBIs de tus sprints anteriores, asegurando que se cubran toda
 | 16 | 34       | N    | 16        | **Como** Autoridad académica o comité de acreditación, **Quiero** monitorizar de forma interactiva el estado del cumplimiento de la acreditación (dashboard), **Para** facilitar la toma de decisiones informadas. | 246 |
 | 17 | 34       | N    | 17        | **Como** Autoridad académica o responsable de calidad, **Quiero** configurar la generación automática de documentos de evidencia para EUR-ACE, **Para** cumplir con los requisitos de la acreditación. | 280 |
 
----
+
 
 #### **Won't have (> 300 SP)**
 *(Elementos que no se considerarán para este release debido a limitaciones de capacidad o menor prioridad para el valor mínimo viable en este ciclo.)*
@@ -2099,7 +2087,6 @@ He consolidado los PBIs de tus sprints anteriores, asegurando que se cubran toda
 |----|----------|------|-----------|--------|----------|
 |    |          |      |           | *No hay elementos en esta categoría para este release, ya que todas las HUs de alto nivel han sido categorizadas en Will-have o Might-have.* |          |
 
----
 
 #### **Items sin estimación:**
 *(Lista de elementos que no han podido ser estimados por falta de información o claridad.)*

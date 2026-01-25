@@ -12,7 +12,6 @@ export const ReleaseSection: React.FC = () => {
                     {content.release.titulo}
                 </h2>
                 <div className="text-xs text-gray-600">
-                    📅 {content.release.fechaInicio} → {content.release.fechaFin}
                 </div>
             </div>
 
@@ -23,8 +22,8 @@ export const ReleaseSection: React.FC = () => {
                         key={item.id}
                         onClick={() => setSelectedItem(item.id)}
                         className={`px-4 py-3 text-sm font-medium whitespace-nowrap transition-colors ${selectedItem === item.id
-                                ? 'text-green-600 border-b-2 border-green-600'
-                                : 'text-gray-600 hover:text-gray-900'
+                            ? 'text-green-600 border-b-2 border-green-600'
+                            : 'text-gray-600 hover:text-gray-900'
                             }`}
                     >
                         {item.nombre}

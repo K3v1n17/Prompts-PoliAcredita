@@ -31,7 +31,7 @@ Tabla estructurada con dos columnas: el problema y la posible solución.
 
 ---
 
-## SALIDA
+**RESPUESTA:**
 
 Aquí tienes el análisis del Daily 1 del segundo sprint, consolidado en una tabla de problemas/riesgos y soluciones, basado exclusivamente en la transcripción proporcionada.
 

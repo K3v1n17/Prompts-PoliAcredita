@@ -1,4 +1,4 @@
-# PROMPT 2
+## PROMPT 2
 
 **ROL:**
 Actúa como un Product Management / Product Owner experto en Scrum.
@@ -16,9 +16,9 @@ El DoD es un compromiso formal del equipo de desarrollo (Developers), quienes so
 **Accion :**
 Crea mi dod para mi equipo
 
----
 
-# RESPUESTA 2
+
+**RESPUESTA:**
 
 Perfecto ✅
 A continuación te presento un Definition of Done (DoD) adaptado al contexto del desarrollo del producto software para la Escuela Politécnica Nacional (EPN) orientado a la verificación y acreditación de carreras bajo el sello EUR-ACE.
@@ -85,7 +85,7 @@ A continuación te presento un Definition of Done (DoD) adaptado al contexto del
  El incremento respeta los estándares de calidad académica y de procesos definidos para la acreditación EUR-ACE.
 
  Se ha revisado el cumplimiento de los indicadores de calidad definidos por la EPN (usabilidad, trazabilidad, precisión de la información).
-# PROMPT 1
+## PROMPT 1
 
 **ROL:**
 Actúa como un Product Management / Product Owner experto en Scrum.
@@ -111,7 +111,7 @@ Crea mi dod para mi equipo
 
 ---
 
-# RESPUESTA 1
+**RESPUESTA:** 
 
 Perfecto ✅
 A continuación te presento un Definition of Done (DoD) adaptado para tu equipo Scrum, que desarrolla el producto de acreditación EUR-ACE para la Escuela Politécnica Nacional.

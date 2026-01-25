@@ -35,13 +35,10 @@ Devuelve exclusivamente una tabla, sin explicaciones adicionales, con las siguie
 
 Cada fila debe representar un hallazgo único, redactado de forma clara, concreta y accionable.
 
+ 
+**RESPUESTA:**
 
-
----
-
-## SALIDA
-
-### 📋 Tabla de Problemas / Riesgos Identificados y Posibles Soluciones
+# 📋 Tabla de Problemas / Riesgos Identificados y Posibles Soluciones
 
 | Problema / Riesgo / Bloqueo | Posible solución |
 |---|---|
@@ -54,7 +51,7 @@ Cada fila debe representar un hallazgo único, redactado de forma clara, concret
 | El Daily se utiliza parcialmente como reporte de estado y no como planificación diaria conjunta | Redirigir el Daily hacia la sincronización del equipo y la planificación de las próximas 24 horas, limitando explicaciones extensas. |
 | Riesgo de desalineación con la visión del producto por retroalimentación tardía | Incorporar revisiones frecuentes de la visión del producto y validar ajustes tempranos con el Product Owner durante el sprint. |
 
----
+
 
 ### 📊 Resumen Ejecutivo - Daily 1 Sprint 1
 
